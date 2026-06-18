@@ -1,0 +1,6 @@
+每日 AI 日报任务：
+1. 运行 node ~/.claude/skills/follow-builders/scripts/prepare-digest.js 拿到当天 feed JSON。
+2. 把播客/X帖子/博客 remix 成中文日报，按 ~/ai-daily/content.json 的结构(issue/lead/podcast/voices/blog/colophon)填好并写回，日期用今天。
+3. 运行 node ~/ai-daily/scripts/build.js 生成 index.html。
+4. 运行 bash ~/ai-daily/scripts/publish.sh "$(date +%F)" 推送 GitHub Pages。
+5. 在飞书给我发：📰 今天的 AI 日报来啦：https://imhw.github.io/ai-daily/
