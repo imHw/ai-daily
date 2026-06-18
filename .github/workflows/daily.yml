@@ -24,8 +24,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: 拉取 follow-builders（内容源脚本）
-        run: git clone --depth 1 https://github.com/zarazhangrui/follow-builders.git .fb
+      - name: 拉取 follow-builders（内容源脚本，克隆到仓库外避免污染提交）
+        run: git clone --depth 1 https://github.com/zarazhangrui/follow-builders.git "$HOME/fb"
 
       - name: 写入 follow-builders 配置（中文）
         run: |
@@ -37,7 +37,7 @@ jobs:
           EOF
 
       - name: 抓取当天 feed
-        run: node .fb/scripts/prepare-digest.js > raw.json
+        run: node "$HOME/fb/scripts/prepare-digest.js" > raw.json
 
       - name: remix 成中文日报（调中转站）
         env:

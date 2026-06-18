@@ -1,4 +1,6 @@
-node_modules/
 .DS_Store
+.fb/
+/fb/
 /tmp/
+node_modules/
 raw.json
