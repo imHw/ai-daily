@@ -80,22 +80,29 @@ if (!BASE || !KEY || !MODEL) {
 // Anthropic 原生：endpoint = <base>/v1/messages（base 若已带 /v1 则不重复）
 const endpoint = /\/v1$/.test(BASE) ? `${BASE}/messages` : `${BASE}/v1/messages`;
 
-const res = await fetch(endpoint, {
-  method: 'POST',
-  headers: {
-    'content-type': 'application/json',
-    'x-api-key': KEY,
-    'anthropic-version': '2023-06-01',
-  },
-  body: JSON.stringify({
-    model: MODEL,
-    max_tokens: 4000,
-    temperature: 0.6,
-    system: '你是严谨的中文科技日报主编，只输出符合要求的 JSON。',
-    messages: [{ role: 'user', content: prompt }],
-  }),
+const reqBody = JSON.stringify({
+  model: MODEL,
+  max_tokens: 4000,
+  temperature: 0.6,
+  system: '你是严谨的中文科技日报主编，只输出符合要求的 JSON。',
+  messages: [{ role: 'user', content: prompt }],
 });
-if (!res.ok) { console.error('LLM 接口错误', res.status, await res.text()); process.exit(1); }
+const headers = { 'content-type': 'application/json', 'x-api-key': KEY, 'anthropic-version': '2023-06-01' };
+
+// 5xx 自动重试（应对中转站瞬时不可用）
+let res, lastErr = '';
+for (let attempt = 1; attempt <= 3; attempt++) {
+  res = await fetch(endpoint, { method: 'POST', headers, body: reqBody });
+  if (res.ok) break;
+  lastErr = await res.text();
+  if (res.status >= 500 && attempt < 3) {
+    console.error(`第 ${attempt} 次调用失败 ${res.status}，3 秒后重试…`);
+    await new Promise(r => setTimeout(r, 3000));
+    continue;
+  }
+  break;
+}
+if (!res.ok) { console.error('LLM 接口错误', res.status, lastErr); process.exit(1); }
 const data = await res.json();
 let text = (data?.content || []).map(b => b?.text || '').join('') || '';
 // 去掉可能的 ```json 围栏
