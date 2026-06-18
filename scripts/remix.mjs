@@ -121,6 +121,8 @@ for (const k of ['issue', 'lead', 'podcast', 'voices', 'blog', 'colophon']) {
 content.issue.dateISO = dateISO;
 content.issue.date = dateCN;
 content.issue.weekday = weekday;
+content.colophon = content.colophon || {};
+content.colophon.generatedAt = `${dateISO} 10:00`;   // 强制真实日期，避免模型把年份写错
 
 writeFileSync('content.json', JSON.stringify(content, null, 2));
 console.log(`✓ remix 完成，写入 content.json（${dateISO}，voices ${content.voices.items?.length || 0} 条）`);
