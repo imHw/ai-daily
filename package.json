@@ -1,0 +1,10 @@
+{
+  "name": "ai-daily",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "每日 AI 中文日报 · 极简杂志风 · follow-builders 驱动",
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}

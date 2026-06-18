@@ -1,0 +1,84 @@
+{
+  "issue": {
+    "vol": "Vol.01",
+    "date": "2026年6月18日",
+    "weekday": "星期四",
+    "dateISO": "2026-06-18",
+    "tagline": "追随建造者，而非追随影响者"
+  },
+  "lead": {
+    "kicker": "今日主线",
+    "title": "Cursor × SpaceX：应用层 AI 的第一个「大满贯」模板",
+    "paras": [
+      "本周 builder 圈最热的话题，是 Cursor 与 SpaceX 的合作。Box CEO Aaron Levie 给了它一个分量很重的定位——这是 AI 应用层第一个规模化的成功案例：它跑通了「深耕垂直领域 + 充当模型路由器 + 应用层 GTM 与分发」这套打法，证明了在前沿模型与自训模型之间何时取舍、如何把市场机会真正吃下来。「这是第一个可规模化复制的执行范本。」",
+      "Cofounders 之一 Madhu Guru 则点出交易真正的奖品：那套 agentic harness——规划、上下文管理、工具调用、迭代、验证、记忆、错误恢复。它能成为大规模自动化知识工作的内核，任何产品体验都可以借它被重做成 AI 原生形态。Cursor 的稀缺之处在于，模型、评测、harness、应用层这一整条栈，它每一环都做得不差。",
+      "Anysphere 设计师 Ryo Lu 的调侃则更具想象力：「疯狂的想法——如果 X 和 Cursor 本来就是同一个东西呢？」一句话点破了「编辑器即 agent 平台」的野心。"
+    ]
+  },
+  "podcast": {
+    "label": "本期播客",
+    "title": "大规模模拟人类：Simile 创始人 Joon Sung Park",
+    "meta": "YouTube 访谈 · 6 月 16 日",
+    "paras": [
+      "故事要从 2023 年斯坦福的「Smallville」说起——一个由 25 个生成式 agent 组成的虚拟小镇。每个 agent 有自己的人设，会早起、做日常、上班、建立关系，甚至自发组织起派对这类涌现行为。",
+      "Park 的核心洞察是：大语言模型已经把海量人类微观行为编码进了训练数据，只要「以正确的角度切入」，给定一个具体情境，模型就能生成可信的反应。这正是构建复杂 agent 社会一直缺的那味原料。",
+      "如今他创办 Simile，要把「模拟人类行为与社会」做成一个应用型 AI 实验室。他相信：科幻里足够成熟的文明都有两根支柱——某种 AGI，和某种用于指导社会的模拟系统。「五年前我不会这么说，但今天，我们第一次有机会真正动手建『模拟』这根柱子。」"
+    ],
+    "url": "https://www.youtube.com/watch?v=lfhFmwcESRw"
+  },
+  "voices": {
+    "label": "建造者观点",
+    "items": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "OpenAI",
+        "quote": "Codex 出现「model at capacity」高错误率，团队已承诺 24 小时内重置各套餐的限流额度。",
+        "tag": "产品事故"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "Google",
+        "quote": "Google AI Futures Fund 扩展至巴西，联手 Monashees 设立 Gama Fund——给深科技创始人 DeepMind 早期模型访问、最高 200 万美元跟投、35 万美元云额度。",
+        "tag": "资本"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box",
+        "quote": "开源权重模型落后前沿，到底是 3–6 个月还是数年？这个答案将决定芯片栈、推理部署、主权 AI 和整个应用层的利润结构。目前看，开源仍贴得很近。",
+        "tag": "格局"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Anthropic",
+        "quote": "Slack 现在能直接渲染 HTML 附件，而不再只把它当纯文本显示。",
+        "tag": "工具"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "",
+        "quote": "你不必追逐酷的东西。把你已经在做的事做到极致，它自己就会变成那个酷的东西。酷，往往是因为有人愿意在所有人都觉得太小的事上钻得足够深。",
+        "tag": "金句"
+      }
+    ]
+  },
+  "blog": {
+    "label": "官方博客",
+    "title": "用 Claude 接入 Apple Foundation Models 框架",
+    "meta": "claude.com/blog",
+    "paras": [
+      "Anthropic 发布了一个 Swift 包，让 Apple 开发者能通过 Apple 的 Foundation Models 框架直接调用 Claude。端侧小模型负责摘要、抽取这类快速本地任务；一旦遇到需要多步推理、代码生成的请求，就无缝交接给 Claude，还能联网搜索实时信息、执行代码做数据分析。",
+      "妙处在于：借助框架里 @Generable 注解返回的类型化 Swift 值，请求到达 Claude API 时已经是干净的结构化输入，而非原始用户文本。对用户是一段连续体验，背后每一步都用上了对的模型。"
+    ],
+    "url": "https://claude.com/blog/claude-for-foundation-models"
+  },
+  "colophon": {
+    "source": "follow-builders 中央 feed",
+    "coverage": "本期覆盖 1 档播客 · 16 位建造者 · 1 篇博客",
+    "generatedAt": "2026-06-18 12:33"
+  }
+}
