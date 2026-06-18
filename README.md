@@ -11,7 +11,7 @@
 ```
 每天 02:00 UTC = 北京 10:00（.github/workflows/daily.yml）
   → 抓取 follow-builders 中央 feed
-  → scripts/remix.mjs 调中转站(OpenAI 兼容)remix 成中文日报 content.json
+  → scripts/remix.mjs 调中转站(Anthropic 原生 /v1/messages)remix 成中文日报 content.json
   → scripts/build.js 生成杂志风 index.html
   → 提交回 main（GitHub Pages 自动更新链接）
   → scripts/notify-feishu.mjs 把链接推给飞书自定义群机器人
@@ -22,9 +22,9 @@
 
 | Secret | 说明 | 示例 |
 |--------|------|------|
-| `LLM_BASE_URL` | 中转站基址（OpenAI 兼容） | `https://your-relay.com/v1` |
-| `LLM_API_KEY` | 中转站 key | `sk-...` |
-| `LLM_MODEL` | 模型名 | `claude-3-7-sonnet` / `gpt-4o` |
+| `LLM_BASE_URL` | 中转站基址（Anthropic 原生，自动补 `/v1/messages`） | `https://ai.ssgoo.net` |
+| `LLM_API_KEY` | 中转站 key（作为 `x-api-key`） | `sk-...` |
+| `LLM_MODEL` | Anthropic 模型名 | `claude-3-7-sonnet-20250219` |
 | `FEISHU_WEBHOOK` | 飞书自定义群机器人 webhook URL | `https://open.feishu.cn/open-apis/bot/v2/hook/xxx` |
 | `FEISHU_SECRET` | 仅当机器人开启「签名校验」时填，否则不建此项 | — |
 

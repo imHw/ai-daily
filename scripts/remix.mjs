@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 // ============================================================================
 // remix.mjs — 把 follow-builders 的原始 feed remix 成中文日报 content.json
-// 调用 OpenAI 兼容接口（支持中转站）。无第三方依赖，仅用 Node 内置 fetch。
+// 调用 Anthropic 原生 Messages API（/v1/messages，支持中转站）。无第三方依赖，仅用 Node fetch。
 //
 // 环境变量：
-//   LLM_BASE_URL  中转站基址，如 https://your-relay.com/v1   （必填）
-//   LLM_API_KEY   中转站 key                                  （必填）
-//   LLM_MODEL     模型名，如 claude-3-7-sonnet / gpt-4o 等     （必填）
+//   LLM_BASE_URL  中转站基址，如 https://ai.ssgoo.net          （必填，脚本自动补 /v1/messages）
+//   LLM_API_KEY   中转站 key（作为 x-api-key 发送）            （必填）
+//   LLM_MODEL     Anthropic 模型名，如 claude-3-7-sonnet-...   （必填）
 //
 // 用法：
 //   node scripts/remix.mjs raw.json           # 调模型，写出 content.json
@@ -70,30 +70,34 @@ ${condense(raw)}`;
 
 if (PRINT_ONLY) { console.log(prompt); process.exit(0); }
 
-const BASE = (process.env.LLM_BASE_URL || '').replace(/\/$/, '');
+let BASE = (process.env.LLM_BASE_URL || '').replace(/\/+$/, '');
 const KEY = process.env.LLM_API_KEY;
 const MODEL = process.env.LLM_MODEL;
 if (!BASE || !KEY || !MODEL) {
   console.error('缺少环境变量 LLM_BASE_URL / LLM_API_KEY / LLM_MODEL');
   process.exit(1);
 }
+// Anthropic 原生：endpoint = <base>/v1/messages（base 若已带 /v1 则不重复）
+const endpoint = /\/v1$/.test(BASE) ? `${BASE}/messages` : `${BASE}/v1/messages`;
 
-const res = await fetch(`${BASE}/chat/completions`, {
+const res = await fetch(endpoint, {
   method: 'POST',
-  headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${KEY}` },
+  headers: {
+    'content-type': 'application/json',
+    'x-api-key': KEY,
+    'anthropic-version': '2023-06-01',
+  },
   body: JSON.stringify({
     model: MODEL,
-    temperature: 0.6,
     max_tokens: 4000,
-    messages: [
-      { role: 'system', content: '你是严谨的中文科技日报主编，只输出符合要求的 JSON。' },
-      { role: 'user', content: prompt },
-    ],
+    temperature: 0.6,
+    system: '你是严谨的中文科技日报主编，只输出符合要求的 JSON。',
+    messages: [{ role: 'user', content: prompt }],
   }),
 });
 if (!res.ok) { console.error('LLM 接口错误', res.status, await res.text()); process.exit(1); }
 const data = await res.json();
-let text = data?.choices?.[0]?.message?.content || '';
+let text = (data?.content || []).map(b => b?.text || '').join('') || '';
 // 去掉可能的 ```json 围栏
 text = text.trim().replace(/^```(?:json)?/i, '').replace(/```$/, '').trim();
 // 截取第一个 { 到最后一个 }
