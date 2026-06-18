@@ -1,6 +1,6 @@
 {
   "issue": {
-    "vol": "Vol.01",
+    "vol": "Vol.18",
     "date": "2026年6月18日",
     "weekday": "星期四",
     "dateISO": "2026-06-18",
@@ -8,21 +8,19 @@
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Cursor 交易揭示应用层 AI 的第一张成功范式",
+    "title": "Cursor 欧洲扩张 + 巴西 AI 基金：全球化提速",
     "paras": [
-      "SpaceX 收购 Cursor 的消息让整个科技圈沸腾。Box CEO Aaron Levie 认为这笔交易具有「象征性意义」——它是应用层 AI 的第一个超级成功案例，验证了深度垂直聚焦、模型路由策略、自训练模型的时机判断，以及应用层 GTM 和分销的价值。Cursor 的每个业务环节都在为占领市场和持续加码而调优，这是第一个大规模可复制的执行模板。",
-      "真正让 SpaceX 心动的不只是产品，而是 Cursor 背后的智能体工程能力。投资人 Madhu Guru 指出，SpaceX 得到的是一套生产级智能体框架——规划、上下文管理、工具调用、迭代、验证、记忆、错误恢复，这套体系可以让任何产品体验以 AI 原生方式重新设计，最终自动化所有规模化的知识工作。Cursor 同时带来了模型、评估、框架和应用层的全栈专长，以及从产品策略到用户旅程再到 GTM 的端到端视野。很少有公司能做好其中一项，Cursor 三者兼具。",
-      "开发者社区的反应更直接：Ryo Lu 抛出「X 和 Cursor 合为一体」的疯狂设想，并分享设计师用 Cursor 独立完成移动端开发的案例——「头衔不再重要，你就是可以直接造」。与此同时，Zara Zhang 的观点形成呼应：「你不必追逐酷东西，把手头的事做到极致，它自然会变酷。酷东西刚开始都不酷，是因为有人在别人觉得太小的地方扎得够深。」当下遍地都是「整合一切的 AI 智能体」，但做所有事就是什么都没做，真正有灵魂的产品应该小而锋利，而非大而泛化。"
+      "本周 builder 圈两大动向值得关注：OpenAI 的 Cursor 团队正在欧洲全面铺开最激动人心的功能，Thibault Sottiaux 透露团队已在法国，正将 Codex 等核心能力推向整个欧洲市场。与此同时，Google 宣布将 AI Futures Fund 扩展至巴西，与 VC 巨头 Monashees 合作推出 Gama Fund，寻找深科技创始人。",
+      "这两件事折射出同一个趋势：AI 工具和资本正在加速全球化布局。Cursor 的欧洲扩张意味着 AI 编程工具不再只是硅谷的专属，而 Google 的巴西基金则说明 AI 投资的地理边界正在被打破。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "规模化模拟人类：Simile 的 Joon Sung Park",
-    "meta": "YouTube · 2025",
+    "title": "大规模模拟人类：Simile 创始人 Joon Sung Park",
+    "meta": "Training Data · 6月17日",
     "paras": [
-      "Joon Sung Park 是 Simile 的创始人兼 CEO，他的公司正在建立一个应用 AI 实验室，专注于模拟人类行为和社会。Park 深受科幻小说启发，认为技术成熟的社会总有两根支柱：某种形式的 AGI，以及真正能指导社会的模拟系统。他说，五年前他不敢这么讲，但如今他们有信心迈出第一步去构建这套模拟。",
-      "2023 年 4 月，Park 在斯坦福运行了 Smallville 项目——一个由 25 个生成式智能体组成的小镇。这些智能体被赋予人格描述后，会自己起床、做日常、去工作、建立关系，甚至产生涌现现象。Park 发现大语言模型已经能从网络和社交媒体的训练数据中编码大量人类行为，只要以正确的角度提示，就能得到真实的微观行为。他们给智能体配上记忆、规划和反思能力，创造出了这种「活生生的体验」。",
-      "这是一次关于如何用 AI 从底层重建社会结构的深度实验，也是对智能体复杂行为边界的探索。"
+      "故事要从 2023 年斯坦福的「Smallville」说起——一个由 25 个生成式 agent 组成的虚拟小镇。每个 agent 有自己的人设，会早起、做日常、上班、建立关系，甚至自发组织起派对。",
+      "Park 的核心洞察是：大语言模型已经把海量人类微观行为编码进了训练数据，只要「以正确的角度切入」，给定一个具体情境，模型就能生成可信的反应。如今他创办 Simile，要把「模拟人类行为与社会」做成一个应用型 AI 实验室。"
     ],
     "url": "https://www.youtube.com/watch?v=lfhFmwcESRw"
   },
@@ -30,62 +28,68 @@
     "label": "建造者观点",
     "items": [
       {
-        "name": "Aaron Levie",
-        "handle": "@levie",
-        "org": "Box",
-        "quote": "Cursor 交易象征意义重大，它是应用层 AI 第一个超级成功案例，证明了深度垂直聚焦、模型路由、自训练时机判断和 GTM 分销的价值，这是第一个大规模可复制的执行模板",
-        "tag": "范式"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "WorkOS、Matt Pocock、Zack Proser 都在做得很棒。AIE 观众超爱 WorkOS 的内容，他们做对了什么。",
+        "url": "https://x.com/swyx/status/2067057648617538037"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "@levie",
-        "org": "Box",
-        "quote": "AI 最大的问题之一是开源权重模型落后闭源多久——3 个月、6 个月还是数年？这将决定芯片栈、推理位置、主权 AI、应用层、利润结构等一切",
-        "tag": "格局"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "text": "🇧🇷 改变世界的 AI 公司正在从巴西涌现。Google AI Futures Fund 正式扩展至巴西，与 Monashees 合作推出 Gama Fund。",
+        "url": "https://x.com/joshwoodward/status/2067025851829330076"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "我在法国，团队正在欧洲全面推出最令人兴奋的 Codex 功能。巧合吗？还是团队觉得我不在就无法高效工作？",
+        "url": "https://x.com/thsottiaux/status/2067064381855187231"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "已修复。你知道接下来会发生什么 👀 给我们 24 小时重置所有计划的 Codex 速率限制。",
+        "url": "https://x.com/thsottiaux/status/2066956441173323943"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "发布新教程：如何用 4 个文件让 Codex 或 Claude Code 成为你的私人顾问。另外，我设法在 Fable 的建议被限制前保存了下来 🥲",
+        "url": "https://x.com/petergyang/status/2067056979974160749"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "说实话我不想当黑子，但我觉得这就是当没人愿意对 CEO 说「不」时会发生的事。也许这东西会让我们大吃一惊？",
+        "url": "https://x.com/petergyang/status/2067047343971848201"
       },
       {
         "name": "Madhu Guru",
-        "handle": "@realmadhuguru",
-        "org": "",
-        "quote": "SpaceX-Cursor 交易的真正奖品是智能体框架——规划、上下文、工具、迭代、验证、记忆、错误恢复，这将成为大规模自动化所有知识工作的核心",
-        "tag": "工具"
+        "handle": "realmadhuguru",
+        "text": "过去一个世纪，我们把智力视为人类的定义性特征，却忽视了其他让我们独一无二的方面，比如自我意识、直觉、同情和善良。未来几年将迫使我们重新思考这一点。",
+        "url": "https://x.com/realmadhuguru/status/2067090477434966396"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "@zarazhangrui",
-        "org": "",
-        "quote": "你不必追逐酷东西，把手头的事做到极致它自然会变酷。酷东西刚开始都不酷，是因为有人在别人觉得太小的地方扎得够深",
-        "tag": "金句"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "@zarazhangrui",
-        "org": "",
-        "quote": "现在每个产品都是「整合一切的 AI 智能体」，那就是 Claude 或 Codex。如果想让我用你的东西，它得有观点、有灵魂——做小而锋利的，别做大而泛化的",
-        "tag": "产品"
-      },
-      {
-        "name": "Ryo Lu",
-        "handle": "@ryolu_",
-        "org": "",
-        "quote": "Cursor 移动端的疯狂之处在于，设计师用 Cursor 写出了大部分真实代码——头衔不再重要，你就是可以直接造",
-        "tag": "工具"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "text": "SpaceX-Cursor 交易的真正奖品是那个 agentic harness——它将成为大规模自动化所有知识工作的核心。",
+        "url": "https://x.com/realmadhuguru/status/2067090477434966396"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude 接入苹果 Foundation Models 框架",
-    "meta": "claude.com",
-    "paras": [
-      "Anthropic 发布了支持苹果 Foundation Models 框架的新 Swift 包，让苹果开发者可以通过原生框架调用 Claude 处理复杂工作流。开发者可以用苹果设备端模型快速完成摘要或提取等本地任务，当需要多步推理、代码生成或网页搜索时再切换到 Claude，并通过引导生成返回类型化的 Swift 值。",
-      "这解锁了新的混合模式：日记 App 可以在设备端生成每日提示，然后让 Claude 从数月记录中找出线索；学习 App 可以在本地定义术语，当学生追问「为什么这对其他知识重要」时再交给 Claude。开发者用三行代码就能完成调用，输入已经是干净的结构化数据而非原始文本。"
-    ],
-    "url": "https://claude.com/blog/claude-for-foundation-models"
+    "items": [
+      {
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "url": "https://github.com/zarazhangrui/follow-builders/blob/main/feed-blogs.json",
+        "description": "Apple 与 Anthropic 合作，在 Foundation Models 框架中集成 Claude，为 Apple 平台构建智能应用提供新途径。"
+      }
+    ]
   },
   "colophon": {
-    "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 12 位建造者 · 1 篇博客",
-    "generatedAt": "2025-06-18 10:00"
+    "label": "关于",
+    "text": "AI Builders Digest · 每日精选 · 追随建造者而非追随影响者",
+    "source": "follow-builders"
   }
 }
