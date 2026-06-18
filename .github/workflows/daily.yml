@@ -1,0 +1,69 @@
+name: 每日 AI 日报
+
+on:
+  schedule:
+    - cron: '0 2 * * *'      # 02:00 UTC = 北京时间 10:00（GitHub 高峰期可能延迟几分钟）
+  workflow_dispatch:           # 支持在 Actions 页面手动触发，便于测试
+
+permissions:
+  contents: write              # 允许把生成的 index.html 提交回仓库
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build-and-deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 拉取 follow-builders（内容源脚本）
+        run: git clone --depth 1 https://github.com/zarazhangrui/follow-builders.git .fb
+
+      - name: 写入 follow-builders 配置（中文）
+        run: |
+          mkdir -p ~/.follow-builders
+          cat > ~/.follow-builders/config.json <<'EOF'
+          { "platform":"other","language":"zh","timezone":"Asia/Shanghai",
+            "frequency":"daily","deliveryTime":"10:00",
+            "delivery":{"method":"stdout"},"onboardingComplete":true }
+          EOF
+
+      - name: 抓取当天 feed
+        run: node .fb/scripts/prepare-digest.js > raw.json
+
+      - name: remix 成中文日报（调中转站）
+        env:
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: node scripts/remix.mjs raw.json
+
+      - name: 生成杂志风 HTML
+        run: node scripts/build.js
+
+      - name: 提交并发布到 GitHub Pages
+        run: |
+          rm -f raw.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更，跳过"
+          else
+            git commit -m "日报 $(TZ=Asia/Shanghai date +%F)"
+            git push
+          fi
+
+      - name: 飞书推送链接
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: node scripts/notify-feishu.mjs
