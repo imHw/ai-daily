@@ -16,14 +16,19 @@ import { readFileSync } from 'fs';
 import crypto from 'crypto';
 
 const PRINT_ONLY = process.argv.includes('--print');
-const PAGES_URL = process.env.PAGES_URL || 'https://imhw.github.io/ai-daily/';
+const SITE = (process.env.PAGES_URL || 'https://imhw.github.io/ai-daily/').replace(/\/+$/, '');
 
-let date = '', lead = 'AI 日报';
+let date = '', lead = 'AI 日报', dateISO = '';
 try {
   const c = JSON.parse(readFileSync('content.json', 'utf8'));
   date = `${c.issue?.date || ''} ${c.issue?.weekday || ''}`.trim();
   lead = c.lead?.title || lead;
+  dateISO = c.issue?.dateISO || '';
 } catch { /* content.json 不存在时用默认 */ }
+
+// 链到当天「永久存档」，旧卡片不会被新报覆盖
+const todayUrl = dateISO ? `${SITE}/issues/${dateISO}.html` : `${SITE}/`;
+const archiveUrl = `${SITE}/archive.html`;
 
 const card = {
   config: { wide_screen_mode: true },
@@ -32,7 +37,8 @@ const card = {
     { tag: 'div', text: { tag: 'lark_md', content: `**${date}**\n${lead}` } },
     { tag: 'hr' },
     { tag: 'action', actions: [
-      { tag: 'button', text: { tag: 'plain_text', content: '阅读今日刊 →' }, url: PAGES_URL, type: 'primary' },
+      { tag: 'button', text: { tag: 'plain_text', content: '阅读今日刊 →' }, url: todayUrl, type: 'primary' },
+      { tag: 'button', text: { tag: 'plain_text', content: '往期目录' }, url: archiveUrl, type: 'default' },
     ] },
   ],
 };
@@ -60,4 +66,4 @@ const res = await fetch(url, {
 });
 const out = await res.json().catch(() => ({}));
 if (out.code && out.code !== 0) { console.error('飞书返回错误：', JSON.stringify(out)); process.exit(1); }
-console.log('✓ 飞书推送成功：', PAGES_URL);
+console.log('✓ 飞书推送成功：', todayUrl);
