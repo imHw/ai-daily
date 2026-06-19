@@ -1,91 +1,86 @@
 {
   "issue": {
-    "vol": "Vol.18",
-    "date": "2026年6月18日",
-    "weekday": "星期四",
-    "dateISO": "2026-06-18",
+    "vol": "Vol.19",
+    "date": "2026年6月19日",
+    "weekday": "星期五",
+    "dateISO": "2026-06-19",
     "tagline": "追随建造者，而非追随影响者"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Cursor 欧洲扩张 + 巴西 AI 基金：全球化提速",
+    "title": "Codex 双重重置与 GitHub COO 谈 AI 编程未来",
     "paras": [
-      "本周 builder 圈两大动向值得关注：OpenAI 的 Cursor 团队正在欧洲全面铺开最激动人心的功能，Thibault Sottiaux 透露团队已在法国，正将 Codex 等核心能力推向整个欧洲市场。与此同时，Google 宣布将 AI Futures Fund 扩展至巴西，与 VC 巨头 Monashees 合作推出 Gama Fund，寻找深科技创始人。",
-      "这两件事折射出同一个趋势：AI 工具和资本正在加速全球化布局。Cursor 的欧洲扩张意味着 AI 编程工具不再只是硅谷的专属，而 Google 的巴西基金则说明 AI 投资的地理边界正在被打破。"
+      "OpenAI 的 Thibault Sottiaux 宣布 Codex 迎来「双重重置」：不仅重置当前使用量，还额外赠送一个重置银行供用户自由使用。这预示着 AI 编程工具正在从严格的速率限制转向更灵活的使用模式。",
+      "GitHub COO Kyle Daigle 在最新访谈中深入探讨了 AI 编程代理的前线态势：GitHub 每月已处理 1700 万次代码合并请求，且呈指数增长。他同时揭示了开源维护者面临的新挑战——如何防止每月 200 美元的 AI 订阅费暴涨至 2000 美元的使用限额。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "大规模模拟人类：Simile 创始人 Joon Sung Park",
-    "meta": "Training Data · 6月17日",
+    "title": "GitHub COO 解密：AI 为何尚未取代开发者",
+    "meta": "AI & I by Every · 6月17日",
     "paras": [
-      "故事要从 2023 年斯坦福的「Smallville」说起——一个由 25 个生成式 agent 组成的虚拟小镇。每个 agent 有自己的人设，会早起、做日常、上班、建立关系，甚至自发组织起派对。",
-      "Park 的核心洞察是：大语言模型已经把海量人类微观行为编码进了训练数据，只要「以正确的角度切入」，给定一个具体情境，模型就能生成可信的反应。如今他创办 Simile，要把「模拟人类行为与社会」做成一个应用型 AI 实验室。"
+      "故事要从 GitHub 每月 1700 万次代码合并请求说起——这个数字正在指数级增长，让 GitHub 站在了 AI 编程革命的最前沿。",
+      "Kyle Daigle 揭示了一个反直觉的现象：尽管 AI 编程代理能力越来越强，但开发者角色并未被取代，反而变得更加关键。他透露团队正在开发一个「重置银行」系统，帮助用户控制 AI 工具的成本，避免订阅费失控。",
+      "访谈中最有趣的细节是：主持人 Mike Taylor 坦言自己用 AI 克隆了 Kyle 进行采访练习，而 Kyle 也透露了一个令人惊讶的反转——这种 AI 模拟人类互动的能力正在改变整个行业。"
     ],
-    "url": "https://www.youtube.com/watch?v=lfhFmwcESRw"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "WorkOS、Matt Pocock、Zack Proser 都在做得很棒。AIE 观众超爱 WorkOS 的内容，他们做对了什么。",
-        "url": "https://x.com/swyx/status/2067057648617538037"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "text": "🇧🇷 改变世界的 AI 公司正在从巴西涌现。Google AI Futures Fund 正式扩展至巴西，与 Monashees 合作推出 Gama Fund。",
-        "url": "https://x.com/joshwoodward/status/2067025851829330076"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "Dearest gentle codexer. We did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. Enjoy",
+        "url": "https://x.com/thsottiaux/status/2067399435009622521"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "我在法国，团队正在欧洲全面推出最令人兴奋的 Codex 功能。巧合吗？还是团队觉得我不在就无法高效工作？",
-        "url": "https://x.com/thsottiaux/status/2067064381855187231"
+        "text": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.",
+        "url": "https://x.com/thsottiaux/status/2067181377028538431"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "已修复。你知道接下来会发生什么 👀 给我们 24 小时重置所有计划的 Codex 速率限制。",
-        "url": "https://x.com/thsottiaux/status/2066956441173323943"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "React → Next.js. AI SDK is more relevant than ever, given the intense model competition landscape. Just today, GLM 5.2, an open model, surpassed Opus 4.8 in our Next.js Evals. The world needs a practical solution for how to build and deploy agents. Just like React needed Next.js.",
+        "url": "https://x.com/rauchg/status/2067242482190979186"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "发布新教程：如何用 4 个文件让 Codex 或 Claude Code 成为你的私人顾问。另外，我设法在 Fable 的建议被限制前保存了下来 🥲",
-        "url": "https://x.com/petergyang/status/2067056979974160749"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "The past couple months we may be witnessing what the Applied AI layer will look like at scale. Despite some of the initial critique that this would just be a thin layer on the LLM, it's turning out that actually driving agentic workflows in an enterprise is far more complex. And anywhere there's complexity you generally gain a moat and value over time.",
+        "url": "https://x.com/levie/status/2067455756795039957"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "说实话我不想当黑子，但我觉得这就是当没人愿意对 CEO 说「不」时会发生的事。也许这东西会让我们大吃一惊？",
-        "url": "https://x.com/petergyang/status/2067047343971848201"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "text": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour. Frontier AI-coding daily actives, mid-2026: 5M devs. Fully-loaded cost: $90/hr. Work routed to Fable in 48 hours: 17.8%. Fable is on average ~15% more productive. Effective throughput loss per dev = 17.8% × 15% ≈ 2.7% of output.",
+        "url": "https://x.com/garrytan/status/2067366749411176831"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "过去一个世纪，我们把智力视为人类的定义性特征，却忽视了其他让我们独一无二的方面，比如自我意识、直觉、同情和善良。未来几年将迫使我们重新思考这一点。",
-        "url": "https://x.com/realmadhuguru/status/2067090477434966396"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "text": "Design with Claude, Ship with Replit",
+        "url": "https://x.com/amasad/status/2067363904183783833"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "SpaceX-Cursor 交易的真正奖品是那个 agentic harness——它将成为大规模自动化所有知识工作的核心。",
-        "url": "https://x.com/realmadhuguru/status/2067090477434966396"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "Don't use AI for writing until you develop your own taste and voice. Using AI to write isn't inherently bad. The danger is using AI to write before you've developed your taste for what is good content. If the AI produces slop, you won't even recognize it as slop.",
+        "url": "https://x.com/zarazhangrui/status/2067423674689638652"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "noam is one of the people I have most wanted to work with since the very beginning of openai. only took 10 years. i think it will be worth the wait!",
+        "url": "https://x.com/sama/status/2067427421083652131"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
-        "url": "https://github.com/zarazhangrui/follow-builders/blob/main/feed-blogs.json",
-        "description": "Apple 与 Anthropic 合作，在 Foundation Models 框架中集成 Claude，为 Apple 平台构建智能应用提供新途径。"
-      }
-    ]
+    "items": []
   },
   "colophon": {
     "label": "关于",

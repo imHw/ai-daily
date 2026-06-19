@@ -16,6 +16,8 @@
   body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
   .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
   a{color:inherit;}
+
+  /* ---- 刊头 ---- */
   .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
   .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
     font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
@@ -23,10 +25,14 @@
   .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
     color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
   .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+
+  /* ---- 区块标题 ---- */
   .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
   .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
   .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
     text-transform:uppercase;color:var(--accent);font-weight:600;}
+
+  /* ---- 头条 ---- */
   .lead{margin-top:40px;}
   .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
     color:var(--accent);font-weight:700;margin-bottom:10px;}
@@ -34,12 +40,16 @@
   .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
   .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
     padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+
+  /* ---- 文章通用 ---- */
   .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
   .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
     color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
   .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
   .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+
+  /* ---- 观点卡 ---- */
   .voices{column-count:1;}
   .voice{padding:18px 0;border-top:1px solid var(--hair);}
   .voice:first-child{border-top:none;}
@@ -50,27 +60,17 @@
     text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
     border-radius:2px;padding:1px 7px;}
   .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+
+  /* ---- 版权 / 来源 ---- */
   .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
     font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
   .colophon strong{color:var(--ink);font-weight:600;}
-  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
-  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
-  .nav span{color:var(--faint);margin:0 8px;}
-  /* 往期目录 */
-  .arch{margin-top:42px;}
-  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
-  .arch-item:first-child{border-top:none;}
-  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
-    white-space:nowrap;min-width:108px;}
-  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
-  .arch-title:hover{color:var(--accent);}
-  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+
   @media (max-width:540px){
     .wrap{padding:36px 20px 60px;}
     .wordmark{font-size:40px;}
     .lead h1{font-size:27px;}
     .lead p,.article p{text-align:left;}
-    .arch-item{flex-direction:column;gap:2px;}
   }
 </style>
 </head>
@@ -186,7 +186,6 @@
       数据来源 · <strong>follow-builders</strong><br>
       <br>
       生成于 
-      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>
 </body>
