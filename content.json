@@ -1,86 +1,95 @@
 {
   "issue": {
-    "vol": "Vol.19",
-    "date": "2026年6月19日",
+    "vol": "Vol.20",
+    "date": "2026年6月20日",
     "weekday": "星期五",
-    "dateISO": "2026-06-19",
+    "dateISO": "2026-06-20",
     "tagline": "追随建造者，而非追随影响者"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Codex 双重重置与 GitHub COO 谈 AI 编程未来",
+    "title": "Claude Code Artifacts 重磅上线，AI 编程进入「可视化协作」时代",
     "paras": [
-      "OpenAI 的 Thibault Sottiaux 宣布 Codex 迎来「双重重置」：不仅重置当前使用量，还额外赠送一个重置银行供用户自由使用。这预示着 AI 编程工具正在从严格的速率限制转向更灵活的使用模式。",
-      "GitHub COO Kyle Daigle 在最新访谈中深入探讨了 AI 编程代理的前线态势：GitHub 每月已处理 1700 万次代码合并请求，且呈指数增长。他同时揭示了开源维护者面临的新挑战——如何防止每月 200 美元的 AI 订阅费暴涨至 2000 美元的使用限额。"
+      "Anthropic 昨日正式推出 Claude Code Artifacts——一项革命性功能，让 AI 编程代理的工作成果从终端屏幕跃升为可交互、可分享的实时网页。PR 演练、系统架构图、调试时间线、发布清单……这些过去需要反复文字沟通才能同步的信息，现在由 Claude Code 自动生成并持续更新。该功能已在 Team 和 Enterprise 计划中开启 Beta 测试，发布推文获超 1.3 万点赞。",
+      "与此同时，围绕 AI 的监管博弈正在升级。Bernie Sanders 提出法案拟对收入超 2 亿美元的 AI 初创公司征收 50% 资产，YC CEO Garry Tan 愤怒回击称这是「对美国创业的宣战」。Box CEO Aaron Levie 则从 Fable 模型审查事件中嗅到了未来 AI 监管的信号：模型更新或将经历越来越漫长的审批流程，创新节奏面临结构性放缓的风险。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "GitHub COO 解密：AI 为何尚未取代开发者",
-    "meta": "AI & I by Every · 6月17日",
+    "title": "Neocloud 崛起：2026 AI 算力全景 | Stephen Balaban",
+    "meta": "The MAD Podcast with Matt Turck · 6月18日",
     "paras": [
-      "故事要从 GitHub 每月 1700 万次代码合并请求说起——这个数字正在指数级增长，让 GitHub 站在了 AI 编程革命的最前沿。",
-      "Kyle Daigle 揭示了一个反直觉的现象：尽管 AI 编程代理能力越来越强，但开发者角色并未被取代，反而变得更加关键。他透露团队正在开发一个「重置银行」系统，帮助用户控制 AI 工具的成本，避免订阅费失控。",
-      "访谈中最有趣的细节是：主持人 Mike Taylor 坦言自己用 AI 克隆了 Kyle 进行采访练习，而 Kyle 也透露了一个令人惊讶的反转——这种 AI 模拟人类互动的能力正在改变整个行业。"
+      "Lambda 联合创始人兼 CTO Stephen Balaban 在访谈中抛出一个强硬判断：那些预测 GPU 会在五年内变成废铁的人「完全错了，而且一直都错」。他认为整个行业仍在「持续低估建设量」，对大语言模型的需求——从助手到代码生成——看不到尽头。",
+      "一个反直觉的发现是：2023 年购入的 H100 如今租赁价格反而更高。Balaban 揭示了背后逻辑——真正的护城河不在技术，而在融资结构：Off-take 协议、SPV 和信贷工具构成了一套复杂的资本机器，决定了谁能建造千兆瓦级 AI 工厂。",
+      "关于 AI 对软件开发的影响，Balaban 有一个犀利的论断：「AI 不会写软件——它会成为软件本身。」他区分了「Neural Software」和「Vibe Coding」，认为真正的变革不是让 AI 写代码，而是让 AI 成为运行时的一部分。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/watch?v=0NttU4CbyVs"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "Dearest gentle codexer. We did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. Enjoy",
-        "url": "https://x.com/thsottiaux/status/2067399435009622521"
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "Claude Code can now upload and edit HTML artifacts that you can share with your team or other Claudes! Starting with teams so you can share internally with your team, coming to Pro and MAX plans soon!",
+        "url": "https://x.com/trq212/status/2067682475611242546"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.",
-        "url": "https://x.com/thsottiaux/status/2067181377028538431"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "React → Next.js. AI SDK is more relevant than ever, given the intense model competition landscape. Just today, GLM 5.2, an open model, surpassed Opus 4.8 in our Next.js Evals. The world needs a practical solution for how to build and deploy agents. Just like React needed Next.js.",
-        "url": "https://x.com/rauchg/status/2067242482190979186"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboards I share with the team. They are a game changer for how I work with Claude.",
+        "url": "https://x.com/bcherny/status/2067700226669060207"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "The past couple months we may be witnessing what the Applied AI layer will look like at scale. Despite some of the initial critique that this would just be a thin layer on the LLM, it's turning out that actually driving agentic workflows in an enterprise is far more complex. And anywhere there's complexity you generally gain a moat and value over time.",
-        "url": "https://x.com/levie/status/2067455756795039957"
+        "text": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. The implications of open models getting to frontier performance ensures that you can always have sovereign AI, have the ability to post train for your specific workflows, cost optimize for various workloads, and actually afford to do much more with AI. Huge win for the applied AI layer.",
+        "url": "https://x.com/levie/status/2067821985342878180"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
-        "text": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour. Frontier AI-coding daily actives, mid-2026: 5M devs. Fully-loaded cost: $90/hr. Work routed to Fable in 48 hours: 17.8%. Fable is on average ~15% more productive. Effective throughput loss per dev = 17.8% × 15% ≈ 2.7% of output.",
-        "url": "https://x.com/garrytan/status/2067366749411176831"
+        "text": "Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. The same anti-prosperity bloc spent the year trying to ban startup acquisitions, blocking the only exit 85% of founders ever get. This is a war on building startups in America.",
+        "url": "https://x.com/garrytan/status/2067636692794875923"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "Design with Claude, Ship with Replit",
-        "url": "https://x.com/amasad/status/2067363904183783833"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "text": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from users. That approach ended up creating a bunch of slop, because users disengaged their brain from the process of writing an update. By switching to a multi turn interactive mode, the agent prompts you and asks you what to emphasize, what's most important, what context is missing, etc. A very good example of introducing friction for a net benefit.",
+        "url": "https://x.com/thenanyu/status/2067703108344369306"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
         "text": "Don't use AI for writing until you develop your own taste and voice. Using AI to write isn't inherently bad. The danger is using AI to write before you've developed your taste for what is good content. If the AI produces slop, you won't even recognize it as slop.",
-        "url": "https://x.com/zarazhangrui/status/2067423674689638652"
+        "url": "https://x.com/zarazhangrui/status/2067851144664342725"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "noam is one of the people I have most wanted to work with since the very beginning of openai. only took 10 years. i think it will be worth the wait!",
-        "url": "https://x.com/sama/status/2067427421083652131"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "Launched a side project quietly a few weeks ago. Wanted to test how many impressions/clicks I could get by simply having Claude Code / Codex optimize the hell out of the website. Got it to about 16k impressions, and 94 clicks over the last 28 days. No backlinks, no mention of this website anywhere on my socials, no Reddit hacking - simply old school SEO/GEO optimization.",
+        "url": "https://x.com/nikunj/status/2067830061009633294"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "Everything's either a fast or slow API now.",
+        "url": "https://x.com/steipete/status/2067821739556413651"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": []
+    "items": [
+      {
+        "source": "blog",
+        "name": "Claude Blog",
+        "title": "Claude Code now supports artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "publishedAt": "Jun 18, 2026",
+        "content": "Claude Code Artifacts 将 AI 编程代理的工作转化为实时、可交互的可视化网页——包括 PR 演练、系统解释器、仪表盘和发布清单，随着会话推进自动更新。它利用会话的完整上下文（代码库、连接器、对话本身）构建页面，无需额外配置数据源。每次发布保留版本历史，支持一键恢复，团队成员打开同一链接即可看到最新内容。目前在 Team 和 Enterprise 计划中以 Beta 形式提供。"
+      }
+    ]
   },
   "colophon": {
     "label": "关于",
