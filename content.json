@@ -1,27 +1,27 @@
 {
   "issue": {
-    "vol": "Vol.21",
+    "vol": "Vol.142",
     "date": "2026年6月21日",
-    "weekday": "星期六",
+    "weekday": "星期日",
     "dateISO": "2026-06-21",
-    "tagline": "追随建造者，而非追随影响者"
+    "tagline": "追随建造者,而非追随影响者"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "AI 编程代理工具战升温：Claude Code 破译 3500 年古文字，Codex 成为开发者日常主战场",
+    "title": "Agent 时代的基础设施重构",
     "paras": [
-      "Anthropic 工程师 Boris Cherny 分享了一则令人惊叹的案例：Claude Code 成功破译了 Linear A——一种来自克里特岛、距今 3500 年的未知文字系统。这一「跨界破圈」展示了 AI 编程代理的能力边界正在快速外扩——它不再只是写代码的工具，而是一个可以进入任意知识领域的通用推理引擎。Boris 在推文中写道：「希望这能通过同行评审！」获超 1400 点赞。",
-      "与此同时，OpenAI Codex 正在悄悄赢得开发者的心。Thibault Sottiaux（OpenAI Codex & ChatGPT 团队）透露自己在 Mac 上花在 Codex 应用里的时间比其他所有应用加起来还多，并宣布了 Codex 远程/本地无缝切换功能。Vercel CEO Guillermo Rauch 则提出一个大胆判断：「下一个热门编程语言是 Markdown」——在他展示的 eve agent 原型中，整个代理只用两个 markdown 文件定义，一条命令部署。AI 时代的编程范式正在被重新定义。"
+      "当 Anthropic 的工程师们日常放手让 Claude 访问内部服务,当 Guillermo Rauch 宣称 Markdown 成为「下一个热门编程语言」,当 Aaron Levie 指出文件系统正成为人机协作的完美界面——这些看似分散的现象背后,实则是同一场基础设施革命:软件世界正在为 Agent 重新铺设轨道。Agent 不再是实验室里的演示品,而是倒逼整个技术栈回归本质的生产力工具。",
+      "Anthropic 的最新工程博客透露了一个关键转折:一年前他们绝不会给 Claude 足够权限去影响内部服务,如今这已是常态。风险管理的逻辑变了——不再是消除风险,而是控制「爆炸半径」。与此同时,开发者社区正用脚投票:Peter Yang 从 Claude Code 转向 Codex,核心原因是后者的浏览器和计算机控制能力让他「不用再满世界找 API」。工具的边界在消解,Agent 需要的是上下文和工作空间,而非更多接口。",
+      "Guillermo 的洞察一针见血:Agent 正在激励软件行业回归健康习惯——开放 API、完善文档、编写测试、拥抱 CLI、支持多格式。这不是技术的倒退,而是万维网最初愿景的回归。当 Intel 新 CEO Lip Bu Tan 在 66 岁接下「行业最难的工作」,当建造者们把 Agent 当作日常协作伙伴,我们看到的是务实主义的胜利:不是追逐概念,而是让工具真正改变生产方式。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "重塑半导体供应链：Intel CEO 陈立武的豪赌",
-    "meta": "No Priors · 6月18日",
+    "title": "Intel CEO 谈重塑半导体供应链",
+    "meta": "No Priors · 2026年6月",
     "paras": [
-      "66 岁的陈立武（Lip Bu Tan）在功成名就后选择接手「行业最难的工作」——担任 Intel CEO。他的理由朴素而有力：「这是一家标志性的公司，对半导体生态系统和美国都至关重要。」他上任后的第一步是夯实资产负债表、简化产品线、倾听客户，然后驱动下一代领导力产品。",
-      "Jensen Huang 投入 50 亿美元支持 Intel，这笔投资如今已增值至 250 亿。陈立武透露，agentic AI 和推理 CPU 的需求正在爆发式增长，Intel 的 CPU 订单供不应求。访谈中他分享了一条创业铁律：「我投资的 10 家公司中，有 9 家中途改变了商业计划，因为市场变了。」因此他始终相信团队制而非个人英雄主义。",
-      "关于芯片制造回流美国，陈立武的判断是：这不仅是商业决策，更是国家安全命题。他的策略是「先爬再走」——保持谦逊，从客户做起，一步步重建 Intel 在先进制程领域的竞争力。"
+      "66 岁的 Lip Bu Tan 解释了为何接下 Intel CEO 这份「行业最难的工作」:这家标志性公司对半导体生态系统和美国太重要了。他分享了一个投资人的务实哲学——他投资的十家公司里有九家中途改过商业计划,因为市场在变。他相信团队而非个人英雄,强调要先谦卑地听客户的,强化财务,简化产品线,再驱动下一代领导性产品。",
+      "谈到当下,Lip Bu 对 Agentic AI 带来的 CPU 需求激增感到欣慰。更让他高兴的是老友黄仁勋投入的 50 亿美元支持如今已升值到 250 亿。他被问到的最意外经历?特朗普总统某天清晨要求他因利益冲突辞职,没有例外。他说服自己:我不需要这份工作,我做这个纯粹是为了拯救 Intel。"
     ],
     "url": "https://www.youtube.com/watch?v=asCgCv2XB4s"
   },
@@ -29,71 +29,62 @@
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "Cool way to use Claude Code: deciphering Linear A, a 3500 year old written language from Crete. Hope this holds up in peer review! 🤞",
-        "url": "https://x.com/bcherny/status/2068064304503660962"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "Remote / local handoff in Codex! Removing boundaries one at a time. When you let the model be in the driver seat, you actually need less infrastructure.",
-        "url": "https://x.com/thsottiaux/status/2068120572673077274"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "I used to be a die-hard Claude Code user. Codex has won me over because: GPT-5.5 is excellent, Fast mode + generous limits = more reps, and Codex's browser and computer use capabilities are simply goated. I still use Claude Code too — Opus design and frontend capability is still much better. Honestly, I hope these two compete forever.",
-        "url": "https://x.com/petergyang/status/2068175172960690266"
-      },
-      {
         "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "The next hot programming language is… markdown. A minimal eve agent: agent/instructions.md + agent/skills/your-expertise.md. Deployable in one command: vercel. It's the most accessible programming has ever been.",
-        "url": "https://x.com/rauchg/status/2068165988005380478"
+        "handle": "@rauchg",
+        "org": "Vercel",
+        "quote": "Agent 正在激励软件回归健康习惯:开放 API、文档即技能、测试即评估、CLI、支付协议,甚至广泛的格式支持。万维网最初的愿景正在我们眼前复活。",
+        "tag": "基础设施"
       },
       {
         "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "The main variable in getting success with agents is whether you can get the agent the context it needs to do its work; and a major factor in that is if you can create a shared working area for that agent that a human can understand as well. This is one of the reasons why agents using file systems is such a big deal.",
-        "url": "https://x.com/levie/status/2068068247413694532"
+        "handle": "@levie",
+        "org": "Box",
+        "quote": "Agent 成功的关键变量是能否获得完成工作所需的上下文,而其中重要因素是创建一个人类也能理解的共享工作区。文件系统之所以重要,是因为它创建了一个人和 Agent 都能操作的统一系统。",
+        "tag": "架构"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "@petergyang",
+        "org": "",
+        "quote": "我从 Claude Code 转向 Codex,最重要的原因是后者的浏览器和计算机控制能力太强了。我构建了那么多工作流,只依赖这两个功能,不用再到处找 API。",
+        "tag": "工具选择"
       },
       {
         "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "The 3 most important things that set someone apart in the AI age: Agency, Taste, Distribution.",
-        "url": "https://x.com/zarazhangrui/status/2068094591220531583"
+        "handle": "@zarazhangrui",
+        "org": "",
+        "quote": "AI 时代让人脱颖而出的三件事:主动性、品味、分发能力。",
+        "tag": "金句"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "Launched a side project quietly a few weeks ago. Wanted to test how many impressions/clicks I could get by simply having Claude Code / Codex optimize the hell out of the website. Got it to about 16k impressions, and 94 clicks over the last 28 days. No backlinks, no mention on socials — simply old school SEO/GEO optimization.",
-        "url": "https://x.com/nikunj/status/2068204606119874728"
+        "name": "Garry Tan",
+        "handle": "@garrytan",
+        "org": "Y Combinator",
+        "quote": "技巧:把你最不敢给董事会看的最糟糕的事情放在下次董事会的第一张幻灯片(前提是你有个好董事会)。把这件事当成大事,养成习惯。",
+        "tag": "管理"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "Anthropic is going to IPO at $2T.",
-        "url": "https://x.com/swyx/status/2068084391260426345"
+        "name": "Boris Cherny",
+        "handle": "@bcherny",
+        "org": "",
+        "quote": "用 Claude Code 破译 Linear A——一种来自克里特岛有 3500 年历史的古文字。希望这个能通过同行评审!",
+        "tag": "能力边界"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "source": "blog",
-        "name": "Anthropic Engineering",
-        "title": "How we contain Claude across products",
-        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-        "publishedAt": "Jun 2026",
-        "content": "Anthropic 工程团队详解如何在扩大 Claude 能力的同时控制「爆炸半径」。核心发现：用户对权限提示的批准率高达 93%，批准疲劳导致人工监督形同虚设。因此团队开发了 Claude Code auto mode，自动化安全审批以减轻疲劳。文章指出，过去一年 Claude 从「绝不可能获得足以宕掉内部服务的权限」变为「这种权限已是日常」——关键在于环境控制和自动化防护栏。Claude Mythos Preview 因爆炸半径过高在 2026 年 4 月被暂缓发布，但随着防御体系成熟，类似能力的模型终将面向更广泛用户推出。"
-      }
-    ]
+    "title": "Anthropic 如何在产品中容纳 Claude",
+    "meta": "anthropic.com",
+    "paras": [
+      "一年前 Anthropic 绝不会让 Claude 拥有足够权限去影响内部服务,如今这已是日常操作,开发者的生产力也因此提升。部署风险包含两个维度:故障概率和潜在损害。安全防护和模型训练的进步持续降低前者,而理论上的「爆炸半径」只会随着能力和访问权限扩展而增长。但当 Agent 能完成曾需要一个人甚至一个团队才能做的工作时,不部署的成本变得巨大,只要产品能做到安全,风险收益的天平就会大幅倾向采用。",
+      "工程问题变成了如何限制爆炸半径。当能对自主 Agent 的相对损害设定边界(比如通过控制其环境)时,高效用能力就能推动部署。Claude Mythos Preview 是一个例子——2026 年 4 月因爆炸半径过大未发布的模型。但随着防御方加固关键系统、安全防护成熟,类似能力级别的模型更广泛发布会变得合适,尽管总会存在一些风险。"
+    ],
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
   },
   "colophon": {
-    "label": "关于",
-    "text": "AI Builders Digest · 每日精选 · 追随建造者而非追随影响者",
-    "source": "follow-builders"
+    "source": "follow-builders 中央 feed",
+    "coverage": "本期覆盖 1 档播客 · 10 位建造者 · 1 篇博客",
+    "generatedAt": "2026-06-21 10:00"
   }
 }
