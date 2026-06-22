@@ -30,7 +30,7 @@
 |--------|------|------|
 | `LLM_BASE_URL` | 中转站基址（Anthropic 原生，自动补 `/v1/messages`） | `https://ai.ssgoo.net` |
 | `LLM_API_KEY` | 中转站 key（作为 `x-api-key`） | `sk-...` |
-| `LLM_MODEL` | Anthropic 模型名（须填中转站当前支持的型号；可逗号分隔多个备选） | `claude-sonnet-4-6` |
+| `LLM_MODEL` | 可选。模型名现已直接写在 `daily.yml`（`claude-sonnet-4-6`）；如设此 Secret 则优先生效，但需保证是中转站当前支持的型号，否则会报 400 | （留空即可） |
 | `FEISHU_WEBHOOK` | 飞书自定义群机器人 webhook URL | `https://open.feishu.cn/open-apis/bot/v2/hook/xxx` |
 | `FEISHU_SECRET` | 仅当机器人开启「签名校验」时填，否则不建此项 | — |
 
@@ -40,10 +40,10 @@
 配好后到 Actions 页面手动点 **Run workflow** 即可测试整条链路。
 
 ### 常见故障排查
-- **某天没推送**：多半是 `remix` 步骤失败（最常见是 `400 模型名称有误`——`LLM_MODEL` 配的型号
-  被中转站下线了）。`remix.mjs` 已内置兜底：配置的模型失败时会自动尝试 `claude-sonnet-4-6` /
-  `claude-haiku-4-5-20251001`；若全部失败，会通过飞书发一张「⚠️ 生成失败」告警卡，并附 Actions 日志链接。
-  根治办法：把 `LLM_MODEL` 改成中转站当前支持的有效型号。
+- **某天没推送**：多半是 `remix` 步骤失败（最常见是 `400 模型名称有误`——模型被中转站下线了）。
+  模型名直接写在 `daily.yml` 的 remix 步骤（默认 `claude-sonnet-4-6`）；`remix.mjs` 还内置兜底，
+  失败时自动尝试 `claude-haiku-4-5-20251001`。若全部失败，会通过飞书发一张「⚠️ 生成失败」告警卡并附 Actions 日志链接。
+  根治办法：把 `daily.yml` 里的 `LLM_MODEL` 改成中转站当前支持的有效型号。
 - **推送时间偏晚**：见上方「关于推送时间」——属于 GitHub 定时任务的固有延迟，已用错峰多时段缓解。
 
 ## 本地手动生成
