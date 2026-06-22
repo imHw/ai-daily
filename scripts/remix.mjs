@@ -24,6 +24,8 @@ const dateISO = now.toISOString().slice(0, 10);
 const wkmap = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
 const dateCN = `${now.getUTCFullYear()}年${now.getUTCMonth() + 1}月${now.getUTCDate()}日`;
 const weekday = wkmap[now.getUTCDay()];
+// 真实生成时间（北京 HH:MM）。now 已偏移到北京时区，故用 UTC 取数即为北京时分。
+const timeHM = `${String(now.getUTCHours()).padStart(2, '0')}:${String(now.getUTCMinutes()).padStart(2, '0')}`;
 
 // -- 把原始 feed 压缩成可读素材（控制 token）--------------------------------
 function condense(d) {
@@ -50,7 +52,7 @@ const SCHEMA = `{
   "podcast": { "label": "本期播客", "title": "中文标题", "meta": "来源 · 日期", "paras": ["2~3段"], "url": "原链接" },
   "voices":  { "label": "建造者观点", "items": [ { "name": "姓名", "handle": "x账号", "org": "公司(可空)", "quote": "一句话中文转述", "tag": "短标签如 产品事故/资本/格局/工具/金句" } ] },
   "blog":    { "label": "官方博客", "title": "中文标题", "meta": "来源域名", "paras": ["1~2段"], "url": "原链接" },
-  "colophon":{ "source": "follow-builders 中央 feed", "coverage": "本期覆盖 X 档播客 · Y 位建造者 · Z 篇博客", "generatedAt": "${dateISO} 09:00" }
+  "colophon":{ "source": "follow-builders 中央 feed", "coverage": "本期覆盖 X 档播客 · Y 位建造者 · Z 篇博客", "generatedAt": "${dateISO} ${timeHM}" }
 }`;
 
 const prompt = `你是一份面向中文读者的「AI 日报」主编。下面是今天从顶级 AI 建造者（X 帖子、播客、官方博客）抓取的英文原始素材。请把它们 remix 成一份**通顺、精炼、有编辑视角的中文日报**，并严格输出为下面结构的 JSON（只输出 JSON，不要任何解释或代码围栏）。
@@ -143,7 +145,7 @@ content.issue.dateISO = dateISO;
 content.issue.date = dateCN;
 content.issue.weekday = weekday;
 content.colophon = content.colophon || {};
-content.colophon.generatedAt = `${dateISO} 09:00`;   // 强制真实日期，避免模型把年份写错
+content.colophon.generatedAt = `${dateISO} ${timeHM}`;   // 强制真实生成日期+时间，避免模型乱写
 
 writeFileSync('content.json', JSON.stringify(content, null, 2));
 console.log(`✓ remix 完成，写入 content.json（${dateISO}，voices ${content.voices.items?.length || 0} 条）`);
