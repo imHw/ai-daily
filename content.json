@@ -1,108 +1,90 @@
 {
   "issue": {
-    "vol": "Vol.22",
-    "date": "2026年6月22日",
-    "weekday": "星期日",
-    "dateISO": "2026-06-22",
+    "vol": "Vol.156",
+    "date": "2026年6月23日",
+    "weekday": "星期二",
+    "dateISO": "2026-06-23",
     "tagline": "追随建造者，而非追随影响者"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "开源模型逼近前沿：GLM-5.2 编程能力震惊 Vercel CEO，开放权重 AI 创造巨大应用层价值",
+    "title": "代理时代的新范式：模型吃掉工具链",
     "paras": [
-      "Vercel CEO Guillermo Rauch 在体验智谱 GLM-5.2 后难掩震惊：「编程能力好到让人不敢相信，这改变了一切。」这条推文获近 3000 点赞。与此同时，Box CEO Aaron Levie 发表长文分析开源权重 AI 的最新格局——他认为开放模型在特定任务上已达到 SOTA 水平，与前沿模型的差距正在缩窄而非扩大。这对整个 AI 应用层是巨大利好：开发者可以用更便宜的开源模型进行后训练和成本优化，同时保留前沿模型用于规划和编排。",
-      "OpenAI Codex 团队的 Thibault Sottiaux 则放出豪言：「我们用前端能力还过得去的模型就做出了 Codex App，等到模型前端能力大幅提升的那天，你们会看到真正的爆发。」这条推文获超 3100 点赞，暗示 Codex 即将迎来质变。Replit CEO Amjad Masad 则以一句诗意的观察引发共鸣：「我们发了二十年帖子，以为在跟彼此说话。然后 transformer 上线了，网络读了我们写的一切，变成了自己。」"
+      "Google IO 后，Logan Kilpatrick 谈到 Gemini 3.5 进入真正的「代理时代」。这个判断背后是一个关键洞察：当 AI 能够实时编辑视频并理解舞台上的细微互动——比如让一只虚拟狗走上讲台、跳上演讲者大腿，还要让其他嘉宾自然地注意到并做出反应——世界理解（world understanding）已经在发生。而 Aaron Levie 从企业视角指出，代理使用软件的频率将是人类的 100 倍，一次查询可能触及用户一个月才会接触的数据量，这意味着从 CRM 到文档系统的所有平台都将被「无头化」重塑。",
+      "这种转变也在改变开发者工具链的结构。Sakana 推出的 Fugu 模型采用「模型混合」（mixture of models）架构，自动分配任务给最擅长的专家模型。这本是应用层 AI 产品正在构建的 agent harness 逻辑，但现在被下沉为任何开发者都能调用的 LLM。正如 Guillermo Rauch 所说，编码代理会榨干你的「宜家效应」——当工具本身成为智能体，模型正在吃掉原本属于开发者的协调层。",
+      "与此同时，质量与效率的矛盾开始显现。Zara Zhang 提出一个实用法则：为了避免 AI 生成物沦为废料，输入上下文的长度往往要是输出的 3-5 倍。而 Garry Tan 则强调，在可用 AGI 的黎明，拥有「个人大脑」和「公司大脑」的重要性被低估——AGI 提供智能，但你仍需收集个人上下文才能真正解锁价值。从保险业的 Corgi 到邮件客户端，那些在绿地市场实现近 100% 份额突破的产品，都在用新范式重写行业规则。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI Vibe Check：实验室大战、API 可能消失与未来预测",
-    "meta": "Unsupervised Learning · 6月12日",
+    "title": "Logan Kilpatrick：当模型理解世界的细微之处",
+    "meta": "YouTube · 2026年6月",
     "paras": [
-      "在最新一期「AI Vibe Check」对谈中，DeepMind/Meta 前研究员、Datalogy 创始人 Ari 与 Radical Ventures 的 Rob 与主持人 Jacob Efron 畅聊 AI 行业半年巨变。最劲爆的预测是：随着算力持续紧缺，各大实验室可能会砍掉自己的 API 业务——这对整个开发者生态将是地震级事件。",
-      "三人还讨论了 Fable 模型发布后的反应与能力评估、距离递归自我改进（RSI）还有多远，以及 SpaceX 正在变成 AI 基础设施公司等行业大事。Ari 指出 AI 实验室之间的竞争已从模型能力蔓延到基础设施布局，而 Rob 则认为当前的 IPO 热潮标志着行业正在从「烧钱期」转向「商业化期」。整场对话充满辛辣观点，是对当下 AI 格局的一次高质量速览。"
+      "Google DeepMind 的 Logan Kilpatrick 在节目中分享了一个令人印象深刻的案例：在一次演讲中，有人用 Omni 实时编辑了舞台画面，让一只虚拟狗走上台并跳到他腿上。关键在于，模型不仅完成了视觉合成，还让其他嘉宾自然地注意到狗、发出笑声，甚至在 Logan 继续发言时表现出恰当的互动反应。",
+      "这种对「世界理解」的细腻把控，让 Logan 开始思考内容创作方式的根本变化。他认为 Gemini 3.5 时代才真正进入「代理纪元」，而这种能力的突破远超此前 Gemini 2.0 时的早期尝试。作为 Google AI Studio 和 Gemini API 的负责人，他把大量时间投入到为下一代建造者构建工具上。"
     ],
-    "url": "https://www.youtube.com/watch?v=W_iO8XxgD_I"
+    "url": "https://www.youtube.com/watch?v=cMAs8z2dehs"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.",
-        "url": "https://x.com/rauchg/status/2068517095818809770"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "We built the Codex App with models that were okayish at front-end. Wait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something.",
-        "url": "https://x.com/thsottiaux/status/2068568650924409260"
-      },
-      {
         "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "Pretty remarkable what's happening with open weights AI right now. We're seeing models achieve SOTA results on specific tasks, and getting close to frontier on some areas of coding and other domains. The more that open weights is able to maintain only a marginal gap from the frontier, instead of a widening gap, the more value that can be created with AI.",
-        "url": "https://x.com/levie/status/2068434042148782515"
+        "handle": "@levie",
+        "org": "Box",
+        "quote": "代理使用软件的频率是人类的 100 倍。当无头化交互成为常态，那些能支撑这种使用模式、且商业模型和技术策略匹配的平台将占据最佳位置",
+        "tag": "代理经济"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network read what we'd written, and became itself.",
-        "url": "https://x.com/amasad/status/2068589860097790449"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "The Product role is having an identity crisis too. Engineering has found its AI-native interface - SWE agents dramatically increase individual leverage. Companies are asking PMs to use AI, but they haven't evolved the role. The Builder PM uses AI to expand their role across the product lifecycle — their outputs are increasingly prototypes rather than docs.",
-        "url": "https://x.com/realmadhuguru/status/2068350509027876876"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like most people are incapable of doing that. I talk to so many people who say xyz doesn't work and when I ask when was the last time they tried testing it, the answer is always \"a few months ago.\" Brother that's like eons ago in AI timelines.",
-        "url": "https://x.com/nikunj/status/2068411460620042720"
+        "name": "Guillermo Rauch",
+        "handle": "@rauchg",
+        "org": "Vercel",
+        "quote": "编码代理会榨干你所有的宜家效应——如果你允许的话",
+        "tag": "开发者体验"
       },
       {
         "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "I hoard X bookmarks and never read them. So I built an extension that injects a bookmarked post into my main feed every time I open X (almost like an ad). Now I read my bookmarks. The trick was hijacking real estate I already check 50 times a day.",
-        "url": "https://x.com/zarazhangrui/status/2068568920613953626"
+        "handle": "@zarazhangrui",
+        "org": "",
+        "quote": "防止 AI 生成废料的经验法则：你的输入上下文长度往往要是输出的 3-5 倍。如果输入远短于输出，几乎肯定会产出垃圾",
+        "tag": "质量控制"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "@garrytan",
+        "org": "Y Combinator",
+        "quote": "在 2026 年可用 AGI 黎明，拥有个人大脑和公司大脑被严重低估。AGI 给你智能，但你必须收集个人上下文才能真正解锁",
+        "tag": "上下文即资产"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "@petergyang",
+        "org": "",
+        "quote": "HTML 成为代理视频制作基础的原因很简单：代理没有视觉智能，但 HTML 是 LLM 的母语，能同时表达信息和视觉美学",
+        "tag": "架构选择"
+      },
+      {
+        "name": "Swyx",
+        "handle": "@swyx",
+        "org": "",
+        "quote": "Corgi 在保险业实现近 100% 绿地市场份额的突破，在这个行业几乎闻所未闻",
+        "tag": "颠覆式增长"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "source": "blog",
-        "name": "Anthropic Engineering",
-        "title": "An update on recent Claude Code quality reports",
-        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-        "publishedAt": "Apr 2026",
-        "content": "Anthropic 工程团队发布事后复盘，详细解释了近期用户反馈 Claude 质量下降的原因。根本原因是三个独立变更叠加：3 月 4 日将 Claude Code 默认推理强度从 high 降为 medium（已回滚）；3 月 26 日一个 bug 导致闲置会话的 thinking 被反复清除，使 Claude 表现得健忘和重复；4 月 16 日新增的减少冗余系统提示与其它 prompt 变更组合后影响了代码质量。由于三个变更影响不同流量切片且时间线不同，叠加效应看起来像是广泛的、不一致的质量退化。团队表示从未故意降低模型质量，API 和推理层未受影响。"
-      },
-      {
-        "source": "blog",
-        "name": "Anthropic Engineering",
-        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-        "url": "https://www.anthropic.com/engineering/managed-agents",
-        "publishedAt": null,
-        "content": "Anthropic 发布 Managed Agents 托管服务，核心理念是将代理的「大脑」（编排逻辑）与「双手」（工具执行）解耦。团队借鉴操作系统虚拟化硬件的思路，将代理的三个组件虚拟化：session（追加日志）、harness（调用循环）、sandbox（执行环境），使各组件实现可独立替换。一个关键发现：之前为 Sonnet 4.5 设计的「上下文焦虑」应对机制（上下文重置），在 Opus 4.5 上已完全不需要——harness 的假设需要随模型能力持续更新。文章指出，好的 harness 设计应在模型能做和不能做的事之间找到平衡点。"
-      },
-      {
-        "source": "blog",
-        "name": "Claude Blog",
-        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
-        "url": "https://claude.com/blog/claude-managed-agents-updates",
-        "publishedAt": "May 19, 2026",
-        "content": "Claude Managed Agents 新增两大能力：自托管沙箱和 MCP 隧道。自托管沙箱允许代理在用户控制的基础设施上执行工具——敏感文件、包和服务不离开企业边界，同时编排和上下文管理仍由 Anthropic 基础设施处理。支持 Cloudflare、Daytona、Modal、Vercel 等托管提供商。MCP 隧道（研究预览）让代理连接企业私有 MCP 服务器。Amplitude 已在使用这套方案构建内部 Design Agent。"
-      }
-    ]
+    "title": "Sakana 推出 Fugu：模型混合架构的 API 化",
+    "meta": "来自社区讨论",
+    "paras": [
+      "Sakana 发布的 Fugu 采用「模型混合」（mixture of models）方式完成任务。开发者只需调用单一 API，Fugu 会自动处理模型选择、任务委派、验证和结果合成。当问题简单时直接解决，当任务复杂时则协调专家模型团队。这种多代理系统的复杂性对开发者完全透明。",
+      "这种架构正是当前应用层 AI 产品构建 agent harness 时采用的方式，但 Sakana 将其包装为任何开发者都能交互的 LLM。随着封闭和开源前沿模型的创新加速，能够智能路由到最佳模型的这一层将产生巨大价值。"
+    ],
+    "url": ""
   },
   "colophon": {
-    "label": "关于",
-    "text": "AI Builders Digest · 每日精选 · 追随建造者而非追随影响者",
-    "source": "follow-builders"
+    "source": "follow-builders 中央 feed",
+    "coverage": "本期覆盖 1 档播客 · 9 位建造者 · 1 篇架构讨论",
+    "generatedAt": "2026-06-23 09:00"
   }
 }
