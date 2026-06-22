@@ -69,7 +69,9 @@ jobs:
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          # 直接指定中转站当前支持的有效模型，覆盖此前失效的 LLM_MODEL Secret（旧值会报 400 模型名有误）。
+          # 想换模型就改这里；若 sonnet 某天也失效，remix.mjs 会自动兜底到 claude-haiku-4-5。
+          LLM_MODEL: claude-sonnet-4-6
         run: node scripts/remix.mjs raw.json
 
       - name: 生成杂志风 HTML
