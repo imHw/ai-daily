@@ -2,7 +2,15 @@ name: 每日 AI 日报
 
 on:
   schedule:
-    - cron: '0 2 * * *'      # 02:00 UTC = 北京时间 10:00（GitHub 高峰期可能延迟几分钟）
+    # 目标：北京时间「早上 9 点」推送（北京 = UTC+8，9:00 北京 = 01:00 UTC）。
+    # 注意：GitHub 定时任务【不保证准点】，高峰期常被推迟几十分钟甚至数小时，
+    # 整点（minute=0）尤其拥堵。所以这里：
+    #   1) 用错峰分钟（避开整点）减少排队延迟；
+    #   2) 排多个时间点 + 当天去重守卫（见下方 guard 步骤）：哪个时间点先被真正调度到，
+    #      就由它生成并推送，其余时间点自动跳过——既尽量贴近 9 点，又保证「每天都出」。
+    - cron: '55 0 * * *'   # 08:55 北京（主时段，留一点提前量抵消轻微延迟）
+    - cron: '30 1 * * *'   # 09:30 北京（补一刀：若 0 点档被丢弃/重度延迟）
+    - cron: '30 2 * * *'   # 10:30 北京（再补一刀，尽量保证当天一定出）
   workflow_dispatch:           # 支持在 Actions 页面手动触发，便于测试
 
 permissions:
@@ -10,7 +18,7 @@ permissions:
 
 concurrency:
   group: daily-digest
-  cancel-in-progress: false
+  cancel-in-progress: false    # 多个时段串行执行，避免互相覆盖
 
 jobs:
   build-and-deliver:
@@ -19,37 +27,59 @@ jobs:
       - name: 检出仓库
         uses: actions/checkout@v4
 
+      - name: 今日是否已生成？（去重守卫，避免一天重复推送）
+        id: guard
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%F)
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          if [ -f "issues/$DATE.html" ]; then
+            echo "今日 $DATE 已生成，跳过本次运行。"
+            echo "done=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "今日 $DATE 尚未生成，继续执行。"
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: 安装 Node
+        if: steps.guard.outputs.done != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: 拉取 follow-builders（内容源脚本，克隆到仓库外避免污染提交）
+        if: steps.guard.outputs.done != 'true'
         run: git clone --depth 1 https://github.com/zarazhangrui/follow-builders.git "$HOME/fb"
 
       - name: 写入 follow-builders 配置（中文）
+        if: steps.guard.outputs.done != 'true'
         run: |
           mkdir -p ~/.follow-builders
           cat > ~/.follow-builders/config.json <<'EOF'
           { "platform":"other","language":"zh","timezone":"Asia/Shanghai",
-            "frequency":"daily","deliveryTime":"10:00",
+            "frequency":"daily","deliveryTime":"09:00",
             "delivery":{"method":"stdout"},"onboardingComplete":true }
           EOF
 
       - name: 抓取当天 feed
+        if: steps.guard.outputs.done != 'true'
         run: node "$HOME/fb/scripts/prepare-digest.js" > raw.json
 
       - name: remix 成中文日报（调中转站）
+        if: steps.guard.outputs.done != 'true'
         env:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          # 直接指定中转站当前支持的有效模型，覆盖此前失效的 LLM_MODEL Secret（旧值会报 400 模型名有误）。
+          # 想换模型就改这里；若 sonnet 某天也失效，remix.mjs 会自动兜底到 claude-haiku-4-5。
+          LLM_MODEL: claude-sonnet-4-6
         run: node scripts/remix.mjs raw.json
 
       - name: 生成杂志风 HTML
+        if: steps.guard.outputs.done != 'true'
         run: node scripts/build.js
 
       - name: 提交并发布到 GitHub Pages
+        if: steps.guard.outputs.done != 'true'
         run: |
           rm -f raw.json
           git config user.name "github-actions[bot]"
@@ -63,7 +93,16 @@ jobs:
           fi
 
       - name: 飞书推送链接
+        if: steps.guard.outputs.done != 'true'
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
         run: node scripts/notify-feishu.mjs
+
+      - name: 失败时告警飞书（让断更不再无声无息）
+        if: failure() && steps.guard.outputs.done != 'true'
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: node scripts/notify-feishu.mjs --alert || true

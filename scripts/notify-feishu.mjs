@@ -16,6 +16,7 @@ import { readFileSync } from 'fs';
 import crypto from 'crypto';
 
 const PRINT_ONLY = process.argv.includes('--print');
+const ALERT = process.argv.includes('--alert');   // 失败告警模式：不读 content.json，发一张红色提醒卡
 const SITE = (process.env.PAGES_URL || 'https://imhw.github.io/ai-daily/').replace(/\/+$/, '');
 
 let date = '', lead = 'AI 日报', dateISO = '';
@@ -30,7 +31,19 @@ try {
 const todayUrl = dateISO ? `${SITE}/issues/${dateISO}.html` : `${SITE}/`;
 const archiveUrl = `${SITE}/archive.html`;
 
-const card = {
+const todayCN = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
+const RUN_URL = process.env.RUN_URL || '';
+
+const card = ALERT ? {
+  config: { wide_screen_mode: true },
+  header: { template: 'carmine', title: { tag: 'plain_text', content: '⚠️ AI 日报生成失败' } },
+  elements: [
+    { tag: 'div', text: { tag: 'lark_md', content: `今日（${todayCN}）日报未能生成或推送，请检查 GitHub Actions 运行日志（常见原因：LLM_MODEL 模型名失效 / 中转站异常）。` } },
+    ...(RUN_URL ? [{ tag: 'action', actions: [
+      { tag: 'button', text: { tag: 'plain_text', content: '查看运行日志 →' }, url: RUN_URL, type: 'primary' },
+    ] }] : []),
+  ],
+} : {
   config: { wide_screen_mode: true },
   header: { template: 'red', title: { tag: 'plain_text', content: '📰 今日 AI 日报' } },
   elements: [
@@ -66,4 +79,4 @@ const res = await fetch(url, {
 });
 const out = await res.json().catch(() => ({}));
 if (out.code && out.code !== 0) { console.error('飞书返回错误：', JSON.stringify(out)); process.exit(1); }
-console.log('✓ 飞书推送成功：', todayUrl);
+console.log(ALERT ? '✓ 已发送飞书失败告警' : `✓ 飞书推送成功：${todayUrl}`);
