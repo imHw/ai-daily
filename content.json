@@ -1,90 +1,97 @@
 {
   "issue": {
-    "vol": "Vol.156",
-    "date": "2026年6月23日",
-    "weekday": "星期二",
-    "dateISO": "2026-06-23",
+    "vol": "Vol.157",
+    "date": "2026年6月24日",
+    "weekday": "星期三",
+    "dateISO": "2026-06-24",
     "tagline": "追随建造者，而非追随影响者"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "代理时代的新范式：模型吃掉工具链",
+    "title": "AI 安全与开源生态的双重演进",
     "paras": [
-      "Google IO 后，Logan Kilpatrick 谈到 Gemini 3.5 进入真正的「代理时代」。这个判断背后是一个关键洞察：当 AI 能够实时编辑视频并理解舞台上的细微互动——比如让一只虚拟狗走上讲台、跳上演讲者大腿，还要让其他嘉宾自然地注意到并做出反应——世界理解（world understanding）已经在发生。而 Aaron Levie 从企业视角指出，代理使用软件的频率将是人类的 100 倍，一次查询可能触及用户一个月才会接触的数据量，这意味着从 CRM 到文档系统的所有平台都将被「无头化」重塑。",
-      "这种转变也在改变开发者工具链的结构。Sakana 推出的 Fugu 模型采用「模型混合」（mixture of models）架构，自动分配任务给最擅长的专家模型。这本是应用层 AI 产品正在构建的 agent harness 逻辑，但现在被下沉为任何开发者都能调用的 LLM。正如 Guillermo Rauch 所说，编码代理会榨干你的「宜家效应」——当工具本身成为智能体，模型正在吃掉原本属于开发者的协调层。",
-      "与此同时，质量与效率的矛盾开始显现。Zara Zhang 提出一个实用法则：为了避免 AI 生成物沦为废料，输入上下文的长度往往要是输出的 3-5 倍。而 Garry Tan 则强调，在可用 AGI 的黎明，拥有「个人大脑」和「公司大脑」的重要性被低估——AGI 提供智能，但你仍需收集个人上下文才能真正解锁价值。从保险业的 Corgi 到邮件客户端，那些在绿地市场实现近 100% 份额突破的产品，都在用新范式重写行业规则。"
+      "本周 AI 行业呈现出两个重要趋势：一方面，OpenAI 和 Anthropic 等头部公司持续加强 AI 安全能力，GPT-5.5-Cyber 的发布标志着 AI 安全从检测向防御的转变；另一方面，开源模型和工具链正在快速演进，Sakana 的 Fugu 模型展示了模型混合架构的商业化潜力，而各种开发者工具也在向 AI 原生设计转变。",
+      "从技术角度看，AI 安全正在从被动检测转向主动防御。Sam Altman 强调 AI 安全需要整个生态系统的参与，而不仅仅是技术问题。同时，开发者工具正在经历范式转变，从传统的 IDE 向 AI 原生的编码环境演进，这要求重新思考开发者体验和工具设计。",
+      "在应用层面，AI 正在深度融入各个垂直领域。从企业文档管理到前端设计，从代码生成到内容创作，AI 工具正在重塑工作流程。那些能够平衡创新与安全、开源与商业化的产品，将在下一波 AI 浪潮中占据领先地位。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Logan Kilpatrick：当模型理解世界的细微之处",
+    "title": "Mike Krieger：Claude Fable 5 的实际应用体验",
     "meta": "YouTube · 2026年6月",
     "paras": [
-      "Google DeepMind 的 Logan Kilpatrick 在节目中分享了一个令人印象深刻的案例：在一次演讲中，有人用 Omni 实时编辑了舞台画面，让一只虚拟狗走上台并跳到他腿上。关键在于，模型不仅完成了视觉合成，还让其他嘉宾自然地注意到狗、发出笑声，甚至在 Logan 继续发言时表现出恰当的互动反应。",
-      "这种对「世界理解」的细腻把控，让 Logan 开始思考内容创作方式的根本变化。他认为 Gemini 3.5 时代才真正进入「代理纪元」，而这种能力的突破远超此前 Gemini 2.0 时的早期尝试。作为 Google AI Studio 和 Gemini API 的负责人，他把大量时间投入到为下一代建造者构建工具上。"
+      "Instagram 联合创始人、Anthropic Labs 负责人 Mike Krieger 在 AI & I 播客中分享了 Claude Fable 5 的深度使用体验。他强调，对于如此强大的模型，第一印象往往具有误导性，真正理解其价值需要数周的实际使用。",
+      "Mike 指出，即使在 Opus 4.5 到 Opus 4.6 的过渡期，人们也需要时间来重新思考什么是可能的。他提到内部团队在使用 Fable 5 时发现了很多超出预期的能力，这表明随着模型能力的提升，用户的使用方式也需要相应进化。"
     ],
-    "url": "https://www.youtube.com/watch?v=cMAs8z2dehs"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Sam Altman",
+        "handle": "@sama",
+        "org": "OpenAI",
+        "quote": "We want to help all companies be secure, working with the USG and the security ecosystem. The full version of GPT-5.5-Cyber is here; state of the art performance on CyberGym. Patch The Planet and Codex Security will help solve security problems instead of just finding them.",
+        "tag": "AI 安全"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "@levie",
         "org": "Box",
-        "quote": "代理使用软件的频率是人类的 100 倍。当无头化交互成为常态，那些能支撑这种使用模式、且商业模型和技术策略匹配的平台将占据最佳位置",
-        "tag": "代理经济"
+        "quote": "Almost all AI model and agent progress is downstream from evals. Open weights post training for specific domains comes down to evals. Agent improvements in the applied AI layer is all about evals. Agentic enterprise deployments that actually can augment work is all about evals. It's all evals.",
+        "tag": "评估驱动"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "@thsottiaux",
+        "org": "OpenAI",
+        "quote": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.",
+        "tag": "安全创新"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "@rauchg",
         "org": "Vercel",
-        "quote": "编码代理会榨干你所有的宜家效应——如果你允许的话",
-        "tag": "开发者体验"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "@zarazhangrui",
-        "org": "",
-        "quote": "防止 AI 生成废料的经验法则：你的输入上下文长度往往要是输出的 3-5 倍。如果输入远短于输出，几乎肯定会产出垃圾",
-        "tag": "质量控制"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "@garrytan",
-        "org": "Y Combinator",
-        "quote": "在 2026 年可用 AGI 黎明，拥有个人大脑和公司大脑被严重低估。AGI 给你智能，但你必须收集个人上下文才能真正解锁",
-        "tag": "上下文即资产"
+        "quote": "Claude Design → Vercel, in one click. WebSocket (and socket.io) now supported on Vercel, from CDN to Fluid. Special full circle moment for @vercel",
+        "tag": "平台集成"
       },
       {
         "name": "Peter Yang",
         "handle": "@petergyang",
         "org": "",
-        "quote": "HTML 成为代理视频制作基础的原因很简单：代理没有视觉智能，但 HTML 是 LLM 的母语，能同时表达信息和视觉美学",
-        "tag": "架构选择"
+        "quote": "I'm reading this and I still don't get what a dynamic workflow is or when to use it in Claude Code",
+        "tag": "开发者困惑"
       },
       {
-        "name": "Swyx",
-        "handle": "@swyx",
-        "org": "",
-        "quote": "Corgi 在保险业实现近 100% 绿地市场份额的突破，在这个行业几乎闻所未闻",
-        "tag": "颠覆式增长"
+        "name": "Amjad Masad",
+        "handle": "@amasad",
+        "org": "Replit",
+        "quote": "Never quit",
+        "tag": "创业精神"
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "@ryolu_",
+        "org": "Cursor",
+        "quote": "here's my talk at Cursor Compile some thoughts on how we build in the age of AI and what doesn't change",
+        "tag": "设计哲学"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Sakana 推出 Fugu：模型混合架构的 API 化",
-    "meta": "来自社区讨论",
+    "title": "OpenAI 发布 GPT-5.5-Cyber：AI 安全防御的新里程碑",
+    "meta": "来自 OpenAI 官方",
     "paras": [
-      "Sakana 发布的 Fugu 采用「模型混合」（mixture of models）方式完成任务。开发者只需调用单一 API，Fugu 会自动处理模型选择、任务委派、验证和结果合成。当问题简单时直接解决，当任务复杂时则协调专家模型团队。这种多代理系统的复杂性对开发者完全透明。",
-      "这种架构正是当前应用层 AI 产品构建 agent harness 时采用的方式，但 Sakana 将其包装为任何开发者都能交互的 LLM。随着封闭和开源前沿模型的创新加速，能够智能路由到最佳模型的这一层将产生巨大价值。"
+      "OpenAI 发布了 GPT-5.5-Cyber，这是专门为网络安全任务设计的 AI 模型。该模型在 CyberGym 基准测试上达到了最先进的性能水平，标志着 AI 安全从被动检测向主动防御的重要转变。",
+      "Sam Altman 强调，AI 安全需要整个生态系统的参与，而不仅仅是技术问题。GPT-5.5-Cyber 不仅能够发现安全问题，还能帮助解决安全问题，这代表了 AI 在安全领域应用的新范式。"
     ],
     "url": ""
   },
   "colophon": {
     "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 9 位建造者 · 1 篇架构讨论",
-    "generatedAt": "2026-06-23 09:00"
+    "coverage": "本期覆盖 1 档播客 · 7 位建造者 · 1 篇官方博客",
+    "generatedAt": "2026年6月24日 09:00"
   }
 }
