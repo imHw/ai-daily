@@ -1,104 +1,91 @@
 {
   "issue": {
-    "vol": "Vol.158",
-    "date": "2026年6月24日",
-    "weekday": "星期三",
-    "dateISO": "2026-06-24",
-    "tagline": "AI 时代的开发者工具革命"
+    "vol": "Vol.142",
+    "date": "2026年6月25日",
+    "weekday": "星期四",
+    "dateISO": "2026-06-25",
+    "tagline": "追随建造者，而非追随影响者"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "从代码生成到设计自动化：AI 工具生态的深度演进",
+    "title": "AI 助手从工具变成同事",
     "paras": [
-      "今天 AI 开发者工具领域出现了多个重要进展：Cursor 发布了关于 AI 时代构建设计的深度思考，Vercel 宣布支持 WebSocket 和 socket.io，Replit CEO Amjad Masad 分享了创业精神，而多位开发者对 Claude Code 的动态工作流表达了困惑。这些动态反映了 AI 工具正在从简单的代码生成向更复杂的设计自动化和开发者体验演进。",
-      "从技术角度看，AI 工具正在经历范式转变。传统的 IDE 正在向 AI 原生的编码环境转变，这要求重新思考开发者工作流程。同时，平台集成也在深化，Vercel 对 WebSocket 的支持表明 AI 工具正在更好地融入现代 Web 开发的技术栈。",
-      "在社区层面，开发者对 AI 工具的接受度和理解正在加深。虽然存在困惑，但这种讨论本身就是健康的，它推动着工具设计者更好地平衡创新与易用性。那些能够真正理解开发者需求并解决实际痛点的工具，将在竞争中脱颖而出。"
+      "Anthropic 今天推出的 Claude Tag 标志着 AI 交互范式的第三次重大迭代。从最初的网页聊天，到桌面应用，再到如今嵌入企业工作流的持久化智能体——Claude 不再是你需要切换过去使用的工具，而是像真实同事一样待在 Slack 频道里，主动跟进讨论、响应请求、甚至更新状态看板。",
+      "Karpathy 的评价一针见血：这需要大量底层工程让它「就是能用」，横跨工具集成、计算环境、权限管理。但一旦搞定，Claude 就能无缝加入团队，你可以像对人说话一样分配任务。早期用户已经在用它监控 Slack、自动回复问题、起草 PR，甚至管理日程。",
+      "这不只是产品升级，更是组织形态的实验：当 AI 拥有团队上下文、持久记忆和异步工作能力，人机协作的边界在哪里？Peter Yang 开玩笑说下一步该给 Claude 开一对一会议和绩效评估了——这个笑话背后，是管理「高能力员工」式 AI 的新现实。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Mike Krieger：Claude Fable 5 的深度使用体验",
-    "meta": "YouTube · 2026年6月",
+    "title": "Biohub：生物学的开源未来",
+    "meta": "No Priors Podcast · 2025年6月",
     "paras": [
-      "Instagram 联合创始人、Anthropic Labs 负责人 Mike Krieger 在 AI & I 播客中分享了 Claude Fable 5 的深度使用体验。他强调，对于如此强大的模型，第一印象往往具有误导性，真正理解其价值需要数周的实际使用。",
-      "Mike 指出，即使在 Opus 4.5 到 Opus 4.6 的过渡期，人们也需要时间来重新思考什么是可能的。他提到内部团队在使用 Fable 5 时发现了很多超出预期的能力，这表明随着模型能力的提升，用户的使用方式也需要相应进化。"
+      "扎克伯格夫妇和 Biohub 科学负责人 Alex Rives 在 No Priors 播客上解释了他们为什么把 5 亿美元押注在「虚拟生物学」上。核心逻辑是：与其自己造药，不如给整个科学界造工具。他们用 AI 折叠了超过 11 亿个蛋白质结构，但模型本身并不针对特定靶点——它只是学会了理解蛋白质。",
+      "Priscilla Chan 强调的愿景是精准医疗的根基：理解个体遗传学、疾病风险、干预机制。Mark 则明确表示他们不是要自己治愈疾病，而是通过开源项目加速整个领域的进展。这是一场基础设施建设，而非终点冲刺。",
+      "这期播客展现了 AI 在科学工具链上的新角色：不是替代研究者，而是把需要十年才能完成的数据生产压缩到可以快速迭代的周期。当你能设计蛋白质来改变生理机能，治愈就成了工程问题。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "@sama",
-        "org": "OpenAI",
-        "quote": "We want to help all companies be secure, working with the USG and the security ecosystem. The full version of GPT-5.5-Cyber is here; state of the art performance on CyberGym. Patch The Planet and Codex Security will help solve security problems instead of just finding them.",
-        "tag": "AI 安全"
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "org": "",
+        "quote": "LLM 交互经历了三次范式迭代：从网页、到应用、再到如今拥有组织级工具和上下文的持久化异步实体，它不再是工具而是队友",
+        "tag": "格局"
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "@bcherny",
+        "org": "",
+        "quote": "我让 Claude 监控 Slack 频道主动回答问题、起草 PR，线程解决时用特定 emoji 标记——只需用自然语言告诉它任务",
+        "tag": "工具"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "@thsottiaux",
+        "org": "Codex",
+        "quote": "Codex 有个 bug，已修复。更多反馈，更好产品。（以及：如果你在 OpenAI 就知道这种事从不发生，庆祝五分钟太平）",
+        "tag": "产品事故"
       },
       {
         "name": "Aaron Levie",
         "handle": "@levie",
         "org": "Box",
-        "quote": "Almost all AI model and agent progress is downstream from evals. Open weights post training for specific domains comes down to evals. Agent improvements in the applied AI layer is all about evals. Agentic enterprise deployments that actually can augment work is all about evals. It's all evals.",
-        "tag": "评估驱动"
+        "quote": "AI 定价会呈现哑铃型：昂贵的前沿模型 vs 便宜但够用的开放权重模型。应用层的价值在于路由最优模型、优化成本和性能",
+        "tag": "资本"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "@thsottiaux",
-        "org": "OpenAI",
-        "quote": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.",
-        "tag": "安全创新"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "@rauchg",
-        "org": "Vercel",
-        "quote": "Claude Design → Vercel, in one click. WebSocket (and socket.io) now supported on Vercel, from CDN to Fluid. Special full circle moment for @vercel",
-        "tag": "平台集成"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "@petergyang",
+        "name": "Peter Steinberger",
+        "handle": "@steipete",
         "org": "",
-        "quote": "I'm reading this and I still don't get what a dynamic workflow is or when to use it in Claude Code",
-        "tag": "开发者困惑"
+        "quote": "Google 因为那个人做了 Google Workspace CLI 就把他开了。幸好 Google 开不了我",
+        "tag": "金句"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "@amasad",
-        "org": "Replit",
-        "quote": "Never quit",
-        "tag": "创业精神"
-      },
-      {
-        "name": "Ryo Lu",
-        "handle": "@ryolu_",
-        "org": "Cursor",
-        "quote": "here's my talk at Cursor Compile some thoughts on how we build in the age of AI and what doesn't change",
-        "tag": "设计哲学"
-      },
-      {
-        "name": "Swyx",
-        "handle": "@swyx",
-        "org": "",
-        "quote": "i dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market? SpaceX has already recouped about HALF its investment in Cursor, in compute deals. The other half is paid for if Composer 3 does well. No other company is simultaneously a leading model lab + neocloud (at least where GPUs is concerned). its a crazy effective combo iff you've adequately planned out gpu supply if inhouse training 1) goes very well 2) doesn't go very well",
-        "tag": "商业模式"
+        "name": "Garry Tan",
+        "handle": "@garrytan",
+        "org": "Y Combinator",
+        "quote": "Dropbox 真该支持大于 3TB 的套餐了——AI 产生的可用数据会指数级增长，他们不升级就会被碾压",
+        "tag": "产品"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "OpenAI 发布 GPT-5.5-Cyber：AI 安全防御的新里程碑",
-    "meta": "来自 OpenAI 官方",
+    "title": "Claude Tag：AI 智能体的环境感知模式",
+    "meta": "anthropic.com",
     "paras": [
-      "OpenAI 发布了 GPT-5.5-Cyber，这是专门为网络安全任务设计的 AI 模型。该模型在 CyberGym 基准测试上达到了最先进的性能水平，标志着 AI 安全从被动检测向主动防御的重要转变。",
-      "Sam Altman 强调，AI 安全需要整个生态系统的参与，而不仅仅是技术问题。GPT-5.5-Cyber 不仅能够发现安全问题，还能帮助解决安全问题，这代表了 AI 在安全领域应用的新范式。"
+      "Anthropic 正式发布 Claude Tag 的测试版，面向 Slack 上的 Enterprise 和 Team 客户。开启环境感知模式后，Claude 会主动跟进静默的讨论线程，从它接入的所有频道和工具中标记相关信息。",
+      "这是 Anthropic 在企业协作场景的关键布局：让 AI 从被动响应变为主动参与。配置指南已上线，用户可以为 Claude 设置频道权限、任务范式和触发规则。更多集成平台即将支持。"
     ],
-    "url": ""
+    "url": "https://www.anthropic.com"
   },
   "colophon": {
     "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 8 位建造者 · 1 篇官方博客",
-    "generatedAt": "2026年6月24日 09:00"
+    "coverage": "本期覆盖 1 档播客 · 14 位建造者 · 1 篇博客",
+    "generatedAt": "2026-06-25 12:54"
   }
 }
