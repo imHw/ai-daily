@@ -115,7 +115,7 @@ const voices = (d.voices.items || []).map(v => `
               <span class="voice-handle">@${esc(v.handle)}${v.org ? ' · ' + esc(v.org) : ''}</span>
               ${v.tag ? `<span class="voice-tag">${esc(v.tag)}</span>` : ''}
             </div>
-            <p class="voice-quote">${esc(v.quote)}</p>
+            <p class="voice-quote">${esc(v.text || v.quote)}</p>
           </article>`).join('\n');
 
 const issueInner = `    <header class="masthead">
