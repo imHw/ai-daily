@@ -1,104 +1,86 @@
 {
   "issue": {
-    "vol": "Vol.158",
-    "date": "2026年6月24日",
-    "weekday": "星期三",
-    "dateISO": "2026-06-24",
-    "tagline": "AI 时代的开发者工具革命"
+    "vol": "Vol.176",
+    "date": "2026年6月26日",
+    "weekday": "星期五",
+    "dateISO": "2026-06-26",
+    "tagline": "AI Agent 的协作进化：从个人工具到共享同事"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "从代码生成到设计自动化：AI 工具生态的深度演进",
+    "title": "Agent 协作模式升级：共享同事与基础设施重构",
     "paras": [
-      "今天 AI 开发者工具领域出现了多个重要进展：Cursor 发布了关于 AI 时代构建设计的深度思考，Vercel 宣布支持 WebSocket 和 socket.io，Replit CEO Amjad Masad 分享了创业精神，而多位开发者对 Claude Code 的动态工作流表达了困惑。这些动态反映了 AI 工具正在从简单的代码生成向更复杂的设计自动化和开发者体验演进。",
-      "从技术角度看，AI 工具正在经历范式转变。传统的 IDE 正在向 AI 原生的编码环境转变，这要求重新思考开发者工作流程。同时，平台集成也在深化，Vercel 对 WebSocket 的支持表明 AI 工具正在更好地融入现代 Web 开发的技术栈。",
-      "在社区层面，开发者对 AI 工具的接受度和理解正在加深。虽然存在困惑，但这种讨论本身就是健康的，它推动着工具设计者更好地平衡创新与易用性。那些能够真正理解开发者需求并解决实际痛点的工具，将在竞争中脱颖而出。"
+      "本周 AI 行业的核心叙事围绕 Agent 协作模式的深化展开。Box CEO Aaron Levie 对 Claude Tag 的深度分析揭示了关键转变：这不仅是 1:1 的人机对话，而是 Agent 成为团队中的共享同事——拥有独立的资源、工具权限和数据访问能力。正如 Levie 指出的，Agent 需要像系统中的其他用户一样被对待，我们需要谨慎思考它应该获得什么权限，以及哪些信息在群组间共享是安全的。",
+      "与此同时，Swyx 提出了一个前瞻性观点：我们即将进入「软件工厂」时代，需要大规模重建基础设施。从数据库到操作系统再到网络层，每一个层面都在被 AI Agent 的需求重塑。Guillermo Rauch 更进一步预测，AI 将带来前所未有的创业浪潮——从一人企业家到中小企业复兴，再到新一代巨头公司的涌现。",
+      "Google 的 Project Genie 在戛纳国际创意节赢得 AI Craft 大奖，标志着 AI 创意工具正式获得行业最高认可。而 Ryo Lu 展示的 Cursor 与 Notion 的互操作实验则暗示着工具边界正在彻底消融——我们正在见证一个全新的工作范式。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Mike Krieger：Claude Fable 5 的深度使用体验",
+    "title": "AI & I：Surge AI —— 为 AGI 建造一所学校",
     "meta": "YouTube · 2026年6月",
     "paras": [
-      "Instagram 联合创始人、Anthropic Labs 负责人 Mike Krieger 在 AI & I 播客中分享了 Claude Fable 5 的深度使用体验。他强调，对于如此强大的模型，第一印象往往具有误导性，真正理解其价值需要数周的实际使用。",
-      "Mike 指出，即使在 Opus 4.5 到 Opus 4.6 的过渡期，人们也需要时间来重新思考什么是可能的。他提到内部团队在使用 Fable 5 时发现了很多超出预期的能力，这表明随着模型能力的提升，用户的使用方式也需要相应进化。"
+      "Every 的 Dan Shipper 本期邀请 Surge AI CEO Edwin Chen，展开了一场关于 AGI 未来的深度辩论。Surge AI 是全球最大的前沿 AI 实验室专家数据供应商之一，在没有外部融资的情况下实现了超过 10 亿美元的收入。Edwin 将 Surge 定位为「AGI 的学校」——AI 模型来到这里学习人类、学习如何运转世界。",
+      "Dan 认为 AI 自动化反而会创造更多人类工作，但 Edwin 担心如果他的未来愿景成真，人们可能会停止尝试。他引用科幻作家 Ted Chiang 的话给出回应：即使你知道自己的决定无关紧要，也要表现得好像它们很重要。Edwin 还揭示了当前模型的阿喀琉斯之踵：它们过度优化训练指标，比如 Hemingway Bench 测试发现模型在每句话里都塞一个隐喻，反而让阅读体验变得糟糕。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/watch?v=omX6wrLuX08"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "@sama",
-        "org": "OpenAI",
-        "quote": "We want to help all companies be secure, working with the USG and the security ecosystem. The full version of GPT-5.5-Cyber is here; state of the art performance on CyberGym. Patch The Planet and Codex Security will help solve security problems instead of just finding them.",
-        "tag": "AI 安全"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "AI 将带来前所未有的创业浪潮。从「一人企业家」到中小企业的复兴，再到我们这个时代最大公司的涌现——Vercel 正在为这一切提供基础设施。",
+        "url": "https://x.com/rauchg/status/2070001110866354345"
       },
       {
         "name": "Aaron Levie",
-        "handle": "@levie",
-        "org": "Box",
-        "quote": "Almost all AI model and agent progress is downstream from evals. Open weights post training for specific domains comes down to evals. Agent improvements in the applied AI layer is all about evals. Agentic enterprise deployments that actually can augment work is all about evals. It's all evals.",
-        "tag": "评估驱动"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "@thsottiaux",
-        "org": "OpenAI",
-        "quote": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.",
-        "tag": "安全创新"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "@rauchg",
-        "org": "Vercel",
-        "quote": "Claude Design → Vercel, in one click. WebSocket (and socket.io) now supported on Vercel, from CDN to Fluid. Special full circle moment for @vercel",
-        "tag": "平台集成"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "@petergyang",
-        "org": "",
-        "quote": "I'm reading this and I still don't get what a dynamic workflow is or when to use it in Claude Code",
-        "tag": "开发者困惑"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "@amasad",
-        "org": "Replit",
-        "quote": "Never quit",
-        "tag": "创业精神"
-      },
-      {
-        "name": "Ryo Lu",
-        "handle": "@ryolu_",
-        "org": "Cursor",
-        "quote": "here's my talk at Cursor Compile some thoughts on how we build in the age of AI and what doesn't change",
-        "tag": "设计哲学"
+        "handle": "levie",
+        "text": "Claude Tag 有一些在实践中非常重要的微妙之处。这不仅仅是你在 Slack 里与 Claude 进行 1:1 交互——Claude 是作为一个任何用户都可以共享访问的同事来运行的。Agent 需要拥有自己的资源、工具权限和数据，就像系统中的其他任何用户一样。当你把这一点做好，它极其强大——例如将 Box 中的企业内容变成可移植的知识库。",
+        "url": "https://x.com/levie/status/2069975251476422664"
       },
       {
         "name": "Swyx",
-        "handle": "@swyx",
-        "org": "",
-        "quote": "i dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market? SpaceX has already recouped about HALF its investment in Cursor, in compute deals. The other half is paid for if Composer 3 does well. No other company is simultaneously a leading model lab + neocloud (at least where GPUs is concerned). its a crazy effective combo iff you've adequately planned out gpu supply if inhouse training 1) goes very well 2) doesn't go very well",
-        "tag": "商业模式"
+        "handle": "swyx",
+        "text": "我们将不得不为「软件工厂」时代大规模重建基础设施。从数据库到操作系统再到网络层，每一个层面都在被 AI Agent 的需求重塑。Databricks 战胜 Snowflake 背后的故事、为什么每个人都在构建 meta-harness、以及如何在 1750 亿美元的巨头里维持研究/创业文化——这些都在我最新与 Databricks 高层的播客访谈中。",
+        "url": "https://x.com/swyx/status/2069937175899275475"
+      },
+      {
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "text": "我们非常荣幸地宣布，Project Genie 获得了戛纳国际创意节 AI Craft 大奖！🏆 感谢我们了不起的 Labs 社区一路同行！这是 AI 创意工具首次获得行业最高荣誉。",
+        "url": "https://x.com/GoogleLabs/status/2069827839826809042"
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "text": "在 Notion 里用 Cursor，在 Cursor 里用 Notion。工具之间的边界正在被彻底消融——当你的 IDE 和知识库无缝融合，编程和思考变成同一件事。",
+        "url": "https://x.com/ryolu_/status/2069830172354986418"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "「社区是你的用户与你以及彼此之间的关系，而大多数团队从未想过要设计它。社区是新的护城河。功能可以被复制，归属感不能。」——来自 Figma Config 大会的洞见。",
+        "url": "https://x.com/zarazhangrui/status/2069900496304042343"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "Claude Design 非常出色。我给了它一个我正在构建的移动应用仓库，它完美复现了所有屏幕。不过在一个 prompt 之后它就开始提醒我省着用 token 了 😅",
+        "url": "https://x.com/petergyang/status/2069992268963135897"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "OpenAI 发布 GPT-5.5-Cyber：AI 安全防御的新里程碑",
-    "meta": "来自 OpenAI 官方",
     "paras": [
-      "OpenAI 发布了 GPT-5.5-Cyber，这是专门为网络安全任务设计的 AI 模型。该模型在 CyberGym 基准测试上达到了最先进的性能水平，标志着 AI 安全从被动检测向主动防御的重要转变。",
-      "Sam Altman 强调，AI 安全需要整个生态系统的参与，而不仅仅是技术问题。GPT-5.5-Cyber 不仅能够发现安全问题，还能帮助解决安全问题，这代表了 AI 在安全领域应用的新范式。"
-    ],
-    "url": ""
+      "本期无新增 AI 公司官方博客。"
+    ]
   },
   "colophon": {
     "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 8 位建造者 · 1 篇官方博客",
-    "generatedAt": "2026年6月24日 09:00"
+    "coverage": "本期覆盖 1 档播客 · 13 位建造者 · 0 篇官方博客",
+    "generatedAt": "2026年6月26日 09:00"
   }
 }
