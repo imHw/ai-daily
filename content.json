@@ -1,86 +1,87 @@
 {
   "issue": {
-    "vol": "Vol.176",
-    "date": "2026年6月26日",
-    "weekday": "星期五",
-    "dateISO": "2026-06-26",
-    "tagline": "AI Agent 的协作进化：从个人工具到共享同事"
+    "vol": "Vol.177",
+    "date": "2026年6月27日",
+    "weekday": "星期六",
+    "dateISO": "2026-06-27",
+    "tagline": "AI 监管的囚徒困境：当代码与律法同时加速"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Agent 协作模式升级：共享同事与基础设施重构",
+    "title": "AI 监管进入囚徒困境，编码 Agent 成为新常态",
     "paras": [
-      "本周 AI 行业的核心叙事围绕 Agent 协作模式的深化展开。Box CEO Aaron Levie 对 Claude Tag 的深度分析揭示了关键转变：这不仅是 1:1 的人机对话，而是 Agent 成为团队中的共享同事——拥有独立的资源、工具权限和数据访问能力。正如 Levie 指出的，Agent 需要像系统中的其他用户一样被对待，我们需要谨慎思考它应该获得什么权限，以及哪些信息在群组间共享是安全的。",
-      "与此同时，Swyx 提出了一个前瞻性观点：我们即将进入「软件工厂」时代，需要大规模重建基础设施。从数据库到操作系统再到网络层，每一个层面都在被 AI Agent 的需求重塑。Guillermo Rauch 更进一步预测，AI 将带来前所未有的创业浪潮——从一人企业家到中小企业复兴，再到新一代巨头公司的涌现。",
-      "Google 的 Project Genie 在戛纳国际创意节赢得 AI Craft 大奖，标志着 AI 创意工具正式获得行业最高认可。而 Ryo Lu 展示的 Cursor 与 Notion 的互操作实验则暗示着工具边界正在彻底消融——我们正在见证一个全新的工作范式。"
+      "Box CEO Aaron Levie 今日发表了两篇重磅长文，系统剖析了 AI 监管的囚徒困境本质。他指出，美国已形成事实上的 AI 监管：拥有前沿能力的模型在发布前需要接受政府审查。这听起来合理，但问题是——如果美国先行自我设限，中国等竞争对手却不减速，最终反而会让美国的延迟成了对手的优势。Levie 总结道：「简单的赌局是：闭源模型能否永远保持前沿地位，还是存在任何其他玩家或市场追赶上来的风险。」开源权重模型将成为最大赢家，因为它们暂时不受同样的管控约束。",
+      "与此同时，编码 Agent 正在成为行业的新常态。Guillermo Rauch 展示了 Vercel 如何将设计标准「注入」编码 Agent——Next.js 错误提示中的「Copy prompt」按钮被赞为「Agent 艺术品」。OpenAI 的 Thibault Sottiaux 则用数据证明，Codex App 发布后，非工程部门的采用率出现了爆发式增长——「Codex for everything at OpenAI」已非口号而是现实。",
+      "一个更深层的叙事来自 South Park Commons 合伙人 Aditya Agarwal：现在的纯软件公司「愚蠢地难做」——客户要的不是软件，而是结果。任何横向产品都在倒计时中，每个客户都想深度定制。在这个 AI 快速侵蚀软件层价值的时代，你需要一个「异端的 2-3 年世界观」才能做出好东西。结合 Zarazhangrui 的观察——「讲故事的能力正日益成为创始人最重要的工作，构建在变便宜，注意力在变贵」——我们看到的是一个正在被 AI 彻底重塑的创业范式。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI & I：Surge AI —— 为 AGI 建造一所学校",
+    "title": "MAD Podcast：Cloudflare CEO 谈机器洪水、边缘 AI 与 CEO 的艰难抉择",
     "meta": "YouTube · 2026年6月",
     "paras": [
-      "Every 的 Dan Shipper 本期邀请 Surge AI CEO Edwin Chen，展开了一场关于 AGI 未来的深度辩论。Surge AI 是全球最大的前沿 AI 实验室专家数据供应商之一，在没有外部融资的情况下实现了超过 10 亿美元的收入。Edwin 将 Surge 定位为「AGI 的学校」——AI 模型来到这里学习人类、学习如何运转世界。",
-      "Dan 认为 AI 自动化反而会创造更多人类工作，但 Edwin 担心如果他的未来愿景成真，人们可能会停止尝试。他引用科幻作家 Ted Chiang 的话给出回应：即使你知道自己的决定无关紧要，也要表现得好像它们很重要。Edwin 还揭示了当前模型的阿喀琉斯之踵：它们过度优化训练指标，比如 Hemingway Bench 测试发现模型在每句话里都塞一个隐喻，反而让阅读体验变得糟糕。"
+      "The MAD Podcast 主持人 Matt Turck 本期邀请了 Cloudflare 联合创始人兼 CEO Matthew Prince，展开了一场信息密度极高的对话。Matthew 抛出一个震撼数据：2026 年上半年，互联网上的 bot 流量首次超过了人类流量。他预测：「五年后，互联网上的流量可能是今天的一千倍。」但核心问题在于——bot 不点广告，而广告是互联网过去 28 年的商业模式基础，这意味着「未来五年，互联网的商业模式将发生根本性变化。」",
+      "对话还深入探讨了 Cloudflare 如何转型为 AI 基础设施公司，包括 Workers、AI Gateway 和 Agent 安全等产品线。Matthew 坦诚分享了 Cloudflare 近期「精简团队」以适应 AI 时代的争议决定，以及从草根创业到巨型上市公司的疯狂旅程。这是一期既有深度又带着黑色幽默的必听对话。"
     ],
-    "url": "https://www.youtube.com/watch?v=omX6wrLuX08"
+    "url": "https://www.youtube.com/watch?v=UN47z_opfmo"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "AI 将带来前所未有的创业浪潮。从「一人企业家」到中小企业的复兴，再到我们这个时代最大公司的涌现——Vercel 正在为这一切提供基础设施。",
-        "url": "https://x.com/rauchg/status/2070001110866354345"
-      },
-      {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "Claude Tag 有一些在实践中非常重要的微妙之处。这不仅仅是你在 Slack 里与 Claude 进行 1:1 交互——Claude 是作为一个任何用户都可以共享访问的同事来运行的。Agent 需要拥有自己的资源、工具权限和数据，就像系统中的其他任何用户一样。当你把这一点做好，它极其强大——例如将 Box 中的企业内容变成可移植的知识库。",
-        "url": "https://x.com/levie/status/2069975251476422664"
+        "text": "AI 监管远比看上去复杂——它本质上是一个巨大尺度的囚徒困境。理论上，如果全球顶尖 AI 实验室同步减速，前沿智能会以相似速率扩散。但如果美国自缚手脚而中国不减速，我们的延迟反而让对手获益。禁止这些模型？只会让美国落后更多，因为其他国家不会跟禁。最终核心赌局很简单：闭源模型能否永远保持前沿，还是终将被追赶或超越。开源权重模型将是最终赢家。",
+        "url": "https://x.com/levie/status/2070370225271251161"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "我们将不得不为「软件工厂」时代大规模重建基础设施。从数据库到操作系统再到网络层，每一个层面都在被 AI Agent 的需求重塑。Databricks 战胜 Snowflake 背后的故事、为什么每个人都在构建 meta-harness、以及如何在 1750 亿美元的巨头里维持研究/创业文化——这些都在我最新与 Databricks 高层的播客访谈中。",
-        "url": "https://x.com/swyx/status/2069937175899275475"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Grok Imagine Video 已成为 Vercel AI Gateway 上绝对的视频生成领先者，占开发者使用量的约 50%。同时，我们正在研究如何将设计标准「注入」编码 Agent——Next.js 的错误提示中新增了「Copy prompt」按钮，被开发者称为真正的 Agent 艺术品。",
+        "url": "https://x.com/rauchg/status/2070243120546218000"
       },
       {
-        "name": "Google Labs",
-        "handle": "GoogleLabs",
-        "text": "我们非常荣幸地宣布，Project Genie 获得了戛纳国际创意节 AI Craft 大奖！🏆 感谢我们了不起的 Labs 社区一路同行！这是 AI 创意工具首次获得行业最高荣誉。",
-        "url": "https://x.com/GoogleLabs/status/2069827839826809042"
-      },
-      {
-        "name": "Ryo Lu",
-        "handle": "ryolu_",
-        "text": "在 Notion 里用 Cursor，在 Cursor 里用 Notion。工具之间的边界正在被彻底消融——当你的 IDE 和知识库无缝融合，编程和思考变成同一件事。",
-        "url": "https://x.com/ryolu_/status/2069830172354986418"
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "text": "现在启动一个纯软件公司「愚蠢地难」。客户不要软件，他们要结果。任何横向产品都在倒计时——每个客户都想深度定制。机会确实存在，但你需要一个非常异端的 2-3 年世界观，才能造出好东西。",
+        "url": "https://x.com/adityaag/status/2070179913647485344"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
-        "text": "「社区是你的用户与你以及彼此之间的关系，而大多数团队从未想过要设计它。社区是新的护城河。功能可以被复制，归属感不能。」——来自 Figma Config 大会的洞见。",
-        "url": "https://x.com/zarazhangrui/status/2069900496304042343"
+        "text": "很多人误以为经营受众和经营公司是对立的。事实上，它们正日益成为同一件事。讲故事——向用户、投资人、候选人——正成为创始人最重要的工作。构建在变便宜，注意力在变贵。",
+        "url": "https://x.com/zarazhangrui/status/2070188279941738952"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "text": "Claude Design 非常出色。我给了它一个我正在构建的移动应用仓库，它完美复现了所有屏幕。不过在一个 prompt 之后它就开始提醒我省着用 token 了 😅",
-        "url": "https://x.com/petergyang/status/2069992268963135897"
+        "text": "我让 Codex 用浏览器自动浏览 Google Flights 和酒店网站，在指定日期范围内找出所有价格、保存直达预订链接并写入文档。下一步大概是直接让它全部预订好。Agent 正在从「帮你写代码」进化到「帮你生活」。",
+        "url": "https://x.com/petergyang/status/2070353698140958818"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "Codex App 的发布改变了游戏规则——看数据就知道非工程部门的采用率怎么爆发的。同时，OpenAI 内部已是「Codex for everything」——从产品到运营，全员都在用 Codex。",
+        "url": "https://x.com/thsottiaux/status/2070205719501254860"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "Anthropic 的 Claude Tag 正在引发热议。我会与 Peter Yang 和 Cat Wu 深入讨论这个话题——Claude Tag 的核心在于让 AI 成为团队中的共享同事，而不仅仅是个人工具。",
+        "url": "https://x.com/trq212/status/2070238581147455842"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
     "paras": [
-      "本期无新增 AI 公司官方博客。"
+      "Claude Blog 发布了《Building intelligent apps for Apple platforms with Claude in the Foundation Models framework》。Anthropic 为 Apple 的 Foundation Models 框架提供了 Claude 支持：开发者可以用 Apple 框架在设备端完成摘要和提取等轻量任务，当需要多步推理或代码生成时无缝切换到 Claude。Claude 还能搜索网络获取最新信息、执行代码进行数据分析，并将结果流式返回同一视图。该功能覆盖 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27。",
+      "详见：https://claude.com/blog/claude-for-foundation-models"
     ]
   },
   "colophon": {
     "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 13 位建造者 · 0 篇官方博客",
-    "generatedAt": "2026年6月26日 09:00"
+    "coverage": "本期覆盖 1 档播客 · 14 位建造者 · 1 篇官方博客",
+    "generatedAt": "2026年6月27日 12:00"
   }
 }
