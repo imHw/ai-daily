@@ -142,13 +142,14 @@ const issueInner = `    <header class="masthead">
     <section class="voices">${voices}
     </section>
 
+${d.blog && d.blog.label ? `
     <div class="section-label"><span>${esc(d.blog.label)}</span></div>
     <section class="article">
       <h2>${esc(d.blog.title)}</h2>
       <div class="meta-line">${esc(d.blog.meta)}</div>
       ${paras(d.blog.paras)}
       <a class="read-more" href="${esc(d.blog.url)}">阅读原文 ↗</a>
-    </section>
+    </section>` : ''}
 
     <footer class="colophon">
       数据来源 · <strong>${esc(d.colophon.source)}</strong><br>

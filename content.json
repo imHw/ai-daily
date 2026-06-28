@@ -1,87 +1,80 @@
 {
   "issue": {
-    "vol": "Vol.177",
-    "date": "2026年6月27日",
-    "weekday": "星期六",
-    "dateISO": "2026-06-27",
-    "tagline": "AI 监管的囚徒困境：当代码与律法同时加速"
+    "vol": "Vol.178",
+    "date": "2026年6月28日",
+    "weekday": "星期日",
+    "dateISO": "2026-06-28",
+    "tagline": "GPT-5.6 分级准入：当政府开始为 AI 划定边界"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "AI 监管进入囚徒困境，编码 Agent 成为新常态",
+    "title": "GPT-5.6 受限发布，AI 前沿模型的「分级准入」时代到来",
     "paras": [
-      "Box CEO Aaron Levie 今日发表了两篇重磅长文，系统剖析了 AI 监管的囚徒困境本质。他指出，美国已形成事实上的 AI 监管：拥有前沿能力的模型在发布前需要接受政府审查。这听起来合理，但问题是——如果美国先行自我设限，中国等竞争对手却不减速，最终反而会让美国的延迟成了对手的优势。Levie 总结道：「简单的赌局是：闭源模型能否永远保持前沿地位，还是存在任何其他玩家或市场追赶上来的风险。」开源权重模型将成为最大赢家，因为它们暂时不受同样的管控约束。",
-      "与此同时，编码 Agent 正在成为行业的新常态。Guillermo Rauch 展示了 Vercel 如何将设计标准「注入」编码 Agent——Next.js 错误提示中的「Copy prompt」按钮被赞为「Agent 艺术品」。OpenAI 的 Thibault Sottiaux 则用数据证明，Codex App 发布后，非工程部门的采用率出现了爆发式增长——「Codex for everything at OpenAI」已非口号而是现实。",
-      "一个更深层的叙事来自 South Park Commons 合伙人 Aditya Agarwal：现在的纯软件公司「愚蠢地难做」——客户要的不是软件，而是结果。任何横向产品都在倒计时中，每个客户都想深度定制。在这个 AI 快速侵蚀软件层价值的时代，你需要一个「异端的 2-3 年世界观」才能做出好东西。结合 Zarazhangrui 的观察——「讲故事的能力正日益成为创始人最重要的工作，构建在变便宜，注意力在变贵」——我们看到的是一个正在被 AI 彻底重塑的创业范式。"
+      "美国时间 6 月 26 日，OpenAI 发布了 GPT-5.6 Sol，但这一次不是面向所有人。根据美国政府指令，新模型的访问权限仅限于约 20 家预先批准的公司。Every CEO Dan Shipper 率先在 X 上发文确认了这一消息——他的公司 Every 并未进入名单。他在长文中写道：「我理解并赞赏政府为确保美国基础设施免受网络攻击和前沿模型误用所做的努力，但我也坚信，广泛民主化地获取前沿模型对美国在 AI 竞赛中的领先地位至关重要。」",
+      "这个决定迅速引爆了 AI 社区的分裂讨论。Box CEO Aaron Levie 给出了最乐观的技术评估——「GPT-5.6 是真实的，看起来非常强大。对于需要大量工具调用和长时间运行 Agent 的知识工作者任务来说，它将极为强大。我们在 AI 进展上并没有撞墙。」但 YC CEO Garry Tan 的批评同样尖锐：「这种发布方式会扼杀所有小型初创公司的创新。」Peter Yang 则指出了核心讽刺：前沿模型被蒸馏成廉价开源模型，然后美国政府又开始对前沿模型设限——「接下来呢？美国公司创新更少，开源模型变得更有吸引力？」Sam Altman 本人则简短回应：「团队交出了辛辣的成果」，并透露「还没到不限量 token 的时代，但我们在努力。」",
+      "这标志着一个转折点：AI 前沿模型的发布正从「全面开放」转向「分层准入」。对于独立开发者和初创公司而言，能否持续获得最新模型的能力，正在成为一个生存问题。而开源模型的战略地位，也因此被重新推到了聚光灯下。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "MAD Podcast：Cloudflare CEO 谈机器洪水、边缘 AI 与 CEO 的艰难抉择",
+    "title": "No Priors：OpenAI 研究科学家 Noam Brown 谈传统基准为何无法评估现代 AI 模型",
     "meta": "YouTube · 2026年6月",
     "paras": [
-      "The MAD Podcast 主持人 Matt Turck 本期邀请了 Cloudflare 联合创始人兼 CEO Matthew Prince，展开了一场信息密度极高的对话。Matthew 抛出一个震撼数据：2026 年上半年，互联网上的 bot 流量首次超过了人类流量。他预测：「五年后，互联网上的流量可能是今天的一千倍。」但核心问题在于——bot 不点广告，而广告是互联网过去 28 年的商业模式基础，这意味着「未来五年，互联网的商业模式将发生根本性变化。」",
-      "对话还深入探讨了 Cloudflare 如何转型为 AI 基础设施公司，包括 Workers、AI Gateway 和 Agent 安全等产品线。Matthew 坦诚分享了 Cloudflare 近期「精简团队」以适应 AI 时代的争议决定，以及从草根创业到巨型上市公司的疯狂旅程。这是一期既有深度又带着黑色幽默的必听对话。"
+      "No Priors 主持人 Sarah Guo 邀请了 OpenAI 研究科学家 Noam Brown——AI 推理领域的先驱人物之一。Noam 在近期发表的一篇文章中指出，现有的 AI 评估框架存在根本性缺陷：它们不考虑测试时计算预算。他给出了一个简单有力的例子——给 GPT-3 一千万美元的推理预算，它的表现会和 10 美元预算时完全不同。「现有的负责任扩展政策完全不考虑推理时计算量，」Noam 解释道，「问题在于，我们现在处于一个模型能力是投入资金函数的时代。」安全评估框架必须回答一个他们从未面对过的问题：在什么预算下评估这些模型？",
+      "对话还深入探讨了超大规模推理时计算的影响、他对递归自我改进的看法，以及前沿 AI 竞争的下一步走向。这是一期在 GPT-5.6 时代尤为及时的对话——当模型能力不再是一个静态值，而是随投入资源动态变化时，我们的评估、监管乃至商业模式都需要根本性重构。"
     ],
-    "url": "https://www.youtube.com/watch?v=UN47z_opfmo"
+    "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "text": "GPT-5.6 Sol 已发布，但根据美国政府指令，访问权限仅限于约 20 家预先批准的公司。Every 不在名单上。一个只有 AI 巨头员工和极少数公司才能使用前沿模型的世界，意味着有抱负的学生、独立建造者和从业者将被剥夺学习、创造和竞争所需的工具。好在这似乎只是临时安排，OpenAI 和政府都在努力尽快开放更广泛的访问。",
+        "url": "https://x.com/danshipper/status/2070554118146412979"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "AI 监管远比看上去复杂——它本质上是一个巨大尺度的囚徒困境。理论上，如果全球顶尖 AI 实验室同步减速，前沿智能会以相似速率扩散。但如果美国自缚手脚而中国不减速，我们的延迟反而让对手获益。禁止这些模型？只会让美国落后更多，因为其他国家不会跟禁。最终核心赌局很简单：闭源模型能否永远保持前沿，还是终将被追赶或超越。开源权重模型将是最终赢家。",
-        "url": "https://x.com/levie/status/2070370225271251161"
+        "text": "GPT-5.6 是真实的，看起来非常强大。对于需要大量工具调用和长时间运行 Agent 的知识工作者任务来说，它将极为强大。我们在 AI 进展上并没有撞墙。这是一大步。",
+        "url": "https://x.com/levie/status/2070563281916620895"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Grok Imagine Video 已成为 Vercel AI Gateway 上绝对的视频生成领先者，占开发者使用量的约 50%。同时，我们正在研究如何将设计标准「注入」编码 Agent——Next.js 的错误提示中新增了「Copy prompt」按钮，被开发者称为真正的 Agent 艺术品。",
-        "url": "https://x.com/rauchg/status/2070243120546218000"
-      },
-      {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "text": "现在启动一个纯软件公司「愚蠢地难」。客户不要软件，他们要结果。任何横向产品都在倒计时——每个客户都想深度定制。机会确实存在，但你需要一个非常异端的 2-3 年世界观，才能造出好东西。",
-        "url": "https://x.com/adityaag/status/2070179913647485344"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "很多人误以为经营受众和经营公司是对立的。事实上，它们正日益成为同一件事。讲故事——向用户、投资人、候选人——正成为创始人最重要的工作。构建在变便宜，注意力在变贵。",
-        "url": "https://x.com/zarazhangrui/status/2070188279941738952"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "text": "这种发布模型的方式令人无法接受。用这种方式继续开发和发布，是在扼杀所有小型初创公司的创新。这绝不是发布模型该有的做法。",
+        "url": "https://x.com/garrytan/status/2070699046939820223"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "text": "我让 Codex 用浏览器自动浏览 Google Flights 和酒店网站，在指定日期范围内找出所有价格、保存直达预订链接并写入文档。下一步大概是直接让它全部预订好。Agent 正在从「帮你写代码」进化到「帮你生活」。",
-        "url": "https://x.com/petergyang/status/2070353698140958818"
+        "text": "所以让我理一下：我们发布前沿模型 → 它们被蒸馏成廉价开源模型 → 美国公司采用这些开源模型因为它们够好且更便宜 → 然后我们开始限制前沿模型的访问。接下来呢？美国公司创新更少，开源模型变得更有吸引力？",
+        "url": "https://x.com/petergyang/status/2070633838146134219"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "Codex App 的发布改变了游戏规则——看数据就知道非工程部门的采用率怎么爆发的。同时，OpenAI 内部已是「Codex for everything」——从产品到运营，全员都在用 Codex。",
-        "url": "https://x.com/thsottiaux/status/2070205719501254860"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Agent 是特别难调试的软件。AI 模型本身就是非确定性的——两个完全相同的 prompt 不一定产生相同输出。但 Agent 还是复杂的分布式系统，涉及跨函数和沙箱的多步计算，调用数十个可能宕机或限流的 API 服务。为 Vercel 上的 Agent 提供开箱即用的可观测性是我们团队的首要任务，反馈非常热烈。另外，「AI 的 UI 就是 @shadcn」。",
+        "url": "https://x.com/rauchg/status/2070676383135834334"
       },
       {
-        "name": "Thariq",
-        "handle": "trq212",
-        "text": "Anthropic 的 Claude Tag 正在引发热议。我会与 Peter Yang 和 Cat Wu 深入讨论这个话题——Claude Tag 的核心在于让 AI 成为团队中的共享同事，而不仅仅是个人工具。",
-        "url": "https://x.com/trq212/status/2070238581147455842"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "团队交出了辛辣的成果。另外，本周我们更新了 ChatGPT 中使用的 5.5 Instant 模型——我喜欢它的氛围。关于大家都在问的不限量 token，还没到那一步，但我们在努力。",
+        "url": "https://x.com/sama/status/2070614666288795703"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "关于「品味」的讨论最有趣的是，很多评论来自从未建造过任何东西的人。不进入竞技场就无法获得品味——就像厨师不能指望第一道菜就完美，但经过 100 道菜、10000 次迭代后，第 101 道菜就内化了所有教训。AI 在品味上有一个公平的机会——它可能真的能学会品味，这将是值得关注的实验。",
+        "url": "https://x.com/nikunj/status/2070649602953576825"
       }
-    ]
-  },
-  "blog": {
-    "label": "官方博客",
-    "paras": [
-      "Claude Blog 发布了《Building intelligent apps for Apple platforms with Claude in the Foundation Models framework》。Anthropic 为 Apple 的 Foundation Models 框架提供了 Claude 支持：开发者可以用 Apple 框架在设备端完成摘要和提取等轻量任务，当需要多步推理或代码生成时无缝切换到 Claude。Claude 还能搜索网络获取最新信息、执行代码进行数据分析，并将结果流式返回同一视图。该功能覆盖 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27。",
-      "详见：https://claude.com/blog/claude-for-foundation-models"
     ]
   },
   "colophon": {
     "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 14 位建造者 · 1 篇官方博客",
-    "generatedAt": "2026年6月27日 12:00"
+    "coverage": "本期覆盖 1 档播客 · 15 位建造者 · 0 篇官方博客",
+    "generatedAt": "2026年6月28日 10:00"
   }
 }
