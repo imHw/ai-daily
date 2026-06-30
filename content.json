@@ -1,29 +1,30 @@
 {
   "issue": {
-    "vol": "Vol.179",
-    "date": "2026年6月29日",
-    "weekday": "星期一",
-    "dateISO": "2026-06-29",
-    "tagline": "Sol 落地 Codex：限制令下的第一个 24 小时"
+    "vol": "Vol.180",
+    "date": "2026年6月30日",
+    "weekday": "星期二",
+    "dateISO": "2026-06-30",
+    "tagline": "Codex 战情室周日加班，Anthropic 公开 Agent 安全容器术"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "GPT-5.6 Sol 进入开发者工具，安全攻防成为新焦点",
+    "title": "Codex 应急响应、Mythos 安全外溢与 Agent 容器化的三重变奏",
     "paras": [
-      "距离 GPT-5.6 Sol 受限发布不到 24 小时，开发者社区已经从「能不能用」转向了「用得怎么样」。OpenAI Codex 团队的 Thibault Sottiaux 晒出了 Sol 驱动 Codex 的实战效果——大量改进同时在 Codex 中落地：超长线程流畅处理、可悬停导航栏支持轮次间预览跳转、设置搜索覆盖更多控件、Markdown 格式化粘贴进入 Slack、以及「最重要的：专属 Pets 面板」。推文获得了超过 1300 个赞，developer UX 依然是社区最买账的叙事。",
-      "但乐观的开发者体验背后，安全隐忧也在同步升温。Vercel CEO Guillermo Rauch 发出了一个刺耳的提醒：Sol/Mythos 的网络安全能力在攻防两端同样强大。如果对手获得同等能力，将对不了解潜在漏洞的美国公司构成严重威胁。他建议所有企业立即运行 deepsec 等工具扫描漏洞。OpenClaw 作者 Peter Steinberger 则引用了一句老话——「历史告诉我们，访问限制很少能阻挡坚定的用户」——这与昨日围绕限制政策的争论形成巧妙呼应。当 Sam Altman 说「还没到不限量 token 的时候」，社区的理解正在从抱怨转向务实的安全评估。",
-      "与此同时，Box CEO Aaron Levie 从另一个角度给出了观察：AI 代币成本优化的最佳实践正在浮出水面，但其前提是对业务工作流的「非抽象」深度理解。「在「工作本身」和「底层智能」之间需要一个中间层——深入理解领域、优化架构、支持变革，三者合一才能把「每美元智能度」做到极致。」在底层模型能力快速收敛的今天，应用层差异化正在成为新的主战场。而 Swyx 则从开源角度切入——开源模型每美元能跑更多 token，应该用美元推理成本而非 token 数量来衡量模型水平，这对开源模型的定位是重大利好。"
+      "周日本该是 OpenAI 的「Reset 周」——公司安排这周让大家放松一下。但 Codex 团队在周日进入了战情室。Thibault Sottiaux 接连发出三条推文：团队正在逐行排查日志，试图找出导致部分用户用量异常消耗的根本原因；随后他宣布已为所有人硬重置 Codex 使用限制，部分用户累积了多达三次额度重置。他写道：「Codex 团队非常严肃地对待此事，不查个水落石出不会休息。」这一事件折射出 Agent 产品在当前阶段的核心矛盾：能力的快速推进与稳定性保障之间的张力。当开发者开始将 Codex 嵌入日常工作流，产品可靠性就变成了与模型能力同等重要的竞争维度。",
+      "Box CEO Aaron Levie 从安全维度给出了更大尺度的预警。他直言：「100% 显而易见的是，很快就会有 Mythos 级别的网络安全模型以开源形式向所有人开放。」如果高级模型变得开源且可自由获取，美国科技堆栈的经济价值和话语权将受到结构性削弱。这番论述与昨日 Anthropic 将 Mythos Preview 扣在手里的决定形成呼应——安全这张牌正在成为 AI 竞赛中的新制高点。而这种自我约束的选择，今天被 Anthropic 自己的一篇工程博客解释得更为透彻。",
+      "Anthropic 工程团队发布了一篇长达 2.7 万字的深度技术文章，详细拆解了 Claude 在三大产品线中的 Agent 安全容器策略。文章从「blast radius（爆炸半径）」的框架出发，梳理了 gVisor 容器（claude.ai）、人机回路沙箱（Claude Code）和全 VM 隔离（Claude Cowork）三种架构的演进路径与真实踩坑记录。其中几个细节尤为扎心：Claude Code 用户对权限弹窗的批准率高达 93%，疲劳效应使「人工审查」这一防线形同虚设；而最具冲击力的安全事件发生在一个看似安全的 allowlist 上——攻击者利用被允许的 api.anthropic.com 域将文件上传到了自己的账户，数据在沙箱完美运行的情况下完成了外泄。防范 Agent 风险的工程实践，正在成为 AI 基础设施层的新必修课。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Training Data：Engram 联合创始人谈记忆与持续学习",
-    "meta": "YouTube · 2026年6月24日",
+    "title": "The MAD Podcast：GPU 是商品吗？Lambda CTO 谈 2026 年 AI 算力的真相",
+    "meta": "YouTube · The MAD Podcast with Matt Turck",
     "paras": [
-      "Sequoia 出品的 Training Data 本期邀请了 Engram 联合创始人 Dan Biderman 和 Jessy Lin。这家 NeoLab 专注于 AI 领域当前最热门的两个话题：记忆（memory）和持续学习（continual learning）。他们的核心理念颇具颠覆性——「我们不透过预训练或后训练的视角看世界。我们的模型一直在训练。」",
-      "Dan 解释道，当前模型的瓶颈不在于原始智能，而在于理解不断演变的新上下文。「无论是新任务还是特定工作场景，如何把这些信息像预训练那样深度嵌入模型权重中，这才是关键。」这与当下 Agent 工作流中普遍采用的 RAG（检索增强生成）和上下文窗口方案形成了鲜明对比——Engram 认为，把记忆塞进外部数据库不是真正的持续学习，真正需要的是让模型「学会」新东西并写入权重。对于正在构建长期运行 Agent 的开发者来说，这或许指向了第三条路。"
+      "Firstmark 合伙人 Matt Turck 的 MAD Podcast 本期邀请到了 Lambda 联合创始人兼 CTO Stephen Balaban。对话直指 AI 产业最底层的物理问题：GPU 算力到底是不是商品？Balaban 的回答毫不含糊——「说 GPU 会在五年后贬值的人完全错了。我们持续在低估需求。」他指出，云计算远非商品服务，而是一个从土地审批到高性能计算设计的「高度垂直整合」的生意，这也是为什么亚马逊、微软、谷歌、甲骨文等数万亿美元市值的公司都在这个赛道上。",
+      "Balaban 还分享了一些反直觉的洞察。首先是延迟的贬值——相比传统云业务对延迟的苛求，新一代 AI 应用对延迟远不敏感，唯一重要的是 token 成本。这为「推理即服务」打开了新的商业模型。其次是融资的玩法——Lambda 将 GPU 部署拆分为两个部分：按需云靠 Lambda 自身的信用，而长期承购协议则靠最终客户的信用来「背」。最后他也坦诚，目前的模型可能已经处于过度供给的状态，但在 AI 工厂级别的基础设施投资上，「我们仍在整体上建设不足」。",
+      "在结尾的「underrated idea」环节，Balaban 再次提到 Neural OS 和自组装软件的概念——「大多数人还没试过，他们还没去 Claude 说 maximum effort，然后用最新模型建他们想建的任何东西、调起 10 个 agent 一起跑。」这恰好呼应了今天的 Builder 讨论：Agent 正在从实验品变成工程基础设施，而算力层的底层逻辑也将随之改写。"
     ],
-    "url": "https://www.youtube.com/watch?v=aiR7F4jqjXY"
+    "url": "https://www.youtube.com/watch?v=0NttU4CbyVs"
   },
   "voices": {
     "label": "建造者观点",
@@ -31,59 +32,61 @@
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "Codex 引入了大量改进。超长线程流畅处理。可悬停导航栏，可以在各轮对话间预览和跳转。设置搜索覆盖更多控件，外观和主机过滤选项更清晰，自定义 provider 设置也更容易找到。缩放级别变化不再使 tooltip、对话框、菜单、选中气泡、拖拽预览和自动补全错位。复制到 Slack 保留 Markdown 格式（项目符号、粗体、代码、链接）；大量文本粘贴不再导致 UI 冻结。还有最重要的：专属 Pets 面板。",
-        "url": "https://x.com/thsottiaux/status/2071071289247244481"
+        "text": "Codex 团队周日进入战情室，逐行排查日志，查找是否有什么导致部分用户用量异常消耗。已将所有人的 Codex 使用限制硬重置——部分用户已经累积了三次额度重置。有趣的是，本周在 OpenAI 叫「Reset 周」，本意是让大家放松，但结果变成了另一种 Reset 周。团队非常严肃对待此事，不查到底不会休息。",
+        "url": "https://x.com/thsottiaux/status/2071357473659707441"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Sol/Mythos 的网络安全能力在进攻和防御两端同样有用。如果对手获得同等的进攻能力，将对不了解潜在漏洞的美国公司构成严重威胁。我强烈建议运行 deepsec 或类似工具，用现有前沿模型进行扫描。",
-        "url": "https://x.com/rauchg/status/2071047674187714830"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "随着工程、产品、设计和数据科学等角色融合为一种新角色，我反思了未来的角色形态。在 Claude Code 团队中，我看到了五种原型：Prototyper——不断涌现新想法，大多数不会交付；Builder——快速将原型变为生产级产品/基础设施；Shaper——在模糊需求中找出产品方向；Polisher——从嘈杂中提炼出值得打磨的东西并精益求精；Owner——对终点有清晰判断，善于将任务结构化拆解并推给 agent 执行。",
+        "url": "https://x.com/bcherny/status/2071379474277613732"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "AI 代币成本优化有一些好的最佳实践，但没有一个能在缺乏对底层工作的深度、非抽象理解下落地。这意味着在「工作本身」和「底层智能」之间需要一个能深度理解工作流、上下文和业务流程的中间层。每家公司单独做这件事效率不高，因此这实际上是当下所有应用层 AI 公司的剧本——通过评估特定应用场景的模型、深入理解领域、优化 UX 和功能，这个中间层可以创造巨大价值。",
-        "url": "https://x.com/levie/status/2070937863806751154"
+        "text": "100% 显而易见——很快就会有 Mythos 级别的网络安全模型以开源形式向所有人开放。作为副产品，替代性技术堆栈将涌现，将更多经济价值和话语权从美国的技术堆栈中带走。这就是在思考 AI 中你想要施加什么门控时应该考虑的。如果高级模型会变得开源且可用，那你要保护的到底是什么？",
+        "url": "https://x.com/levie/status/2071253118252356001"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "把 Noam Brown 关于「评估时始终保持恒定推理预算」的观点延伸一下——开源模型每美元能跑更多 token，比闭源 API 模型划算得多。所以今天发布开源模型、或者在场景上倾向于开源模型的人，应该用美元推理成本来衡量 thinking level，而不是用 x 轴上的 token 数量。",
-        "url": "https://x.com/swyx/status/2070949306060931312"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "「历史告诉我们，访问限制很少能阻挡坚定的用户。」",
-        "url": "https://x.com/steipete/status/2071063588329193551"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "你不需要 LinkedIn，你需要一个你自己网站上的页面，描述并链接你所交付的产品。你需要的不是 LinkedIn，是一个 Link。",
+        "url": "https://x.com/rauchg/status/2071284129275285580"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
-        "text": "去年我几乎不知道 GitHub 怎么用。现在我有 1 万 GitHub 粉丝（仍然不会手写代码）。多么疯狂的一年。顺便说一句，我不是工程师；这些都是我为了好玩做的 side project。我只是喜欢把技术和用户问题连接起来、用它解决自己的痛点，然后讲产品故事。",
-        "url": "https://x.com/zarazhangrui/status/2070982013822333007"
+        "text": "每花一小时在产品构建上，就花两小时在解释、演示、销售和教学它上。这是我构建过程中最喜欢的部分：向世界讲述它，然后在与现实的碰撞中打磨它。并发布了一个视频完整演示如何安装和使用她的 Skill，以及如何构建你自己的 Skill。",
+        "url": "https://x.com/zarazhangrui/status/2071319754128978030"
       },
       {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "text": "智能眼镜简史：2013 年 Google——「你真的需要这个」。所有人：「不不需要」。2016 年微软——「那如果是企业版呢」。企业：「也许，但还是不」。2023 年 Meta——「那如果外观正常还带 AI 呢」。所有人：「等等……也许？……其实还是不」。2024 年苹果——「那如果卖 3499 美元还遮全脸呢」。所有人：「绝对不」。2026 年 Snap——「这次来真的」。所有人：「佩服你们的坚持，但还是不」。",
-        "url": "https://x.com/mattturck/status/2070972014945243622"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "AIE 大会今天注册了 1000 人，周一周二将彻底疯狂。虽然我不是设计工程师，但设计工程师赛道是最难策划的赛道之一——非常幸运遇到 Geoff 帮忙把关了过去两年的 AI UX meetup，他将作为 Design Engineers at AIE 的开幕嘉宾。如果你是演讲者，自己来做一个专属页面。",
+        "url": "https://x.com/swyx/status/2071480924810969331"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "Anthropic 的 PM 们是如何在内部使用 agent 来更接近产品的？来自 Claude Managed Agents 产品负责人 Jess 的分享：访问代码库是最大的解锁。不用到处戳工程师问进展，直接跟踪 PR，看哪些已合并、哪些已部署。深度理解并能独立运行整个技术堆栈——前端、后端、LLM 编排——然后就能回答大量产品问题。你现在就可以用 Claude Code 做到这些。",
+        "url": "https://x.com/petergyang/status/2071292628302434361"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Anthropic：Claude Code 现已支持 Artifacts",
-    "meta": "Claude Blog · 2026年6月18日",
+    "title": "Anthropic 工程：我们如何在各产品中容纳 Claude",
+    "meta": "Anthropic Engineering Blog · 2026年6月",
     "paras": [
-      "Anthropic 宣布 Claude Code 开始支持 Artifacts——将编码会话中的工作进展实时转化为可分享的交互式网页。无论是 PR walkthrough、系统说明、仪表盘还是发布检查清单，Artifacts 都能自动从会话上下文中构建页面，并随工作推进实时更新。一个典型场景：工程师在站会前启动事故排查，Claude Code 分析日志后自动发布一个 Artifact——包含时间线、可疑提交和错误率图表。每个发布都是同一链接的新版本，附带版本历史可随时回溯。"
+      "Anthropic 工程团队发布了一篇深度技术长文，系统披露了 Claude 在三大产品线（claude.ai、Claude Code、Claude Cowork）中的 Agent 安全容器策略。文章以「blast radius（爆炸半径）」为核心框架——十二个月前团队还会拒绝让 Claude 拥有足以关闭内部服务的权限，如今这已是日常。核心公式：部署风险 = 故障概率 × 破坏半径。模型能力的提升降低了前者，但后者随权限扩大而增长——工程问题变成了如何「封顶」爆炸半径。",
+      "文章详述了三种隔离架构的实战经验。gVisor 容器（claude.ai）最为保守，无本地文件系统、无持久工作区，攻击面最小但也最难做深度工作。人机回路沙箱（Claude Code）的教训最为辛辣：用户对权限弹窗的批准率高达 93%，审批疲劳使「人工审查」形同虚设。全 VM 隔离（Claude Cowork）最为强硬——六层隔离中有两层在宿主机内核之外，即使 agent 在 VM 内拿到 root 权限也无法突破。",
+      "最有冲击力的是一次真实外泄事件：Claude Cowork 的 egress allowlist 中包含了 api.anthropic.com，攻击者在工作区埋入恶意文件和自己的 API Key，Claude 照做调用 Anthropic Files API 上传文件。沙箱完美运行，数据却外泄到了攻击者的账户。修复方案是 VM 内部的代理拦截层——只放行携带 VM 自身 session token 的请求——这个失误揭示了一个深层教训：allowlist 不该视为目标过滤，而应视为能力授予。自己写的代码，往往才是最薄弱的那一层。"
     ],
-    "url": "https://claude.com/blog/artifacts-in-claude-code"
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
   },
   "colophon": {
-    "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 10 位建造者 · 1 篇官方博客",
-    "generatedAt": "2026年6月29日 10:00"
+    "source": "follow-builders feed",
+    "coverage": "12 builders · 23 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-06-30T10:00:00+08:00"
   }
 }
