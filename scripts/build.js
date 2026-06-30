@@ -115,7 +115,7 @@ const voices = (d.voices.items || []).map(v => `
               <span class="voice-handle">@${esc(v.handle)}${v.org ? ' · ' + esc(v.org) : ''}</span>
               ${v.tag ? `<span class="voice-tag">${esc(v.tag)}</span>` : ''}
             </div>
-            <p class="voice-quote">${esc(v.text || v.quote)}</p>
+            <p class="voice-quote">${esc(v.text || v.quote)}${v.url ? ` <a class="read-more" href="${v.url}" target="_blank" rel="noopener">原推 →</a>` : ''}</p>
           </article>`).join('\n');
 
 const issueInner = `    <header class="masthead">
