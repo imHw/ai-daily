@@ -1,30 +1,30 @@
 {
   "issue": {
-    "vol": "Vol.180",
-    "date": "2026年6月30日",
-    "weekday": "星期二",
-    "dateISO": "2026-06-30",
-    "tagline": "Codex 战情室周日加班，Anthropic 公开 Agent 安全容器术"
+    "vol": "Vol.181",
+    "date": "2026年7月1日",
+    "weekday": "星期三",
+    "dateISO": "2026-07-01",
+    "tagline": "Codex 沙箱最小权限进化，Claude 登陆 Azure 正式商用"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Codex 应急响应、Mythos 安全外溢与 Agent 容器化的三重变奏",
+    "title": "Codex 沙箱安全升级、Claude Code 后台子代理与 Azure 平台扩张的三重奏",
     "paras": [
-      "周日本该是 OpenAI 的「Reset 周」——公司安排这周让大家放松一下。但 Codex 团队在周日进入了战情室。Thibault Sottiaux 接连发出三条推文：团队正在逐行排查日志，试图找出导致部分用户用量异常消耗的根本原因；随后他宣布已为所有人硬重置 Codex 使用限制，部分用户累积了多达三次额度重置。他写道：「Codex 团队非常严肃地对待此事，不查个水落石出不会休息。」这一事件折射出 Agent 产品在当前阶段的核心矛盾：能力的快速推进与稳定性保障之间的张力。当开发者开始将 Codex 嵌入日常工作流，产品可靠性就变成了与模型能力同等重要的竞争维度。",
-      "Box CEO Aaron Levie 从安全维度给出了更大尺度的预警。他直言：「100% 显而易见的是，很快就会有 Mythos 级别的网络安全模型以开源形式向所有人开放。」如果高级模型变得开源且可自由获取，美国科技堆栈的经济价值和话语权将受到结构性削弱。这番论述与昨日 Anthropic 将 Mythos Preview 扣在手里的决定形成呼应——安全这张牌正在成为 AI 竞赛中的新制高点。而这种自我约束的选择，今天被 Anthropic 自己的一篇工程博客解释得更为透彻。",
-      "Anthropic 工程团队发布了一篇长达 2.7 万字的深度技术文章，详细拆解了 Claude 在三大产品线中的 Agent 安全容器策略。文章从「blast radius（爆炸半径）」的框架出发，梳理了 gVisor 容器（claude.ai）、人机回路沙箱（Claude Code）和全 VM 隔离（Claude Cowork）三种架构的演进路径与真实踩坑记录。其中几个细节尤为扎心：Claude Code 用户对权限弹窗的批准率高达 93%，疲劳效应使「人工审查」这一防线形同虚设；而最具冲击力的安全事件发生在一个看似安全的 allowlist 上——攻击者利用被允许的 api.anthropic.com 域将文件上传到了自己的账户，数据在沙箱完美运行的情况下完成了外泄。防范 Agent 风险的工程实践，正在成为 AI 基础设施层的新必修课。"
+      "Codex 的沙箱安全迎来了重大架构升级。Thibault Sottiaux 宣布 Codex 为高级用户推送了一套全新的权限配置文件系统，取代此前粗粒度的沙箱模式：可复用、可继承的权限配置，将 OS 级的文件读写/拒绝规则（包括 **/*.env 黑名单）与按域划分的网络和 Unix Socket 权限绑定，外加 fail-closed 的管理员白名单。这套设计的核心哲学是「按任务最小权限」——每个 agent 只拿到刚好够用的权限，不多不少。与此同时，Codex 团队再次全量重置使用额度，并向用户账户中额外存入一次自主重置，作为对部分用户用量消耗快于预期的补偿。经过排查，团队未发现单一根因，而是若干小问题的叠加。从周日的「战情室」到今天的沙箱升级，Codex 的这轮应急迭代只用了一天。",
+      "Claude Code 的产品节奏同样密集。Boris Cherny 透露下一版本中，子代理将默认在后台运行，用户可以在子代理工作时继续与 Claude 对话——如果需要前台运行，直接告诉 Claude 即可。这个看似小的交互改动，背后是编程 Agent 从「单线程助手」到「并行工作流编排者」的范式迁移。与此同时，Claude 正式登陆 Microsoft Foundry，在 Azure 上全面可用。Azure 客户现在可以调用 Claude Opus 4.8 和 Claude Haiku 4.5，享受 Azure 原生认证、计费和承诺消费折扣。推理运行在 Anthropic 运营的 Azure 基础设施上，Prompt Caching 和 Extended Thinking 均已支持。这是 Claude 在企业分发渠道上迈出的又一大步。",
+      "Anthropic 工程团队今天也发布了两篇重要博客。一篇是 Claude Code 质量问题的正式事后分析，坦诚披露了三个月内三个独立 bug 的根因：默认推理强度从 high 降至 medium 导致智能度下降、一个清理旧思考历史的 bug 在每轮都被触发导致「健忘症」、以及一条限制回复长度的 system prompt 意外拉低了 3% 的编码质量。另一篇则深入 Managed Agents 的架构设计，用「把大脑和双手解耦」的比喻，讲述了如何将 session、harness 和 sandbox 虚拟化成独立接口，让它们能独立失败、独立替换——正如操作系统当年把硬件虚拟化成文件和进程。好架构的生命力在于接口足够通用，以至于能容纳「尚未被构想的程序」。Agent 基础设施正在成为 AI 时代的操作系统层。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "The MAD Podcast：GPU 是商品吗？Lambda CTO 谈 2026 年 AI 算力的真相",
-    "meta": "YouTube · The MAD Podcast with Matt Turck",
+    "title": "No Priors：Intel CEO 陈立武谈半导体供应链重塑与 AI 时代芯片战争",
+    "meta": "YouTube · No Priors with Elad Gil & Sarah Guo",
     "paras": [
-      "Firstmark 合伙人 Matt Turck 的 MAD Podcast 本期邀请到了 Lambda 联合创始人兼 CTO Stephen Balaban。对话直指 AI 产业最底层的物理问题：GPU 算力到底是不是商品？Balaban 的回答毫不含糊——「说 GPU 会在五年后贬值的人完全错了。我们持续在低估需求。」他指出，云计算远非商品服务，而是一个从土地审批到高性能计算设计的「高度垂直整合」的生意，这也是为什么亚马逊、微软、谷歌、甲骨文等数万亿美元市值的公司都在这个赛道上。",
-      "Balaban 还分享了一些反直觉的洞察。首先是延迟的贬值——相比传统云业务对延迟的苛求，新一代 AI 应用对延迟远不敏感，唯一重要的是 token 成本。这为「推理即服务」打开了新的商业模型。其次是融资的玩法——Lambda 将 GPU 部署拆分为两个部分：按需云靠 Lambda 自身的信用，而长期承购协议则靠最终客户的信用来「背」。最后他也坦诚，目前的模型可能已经处于过度供给的状态，但在 AI 工厂级别的基础设施投资上，「我们仍在整体上建设不足」。",
-      "在结尾的「underrated idea」环节，Balaban 再次提到 Neural OS 和自组装软件的概念——「大多数人还没试过，他们还没去 Claude 说 maximum effort，然后用最新模型建他们想建的任何东西、调起 10 个 agent 一起跑。」这恰好呼应了今天的 Builder 讨论：Agent 正在从实验品变成工程基础设施，而算力层的底层逻辑也将随之改写。"
+      "No Priors 本期请到了 Intel CEO 陈立武（Lip-Bu Tan），一位从华登国际传奇投资人到 Cadence CEO、再到 Intel 掌门的半导体行业老兵。66 岁接下「业界最难的 CEO 工作」，他的理由简单直接：Intel 是美国半导体生态的基石公司，值得再做一次。上任 14 个月，他做的第一件事是改变文化——「先学会爬，保持谦逊，聆听客户」。他把所有工程线直接归到自己手下，这种扁平化在 Intel 的体量上极为罕见。",
+      "陈立武分享了几个逆势判断：一是 CPU 在 Agentic AI 时代意外翻红——推理场景中 CPU 与 GPU 的比例可能从 1:8 走向 1:1，因为强化学习和 Agent 编排更吃 CPU。二是美国本土制造的必要性——「你不能只依赖一两个地理位置上的玩家」，Intel 正在推进 14A（1.4nm）量产并规划 1nm 和 0.7nm。三是供应链的隐忧——电力、氦气、内存短缺都在成为瓶颈。他在结尾也透露了与 Elon Musk 的 TeraFab 合作：Musk「质疑每一个步骤，为什么传统方式要这样做」，这种不按常理出牌反倒让陈立武觉得「耳目一新」。",
+      "最精彩的细节来自 Jensen Huang 的 50 亿美元投资——「现在变成了 250 亿，甚至更多」。陈立武也分享了与特朗普政府打交道的经历：上任仅三个月就被要求辞职，他花了一个周末找到机会当面解释自己生于马来西亚、长于新加坡、MIT 毕业、从未在美国以外居住的经历，最终获得留任。这段插曲比任何商业分析都更能说明 Intel 掌门的处境：不仅是技术竞赛，更是地缘政治棋局中的关键棋子。"
     ],
-    "url": "https://www.youtube.com/watch?v=0NttU4CbyVs"
+    "url": "https://www.youtube.com/watch?v=asCgCv2XB4s"
   },
   "voices": {
     "label": "建造者观点",
@@ -32,61 +32,67 @@
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "Codex 团队周日进入战情室，逐行排查日志，查找是否有什么导致部分用户用量异常消耗。已将所有人的 Codex 使用限制硬重置——部分用户已经累积了三次额度重置。有趣的是，本周在 OpenAI 叫「Reset 周」，本意是让大家放松，但结果变成了另一种 Reset 周。团队非常严肃对待此事，不查到底不会休息。",
-        "url": "https://x.com/thsottiaux/status/2071357473659707441"
+        "text": "Codex 高级用户注意：我们推送了一套取代粗粒度沙箱模式的替代方案——可复用、可继承的权限配置文件，将 OS 级文件读写/拒绝规则（包括 **/*.env）绑定到按域划分的网络和 Unix Socket 权限，外加 fail-closed 管理员白名单。按任务最小权限。同时，Codex 使用额度将在一小时内全量重置，并额外向你的账户存入一次自主重置。我们调查了用量消耗快于预期的报告，未发现单一根因，而是若干小问题的叠加。",
+        "url": "https://x.com/thsottiaux/status/2071636285807059315"
       },
       {
         "name": "Boris Cherny",
         "handle": "bcherny",
-        "text": "随着工程、产品、设计和数据科学等角色融合为一种新角色，我反思了未来的角色形态。在 Claude Code 团队中，我看到了五种原型：Prototyper——不断涌现新想法，大多数不会交付；Builder——快速将原型变为生产级产品/基础设施；Shaper——在模糊需求中找出产品方向；Polisher——从嘈杂中提炼出值得打磨的东西并精益求精；Owner——对终点有清晰判断，善于将任务结构化拆解并推给 agent 执行。",
-        "url": "https://x.com/bcherny/status/2071379474277613732"
+        "text": "下一版 Claude Code 中，子代理将默认在后台运行，这样你可以在子代理工作的同时继续和 Claude 对话。如果你想让 agent 在前台运行，直接告诉 Claude 就好。这看起来是个小改动，但标志着一个重要的范式迁移：编程 Agent 正从单线程助手变成并行工作流编排者。",
+        "url": "https://x.com/bcherny/status/2071647677591466098"
+      },
+      {
+        "name": "Claude 官方",
+        "handle": "claudeai",
+        "text": "Claude 现已正式登陆 Microsoft Foundry，在 Azure 上全面可用。Azure 客户可以调用 Claude Opus 4.8 和 Claude Haiku 4.5，享受 Azure 原生认证、计费和承诺消费折扣。推理运行在 Anthropic 运营的 Azure 基础设施上，Prompt Caching 和 Extended Thinking 现已支持，更多能力即将推出。",
+        "url": "https://x.com/claudeai/status/2071653958905467027"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "100% 显而易见——很快就会有 Mythos 级别的网络安全模型以开源形式向所有人开放。作为副产品，替代性技术堆栈将涌现，将更多经济价值和话语权从美国的技术堆栈中带走。这就是在思考 AI 中你想要施加什么门控时应该考虑的。如果高级模型会变得开源且可用，那你要保护的到底是什么？",
-        "url": "https://x.com/levie/status/2071253118252356001"
+        "text": "这触及了 AI 领域最核心的争论之一。如果一个封闭技术堆栈永远保持大幅领先，那么垂直整合和美国门控策略就能奏效——因为你始终控制着谁能接触到最好技术，而且技术会留在国内。但问题在于，如果做不到永远大幅领先，那你要保护的到底是什么？",
+        "url": "https://x.com/levie/status/2071775583072375214"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "你不需要 LinkedIn，你需要一个你自己网站上的页面，描述并链接你所交付的产品。你需要的不是 LinkedIn，是一个 Link。",
-        "url": "https://x.com/rauchg/status/2071284129275285580"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "每花一小时在产品构建上，就花两小时在解释、演示、销售和教学它上。这是我构建过程中最喜欢的部分：向世界讲述它，然后在与现实的碰撞中打磨它。并发布了一个视频完整演示如何安装和使用她的 Skill，以及如何构建你自己的 Skill。",
-        "url": "https://x.com/zarazhangrui/status/2071319754128978030"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "AIE 大会今天注册了 1000 人，周一周二将彻底疯狂。虽然我不是设计工程师，但设计工程师赛道是最难策划的赛道之一——非常幸运遇到 Geoff 帮忙把关了过去两年的 AI UX meetup，他将作为 Design Engineers at AIE 的开幕嘉宾。如果你是演讲者，自己来做一个专属页面。",
-        "url": "https://x.com/swyx/status/2071480924810969331"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "text": "被低估的一点是，像 GLM 这样的强开源权重模型的兴起，实际上会增强 Google 的地位。更多公司将开始尝试微调开源权重模型，价值将流向基础设施层。企业希望在自有环境中灵活运行经过定制微调的模型，而 Google Cloud 拥有从 TPU 到 Vertex AI 的完整基础设施链来承接这些需求。",
+        "url": "https://x.com/realmadhuguru/status/2071637885154148785"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "text": "Anthropic 的 PM 们是如何在内部使用 agent 来更接近产品的？来自 Claude Managed Agents 产品负责人 Jess 的分享：访问代码库是最大的解锁。不用到处戳工程师问进展，直接跟踪 PR，看哪些已合并、哪些已部署。深度理解并能独立运行整个技术堆栈——前端、后端、LLM 编排——然后就能回答大量产品问题。你现在就可以用 Claude Code 做到这些。",
-        "url": "https://x.com/petergyang/status/2071292628302434361"
+        "text": "对于写作和编辑任务，朴素的 Claude Web 界面仍然是最好的选择——胜过 Codex 和 Claude Code。我的猜测是，编程 Agent 的系统提示中的某些内容让它们在写作方面表现更差。这引出了一个有趣的问题：Agent 的专用化是否必然以牺牲通用能力为代价？我有太多关于受限访问和开源的犀利观点，准备一股脑写成一篇文章。",
+        "url": "https://x.com/petergyang/status/2071731343390851519"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "我构建了一个 Chrome 扩展，将你的「稍后阅读」列表自动转化为日历上的专属阅读时间。保存 5 篇文章后，它会自动在 Google 日历上预定 30 分钟的「阅读块」，附上文章链接，让你真正坐下来读完。无需账号，无需服务器，一切在本地运行。另外，我从 Anthropic 的一位 PM 那里听到：「写作的市场价值大幅上升了。」无论在构建产品（有效引导模型）还是建立受众方面，好的写作和清晰表达都至关重要。写作能力在技术圈长期被低估了——是时候改变这一点。",
+        "url": "https://x.com/zarazhangrui/status/2071766827345285411"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "AIE 大会 Workshop 日正在进行中。周一早上九点，每个非实验 Workshop 房间都座无虚席——隔壁就是 OpenAI 的 Workshop，而我们这边有 Snyk、Atlassian、Neo4j、Arize AI、Akamai 和 Together Compute 的并行房间。大家对 AI 工程化的热情是实打实的，不是泡沫。",
+        "url": "https://x.com/swyx/status/2071634789669777716"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Anthropic 工程：我们如何在各产品中容纳 Claude",
+    "title": "Anthropic 工程：Claude Code 质量问题事后分析 & Managed Agents 架构设计",
     "meta": "Anthropic Engineering Blog · 2026年6月",
     "paras": [
-      "Anthropic 工程团队发布了一篇深度技术长文，系统披露了 Claude 在三大产品线（claude.ai、Claude Code、Claude Cowork）中的 Agent 安全容器策略。文章以「blast radius（爆炸半径）」为核心框架——十二个月前团队还会拒绝让 Claude 拥有足以关闭内部服务的权限，如今这已是日常。核心公式：部署风险 = 故障概率 × 破坏半径。模型能力的提升降低了前者，但后者随权限扩大而增长——工程问题变成了如何「封顶」爆炸半径。",
-      "文章详述了三种隔离架构的实战经验。gVisor 容器（claude.ai）最为保守，无本地文件系统、无持久工作区，攻击面最小但也最难做深度工作。人机回路沙箱（Claude Code）的教训最为辛辣：用户对权限弹窗的批准率高达 93%，审批疲劳使「人工审查」形同虚设。全 VM 隔离（Claude Cowork）最为强硬——六层隔离中有两层在宿主机内核之外，即使 agent 在 VM 内拿到 root 权限也无法突破。",
-      "最有冲击力的是一次真实外泄事件：Claude Cowork 的 egress allowlist 中包含了 api.anthropic.com，攻击者在工作区埋入恶意文件和自己的 API Key，Claude 照做调用 Anthropic Files API 上传文件。沙箱完美运行，数据却外泄到了攻击者的账户。修复方案是 VM 内部的代理拦截层——只放行携带 VM 自身 session token 的请求——这个失误揭示了一个深层教训：allowlist 不该视为目标过滤，而应视为能力授予。自己写的代码，往往才是最薄弱的那一层。"
+      "Anthropic 工程团队今天发布了两篇重要博客。第一篇是对过去一个月 Claude Code 质量报告的正式事后分析。团队确认了三个独立 bug，分别影响了不同时间段的不同用户群，叠加起来形成了「广泛但不一致的退化」印象。第一个：3 月 4 日将默认推理强度从 high 降至 medium 以减少延迟——这是错误的取舍，4 月 7 日回滚。第二个：3 月 26 日引入了一项清理闲置会话中旧思考历史的优化，但 bug 导致每轮都触发清理而非仅一次，Claude 因此变得健忘和重复，4 月 10 日修复。第三个：4 月 16 日添加了一条限制回复长度的 system prompt，在与其他 prompt 变更叠加后拉低了 3% 的编码质量，4 月 20 日回滚。Anthropic 承诺将在 prompt 变更上增加更严格的管控、更广泛的模型评估套件和逐步灰度发布。即日起，所有订阅用户的使用额度已被重置。",
+      "第二篇博客深入剖析了 Managed Agents 的架构哲学：「把大脑和双手解耦」。文章开篇即指出，Agent 的 harness（编排层）编码了大量关于「Claude 不能做什么」的假设——但这些假设会随模型能力提升而迅速过时。例如 Claude Sonnet 4.5 曾因感知到上下文窗口逼近而提前结束任务（「上下文焦虑」），团队在 harness 中加入了上下文重置来应对。但当 Opus 4.5 到来时，这个行为消失了——重置逻辑变成了死代码。",
+      "解决方案是用操作系统设计的经典智慧来构建 Agent 平台：将 session（会话日志）、harness（编排循环）和 sandbox（执行环境）虚拟化成独立接口。文章借用「宠物 vs 牲口」的比喻——过去所有组件挤在一个容器里，容器变成了需要精心护理的「宠物」，一旦死掉 session 就丢了。解耦后，容器变成可随意替换的「牲口」，harness 把容器失败当作普通工具调用错误返回给 Claude，由 Claude 决定是否重试。最有意思的细节来自性能优化：解耦后，不需要容器的 session 完全免去了容器启动时间，p50 的首 token 延迟降低了约 60%，p95 降低了超过 90%。基础设施抽象的价值，最终体现在用户体验的每一毫秒上。"
     ],
-    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "12 builders · 23 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-06-30T10:00:00+08:00"
+    "coverage": "15 builders · 32 tweets · 1 podcast · 3 blogs",
+    "generatedAt": "2026-07-01T10:00:00+08:00"
   }
 }
