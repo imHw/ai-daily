@@ -1,98 +1,81 @@
 {
   "issue": {
-    "vol": "Vol.181",
-    "date": "2026年7月1日",
-    "weekday": "星期三",
-    "dateISO": "2026-07-01",
-    "tagline": "Codex 沙箱最小权限进化，Claude 登陆 Azure 正式商用"
+    "vol": "Vol.182",
+    "date": "2026年7月2日",
+    "weekday": "星期四",
+    "dateISO": "2026-07-02",
+    "tagline": "Sonnet 5 性能跃迁，Claude Desktop 登陆 Linux，硬件-软件协同设计成 AI 新杠杆"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Codex 沙箱安全升级、Claude Code 后台子代理与 Azure 平台扩张的三重奏",
+    "title": "Sonnet 5 发布、硬件-软件协同设计革命与全栈平台的 Agentic 转向",
     "paras": [
-      "Codex 的沙箱安全迎来了重大架构升级。Thibault Sottiaux 宣布 Codex 为高级用户推送了一套全新的权限配置文件系统，取代此前粗粒度的沙箱模式：可复用、可继承的权限配置，将 OS 级的文件读写/拒绝规则（包括 **/*.env 黑名单）与按域划分的网络和 Unix Socket 权限绑定，外加 fail-closed 的管理员白名单。这套设计的核心哲学是「按任务最小权限」——每个 agent 只拿到刚好够用的权限，不多不少。与此同时，Codex 团队再次全量重置使用额度，并向用户账户中额外存入一次自主重置，作为对部分用户用量消耗快于预期的补偿。经过排查，团队未发现单一根因，而是若干小问题的叠加。从周日的「战情室」到今天的沙箱升级，Codex 的这轮应急迭代只用了一天。",
-      "Claude Code 的产品节奏同样密集。Boris Cherny 透露下一版本中，子代理将默认在后台运行，用户可以在子代理工作时继续与 Claude 对话——如果需要前台运行，直接告诉 Claude 即可。这个看似小的交互改动，背后是编程 Agent 从「单线程助手」到「并行工作流编排者」的范式迁移。与此同时，Claude 正式登陆 Microsoft Foundry，在 Azure 上全面可用。Azure 客户现在可以调用 Claude Opus 4.8 和 Claude Haiku 4.5，享受 Azure 原生认证、计费和承诺消费折扣。推理运行在 Anthropic 运营的 Azure 基础设施上，Prompt Caching 和 Extended Thinking 均已支持。这是 Claude 在企业分发渠道上迈出的又一大步。",
-      "Anthropic 工程团队今天也发布了两篇重要博客。一篇是 Claude Code 质量问题的正式事后分析，坦诚披露了三个月内三个独立 bug 的根因：默认推理强度从 high 降至 medium 导致智能度下降、一个清理旧思考历史的 bug 在每轮都被触发导致「健忘症」、以及一条限制回复长度的 system prompt 意外拉低了 3% 的编码质量。另一篇则深入 Managed Agents 的架构设计，用「把大脑和双手解耦」的比喻，讲述了如何将 session、harness 和 sandbox 虚拟化成独立接口，让它们能独立失败、独立替换——正如操作系统当年把硬件虚拟化成文件和进程。好架构的生命力在于接口足够通用，以至于能容纳「尚未被构想的程序」。Agent 基础设施正在成为 AI 时代的操作系统层。"
+      "Claude Sonnet 5 正式发布，这是 Anthropic 在模型性能与成本效率之间的一次重要权衡。Sonnet 5 在推理、工具使用、编码和知识工作方面相比 Sonnet 4.6 实现了大幅提升，性能接近 Opus 4.8，但价格更低——即日起成为 Free 和 Pro 用户的默认模型，Max、Team 和 Enterprise 用户也可使用，并享受 8 月前的首发定价。早期合作伙伴发现 Sonnet 5 能够在复杂任务中坚持到底——之前的 Sonnet 版本常常中途停止——还能不待追问就主动检查自己的输出。Aaron Levie 透露，Box 在自家的 AI Complex Work Eval（面向企业文档端到端处理的 Agent 基准测试）中测试了 Sonnet 5，结果显示其保持了「前沿水平」。与此同时，Claude Desktop 正式登陆 Linux，Boris Cherny 回应了 Linux 开发者社区长期以来的呼声。Claude 的产品线正在经历从模型到平台的全方位扩张。",
+      "Dylan Patel 在 Training Data 播客中与 Sequoia 合伙人 Sean 进行了长达一小时的深度对话。SemiAnalysis 从一个人的爱好成长为约 90 人、年收入据传突破 1 亿美元的研究机构，背后是 Patel 十多年来对半导体供应链的持续追踪——从 12 岁修 Xbox「三红」开始，到如今成为业界最具影响力的硬件分析平台。Patel 的核心论点是：AI 真正 100 倍的杠杆不在模型层，而在硬件-软件协同设计。他详述了 GPU 供应链现状、NeoCloud 生态的兴起（Thinking Machines、Tinker 等已实现数亿美元 ARR）、ASIC 创业公司（如 Etched 专为 Transformer 推理设计的芯片）以及 AI 基础设施正在形成的多极化格局。Patel 还分享了一个有趣洞察：NeoCloud 的繁荣源于「把鱼饵撒进水里，最好的鱼会自己活下来」——CoreWeave、Crusoe 等从加密货币转型而来的公司最终胜出，靠的是团队执行而非赛道选择。",
+      "Vercel CEO Guillermo Rauch 宣布推出 Vercel Services，允许开发者在同一个项目中配置 Python 后端 API、ExpressJS 服务器和 React SPA，通过 `vc dev` 本地运行并统一部署和回滚。Rauch 还透露正在与 Shopify 合作推进「Agentic Web」。另一边，关于 Fable 回归的期待在 AIEWF 会场和开发者社区中持续升温——从会场到墨西哥度假村，开发者们都在等午夜发布。AI 基础设施与模型层的创新正在以惊人速度同步演进，而 Amjad Masad 指出了一个关键瓶颈：AI 推理成本居高不下的部分原因在于，大多数工作负载仍运行在「大模型时代之前设计的通用硬件」上——真正的突破可能来自专为现代推理设计的芯片架构。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "No Priors：Intel CEO 陈立武谈半导体供应链重塑与 AI 时代芯片战争",
-    "meta": "YouTube · No Priors with Elad Gil & Sarah Guo",
+    "title": "Training Data：Dylan Patel 谈为什么硬件-软件协同设计是 AI 真正的 100 倍杠杆",
+    "meta": "YouTube · Training Data with Sequoia Capital",
     "paras": [
-      "No Priors 本期请到了 Intel CEO 陈立武（Lip-Bu Tan），一位从华登国际传奇投资人到 Cadence CEO、再到 Intel 掌门的半导体行业老兵。66 岁接下「业界最难的 CEO 工作」，他的理由简单直接：Intel 是美国半导体生态的基石公司，值得再做一次。上任 14 个月，他做的第一件事是改变文化——「先学会爬，保持谦逊，聆听客户」。他把所有工程线直接归到自己手下，这种扁平化在 Intel 的体量上极为罕见。",
-      "陈立武分享了几个逆势判断：一是 CPU 在 Agentic AI 时代意外翻红——推理场景中 CPU 与 GPU 的比例可能从 1:8 走向 1:1，因为强化学习和 Agent 编排更吃 CPU。二是美国本土制造的必要性——「你不能只依赖一两个地理位置上的玩家」，Intel 正在推进 14A（1.4nm）量产并规划 1nm 和 0.7nm。三是供应链的隐忧——电力、氦气、内存短缺都在成为瓶颈。他在结尾也透露了与 Elon Musk 的 TeraFab 合作：Musk「质疑每一个步骤，为什么传统方式要这样做」，这种不按常理出牌反倒让陈立武觉得「耳目一新」。",
-      "最精彩的细节来自 Jensen Huang 的 50 亿美元投资——「现在变成了 250 亿，甚至更多」。陈立武也分享了与特朗普政府打交道的经历：上任仅三个月就被要求辞职，他花了一个周末找到机会当面解释自己生于马来西亚、长于新加坡、MIT 毕业、从未在美国以外居住的经历，最终获得留任。这段插曲比任何商业分析都更能说明 Intel 掌门的处境：不仅是技术竞赛，更是地缘政治棋局中的关键棋子。"
+      "Training Data 本期请到了 SemiAnalysis 创始人 Dylan Patel，与 Sequoia 合伙人 Sean 展开了一场横跨半导体历史、供应链格局和 AI 基础设施未来的深度对话。Patel 的起点颇具传奇色彩：12 岁时 Xbox 360 的「三红」硬件故障，迫使他拆机短接温度传感器——这成为了他与硬件一生纠缠的起点。从在 Reddit 上管理 Android、Apple、Google 和硬件板块，到创办 SemiAnalysis，Patel 花了十多年将半导体分析从一个小众爱好做成了 90 人团队、据传年收入超 1 亿美元的研究机构。",
+      "Patel 的核心主张是：AI 时代真正的 100 倍杠杆在于硬件-软件协同设计，而非单纯追逐更大的模型。他详述了 GPU 供应链的紧张现状——从台积电的产能分配到 NVIDIA 的定价策略——以及 NeoCloud 生态的崛起。Thinking Machines 和 Tinker 等 NeoLab 公司各自实现了数亿美元的年经常性收入，而 CoreWeave、Crusoe 等从加密货币挖矿转型而来的公司，凭借执行力在「撒鱼饵」式的市场筛选中活了下来。Patel 对 ASIC 创业公司如 Etched（专为 Transformer 推理设计的芯片）持乐观态度，认为专用的推理芯片正在从概念走向量产。",
+      "对话还触及了一个更宏观的判断：AI 基础设施正在走向多极化。Patel 认为单一供应商主导的局面不可持续，从芯片设计（AMD、Intel 的追赶）到云服务（NeoCloud 的崛起）再到地缘政治（中国开源模型的全球影响力），多重力量正在重塑格局。他也分享了 SemiAnalysis 内部的独特文化：90 人团队中一半是供应链工程师、一半是前对冲基金分析师，两派在办公室里的争论——「这个技术最酷」vs「但成本呢？」——正是 SemiAnalysis 研究报告质量的根本保障。Sean 在结尾感叹：「听你聊这些就知道你有多拼——十多年的投入，换来了这几年的天时地利，但这只是开始。」"
     ],
-    "url": "https://www.youtube.com/watch?v=asCgCv2XB4s"
+    "url": "https://www.youtube.com/watch?v=f6D_aiy8qyU"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "Codex 高级用户注意：我们推送了一套取代粗粒度沙箱模式的替代方案——可复用、可继承的权限配置文件，将 OS 级文件读写/拒绝规则（包括 **/*.env）绑定到按域划分的网络和 Unix Socket 权限，外加 fail-closed 管理员白名单。按任务最小权限。同时，Codex 使用额度将在一小时内全量重置，并额外向你的账户存入一次自主重置。我们调查了用量消耗快于预期的报告，未发现单一根因，而是若干小问题的叠加。",
-        "url": "https://x.com/thsottiaux/status/2071636285807059315"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "下一版 Claude Code 中，子代理将默认在后台运行，这样你可以在子代理工作的同时继续和 Claude 对话。如果你想让 agent 在前台运行，直接告诉 Claude 就好。这看起来是个小改动，但标志着一个重要的范式迁移：编程 Agent 正从单线程助手变成并行工作流编排者。",
-        "url": "https://x.com/bcherny/status/2071647677591466098"
-      },
-      {
         "name": "Claude 官方",
         "handle": "claudeai",
-        "text": "Claude 现已正式登陆 Microsoft Foundry，在 Azure 上全面可用。Azure 客户可以调用 Claude Opus 4.8 和 Claude Haiku 4.5，享受 Azure 原生认证、计费和承诺消费折扣。推理运行在 Anthropic 运营的 Azure 基础设施上，Prompt Caching 和 Extended Thinking 现已支持，更多能力即将推出。",
-        "url": "https://x.com/claudeai/status/2071653958905467027"
+        "text": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work. Its performance is close to Opus 4.8, at lower prices. Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its agentic work at an attractive price point. Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users, with introductory pricing through August.",
+        "url": "https://x.com/claudeai/status/2072017457057853480"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "这触及了 AI 领域最核心的争论之一。如果一个封闭技术堆栈永远保持大幅领先，那么垂直整合和美国门控策略就能奏效——因为你始终控制着谁能接触到最好技术，而且技术会留在国内。但问题在于，如果做不到永远大幅领先，那你要保护的到底是什么？",
-        "url": "https://x.com/levie/status/2071775583072375214"
+        "text": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end. Sonnet 5 holds frontier-class performance. More data is showing the opposite of what many people expected with AI adoption and jobs. Ramp found that the more AI adoption a company has, the more their headcount grows. At Box, we recently did a similar analysis and found the same pattern internally.",
+        "url": "https://x.com/levie/status/2072046374045249671"
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "You asked, we listened. Claude Desktop on Linux is here!",
+        "url": "https://x.com/bcherny/status/2072000214634742243"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel Services: You can now collocate e.g. a Python backend API, an ExpressJS server, and a React SPA in one Vercel project. You can run all locally with `vc dev`. Deploy and rollback all together. So great to get to work with Tobi and the wonderful Shopify team. Excited to push the agentic web forward.",
+        "url": "https://x.com/rauchg/status/2071966055308607765"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "text": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference.",
+        "url": "https://x.com/amasad/status/2071992110132117740"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "text": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+        "url": "https://x.com/adityaag/status/2071983952894837062"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
-        "text": "被低估的一点是，像 GLM 这样的强开源权重模型的兴起，实际上会增强 Google 的地位。更多公司将开始尝试微调开源权重模型，价值将流向基础设施层。企业希望在自有环境中灵活运行经过定制微调的模型，而 Google Cloud 拥有从 TPU 到 Vertex AI 的完整基础设施链来承接这些需求。",
-        "url": "https://x.com/realmadhuguru/status/2071637885154148785"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "对于写作和编辑任务，朴素的 Claude Web 界面仍然是最好的选择——胜过 Codex 和 Claude Code。我的猜测是，编程 Agent 的系统提示中的某些内容让它们在写作方面表现更差。这引出了一个有趣的问题：Agent 的专用化是否必然以牺牲通用能力为代价？我有太多关于受限访问和开源的犀利观点，准备一股脑写成一篇文章。",
-        "url": "https://x.com/petergyang/status/2071731343390851519"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "我构建了一个 Chrome 扩展，将你的「稍后阅读」列表自动转化为日历上的专属阅读时间。保存 5 篇文章后，它会自动在 Google 日历上预定 30 分钟的「阅读块」，附上文章链接，让你真正坐下来读完。无需账号，无需服务器，一切在本地运行。另外，我从 Anthropic 的一位 PM 那里听到：「写作的市场价值大幅上升了。」无论在构建产品（有效引导模型）还是建立受众方面，好的写作和清晰表达都至关重要。写作能力在技术圈长期被低估了——是时候改变这一点。",
-        "url": "https://x.com/zarazhangrui/status/2071766827345285411"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "AIE 大会 Workshop 日正在进行中。周一早上九点，每个非实验 Workshop 房间都座无虚席——隔壁就是 OpenAI 的 Workshop，而我们这边有 Snyk、Atlassian、Neo4j、Arize AI、Akamai 和 Together Compute 的并行房间。大家对 AI 工程化的热情是实打实的，不是泡沫。",
-        "url": "https://x.com/swyx/status/2071634789669777716"
+        "text": "The biggest challenge for trad PMs trying to adapt to AI native building is a lack of magical thinking. A decade of frameworks, 'agile' and metric obsession has led to constraint-first, incremental thinking. AI native building requires imagining what's possible before constraints exist.",
+        "url": "https://x.com/realmadhuguru/status/2071970221477470694"
       }
     ]
   },
-  "blog": {
-    "label": "官方博客",
-    "title": "Anthropic 工程：Claude Code 质量问题事后分析 & Managed Agents 架构设计",
-    "meta": "Anthropic Engineering Blog · 2026年6月",
-    "paras": [
-      "Anthropic 工程团队今天发布了两篇重要博客。第一篇是对过去一个月 Claude Code 质量报告的正式事后分析。团队确认了三个独立 bug，分别影响了不同时间段的不同用户群，叠加起来形成了「广泛但不一致的退化」印象。第一个：3 月 4 日将默认推理强度从 high 降至 medium 以减少延迟——这是错误的取舍，4 月 7 日回滚。第二个：3 月 26 日引入了一项清理闲置会话中旧思考历史的优化，但 bug 导致每轮都触发清理而非仅一次，Claude 因此变得健忘和重复，4 月 10 日修复。第三个：4 月 16 日添加了一条限制回复长度的 system prompt，在与其他 prompt 变更叠加后拉低了 3% 的编码质量，4 月 20 日回滚。Anthropic 承诺将在 prompt 变更上增加更严格的管控、更广泛的模型评估套件和逐步灰度发布。即日起，所有订阅用户的使用额度已被重置。",
-      "第二篇博客深入剖析了 Managed Agents 的架构哲学：「把大脑和双手解耦」。文章开篇即指出，Agent 的 harness（编排层）编码了大量关于「Claude 不能做什么」的假设——但这些假设会随模型能力提升而迅速过时。例如 Claude Sonnet 4.5 曾因感知到上下文窗口逼近而提前结束任务（「上下文焦虑」），团队在 harness 中加入了上下文重置来应对。但当 Opus 4.5 到来时，这个行为消失了——重置逻辑变成了死代码。",
-      "解决方案是用操作系统设计的经典智慧来构建 Agent 平台：将 session（会话日志）、harness（编排循环）和 sandbox（执行环境）虚拟化成独立接口。文章借用「宠物 vs 牲口」的比喻——过去所有组件挤在一个容器里，容器变成了需要精心护理的「宠物」，一旦死掉 session 就丢了。解耦后，容器变成可随意替换的「牲口」，harness 把容器失败当作普通工具调用错误返回给 Claude，由 Claude 决定是否重试。最有意思的细节来自性能优化：解耦后，不需要容器的 session 完全免去了容器启动时间，p50 的首 token 延迟降低了约 60%，p95 降低了超过 90%。基础设施抽象的价值，最终体现在用户体验的每一毫秒上。"
-    ],
-    "url": "https://www.anthropic.com/engineering/april-23-postmortem"
-  },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "15 builders · 32 tweets · 1 podcast · 3 blogs",
-    "generatedAt": "2026-07-01T10:00:00+08:00"
+    "coverage": "17 builders · 38 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-02T10:00:00+08:00"
   }
 }
