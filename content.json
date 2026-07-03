@@ -1,30 +1,30 @@
 {
   "issue": {
-    "vol": "Vol.182",
-    "date": "2026年7月2日",
-    "weekday": "星期四",
-    "dateISO": "2026-07-02",
-    "tagline": "Sonnet 5 性能跃迁，Claude Desktop 登陆 Linux，硬件-软件协同设计成 AI 新杠杆"
+    "vol": "Vol.183",
+    "date": "2026年7月3日",
+    "weekday": "星期五",
+    "dateISO": "2026-07-03",
+    "tagline": "Fable 5 强势回归，Agentic MapReduce 揭示推理需求 100 倍增长逻辑，Vercel Fluid 让 WordPress 在 Serverless 上起飞"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sonnet 5 发布、硬件-软件协同设计革命与全栈平台的 Agentic 转向",
+    "title": "Fable 5 回归引爆开发者社区，Agentic 计算重塑推理需求格局，AI 平台生态加速闭环",
     "paras": [
-      "Claude Sonnet 5 正式发布，这是 Anthropic 在模型性能与成本效率之间的一次重要权衡。Sonnet 5 在推理、工具使用、编码和知识工作方面相比 Sonnet 4.6 实现了大幅提升，性能接近 Opus 4.8，但价格更低——即日起成为 Free 和 Pro 用户的默认模型，Max、Team 和 Enterprise 用户也可使用，并享受 8 月前的首发定价。早期合作伙伴发现 Sonnet 5 能够在复杂任务中坚持到底——之前的 Sonnet 版本常常中途停止——还能不待追问就主动检查自己的输出。Aaron Levie 透露，Box 在自家的 AI Complex Work Eval（面向企业文档端到端处理的 Agent 基准测试）中测试了 Sonnet 5，结果显示其保持了「前沿水平」。与此同时，Claude Desktop 正式登陆 Linux，Boris Cherny 回应了 Linux 开发者社区长期以来的呼声。Claude 的产品线正在经历从模型到平台的全方位扩张。",
-      "Dylan Patel 在 Training Data 播客中与 Sequoia 合伙人 Sean 进行了长达一小时的深度对话。SemiAnalysis 从一个人的爱好成长为约 90 人、年收入据传突破 1 亿美元的研究机构，背后是 Patel 十多年来对半导体供应链的持续追踪——从 12 岁修 Xbox「三红」开始，到如今成为业界最具影响力的硬件分析平台。Patel 的核心论点是：AI 真正 100 倍的杠杆不在模型层，而在硬件-软件协同设计。他详述了 GPU 供应链现状、NeoCloud 生态的兴起（Thinking Machines、Tinker 等已实现数亿美元 ARR）、ASIC 创业公司（如 Etched 专为 Transformer 推理设计的芯片）以及 AI 基础设施正在形成的多极化格局。Patel 还分享了一个有趣洞察：NeoCloud 的繁荣源于「把鱼饵撒进水里，最好的鱼会自己活下来」——CoreWeave、Crusoe 等从加密货币转型而来的公司最终胜出，靠的是团队执行而非赛道选择。",
-      "Vercel CEO Guillermo Rauch 宣布推出 Vercel Services，允许开发者在同一个项目中配置 Python 后端 API、ExpressJS 服务器和 React SPA，通过 `vc dev` 本地运行并统一部署和回滚。Rauch 还透露正在与 Shopify 合作推进「Agentic Web」。另一边，关于 Fable 回归的期待在 AIEWF 会场和开发者社区中持续升温——从会场到墨西哥度假村，开发者们都在等午夜发布。AI 基础设施与模型层的创新正在以惊人速度同步演进，而 Amjad Masad 指出了一个关键瓶颈：AI 推理成本居高不下的部分原因在于，大多数工作负载仍运行在「大模型时代之前设计的通用硬件」上——真正的突破可能来自专为现代推理设计的芯片架构。"
+      "Claude Fable 5 在万众期待中正式回归，所有付费计划用户可在 7 月 7 日前使用，上限为每周用量的 50%。Anthropic 官方博客已发布详细说明，Claude 团队还同步更新了安全分类器以减少误判——用户可通过 /feedback 或点赞按钮提交反馈帮助调优。开发者社区反应热烈：Peter Yang 在实测后给出「仍然是碾压级别的优秀，相较其他模型是台阶式跃升，希望 GPT-5.6 能赶上」的评价；Dan Shipper 在墨西哥度假村的泳池边高呼「FABLE IS BACK」；Alex Albert 代表 Anthropic 团队向 Fable 喊出「欢迎回到这个世界」。与此同时，AI Engineer World's Fair 会场内人头攒动——Swyx 为 Chris Manning 和 Abs 安排了双倍时长的 Keynote，深入探讨沙箱安全与世界模型，Thariq 从会场发来问候。Fable 5 的回归与 AIEWF 的热度叠加，构成了 7 月 AI 行业的开场重音符。",
+      "Box CEO Aaron Levie 从 Cognition 的 Devin 最新发布中提炼出一个深刻的推理需求增长逻辑：Agentic MapReduce。Devin 能在代码仓库中映射相关信号、将聚焦子代理分发到有限分片上并行工作、汇总发现为统一报告，最后在隔离沙箱中验证严重漏洞后才将其标记为已确认。Levie 指出，这种「代理集群」模式意味着未来我们需要 100 倍以上的 AI 推理能力——不仅仅是代码安全领域，医药、银行等行业的非结构化数据处理（理解数百万份文档中的风险、洞察和关联）同样适用。但他也强调，这类能力只有在能够部署多种模型（前沿模型+低成本模型混合使用）时才可行，因为其中涉及的 token 量极其庞大——这将成为应用层 AI 的核心价值主张。Garry Tan 则将某个话题称为「整个科技行业最被低估的故事」并转发了一条引发 1600+ 赞的推文。",
+      "Vercel CEO Guillermo Rauch 展示了 Vercel Fluid 的一项惊艳能力：通过一个 Dockerfile.vercel 文件，WordPress 可以在 Vercel 上以 30 秒的速度完成部署，MySQL 则由 PlanetScale 提供。Rauch 同时宣布 Vercel 为 Agentic 部署推出了「演练步骤」（dry-run step）——在真正推送前先运行 node --check、tsc --noEmit 等检查，最小化代理部署的成本和风险。Replit CEO Amjad Masad 则将目光转向「从构建到变现」的闭环：Replit 应用现在可以直接在 Whop 上出售——「构建已经变得容易，我们现在的重点是把创业者推向市场，帮他们找到第一个客户、赚到第一美元」。Garry Tan 还爆料 Anthropic 挖来了 UC Berkeley EECS 系主任——「Mega get」，这一人才引力场让 Nikunj Kothari 感叹过去两个月内已有四位好友离开稳定职位加入 OpenAI 或 Anthropic。Peter Steinberger 在为 OpenClaw 团队寻找旧金山黑客空间的同时，给 Steve Yegge 发出了迟来的致意——「他只是太早了，像大多数远见者一样。现在每个人都在建造工厂。」"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Training Data：Dylan Patel 谈为什么硬件-软件协同设计是 AI 真正的 100 倍杠杆",
-    "meta": "YouTube · Training Data with Sequoia Capital",
+    "title": "AI & I：Every 咨询团队的 AI 工作流——Natalia 谈 AI Agent 如何重塑知识工作",
+    "meta": "YouTube · AI & I by Every",
     "paras": [
-      "Training Data 本期请到了 SemiAnalysis 创始人 Dylan Patel，与 Sequoia 合伙人 Sean 展开了一场横跨半导体历史、供应链格局和 AI 基础设施未来的深度对话。Patel 的起点颇具传奇色彩：12 岁时 Xbox 360 的「三红」硬件故障，迫使他拆机短接温度传感器——这成为了他与硬件一生纠缠的起点。从在 Reddit 上管理 Android、Apple、Google 和硬件板块，到创办 SemiAnalysis，Patel 花了十多年将半导体分析从一个小众爱好做成了 90 人团队、据传年收入超 1 亿美元的研究机构。",
-      "Patel 的核心主张是：AI 时代真正的 100 倍杠杆在于硬件-软件协同设计，而非单纯追逐更大的模型。他详述了 GPU 供应链的紧张现状——从台积电的产能分配到 NVIDIA 的定价策略——以及 NeoCloud 生态的崛起。Thinking Machines 和 Tinker 等 NeoLab 公司各自实现了数亿美元的年经常性收入，而 CoreWeave、Crusoe 等从加密货币挖矿转型而来的公司，凭借执行力在「撒鱼饵」式的市场筛选中活了下来。Patel 对 ASIC 创业公司如 Etched（专为 Transformer 推理设计的芯片）持乐观态度，认为专用的推理芯片正在从概念走向量产。",
-      "对话还触及了一个更宏观的判断：AI 基础设施正在走向多极化。Patel 认为单一供应商主导的局面不可持续，从芯片设计（AMD、Intel 的追赶）到云服务（NeoCloud 的崛起）再到地缘政治（中国开源模型的全球影响力），多重力量正在重塑格局。他也分享了 SemiAnalysis 内部的独特文化：90 人团队中一半是供应链工程师、一半是前对冲基金分析师，两派在办公室里的争论——「这个技术最酷」vs「但成本呢？」——正是 SemiAnalysis 研究报告质量的根本保障。Sean 在结尾感叹：「听你聊这些就知道你有多拼——十多年的投入，换来了这几年的天时地利，但这只是开始。」"
+      "AI & I 主持人 Dan Shipper 再次邀请了 Every 咨询业务负责人 Natalia。Natalia 管理着 Every 内部的 AI Agent「Claudie」——一个拥有自己的 LinkedIn 和 Twitter 账号、管理仪表盘和 CRM、甚至建立了「信任电池」并在持续自我评估中不断改进的 AI 同事。最新模型版本的进步让 Claudie 的能力发生了质变：从需要工程师时刻在后台「魔法般」维护，到如今能够自主完成销售提案、CRM 管理和数据分析的日常运营。",
+      "但 Natalia 也坦诚分享了 AI Agent 的边界。他们从自建的 vibe-coded CRM 迁移到了专业工具 Attio，因为真正的软件是「成千上万条逻辑规则的编译」——AI 善于在确定性系统周围灵活工作，但无法一次性地覆盖所有你需要的规则。正如 Dan 的精彩比喻：「软件像身体的骨骼，语言模型像大脑和韧带——没有骨骼就没有结构，没有大脑和韧带就只是一堆棍子。」Natalia 还透露，OpenAI Codex 对她而言是「改变人生的工具」——作为非技术背景的运营者，直接在聊天界面中拥有终端和浏览器、运行着 GPT-5.5 的强大算力，让她从「尝试变得更技术化」跃迁到「真正建造东西」。",
+      "Dan Shipper 在对话中抛出了一个诗意的总结：「知识工作正在变成一种园艺——你创造让事物生长的条件，但你不是用双手制造那株植物。」在这场对话中，他指的是 AI 让 Natalia 这样的运营者从执行者变成了设计师和园丁：设定方向、把控品味，然后让 Claudie 这样的 Agent 去完成具体的执行。而 Natalia 的回应同样犀利：Claudie 仍然需要两样东西——持续的监督以确保执行质量，以及有人类来判断什么是「优秀」的品味——这恰好也是她在招聘真人运营的原因。AI 代理不是替代人类，而是重新定义人类工作的性质。"
     ],
-    "url": "https://www.youtube.com/watch?v=f6D_aiy8qyU"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
@@ -32,50 +32,56 @@
       {
         "name": "Claude 官方",
         "handle": "claudeai",
-        "text": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work. Its performance is close to Opus 4.8, at lower prices. Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its agentic work at an attractive price point. Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users, with introductory pricing through August.",
-        "url": "https://x.com/claudeai/status/2072017457057853480"
+        "text": "所有含用量的付费计划用户可在 7 月 7 日前使用 Fable 5，上限为每周用量的 50%，之后可切换至其他模型继续使用剩余额度，也可通过用量积分继续使用 Fable。如果你的请求被 Claude Code 误标，运行 /feedback 提交报告；在 claude.ai 和 Cowork 上，可通过点赞按钮分享反馈。这些反馈将帮助我们进一步调优分类器，减少误判。阅读 Fable 5 博客文章了解更多。",
+        "url": "https://x.com/claudeai/status/2072402639644766602"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "我的 Fable 5 实测感受：它依然好得离谱。这是一个相对任何其他模型的台阶式跃升。希望 GPT-5.6 能匹敌。我新做了一个教程，涵盖 5 个 Fable 值得尝试的使用场景：找到配得上 Fable 的工作、获取人生和商业建议、让项目达到发布标准、规划下一件大事、重构项目或代码库。一如既往，没有废话，展示 Fable 的真实输出。",
+        "url": "https://x.com/petergyang/status/2072470191511113732"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end. Sonnet 5 holds frontier-class performance. More data is showing the opposite of what many people expected with AI adoption and jobs. Ramp found that the more AI adoption a company has, the more their headcount grows. At Box, we recently did a similar analysis and found the same pattern internally.",
-        "url": "https://x.com/levie/status/2072046374045249671"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "You asked, we listened. Claude Desktop on Linux is here!",
-        "url": "https://x.com/bcherny/status/2072000214634742243"
+        "text": "如果你曾好奇为什么未来我们需要 100 倍以上的 AI 推理能力、以及它将由什么驱动——这就是又一个好例子。Devin 推动了 Agentic MapReduce 的概念：在代码仓库中映射相关信号、将聚焦子代理分发到有限分片、汇总发现为一份报告、然后在隔离沙箱中验证严重漏洞后才标记为已确认。这适用于代码安全，但也适用于医药、银行等行业的非结构化数据处理。这类能力只有在能混合部署前沿模型和低成本模型时才行——token 消耗量极大，这将是应用层 AI 的核心价值主张。",
+        "url": "https://x.com/levie/status/2072519377371459836"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "text": "Vercel Services: You can now collocate e.g. a Python backend API, an ExpressJS server, and a React SPA in one Vercel project. You can run all locally with `vc dev`. Deploy and rollback all together. So great to get to work with Tobi and the wonderful Shopify team. Excited to push the agentic web forward.",
-        "url": "https://x.com/rauchg/status/2071966055308607765"
+        "text": "WordPress on Vercel Fluid，通过一个 Dockerfile.vercel 文件即可运行，Active CPU 持续可用，MySQL 由 PlanetScale 提供。30 秒部署，仅需一条命令：vercel。与此同时，我们为 Agentic 部署推出了演练步骤——代理在推送前喜欢先检查自己的工作（node --check、tsc --noEmit、next build 等），我们现在将这些检查作为部署前的干跑环节，最小化成本和风险。",
+        "url": "https://x.com/rauchg/status/2072463293654942090"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
-        "text": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference.",
-        "url": "https://x.com/amasad/status/2071992110132117740"
+        "text": "既然构建已经变得容易，我们越来越专注于把创业者推向市场——帮他们找到第一个客户、赚到第一美元。Whop 是互联网上最好的变现平台之一，现在你可以直接在 Whop 上出售你的 Replit 应用了。",
+        "url": "https://x.com/amasad/status/2072385092824260748"
       },
       {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "text": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
-        "url": "https://x.com/adityaag/status/2071983952894837062"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "text": "Anthropic 挖来了 UC Berkeley EECS 系主任——「Mega get」。Anthropic 正处于势不可挡的上升期。另外，这是整个科技行业最被低估的故事。",
+        "url": "https://x.com/garrytan/status/2072331451270606933"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "The biggest challenge for trad PMs trying to adapt to AI native building is a lack of magical thinking. A decade of frameworks, 'agile' and metric obsession has led to constraint-first, incremental thinking. AI native building requires imagining what's possible before constraints exist.",
-        "url": "https://x.com/realmadhuguru/status/2071970221477470694"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "我只在非常确信讲者和内容都配得上的时候才会安排双倍时长的 Keynote。今天 Chris Manning 和 Abs 在 AIEWF 上完成了双重任务，据各方反馈，人们非常喜欢深入探讨沙箱安全和世界模型的机会。看看这个疯狂的会场——线上观众的规模将是这里的 1000 倍以上。",
+        "url": "https://x.com/swyx/status/2072562702703046855"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "从没想过我会公开致敬 Steve Yegge。他只是太早了，像大多数远见者一样。现在每个人都在建造工厂。我正在为我和几位 OpenClaw 维护者寻找旧金山的半私密黑客空间，我们需要闭关几天搞事情——有线索请 DM 我。",
+        "url": "https://x.com/steipete/status/2072532278476148881"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "17 builders · 38 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-02T10:00:00+08:00"
+    "coverage": "17 builders · 35 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-03T02:30:00+08:00"
   }
 }
