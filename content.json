@@ -1,87 +1,86 @@
 {
   "issue": {
-    "vol": "Vol.183",
-    "date": "2026年7月3日",
-    "weekday": "星期五",
-    "dateISO": "2026-07-03",
-    "tagline": "Fable 5 强势回归，Agentic MapReduce 揭示推理需求 100 倍增长逻辑，Vercel Fluid 让 WordPress 在 Serverless 上起飞"
+    "vol": "Vol.184",
+    "date": "2026年7月4日",
+    "weekday": "星期六",
+    "dateISO": "2026-07-04",
+    "tagline": "GPT-5.6 Sol Ultra 即将登场，AIEWF 热度不减，Vercel AI Gateway 重塑模型路由基础设施"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Fable 5 回归引爆开发者社区，Agentic 计算重塑推理需求格局，AI 平台生态加速闭环",
+    "title": "AIEWF 会场高潮迭起，GPT-5.6 Sol Ultra 蓄势待发，AI 基础设施与 Agent 生态双线演进",
     "paras": [
-      "Claude Fable 5 在万众期待中正式回归，所有付费计划用户可在 7 月 7 日前使用，上限为每周用量的 50%。Anthropic 官方博客已发布详细说明，Claude 团队还同步更新了安全分类器以减少误判——用户可通过 /feedback 或点赞按钮提交反馈帮助调优。开发者社区反应热烈：Peter Yang 在实测后给出「仍然是碾压级别的优秀，相较其他模型是台阶式跃升，希望 GPT-5.6 能赶上」的评价；Dan Shipper 在墨西哥度假村的泳池边高呼「FABLE IS BACK」；Alex Albert 代表 Anthropic 团队向 Fable 喊出「欢迎回到这个世界」。与此同时，AI Engineer World's Fair 会场内人头攒动——Swyx 为 Chris Manning 和 Abs 安排了双倍时长的 Keynote，深入探讨沙箱安全与世界模型，Thariq 从会场发来问候。Fable 5 的回归与 AIEWF 的热度叠加，构成了 7 月 AI 行业的开场重音符。",
-      "Box CEO Aaron Levie 从 Cognition 的 Devin 最新发布中提炼出一个深刻的推理需求增长逻辑：Agentic MapReduce。Devin 能在代码仓库中映射相关信号、将聚焦子代理分发到有限分片上并行工作、汇总发现为统一报告，最后在隔离沙箱中验证严重漏洞后才将其标记为已确认。Levie 指出，这种「代理集群」模式意味着未来我们需要 100 倍以上的 AI 推理能力——不仅仅是代码安全领域，医药、银行等行业的非结构化数据处理（理解数百万份文档中的风险、洞察和关联）同样适用。但他也强调，这类能力只有在能够部署多种模型（前沿模型+低成本模型混合使用）时才可行，因为其中涉及的 token 量极其庞大——这将成为应用层 AI 的核心价值主张。Garry Tan 则将某个话题称为「整个科技行业最被低估的故事」并转发了一条引发 1600+ 赞的推文。",
-      "Vercel CEO Guillermo Rauch 展示了 Vercel Fluid 的一项惊艳能力：通过一个 Dockerfile.vercel 文件，WordPress 可以在 Vercel 上以 30 秒的速度完成部署，MySQL 则由 PlanetScale 提供。Rauch 同时宣布 Vercel 为 Agentic 部署推出了「演练步骤」（dry-run step）——在真正推送前先运行 node --check、tsc --noEmit 等检查，最小化代理部署的成本和风险。Replit CEO Amjad Masad 则将目光转向「从构建到变现」的闭环：Replit 应用现在可以直接在 Whop 上出售——「构建已经变得容易，我们现在的重点是把创业者推向市场，帮他们找到第一个客户、赚到第一美元」。Garry Tan 还爆料 Anthropic 挖来了 UC Berkeley EECS 系主任——「Mega get」，这一人才引力场让 Nikunj Kothari 感叹过去两个月内已有四位好友离开稳定职位加入 OpenAI 或 Anthropic。Peter Steinberger 在为 OpenClaw 团队寻找旧金山黑客空间的同时，给 Steve Yegge 发出了迟来的致意——「他只是太早了，像大多数远见者一样。现在每个人都在建造工厂。」"
+      "AI Engineer World's Fair 的第三天继续引爆社交网络。Swyx 在会场宣布了一场「闪存惊喜」活动，并主持了 Latent Space 与 Etched 的现场播客录制。但最让他骄傲的不是技术话题——「今年 AIEWF 的主题演讲中获得最大掌声的时刻，是正常化男性在高增长环境中谈论情感和心理健康」，这条推文本身就引发了广泛共鸣。与此同时，Swyx 对 Anthropic 的 Mike Krieger 进行了一场充满「厚脸皮问题」的采访，话题直指 Fable 和刚刚发布的 Claude Tag。会场内人头攒动，Swyx 形容线上观众规模将是现场的「1000 倍以上」——AI 工程师群体的关注度达到了前所未有的高度。",
+      "OpenAI Codex 团队成员 Thibault Sottiaux 投下了一枚重磅炸弹：「等不及想看看人们会用 GPT-5.6 Sol Ultra 做什么。把最难的那些 prompt 存好。」这条简短预告迅速点燃了开发者社区。虽然他未透露具体发布时间，但「Sol Ultra」这个命名延续了 OpenAI 近期的产品线风格，暗示这将是一次重大能力跃升。另一边，Claude 生态也在加速推进：Boris Cherny 表示 Claude Code 中的 Artifacts「改变了生活」，正在向 Pro 和 Max 层级扩展；Cat Wu 透露 Claude Tag 已在 Anthropic 内部落地 65% 产品 PR，同时宣布为 Enterprise 和 Team 客户分别提供 $25k 和 $2.5k 的免费体验额度；Thariq 则确认 Fable 将在 7 月 7 日后暂时退出订阅计划，但「一旦算力允许就会恢复为标准功能」。",
+      "基础设施层面同样热闹。Vercel CEO Guillermo Rauch 提出了一个令人耳目一新的概念：将 AI Gateway 定位为「Token Delivery Network」——就像 CDN 之于内容分发，AI Gateway 可以在不重新部署的情况下动态路由或拒绝 AI 流量。他以 Fable 突然退役的场景为例，说明了这种能力的必要性：生产环境依赖某个模型时，模型的下线可能造成灾难性影响。Rauch 还宣布了 Vercel 服务间的私有连接绑定功能，通过单行配置即可实现安全的内部服务通信。Box CEO Aaron Levie 则从更宏观的角度切入：「企业 AI 部署不仅仅是把 chatbot 放进去——真正的挑战在于将 AI 系统与底层业务流程对齐。大多数工作流并不是为 AI agent 直接嵌入而设计的。」他呼吁业界认真对待 AI 与企业流程的深度整合。与此同时，VC Nikunj Kothari 观察到「AGI Summer」正在吸引大量「游客」涌入旧金山——但他们只看到了脏乱和 996 文化，而真正让这座城市与众不同的，是那些「没有议程、纯粹开放」的创始人对话。Garry Tan 以一句「It's time to build」为这一切做了最好的注脚。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI & I：Every 咨询团队的 AI 工作流——Natalia 谈 AI Agent 如何重塑知识工作",
-    "meta": "YouTube · AI & I by Every",
+    "title": "No Priors：Valar Atomics 创始人谈核能如何解锁能源丰裕时代",
+    "meta": "YouTube · No Priors",
     "paras": [
-      "AI & I 主持人 Dan Shipper 再次邀请了 Every 咨询业务负责人 Natalia。Natalia 管理着 Every 内部的 AI Agent「Claudie」——一个拥有自己的 LinkedIn 和 Twitter 账号、管理仪表盘和 CRM、甚至建立了「信任电池」并在持续自我评估中不断改进的 AI 同事。最新模型版本的进步让 Claudie 的能力发生了质变：从需要工程师时刻在后台「魔法般」维护，到如今能够自主完成销售提案、CRM 管理和数据分析的日常运营。",
-      "但 Natalia 也坦诚分享了 AI Agent 的边界。他们从自建的 vibe-coded CRM 迁移到了专业工具 Attio，因为真正的软件是「成千上万条逻辑规则的编译」——AI 善于在确定性系统周围灵活工作，但无法一次性地覆盖所有你需要的规则。正如 Dan 的精彩比喻：「软件像身体的骨骼，语言模型像大脑和韧带——没有骨骼就没有结构，没有大脑和韧带就只是一堆棍子。」Natalia 还透露，OpenAI Codex 对她而言是「改变人生的工具」——作为非技术背景的运营者，直接在聊天界面中拥有终端和浏览器、运行着 GPT-5.5 的强大算力，让她从「尝试变得更技术化」跃迁到「真正建造东西」。",
-      "Dan Shipper 在对话中抛出了一个诗意的总结：「知识工作正在变成一种园艺——你创造让事物生长的条件，但你不是用双手制造那株植物。」在这场对话中，他指的是 AI 让 Natalia 这样的运营者从执行者变成了设计师和园丁：设定方向、把控品味，然后让 Claudie 这样的 Agent 去完成具体的执行。而 Natalia 的回应同样犀利：Claudie 仍然需要两样东西——持续的监督以确保执行质量，以及有人类来判断什么是「优秀」的品味——这恰好也是她在招聘真人运营的原因。AI 代理不是替代人类，而是重新定义人类工作的性质。"
+      "No Priors 主持人来到了 Valar Atomics 位于犹他州的核设施现场，与创始人兼 CEO Isaiah Taylor 进行了一场深度对话。Valar 刚刚实现了历史性突破：世界上第一颗由核反应堆供电的 AI 芯片，以及 50 年来美国首个启动的 TRISO 反应堆。Taylor 的使命是「为行星规模建造核反应堆」——他认为核电行业长期以来沉溺于建模和仿真，而非硬件迭代和实际执行，而 Valar 走的是「最简单、最安全的反应堆」路线。",
+      "对话的核心论点极具颠覆性：能源是一切商品价格的终极决定因素。Taylor 从供应链的角度逐层拆解——任何产品的成本最终都可以追溯到制造它的机器的成本，而机器的成本最终可以追溯到驱动它们的能源。因此，如果 AI 和机器人实现了半自主制造，「购买任何东西的成本将等于制造它所消耗的能源成本」。将能源成本降低 10 倍、再 10 倍，就意味着一切商品的价格可能趋近于零。这一愿景直接关联到当前的 AI 算力需求爆发：AI 对电力的巨大需求正在创造一个前所未有的市场环境，使得核能创新在经济上变得可行。Taylor 认为，SpaceX 证明了当有人愿意真正动手建造时，整个行业的游戏规则都会改变，而 Valar 正在核能领域做同样的事。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Claude 官方",
-        "handle": "claudeai",
-        "text": "所有含用量的付费计划用户可在 7 月 7 日前使用 Fable 5，上限为每周用量的 50%，之后可切换至其他模型继续使用剩余额度，也可通过用量积分继续使用 Fable。如果你的请求被 Claude Code 误标，运行 /feedback 提交报告；在 claude.ai 和 Cowork 上，可通过点赞按钮分享反馈。这些反馈将帮助我们进一步调优分类器，减少误判。阅读 Fable 5 博客文章了解更多。",
-        "url": "https://x.com/claudeai/status/2072402639644766602"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "今年 AI Engineer World's Fair 的主题演讲中，获得最大掌声的是正常化男性在高增长环境中谈论情感和心理健康——对此我非常自豪。也感谢 Mike Krieger 接受了我关于 Fable 和 Claude Tag 的所有厚脸皮问题。另外，大家都来 AIE 展会，12:30 有一场「闪存惊喜」，然后来 Expo Stage 2 看 Latent Space 与 Etched 的现场播客录制。",
+        "url": "https://x.com/swyx/status/2072754722059239471"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "我的 Fable 5 实测感受：它依然好得离谱。这是一个相对任何其他模型的台阶式跃升。希望 GPT-5.6 能匹敌。我新做了一个教程，涵盖 5 个 Fable 值得尝试的使用场景：找到配得上 Fable 的工作、获取人生和商业建议、让项目达到发布标准、规划下一件大事、重构项目或代码库。一如既往，没有废话，展示 Fable 的真实输出。",
-        "url": "https://x.com/petergyang/status/2072470191511113732"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere. 等不及想看看人们会用 GPT-5.6 Sol Ultra 做什么。把最难的那些 prompt 存好。",
+        "url": "https://x.com/thsottiaux/status/2072607914217320644"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "如果你曾好奇为什么未来我们需要 100 倍以上的 AI 推理能力、以及它将由什么驱动——这就是又一个好例子。Devin 推动了 Agentic MapReduce 的概念：在代码仓库中映射相关信号、将聚焦子代理分发到有限分片、汇总发现为一份报告、然后在隔离沙箱中验证严重漏洞后才标记为已确认。这适用于代码安全，但也适用于医药、银行等行业的非结构化数据处理。这类能力只有在能混合部署前沿模型和低成本模型时才行——token 消耗量极大，这将是应用层 AI 的核心价值主张。",
-        "url": "https://x.com/levie/status/2072519377371459836"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "Claude Code 中的 Artifacts 改变了我的生活。非常兴奋地宣布它正在向 Pro 和 Max 层级扩展！",
+        "url": "https://x.com/bcherny/status/2072777472970563995"
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "text": "Claude Tag 正在释放我们整个组织的生产力：工程、产品、数据、销售、市场团队都在使用。内部版本已落地 65% 的产品 PR。我们为 Claude Enterprise 组织提供 $25k 额度、Team 组织提供 $2.5k 额度的 Claude Tag 体验金，有效期至 9 月 1 日。我们还在博客中分享了 CEO/CTO 的部署手册，以及为什么安全从第一天起就被设计进产品中。",
+        "url": "https://x.com/_catwu/status/2072731500928508331"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "text": "WordPress on Vercel Fluid，通过一个 Dockerfile.vercel 文件即可运行，Active CPU 持续可用，MySQL 由 PlanetScale 提供。30 秒部署，仅需一条命令：vercel。与此同时，我们为 Agentic 部署推出了演练步骤——代理在推送前喜欢先检查自己的工作（node --check、tsc --noEmit、next build 等），我们现在将这些检查作为部署前的干跑环节，最小化成本和风险。",
-        "url": "https://x.com/rauchg/status/2072463293654942090"
+        "text": "我们一直把 Vercel AI Gateway 解释为「Token Delivery Network」——就像 AI 模型的 CDN。CDN 的一大优势是可以在不重新部署的情况下动态路由或拒绝流量。当 Fable 突然退役时，我们担心依赖它的生产工作负载会受影响。即便有最完善的 fallback 策略，这类事件也需要一个基础设施层来应对。同时我们还推出了服务间私有连接绑定功能：在 vercel.json 中注册 bindings（一行代码），即可实现安全的内部服务通信，适用于 Node、Python、Dockerfile 等各种环境。",
+        "url": "https://x.com/rauchg/status/2072741369848746315"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "既然构建已经变得容易，我们越来越专注于把创业者推向市场——帮他们找到第一个客户、赚到第一美元。Whop 是互联网上最好的变现平台之一，现在你可以直接在 Whop 上出售你的 Replit 应用了。",
-        "url": "https://x.com/amasad/status/2072385092824260748"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "在企业中部署 AI 远不止是放一个 chatbot 那么简单。真正的工作在于将 AI 系统与底层业务流程对齐并驱动预期结果。大多数工作流并不是为 AI agent 直接嵌入而设计的——今天的工作流需要人工集成和上下文切换。对于那些严肃对待 AI 部署的公司来说，这是一个必须认真对待的重大挑战。",
+        "url": "https://x.com/levie/status/2072875685811716182"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "Anthropic 挖来了 UC Berkeley EECS 系主任——「Mega get」。Anthropic 正处于势不可挡的上升期。另外，这是整个科技行业最被低估的故事。",
-        "url": "https://x.com/garrytan/status/2072331451270606933"
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "text": "我最近在 Fable 上的体验感同身受：它可以连续运行几个小时，然后回来给你一段两段的解释。我们需要更好的方式让 AI 给我们讲故事——而不仅仅是输出结果。",
+        "url": "https://x.com/danshipper/status/2072805884376301737"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "我只在非常确信讲者和内容都配得上的时候才会安排双倍时长的 Keynote。今天 Chris Manning 和 Abs 在 AIEWF 上完成了双重任务，据各方反馈，人们非常喜欢深入探讨沙箱安全和世界模型的机会。看看这个疯狂的会场——线上观众的规模将是这里的 1000 倍以上。",
-        "url": "https://x.com/swyx/status/2072562702703046855"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "从没想过我会公开致敬 Steve Yegge。他只是太早了，像大多数远见者一样。现在每个人都在建造工厂。我正在为我和几位 OpenClaw 维护者寻找旧金山的半私密黑客空间，我们需要闭关几天搞事情——有线索请 DM 我。",
-        "url": "https://x.com/steipete/status/2072532278476148881"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "AI 垃圾内容的根源不是糟糕的文风，而是没有实质。一个刚毕业的大学生告诉我，他们在学校时会把课件喂给 AI 让它替代教授讲课——经常发现 AI 教得比教授更好。另外，给你的 agent 最好的建议之一：在群里说话，而不是在私信里。",
+        "url": "https://x.com/zarazhangrui/status/2072943922385715262"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "17 builders · 35 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-03T02:30:00+08:00"
+    "coverage": "18 builders · 36 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-04T02:05:00+08:00"
   }
 }
