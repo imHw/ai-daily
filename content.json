@@ -1,86 +1,86 @@
 {
   "issue": {
-    "vol": "Vol.184",
-    "date": "2026年7月4日",
-    "weekday": "星期六",
-    "dateISO": "2026-07-04",
-    "tagline": "GPT-5.6 Sol Ultra 即将登场，AIEWF 热度不减，Vercel AI Gateway 重塑模型路由基础设施"
+    "vol": "Vol.185",
+    "date": "2026年7月5日",
+    "weekday": "星期日",
+    "dateISO": "2026-07-05",
+    "tagline": "Fable 5 掀起假日黑客狂潮，Agent 自改进成新标配，NVIDIA 开源战略深度解读"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "AIEWF 会场高潮迭起，GPT-5.6 Sol Ultra 蓄势待发，AI 基础设施与 Agent 生态双线演进",
+    "title": "Fable 5 乘着独立日长周末掀起构建热潮，Agent 基础设施迎来「自改进」范式，Aaron Levie 提出「AI 之争本质是上下文之争」",
     "paras": [
-      "AI Engineer World's Fair 的第三天继续引爆社交网络。Swyx 在会场宣布了一场「闪存惊喜」活动，并主持了 Latent Space 与 Etched 的现场播客录制。但最让他骄傲的不是技术话题——「今年 AIEWF 的主题演讲中获得最大掌声的时刻，是正常化男性在高增长环境中谈论情感和心理健康」，这条推文本身就引发了广泛共鸣。与此同时，Swyx 对 Anthropic 的 Mike Krieger 进行了一场充满「厚脸皮问题」的采访，话题直指 Fable 和刚刚发布的 Claude Tag。会场内人头攒动，Swyx 形容线上观众规模将是现场的「1000 倍以上」——AI 工程师群体的关注度达到了前所未有的高度。",
-      "OpenAI Codex 团队成员 Thibault Sottiaux 投下了一枚重磅炸弹：「等不及想看看人们会用 GPT-5.6 Sol Ultra 做什么。把最难的那些 prompt 存好。」这条简短预告迅速点燃了开发者社区。虽然他未透露具体发布时间，但「Sol Ultra」这个命名延续了 OpenAI 近期的产品线风格，暗示这将是一次重大能力跃升。另一边，Claude 生态也在加速推进：Boris Cherny 表示 Claude Code 中的 Artifacts「改变了生活」，正在向 Pro 和 Max 层级扩展；Cat Wu 透露 Claude Tag 已在 Anthropic 内部落地 65% 产品 PR，同时宣布为 Enterprise 和 Team 客户分别提供 $25k 和 $2.5k 的免费体验额度；Thariq 则确认 Fable 将在 7 月 7 日后暂时退出订阅计划，但「一旦算力允许就会恢复为标准功能」。",
-      "基础设施层面同样热闹。Vercel CEO Guillermo Rauch 提出了一个令人耳目一新的概念：将 AI Gateway 定位为「Token Delivery Network」——就像 CDN 之于内容分发，AI Gateway 可以在不重新部署的情况下动态路由或拒绝 AI 流量。他以 Fable 突然退役的场景为例，说明了这种能力的必要性：生产环境依赖某个模型时，模型的下线可能造成灾难性影响。Rauch 还宣布了 Vercel 服务间的私有连接绑定功能，通过单行配置即可实现安全的内部服务通信。Box CEO Aaron Levie 则从更宏观的角度切入：「企业 AI 部署不仅仅是把 chatbot 放进去——真正的挑战在于将 AI 系统与底层业务流程对齐。大多数工作流并不是为 AI agent 直接嵌入而设计的。」他呼吁业界认真对待 AI 与企业流程的深度整合。与此同时，VC Nikunj Kothari 观察到「AGI Summer」正在吸引大量「游客」涌入旧金山——但他们只看到了脏乱和 996 文化，而真正让这座城市与众不同的，是那些「没有议程、纯粹开放」的创始人对话。Garry Tan 以一句「It's time to build」为这一切做了最好的注脚。"
+      "独立日长周末成了 AI 社区的一场盛大黑客松。Anthropic 的 Thariq 发布了一篇关于「如何与 Fable 合作中发现自己的未知领域」的深度文章，获得了 3400+ 赞和 260 次转发，成为当日最具影响力的技术分享。他分享的核心方法论是：用 HTML Artifacts 来显式化自己的知识盲区，而不是在提示词里大海捞针。Claude Code 团队成员 Cat Wu 则号召社区展示 Fable 5 作品——她的推文收获了 253 条回复，成为了一个即兴 Demo Day。Dan Shipper 顺势发布了 Fable 5 的 prompt 库，并打趣道：「Fable 在你泡泳池时替你工作——无价。」与此同时，Dan 也澄清了社区对 Fable 5 基准测试的争议：模型本身没有变化，但更多地回退到了 Opus 4.8，导致测试评分是「混合模式」而非纯 Fable 能力。",
+      "Agent 基础设施层面的讨论同样深刻。Vercel CEO Guillermo Rauch 提出了一个引人注目的概念：Agent 的自改进能力。他认为，Agent 应该能够「内省自己的过往运行，发现低效、错误和冗余的工具调用，然后生成新的 prompts 和 skills」。他宣布这一能力已内置在 Vercel AI Gateway 的部署流程中。Box CEO Aaron Levie 则发表了一篇长线程，系统阐述了他的核心论点：「AI 之争正在演变为上下文之争。」他论证道，Agent 的有效性取决于它是否拥有正确的领域知识、是否能访问合适的上下文和工具、以及是否能深度融入用户的工作流。因此，能够捕获和利用最佳上下文的平台将成为 Agent 完成最佳工作的场所。他还预见了「应用层」的核心价值：在规划编排层使用前沿模型，在大量中间任务中使用低成本模型（开源或闭源），以及在垂直领域训练专用模型——「永远不要跟 bitter lesson 对赌，但在特定领域对接近前沿的基座模型做 post-training，往往能降低成本或提升性能。」",
+      "此外，VC Nikunj Kothari 观察到一个有趣规律：「AI 实验室似乎在长周末前偷偷发布模型——Opus 4.5 在感恩节前，Fable 5 在独立日前，给大众留出时间玩弄、震撼、并加深 token 焦虑。」Y Combinator 总裁 Garry Tan 则将目光投向医疗领域：「专科医生的候诊时间在 AI 即将改变一切的时刻不断攀升——我预感 AI 将把护理质量提升 100 倍，对各地患者而言刻不容缓。」Peter Steinberger 则展示了一种与 AI 相处的幽默方式：他把自己的 80000 条推文喂给了 Fable，让它更精准地吐槽自己。Zara Zhang 则从一个创业者角度提出了关于 AI 工具变现的深刻观察：「人们越来越不愿意买工具了——如果它只是个工具，他们觉得自己能用 coding agent 自己造。但他们愿意付钱购买的是'获得自己不具备的专业知识的感觉'。」"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "No Priors：Valar Atomics 创始人谈核能如何解锁能源丰裕时代",
-    "meta": "YouTube · No Priors",
+    "title": "The MAD Podcast：NVIDIA 为何免费开放 AI 模型 —— 与 Bryan Catanzaro 的深度对话",
+    "meta": "YouTube · The MAD Podcast with Matt Turck",
     "paras": [
-      "No Priors 主持人来到了 Valar Atomics 位于犹他州的核设施现场，与创始人兼 CEO Isaiah Taylor 进行了一场深度对话。Valar 刚刚实现了历史性突破：世界上第一颗由核反应堆供电的 AI 芯片，以及 50 年来美国首个启动的 TRISO 反应堆。Taylor 的使命是「为行星规模建造核反应堆」——他认为核电行业长期以来沉溺于建模和仿真，而非硬件迭代和实际执行，而 Valar 走的是「最简单、最安全的反应堆」路线。",
-      "对话的核心论点极具颠覆性：能源是一切商品价格的终极决定因素。Taylor 从供应链的角度逐层拆解——任何产品的成本最终都可以追溯到制造它的机器的成本，而机器的成本最终可以追溯到驱动它们的能源。因此，如果 AI 和机器人实现了半自主制造，「购买任何东西的成本将等于制造它所消耗的能源成本」。将能源成本降低 10 倍、再 10 倍，就意味着一切商品的价格可能趋近于零。这一愿景直接关联到当前的 AI 算力需求爆发：AI 对电力的巨大需求正在创造一个前所未有的市场环境，使得核能创新在经济上变得可行。Taylor 认为，SpaceX 证明了当有人愿意真正动手建造时，整个行业的游戏规则都会改变，而 Valar 正在核能领域做同样的事。"
+      "NVIDIA 应用深度学习研究副总裁 Bryan Catanzaro 与 FirstMark 合伙人 Matt Turck 展开了一场关于开源 AI 战略的深入对话。Catanzaro 领导着 NVIDIA 的 Nemotron 系列开源基础模型团队——这支数百人的研究团队刚刚发布 Nemotron 3 Ultra，该模型在上线后立即成为美国排名第一的开源权重模型。",
+      "Catanzaro 的核心逻辑令人深思：「如果你接受我们一直运行在算力极限这个前提，那么获得更多智能的途径就是提升效率——我们已经无法通过施加更多算力来获得更多智能，必须更聪明地使用我们已有的资源。」他将 AI 比喻为人类正在创造的外部器官——正如厨房是我们的外部胃，我们现在正在创造外部大脑。这一哲学直接解释了 NVIDIA 为何将最前沿的模型免费开放：通过让整个生态在 Nemotron 之上构建，NVIDIA 实际上是在为自己的 GPU 平台创造更大的需求飞轮。对话还深入探讨了四位训练、混合 Mamba-Transformer 架构、MoE、多 token 预测和多教师蒸馏等技术细节——全部用通俗语言解释。"
     ],
-    "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4"
+    "url": "https://www.youtube.com/watch?v=Oojrfdl42LI"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "今年 AI Engineer World's Fair 的主题演讲中，获得最大掌声的是正常化男性在高增长环境中谈论情感和心理健康——对此我非常自豪。也感谢 Mike Krieger 接受了我关于 Fable 和 Claude Tag 的所有厚脸皮问题。另外，大家都来 AIE 展会，12:30 有一场「闪存惊喜」，然后来 Expo Stage 2 看 Latent Space 与 Etched 的现场播客录制。",
-        "url": "https://x.com/swyx/status/2072754722059239471"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere. 等不及想看看人们会用 GPT-5.6 Sol Ultra 做什么。把最难的那些 prompt 存好。",
-        "url": "https://x.com/thsottiaux/status/2072607914217320644"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "Claude Code 中的 Artifacts 改变了我的生活。非常兴奋地宣布它正在向 Pro 和 Max 层级扩展！",
-        "url": "https://x.com/bcherny/status/2072777472970563995"
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "我发现与 Fable 合作中最重要的部分，是发现自己的「未知的未知」，这样才能更好地向它提问。关键方法是：用 HTML Artifacts 将你的知识盲区显式化——把探索过程可视化，看看自己遗漏了什么，而不是在提示词里大海捞针。这一方法基于我在 AIE 的演讲，在与 Geoffrey Litt 的讨论中得到了进一步精炼，包括加入了「测验」环节来自检理解。",
+        "url": "https://x.com/trq212/status/2073101078145724589"
       },
       {
         "name": "Cat Wu",
         "handle": "_catwu",
-        "text": "Claude Tag 正在释放我们整个组织的生产力：工程、产品、数据、销售、市场团队都在使用。内部版本已落地 65% 的产品 PR。我们为 Claude Enterprise 组织提供 $25k 额度、Team 组织提供 $2.5k 额度的 Claude Tag 体验金，有效期至 9 月 1 日。我们还在博客中分享了 CEO/CTO 的部署手册，以及为什么安全从第一天起就被设计进产品中。",
-        "url": "https://x.com/_catwu/status/2072731500928508331"
+        "text": "小技巧：你可以用 Claude Code 的计算机使用功能来设置 Claude Tag——只需要把它指向 Claude Tag 文档，它就会自动帮你连接团队的 GitHub 仓库、数据仓库、Google Drive 和其他数据源。另外，这个长周末大家用 Fable 5 在构建什么？在回复里展示你的 Demo！",
+        "url": "https://x.com/_catwu/status/2073149354412822738"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "text": "我们一直把 Vercel AI Gateway 解释为「Token Delivery Network」——就像 AI 模型的 CDN。CDN 的一大优势是可以在不重新部署的情况下动态路由或拒绝流量。当 Fable 突然退役时，我们担心依赖它的生产工作负载会受影响。即便有最完善的 fallback 策略，这类事件也需要一个基础设施层来应对。同时我们还推出了服务间私有连接绑定功能：在 vercel.json 中注册 bindings（一行代码），即可实现安全的内部服务通信，适用于 Node、Python、Dockerfile 等各种环境。",
-        "url": "https://x.com/rauchg/status/2072741369848746315"
+        "text": "Agent 的自改进能力：让你的 Agent 能够内省自己的过往运行，发现低效、错误和冗余的工具调用，然后生成新的提示词和技能。这就是为什么 Agent 可观测性已内置在 Vercel AI Gateway 的部署流程中——当你把 Agent 部署到 Vercel 时，这一切开箱即用。",
+        "url": "https://x.com/rauchg/status/2073132174958841887"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "在企业中部署 AI 远不止是放一个 chatbot 那么简单。真正的工作在于将 AI 系统与底层业务流程对齐并驱动预期结果。大多数工作流并不是为 AI agent 直接嵌入而设计的——今天的工作流需要人工集成和上下文切换。对于那些严肃对待 AI 部署的公司来说，这是一个必须认真对待的重大挑战。",
-        "url": "https://x.com/levie/status/2072875685811716182"
+        "text": "AI 之争正在演变为上下文之争。Agent 的有效性取决于三件事：是否拥有正确的领域知识、是否能够访问合适的上下文和工具、以及是否能深度融入用户的工作流。因此，能够捕获和利用最佳上下文的平台将成为 Agent 完成最佳工作的场所。应用层远不止是 LLM 包装器——它需要组织关键知识、治理访问权限、并持续改进上下文。在架构上，应用层将用前沿模型做规划和编排，用低成本模型处理大量中间任务，并在垂直领域做专用模型的 post-training。",
+        "url": "https://x.com/levie/status/2073138135014502777"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
-        "text": "我最近在 Fable 上的体验感同身受：它可以连续运行几个小时，然后回来给你一段两段的解释。我们需要更好的方式让 AI 给我们讲故事——而不仅仅是输出结果。",
-        "url": "https://x.com/danshipper/status/2072805884376301737"
+        "text": "Fable 5 到底有没有变弱？实际上模型本身没变——但它确实更多地回退到了 Opus 4.8，所以你在基准测试中看到的是 Fable 和 Opus 的混合评分，不是纯 Fable 能力。另外，一个全新 iOS 应用端到端：500 万 token；清空整个产品待修复 Bug 列表：2000 万 token；Fable 在你在泳池边时替你工作：无价。",
+        "url": "https://x.com/danshipper/status/2073097796941484486"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "我把自己的 80000 条推文喂给了 Fable，这样它就能更狠地吐槽我了。另外，如果你觉得 Codex 做设计不行，试试「用 imagegen 重新构想这个设计，然后实现它」——效果出奇地好。",
+        "url": "https://x.com/steipete/status/2073277317464682723"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
-        "text": "AI 垃圾内容的根源不是糟糕的文风，而是没有实质。一个刚毕业的大学生告诉我，他们在学校时会把课件喂给 AI 让它替代教授讲课——经常发现 AI 教得比教授更好。另外，给你的 agent 最好的建议之一：在群里说话，而不是在私信里。",
-        "url": "https://x.com/zarazhangrui/status/2072943922385715262"
+        "text": "人们越来越不愿意买工具了——如果它只是个工具，他们觉得自己能用 coding agent 自己造。但他们愿意为之付钱的是「获得自己不具备的专业知识的感觉」。高频发推文其实没想象中那么难，一旦跨过第一个坎，它就不再是一种任务，而变成一种镜头——你开始通过它来看待你的每一天和这个世界。",
+        "url": "https://x.com/zarazhangrui/status/2073295900395606401"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "AI 实验室似乎在长周末前偷偷发布模型——Opus 4.5 在感恩节前，Fable 5 在独立日前，给大众留出时间玩弄、震撼、并加深 token 焦虑。另外，尽管我经常批评 Gemini 的产品体验，但它仍然是唯一一个用单个 API Key 就能「全搞定」的平台：Flash 做快速廉价长上下文结构化任务、Nano Banana 做世界级图像生成、带 Grounding 的搜索、Realtime 实时音频等等。",
+        "url": "https://x.com/nikunj/status/2073151491557478883"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "18 builders · 36 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-04T02:05:00+08:00"
+    "coverage": "16 builders · 38 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-05T02:15:41+08:00"
   }
 }
