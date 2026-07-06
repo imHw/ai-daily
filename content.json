@@ -1,86 +1,92 @@
 {
   "issue": {
-    "vol": "Vol.185",
-    "date": "2026年7月5日",
-    "weekday": "星期日",
-    "dateISO": "2026-07-05",
-    "tagline": "Fable 5 掀起假日黑客狂潮，Agent 自改进成新标配，NVIDIA 开源战略深度解读"
+    "vol": "Vol.186",
+    "date": "2026年7月6日",
+    "weekday": "星期一",
+    "dateISO": "2026-07-06",
+    "tagline": "机器人流量首超人类，互联网广告模式宣告终结，Claude 正式接入 Apple Foundation Models"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Fable 5 乘着独立日长周末掀起构建热潮，Agent 基础设施迎来「自改进」范式，Aaron Levie 提出「AI 之争本质是上下文之争」",
+    "title": "互联网历史上首次：Bot 流量超越人类，Cloudflare CEO 宣告「广告驱动的互联网已死」，Vercel Token 消费图谱揭晓 Anthropic 统治地位",
     "paras": [
-      "独立日长周末成了 AI 社区的一场盛大黑客松。Anthropic 的 Thariq 发布了一篇关于「如何与 Fable 合作中发现自己的未知领域」的深度文章，获得了 3400+ 赞和 260 次转发，成为当日最具影响力的技术分享。他分享的核心方法论是：用 HTML Artifacts 来显式化自己的知识盲区，而不是在提示词里大海捞针。Claude Code 团队成员 Cat Wu 则号召社区展示 Fable 5 作品——她的推文收获了 253 条回复，成为了一个即兴 Demo Day。Dan Shipper 顺势发布了 Fable 5 的 prompt 库，并打趣道：「Fable 在你泡泳池时替你工作——无价。」与此同时，Dan 也澄清了社区对 Fable 5 基准测试的争议：模型本身没有变化，但更多地回退到了 Opus 4.8，导致测试评分是「混合模式」而非纯 Fable 能力。",
-      "Agent 基础设施层面的讨论同样深刻。Vercel CEO Guillermo Rauch 提出了一个引人注目的概念：Agent 的自改进能力。他认为，Agent 应该能够「内省自己的过往运行，发现低效、错误和冗余的工具调用，然后生成新的 prompts 和 skills」。他宣布这一能力已内置在 Vercel AI Gateway 的部署流程中。Box CEO Aaron Levie 则发表了一篇长线程，系统阐述了他的核心论点：「AI 之争正在演变为上下文之争。」他论证道，Agent 的有效性取决于它是否拥有正确的领域知识、是否能访问合适的上下文和工具、以及是否能深度融入用户的工作流。因此，能够捕获和利用最佳上下文的平台将成为 Agent 完成最佳工作的场所。他还预见了「应用层」的核心价值：在规划编排层使用前沿模型，在大量中间任务中使用低成本模型（开源或闭源），以及在垂直领域训练专用模型——「永远不要跟 bitter lesson 对赌，但在特定领域对接近前沿的基座模型做 post-training，往往能降低成本或提升性能。」",
-      "此外，VC Nikunj Kothari 观察到一个有趣规律：「AI 实验室似乎在长周末前偷偷发布模型——Opus 4.5 在感恩节前，Fable 5 在独立日前，给大众留出时间玩弄、震撼、并加深 token 焦虑。」Y Combinator 总裁 Garry Tan 则将目光投向医疗领域：「专科医生的候诊时间在 AI 即将改变一切的时刻不断攀升——我预感 AI 将把护理质量提升 100 倍，对各地患者而言刻不容缓。」Peter Steinberger 则展示了一种与 AI 相处的幽默方式：他把自己的 80000 条推文喂给了 Fable，让它更精准地吐槽自己。Zara Zhang 则从一个创业者角度提出了关于 AI 工具变现的深刻观察：「人们越来越不愿意买工具了——如果它只是个工具，他们觉得自己能用 coding agent 自己造。但他们愿意付钱购买的是'获得自己不具备的专业知识的感觉'。」"
+      "本周的最重磅消息来自 Cloudflare。CEO Matthew Prince 在 The MAD Podcast 上披露：2026 年上半年，机器人流量首次超越人类流量——这一里程碑比 Cloudflare 去年秋季预测的 2027 年底提前了整整一年半。Prince 给出的核心结论振聋发聩：「过去 28 年互联网的底层商业模式始终是广告，问题是——Bot 不会点击广告。」他预测未来五年互联网流量可能增长千倍，而驱动这一切的不是传统爬虫，而是 AI Agent。一个典型的场景令人印象深刻：人类购买相机可能访问 5 个网站，而一个 Agent 为完成同样的任务会访问 5000 个。Prince 还透露，Cloudflare 已经裁掉了超过 20% 的团队——不是因为业务挣扎，而是因为「我们不再需要那么多中层管理者和测量者」。他将犹豫不决的企业领导人称为「懦弱」，并观察到越来越多的高级管理者主动申请退回一线技术岗——在 AI 工具加持下，一个优秀的 IC 可以比 2019 年的整个团队更高效。",
+      "与此同时，Vercel CEO Guillermo Rauch 发布了一份基于 Vercel AI Gateway 的 Token 消费竞速动画——该网关每月聚合数百万开发者的数万亿 Token。数据清晰展示了各 AI 实验室之间的此消彼长、Anthropic 的绝对统治地位、以及开源权重模型的崛起态势。Anthropic 自己的 Cat Wu 则分享了一项令人印象深刻的体验：Claude Fable 5 在她的留存分析中自主使用了倾向性评分匹配（Propensity Score Matching），无需她额外提示——「Fable 5 的『判断力』在所有工作中都有显著提升，从写邮件到调试复杂错误。」OpenAI 的 Thibault Sottiaux 发起了一场迷你社区调研——「Codex 至今做不好、但早该做好的事情是什么？」——引发了 1969 条回复的激烈讨论。",
+      "产品层面，Anthropic 正式发布了 Claude 在 Apple Foundation Models 框架中的支持——通过新的 Swift Package，开发者可以用 Apple 的 Foundation Models 框架调用 Claude 处理复杂工作流。这意味着 Apple 的原生应用可以先在本地用设备端模型完成摘要、提取等轻量任务，当涉及多步推理、代码生成或 Web 搜索时无缝切换至 Claude——同一用户界面，不同模型各司其职。此外，Dan Shipper 注意到 Codex 现在已经可以在 ChatGPT 内部使用——「Yo dawg, we heard you like Codex in ChatGPT」。Peter Steinberger 则宣布了 Rate Limiter 的新功能：开发者可以精确看到额度重置时间，以便优化 Token 使用策略。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "The MAD Podcast：NVIDIA 为何免费开放 AI 模型 —— 与 Bryan Catanzaro 的深度对话",
+    "title": "The MAD Podcast：Cloudflare CEO — 互联网的商业模式已死",
     "meta": "YouTube · The MAD Podcast with Matt Turck",
     "paras": [
-      "NVIDIA 应用深度学习研究副总裁 Bryan Catanzaro 与 FirstMark 合伙人 Matt Turck 展开了一场关于开源 AI 战略的深入对话。Catanzaro 领导着 NVIDIA 的 Nemotron 系列开源基础模型团队——这支数百人的研究团队刚刚发布 Nemotron 3 Ultra，该模型在上线后立即成为美国排名第一的开源权重模型。",
-      "Catanzaro 的核心逻辑令人深思：「如果你接受我们一直运行在算力极限这个前提，那么获得更多智能的途径就是提升效率——我们已经无法通过施加更多算力来获得更多智能，必须更聪明地使用我们已有的资源。」他将 AI 比喻为人类正在创造的外部器官——正如厨房是我们的外部胃，我们现在正在创造外部大脑。这一哲学直接解释了 NVIDIA 为何将最前沿的模型免费开放：通过让整个生态在 Nemotron 之上构建，NVIDIA 实际上是在为自己的 GPU 平台创造更大的需求飞轮。对话还深入探讨了四位训练、混合 Mamba-Transformer 架构、MoE、多 token 预测和多教师蒸馏等技术细节——全部用通俗语言解释。"
+      "Cloudflare 联合创始人兼 CEO Matthew Prince 与 FirstMark 合伙人 Matt Turck 展开了一场关于互联网历史转折点的深度对话。核心事实：2026 年上半年，Cloudflare 网络中的机器人流量首次超越人类流量——这一节点比预测提前了 18 个月。Prince 将其归因于 AI Agent 的爆炸式增长：「未来五年，你会看到 Bot 和 Agent 的数量以千倍于人类的比例碾压互联网。」",
+      "这带来了一个根本性的经济问题：互联网过去 28 年的商业模式一直是广告，但 Bot 不会点击广告。Prince 认为，未来五年的互联网商业模式将发生根本性变化，而替代方案尚未定义。他以自己收购的当地报纸为例：AI 授权许可收入已经超过了展示广告收入——「这既是媒体的未来，也是互联网的未来。」另一个深刻观察是：在 Agentic 世界中，「品牌」的含义将被彻底重塑。传统上品牌是人类决策的「认知捷径」——看到麦当劳标志就知道该期待什么——但 Agent 有无限耐心去探索所有选项，品牌作为信号的价值将大幅降低。",
+      "Prince 还坦率讨论了 Cloudflare 裁减 20% 团队的争议性决定：「不是因为业务不好，也不是因为员工不优秀，而是因为我们真的不需要那么多中层管理者了。」他观察到越来越多的高级工程师主动要求退回 IC 角色——「在 AI 时代，一个出色的 IC 可以完成远超整个团队的工作量。」他警告那些犹豫不决的领导者：「最残忍的事情就是等待。」Cloudflare 用 AI 重写了 WordPress（项目名 Em Dash），并建立了一个内部 AI 智能体系统（AutoCloudflare），目前已被国际奥委会用于组织赛事运营。他对 AI 取代工作的立场不同于 Sam Altman 等人的极端预测：「AI 解放了人们，让他们能专注于真正创造价值的事——构建或销售。」"
     ],
-    "url": "https://www.youtube.com/watch?v=Oojrfdl42LI"
+    "url": "https://www.youtube.com/watch?v=UN47z_opfmo"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thariq",
-        "handle": "trq212",
-        "text": "我发现与 Fable 合作中最重要的部分，是发现自己的「未知的未知」，这样才能更好地向它提问。关键方法是：用 HTML Artifacts 将你的知识盲区显式化——把探索过程可视化，看看自己遗漏了什么，而不是在提示词里大海捞针。这一方法基于我在 AIE 的演讲，在与 Geoffrey Litt 的讨论中得到了进一步精炼，包括加入了「测验」环节来自检理解。",
-        "url": "https://x.com/trq212/status/2073101078145724589"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 制作了一个 Token 消费竞速动画，基于 Vercel AI Gateway 的终生数据——该平台每月聚合数百万开发者的数万亿 Token。动画清晰展示了 AI 实验室之间的此消彼长：Anthropic 的绝对统治地位与开源权重模型的崛起。这些数据来自真实的开发者使用数据，而非抽象的市场调研。",
+        "url": "https://x.com/rauchg/status/2073563586270781674"
       },
       {
         "name": "Cat Wu",
         "handle": "_catwu",
-        "text": "小技巧：你可以用 Claude Code 的计算机使用功能来设置 Claude Tag——只需要把它指向 Claude Tag 文档，它就会自动帮你连接团队的 GitHub 仓库、数据仓库、Google Drive 和其他数据源。另外，这个长周末大家用 Fable 5 在构建什么？在回复里展示你的 Demo！",
-        "url": "https://x.com/_catwu/status/2073149354412822738"
+        "text": "Anthropic 的 Claude Code 团队成员分享：Claude Fable 5 在她的用户留存分析中自主使用了倾向性评分匹配（Propensity Score Matching），通过匹配用户活跃度来确保对比组的一致性——而且这完全不需要她额外提示。她指出 Fable 5 的「判断力」在所有工作中都有全面提升，从 Cowork 中撰写邮件和文档，到 Claude Code 中调试复杂错误。",
+        "url": "https://x.com/_catwu/status/2073439890482794966"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Agent 的自改进能力：让你的 Agent 能够内省自己的过往运行，发现低效、错误和冗余的工具调用，然后生成新的提示词和技能。这就是为什么 Agent 可观测性已内置在 Vercel AI Gateway 的部署流程中——当你把 Agent 部署到 Vercel 时，这一切开箱即用。",
-        "url": "https://x.com/rauchg/status/2073132174958841887"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "OpenAI 的 Codex & ChatGPT 团队成员向社区发起了一个引发大量讨论的问题：「Codex 至今做不好、但你认为我们早该做好的事情是什么？」这条推文引发了 1969 条回复和 1804 次点赞，社区踊跃反馈了各种边缘场景和改进方向。此外，他分享了一个与 Claude 的有趣互动——用表情符号做数学运算——展示了 AI 模型在轻松场景中的表现力。",
+        "url": "https://x.com/thsottiaux/status/2073551549494596079"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "AI 之争正在演变为上下文之争。Agent 的有效性取决于三件事：是否拥有正确的领域知识、是否能够访问合适的上下文和工具、以及是否能深度融入用户的工作流。因此，能够捕获和利用最佳上下文的平台将成为 Agent 完成最佳工作的场所。应用层远不止是 LLM 包装器——它需要组织关键知识、治理访问权限、并持续改进上下文。在架构上，应用层将用前沿模型做规划和编排，用低成本模型处理大量中间任务，并在垂直领域做专用模型的 post-training。",
-        "url": "https://x.com/levie/status/2073138135014502777"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "text": "Linear 产品负责人提出了两个具有哲学意味的观点。其一关于 Agent 问责制：「如果你让 Agent 删掉了所有生产数据库的表，被开除的是模型还是你？」——这在 Codex 和 Claude Code 等工具日益普及的当下引发了真实讨论。其二关于代码审查的本质：「最好的找 Bug 方式是实际使用产品并测试它能否被破坏——你不会靠推演代码来发现大部分 Bug。代码审查真正要做的是审视架构和 API 设计，控制技术债务的增长。」",
+        "url": "https://x.com/thenanyu/status/2073410944969932877"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
-        "text": "Fable 5 到底有没有变弱？实际上模型本身没变——但它确实更多地回退到了 Opus 4.8，所以你在基准测试中看到的是 Fable 和 Opus 的混合评分，不是纯 Fable 能力。另外，一个全新 iOS 应用端到端：500 万 token；清空整个产品待修复 Bug 列表：2000 万 token；Fable 在你在泳池边时替你工作：无价。",
-        "url": "https://x.com/danshipper/status/2073097796941484486"
+        "text": "Every CEO 发现了一个有趣的新组合：「Yo dawg, we heard you like Codex in ChatGPT」——Codex 现在可以在 ChatGPT 内部使用了。这意味着开发者可以在 ChatGPT 的对话界面中直接调用 Codex，无需切换上下文或工具链。他还分享了一个轻松发现：在 Dwarkesh Patel 对 3Blue1Brown 的采访中，他发现自己一直以来读错了几乎所有著名数学家的名字。",
+        "url": "https://x.com/danshipper/status/2073586548545638459"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
-        "text": "我把自己的 80000 条推文喂给了 Fable，这样它就能更狠地吐槽我了。另外，如果你觉得 Codex 做设计不行，试试「用 imagegen 重新构想这个设计，然后实现它」——效果出奇地好。",
-        "url": "https://x.com/steipete/status/2073277317464682723"
+        "text": "OpenClaw 创始人（同时也是 OpenAI 成员）宣布 Rate Limiter 的新功能：开发者现在可以精确看到 API 额度重置的倒计时，以便在限时窗口内最大化 Token 利用率——他将此称为「valuemaxxing game」。这一功能直击了 AI 开发者的核心痛点：在额度重置前尽可能多地使用廉价 Token。另外，他分享了一张「What a ride」的截图，记录了自己在 AI 浪潮中的旅程。",
+        "url": "https://x.com/steipete/status/2073482942513565713"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "人们越来越不愿意买工具了——如果它只是个工具，他们觉得自己能用 coding agent 自己造。但他们愿意为之付钱的是「获得自己不具备的专业知识的感觉」。高频发推文其实没想象中那么难，一旦跨过第一个坎，它就不再是一种任务，而变成一种镜头——你开始通过它来看待你的每一天和这个世界。",
-        "url": "https://x.com/zarazhangrui/status/2073295900395606401"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "AI 实验室似乎在长周末前偷偷发布模型——Opus 4.5 在感恩节前，Fable 5 在独立日前，给大众留出时间玩弄、震撼、并加深 token 焦虑。另外，尽管我经常批评 Gemini 的产品体验，但它仍然是唯一一个用单个 API Key 就能「全搞定」的平台：Flash 做快速廉价长上下文结构化任务、Nano Banana 做世界级图像生成、带 Grounding 的搜索、Realtime 实时音频等等。",
-        "url": "https://x.com/nikunj/status/2073151491557478883"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "OpenAI CEO 在美国 250 周年独立日发表了一段反思：「感恩那些创造了『美国』这个理念的人，感恩过去 250 年建造这个国家的每一个人，也感恩那些将把它带向未来 250 年的人。这是人类历史上最令人印象深刻的社会实验。」他还特别称赞了《独立宣言》中的经典表述：「他们把『生命、自由和追求幸福』这几个词真正说到了点子上。」这条推文获得了 2831 次点赞。",
+        "url": "https://x.com/sama/status/2073635910512726444"
       }
     ]
   },
+  "blog": {
+    "label": "官方博客",
+    "title": "Claude Blog：在 Apple Foundation Models 框架中构建智能应用",
+    "meta": "Anthropic · Jun 08, 2026",
+    "paras": [
+      "Anthropic 发布了一个新的 Swift Package，使 Apple 开发者能够通过 Apple 的 Foundation Models 框架调用 Claude 处理复杂工作流。Apple 的 Foundation Models 框架让开发者用短短三行代码即可在 Swift 中获取类型安全的模型输出——用于摘要、提取等本地轻量任务。",
+      "当请求涉及多步推理、代码生成或 Web 搜索时，开发者可以将任务无缝「交接」给 Claude，再将结果流式返回同一 SwiftUI 视图。因为 Apple 框架已经通过 @Generable 注解返回了类型化的 Swift 值，Claude 收到的输入是干净的结构化数据而非原始用户文本。",
+      "这一集成解锁的模式非常优雅：日记类 App 可以用本地模型生成每日提示词，然后让 Claude 在几个月的日记条目中寻找主题线索。学习类 App 可以在本地解释一个概念，当学生追问「这对我们学过的一切意味着什么？」时，无缝切换到 Claude。对用户来说，这始终是同一个体验，只是不同任务背后切换最佳模型。该功能支持 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27。"
+    ],
+    "url": "https://claude.com/blog/claude-for-foundation-models"
+  },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 builders · 38 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-05T02:15:41+08:00"
+    "coverage": "13 builders · 28 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-07-06T10:00:00+08:00"
   }
 }
