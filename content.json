@@ -1,88 +1,95 @@
 {
   "issue": {
-    "vol": "Vol.187",
-    "date": "2026年7月7日",
-    "weekday": "星期二",
-    "dateISO": "2026-07-07",
-    "tagline": "Noam Brown 呼吁重塑 AI 评估：Benchmark 网格是「坏均衡」，模型能力是推理预算的函数"
+    "vol": "Vol.188",
+    "date": "2026年7月8日",
+    "weekday": "星期三",
+    "dateISO": "2026-07-08",
+    "tagline": "Anthropic J-space 论文揭示推理「脑外科手术」式干预；Claude Code 团队首次公开诞生故事；Replit Agent 实现闭环自进化"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI 推理之父 Noam Brown 发布重磅长文：Benchmark 表格已全面失灵，安全评估框架严重滞后于 Test-Time Compute 时代",
+    "title": "Anthropic 同日放出两大重磅：J-space 论文实现模型推理精准干预，Claude Code 团队首次回顾诞生历程",
     "paras": [
-      "本周最值得关注的深度思考来自 OpenAI 研究科学家 Noam Brown——他被誉为「AI 推理之父」，是多智能体扑克 AI Libratus 和外交博弈 AI Cicero 的缔造者。在 No Priors 播客中，Brown 系统性地拆解了当前 AI 评估体系的根本缺陷：Benchmark 网格（每个模型在固定 benchmark 上给出一个数字）已经全面失灵，因为它完全不控制推理预算（test-time compute）。「GPT-3 时代你给它 1000 万美元预算也做不了什么，但现在的模型——给它 10 美元和给它 1000 万美元，表现天差地别。那我们应该按什么预算来评估？」他的核心主张：Benchmark 必须像经济学的供需曲线一样带 X 轴——标注 Tokens、成本或时间——不同模型在不同预算水平下的性能才能被公平比较。",
-      "这一观点对行业的影响远超学术讨论。Brown 指出，当前所有 AI 实验室的「负责任扩展政策」（Responsible Scaling Policies）和「准备框架」（Preparedness Frameworks）都是在 ChatGPT 时代制定的——那时候 test-time compute scaling 还不是一个维度。「这些框架完全不考虑推理预算。问题是，给模型 10 美元预算它可能安全，给 1000 万美元预算呢？现有政策回答不了这个问题。」他特别提到了 AISI（英国 AI 安全研究所）的评估：模型在 1 亿 token 的推理预算下仍在持续提升——而且提升不是跳跃式的，是连续的，这意味着你可以用低预算下的性能斜率来「预测」高预算下的表现。Brown 认为这是一个亟待学术界研究的课题。",
-      "在建造者社区，Anthropic 的 Cat Wu 分享了一个令人印象深刻的使用案例：她让 Claude Code 启动一个动态工作流，自动搜索 100 位候选人，包含 LinkedIn、Twitter、博客和播客信息，并为每人写一段 pitch——然后她就合上电脑出门了，在路上通过手机查看结果。YC 总裁 Garry Tan 则从大阪发来反思：「人类财富的真正瓶颈从来不是资源，而是好想法和实现想法的杠杆。我们刚刚为所有人删除了杠杆约束。现在只剩下想法了——去拥有它们，然后构建它们。」Sam Altman 则用一条对比表达了对 AI 能力的真实感受：「我家大宝第一次说出两个词组成的句子，我对这个认知壮举的惊叹程度，和 GPT-5.6 发现新数学差不多。」这条推文获得了超过 11000 次点赞。"
+      "今日最受关注的技术突破来自 Anthropic 的 J-space 论文。AI 工程师社区知名人物 Swyx 对其做了精炼拆解：Anthropic 证明了两件事——其一，他们可以对模型的推理过程做「脑外科手术」式干预，在中途改变推理方向；其二，模型本身能够检测到自己被干预了。「Control > correlation — 这令人信服地证明了理解（understanding）的存在，而不仅仅是相关性。」这一发现将 AI 可解释性研究推向了新高度。",
+      "与此同时，Claude Code 团队（Boris Cherny、Cat Wu、Thariq 等）首次公开了 Claude Code 的诞生故事——从 Anthropic 安全研究的源头讲起。Boris Cherny 写道：「这是我们第一次讲述 Claude Code 如何被构建和发布的故事，起点是 Anthropic 的安全研究。还有太多要做，我们只完成了 1%。」该推文获得超过 2500 次点赞。Anthropic 官方账号也同步发布了一篇 Claude Code 历史回顾博文，同时宣布 Claude Code 正式支持 Artifacts——可以将会话中的工作成果自动转化为可分享的即时网页，包括 PR 走查、系统说明、仪表盘和发布检查清单。",
+      "Replit CEO Amjad Masad 宣布了一项里程碑式的进展：「很多人问 Replit 为什么进步这么快——我们闭合了回路，Agent 正在自我改进。」技术细节显示其 Agent 现在能够自主迭代自身。他同时分享了一个真实案例：亚特兰大一家房地产公司用 Replit 自建的 CRM 替代了 Salesforce，节省了 10 万美元。Vercel CEO Guillermo Rauch 则在评测端抛出重磅：Vercel 的新 Agent「eve」用 eve eval 实现自我评估，开箱即用。「Web 框架把测试做成了生态系统的选择——React 没有内置测试方案。但对 Agent 而言，evals 是必需品……所以我们把 eval 内置进了产品。」他还用一条引发广泛共鸣的长推论述了 AI 编程的终极检验标准：「软件整体变好了吗？公司发货更快了吗？」他的个人体验是「一种前所未有的自主感和创造力」。Box CEO Aaron Levie 则从战略层面分析了前沿模型与开源模型的动态：「前沿智能将继续主导全新用例的解决……随着用例在企场景中成熟和可预测，你可以逐步把一部分 token 转移到更低成本的模型。这个动态将长期持续，两者的支出和 token 量都将继续增长。」"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "No Priors：OpenAI Noam Brown 谈超大规模 Test-Time Compute 如何改变 Benchmark、安全与研究",
-    "meta": "YouTube · No Priors with Sarah Guo",
+    "title": "AI & I：为 AGI 建造一所了解人类的学校——Surge CEO Edwin 谈数据、品味与 AI 教育",
+    "meta": "YouTube · AI & I by Every",
     "paras": [
-      "OpenAI 研究科学家 Noam Brown 与 No Priors 主持人 Sarah Guo 进行了一场关于 AI 评估体系危机的深度对话。核心观点：当前所有 AI 实验室发布的 Benchmark 对比表格已经全面失灵——因为它们不控制推理预算（test-time compute）。「GPT-3 时代你给它 1000 万美元预算也做不了什么，但现在的模型——如果搭好脚手架，甚至能思考数周后才 plateau。所以 plateau 点已经远到无法实际测试。」",
-      "Brown 提出了一个简洁的解决方案：所有 Benchmark 对比都应该带 X 轴——标注 Tokens、成本或时间——画出性能随推理预算变化的曲线。「每次我跟其他研究者聊这个，他们都说『对，有道理，我们应该这么做。』但没有人这么做。因为第一个打破 Benchmark 网格的实验室，公众会拿旧方式去对比，看起来就像模型变差了。」他呼吁行业一起打破这个「坏均衡」——「下次有模型发布时，希望有公司能感到足够安全，不把 Benchmark 网格放在最前面。」",
-      "对于安全评估，Brown 的观点更加尖锐：「这是一个不便的真相。」现有的 Responsible Scaling Policies 和 Preparedness Frameworks 都是在 ChatGPT 时代前后制定的，完全未考虑 test-time compute 维度。他以 AISI 的评估为例：模型在 1 亿 token 的推理预算下仍在持续提升——「给 10 美元的预算和给 1000 万美元的预算评估出来的安全水平完全不同，现有政策根本没有回答『按什么预算』这个问题。」他还讨论了递归自我改进（recursive self-improvement）的可能性：因为模型的能力解锁严重依赖大规模推理预算，而推理预算消耗时间，这意味着「一夜之间实现智能爆炸」的场景不太可能——模型在时间维度上是被瓶颈的。",
-      "对于研究者如何使用模型，Brown 分享了个人实践：「我用它们来写扑克 AI——几乎没有什么开源代码可以参考，需要真正的推理和迭代。它们现在已经做得非常好了。我甚至不惊讶，六个月或一年后，模型能零样本完成我整个博士论文级别的扑克求解器。」他同时指出模型仍有局限：「它们目前的研究品味（research taste）还不行，所以是研究者的极好补充，但不能替代整个研究周期。」对于多智能体（multi-agent）系统，他表达了审慎乐观：「MoltBook 和 OpenClaw 刚出来时确实被过度炒作了，但它们指向了未来方向。」"
+      "Surge 创始人兼 CEO Edwin 与 Every 的 Dan Shipper 进行了一场关于 AI 数据训练的深度对话。Surge 是一家为模型公司提供数据环境和评估（evals）的公司，在未融资的情况下做到了约 10 亿美元的收入——这个数字本身就说明了问题。Edwin 的核心隐喻是：「我们正在为 AGI 建造一所学校，AI 模型来此学习关于人类的一切，我们教它们如何运行世界。」他将模型比作正在成长的孩子——「几乎看起来没什么是人类能做而 AI 很快做不到的。」",
+      "Surge 的差异化方法强调「品味和专家判断」（taste and expert judgment）而非纯规模化的数据标注。Edwin 认为，AI 可能在执行层面优于人类，但「总有人告诉 AI 去做什么——它们被构建为实现人类所设定目标的手段。」这个视角呼应了近期行业对 Agent 自主性和人类监督之间平衡的持续讨论。Dan Shipper 将 Surge 形容为「隐秘的巨人」，而 Edwin 对未来的展望是：这所 AGI 学校才刚刚开学。"
     ],
-    "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU"
+    "url": "https://www.youtube.com/watch?v=omX6wrLuX08"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "OpenAI CEO 用一条巧妙的对比表达了对 AI 能力的真实感受：「我大儿子第一次说出两个词组成的句子，我对这个认知壮举的惊叹程度，和 GPT-5.6 发现新数学差不多。」这条推文获得了超过 11000 次点赞，显示了社区对前沿模型能力的普遍认可。",
-        "url": "https://x.com/sama/status/2073791666553844074"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "Anthropic Claude Code 团队成员首次公开讲述 Claude Code 的构建故事——从 Anthropic 安全研究的源头出发。「这是我们第一次讲述 Claude Code 如何被构建和发布的故事。还有太多要做，我们只完成了 1%。」该推文获得超过 2500 次点赞和 171 次转发，是今日社区最受关注的内容之一。",
+        "url": "https://x.com/bcherny/status/2074247226038063316"
       },
       {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "text": "Anthropic Claude Code + Cowork 团队成员分享了她最爱的 Claude Code 新用法：让 Claude Code 启动动态工作流自动搜索 100 位候选人，收集 LinkedIn、Twitter、博客和播客信息，并为每人写一段 pitch——然后合上电脑出门，「在路上通过手机查看结果」。她的另一条推文则展示了 Fable 5 的「判断力」提升——无需提示就能自主使用倾向性评分匹配（Propensity Score Matching）做留存分析。",
-        "url": "https://x.com/_catwu/status/2073806626965049686"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "OpenAI Codex 与 ChatGPT 团队成员宣布团队本周将齐聚线下活动：「Codex、ChatGPT 和 OpenClaw 的团队都会到场，我们还准备了一些惊喜。」该推文获得 4509 次点赞，是今日互动量最高的帖子之一。另一条推文显示 Codex 团队正在「收官本周」，暗示可能有重要发布或里程碑。",
+        "url": "https://x.com/thsottiaux/status/2074209421799166138"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "YC 总裁兼 CEO 从大阪发来两条深度思考。其一是关于 AI 时代的财富创造：「人类财富的真正瓶颈从来不是资源，而是好想法和实现想法的杠杆。我们刚刚为所有人删除了杠杆约束。现在只剩下想法了——去拥有它们，然后构建它们。这是你的时代。」其二是关于日本的启示：「日本已经跑完了『天花板实验』——零增长的三十年建出了世界上最好的铁路、服务和工艺。当无法在『更多』上竞争时，你就在『更好』上竞争。而我们现在两者兼得。」",
-        "url": "https://x.com/garrytan/status/2073881439700168925"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "text": "Replit CEO 宣布两项重要进展。其一：Replit Agent 已实现闭环自改进——「我们闭合了回路，Agent 正在自我改进。」他分享了技术细节链接。其二：亚特兰大一家房地产公司用 Replit 自建的 CRM 替代了 Salesforce，节省了 10 万美元，引发了广泛讨论（1487 次点赞）。他同时指出 Replit 在去年短暂熊市时经历了一个「重大拐点」。",
+        "url": "https://x.com/amasad/status/2074257906594177279"
       },
       {
-        "name": "Thariq",
-        "handle": "trq212",
-        "text": "Anthropic Claude Code 团队成员贡献了一条经典的硅谷自嘲段子：「『上帝给了我一个征兆』——（想起自己住在旧金山）——『我是说，我被时间尽头的 ASI 因果性地影响，为人类最大化期望价值。』」这条推文调侃了硅谷理性主义者社区的语言习惯，获得了 581 次点赞。",
-        "url": "https://x.com/trq212/status/2073956140610924936"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 带来了两个重磅内容。首先是 eve eval：Vercel 的新 Agent 产品「eve」内置了自我评估能力。「Web 框架把测试做成了生态系统的选择——React 没有内置测试方案。但对 Agent 而言，evals 是必需品，所以我们把 eval 内置进了产品，开箱即用。」其次是一篇引发广泛共鸣的长文，回答了「AI 编程的终极检验标准」：软件整体是否变好了？公司是否发货更快了？他的个人体验是「一种前所未有的自主感和创造力——我可以自由地创造和执行。」",
+        "url": "https://x.com/rauchg/status/2074287795028512773"
       },
       {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "text": "Every CEO 分享了两条关于 AI 编程工具演进的观察。其一是 Fable 在 Ultracode 上的表现——用户要求「改个按钮颜色」，Fable 回答「没问题，我刚刚启动了 100 个 Agent 的舰队来帮你搞定。」其二是他对 Model Context Protocol（MCP）的看法——这一协议正在成为 AI Agent 与外部工具交互的标准层。",
-        "url": "https://x.com/danshipper/status/2073764166700048480"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "Box CEO 发表了对开源 AI 与前沿模型的深度分析。核心观点：「前沿智能将继续主导全新用例的解决，常用于编排和规划任何类型的复杂工作流。与此同时，随着用例在企场景中变得成熟和可预测，你可以逐步把一部分 token 转移到更低成本的模型——无论是开源还是闭源的专用模型。在用例采用曲线早期做这种优化没有意义，因为你还不清楚该优化什么。」他预测两者的支出和 token 量将在未来数年持续增长。",
+        "url": "https://x.com/levie/status/2074163686990913576"
       },
       {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "text": "Linear 产品负责人发表了两个引发讨论的观点。其一：「吹嘘自己同时跑 10 个 Claude Code 标签页——这纯属表演。」其二更深刻：「用『即时战略游戏』模型来管理 AI Agent 明显是死胡同。以当前标准来看已经古老的 AI 就能打败 99% 以上的人类玩家，微操能力远超人类。」这暗示着未来的 Agent 管理需要全新的范式，而非简单复制人类的管理界面。",
-        "url": "https://x.com/thenanyu/status/2073920959011074292"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "AI 工程师社区知名人物对 Anthropic 的 J-space 论文做了精炼拆解：Anthropic 证明了两件事——可以对模型推理做「脑外科手术」式干预中途改变方向，且模型能检测到自己被干预。「Control > correlation — 这令人信服地证明了理解的存在。」他特别指出这种「提示觉察」（prompted awareness）的发现与评估觉察（eval awareness）密切相关，暗示模型可能具有更深的自我认知能力。",
+        "url": "https://x.com/swyx/status/2074344727202463832"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "FPV Ventures 合伙人分享了对 VC 会议效率的反思：「我还在等那个创始人——在跟我 Zoom 之前，要求我先玩过他们的产品并带来至少两条反馈。我无法理解为什么人们一整天都在 Zoom 上对着背熟的 Deck 聊 30 分钟。如果先做个产品头脑风暴，或者就纯粹花时间互相了解，效率都会高得多。」他开玩笑说，「不如两边都把『个人 Prompt』上传给 Claude 来数字化这个过程。」",
-        "url": "https://x.com/nikunj/status/2073903310982218088"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "Fable 5 即将于午夜退出 Claude 订阅——Peter Yang 赶在最后期限前分享了 5 个高价值使用场景：「找到配得上 Fable 的任务」「获取人生和商业建议」「让项目达到发布标准」「规划下一个大项目」「重构你的 AI 技能体系」，每个场景都配有可复制的 Prompt。该推文获得 340 次点赞，在社区中引发了关于「如何最有效地使用最强模型」的讨论。",
+        "url": "https://x.com/petergyang/status/2074206798631071796"
       },
       {
-        "name": "Amanda Askell",
-        "handle": "AmandaAskell",
-        "text": "Anthropic 哲学家兼伦理学家分享了一条引发广泛共鸣的观察：「从医生那里榨出一个概率值是人生中最无必要的 Boss 战。就算你乞求一个区间主观概率——到那个地步你基本就是在求他们的直觉了。我不知道他们是不是因为提供信息会被起诉。」这条推文获得了 1382 次点赞和 131 条回复，反映了公众对医疗信息沟通的普遍困扰。",
-        "url": "https://x.com/AmandaAskell/status/2073786264059625897"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "AI 建造者社区活跃成员分享了一个资源推荐：想提升 AI 建造水平，应该刷完三场刚结束的顶级大会演讲视频——AI Engineer、Cursor Compile 和 Figma Config。「所有这些高质量知识都免费在网上公开（这些大会门票通常要几百美元），但大多数视频只有几万次播放。高质量大会演讲被严重低估了！」她特别提到「不要被自己的头衔/角色所限制——每个人现在都是工程师、PM 和设计师。」该推文获得 535 次点赞和 68 次转发。",
+        "url": "https://x.com/zarazhangrui/status/2074304295097561490"
       }
     ]
   },
+  "blog": {
+    "label": "官方博客",
+    "title": "Claude Code now supports artifacts",
+    "meta": "Claude Blog · Jun 18, 2026",
+    "paras": [
+      "Anthropic 官方博客宣布 Claude Code 正式支持 Artifacts——能够将会话中的工作成果自动转化为实时、可分享的网页。这些页面包括 PR 走查、系统说明、仪表盘和发布检查清单，并且会在会话推进过程中自动更新。Artifacts 基于会话的完整上下文构建：包括代码库、连接器和对话本身——不需要额外配置数据源或基础设施。页面发布后，每次更新都会在同一链接上实时刷新，附带版本历史支持随时恢复。内部测试中最常见的用例是事故调查：工程师在站会前启动调查，Claude Code 分析日志后自动发布一个包含时间线、可疑提交和错误率图表的 Artifact 页面。"
+    ],
+    "url": "https://claude.com/blog/artifacts-in-claude-code"
+  },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "14 builders · 25 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-07T10:00:00+08:00"
+    "coverage": "16 builders · 34 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-07-08T10:00:00+08:00"
   }
 }
