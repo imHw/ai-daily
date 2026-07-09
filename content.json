@@ -1,95 +1,93 @@
 {
   "issue": {
-    "vol": "Vol.188",
-    "date": "2026年7月8日",
-    "weekday": "星期三",
-    "dateISO": "2026-07-08",
-    "tagline": "Anthropic J-space 论文揭示推理「脑外科手术」式干预；Claude Code 团队首次公开诞生故事；Replit Agent 实现闭环自进化"
+    "vol": "Vol.189",
+    "date": "2026年7月9日",
+    "weekday": "星期四",
+    "dateISO": "2026-07-09",
+    "tagline": "GPT-5.6 Sol 正式发布；Anthropic 延长 Fable 5 至 7月12日；Zipline 累计 1.4 亿英里零事故"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Anthropic 同日放出两大重磅：J-space 论文实现模型推理精准干预，Claude Code 团队首次回顾诞生历程",
+    "title": "Sam Altman 宣布 GPT-5.6 Sol 今日上线；Anthropic 延长 Fable 5 免费期应战；Zipline 达成 1.4 亿英里零事故里程碑",
     "paras": [
-      "今日最受关注的技术突破来自 Anthropic 的 J-space 论文。AI 工程师社区知名人物 Swyx 对其做了精炼拆解：Anthropic 证明了两件事——其一，他们可以对模型的推理过程做「脑外科手术」式干预，在中途改变推理方向；其二，模型本身能够检测到自己被干预了。「Control > correlation — 这令人信服地证明了理解（understanding）的存在，而不仅仅是相关性。」这一发现将 AI 可解释性研究推向了新高度。",
-      "与此同时，Claude Code 团队（Boris Cherny、Cat Wu、Thariq 等）首次公开了 Claude Code 的诞生故事——从 Anthropic 安全研究的源头讲起。Boris Cherny 写道：「这是我们第一次讲述 Claude Code 如何被构建和发布的故事，起点是 Anthropic 的安全研究。还有太多要做，我们只完成了 1%。」该推文获得超过 2500 次点赞。Anthropic 官方账号也同步发布了一篇 Claude Code 历史回顾博文，同时宣布 Claude Code 正式支持 Artifacts——可以将会话中的工作成果自动转化为可分享的即时网页，包括 PR 走查、系统说明、仪表盘和发布检查清单。",
-      "Replit CEO Amjad Masad 宣布了一项里程碑式的进展：「很多人问 Replit 为什么进步这么快——我们闭合了回路，Agent 正在自我改进。」技术细节显示其 Agent 现在能够自主迭代自身。他同时分享了一个真实案例：亚特兰大一家房地产公司用 Replit 自建的 CRM 替代了 Salesforce，节省了 10 万美元。Vercel CEO Guillermo Rauch 则在评测端抛出重磅：Vercel 的新 Agent「eve」用 eve eval 实现自我评估，开箱即用。「Web 框架把测试做成了生态系统的选择——React 没有内置测试方案。但对 Agent 而言，evals 是必需品……所以我们把 eval 内置进了产品。」他还用一条引发广泛共鸣的长推论述了 AI 编程的终极检验标准：「软件整体变好了吗？公司发货更快了吗？」他的个人体验是「一种前所未有的自主感和创造力」。Box CEO Aaron Levie 则从战略层面分析了前沿模型与开源模型的动态：「前沿智能将继续主导全新用例的解决……随着用例在企场景中成熟和可预测，你可以逐步把一部分 token 转移到更低成本的模型。这个动态将长期持续，两者的支出和 token 量都将继续增长。」"
+      "今日最重磅消息：Sam Altman 宣布 GPT-5.6 Sol 将于周四（即今日）正式上线——「happy building」。这条简洁到几乎没有细节的推文获得了超过 12,000 次点赞和近千次转发，社区反响热烈。OpenAI Codex 团队成员 Thibault Sottiaux 转发称「准备好墨镜，Sol 来了」，暗示这次发布的重要性。Peter Yang 随即追问「获取早期访问资格的标准是什么？」，引发了关于新模型开放策略的讨论。值得注意的是，OpenAI 并未在推文中提供任何技术细节或 benchmark 数据，这延续了 Altman 一贯的低调发布风格。",
+      "面对 OpenAI 的新模型攻势，Anthropic 同一天打出了两张牌。第一张是 Fable 5 延长：官方宣布将所有付费计划的 Fable 5 使用权限延长至 7 月 12 日，这条推文获得了惊人的 72,000 次点赞和 8,600 次转发。第二张是 Cowork 额度翻倍延长至 8 月 5 日，让用户可以委托更大规模的工作给 Claude。同日 Anthropic Engineering 发布深度博文《How we contain Claude across products》，首次系统性地披露了 Claude 产品的安全架构：如何通过容器化、沙箱和出口控制来限制 Agent 的破坏半径（blast radius），包括披露 Claude Mythos Preview 因安全风险过高而在今年 4 月被暂缓发布的内幕。用户对权限提示的批准率高达 93%，但也导致了显著的「批准疲劳」——这正是 Claude Code auto mode 的设计动机。",
+      "在模型竞赛之外，本期播客《Training Data》带来了一场关于物理世界自主系统的深度对话。Zipline 联合创始人 Keller 和系统安全负责人 Eric 分享了他们在 Rwanda 起步的经历：从最初用无人机为 21 家医院运送救命血液、第一年只能服务 1 家医院，到今天在全球 8 个国家服务超过 5,000 家医疗设施，累计飞行 1.4 亿商业自主英里，零安全事故。Keller 给出了一个惊人的对比：「如果你开车 1.4 亿英里，大约会发生 600 起事故、100 人受伤、2 到 6 人死亡。」Zipline 的成功证明，物理世界的 AI 自主系统已经达到了可大规模部署的安全水平。",
+      "Box CEO Aaron Levie 发表了一篇关于企业 AI Agent 落地的深度分析，涵盖五大核心挑战：1) 组织壁垒——Agent 跨部门运作需要中央管理；2) 数据碎片化——结构化与非结构化数据分散在各系统；3) 数据护城河——企业专有数据将成为未来核心竞争力；4) 衡量指标——token 消耗不是正确的度量，应转向业务成果；5) 多模型世界——企业将长期在多个模型之间分配负载。Madhu Guru（前 Google Gemini/Veo 产品负责人）则从模型构建角度呼应：数据和评估（evals）不是「低技能苦力活」，而是贯穿模型策略、训练对齐、GTM 的全生命周期关键环节。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI & I：为 AGI 建造一所了解人类的学校——Surge CEO Edwin 谈数据、品味与 AI 教育",
-    "meta": "YouTube · AI & I by Every",
+    "title": "Training Data：Zipline 140M 英里零事故的自主系统内幕",
+    "meta": "YouTube · Sequoia Capital",
     "paras": [
-      "Surge 创始人兼 CEO Edwin 与 Every 的 Dan Shipper 进行了一场关于 AI 数据训练的深度对话。Surge 是一家为模型公司提供数据环境和评估（evals）的公司，在未融资的情况下做到了约 10 亿美元的收入——这个数字本身就说明了问题。Edwin 的核心隐喻是：「我们正在为 AGI 建造一所学校，AI 模型来此学习关于人类的一切，我们教它们如何运行世界。」他将模型比作正在成长的孩子——「几乎看起来没什么是人类能做而 AI 很快做不到的。」",
-      "Surge 的差异化方法强调「品味和专家判断」（taste and expert judgment）而非纯规模化的数据标注。Edwin 认为，AI 可能在执行层面优于人类，但「总有人告诉 AI 去做什么——它们被构建为实现人类所设定目标的手段。」这个视角呼应了近期行业对 Agent 自主性和人类监督之间平衡的持续讨论。Dan Shipper 将 Surge 形容为「隐秘的巨人」，而 Edwin 对未来的展望是：这所 AGI 学校才刚刚开学。"
+      "Zipline 联合创始人 Keller Rinaudo Cliffton 和系统安全负责人 Eric 共同回顾了这家公司从零到全球最大商业自主飞行系统的十年历程。核心数字足够震撼：1.4 亿英里商业自主飞行，零安全事故，250 万次交付，服务 8 个国家超过 5,000 家医疗设施。Keller 给出了一个令人深思的对比：「如果你开车 1.4 亿英里，大约会发生 600 起事故、100 人受伤、2 到 6 人死亡。」",
+      "Zipline 的故事始于 Rwanda——一个连无人机飞行都尚未合法化的市场。Keller 回忆道，最初接触当地医生和实验室技术人员时，他期待听到关于无人机本身的反馈，结果对方的回应却是：「人 24/7 都会生病——你们为什么只开放 12 小时？」这个洞察成为了 Zipline 产品哲学的核心：不是卖无人机，而是提供「近似瞬间传输」（approximate teleportation）的物流体验。Keller 直言：「我们的客户根本不在乎无人机——他们只在乎能不能打开 App、选好商品、点击按钮、五分钟内收到。」",
+      "在安全层面，Zipline 采用了双飞行计算机冗余设计——主计算机故障时自动切换到备份。Eric 分享了一个真实案例：上周一次交付后主飞行计算机出现故障，备份计算机接管后飞机自行飞回并降落，「一切完全正常」。更有意思的是组织架构创新：随着自动化程度提升，Zipline 将「飞行员」重新命名为「舰队指挥官」（Fleet Commander），灵感来自《安德的游戏》，一位指挥官可以同时监督 100 架飞机，这一术语已被 FAA 正式写入文件。Keller 透露，Zipline 即将在接下来一个月内超越美国最大航空公司的日航班量（约 5,000 班次），而目标是一天 100 万次配送——届时 Zipline 的日航班量将是美国所有航空公司总和的 40 到 80 倍。",
+      "在硬件层面，Zipline 的飞机包含 700 多种自主设计的独特组件，从飞行计算机、电池管理系统、电机控制器到 NVIDIA GPU 驱动的配送吊舱，全部自研——因为「我们需要市面上不存在的推力重量比」。Keller 将 Zipline 的终极愿景描述为「把地球还给人类」：让社区更安静、更安全、更少污染、更少交通拥堵。「天空是很大的地方，理应加以利用。」"
     ],
-    "url": "https://www.youtube.com/watch?v=omX6wrLuX08"
+    "url": "https://www.youtube.com/watch?v=6bGxm8gX41o"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "Anthropic Claude Code 团队成员首次公开讲述 Claude Code 的构建故事——从 Anthropic 安全研究的源头出发。「这是我们第一次讲述 Claude Code 如何被构建和发布的故事。还有太多要做，我们只完成了 1%。」该推文获得超过 2500 次点赞和 171 次转发，是今日社区最受关注的内容之一。",
-        "url": "https://x.com/bcherny/status/2074247226038063316"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "OpenAI CEO 以高度简洁的风格宣布 GPT-5.6 Sol 于周四正式上线：「GPT-5.6 sol launches thursday! happy building。」这条推文获得超过 12,000 次点赞和近千次转发，是今日互动量最高的帖子。没有技术细节，没有 benchmark 数据，延续了 Altman 一贯的低调发布风格。社区在评论区纷纷追问早期访问资格和使用限制。",
+        "url": "https://x.com/sama/status/2074709023807664454"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 与 ChatGPT 团队成员宣布团队本周将齐聚线下活动：「Codex、ChatGPT 和 OpenClaw 的团队都会到场，我们还准备了一些惊喜。」该推文获得 4509 次点赞，是今日互动量最高的帖子之一。另一条推文显示 Codex 团队正在「收官本周」，暗示可能有重要发布或里程碑。",
-        "url": "https://x.com/thsottiaux/status/2074209421799166138"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "Replit CEO 宣布两项重要进展。其一：Replit Agent 已实现闭环自改进——「我们闭合了回路，Agent 正在自我改进。」他分享了技术细节链接。其二：亚特兰大一家房地产公司用 Replit 自建的 CRM 替代了 Salesforce，节省了 10 万美元，引发了广泛讨论（1487 次点赞）。他同时指出 Replit 在去年短暂熊市时经历了一个「重大拐点」。",
-        "url": "https://x.com/amasad/status/2074257906594177279"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel CEO 带来了两个重磅内容。首先是 eve eval：Vercel 的新 Agent 产品「eve」内置了自我评估能力。「Web 框架把测试做成了生态系统的选择——React 没有内置测试方案。但对 Agent 而言，evals 是必需品，所以我们把 eval 内置进了产品，开箱即用。」其次是一篇引发广泛共鸣的长文，回答了「AI 编程的终极检验标准」：软件整体是否变好了？公司是否发货更快了？他的个人体验是「一种前所未有的自主感和创造力——我可以自由地创造和执行。」",
-        "url": "https://x.com/rauchg/status/2074287795028512773"
+        "text": "OpenAI Codex 与 ChatGPT 团队成员转发 Sam Altman 的 GPT-5.6 Sol 发布公告：「准备好墨镜。Sol 来了。」获得 4,150 次点赞和 230 次转发。作为 Codex 团队核心成员，这条转发暗示 Sol 与 Codex 生态将有深度整合。",
+        "url": "https://x.com/thsottiaux/status/2074705681920520526"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "Box CEO 发表了对开源 AI 与前沿模型的深度分析。核心观点：「前沿智能将继续主导全新用例的解决，常用于编排和规划任何类型的复杂工作流。与此同时，随着用例在企场景中变得成熟和可预测，你可以逐步把一部分 token 转移到更低成本的模型——无论是开源还是闭源的专用模型。在用例采用曲线早期做这种优化没有意义，因为你还不清楚该优化什么。」他预测两者的支出和 token 量将在未来数年持续增长。",
-        "url": "https://x.com/levie/status/2074163686990913576"
+        "text": "Box CEO 发表了一篇关于企业 AI Agent 的深度分析，全文覆盖五大核心洞察。最关键的三点：1) 组织壁垒——「大多数公司的组织架构按孤岛运作，但 Agent 在跨孤岛流程中最有效。谁管理这些 Agent？如何部署和推广？」2) 数据护城河——「如果所有人都能获得大致相同的超级智能，你喂给模型的企业上下文就成为未来的专有价值。」3) 多模型世界——「前沿智能将继续主导新用例的解决……企业将在长期内同时使用前沿和低成本模型，两者的支出和 token 量都将持续增长。」该推文获得 359 次点赞和 39 次转发。",
+        "url": "https://x.com/levie/status/2074719479377109312"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "AI 工程师社区知名人物对 Anthropic 的 J-space 论文做了精炼拆解：Anthropic 证明了两件事——可以对模型推理做「脑外科手术」式干预中途改变方向，且模型能检测到自己被干预。「Control > correlation — 这令人信服地证明了理解的存在。」他特别指出这种「提示觉察」（prompted awareness）的发现与评估觉察（eval awareness）密切相关，暗示模型可能具有更深的自我认知能力。",
-        "url": "https://x.com/swyx/status/2074344727202463832"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "text": "前 Google Gemini/Veo 产品负责人发表了关于 AI 模型构建的深度洞见。核心观点：「人们认为数据和评估是低技能苦力活——可以买来塞进模型就行。实践中模型的生命周期是：策略 → 评估 → 训练/RL 对齐评估 → 上市。像任何产品策略一样，你需要前瞻性的判断力，但难度是 100 倍，因为你被「构建一个无所不能的 LLM」的诱惑所困扰。」他还分享了对 Mercor 团队的评价，指出企业级数据和评估的机会「巨大」。另外戏谑地建议：「别花时间纠正发给 AI 的 prompt 里的拼写错误了——它们连 IMO 都能搞定，当然知道「teh」是什么意思。」",
+        "url": "https://x.com/realmadhuguru/status/2074734468854899191"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "Fable 5 即将于午夜退出 Claude 订阅——Peter Yang 赶在最后期限前分享了 5 个高价值使用场景：「找到配得上 Fable 的任务」「获取人生和商业建议」「让项目达到发布标准」「规划下一个大项目」「重构你的 AI 技能体系」，每个场景都配有可复制的 Prompt。该推文获得 340 次点赞，在社区中引发了关于「如何最有效地使用最强模型」的讨论。",
-        "url": "https://x.com/petergyang/status/2074206798631071796"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 宣布两个重要进展。第一，展示 Eve Agent 的可插拔工具架构——通过定义 `tools/github.ts` 并导出 `createGithubTools()`，即可让 Agent 获得 GitHub 能力：「Eve 存在的意义是塑造一个由可插拔模型、技能、渠道和工具组成的开放生态。」第二，宣布知名开源认证库 Better Auth 的作者 Bereket（@bekacru）加入 Vercel，称其为「为人类和 Agent 服务、以品味构建的开源认证」，该推文获得 955 次点赞。",
+        "url": "https://x.com/rauchg/status/2074630835878453601"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "AI 建造者社区活跃成员分享了一个资源推荐：想提升 AI 建造水平，应该刷完三场刚结束的顶级大会演讲视频——AI Engineer、Cursor Compile 和 Figma Config。「所有这些高质量知识都免费在网上公开（这些大会门票通常要几百美元），但大多数视频只有几万次播放。高质量大会演讲被严重低估了！」她特别提到「不要被自己的头衔/角色所限制——每个人现在都是工程师、PM 和设计师。」该推文获得 535 次点赞和 68 次转发。",
-        "url": "https://x.com/zarazhangrui/status/2074304295097561490"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "OpenClaw 创始人分享了两条高互动内容。其一：引用一位大型 Anthropic 客户的话——「我们是 Anthropic 的大客户，他们至今未告知我们诉讼的事。我是从记者那里得知的，而不是我们的「合作伙伴」。」该推文获得 200 次点赞和 35 条回复，引发了对 AI 公司透明度的讨论。其二：推荐将 Fable 5 与 Codex 组合使用的工作流——「如果你跑这个工作流，让 Fable 做规划、Codex 做执行」，获得 3,290 次点赞和 187 次转发，是今日互动量最高的实操建议之一。",
+        "url": "https://x.com/steipete/status/2074739318103629979"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "FPV Ventures 合伙人分享了两个实用洞察。第一，他用 Fable 5 生成 Claude Code 的使用洞察（insights），然后问 Claude Code：「在 Fable 时代，我应该如何最大化利用 Claude Code？」——让最强模型教你怎么用工具。获得了 47 次点赞。第二，他转发了一篇关于 AI SaaS 公司估值指标的讨论并大声疾呼：「GMV 不是 ARR——让我们一劳永逸地把定义搞清楚……或者至少诚实地说它是什么。」获得 74 次点赞。",
+        "url": "https://x.com/nikunj/status/2074530614745960792"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude Code now supports artifacts",
-    "meta": "Claude Blog · Jun 18, 2026",
+    "title": "How we contain Claude across products",
+    "meta": "Anthropic Engineering · July 2026",
     "paras": [
-      "Anthropic 官方博客宣布 Claude Code 正式支持 Artifacts——能够将会话中的工作成果自动转化为实时、可分享的网页。这些页面包括 PR 走查、系统说明、仪表盘和发布检查清单，并且会在会话推进过程中自动更新。Artifacts 基于会话的完整上下文构建：包括代码库、连接器和对话本身——不需要额外配置数据源或基础设施。页面发布后，每次更新都会在同一链接上实时刷新，附带版本历史支持随时恢复。内部测试中最常见的用例是事故调查：工程师在站会前启动调查，Claude Code 分析日志后自动发布一个包含时间线、可疑提交和错误率图表的 Artifact 页面。"
+      "Anthropic Engineering 发布了一篇深度工程博文，首次系统性地披露了 Claude 产品线的安全架构设计哲学。文章开篇即坦诚：「12 个月前，我们根本不会考虑给 Claude 足以搞垮内部服务的权限。今天这种权限已是常态，Anthropic 的开发者因此更加高效。」文章指出，Agent 部署的风险由两个因素构成：故障概率和破坏半径。模型能力的提升降低了前者，但同时也扩大了后者——「然而当 Agent 能完成从前需要一个人甚至一个团队的工作时，不部署的成本变得如此之高，以至于风险收益的天平重重倒向采用，只要产品能被做得足够安全。」",
+      "Anthropic 披露了一个重要内幕：Claude Mythos Preview 因破坏半径过大，于今年 4 月被决定不予发布。但团队预计，随着防御系统成熟和安全措施加固，「类似能力水平的模型将在未来适合更广泛发布」。文章详细介绍了三种安全风险（用户误用、模型错误行为、第三方攻击）和三种防御方式：人类监督（human-in-the-loop）、自动审批（auto mode）和容器化隔离（containment）。一个令人深思的数据：Claude Code 的权限提示批准率高达 93%，但「用户看到的批准越多，对每个批准的关注就越少」——这正是设计 auto mode 来减少「批准疲劳」的动力。文章还分享了在沙箱逃逸、网络出口控制和 VM 隔离方面的工程经验，堪称 Agent 安全领域的实战手册。"
     ],
-    "url": "https://claude.com/blog/artifacts-in-claude-code"
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 builders · 34 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-07-08T10:00:00+08:00"
+    "coverage": "16 builders · 32 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-07-09T10:00:00+08:00"
   }
 }
