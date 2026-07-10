@@ -1,93 +1,98 @@
 {
   "issue": {
-    "vol": "Vol.189",
-    "date": "2026年7月9日",
-    "weekday": "星期四",
-    "dateISO": "2026-07-09",
-    "tagline": "GPT-5.6 Sol 正式发布；Anthropic 延长 Fable 5 至 7月12日；Zipline 累计 1.4 亿英里零事故"
+    "vol": "Vol.191",
+    "date": "2026年7月10日",
+    "weekday": "星期五",
+    "dateISO": "2026-07-10",
+    "tagline": "Claude Code 推出 /checkup 命令；Grok 4.5 登陆 Cursor 和 Vercel；Vibe Coding 时代「重写」不再昂贵"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sam Altman 宣布 GPT-5.6 Sol 今日上线；Anthropic 延长 Fable 5 免费期应战；Zipline 达成 1.4 亿英里零事故里程碑",
+    "title": "Claude Code /checkup 一键清理开发环境；Grok 4.5 全面上线主流平台；开发者在「打磨感」与「真实感」之间寻找新平衡",
     "paras": [
-      "今日最重磅消息：Sam Altman 宣布 GPT-5.6 Sol 将于周四（即今日）正式上线——「happy building」。这条简洁到几乎没有细节的推文获得了超过 12,000 次点赞和近千次转发，社区反响热烈。OpenAI Codex 团队成员 Thibault Sottiaux 转发称「准备好墨镜，Sol 来了」，暗示这次发布的重要性。Peter Yang 随即追问「获取早期访问资格的标准是什么？」，引发了关于新模型开放策略的讨论。值得注意的是，OpenAI 并未在推文中提供任何技术细节或 benchmark 数据，这延续了 Altman 一贯的低调发布风格。",
-      "面对 OpenAI 的新模型攻势，Anthropic 同一天打出了两张牌。第一张是 Fable 5 延长：官方宣布将所有付费计划的 Fable 5 使用权限延长至 7 月 12 日，这条推文获得了惊人的 72,000 次点赞和 8,600 次转发。第二张是 Cowork 额度翻倍延长至 8 月 5 日，让用户可以委托更大规模的工作给 Claude。同日 Anthropic Engineering 发布深度博文《How we contain Claude across products》，首次系统性地披露了 Claude 产品的安全架构：如何通过容器化、沙箱和出口控制来限制 Agent 的破坏半径（blast radius），包括披露 Claude Mythos Preview 因安全风险过高而在今年 4 月被暂缓发布的内幕。用户对权限提示的批准率高达 93%，但也导致了显著的「批准疲劳」——这正是 Claude Code auto mode 的设计动机。",
-      "在模型竞赛之外，本期播客《Training Data》带来了一场关于物理世界自主系统的深度对话。Zipline 联合创始人 Keller 和系统安全负责人 Eric 分享了他们在 Rwanda 起步的经历：从最初用无人机为 21 家医院运送救命血液、第一年只能服务 1 家医院，到今天在全球 8 个国家服务超过 5,000 家医疗设施，累计飞行 1.4 亿商业自主英里，零安全事故。Keller 给出了一个惊人的对比：「如果你开车 1.4 亿英里，大约会发生 600 起事故、100 人受伤、2 到 6 人死亡。」Zipline 的成功证明，物理世界的 AI 自主系统已经达到了可大规模部署的安全水平。",
-      "Box CEO Aaron Levie 发表了一篇关于企业 AI Agent 落地的深度分析，涵盖五大核心挑战：1) 组织壁垒——Agent 跨部门运作需要中央管理；2) 数据碎片化——结构化与非结构化数据分散在各系统；3) 数据护城河——企业专有数据将成为未来核心竞争力；4) 衡量指标——token 消耗不是正确的度量，应转向业务成果；5) 多模型世界——企业将长期在多个模型之间分配负载。Madhu Guru（前 Google Gemini/Veo 产品负责人）则从模型构建角度呼应：数据和评估（evals）不是「低技能苦力活」，而是贯穿模型策略、训练对齐、GTM 的全生命周期关键环节。"
+      "今日最重磅的产品更新来自 Anthropic——Claude Code 团队的 Boris Cherny 发布了全新命令 /checkup，这条推文获得了惊人的 6,631 次点赞和 519 次转发。/checkup 可以一键完成七项环境维护操作：清理未使用的 skills/MCP/plugins 以节省 context、去重本地与已签入的 CLAUDE.md、将根 CLAUDE.md 拆分为嵌套结构和 skills、关闭慢速 hooks、自动更新到最新版本、默认启用 auto mode、以及预批准常用的只读命令。每一步操作都会在执行前与用户确认。这标志着 AI 编程工具从「功能堆砌」转向「体验维护」——当开发者的 Agent 配置越来越复杂时，「健康检查」成为了刚需。",
+      "在模型生态层面，Grok 4.5 本周成为焦点。Vercel CEO Guillermo Rauch 宣布 Grok 4.5 已对所有 Vercel 客户开放，Cursor 设计负责人 Ryo Lu 则宣布用户可在 Cursor 中直接使用 Grok 4.5，称之为「一个新纪元的开始」。Box CEO Aaron Levie 对此评价道，最新一批 AI 模型在处理复杂知识工作者任务方面变得「疯狂地好」，尤其是在法律、专业服务和医疗等高门槛领域，Grok 4.5 在成本和性能的平衡上尤为出色。多模型共存正在成为企业 AI 的新常态。",
+      "一个有趣的行业暗线是「打磨感」（polished）正在与「AI 味」（slop）产生关联。Nikunj Kothari 引用了一篇关于这个趋势的分析并预言：「打磨感正在以你想象不到的速度与 slop 产生关联——我们将看到一次向原始和人性的重大回归。」这与播客中作家 Greg 的观点形成呼应：他在一台专门用来写作的笔记本电脑上屏蔽了一切互联网连接，因为他认为「如果不建立这些屏障，我将失去与自身最有价值部分的连接」。与此同时，OpenAI 的 Thibault Sottiaux 透露团队深夜仍在密集发货，暗示 OpenAI 正在酝酿新动作。Anthropic 的 Cat Wu 则预告了一场关于 Claude Tag（多人协作模式）的深度演示——AI 正从「单人工具」进化为「团队基础设施」。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Training Data：Zipline 140M 英里零事故的自主系统内幕",
-    "meta": "YouTube · Sequoia Capital",
+    "title": "AI & I：一位作家如何在使用 AI 的同时保留自己的声音",
+    "meta": "YouTube · Every",
     "paras": [
-      "Zipline 联合创始人 Keller Rinaudo Cliffton 和系统安全负责人 Eric 共同回顾了这家公司从零到全球最大商业自主飞行系统的十年历程。核心数字足够震撼：1.4 亿英里商业自主飞行，零安全事故，250 万次交付，服务 8 个国家超过 5,000 家医疗设施。Keller 给出了一个令人深思的对比：「如果你开车 1.4 亿英里，大约会发生 600 起事故、100 人受伤、2 到 6 人死亡。」",
-      "Zipline 的故事始于 Rwanda——一个连无人机飞行都尚未合法化的市场。Keller 回忆道，最初接触当地医生和实验室技术人员时，他期待听到关于无人机本身的反馈，结果对方的回应却是：「人 24/7 都会生病——你们为什么只开放 12 小时？」这个洞察成为了 Zipline 产品哲学的核心：不是卖无人机，而是提供「近似瞬间传输」（approximate teleportation）的物流体验。Keller 直言：「我们的客户根本不在乎无人机——他们只在乎能不能打开 App、选好商品、点击按钮、五分钟内收到。」",
-      "在安全层面，Zipline 采用了双飞行计算机冗余设计——主计算机故障时自动切换到备份。Eric 分享了一个真实案例：上周一次交付后主飞行计算机出现故障，备份计算机接管后飞机自行飞回并降落，「一切完全正常」。更有意思的是组织架构创新：随着自动化程度提升，Zipline 将「飞行员」重新命名为「舰队指挥官」（Fleet Commander），灵感来自《安德的游戏》，一位指挥官可以同时监督 100 架飞机，这一术语已被 FAA 正式写入文件。Keller 透露，Zipline 即将在接下来一个月内超越美国最大航空公司的日航班量（约 5,000 班次），而目标是一天 100 万次配送——届时 Zipline 的日航班量将是美国所有航空公司总和的 40 到 80 倍。",
-      "在硬件层面，Zipline 的飞机包含 700 多种自主设计的独特组件，从飞行计算机、电池管理系统、电机控制器到 NVIDIA GPU 驱动的配送吊舱，全部自研——因为「我们需要市面上不存在的推力重量比」。Keller 将 Zipline 的终极愿景描述为「把地球还给人类」：让社区更安静、更安全、更少污染、更少交通拥堵。「天空是很大的地方，理应加以利用。」"
+      "Every CEO Dan Shipper 的播客节目本期邀请了一位特殊的嘉宾——一位坚持用 AI 辅助写作但绝不让 AI 代笔的作家。他的核心理念可以用一句话概括：「我醒来的第一件事是不碰互联网——在午餐后很久之前，我不会看手机、不会上网。一旦触碰手机，我就感受到化学反应的变化，无法再进入深度思考。」这不是技术恐惧症，而是一种刻意的注意力管理策略。",
+      "他对 AI 工具的态度同样充满矛盾感：「使用 AI 感觉非常像多巴胺驱动——我强烈相信你可以用它完成不可思议的工作，但它同时也是一个老虎机。」为此，他专门准备了一台「只能用来写作」的笔记本电脑——上面屏蔽了一切有趣的网站和应用。他的理由是：「不会有太多人去思考或写作我被吸引去写的那些奇怪的书。作为一个人类，这感觉是一件值得投入精力的有价值的事情。」",
+      "这个故事之所以在今天尤其有意义，是因为整个行业正在经历「打磨 vs. 真实」的审美转向。当 AI 生成的内容越来越精致时，刻意的粗糙和人性反而成为了稀缺品。正如 Nikunj Kothari 所说：「我们将看到一次向原始和人性的重大回归。」这位作家的工作方式——用 AI 作为工具但绝不让它取代思考——或许代表了一种正在浮现的新范式：不是人 vs. AI，而是人在 AI 的帮助下成为更极致的人。"
     ],
-    "url": "https://www.youtube.com/watch?v=6bGxm8gX41o"
+    "url": "https://www.youtube.com/watch?v=7ND0lQmLJlA"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "OpenAI CEO 以高度简洁的风格宣布 GPT-5.6 Sol 于周四正式上线：「GPT-5.6 sol launches thursday! happy building。」这条推文获得超过 12,000 次点赞和近千次转发，是今日互动量最高的帖子。没有技术细节，没有 benchmark 数据，延续了 Altman 一贯的低调发布风格。社区在评论区纷纷追问早期访问资格和使用限制。",
-        "url": "https://x.com/sama/status/2074709023807664454"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "Claude Code 团队负责人发布了 /checkup 命令，可一键完成七项环境维护：清理未使用的 skills/MCP/plugins、去重 CLAUDE.md、拆分根配置、关闭慢速 hooks、自动更新、启用 auto mode、预批准只读命令。每项操作执行前都会与用户确认。该推文获得 6,631 次点赞和 519 次转发，是今日互动量最高的帖子。",
+        "url": "https://x.com/bcherny/status/2074997570317779038"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "AI 基础设施领域活跃评论人分享了两个观点。其一，称赞 Cognition 团队在处理中文模型方面做了「困难的事」——构建了多语言宣传与审查评估体系，并在后训练中成功校正，同时以 1000 tok/s 的速度低价服务。其二，赞赏 Theo 主题演讲中使用 Excalidraw 手绘风格幻灯片而非千篇一律的 AI 生成风格，认为这「立刻传达了人性、思考和精炼」。",
+        "url": "https://x.com/swyx/status/2074919183947808881"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "text": "Google 副总裁向社区抛出一个直击痛点的问题：「有什么事情是你惊讶 Gemini 做不好、而我们早就应该修复的？」这条推文获得 1,165 次点赞和超过 1,500 条回复，成为一次大规模用户需求征集。这种公开征集反馈的姿态在大厂高管中并不常见，暗示 Google 可能在为 Gemini 的下一轮改进做准备。",
+        "url": "https://x.com/joshwoodward/status/2074847444823674883"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 与 ChatGPT 团队成员转发 Sam Altman 的 GPT-5.6 Sol 发布公告：「准备好墨镜。Sol 来了。」获得 4,150 次点赞和 230 次转发。作为 Codex 团队核心成员，这条转发暗示 Sol 与 Codex 生态将有深度整合。",
-        "url": "https://x.com/thsottiaux/status/2074705681920520526"
+        "text": "OpenAI Codex 和 ChatGPT 团队成员透露了两条信息。其一，分享了一张深夜 11 点办公室门口堆满寿司和墨西哥卷饼外卖的照片：「你知道 OpenAI 在认真搞事情的时候，就是寿司和墨西哥卷饼在办公室门口堆成山的时候。奇怪的是，我们需要吃饭才能搞研发。」其二，预告团队「上周在调整，这周在发货」，并邀请社区关注 10 点的直播。",
+        "url": "https://x.com/thsottiaux/status/2075103845114663325"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "Box CEO 发表了一篇关于企业 AI Agent 的深度分析，全文覆盖五大核心洞察。最关键的三点：1) 组织壁垒——「大多数公司的组织架构按孤岛运作，但 Agent 在跨孤岛流程中最有效。谁管理这些 Agent？如何部署和推广？」2) 数据护城河——「如果所有人都能获得大致相同的超级智能，你喂给模型的企业上下文就成为未来的专有价值。」3) 多模型世界——「前沿智能将继续主导新用例的解决……企业将在长期内同时使用前沿和低成本模型，两者的支出和 token 量都将持续增长。」该推文获得 359 次点赞和 39 次转发。",
-        "url": "https://x.com/levie/status/2074719479377109312"
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "text": "Anthropic Claude Code + Cowork 团队预告了一场深度技术演示：从「单人模式 Claude Code」到「多人模式 Claude Tag」的演进历程。她描述了 Claude Tag 的核心能力：「AI 曾经帮你补完句子，然后帮你写整个功能。现在，Claude Tag 可以监控你的频道、为你做主动工作、整个团队都可以引导它，而且它记得你上周告诉它的事情。」",
+        "url": "https://x.com/_catwu/status/2074925531519468012"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "前 Google Gemini/Veo 产品负责人发表了关于 AI 模型构建的深度洞见。核心观点：「人们认为数据和评估是低技能苦力活——可以买来塞进模型就行。实践中模型的生命周期是：策略 → 评估 → 训练/RL 对齐评估 → 上市。像任何产品策略一样，你需要前瞻性的判断力，但难度是 100 倍，因为你被「构建一个无所不能的 LLM」的诱惑所困扰。」他还分享了对 Mercor 团队的评价，指出企业级数据和评估的机会「巨大」。另外戏谑地建议：「别花时间纠正发给 AI 的 prompt 里的拼写错误了——它们连 IMO 都能搞定，当然知道「teh」是什么意思。」",
-        "url": "https://x.com/realmadhuguru/status/2074734468854899191"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "text": "Replit CEO 提出了一个尖锐的问题：「我们什么时候停止将自主 Agent 与手写代码做比较？你不会看到编译器拿自己和工程师手写汇编做对比。」这条推文引发广泛讨论，核心观点是：当 Agent 的能力达到一定阈值后，与传统编程的比较框架已经失效，行业需要新的评价维度。他还发起了一个投票，询问是否应该在 Replit 中加入 CAD 3D 建模功能。",
+        "url": "https://x.com/amasad/status/2075080984211624154"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel CEO 宣布两个重要进展。第一，展示 Eve Agent 的可插拔工具架构——通过定义 `tools/github.ts` 并导出 `createGithubTools()`，即可让 Agent 获得 GitHub 能力：「Eve 存在的意义是塑造一个由可插拔模型、技能、渠道和工具组成的开放生态。」第二，宣布知名开源认证库 Better Auth 的作者 Bereket（@bekacru）加入 Vercel，称其为「为人类和 Agent 服务、以品味构建的开源认证」，该推文获得 955 次点赞。",
-        "url": "https://x.com/rauchg/status/2074630835878453601"
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "Claude Code 团队成员提出了一个重要观点：「这应该是你软件工程模型中的一个重大更新——重写可以是好的、便宜的、快速的。当然大多数应用不像 Bun 那样可测试和可验证，但模型会继续进步来填补这些差距。」这条推文获得 762 次点赞，核心信息是 AI 时代「重写」的经济学已经彻底改变。",
+        "url": "https://x.com/trq212/status/2074993112217461020"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "OpenClaw 创始人分享了两条高互动内容。其一：引用一位大型 Anthropic 客户的话——「我们是 Anthropic 的大客户，他们至今未告知我们诉讼的事。我是从记者那里得知的，而不是我们的「合作伙伴」。」该推文获得 200 次点赞和 35 条回复，引发了对 AI 公司透明度的讨论。其二：推荐将 Fable 5 与 Codex 组合使用的工作流——「如果你跑这个工作流，让 Fable 做规划、Codex 做执行」，获得 3,290 次点赞和 187 次转发，是今日互动量最高的实操建议之一。",
-        "url": "https://x.com/steipete/status/2074739318103629979"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "FPV Ventures 合伙人分享了两个实用洞察。第一，他用 Fable 5 生成 Claude Code 的使用洞察（insights），然后问 Claude Code：「在 Fable 时代，我应该如何最大化利用 Claude Code？」——让最强模型教你怎么用工具。获得了 47 次点赞。第二，他转发了一篇关于 AI SaaS 公司估值指标的讨论并大声疾呼：「GMV 不是 ARR——让我们一劳永逸地把定义搞清楚……或者至少诚实地说它是什么。」获得 74 次点赞。",
-        "url": "https://x.com/nikunj/status/2074530614745960792"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "独立 Builder 分享了一个发人深省的观察：一位创始人给全团队购买了 Codex Max，所有人整天通过与 Codex 对话完成工作。副作用是——人们不再互相交谈，会议被取消，协作降到最低，团队文化恶化。「我们不能只停留在人-AI 协作，而要推进到人-人-AI 协作。」她还吐槽 Codex 的前端设计能力是阻碍她更频繁使用的最大障碍。",
+        "url": "https://x.com/zarazhangrui/status/2075004775436005687"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "How we contain Claude across products",
-    "meta": "Anthropic Engineering · July 2026",
+    "title": "Anthropic Engineering：Claude Managed Agents 架构解析——将「大脑」与「双手」解耦",
+    "meta": "Anthropic Engineering · 2026",
     "paras": [
-      "Anthropic Engineering 发布了一篇深度工程博文，首次系统性地披露了 Claude 产品线的安全架构设计哲学。文章开篇即坦诚：「12 个月前，我们根本不会考虑给 Claude 足以搞垮内部服务的权限。今天这种权限已是常态，Anthropic 的开发者因此更加高效。」文章指出，Agent 部署的风险由两个因素构成：故障概率和破坏半径。模型能力的提升降低了前者，但同时也扩大了后者——「然而当 Agent 能完成从前需要一个人甚至一个团队的工作时，不部署的成本变得如此之高，以至于风险收益的天平重重倒向采用，只要产品能被做得足够安全。」",
-      "Anthropic 披露了一个重要内幕：Claude Mythos Preview 因破坏半径过大，于今年 4 月被决定不予发布。但团队预计，随着防御系统成熟和安全措施加固，「类似能力水平的模型将在未来适合更广泛发布」。文章详细介绍了三种安全风险（用户误用、模型错误行为、第三方攻击）和三种防御方式：人类监督（human-in-the-loop）、自动审批（auto mode）和容器化隔离（containment）。一个令人深思的数据：Claude Code 的权限提示批准率高达 93%，但「用户看到的批准越多，对每个批准的关注就越少」——这正是设计 auto mode 来减少「批准疲劳」的动力。文章还分享了在沙箱逃逸、网络出口控制和 VM 隔离方面的工程经验，堪称 Agent 安全领域的实战手册。"
+      "Anthropic Engineering 博客发布了关于 Claude Managed Agents 的深度架构文章。核心设计哲学是借鉴操作系统的虚拟化思想——将 Agent 的三个核心组件（session、harness、sandbox）分别抽象化，使得每一层的实现可以独立替换而不影响其他层。文章举了一个生动的例子：Claude Sonnet 4.5 在接近 context 限制时会「焦虑」地提前结束任务，团队通过在 harness 中加入 context reset 来解决；但同样的 harness 在 Claude Opus 4.5 上运行时，发现这个行为已经消失——reset 变成了「dead weight」。",
+      "文章强调了「频繁质疑 harness 的假设」的重要性：harness 编码了关于 Claude 自身能力不足的假设，但这些假设会随着模型进步而过时。Managed Agents 将 session 定义为「所有发生过的事情的只追加日志」，将 harness 定义为「调用 Claude 并将工具调用路由到相关基础设施的循环」，将 sandbox 定义为「Claude 可以运行代码和编辑文件的执行环境」。这种解耦设计使得企业可以在自己的基础设施上运行 sandbox，同时让 Anthropic 负责 Agent 的编排和上下文管理。",
+      "配套更新方面，Claude Managed Agents 现已支持自托管沙箱和 MCP tunnels（研究预览）。沙箱可在 Cloudflare、Daytona、Modal 或 Vercel 等托管提供商上运行，Agent 执行的敏感文件、包和服务保持在企业自身基础设施内，网络策略、审计日志和安全工具均在企业边界内运行。"
     ],
-    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+    "url": "https://www.anthropic.com/engineering/managed-agents"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 builders · 32 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-07-09T10:00:00+08:00"
+    "coverage": "20 builders · 40 tweets · 1 podcast · 3 blogs",
+    "generatedAt": "2026-07-10T10:00:00+08:00"
   }
 }
