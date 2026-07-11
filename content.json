@@ -1,98 +1,93 @@
 {
   "issue": {
-    "vol": "Vol.191",
-    "date": "2026年7月10日",
-    "weekday": "星期五",
-    "dateISO": "2026-07-10",
-    "tagline": "Claude Code 推出 /checkup 命令；Grok 4.5 登陆 Cursor 和 Vercel；Vibe Coding 时代「重写」不再昂贵"
+    "vol": "Vol.192",
+    "date": "2026年7月11日",
+    "weekday": "星期六",
+    "dateISO": "2026-07-11",
+    "tagline": "GPT-5.6 Sol 正式发布并重置用量限制；Google Gemini 公布用户反馈 Top 10 改进清单；模型混战周——Meta Spark、Grok 4.5、GLM 5.2 同台竞技"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude Code /checkup 一键清理开发环境；Grok 4.5 全面上线主流平台；开发者在「打磨感」与「真实感」之间寻找新平衡",
+    "title": "OpenAI 发布 GPT-5.6 Sol 并重置全量限制；Google Gemini 向社区征集反馈并公布十大改进方向；多家模型密集发布，行业进入「多模型共存」新常态",
     "paras": [
-      "今日最重磅的产品更新来自 Anthropic——Claude Code 团队的 Boris Cherny 发布了全新命令 /checkup，这条推文获得了惊人的 6,631 次点赞和 519 次转发。/checkup 可以一键完成七项环境维护操作：清理未使用的 skills/MCP/plugins 以节省 context、去重本地与已签入的 CLAUDE.md、将根 CLAUDE.md 拆分为嵌套结构和 skills、关闭慢速 hooks、自动更新到最新版本、默认启用 auto mode、以及预批准常用的只读命令。每一步操作都会在执行前与用户确认。这标志着 AI 编程工具从「功能堆砌」转向「体验维护」——当开发者的 Agent 配置越来越复杂时，「健康检查」成为了刚需。",
-      "在模型生态层面，Grok 4.5 本周成为焦点。Vercel CEO Guillermo Rauch 宣布 Grok 4.5 已对所有 Vercel 客户开放，Cursor 设计负责人 Ryo Lu 则宣布用户可在 Cursor 中直接使用 Grok 4.5，称之为「一个新纪元的开始」。Box CEO Aaron Levie 对此评价道，最新一批 AI 模型在处理复杂知识工作者任务方面变得「疯狂地好」，尤其是在法律、专业服务和医疗等高门槛领域，Grok 4.5 在成本和性能的平衡上尤为出色。多模型共存正在成为企业 AI 的新常态。",
-      "一个有趣的行业暗线是「打磨感」（polished）正在与「AI 味」（slop）产生关联。Nikunj Kothari 引用了一篇关于这个趋势的分析并预言：「打磨感正在以你想象不到的速度与 slop 产生关联——我们将看到一次向原始和人性的重大回归。」这与播客中作家 Greg 的观点形成呼应：他在一台专门用来写作的笔记本电脑上屏蔽了一切互联网连接，因为他认为「如果不建立这些屏障，我将失去与自身最有价值部分的连接」。与此同时，OpenAI 的 Thibault Sottiaux 透露团队深夜仍在密集发货，暗示 OpenAI 正在酝酿新动作。Anthropic 的 Cat Wu 则预告了一场关于 Claude Tag（多人协作模式）的深度演示——AI 正从「单人工具」进化为「团队基础设施」。"
+      "本周 AI 行业最重磅的事件当属 OpenAI 正式发布 GPT-5.6 Sol。OpenAI Codex 与 ChatGPT 团队的 Thibault Sottiaux 宣布为庆祝 Sol 上线，将在 24 小时内两次重置 ChatGPT Work 和 Codex 的用量限制，鼓励用户「真正尝试有野心的任务」。这条推文获得超过 6,200 次点赞和 840 条回复。Sam Altman 随后发文表示「5.6 Sol 在每美元完成任务数上是一大步」，该帖收获 9,371 次点赞，是本周互动量最高的帖子之一。Box CEO Aaron Levie 则用企业级评测数据证明了 Sol 的实力：在金融（76% vs 71%）、医疗（58% vs 46%）、公共部门（74% vs 63%）和生命科学（60% vs 51%）等复杂任务上，Sol 全面超越 GPT-5.5，「在数字驱动真实决策的地方最为可靠」。",
+      "Google 副总裁 Josh Woodward 则展现了另一种领导力姿态——他公开征集用户反馈并在 12 小时内收到超过 1,400 条回复，随后发布了 Top 10 改进清单。排名第一的是「让 Google Workspace 集成更可靠」，紧随其后的是「更可靠的 tool calling」「项目与文件夹组织」「添加 MCP 和自定义 Skills」等。他还透露 Deep Research 将支持导出到 NotebookLM、Nano Banana 水印问题正在讨论中、聊天历史消息编辑功能即将上线。这种「公开路线图、快速响应」的做法在大厂高管中并不多见。",
+      "Vercel CEO Guillermo Rauch 指出本周是「模型发布周」，Meta Spark 1.1、Grok 4.5、GLM 5.2 将显著改变 token 市场份额格局。YC CEO Garry Tan 也确认 Meta Muse Spark 1.1（代号 Hornbill）在他的 OpenClaw 上表现「非常好」。Replit CEO Amjad Masad 则观察到一个有趣的趋势：「当 AI 让编码变得更灵活时，我们正在让运行时变得更严格——基础设施团队开始编写正式规范。你想要移动得越快，脚下的地基就必须越坚实。」多模型共存、差异化竞争正在成为企业 AI 的新常态。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI & I：一位作家如何在使用 AI 的同时保留自己的声音",
-    "meta": "YouTube · Every",
+    "title": "AI 先驱 Jürgen Schmidhuber 谈 AI 现状：资本开支过度、AGI 需要物理身体、递归自我改进不是护城河",
+    "meta": "Unsupervised Learning · YouTube",
     "paras": [
-      "Every CEO Dan Shipper 的播客节目本期邀请了一位特殊的嘉宾——一位坚持用 AI 辅助写作但绝不让 AI 代笔的作家。他的核心理念可以用一句话概括：「我醒来的第一件事是不碰互联网——在午餐后很久之前，我不会看手机、不会上网。一旦触碰手机，我就感受到化学反应的变化，无法再进入深度思考。」这不是技术恐惧症，而是一种刻意的注意力管理策略。",
-      "他对 AI 工具的态度同样充满矛盾感：「使用 AI 感觉非常像多巴胺驱动——我强烈相信你可以用它完成不可思议的工作，但它同时也是一个老虎机。」为此，他专门准备了一台「只能用来写作」的笔记本电脑——上面屏蔽了一切有趣的网站和应用。他的理由是：「不会有太多人去思考或写作我被吸引去写的那些奇怪的书。作为一个人类，这感觉是一件值得投入精力的有价值的事情。」",
-      "这个故事之所以在今天尤其有意义，是因为整个行业正在经历「打磨 vs. 真实」的审美转向。当 AI 生成的内容越来越精致时，刻意的粗糙和人性反而成为了稀缺品。正如 Nikunj Kothari 所说：「我们将看到一次向原始和人性的重大回归。」这位作家的工作方式——用 AI 作为工具但绝不让它取代思考——或许代表了一种正在浮现的新范式：不是人 vs. AI，而是人在 AI 的帮助下成为更极致的人。"
+      "被《纽约时报》和《福布斯》称为「AI 之父」的 Jürgen Schmidhuber 在 Unsupervised Learning 播客中分享了多个反直觉的观点。他直言当前 AI 领域的资本开支「严重过度」——他对 AI 技术本身非常乐观，但对模型公司「深度悲观」。他认为递归自我改进不会成为任何公司的护城河，这一观点与当前许多 AI 公司的叙事形成鲜明对比。",
+      "在 AGI 话题上，Schmidhuber 提出了一个少有人讨论的硬件维度：「机器人硬件相比人体真的很差——没有任何人造技术能比得上这只手。」他明确表示「你不能只在屏幕后面实现 AGI」，认为真正的通用人工智能需要物理世界的交互能力。这一观点在当前以软件和语言模型为主流的 AGI 讨论中显得独树一帜。",
+      "主持人 Jacob 在总结中提到，Schmidhuber 还讨论了 AI 安全问题，但他的态度「明显不如该领域许多人那样担忧」。整期对话的核心信息是：AI 技术的潜力远未被释放，但当前行业的资本配置方式和竞争格局可能需要根本性的重新思考。"
     ],
-    "url": "https://www.youtube.com/watch?v=7ND0lQmLJlA"
+    "url": "https://www.youtube.com/watch?v=RKjR8DQ40po"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "Claude Code 团队负责人发布了 /checkup 命令，可一键完成七项环境维护：清理未使用的 skills/MCP/plugins、去重 CLAUDE.md、拆分根配置、关闭慢速 hooks、自动更新、启用 auto mode、预批准只读命令。每项操作执行前都会与用户确认。该推文获得 6,631 次点赞和 519 次转发，是今日互动量最高的帖子。",
-        "url": "https://x.com/bcherny/status/2074997570317779038"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "AI 基础设施领域活跃评论人分享了两个观点。其一，称赞 Cognition 团队在处理中文模型方面做了「困难的事」——构建了多语言宣传与审查评估体系，并在后训练中成功校正，同时以 1000 tok/s 的速度低价服务。其二，赞赏 Theo 主题演讲中使用 Excalidraw 手绘风格幻灯片而非千篇一律的 AI 生成风格，认为这「立刻传达了人性、思考和精炼」。",
-        "url": "https://x.com/swyx/status/2074919183947808881"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "text": "Google 副总裁向社区抛出一个直击痛点的问题：「有什么事情是你惊讶 Gemini 做不好、而我们早就应该修复的？」这条推文获得 1,165 次点赞和超过 1,500 条回复，成为一次大规模用户需求征集。这种公开征集反馈的姿态在大厂高管中并不常见，暗示 Google 可能在为 Gemini 的下一轮改进做准备。",
-        "url": "https://x.com/joshwoodward/status/2074847444823674883"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "OpenAI CEO 表示「5.6 Sol 在每美元完成任务数上是一大进步」，Terra 和 Luna 也同样如此。他还强调 Codex 是 OpenAI 新工作产品的核心，「Codex 哪儿也不会去」。此外，Altman 对 OpenAI 团队成员 Fidji 的健康问题表达了关心和祝福。三条推文合计获得超过 13,000 次点赞。",
+        "url": "https://x.com/sama/status/2075267201058426944"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT 团队成员透露了两条信息。其一，分享了一张深夜 11 点办公室门口堆满寿司和墨西哥卷饼外卖的照片：「你知道 OpenAI 在认真搞事情的时候，就是寿司和墨西哥卷饼在办公室门口堆成山的时候。奇怪的是，我们需要吃饭才能搞研发。」其二，预告团队「上周在调整，这周在发货」，并邀请社区关注 10 点的直播。",
-        "url": "https://x.com/thsottiaux/status/2075103845114663325"
+        "text": "OpenAI Codex 和 ChatGPT 团队成员宣布为庆祝 GPT-5.6 Sol 发布，将在 24 小时内两次重置 ChatGPT Work 和 Codex 的用量限制。他还透露新加入的 @_rajanagarwal 负责模型研究和编码能力提升。该帖获得 6,244 次点赞和 840 条回复，是本周讨论最热烈的帖子之一。",
+        "url": "https://x.com/thsottiaux/status/2075452680760443190"
       },
       {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "text": "Anthropic Claude Code + Cowork 团队预告了一场深度技术演示：从「单人模式 Claude Code」到「多人模式 Claude Tag」的演进历程。她描述了 Claude Tag 的核心能力：「AI 曾经帮你补完句子，然后帮你写整个功能。现在，Claude Tag 可以监控你的频道、为你做主动工作、整个团队都可以引导它，而且它记得你上周告诉它的事情。」",
-        "url": "https://x.com/_catwu/status/2074925531519468012"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "text": "Google 副总裁在收到 1,400+ 条回复后发布了 Gemini 改进 Top 10 清单：① Google Workspace 集成更可靠（明确的第一需求）② 更可靠的 tool calling ③ 项目与文件夹组织 ④ 添加 MCP 和自定义 Skills ⑤ Deep Research 支持导出到 NotebookLM ⑥ 讨论移除 Nano Banana 水印 ⑦ 聊天历史消息编辑 ⑧ 改善语音听写准确率 ⑨ 修复移动端滚动 bug ⑩ 保持「名人肖像」限制不变。",
+        "url": "https://x.com/joshwoodward/status/2075241749048401936"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "Box CEO 用企业级评测数据展示了 GPT-5.6 Sol 的实力：在金融（76% vs 71%）、医疗（58% vs 46%）、公共部门（74% vs 63%）和生命科学（60% vs 51%）等复杂任务上全面超越 GPT-5.5。他还撰文分析了 AI 时代的竞争优势——当模型智能变得充裕时，「公司自身的数据、AI 与工作流的结合方式、以及员工与系统的交互」将成为差异化关键。",
+        "url": "https://x.com/levie/status/2075287443411222628"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 指出本周是「模型发布周」，预测 Meta Spark 1.1、Grok 4.5 和 GLM 5.2 将显著改变 token 市场份额。他认为「大多数 Agent 任务需要在快速推理下具备合理高的智能水平」，并预告开源模型即将变得「异常快速」。",
+        "url": "https://x.com/rauchg/status/2075294130327196152"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
-        "text": "Replit CEO 提出了一个尖锐的问题：「我们什么时候停止将自主 Agent 与手写代码做比较？你不会看到编译器拿自己和工程师手写汇编做对比。」这条推文引发广泛讨论，核心观点是：当 Agent 的能力达到一定阈值后，与传统编程的比较框架已经失效，行业需要新的评价维度。他还发起了一个投票，询问是否应该在 Replit 中加入 CAD 3D 建模功能。",
-        "url": "https://x.com/amasad/status/2075080984211624154"
+        "text": "Replit CEO 观察到一个有趣的悖论：「当 AI 让编码变得更灵活时，我们正在让运行时变得更严格。我注意到基础设施团队开始编写正式规范——更确定性的系统、更有韧性的基础设施。你想要移动得越快，脚下的地基就必须越坚实。」他还指出 LLM 市场在过去 6 个月变得「异常活跃」，曾经被 VC 们认为将垄断的 Anthropic 现在面临激烈竞争。",
+        "url": "https://x.com/amasad/status/2075423115052790054"
       },
       {
-        "name": "Thariq",
-        "handle": "trq212",
-        "text": "Claude Code 团队成员提出了一个重要观点：「这应该是你软件工程模型中的一个重大更新——重写可以是好的、便宜的、快速的。当然大多数应用不像 Bun 那样可测试和可验证，但模型会继续进步来填补这些差距。」这条推文获得 762 次点赞，核心信息是 AI 时代「重写」的经济学已经彻底改变。",
-        "url": "https://x.com/trq212/status/2074993112217461020"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "FPV Ventures 合伙人用一段幽默的「向妻子解释本周模型发布」走红：「GPT-5.6 有三个版本——Sol 是聪明的那个，需要通过政府安全评估才能发布；Luna 是便宜的那个；Terra 存在着。Grok 4.5 故意在 GPT-5.6 前一天发布，这样它能有 24 小时的『前沿级』地位。Meituan 开源了 1.6 万亿参数的 LongCat-2.0——你的外卖平台现在是前沿实验室。而且这才周四。」",
+        "url": "https://x.com/nikunj/status/2075411514773967261"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "独立 Builder 分享了一个发人深省的观察：一位创始人给全团队购买了 Codex Max，所有人整天通过与 Codex 对话完成工作。副作用是——人们不再互相交谈，会议被取消，协作降到最低，团队文化恶化。「我们不能只停留在人-AI 协作，而要推进到人-人-AI 协作。」她还吐槽 Codex 的前端设计能力是阻碍她更频繁使用的最大障碍。",
-        "url": "https://x.com/zarazhangrui/status/2075004775436005687"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "text": "前 Google Gemini/Veo 团队高管宣布加入 Meta 担任 AI 产品高级总监。他表示：「虽然 SWE Agent 已经改变了软件工程，但大多数其他复杂系统中的 Agent 仍处于早期阶段。大多数人还没有真正感受到 AI Agent 的全部力量。Meta 有能力改变这一点。是时候建造了。」",
+        "url": "https://x.com/realmadhuguru/status/2075243087325217038"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Anthropic Engineering：Claude Managed Agents 架构解析——将「大脑」与「双手」解耦",
-    "meta": "Anthropic Engineering · 2026",
-    "paras": [
-      "Anthropic Engineering 博客发布了关于 Claude Managed Agents 的深度架构文章。核心设计哲学是借鉴操作系统的虚拟化思想——将 Agent 的三个核心组件（session、harness、sandbox）分别抽象化，使得每一层的实现可以独立替换而不影响其他层。文章举了一个生动的例子：Claude Sonnet 4.5 在接近 context 限制时会「焦虑」地提前结束任务，团队通过在 harness 中加入 context reset 来解决；但同样的 harness 在 Claude Opus 4.5 上运行时，发现这个行为已经消失——reset 变成了「dead weight」。",
-      "文章强调了「频繁质疑 harness 的假设」的重要性：harness 编码了关于 Claude 自身能力不足的假设，但这些假设会随着模型进步而过时。Managed Agents 将 session 定义为「所有发生过的事情的只追加日志」，将 harness 定义为「调用 Claude 并将工具调用路由到相关基础设施的循环」，将 sandbox 定义为「Claude 可以运行代码和编辑文件的执行环境」。这种解耦设计使得企业可以在自己的基础设施上运行 sandbox，同时让 Anthropic 负责 Agent 的编排和上下文管理。",
-      "配套更新方面，Claude Managed Agents 现已支持自托管沙箱和 MCP tunnels（研究预览）。沙箱可在 Cloudflare、Daytona、Modal 或 Vercel 等托管提供商上运行，Agent 执行的敏感文件、包和服务保持在企业自身基础设施内，网络策略、审计日志和安全工具均在企业边界内运行。"
-    ],
-    "url": "https://www.anthropic.com/engineering/managed-agents"
+    "title": "",
+    "meta": "",
+    "paras": []
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "20 builders · 40 tweets · 1 podcast · 3 blogs",
-    "generatedAt": "2026-07-10T10:00:00+08:00"
+    "coverage": "19 builders · 44 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-11T10:00:00+08:00"
   }
 }
