@@ -1,30 +1,30 @@
 {
   "issue": {
-    "vol": "Vol.192",
-    "date": "2026年7月11日",
-    "weekday": "星期六",
-    "dateISO": "2026-07-11",
-    "tagline": "GPT-5.6 Sol 正式发布并重置用量限制；Google Gemini 公布用户反馈 Top 10 改进清单；模型混战周——Meta Spark、Grok 4.5、GLM 5.2 同台竞技"
+    "vol": "Vol.193",
+    "date": "2026年7月12日",
+    "weekday": "星期日",
+    "dateISO": "2026-07-12",
+    "tagline": "Sam Altman 称 AI 目前净创造就业；Stripe AI 负责人详解 Agent 商业经济栈；AI 编码工具进入「多工具组合」新范式"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI 发布 GPT-5.6 Sol 并重置全量限制；Google Gemini 向社区征集反馈并公布十大改进方向；多家模型密集发布，行业进入「多模型共存」新常态",
+    "title": "Sam Altman 表态 AI 目前净创造就业；Stripe 深入解析 Agent 经济栈；AI 编码工作流从单工具走向多工具组合",
     "paras": [
-      "本周 AI 行业最重磅的事件当属 OpenAI 正式发布 GPT-5.6 Sol。OpenAI Codex 与 ChatGPT 团队的 Thibault Sottiaux 宣布为庆祝 Sol 上线，将在 24 小时内两次重置 ChatGPT Work 和 Codex 的用量限制，鼓励用户「真正尝试有野心的任务」。这条推文获得超过 6,200 次点赞和 840 条回复。Sam Altman 随后发文表示「5.6 Sol 在每美元完成任务数上是一大步」，该帖收获 9,371 次点赞，是本周互动量最高的帖子之一。Box CEO Aaron Levie 则用企业级评测数据证明了 Sol 的实力：在金融（76% vs 71%）、医疗（58% vs 46%）、公共部门（74% vs 63%）和生命科学（60% vs 51%）等复杂任务上，Sol 全面超越 GPT-5.5，「在数字驱动真实决策的地方最为可靠」。",
-      "Google 副总裁 Josh Woodward 则展现了另一种领导力姿态——他公开征集用户反馈并在 12 小时内收到超过 1,400 条回复，随后发布了 Top 10 改进清单。排名第一的是「让 Google Workspace 集成更可靠」，紧随其后的是「更可靠的 tool calling」「项目与文件夹组织」「添加 MCP 和自定义 Skills」等。他还透露 Deep Research 将支持导出到 NotebookLM、Nano Banana 水印问题正在讨论中、聊天历史消息编辑功能即将上线。这种「公开路线图、快速响应」的做法在大厂高管中并不多见。",
-      "Vercel CEO Guillermo Rauch 指出本周是「模型发布周」，Meta Spark 1.1、Grok 4.5、GLM 5.2 将显著改变 token 市场份额格局。YC CEO Garry Tan 也确认 Meta Muse Spark 1.1（代号 Hornbill）在他的 OpenClaw 上表现「非常好」。Replit CEO Amjad Masad 则观察到一个有趣的趋势：「当 AI 让编码变得更灵活时，我们正在让运行时变得更严格——基础设施团队开始编写正式规范。你想要移动得越快，脚下的地基就必须越坚实。」多模型共存、差异化竞争正在成为企业 AI 的新常态。"
+      "Sam Altman 昨晚投下一枚观点炸弹：「至少到目前为止，我相当确定 AI 是净创造就业的——这不是我预期的结果。虽然我比大多数人没那么悲观，但以当前的能力水平来看，我以为会看到一些影响了。」这条推文收获超过 7,400 次点赞和 1,200 条回复，成为本日互动量最高的帖子。他还引用了一项研究结果：「医生发现 GPT-5.6 回复中的错误比医生自己写的回复还少」，暗示 AI 在专业领域的表现正在超越人类基线。值得注意的是，Altman 同时转发了 Codex 桌面端增长数据，用「whoa」一个词表达惊叹——该产品单日新增用户超过了此前两周的总和。",
+      "Stripe 数据与 AI 负责人 Emily Sense 在 MAD Podcast 中深入拆解了 Agent 经济栈的三大支柱：Token 欺诈、按席位定价的瓦解、以及 Agent 自主交易。她披露了一个令人震惊的数据：「超过六分之一的 AI 公司注册用户是 token 滥用型欺诈」，这种「token 吃饭不付钱」的模式正在成为行业新威胁。在 Agent 交易方面，她指出用户最关心的不是「Agent 能不能买」，而是「会不会超支、会不会买错、能不能叫停」——这三个问题构成了 Agent 商业的信任基础设施。",
+      "在编码工具层面，Peter Yang 分享了他的「周末新项目流程」：先用 Fable 构建带设计规范的 plan.html，再用 Claude Design 生成组件和页面，最后交给 GPT-5.6 实现。FPV Ventures 合伙人 Nikunj Kothari 则惊叹于 Fable 和 Sol 的组合能力——几小时内就基于后端和 Web 应用生成了一个完整可用的 iOS 应用。Box CEO Aaron Levie 则从企业视角指出，AI 转型的关键不在于给员工一个工具，而在于改变底层工作流——「软件要求员工采纳工具，但基础设施改变的是员工下方的运行层」。这意味着 AI 的真正价值将属于那些能针对特定业务流程深度部署的平台。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI 先驱 Jürgen Schmidhuber 谈 AI 现状：资本开支过度、AGI 需要物理身体、递归自我改进不是护城河",
-    "meta": "Unsupervised Learning · YouTube",
+    "title": "Stripe AI 负责人：AI Agent 将如何买、卖和支付",
+    "meta": "The MAD Podcast with Matt Turck · YouTube",
     "paras": [
-      "被《纽约时报》和《福布斯》称为「AI 之父」的 Jürgen Schmidhuber 在 Unsupervised Learning 播客中分享了多个反直觉的观点。他直言当前 AI 领域的资本开支「严重过度」——他对 AI 技术本身非常乐观，但对模型公司「深度悲观」。他认为递归自我改进不会成为任何公司的护城河，这一观点与当前许多 AI 公司的叙事形成鲜明对比。",
-      "在 AGI 话题上，Schmidhuber 提出了一个少有人讨论的硬件维度：「机器人硬件相比人体真的很差——没有任何人造技术能比得上这只手。」他明确表示「你不能只在屏幕后面实现 AGI」，认为真正的通用人工智能需要物理世界的交互能力。这一观点在当前以软件和语言模型为主流的 AGI 讨论中显得独树一帜。",
-      "主持人 Jacob 在总结中提到，Schmidhuber 还讨论了 AI 安全问题，但他的态度「明显不如该领域许多人那样担忧」。整期对话的核心信息是：AI 技术的潜力远未被释放，但当前行业的资本配置方式和竞争格局可能需要根本性的重新思考。"
+      "Stripe 数据与 AI 负责人 Emily Sense 在 MAD Podcast 中分享了 Agent 商业经济栈的核心洞察。她披露了一个行业鲜少讨论的威胁：超过六分之一的 AI 公司注册用户属于 token 滥用型欺诈——「欺诈者发现，在 AI 领域你不需要偷钱或凭证，只需要偷 token。当我看到数据时，这个规模让我震惊。」她将这种模式称为「token 吃饭不付钱」。",
+      "在 Agent 自主交易方面，Emily 展望了一个 12 个月后的世界：不再是「Emily 授权 Agent 代为购买」，而是「Emily 有一个被委派经营业务的 Agent，它需要自己做采购决策、销售决策并创造利润」。她坦承当前的按席位定价模式正在瓦解——当 Agent 替代人类执行任务时，「按人头收费」的逻辑不再成立。Stripe 正在探索基于 token 消耗和交易量的新定价模型。",
+      "这期对话的核心信息是：Agent 商业不只是一个技术问题，更是一个信任问题。用户愿意让 Agent 花钱的前提是——他们能设定预算上限、能实时叫停、能事后审计。这三层信任机制构成了整个 Agent 经济栈的基础设施。"
     ],
-    "url": "https://www.youtube.com/watch?v=RKjR8DQ40po"
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
@@ -32,50 +32,50 @@
       {
         "name": "Sam Altman",
         "handle": "sama",
-        "text": "OpenAI CEO 表示「5.6 Sol 在每美元完成任务数上是一大进步」，Terra 和 Luna 也同样如此。他还强调 Codex 是 OpenAI 新工作产品的核心，「Codex 哪儿也不会去」。此外，Altman 对 OpenAI 团队成员 Fidji 的健康问题表达了关心和祝福。三条推文合计获得超过 13,000 次点赞。",
-        "url": "https://x.com/sama/status/2075267201058426944"
+        "text": "OpenAI CEO 表示「至少到目前为止，我相当确定 AI 是净创造就业的——这不是我预期的结果」。他还引用研究称「医生发现 GPT-5.6 回复中的错误比医生自己写的还少」，并转发 Codex 桌面端数据惊呼「whoa」——单日新增超过此前两周总和。三条推文合计获得超过 13,000 次点赞。",
+        "url": "https://x.com/sama/status/2076036901824532530"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT 团队成员宣布为庆祝 GPT-5.6 Sol 发布，将在 24 小时内两次重置 ChatGPT Work 和 Codex 的用量限制。他还透露新加入的 @_rajanagarwal 负责模型研究和编码能力提升。该帖获得 6,244 次点赞和 840 条回复，是本周讨论最热烈的帖子之一。",
-        "url": "https://x.com/thsottiaux/status/2075452680760443190"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "text": "Google 副总裁在收到 1,400+ 条回复后发布了 Gemini 改进 Top 10 清单：① Google Workspace 集成更可靠（明确的第一需求）② 更可靠的 tool calling ③ 项目与文件夹组织 ④ 添加 MCP 和自定义 Skills ⑤ Deep Research 支持导出到 NotebookLM ⑥ 讨论移除 Nano Banana 水印 ⑦ 聊天历史消息编辑 ⑧ 改善语音听写准确率 ⑨ 修复移动端滚动 bug ⑩ 保持「名人肖像」限制不变。",
-        "url": "https://x.com/joshwoodward/status/2075241749048401936"
+        "text": "OpenAI Codex 和 ChatGPT 团队成员展示了 Codex 用量限制重置时的系统可视化海报，并表示「当你一天的增长超过过去两周的总和，你就知道这是一个好模型」。他邀请用户下载桌面端体验，并鼓励技术用户向非技术的朋友和家人推荐 ChatGPT Work。",
+        "url": "https://x.com/thsottiaux/status/2076021263945039876"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "Box CEO 用企业级评测数据展示了 GPT-5.6 Sol 的实力：在金融（76% vs 71%）、医疗（58% vs 46%）、公共部门（74% vs 63%）和生命科学（60% vs 51%）等复杂任务上全面超越 GPT-5.5。他还撰文分析了 AI 时代的竞争优势——当模型智能变得充裕时，「公司自身的数据、AI 与工作流的结合方式、以及员工与系统的交互」将成为差异化关键。",
-        "url": "https://x.com/levie/status/2075287443411222628"
+        "text": "Box CEO 分享了一篇深度分析企业 AI 转型的文章并指出：「软件要求员工采纳工具，但基础设施改变的是员工下方的运行层。」他认为 AI 部署正在从「给终端用户推工具」转向「针对跨职能工作流部署 Agent」，赢家将是那些具备深度领域专业知识、能做好变更管理和评测的平台。",
+        "url": "https://x.com/levie/status/2075963779599466894"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel CEO 指出本周是「模型发布周」，预测 Meta Spark 1.1、Grok 4.5 和 GLM 5.2 将显著改变 token 市场份额。他认为「大多数 Agent 任务需要在快速推理下具备合理高的智能水平」，并预告开源模型即将变得「异常快速」。",
-        "url": "https://x.com/rauchg/status/2075294130327196152"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "text": "YC CEO 发出一个简洁有力的号召：「做 Agent 想要的东西」——将经典的 YC 格言「做用户想要的东西」升级为 Agent 时代版本。他还持续关注旧金山的政策环境，呼吁停止资助那些制造「旧金山末日循环」的人。",
+        "url": "https://x.com/garrytan/status/2075975184293765564"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "Replit CEO 观察到一个有趣的悖论：「当 AI 让编码变得更灵活时，我们正在让运行时变得更严格。我注意到基础设施团队开始编写正式规范——更确定性的系统、更有韧性的基础设施。你想要移动得越快，脚下的地基就必须越坚实。」他还指出 LLM 市场在过去 6 个月变得「异常活跃」，曾经被 VC 们认为将垄断的 Anthropic 现在面临激烈竞争。",
-        "url": "https://x.com/amasad/status/2075423115052790054"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "独立 Builder 指出一个正在发生的融合趋势：「建造者和创作者之间的界限正在模糊。现在是建造者创作内容、创作者构建产品的最佳时机。」这条推文获得 230 次点赞和 45 条回复，引发了关于 AI 时代个人能力组合的广泛讨论。",
+        "url": "https://x.com/zarazhangrui/status/2075930909669515753"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
-        "text": "FPV Ventures 合伙人用一段幽默的「向妻子解释本周模型发布」走红：「GPT-5.6 有三个版本——Sol 是聪明的那个，需要通过政府安全评估才能发布；Luna 是便宜的那个；Terra 存在着。Grok 4.5 故意在 GPT-5.6 前一天发布，这样它能有 24 小时的『前沿级』地位。Meituan 开源了 1.6 万亿参数的 LongCat-2.0——你的外卖平台现在是前沿实验室。而且这才周四。」",
-        "url": "https://x.com/nikunj/status/2075411514773967261"
+        "text": "FPV Ventures 合伙人惊叹于 AI 编码工具的组合威力：「Fable 和 Sol 几小时内就基于后端和 Web 应用给我生成了一个完整可用的 iOS 应用——我们生活在一个多么疯狂的世界。」这展示了 AI 编码正从单一工具辅助走向多工具编排的新范式。",
+        "url": "https://x.com/nikunj/status/2076022807365079342"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "前 Google Gemini/Veo 团队高管宣布加入 Meta 担任 AI 产品高级总监。他表示：「虽然 SWE Agent 已经改变了软件工程，但大多数其他复杂系统中的 Agent 仍处于早期阶段。大多数人还没有真正感受到 AI Agent 的全部力量。Meta 有能力改变这一点。是时候建造了。」",
-        "url": "https://x.com/realmadhuguru/status/2075243087325217038"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "独立 AI 教程作者分享了他的周末项目新流程：Fable 做设计规划 → Claude Design 做组件和页面 → GPT-5.6 做实现。他还提出了一个值得思考的问题：「这些基准测试是怎么运作的？你怎么给设计品味打分？」",
+        "url": "https://x.com/petergyang/status/2075999617666445714"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "text": "South Park Commons 普通合伙人（前 Facebook 早期工程师、Dropbox CTO）描绘了 AI Agent 基础设施的终极愿景：「在云端运行所有 Agent、选择任何模型（前沿、开源、中国、美国）、选择任何编排框架、拥有完整追踪、具备递归改进循环。我知道这一天会到来，但能快点吗？」",
+        "url": "https://x.com/adityaag/status/2076047290083733539"
       }
     ]
   },
@@ -87,7 +87,7 @@
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "19 builders · 44 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-11T10:00:00+08:00"
+    "coverage": "10 builders · 19 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-12T10:00:00+08:00"
   }
 }
