@@ -1,81 +1,81 @@
 {
   "issue": {
-    "vol": "Vol.193",
-    "date": "2026年7月12日",
-    "weekday": "星期日",
-    "dateISO": "2026-07-12",
-    "tagline": "Sam Altman 称 AI 目前净创造就业；Stripe AI 负责人详解 Agent 商业经济栈；AI 编码工具进入「多工具组合」新范式"
+    "vol": "Vol.195",
+    "date": "2026年7月14日",
+    "weekday": "星期二",
+    "dateISO": "2026-07-14",
+    "tagline": "OpenAI 优化 GPT-5.6 Sol 推理效率并将成本回馈用户；Anthropic 延长 Fable 5 及 Claude Code 额度；Vibe Research 开启 AI 模型微调新范式"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sam Altman 表态 AI 目前净创造就业；Stripe 深入解析 Agent 经济栈；AI 编码工作流从单工具走向多工具组合",
+    "title": "GPT-5.6 Sol 推理优化让利用户；Anthropic 延长 Fable 5 额度；Vibe Research 让普通人也能做 ML",
     "paras": [
-      "Sam Altman 昨晚投下一枚观点炸弹：「至少到目前为止，我相当确定 AI 是净创造就业的——这不是我预期的结果。虽然我比大多数人没那么悲观，但以当前的能力水平来看，我以为会看到一些影响了。」这条推文收获超过 7,400 次点赞和 1,200 条回复，成为本日互动量最高的帖子。他还引用了一项研究结果：「医生发现 GPT-5.6 回复中的错误比医生自己写的回复还少」，暗示 AI 在专业领域的表现正在超越人类基线。值得注意的是，Altman 同时转发了 Codex 桌面端增长数据，用「whoa」一个词表达惊叹——该产品单日新增用户超过了此前两周的总和。",
-      "Stripe 数据与 AI 负责人 Emily Sense 在 MAD Podcast 中深入拆解了 Agent 经济栈的三大支柱：Token 欺诈、按席位定价的瓦解、以及 Agent 自主交易。她披露了一个令人震惊的数据：「超过六分之一的 AI 公司注册用户是 token 滥用型欺诈」，这种「token 吃饭不付钱」的模式正在成为行业新威胁。在 Agent 交易方面，她指出用户最关心的不是「Agent 能不能买」，而是「会不会超支、会不会买错、能不能叫停」——这三个问题构成了 Agent 商业的信任基础设施。",
-      "在编码工具层面，Peter Yang 分享了他的「周末新项目流程」：先用 Fable 构建带设计规范的 plan.html，再用 Claude Design 生成组件和页面，最后交给 GPT-5.6 实现。FPV Ventures 合伙人 Nikunj Kothari 则惊叹于 Fable 和 Sol 的组合能力——几小时内就基于后端和 Web 应用生成了一个完整可用的 iOS 应用。Box CEO Aaron Levie 则从企业视角指出，AI 转型的关键不在于给员工一个工具，而在于改变底层工作流——「软件要求员工采纳工具，但基础设施改变的是员工下方的运行层」。这意味着 AI 的真正价值将属于那些能针对特定业务流程深度部署的平台。"
+      "OpenAI Codex 和 ChatGPT 团队的 Thibault Sottiaux 连续发布多条更新：团队已落地推理优化并将节省的成本回馈给所有订阅用户，GPT-5.6 Sol 的使用量因此增加约 10%。同时，团队发现将上下文窗口从 272k 扩大到 372k 导致了超出预期的用量消耗，已回滚至 272k 并将重新调优后推出。此外，多 agent 模式在高推理强度下存在轻微超额使用问题，团队正在修复。Sottiaux 郑重承诺：GPT-5.6 Sol 将留在你现有的 ChatGPT 订阅中，包括 Go、Plus 和 Pro。这条推文获得超过 10,000 次点赞，成为本日互动量最高的帖子。",
+      "Anthropic 同样动作频频。Claude 官方账号宣布延长 Fable 5 的使用权限至 7 月 19 日，同时 Claude Code 的周用量限制比平时提高 50%。此前，Anthropic 已将 Fable 5 的单周用量上限调整为可使用额度的一半，超出后可选择使用积分继续或切换模型。Cat Wu（Claude Code 团队成员）转发相关公告并简短留言「Enjoy!」，该帖获得近 2,000 次点赞。两家头部公司同时在用量和成本上做出让步，折射出当前 AI 编码工具市场竞争之激烈。",
+      "在应用层面，Replit CEO Amjad Masad 提出了「Vibe Research」的概念：他在 Replit 上并行运行 3 个实验分支，对 Qwen-8b 模型进行微调以下棋。他感叹「模型做 ML 的能力已经今非昔比，以前真的很差」——这意味着有好直觉引导的人即使没有 ML 经验，也能做出有趣的实验。Sam Altman 也在征集 GPT-5.6 Sol 的最酷作品，承诺给最佳作品送出 OpenAI 档案馆的特别礼物。Vercel CEO Guillermo Rauch 则强调企业必须「把模型当作机器中的一个齿轮」——通过 AI SDK、Agent API 和 AI Gateway 三件套掌控数据、评测和模型选择，「不要外包你的大脑」。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Stripe AI 负责人：AI Agent 将如何买、卖和支付",
-    "meta": "The MAD Podcast with Matt Turck · YouTube",
+    "title": "核能如何解锁能源丰裕：Valar Atomics 创始人谈规模化核反应堆",
+    "meta": "No Priors · YouTube",
     "paras": [
-      "Stripe 数据与 AI 负责人 Emily Sense 在 MAD Podcast 中分享了 Agent 商业经济栈的核心洞察。她披露了一个行业鲜少讨论的威胁：超过六分之一的 AI 公司注册用户属于 token 滥用型欺诈——「欺诈者发现，在 AI 领域你不需要偷钱或凭证，只需要偷 token。当我看到数据时，这个规模让我震惊。」她将这种模式称为「token 吃饭不付钱」。",
-      "在 Agent 自主交易方面，Emily 展望了一个 12 个月后的世界：不再是「Emily 授权 Agent 代为购买」，而是「Emily 有一个被委派经营业务的 Agent，它需要自己做采购决策、销售决策并创造利润」。她坦承当前的按席位定价模式正在瓦解——当 Agent 替代人类执行任务时，「按人头收费」的逻辑不再成立。Stripe 正在探索基于 token 消耗和交易量的新定价模型。",
-      "这期对话的核心信息是：Agent 商业不只是一个技术问题，更是一个信任问题。用户愿意让 Agent 花钱的前提是——他们能设定预算上限、能实时叫停、能事后审计。这三层信任机制构成了整个 Agent 经济栈的基础设施。"
+      "Valar Atomics 创始人兼 CEO Isaiah Taylor 在犹他州 San Rafael 核设施接受了 No Priors 采访，展示了他们刚刚完成的里程碑——首次由核反应堆为 AI 芯片供电。他直言大多数核工业本质上是「建模和仿真行业」，不专注于硬件迭代和执行，而 Valar 的策略是「建造最简单、最安全的反应堆以实现规模化」。",
+      "Taylor 将核能的复兴与 SpaceX 的崛起类比：「当 SpaceX 起步时，没人相信他们能达到今天的数字。」他认为能源是一种商品，需求由价格决定——「如果你能想办法让能源更便宜，需求自然会来。」AI 算力对电力的巨大需求为核能创业提供了历史性机遇。",
+      "这期对话的核心信息是：AI 的终极瓶颈可能不在算法，而在能源。当模型越来越大、推理越来越密集，稳定、廉价、可规模化的电力供应将成为关键基础设施。Valar Atomics 选择的「硬件优先、快速迭代」路线，可能为核能行业走出一条截然不同于传统核电站的新路径。"
     ],
-    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+    "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "OpenAI CEO 表示「至少到目前为止，我相当确定 AI 是净创造就业的——这不是我预期的结果」。他还引用研究称「医生发现 GPT-5.6 回复中的错误比医生自己写的还少」，并转发 Codex 桌面端数据惊呼「whoa」——单日新增超过此前两周总和。三条推文合计获得超过 13,000 次点赞。",
-        "url": "https://x.com/sama/status/2076036901824532530"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT 团队成员展示了 Codex 用量限制重置时的系统可视化海报，并表示「当你一天的增长超过过去两周的总和，你就知道这是一个好模型」。他邀请用户下载桌面端体验，并鼓励技术用户向非技术的朋友和家人推荐 ChatGPT Work。",
-        "url": "https://x.com/thsottiaux/status/2076021263945039876"
+        "text": "OpenAI Codex 和 ChatGPT 团队成员发布周末更新：已落地推理优化并将成本回馈所有订阅用户，GPT-5.6 Sol 使用量增加约 10%。同时修复了上下文窗口扩大导致的超额计费问题，回滚至 272k。他郑重承诺「GPT-5.6 Sol 将留在你的 ChatGPT 订阅中——至少在我们发布更好的模型之前」，该帖获得超过 10,000 次点赞。",
+        "url": "https://x.com/thsottiaux/status/2076495156757577895"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "OpenAI CEO 征集 GPT-5.6 Sol 的最酷作品：「我很想看看大家用 5.6 Sol 构建了什么有趣的东西。我会给做出最酷作品的人送出 OpenAI 档案馆的一份特别礼物。」这条推文获得超过 13,000 次点赞和 2,500 条回复，引发社区大规模作品展示。",
+        "url": "https://x.com/sama/status/2076398253332140410"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 提出企业 AI 架构哲学：「把模型当作你拥有的机器中的一个齿轮。」他列出了三大支柱——AI SDK（开放模型 API）、open Agent API、AI Gateway（零数据保留推理），强调「创业公司和企业必须拥有自己的数据、评测、模型选择和软件层。不要外包你的大脑。」",
+        "url": "https://x.com/rauchg/status/2076364176252191222"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "Box CEO 分享了一篇深度分析企业 AI 转型的文章并指出：「软件要求员工采纳工具，但基础设施改变的是员工下方的运行层。」他认为 AI 部署正在从「给终端用户推工具」转向「针对跨职能工作流部署 Agent」，赢家将是那些具备深度领域专业知识、能做好变更管理和评测的平台。",
-        "url": "https://x.com/levie/status/2075963779599466894"
+        "text": "Box CEO 深度分析企业 AI 转型的关键问题：「当每家公司都能访问前沿智能时，如何独特地利用它就成为关键问题。」他指出 AI 应用层仍有巨大价值待挖掘——为工作流建立评测、路由不同层级的模型、捕获可改进流程的 traces，以及确保信息价值随 AI 进步而复利增长。",
+        "url": "https://x.com/levie/status/2076338364635287637"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "YC CEO 发出一个简洁有力的号召：「做 Agent 想要的东西」——将经典的 YC 格言「做用户想要的东西」升级为 Agent 时代版本。他还持续关注旧金山的政策环境，呼吁停止资助那些制造「旧金山末日循环」的人。",
-        "url": "https://x.com/garrytan/status/2075975184293765564"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "text": "Replit CEO 提出「Vibe Research」概念：用 Replit 并行运行 3 个实验分支微调 Qwen-8b 下棋模型。他感叹「模型做 ML 的能力已经今非昔比」，认为有好直觉的人即使没有 ML 经验也能做出有趣的实验，随后展示了 Replit computer use 模型与他的国际象棋引擎的对弈。",
+        "url": "https://x.com/amasad/status/2076227936202662357"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
-        "text": "独立 Builder 指出一个正在发生的融合趋势：「建造者和创作者之间的界限正在模糊。现在是建造者创作内容、创作者构建产品的最佳时机。」这条推文获得 230 次点赞和 45 条回复，引发了关于 AI 时代个人能力组合的广泛讨论。",
-        "url": "https://x.com/zarazhangrui/status/2075930909669515753"
+        "text": "独立 Builder 分享了一个高效工作流：「试试把会议记录当 PRD 用，效果惊人。我跟同事讨论一个功能的实现细节，把会议记录发给 Codex，它就按讨论内容构建了原型。会议本身就是 prompt。」这条推文获得 222 次点赞，展示了 AI 编码工具如何模糊「讨论」和「实现」的边界。",
+        "url": "https://x.com/zarazhangrui/status/2076300222884626754"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
-        "text": "FPV Ventures 合伙人惊叹于 AI 编码工具的组合威力：「Fable 和 Sol 几小时内就基于后端和 Web 应用给我生成了一个完整可用的 iOS 应用——我们生活在一个多么疯狂的世界。」这展示了 AI 编码正从单一工具辅助走向多工具编排的新范式。",
-        "url": "https://x.com/nikunj/status/2076022807365079342"
+        "text": "FPV Ventures 合伙人对 AI 时代的「token 最大化」热潮提出反思：「我在旧金山遇到很多人声称自己在 tokenmaxxing、有各种子 agent 在循环运行，但当我问他们在为谁构建什么时，很少有人能给出直截了当的答案。」他提醒：在这个疯狂的 AI 时代，方向和简洁性仍然极其重要。",
+        "url": "https://x.com/nikunj/status/2076458876816540144"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "text": "独立 AI 教程作者分享了他的周末项目新流程：Fable 做设计规划 → Claude Design 做组件和页面 → GPT-5.6 做实现。他还提出了一个值得思考的问题：「这些基准测试是怎么运作的？你怎么给设计品味打分？」",
-        "url": "https://x.com/petergyang/status/2075999617666445714"
-      },
-      {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "text": "South Park Commons 普通合伙人（前 Facebook 早期工程师、Dropbox CTO）描绘了 AI Agent 基础设施的终极愿景：「在云端运行所有 Agent、选择任何模型（前沿、开源、中国、美国）、选择任何编排框架、拥有完整追踪、具备递归改进循环。我知道这一天会到来，但能快点吗？」",
-        "url": "https://x.com/adityaag/status/2076047290083733539"
+        "text": "AI 教程作者观察到一个现象：「我估计 90% 以上的人在用 GPT-5.6 Sol，不到 10% 在用 Terra 或 Luna。」他还指出社区情绪转向时公司应更透明地沟通，而非退缩到更企业化的表达方式——「用更人性化的方式沟通，与社区一起搞清楚出了什么问题、如何解决。」",
+        "url": "https://x.com/petergyang/status/2076519927843000448"
       }
     ]
   },
@@ -87,7 +87,7 @@
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "10 builders · 19 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-12T10:00:00+08:00"
+    "coverage": "15 builders · 30 tweets · 1 podcast · 0 blogs",
+    "generatedAt": "2026-07-14T10:00:00+08:00"
   }
 }
