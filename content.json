@@ -1,93 +1,96 @@
 {
   "issue": {
-    "vol": "Vol.195",
-    "date": "2026年7月14日",
-    "weekday": "星期二",
-    "dateISO": "2026-07-14",
-    "tagline": "OpenAI 优化 GPT-5.6 Sol 推理效率并将成本回馈用户；Anthropic 延长 Fable 5 及 Claude Code 额度；Vibe Research 开启 AI 模型微调新范式"
+    "vol": "Vol.196",
+    "date": "2026年7月15日",
+    "weekday": "星期三",
+    "dateISO": "2026-07-15",
+    "tagline": "Swyx 公开多模型协作工作流；Vercel AI Gateway 开放权重模型占比飙升至 29%；Claude Artifacts 升级表现力大增"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "GPT-5.6 Sol 推理优化让利用户；Anthropic 延长 Fable 5 额度；Vibe Research 让普通人也能做 ML",
+    "title": "多模型编排成新常态；开放权重逆袭网关流量；Artifacts 进化为创意画布",
     "paras": [
-      "OpenAI Codex 和 ChatGPT 团队的 Thibault Sottiaux 连续发布多条更新：团队已落地推理优化并将节省的成本回馈给所有订阅用户，GPT-5.6 Sol 的使用量因此增加约 10%。同时，团队发现将上下文窗口从 272k 扩大到 372k 导致了超出预期的用量消耗，已回滚至 272k 并将重新调优后推出。此外，多 agent 模式在高推理强度下存在轻微超额使用问题，团队正在修复。Sottiaux 郑重承诺：GPT-5.6 Sol 将留在你现有的 ChatGPT 订阅中，包括 Go、Plus 和 Pro。这条推文获得超过 10,000 次点赞，成为本日互动量最高的帖子。",
-      "Anthropic 同样动作频频。Claude 官方账号宣布延长 Fable 5 的使用权限至 7 月 19 日，同时 Claude Code 的周用量限制比平时提高 50%。此前，Anthropic 已将 Fable 5 的单周用量上限调整为可使用额度的一半，超出后可选择使用积分继续或切换模型。Cat Wu（Claude Code 团队成员）转发相关公告并简短留言「Enjoy!」，该帖获得近 2,000 次点赞。两家头部公司同时在用量和成本上做出让步，折射出当前 AI 编码工具市场竞争之激烈。",
-      "在应用层面，Replit CEO Amjad Masad 提出了「Vibe Research」的概念：他在 Replit 上并行运行 3 个实验分支，对 Qwen-8b 模型进行微调以下棋。他感叹「模型做 ML 的能力已经今非昔比，以前真的很差」——这意味着有好直觉引导的人即使没有 ML 经验，也能做出有趣的实验。Sam Altman 也在征集 GPT-5.6 Sol 的最酷作品，承诺给最佳作品送出 OpenAI 档案馆的特别礼物。Vercel CEO Guillermo Rauch 则强调企业必须「把模型当作机器中的一个齿轮」——通过 AI SDK、Agent API 和 AI Gateway 三件套掌控数据、评测和模型选择，「不要外包你的大脑」。"
+      "Builder 圈今天最热的话题是「多模型编排」。Swyx 公开了他的「大男孩项目」模型栈：用 Sol Ultra 做规划、Fable 5 做审查、Sonnet 5 / Terra Ultra / SWE 1.7 做实际编码——这标志着单一模型已无法满足专业开发者的需求，「哪个模型最好」的讨论正在被「如何组合模型」取代。同一时间，Thibault Sottiaux 暗示 ChatGPT 即将突破 800 万日活用户，ChatGPT Work 功能也在持续迭代。",
+      "开放权重阵营迎来里程碑数据。Guillermo Rauch 分享 Vercel AI Gateway 的最新统计：开放权重模型在网关 token 流量中的占比从 4 月的 11% 飙升至 29%。他同时介绍了 Vercel 的实验平台——让 Agent 自主设置和调优功能实验，打造「自优化网站」。这组数据印证了一个趋势：企业级推理正在快速去中心化，不再由闭源模型独占。",
+      "应用层面，Claude Artifacts 迎来重大升级。Cat Wu 宣布「Artifacts just got an upgrade」，Thariq 补充说新版本让 Artifacts 更具表现力，可以创意性地组合使用——比如在 Claude 中创建项目仪表盘。Nikunj Kothari 则展示了用 Ramp CLI + Claude Fable 一键构建费用管理自动化工具的全过程，甚至是在开车途中用语音 prompt 一次性完成的。Ryo Lu 更是用 Cursor 构建了一套自定义电子阅读器固件，涵盖拉丁文和 CJK 排版、竖排模式等，展示了 AI 辅助硬件黑客的无限可能。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "核能如何解锁能源丰裕：Valar Atomics 创始人谈规模化核反应堆",
-    "meta": "No Priors · YouTube",
+    "title": "NVIDIA 如何构建开放前沿模型：Nemotron 负责人 Bryan Catanzaro 深度对话",
+    "meta": "The MAD Podcast with Matt Turck · YouTube",
     "paras": [
-      "Valar Atomics 创始人兼 CEO Isaiah Taylor 在犹他州 San Rafael 核设施接受了 No Priors 采访，展示了他们刚刚完成的里程碑——首次由核反应堆为 AI 芯片供电。他直言大多数核工业本质上是「建模和仿真行业」，不专注于硬件迭代和执行，而 Valar 的策略是「建造最简单、最安全的反应堆以实现规模化」。",
-      "Taylor 将核能的复兴与 SpaceX 的崛起类比：「当 SpaceX 起步时，没人相信他们能达到今天的数字。」他认为能源是一种商品，需求由价格决定——「如果你能想办法让能源更便宜，需求自然会来。」AI 算力对电力的巨大需求为核能创业提供了历史性机遇。",
-      "这期对话的核心信息是：AI 的终极瓶颈可能不在算法，而在能源。当模型越来越大、推理越来越密集，稳定、廉价、可规模化的电力供应将成为关键基础设施。Valar Atomics 选择的「硬件优先、快速迭代」路线，可能为核能行业走出一条截然不同于传统核电站的新路径。"
+      "Matt Turck 采访了 NVIDIA Nemotron 负责人 Bryan Catanzaro，深入探讨 NVIDIA 的开放模型战略。Catanzaro 开篇即抛出核心洞察：「如果你接受我们已经处于极限的事实，那获得更多智能的方式就是提高效率。」他将 AI 工具比作人类的「外部器官」——厨房是外置的胃，而现在我们正在创造外置的大脑，其影响「深远到没人真正知道」。",
+      "对话深入 Nemotron 的技术细节：4-bit 训练、混合记忆 Transformer 架构、混合专家（MoE）、多 token 预测和多教师蒸馏。Nemotron 3 Ultra 发布时立即成为美国排名第一的开放权重模型，NVIDIA 在此方向上投入了数百名 AI 研究员。Catanzaro 还分享了现代 AI 研究组织的管理哲学——如何让众多天才研究员合力构建一个模型，而不是产出 100 篇互不相关的论文。",
+      "这期对话的核心启示是：NVIDIA 正在用「效率优先」的哲学重新定义前沿模型的构建方式。当算力瓶颈倒逼创新，开放模型不仅没有落后，反而在架构设计上展现出独特的工程优势。"
     ],
-    "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4"
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT 团队成员发布周末更新：已落地推理优化并将成本回馈所有订阅用户，GPT-5.6 Sol 使用量增加约 10%。同时修复了上下文窗口扩大导致的超额计费问题，回滚至 272k。他郑重承诺「GPT-5.6 Sol 将留在你的 ChatGPT 订阅中——至少在我们发布更好的模型之前」，该帖获得超过 10,000 次点赞。",
-        "url": "https://x.com/thsottiaux/status/2076495156757577895"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "OpenAI CEO 征集 GPT-5.6 Sol 的最酷作品：「我很想看看大家用 5.6 Sol 构建了什么有趣的东西。我会给做出最酷作品的人送出 OpenAI 档案馆的一份特别礼物。」这条推文获得超过 13,000 次点赞和 2,500 条回复，引发社区大规模作品展示。",
-        "url": "https://x.com/sama/status/2076398253332140410"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "公开了他的「大男孩项目」多模型工作流：Sol Ultra 用于规划、Fable 5 用于审查、Sonnet 5 / Terra Ultra / SWE 1.7 用于实际编码。单一模型时代已过，多模型编排才是未来。",
+        "url": "https://x.com/swyx/status/2076811977918484795"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "text": "Vercel CEO 提出企业 AI 架构哲学：「把模型当作你拥有的机器中的一个齿轮。」他列出了三大支柱——AI SDK（开放模型 API）、open Agent API、AI Gateway（零数据保留推理），强调「创业公司和企业必须拥有自己的数据、评测、模型选择和软件层。不要外包你的大脑。」",
-        "url": "https://x.com/rauchg/status/2076364176252191222"
+        "text": "Vercel CEO 分享 AI Gateway 关键数据：「开放权重模型运行了 29% 的网关 token，4 月时仅为 11%」。同时介绍了实验平台功能——让 Agent 自主设置和调优功能实验，构建自优化网站。",
+        "url": "https://x.com/rauchg/status/2076713720731042174"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "Box CEO 深度分析企业 AI 转型的关键问题：「当每家公司都能访问前沿智能时，如何独特地利用它就成为关键问题。」他指出 AI 应用层仍有巨大价值待挖掘——为工作流建立评测、路由不同层级的模型、捕获可改进流程的 traces，以及确保信息价值随 AI 进步而复利增长。",
-        "url": "https://x.com/levie/status/2076338364635287637"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "Replit CEO 提出「Vibe Research」概念：用 Replit 并行运行 3 个实验分支微调 Qwen-8b 下棋模型。他感叹「模型做 ML 的能力已经今非昔比」，认为有好直觉的人即使没有 ML 经验也能做出有趣的实验，随后展示了 Replit computer use 模型与他的国际象棋引擎的对弈。",
-        "url": "https://x.com/amasad/status/2076227936202662357"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "独立 Builder 分享了一个高效工作流：「试试把会议记录当 PRD 用，效果惊人。我跟同事讨论一个功能的实现细节，把会议记录发给 Codex，它就按讨论内容构建了原型。会议本身就是 prompt。」这条推文获得 222 次点赞，展示了 AI 编码工具如何模糊「讨论」和「实现」的边界。",
-        "url": "https://x.com/zarazhangrui/status/2076300222884626754"
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "text": "Claude Code 团队成员宣布：「Artifacts 刚刚升级了！」新版本大幅提升了表现力和组合能力，用户可以在 Claude 中创建更复杂的交互式应用。",
+        "url": "https://x.com/_catwu/status/2076867882894684314"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
-        "text": "FPV Ventures 合伙人对 AI 时代的「token 最大化」热潮提出反思：「我在旧金山遇到很多人声称自己在 tokenmaxxing、有各种子 agent 在循环运行，但当我问他们在为谁构建什么时，很少有人能给出直截了当的答案。」他提醒：在这个疯狂的 AI 时代，方向和简洁性仍然极其重要。",
-        "url": "https://x.com/nikunj/status/2076458876816540144"
+        "text": "用 Ramp CLI 和 Claude Fable 构建了费用管理自动化工具，并完全开源。「开车去旧金山的路上用语音 prompt 一次性完成了构建」，展示了 AI 工具在日常场景中的惊人效率。",
+        "url": "https://x.com/nikunj/status/2076878668149002669"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "AI 教程作者观察到一个现象：「我估计 90% 以上的人在用 GPT-5.6 Sol，不到 10% 在用 Terra 或 Luna。」他还指出社区情绪转向时公司应更透明地沟通，而非退缩到更企业化的表达方式——「用更人性化的方式沟通，与社区一起搞清楚出了什么问题、如何解决。」",
-        "url": "https://x.com/petergyang/status/2076519927843000448"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "Box CEO 对 AI 结构性趋势做出判断：前沿智能将继续无阻碍地推进，行业随之扩展。最佳实践是用前沿模型做「管理者」、低成本模型做执行工作。企业面临的最大挑战是——最有价值的信息不在你的数据里，而在你的流程中。",
+        "url": "https://x.com/levie/status/2076882332821373381"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "OpenAI CEO 感叹：「看到我们的模型终于擅长设计了，还是有点让我脑子转不过来。」同时吐槽了 AI 服务中的「静默降级」现象——「硬问题很好，但前提是我们认为你值得被不降级地对待」。",
+        "url": "https://x.com/sama/status/2076823209589313910"
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "text": "用 Cursor 构建了一套自定义电子阅读器固件，支持精美的拉丁文和 CJK 排版、竖排模式和智能换行。「硬件黑客很好玩！」展示了 AI 编码工具从软件延伸到嵌入式开发的可能。",
+        "url": "https://x.com/ryolu_/status/2076713331113734641"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "text": "YC 总裁简短而有力地宣告：「绅士科学家时代回来了。」——AI 让个人研究者再次拥有与大型实验室竞争的能力。",
+        "url": "https://x.com/garrytan/status/2076587412516421945"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "",
-    "meta": "",
-    "paras": []
+    "title": "用 Claude Foundation Models 框架构建 Apple 平台智能应用",
+    "meta": "Claude Blog · 2026-06-08",
+    "paras": [
+      "Anthropic 发布了新的 Swift 包，让 Apple 开发者可以通过 Foundation Models 框架调用 Claude。开发者只需三行代码即可在 Swift 中获得类型化返回值，结合 Apple 设备端模型和 Claude 云端能力，构建更复杂的智能工作流。",
+      "这篇文章标志着 Claude 正式进入 Apple 生态系统的核心开发链路。Foundation Models 框架为 Apple 开发者提供了原生的模型调用能力，而 Claude 的加入让这些应用可以处理远超设备端模型能力的复杂任务。对于 iOS 和 macOS 开发者来说，这意味着「AI 功能」不再是第三方 SDK 的专属，而是平台级的一等公民。"
+    ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "15 builders · 30 tweets · 1 podcast · 0 blogs",
-    "generatedAt": "2026-07-14T10:00:00+08:00"
+    "coverage": "16 builders · 38 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-07-15T10:00:00+08:00"
   }
 }
