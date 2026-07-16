@@ -1,96 +1,96 @@
 {
   "issue": {
-    "vol": "Vol.196",
-    "date": "2026年7月15日",
-    "weekday": "星期三",
-    "dateISO": "2026-07-15",
-    "tagline": "Swyx 公开多模型协作工作流；Vercel AI Gateway 开放权重模型占比飙升至 29%；Claude Artifacts 升级表现力大增"
+    "vol": "Vol.197",
+    "date": "2026年7月16日",
+    "weekday": "星期四",
+    "dateISO": "2026-07-16",
+    "tagline": "GPT-5.6 Sol 增长疯狂逼近 900 万日活；Anthropic 平台战略曝光协调层蓝图；Claude for Teachers 正式进军 K-12 教育"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "多模型编排成新常态；开放权重逆袭网关流量；Artifacts 进化为创意画布",
+    "title": "Sol 增长引爆算力危机；Anthropic 揭示平台三层架构；AI 教育赛道开战",
     "paras": [
-      "Builder 圈今天最热的话题是「多模型编排」。Swyx 公开了他的「大男孩项目」模型栈：用 Sol Ultra 做规划、Fable 5 做审查、Sonnet 5 / Terra Ultra / SWE 1.7 做实际编码——这标志着单一模型已无法满足专业开发者的需求，「哪个模型最好」的讨论正在被「如何组合模型」取代。同一时间，Thibault Sottiaux 暗示 ChatGPT 即将突破 800 万日活用户，ChatGPT Work 功能也在持续迭代。",
-      "开放权重阵营迎来里程碑数据。Guillermo Rauch 分享 Vercel AI Gateway 的最新统计：开放权重模型在网关 token 流量中的占比从 4 月的 11% 飙升至 29%。他同时介绍了 Vercel 的实验平台——让 Agent 自主设置和调优功能实验，打造「自优化网站」。这组数据印证了一个趋势：企业级推理正在快速去中心化，不再由闭源模型独占。",
-      "应用层面，Claude Artifacts 迎来重大升级。Cat Wu 宣布「Artifacts just got an upgrade」，Thariq 补充说新版本让 Artifacts 更具表现力，可以创意性地组合使用——比如在 Claude 中创建项目仪表盘。Nikunj Kothari 则展示了用 Ramp CLI + Claude Fable 一键构建费用管理自动化工具的全过程，甚至是在开车途中用语音 prompt 一次性完成的。Ryo Lu 更是用 Cursor 构建了一套自定义电子阅读器固件，涵盖拉丁文和 CJK 排版、竖排模式等，展示了 AI 辅助硬件黑客的无限可能。"
+      "OpenAI 的 GPT-5.6 Sol 正在经历一场「疯狂增长」。Sam Altman 亲自发文感叹：「推理团队做了英雄般的工作来支撑需求」，但同时警告「可能会有些颠簸」。Thibault Sottiaux 更是直接抛出数据——ChatGPT Work 和 Codex 即将突破 900 万用户，并发起投票询问是否应该重置用量上限。与此同时，OpenAI 推出了 $100 Codex 积分活动，邀请用户分享对 GPT-5.6 Sol 的使用体验。这一系列动作表明：Sol 已经成为 OpenAI 历史上增长最快的产品，算力供给正面临前所未有的压力。",
+      "Anthropic 的平台战略在最新一期 Training Data 播客中首次完整曝光。平台负责人 Katelyn Lesse 和 Angela Jiang 揭示了一个三层抽象架构：底层是执行层（Execution），中间是知识层（Knowledge），顶层是即将重点投入的协调层（Coordination）。Angela 解释道：「如果 token 并非完全可互换——比如这个 token 在做建议、那个 token 在做执行——你就需要组合这些编排策略。」这与 Swyx 此前公开的多模型编排工作流不谋而合，暗示整个行业正在从「单一模型」向「策略编排」范式迁移。",
+      "应用层面，Anthropic 官方宣布 Claude for Teachers 正式上线，面向 K-12 教育场景。该产品从州级课程标准出发，通过 Learning Commons 连接高质量课程资源，自动生成教案和学生材料。隐私方面严格遵守 FERPA 合规要求，承诺不使用对话数据训练模型。Aaron Levie 则从更宏观的视角指出：代码之所以特别适合 Agent，是因为它「可以快速测试」——而大多数其他工作领域缺乏这种即时反馈机制，「企业需要为工作流建立更好的 eval 体系」。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "NVIDIA 如何构建开放前沿模型：Nemotron 负责人 Bryan Catanzaro 深度对话",
-    "meta": "The MAD Podcast with Matt Turck · YouTube",
+    "title": "Anthropic 平台负责人：我们构建的是生态，不是围墙花园",
+    "meta": "Training Data · YouTube · 2026-07-14",
     "paras": [
-      "Matt Turck 采访了 NVIDIA Nemotron 负责人 Bryan Catanzaro，深入探讨 NVIDIA 的开放模型战略。Catanzaro 开篇即抛出核心洞察：「如果你接受我们已经处于极限的事实，那获得更多智能的方式就是提高效率。」他将 AI 工具比作人类的「外部器官」——厨房是外置的胃，而现在我们正在创造外置的大脑，其影响「深远到没人真正知道」。",
-      "对话深入 Nemotron 的技术细节：4-bit 训练、混合记忆 Transformer 架构、混合专家（MoE）、多 token 预测和多教师蒸馏。Nemotron 3 Ultra 发布时立即成为美国排名第一的开放权重模型，NVIDIA 在此方向上投入了数百名 AI 研究员。Catanzaro 还分享了现代 AI 研究组织的管理哲学——如何让众多天才研究员合力构建一个模型，而不是产出 100 篇互不相关的论文。",
-      "这期对话的核心启示是：NVIDIA 正在用「效率优先」的哲学重新定义前沿模型的构建方式。当算力瓶颈倒逼创新，开放模型不仅没有落后，反而在架构设计上展现出独特的工程优势。"
+      "Training Data 主持人 Lauren 和 Patrick 采访了 Anthropic 平台负责人 Katelyn Lesse 和 Angela Jiang，深入拆解了 Anthropic 的平台战略。Angela 开篇即抛出核心框架：「在执行层和知识层之上，还有一个协调层。」她将协调层比作「元 harness」——底层 harness 为执行而设计，而上层则解决「如何让不同 token 承担不同角色」的问题。",
+      "Angela 透露了 Anthropic 的演进路线：「你会看到我们从执行层逐步向协调层迁移，推出越来越多的抽象工具。」Katelyn 则强调了 Anthropic 的生态哲学——「我们构建的是生态系统，而不是围墙花园」，这意味着 Claude 的能力将通过平台层开放给整个开发者社区，而非封闭在自家产品中。",
+      "这期对话的核心启示是：AI 平台竞争正在从「谁的模型更强」转向「谁的编排层更灵活」。当 token 变得不再是通用燃料而是需要分配角色的「专家」，平台的价值就体现在如何让开发者高效地组合这些专家——这正是 Anthropic 下一阶段的战略重心。"
     ],
-    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+    "url": "https://www.youtube.com/watch?v=vPnVTHYplrQ"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "公开了他的「大男孩项目」多模型工作流：Sol Ultra 用于规划、Fable 5 用于审查、Sonnet 5 / Terra Ultra / SWE 1.7 用于实际编码。单一模型时代已过，多模型编排才是未来。",
-        "url": "https://x.com/swyx/status/2076811977918484795"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "「GPT-5.6 Sol 的增长简直疯狂。推理团队做了英雄般的工作来支撑需求。我们会继续拼命扩容，但短期内可能会有些颠簸。」——Sol 正在成为 OpenAI 历史上增长最快的产品。",
+        "url": "https://x.com/sama/status/2077106587307798989"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel CEO 分享 AI Gateway 关键数据：「开放权重模型运行了 29% 的网关 token，4 月时仅为 11%」。同时介绍了实验平台功能——让 Agent 自主设置和调优功能实验，构建自优化网站。",
-        "url": "https://x.com/rauchg/status/2076713720731042174"
-      },
-      {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "text": "Claude Code 团队成员宣布：「Artifacts 刚刚升级了！」新版本大幅提升了表现力和组合能力，用户可以在 Claude 中创建更复杂的交互式应用。",
-        "url": "https://x.com/_catwu/status/2076867882894684314"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "用 Ramp CLI 和 Claude Fable 构建了费用管理自动化工具，并完全开源。「开车去旧金山的路上用语音 prompt 一次性完成了构建」，展示了 AI 工具在日常场景中的惊人效率。",
-        "url": "https://x.com/nikunj/status/2076878668149002669"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "OpenAI Codex 和 ChatGPT Work 负责人发起投票：「看起来我们可能很快突破 900 万用户。要不要重置 ChatGPT Work 和 Codex 的用量？」同时推出 $100 Codex 积分活动，邀请用户分享对 GPT-5.6 Sol 的喜爱理由。",
+        "url": "https://x.com/thsottiaux/status/2077271889626706300"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "Box CEO 对 AI 结构性趋势做出判断：前沿智能将继续无阻碍地推进，行业随之扩展。最佳实践是用前沿模型做「管理者」、低成本模型做执行工作。企业面临的最大挑战是——最有价值的信息不在你的数据里，而在你的流程中。",
-        "url": "https://x.com/levie/status/2076882332821373381"
+        "text": "Box CEO 深度分析 Agent 适用性：「代码之所以特别适合 Agent，是因为你可以快速测试它——手动验证或跑测试。但大多数工作领域没有这个优势，你只能等到最终产品进入真实世界。」他认为企业面临的最大挑战是为知识工作建立 eval 体系，「能做好 eval 的企业将从 AI 中获益最多」。",
+        "url": "https://x.com/levie/status/207720148546745553"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "OpenAI CEO 感叹：「看到我们的模型终于擅长设计了，还是有点让我脑子转不过来。」同时吐槽了 AI 服务中的「静默降级」现象——「硬问题很好，但前提是我们认为你值得被不降级地对待」。",
-        "url": "https://x.com/sama/status/2076823209589313910"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 开放了 AI Gateway 的 token 流量数据集，并展示了数据分析成果。同时推广 AgentMail 集成——「告诉你的 Agent 运行 vercel install agentmail，无需注册，自动配置，统一计费」。",
+        "url": "https://x.com/rauchg/status/2077176141790752798"
       },
       {
         "name": "Ryo Lu",
         "handle": "ryolu_",
-        "text": "用 Cursor 构建了一套自定义电子阅读器固件，支持精美的拉丁文和 CJK 排版、竖排模式和智能换行。「硬件黑客很好玩！」展示了 AI 编码工具从软件延伸到嵌入式开发的可能。",
-        "url": "https://x.com/ryolu_/status/2076713331113734641"
+        "text": "Cursor 设计负责人写下一篇关于「当梦想变成工作」的深度反思：「当机器也开始擅长你引以为傲的工作，那触及的是你围绕自己构建的神话。」但他最终回到初心——「在所有头衔、公司、品味成为角色之前，内心有一团小火苗：好奇心」。AI 时代，创造的本质不是产出，而是那份原始的好奇。",
+        "url": "https://x.com/ryolu_/status/2077162119506833627"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "YC 总裁简短而有力地宣告：「绅士科学家时代回来了。」——AI 让个人研究者再次拥有与大型实验室竞争的能力。",
-        "url": "https://x.com/garrytan/status/2076587412516421945"
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "Claude Code 团队成员展示了用 Claude Code 辅助 Pokemon Champions 对战的工作流：调用 Smogon 的 npm 库获取实时使用数据，分析对战匹配和断点，甚至编写了团队分析报告。AI 编程工具正在渗透到意想不到的场景。",
+        "url": "https://x.com/trq212/status/2077051280267399550"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "text": "Every CEO 分享了 Codex Desktop 应用上线的用户反馈数据，并得意地表示：「如果你关注 Every，你 6 个月前就知道 Codex 要起飞了」——回顾了他们最早开始报道 Codex 的时间节点。",
+        "url": "https://x.com/danshipper/status/2077196636971815135"
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "text": "Anthropic 官方宣布 Claude for Teachers 上线：面向 K-12 教师，从州级课程标准出发自动生成教案和学生材料。严格遵守 FERPA 合规要求，承诺不使用对话数据训练模型。AI 教育赛道正式开战。",
+        "url": "https://x.com/claudeai/status/2077047279689535705"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "用 Claude Foundation Models 框架构建 Apple 平台智能应用",
-    "meta": "Claude Blog · 2026-06-08",
+    "title": "Claude for Teachers：面向 K-12 教育的 AI 助手正式上线",
+    "meta": "Claude Blog · 2026-07-14",
     "paras": [
-      "Anthropic 发布了新的 Swift 包，让 Apple 开发者可以通过 Foundation Models 框架调用 Claude。开发者只需三行代码即可在 Swift 中获得类型化返回值，结合 Apple 设备端模型和 Claude 云端能力，构建更复杂的智能工作流。",
-      "这篇文章标志着 Claude 正式进入 Apple 生态系统的核心开发链路。Foundation Models 框架为 Apple 开发者提供了原生的模型调用能力，而 Claude 的加入让这些应用可以处理远超设备端模型能力的复杂任务。对于 iOS 和 macOS 开发者来说，这意味着「AI 功能」不再是第三方 SDK 的专属，而是平台级的一等公民。"
+      "Anthropic 发布 Claude for Teachers，正式进军 K-12 教育市场。该产品通过 Learning Commons 连接各州课程标准和高质量课程资源，教师只需描述需求，Claude 即可从标准出发生成完整教案和学生材料，供教师修改后带入课堂。",
+      "隐私保护是这款产品的核心卖点。Anthropic 承诺绝不使用教师对话数据训练模型，学生信息受到专门的数据处理协议保护，完全符合美国 FERPA（家庭教育权利和隐私法案）要求。这标志着 Anthropic 在教育领域的合规策略——用隐私合规作为差异化竞争优势，而非仅仅把 AI 塞进教室。"
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 builders · 38 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-07-15T10:00:00+08:00"
+    "coverage": "15 builders · 39 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-07-16T10:00:00+08:00"
   }
 }
