@@ -1,96 +1,96 @@
 {
   "issue": {
-    "vol": "Vol.197",
-    "date": "2026年7月16日",
+    "vol": "Vol.198",
+    "date": "2026年7月17日",
     "weekday": "星期四",
-    "dateISO": "2026-07-16",
-    "tagline": "GPT-5.6 Sol 增长疯狂逼近 900 万日活；Anthropic 平台战略曝光协调层蓝图；Claude for Teachers 正式进军 K-12 教育"
+    "dateISO": "2026-07-17",
+    "tagline": "Claude Code 核心工程师长文引爆 7000+ 赞；OpenAI Codex 取消 5 小时限制并回应文件误删；Gemini Spark 全球扩展东南亚用户翻倍"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sol 增长引爆算力危机；Anthropic 揭示平台三层架构；AI 教育赛道开战",
+    "title": "自动化是 Agent 时代最高杠杆；Codex 迎来重大调整；Gemini 东南亚爆发",
     "paras": [
-      "OpenAI 的 GPT-5.6 Sol 正在经历一场「疯狂增长」。Sam Altman 亲自发文感叹：「推理团队做了英雄般的工作来支撑需求」，但同时警告「可能会有些颠簸」。Thibault Sottiaux 更是直接抛出数据——ChatGPT Work 和 Codex 即将突破 900 万用户，并发起投票询问是否应该重置用量上限。与此同时，OpenAI 推出了 $100 Codex 积分活动，邀请用户分享对 GPT-5.6 Sol 的使用体验。这一系列动作表明：Sol 已经成为 OpenAI 历史上增长最快的产品，算力供给正面临前所未有的压力。",
-      "Anthropic 的平台战略在最新一期 Training Data 播客中首次完整曝光。平台负责人 Katelyn Lesse 和 Angela Jiang 揭示了一个三层抽象架构：底层是执行层（Execution），中间是知识层（Knowledge），顶层是即将重点投入的协调层（Coordination）。Angela 解释道：「如果 token 并非完全可互换——比如这个 token 在做建议、那个 token 在做执行——你就需要组合这些编排策略。」这与 Swyx 此前公开的多模型编排工作流不谋而合，暗示整个行业正在从「单一模型」向「策略编排」范式迁移。",
-      "应用层面，Anthropic 官方宣布 Claude for Teachers 正式上线，面向 K-12 教育场景。该产品从州级课程标准出发，通过 Learning Commons 连接高质量课程资源，自动生成教案和学生材料。隐私方面严格遵守 FERPA 合规要求，承诺不使用对话数据训练模型。Aaron Levie 则从更宏观的视角指出：代码之所以特别适合 Agent，是因为它「可以快速测试」——而大多数其他工作领域缺乏这种即时反馈机制，「企业需要为工作流建立更好的 eval 体系」。"
+      "Anthropic Claude Code 核心工程师 Boris Cherny 发布了一篇深度长文，阐述在 AI Agent 时代「自动化」为何比以往任何时候都更重要。他指出三层逻辑：第一，DevX 自动化直接提速，而当你的 Agent 军团运行时，每个 Agent 都会受益；第二，将问题编码为 lint 规则或 CI 步骤，比让 Agent 每次临时修复更高效——「这正是人们所说的 loop，本质是自动化整类重复劳动」；第三，也是最重要的——自动化让新人和非工程师也能在第一天贡献代码。这条推文获得超过 7200 个赞，引发了整个开发者社区对「Agent 时代工程师角色重新定义」的广泛讨论。",
+      "OpenAI Codex 负责人 Thibault Sottiaux 连发三条重磅推文。首先是 Codex Plus 和 Pro 已取消 5 小时使用限制，正在征集用户反馈优化周额度方案。其次，他首次公开回应 GPT-5.6 文件误删事件：问题主要发生在全权限模式下、未启用沙箱保护时，模型试图覆盖 $HOME 环境变量定义临时目录时出错。OpenAI 正在更新开发者消息、引导用户使用更安全的权限模式，并将发布详细事后分析。第三条推文则抛出一个有趣的问题：「既然已经合并了 ChatGPT 和 Codex，下一步该合并什么？」获得 1594 个赞和 1144 条回复。",
+      "Google VP Josh Woodward 宣布 Gemini Spark 四项新功能：支持打开和编辑 Google Docs、读取 Sheets 和 Slides 评论、速度提升 50% 以上、支持多源并行处理。同时发布的首份 Gemini 东南亚报告显示：过去一年活跃用户翻倍，70% 的提示词使用本地语言，40% 仅使用语音、图片或视频输入——多模态能力和本地化正在驱动增长。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Anthropic 平台负责人：我们构建的是生态，不是围墙花园",
-    "meta": "Training Data · YouTube · 2026-07-14",
+    "title": "15 亿美元 AI 公司创始人：会议记录不是终局，真正的大戏才刚开始",
+    "meta": "AI & I by Every · YouTube · 2026-07-15",
     "paras": [
-      "Training Data 主持人 Lauren 和 Patrick 采访了 Anthropic 平台负责人 Katelyn Lesse 和 Angela Jiang，深入拆解了 Anthropic 的平台战略。Angela 开篇即抛出核心框架：「在执行层和知识层之上，还有一个协调层。」她将协调层比作「元 harness」——底层 harness 为执行而设计，而上层则解决「如何让不同 token 承担不同角色」的问题。",
-      "Angela 透露了 Anthropic 的演进路线：「你会看到我们从执行层逐步向协调层迁移，推出越来越多的抽象工具。」Katelyn 则强调了 Anthropic 的生态哲学——「我们构建的是生态系统，而不是围墙花园」，这意味着 Claude 的能力将通过平台层开放给整个开发者社区，而非封闭在自家产品中。",
-      "这期对话的核心启示是：AI 平台竞争正在从「谁的模型更强」转向「谁的编排层更灵活」。当 token 变得不再是通用燃料而是需要分配角色的「专家」，平台的价值就体现在如何让开发者高效地组合这些专家——这正是 Anthropic 下一阶段的战略重心。"
+      "Every CEO Dan Shipper 采访了 Granola 联合创始人兼 CEO Chris Pedregal。Granola 是这波 AI 应用浪潮中最先实现近乎「全民采用」的产品之一，估值已达 15 亿美元，团队约 55 人。但 Chris 坦言：「会议记录从来不是我们追求的终极价值，真正的大得多的东西即将到来。」",
+      "Chris 分享了一个反直觉的竞争观：三家大公司克隆了 Granola 的核心功能，但他认为会议记录从来不是真正的奖赏——「易来易去」是他对自己和竞争对手领先优势的态度。Granola 真正押注的是「自带 Agent」战略，Chris 透露其 API 和 MCP 在未来几个月将「大幅改进」。",
+      "关于如何在 AI 时代构建产品，Chris 提出了「扶手哲学」——为用户提供恰到好处的引导。Granola 会预生成数百万份会前简报，包含会议性质和参与者背景信息，大多数人不会打开，但打开的人会获得「魔法般的体验」。这期对话的核心信息是：AI 应用层的真正战场不是功能复制，而是谁能拥有 AI 原生世界中人们完成工作的界面。"
     ],
-    "url": "https://www.youtube.com/watch?v=vPnVTHYplrQ"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "「GPT-5.6 Sol 的增长简直疯狂。推理团队做了英雄般的工作来支撑需求。我们会继续拼命扩容，但短期内可能会有些颠簸。」——Sol 正在成为 OpenAI 历史上增长最快的产品。",
-        "url": "https://x.com/sama/status/2077106587307798989"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "text": "Claude Code 核心工程师深度思考 Agent 时代的自动化：「过去最好的工程师花大量时间自动化自己的工作——更好的 vim 配置、lint 规则、端到端测试。这些曾是工程师能做的最高杠杆活动。如今自动化更重要了三倍：DevX 自动化让 Agent 军团提速；将问题编码为 lint 规则比临时修复更高效；最重要的是，自动化让新人第一天就能贡献代码——以前需要花数周学习的领域知识，现在可以编码进基础设施。」",
+        "url": "https://x.com/bcherny/status/2077460395279692197"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT Work 负责人发起投票：「看起来我们可能很快突破 900 万用户。要不要重置 ChatGPT Work 和 Codex 的用量？」同时推出 $100 Codex 积分活动，邀请用户分享对 GPT-5.6 Sol 的喜爱理由。",
-        "url": "https://x.com/thsottiaux/status/2077271889626706300"
+        "text": "OpenAI Codex 负责人宣布重大调整：「Codex Plus 和 Pro 已取消 5 小时使用限制。你觉得这样更好，还是发现周额度更难管理了？」同时首次公开回应 GPT-5.6 文件误删事件，承认全权限模式下存在风险，正引导用户使用更安全的权限模式。他还抛出灵魂拷问：「ChatGPT 和 Codex 已经合并了，下一步该合并什么？」",
+        "url": "https://x.com/thsottiaux/status/2077632589498913087"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "Box CEO 深度分析 Agent 适用性：「代码之所以特别适合 Agent，是因为你可以快速测试它——手动验证或跑测试。但大多数工作领域没有这个优势，你只能等到最终产品进入真实世界。」他认为企业面临的最大挑战是为知识工作建立 eval 体系，「能做好 eval 的企业将从 AI 中获益最多」。",
-        "url": "https://x.com/levie/status/207720148546745553"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "为 Computer Use Agent (CUA) 正名：「如果你像我们一样高强度使用这些工具，CUA 的进步速度快得惊人。我已经要求非技术团队尽可能多地使用 CUA 处理所有知识工作。如果你还在点头认同某个低估 CUA 的观点，你已经严重落伍了——低估能力是一个危险的认知错误。」GPT 5.6 + Superapp 的 CUA 能力已超越此前所有方案。",
+        "url": "https://x.com/swyx/status/2077475285205958771"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel CEO 开放了 AI Gateway 的 token 流量数据集，并展示了数据分析成果。同时推广 AgentMail 集成——「告诉你的 Agent 运行 vercel install agentmail，无需注册，自动配置，统一计费」。",
-        "url": "https://x.com/rauchg/status/2077176141790752798"
-      },
-      {
-        "name": "Ryo Lu",
-        "handle": "ryolu_",
-        "text": "Cursor 设计负责人写下一篇关于「当梦想变成工作」的深度反思：「当机器也开始擅长你引以为傲的工作，那触及的是你围绕自己构建的神话。」但他最终回到初心——「在所有头衔、公司、品味成为角色之前，内心有一团小火苗：好奇心」。AI 时代，创造的本质不是产出，而是那份原始的好奇。",
-        "url": "https://x.com/ryolu_/status/2077162119506833627"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "text": "Google VP 宣布 Gemini Spark 四项更新：可打开编辑 Google Docs、读取 Sheets 和 Slides 评论、速度提升 50%+、支持多源并行处理。同时发布首份东南亚报告：过去一年活跃用户翻倍，70% 提示词用本地语言，40% 仅用语音/图片/视频输入。Pro 用户即将获得访问权限。",
+        "url": "https://x.com/joshwoodward/status/2077471111240204457"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
-        "text": "Claude Code 团队成员展示了用 Claude Code 辅助 Pokemon Champions 对战的工作流：调用 Smogon 的 npm 库获取实时使用数据，分析对战匹配和断点，甚至编写了团队分析报告。AI 编程工具正在渗透到意想不到的场景。",
-        "url": "https://x.com/trq212/status/2077051280267399550"
+        "text": "Claude Code 团队成员提出理想 prompt 技术公式：「薄 prompt + 厚制品/上下文 + 薄技能」。这条推文获得 2754 个赞。他还引用 Boris Cherny 的自动化长文补充道：「软件工程就是自动化的专业」——简洁有力地概括了 Agent 时代工程师的本质。",
+        "url": "https://x.com/trq212/status/2077539537992229076"
       },
       {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "text": "Every CEO 分享了 Codex Desktop 应用上线的用户反馈数据，并得意地表示：「如果你关注 Every，你 6 个月前就知道 Codex 要起飞了」——回顾了他们最早开始报道 Codex 的时间节点。",
-        "url": "https://x.com/danshipper/status/2077196636971815135"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "产品专家直言 OpenAI 最大的错失机会：「ChatGPT Live 和 Codex 是两个互不沟通的惊人产品。」他描述了一个场景：用 ChatGPT Live 语音请求打开 Google Doc 被拒，手动触发 Documents 插件后突然就有了上下文。「为什么要构建这么好的语音助手，却让它什么都做不了？」",
+        "url": "https://x.com/petergyang/status/2077572198655754583"
       },
       {
-        "name": "Claude",
-        "handle": "claudeai",
-        "text": "Anthropic 官方宣布 Claude for Teachers 上线：面向 K-12 教师，从州级课程标准出发自动生成教案和学生材料。严格遵守 FERPA 合规要求，承诺不使用对话数据训练模型。AI 教育赛道正式开战。",
-        "url": "https://x.com/claudeai/status/2077047279689535705"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "Box CEO 晚宴后分享企业 Agent 落地洞察：变更管理仍是最大挑战；IT 团队正将工程师嵌入业务部门实施 Agent（内部 FDE 模式）；跨职能工作流的权限和数据建模问题远比想象复杂；编程预算远高于非编程知识工作；越来越多公司构建自己的多模型路由系统。「AI 将影响所有知识工作，IT 正成为公司最核心的角色。」",
+        "url": "https://x.com/levie/status/2077526010753581156"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "Builder 分享非传统编程视角：「因为我从未以传统方式学过编程，使用编码 Agent 纯粹是创造力和自我表达的行为。GitHub 基本上就是我的 Substack。」她还指出 Shopify 的 Agent 集成经验：如果你想让 Agent 在公司里真正工作，你必须把公司设计成 Agent 可读的——只用公开频道的副作用是促进了同伴学习。",
+        "url": "https://x.com/zarazhangrui/status/2077388091044635010"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude for Teachers：面向 K-12 教育的 AI 助手正式上线",
-    "meta": "Claude Blog · 2026-07-14",
+    "title": "Claude Code 现在支持 Artifacts：工作成果变成可分享的实时页面",
+    "meta": "Claude Blog · 2026-06-18",
     "paras": [
-      "Anthropic 发布 Claude for Teachers，正式进军 K-12 教育市场。该产品通过 Learning Commons 连接各州课程标准和高质量课程资源，教师只需描述需求，Claude 即可从标准出发生成完整教案和学生材料，供教师修改后带入课堂。",
-      "隐私保护是这款产品的核心卖点。Anthropic 承诺绝不使用教师对话数据训练模型，学生信息受到专门的数据处理协议保护，完全符合美国 FERPA（家庭教育权利和隐私法案）要求。这标志着 Anthropic 在教育领域的合规策略——用隐私合规作为差异化竞争优势，而非仅仅把 AI 塞进教室。"
+      "Anthropic 宣布 Claude Code 支持 Artifacts 功能，可以将工作进度捕获为实时、可分享的可视化页面——包括 PR 演示、系统讲解、仪表盘和发布检查清单，且会随着会话推进自动更新。一次 Claude Code 会话可以从事故调查到服务重构再到数据分析，Artifacts 将这些工作转化为任何人都能打开探索的网页。",
+      "核心特性包括：基于会话完整上下文（代码库、连接器、对话本身）构建页面；更新时已打开的页面原地刷新，队友实时看到变化；每次发布都是同一链接的新版本，支持版本历史和画廊浏览。内部测试中最常见的用例是调试——工程师启动事故调查，Claude Code 分析日志后发布一个包含时间线、可疑提交和错误率图表的 Artifact，分享链接即可让团队同步进度。"
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "15 builders · 39 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-07-16T10:00:00+08:00"
+    "coverage": "18 builders · 40 tweets · 1 podcast · 1 blog",
+    "generatedAt": "2026-07-17T10:00:00+08:00"
   }
 }
