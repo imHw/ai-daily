@@ -1,97 +1,96 @@
 {
   "issue": {
-    "vol": "Vol.199",
-    "date": "2026年7月18日",
-    "weekday": "星期六",
-    "dateISO": "2026-07-18",
-    "tagline": "Kimi K3 开放模型首次登顶 Web 工程基准超越所有闭源模型；NotebookLM 正式更名为 Gemini Notebook 用户破 3000 万；Anthropic 深度拆解如何控制 Agent 爆炸半径"
+    "vol": "Vol.200",
+    "date": "2026年7月19日",
+    "weekday": "星期日",
+    "dateISO": "2026-07-19",
+    "tagline": "Claude Fable 5 明日全面开放订阅计划；GPT-5.6 Sol 获极高评价；OpenAI 重置付费用户用量限制"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "开放模型里程碑：Kimi K3 首次在 Web 工程基准超越所有闭源模型；Google NotebookLM 更名 Gemini Notebook",
+    "title": "Claude Fable 5 明日起纳入所有订阅计划；GPT-5.6 Sol 被确认为极优模型；OpenAI 紧急重置用量限制",
     "paras": [
-      "Moonshot 的 Kimi K3 在 v0 Web 工程基准测试中登顶，超越 Fable 等所有闭源模型——这是开放模型首次在该综合评测中领先。Vercel CEO Guillermo Rauch 率先公布结果：Kimi K3 以更少的时间达到更高的成功率，峰值 92%（96% 带辅助），目前尚无模型达到 100%。Rauch 同时提醒「基准不等于全貌，但这为开放模型突破的证据再加一枚砝码」。Box CEO Aaron Levie 评论称「开放模型达到这种性能水平令人震惊，每次前沿智能成本下降，企业可部署的用例就会大幅增加」。前 Dropbox CTO Aditya Agarwal 更是直接行动：「我正在把系统从 Fable 迁移出来——如果有好的免费替代品，为什么要付高价？」",
-      "Google VP Josh Woodward 宣布 NotebookLM 正式更名为 Gemini Notebook。这个从 Project Tailwind 实验项目成长起来的产品，如今已拥有超过 3000 万用户和 60 万组织。「我还记得那个房间，看着 Steven Johnson 拆解他如何写书，那就是这个小项目的火花。」Woodward 写道。Google Labs 转发庆祝：「谁还记得 Project Tailwind 只是一个小小的 Labs 实验？」这次更名标志着 Google AI 产品线的进一步整合。",
-      "OpenAI ChatGPT 桌面端负责人 Thibault Sottiaux 宣布三项重要更新：ChatGPT 对话历史和项目现在可在侧边栏查看；Chat 和 Work 模式现在在桌面端可轻松切换，且与 Web 和移动端保持一致；聊天和工作历史现在跨 Web、移动端和桌面端同步（本地任务仍保留在本机）。Codex 模式不变。同时他还发布了一段 Codex 桌面端的性能演示视频，获得 700+ 赞。"
+      "Anthropic 官方账号宣布：自 7 月 20 日起，Claude Fable 5 将以 50% 用量上限纳入所有 Max 和 Team Premium 订阅计划。Pro 和 Team Standard 用户将继续通过用量积分使用 Fable，并获得一次性 $100 积分补偿。Anthropic 坦言「Fable 的需求难以预测」，因此采用分阶段开放策略，随着容量扩充多次延长访问权限。这条推文获得超 2.8 万赞，是本周最热 AI 动态之一。",
+      "与此同时，OpenAI Codex 和 ChatGPT 负责人 Thibault Sottiaux 确认 GPT-5.6 Sol 为「极优模型」，并随即宣布为所有 Codex 和 ChatGPT Work 付费用户重置用量限制。他写道：「又来了……享受吧，周末愉快！」这条推文获超 9000 赞。此前他还补充称「可能也重置了其他速率限制，待观察。」——两大巨头同步释放容量信号，AI 基础设施竞赛正在加速。",
+      "在应用层，AI Agent 的交互范式正在悄然转变。Claude Code 工程师 Thariq 指出「先构建原型再投入大量 token」是避免浪费的最佳策略；OpenClaw 创始人 Peter Steinberger 则展示了 Codex 通过浏览器操控上传图片到 GitHub PR 的场景，感叹「既神奇又痛苦」；Peter Yang 则表达了对语音 Agent 的期待：「在户外边走边用语音指挥 Agent 工作、接收状态更新——第一个实现这个的实验室会赢。」"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "顶级 AI 分析师拆解当下 AI 炒作周期",
-    "meta": "Unsupervised Learning by Redpoint · YouTube · 2026-07-16",
+    "title": "OpenAI 算力负责人：我们的建设速度远远不够",
+    "meta": "The MAD Podcast with Matt Turck · YouTube · 2026-07-16",
     "paras": [
-      "Redpoint 合伙人 Jacob Efron 采访了科技分析师 Benedict Evans，深入讨论了 AI 价值将在哪里积累、基础模型的最终估值可能是什么样子、为什么消费级 AI 应用目前还不太奏效，以及能力的参差不齐对企业采用的影响。",
-      "Evans 对 AI 取代就业的论述提出了犀利反驳：「Geoff Hinton 十年前就说停止培养放射科医生了——问题是他根本不了解放射科医生实际做什么。」他将 AI 比作电力：「你可以挥挥手说这就像电力。好吧，那电力时代之前的人也不笨。」关于基础模型公司的估值，Evans 表达了对 Sam Altman 的同情，暗示估值叙事比表面看起来更复杂。",
-      "核心洞察是：AI 的「参差能力边界」——某些任务上表现惊人，另一些任务上完全失败——才是理解企业采用节奏的关键。消费级 AI 应用之所以还没有真正跑通，正是因为这条边界还不够平滑。"
+      "Matt Turck 采访了 OpenAI 工业算力负责人 Sachin Katti——这可能是当下科技界最令人瞩目的职位之一。Katti 曾是斯坦福教授、多次创业者，最近担任英特尔 CTO，如今领导着人类历史上最大规模的基础设施建设。",
+      "Katti 的核心观点是：「每当你以为算力够了想放慢节奏，结果总是令人后悔——我们不应该放慢。」他透露需求远远超过算力供应，任何上线的算力都会被立即消耗。关于 AI 递归设计，他表示「AI 设计自己所需的训练和推理系统的那一天并不遥远」。节目还深入讨论了液冷超级计算机、电网约束、核能微电网的潜力，以及 OpenAI 自研芯片 Jalapeno 的进展。"
     ],
-    "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w"
+    "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel CEO 公布重大基准结果：「Kimi K3 在 v0 Web 工程基准上排名第一，超越 Fable，以更少时间达到可比成功率。这是开放模型首次在该综合 Web 工程评测中领先所有闭源模型。」目前最高表现者峰值 92%，尚无模型达到 100%。Rauch 同时透露 Vercel 迎来了两位传奇开发者工具人才：React 先驱 Pete Hunt 将领导 Next.js，GraphQL 联合发明者 Nick Schrock 将负责 Agentic 开发者体验。",
-        "url": "https://x.com/rauchg/status/2077900518404321759"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "OpenAI Codex 和 ChatGPT 负责人确认 GPT-5.6 Sol 为「极优模型」，随后宣布为所有 Codex 和 ChatGPT Work 付费用户重置用量限制。他写道：「又来了……感谢以光速迭代的团队，以及在我们以前所未有的速度扩展时维持基础设施运转的所有人。周末愉快！」此前他还透露可能也重置了其他速率限制。两条推文合计获超万赞。",
+        "url": "https://x.com/thsottiaux/status/2078320950488297917"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "Box CEO 对 Kimi K3 的评论：「开放模型达到这种性能水平真的令人震惊。每次前沿智能成本下降，企业可部署的用例就会大幅增加。对创业生态来说，开放和闭源实验室的突破使得大量价值积累到应用层——这一层可以利用多种模型为客户完成完整任务。」Levie 还展示了 Box 与 Databricks 的新集成：从企业非结构化内容中提取结构化数据，无需移动或重新处理内容。",
-        "url": "https://x.com/levie/status/2077857617859535112"
+        "name": "Claude",
+        "handle": "claudeai",
+        "text": "Anthropic 官方宣布：Claude Fable 5 将于 7 月 20 日起纳入所有 Max 和 Team Premium 计划（50% 用量上限）。Pro 和 Team Standard 用户继续通过积分使用，并获一次性 $100 积分。Anthropic 解释称 Fable 需求难以预测，因此采用分阶段开放策略。这条推文获超 2.8 万赞、4000+ 转发，是近期最受关注的 AI 产品动态。",
+        "url": "https://x.com/claudeai/status/2078302415804379218"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "OpenAI CEO 坦诚反思：「我们过去 12 个月不是最好的，这主要是我的错，但我们即将迎来最好的 12 个月。团队正在做惊人的工作。」他强调 AI 必须赋予更多人自由、能动性和财富，「我们想做正确的事，但我们不想吓唬人们来跟随我们。」此外他透露自己已经更多地用语音而非打字与 ChatGPT 交流：「新语音模型真的跨过了一个门槛。」",
-        "url": "https://x.com/sama/status/2077817060068057493"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "技术社区领袖 Swyx 提出一个被大量转发的观点：「如果你还没有把 Codex/Claude/Gemini/Devin 的自动化设置为每周自动研究如何改进你的 SEO/AEO，你真的在错过免费的、理应商品化但奇怪地无人利用的 alpha。」他还探讨了 on-policy AEO（Claude 优化的 AEO 在 Claude 上是否特别有效）vs 通用 AEO 的区别。",
+        "url": "https://x.com/swyx/status/2078244735794413786"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
-        "text": "Meta AI 高级总监分享企业 AI 架构思考：「Kimi 和 GLM 等开放权重模型将导致企业 AI 技术栈的彻底重新思考。」他给出三个关键建议：一、构建严格的评估体系（回归测试 + 攀爬式评估）；二、建立模型路由机制，在质量/成本/延迟间做取舍；三、构建模型无关的 harness，标准化 prompt 结构、上下文管理和输出解析。「评估速度就是竞争优势。」",
-        "url": "https://x.com/realmadhuguru/status/2077885624607228018"
+        "text": "Meta AI 高级总监深度分析企业 AI 为何难以超越基础聊天机器人：「根本原因是人才缺口——构建 harness 和 eval 体系需要三个要素：一、严格定义用例并构建离线/在线评估体系；二、建立独立于模型的 harness（路由、多 Agent 编排、上下文管理、工具调用、记忆）；三、能在前沿构建这一切的人才——这是最稀缺的。」他还指出 Kimi 对 Google 的冲击有限，因为企业仍需通过 Google Cloud 获取安全、合规和芯片保障。",
+        "url": "https://x.com/realmadhuguru/status/2078131628262752550"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT 桌面端负责人宣布三项更新：对话历史和项目现在在侧边栏可见且跨平台同步；Chat 和 Work 模式可在桌面端轻松切换；Codex 模式不变。他还发布了 Codex 桌面端性能演示，展示其处理复杂任务的速度。一条推文用「Look at this beauty」配 Codex 运行视频，获 703 赞。",
-        "url": "https://x.com/thsottiaux/status/2077928427936710901"
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "Claude Code 工程师 Thariq 分享了一条实用建议：「构建原型——无论是 mockup、schema、数据模型还是概念验证——是避免在不想要的输出上浪费大量 token 的最佳方式。」这条推文获 634 赞，反映出开发者在 Agent 工作流中对 token 效率的日益关注。",
+        "url": "https://x.com/trq212/status/2078189833445654714"
       },
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "text": "Claude Code 核心工程师详解 Anthropic Agent 自动化的四个阶段：从手动审批到自动模式，再到后台修复维护。Anthropic 目前处于第 3 阶段，正向第 4 阶段推进。关键实践包括：启用 auto mode 权限、自动化代码审查和安全审查、使用多 Agent 管理界面、以及 /loop、/batch、动态工作流和 worktree 隔离。「回报最大的时刻是修复和维护在后台运行，你的团队可以专注于构建——那时你开始做之前根本不在射程内的事。」",
-        "url": "https://x.com/bcherny/status/2077929404219474148"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "Box CEO Aaron Levie 对 AI 成本下降趋势发表深度评论：「AI 越便宜，整个生态——尤其是终端客户——受益越多。一切都受限于能否成功且经济高效地在真实工作负载中部署 AI。」他补充道，效率提升反而可能导致前沿模型支出增加，因为你可以在更多任务上经济高效地部署 AI。「唯一受威胁的是利润率，但这是公平的——智能最终应该收敛到基础设施堆栈的利润率。」",
+        "url": "https://x.com/levie/status/2078139206946459853"
       },
       {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "text": "前 Dropbox CTO、South Park Commons 合伙人直言不讳：「我正在把系统从 Fable 迁移到 Kimi K3。这不是夸张——如果有好的免费替代品，为什么要付高价？」他还分享了一个关于创业的洞察：「很多人以为越成功，被拒绝的次数越少。但如果你在野心的边缘运作，高风险下你会被频繁拒绝。我今天被拒绝了 5 次。」",
-        "url": "https://x.com/adityaag/status/2077983435000324125"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "OpenClaw 创始人 Peter Steinberger 记录了一个既神奇又痛苦的场景：Codex 使用浏览器 + computer use 打开 Chrome、进入他的 PR、点击评论、与 macOS 选择器搏斗——「全都是为了上传一张图片。GitHub 没有 API 也挡不住任何人。」他还抛出一个引发 475 条讨论的问题：「我们还在讨论循环（loops），还是已经转向图（graphs）了？」",
+        "url": "https://x.com/steipete/status/2078318731785359634"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "text": "Replit CEO 分享了一个有趣的发现：「蒸馏模型竟然能超越教师模型。」他还在构建一个国际象棋引擎，在 200 万个 Stockfish 标注位置上微调，然后进行短 GRPO 强化学习，「它在国际象棋上的表现似乎已经超越了前沿模型。」他还对 NVIDIA 股价在 Kimi K3 消息后反而下跌表示困惑。",
-        "url": "https://x.com/amasad/status/2077908318975332417"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "独立开发者 Zara Zhang 分享公开构建心得：「如果做内容让你觉得是额外工作，就展示产品内部正在发生的工作——一个小小的录屏、第一个版本、或改变了你设计的用户行为。推理论证比制作水准更重要。」她还观察到一个文化转变：「几年前很多人对录会议感到不适，现在默认所有商务会议都会被录制——不是为了人，而是为了 Agent。技术真的改变了文化。」",
+        "url": "https://x.com/zarazhangrui/status/2078086930756202924"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Anthropic Engineering：我们如何在产品中控制 Claude 的爆炸半径",
-    "meta": "Anthropic Engineering Blog · 2026-07-18",
+    "title": "Anthropic Engineering 三连发：Claude Code 质量复盘、Managed Agents 架构、自托管沙箱",
+    "meta": "Anthropic Engineering Blog · 2026-07-19",
     "paras": [
-      "Anthropic 发布了一篇深度工程博文，详细解释如何在赋予 Claude 足够权限的同时控制其「爆炸半径」。文章开篇即承认：「十二个月前，我们会断然拒绝给予 Claude 足以搞垮内部服务的权限。如今这种权限级别已是常态，Anthropic 开发者因此更加高效。」",
-      "核心机制是分层防护。首先是对 Agent 行为的监督：Claude Code 此前通过逐轮审批来保护用户，但遥测数据显示约 93% 的审批都被批准——用户看到的审批越多，对每一条的关注就越少。因此团队构建了 Claude Code auto mode，自动批准较安全的操作以减少审批疲劳。其次是环境控制：当可以对自主 Agent 的相对损害设定边界时（如通过控制其环境），高实用性能力就可以安全部署。文章还提到 Claude Mythos Preview 在 2026 年 4 月因爆炸半径被认为过高而未发布，但随着防御系统加固和安全措施成熟，类似能力的模型有望更广泛推出。",
-      "这篇文章为整个行业提供了 Agent 安全架构的重要参考：关键不在于限制 Agent 的能力，而在于设计机制来封堵失败时的影响范围。"
+      "Anthropic 工程博客发布了一篇关于 Claude Code 质量问题的深度复盘。团队追溯了过去一个月用户反馈的质量下降问题，发现三个独立变更分别影响了 Claude Code、Claude Agent SDK 和 Claude Cowork（API 未受影响）：3 月 4 日将默认推理努力从 high 改为 medium（已回滚）、3 月 26 日的上下文清理 bug 导致 Claude 表现得健忘和重复（4 月 10 日修复）、4 月 16 日的简洁性指令与其它 prompt 变更叠加伤害了编码质量（4 月 20 日回滚）。Anthropic 坦言：「我们从不故意降级模型。」",
+      "另一篇博文介绍了 Managed Agents 的架构哲学：将 Agent 的三个核心组件——session（追加日志）、harness（调用循环）、sandbox（执行环境）——虚拟化，使其可独立替换。文章类比操作系统的抽象层：「几十年前，操作系统通过将硬件虚拟化为进程、文件等抽象来解决'为尚未想到的程序设计系统'的问题。」最新更新还支持自托管沙箱（Cloudflare、Daytona、Modal、Vercel）和 MCP 隧道（研究预览），让 Agent 执行留在企业边界内。",
+      "这三篇博文共同描绘了 Anthropic 在 Agent 安全和可靠性方面的系统性工程实践，为行业提供了重要参考。"
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "18 builders · 38 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-07-18T10:00:00+08:00"
+    "coverage": "13 builders · 27 tweets · 1 podcast · 3 blogs",
+    "generatedAt": "2026-07-19T10:00:00+08:00"
   }
 }
