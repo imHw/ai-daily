@@ -1,29 +1,29 @@
 {
   "issue": {
-    "vol": "Vol.200",
-    "date": "2026年7月19日",
-    "weekday": "星期日",
-    "dateISO": "2026-07-19",
-    "tagline": "Claude Fable 5 明日全面开放订阅计划；GPT-5.6 Sol 获极高评价；OpenAI 重置付费用户用量限制"
+    "vol": "Vol.201",
+    "date": "2026年7月20日",
+    "weekday": "星期一",
+    "dateISO": "2026-07-20",
+    "tagline": "ChatGPT Work 重塑知识工作流；AI 网络安全前沿模型之争；Jürgen Schmidhuber 预言算力投资泡沫"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude Fable 5 明日起纳入所有订阅计划；GPT-5.6 Sol 被确认为极优模型；OpenAI 紧急重置用量限制",
+    "title": "ChatGPT Work 成为新一代知识工作操作系统；开源与前沿网络安全能力并驾齐驱；Schmidhuber 警告千亿美元算力投资将回吐",
     "paras": [
-      "Anthropic 官方账号宣布：自 7 月 20 日起，Claude Fable 5 将以 50% 用量上限纳入所有 Max 和 Team Premium 订阅计划。Pro 和 Team Standard 用户将继续通过用量积分使用 Fable，并获得一次性 $100 积分补偿。Anthropic 坦言「Fable 的需求难以预测」，因此采用分阶段开放策略，随着容量扩充多次延长访问权限。这条推文获得超 2.8 万赞，是本周最热 AI 动态之一。",
-      "与此同时，OpenAI Codex 和 ChatGPT 负责人 Thibault Sottiaux 确认 GPT-5.6 Sol 为「极优模型」，并随即宣布为所有 Codex 和 ChatGPT Work 付费用户重置用量限制。他写道：「又来了……享受吧，周末愉快！」这条推文获超 9000 赞。此前他还补充称「可能也重置了其他速率限制，待观察。」——两大巨头同步释放容量信号，AI 基础设施竞赛正在加速。",
-      "在应用层，AI Agent 的交互范式正在悄然转变。Claude Code 工程师 Thariq 指出「先构建原型再投入大量 token」是避免浪费的最佳策略；OpenClaw 创始人 Peter Steinberger 则展示了 Codex 通过浏览器操控上传图片到 GitHub PR 的场景，感叹「既神奇又痛苦」；Peter Yang 则表达了对语音 Agent 的期待：「在户外边走边用语音指挥 Agent 工作、接收状态更新——第一个实现这个的实验室会赢。」"
+      "OpenAI Codex 与 ChatGPT 负责人 Thibault Sottiaux 用一条推文展示了 ChatGPT Work 的工作流革命：他口述一段指令，让 ChatGPT 自动梳理数千条 Twitter 私信，生成包含姓名、链接、分类和成熟度评分的电子表格。他直言「我的工作基本上就是委托给 ChatGPT Work」，并表示已经完全离不开语音输入。ChatGPT Work 支持建站、邮件管理、文档摘要和幻灯片制作，已覆盖 Plus、Pro、Business 和 Enterprise 全部付费计划。",
+      "Vercel CEO Guillermo Rauch 公布了内部网络安全评估结果：Kimi K3 在网络攻防领域达到顶级水平，Sol 在更高成本下展现了显著的攻击能力跃升，而 Anthropic 的 Fable 则拒绝了所有相关请求。Rauch 指出，前沿开源网络安全能力已经到来。与此同时，Anthropic 工程师 Thariq 透露 Fable 5 的发布经历了团队「昼夜不停」的全力冲刺。",
+      "AI 先驱 Jürgen Schmidhuber 在 Unsupervised Learning 播客中发出了冷静警告：当前投入千亿美元建设 GPU 数据中心的公司，五年内将因算力成本曲线的快速下降而损失 9000 亿美元。他认为递归自我改进不会成为任何公司的护城河，因为核心创意来自学术实验室的小团队。不过他对 AI 安全问题相对乐观——人工科学家将对生命和文明起源充满好奇，有动机保护而非毁灭人类。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "OpenAI 算力负责人：我们的建设速度远远不够",
-    "meta": "The MAD Podcast with Matt Turck · YouTube · 2026-07-16",
+    "title": "AI 先驱 Jürgen Schmidhuber：算力投资泡沫与 AGI 的物理世界之路",
+    "meta": "Unsupervised Learning · YouTube · 2026-07-09",
     "paras": [
-      "Matt Turck 采访了 OpenAI 工业算力负责人 Sachin Katti——这可能是当下科技界最令人瞩目的职位之一。Katti 曾是斯坦福教授、多次创业者，最近担任英特尔 CTO，如今领导着人类历史上最大规模的基础设施建设。",
-      "Katti 的核心观点是：「每当你以为算力够了想放慢节奏，结果总是令人后悔——我们不应该放慢。」他透露需求远远超过算力供应，任何上线的算力都会被立即消耗。关于 AI 递归设计，他表示「AI 设计自己所需的训练和推理系统的那一天并不遥远」。节目还深入讨论了液冷超级计算机、电网约束、核能微电网的潜力，以及 OpenAI 自研芯片 Jalapeno 的进展。"
+      "Schmidhuber 被《纽约时报》和《福布斯》称为「AI 之父」，他开创的诸多研究奠定了今天 AI 革命的基础。他直言，当前的算力投资热潮存在严重的资源错配：算力每美元性能大约每五年提升十倍，这意味着如今投入千亿美元的公司将在五年内损失 9000 亿美元——「没有任何商业模式能回收这笔损失」。他预测这将引发一次股市层面的「重新定价」，但不会是文明级别的崩溃。",
+      "在递归自我改进（RSI）议题上，Schmidhuber 认为当前最主流的 RSI 方法——通过梯度下降让网络学会生成比梯度下降更好的权重更新——存在根本局限。更重要的是，RSI 的核心创意来自学术实验室，任何公司都无法将其据为己有形成护城河。「有太多博士生对递归自我改进充满热情，没有哪家大公司能长期保持优势。」关于 AGI，他强调真正的 AGI 不能只存在于屏幕背后——机器人硬件相比人体还极其原始，没有任何人造技术能比得上人类的手。物理 AGI 的实现仍需根本性突破。"
     ],
-    "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
+    "url": "https://www.youtube.com/watch?v=RKjR8DQ40po"
   },
   "voices": {
     "label": "建造者观点",
@@ -31,66 +31,56 @@
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "OpenAI Codex 和 ChatGPT 负责人确认 GPT-5.6 Sol 为「极优模型」，随后宣布为所有 Codex 和 ChatGPT Work 付费用户重置用量限制。他写道：「又来了……感谢以光速迭代的团队，以及在我们以前所未有的速度扩展时维持基础设施运转的所有人。周末愉快！」此前他还透露可能也重置了其他速率限制。两条推文合计获超万赞。",
-        "url": "https://x.com/thsottiaux/status/2078320950488297917"
+        "text": "OpenAI Codex 与 ChatGPT 负责人展示了 ChatGPT Work 的工作流能力：口述一段指令，自动将数千条 Twitter 私信整理成分类电子表格，包含姓名、链接、用途分类和成熟度评分。他表示「我的工作基本上就是委托给 ChatGPT Work」，并确认 ChatGPT Work 支持建站、邮件管理、文档摘要和幻灯片制作，已覆盖全部付费计划。两条推文合计获超 1600 赞。",
+        "url": "https://x.com/thsottiaux/status/2078702412085498087"
       },
       {
-        "name": "Claude",
-        "handle": "claudeai",
-        "text": "Anthropic 官方宣布：Claude Fable 5 将于 7 月 20 日起纳入所有 Max 和 Team Premium 计划（50% 用量上限）。Pro 和 Team Standard 用户继续通过积分使用，并获一次性 $100 积分。Anthropic 解释称 Fable 需求难以预测，因此采用分阶段开放策略。这条推文获超 2.8 万赞、4000+ 转发，是近期最受关注的 AI 产品动态。",
-        "url": "https://x.com/claudeai/status/2078302415804379218"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "技术社区领袖 Swyx 提出一个被大量转发的观点：「如果你还没有把 Codex/Claude/Gemini/Devin 的自动化设置为每周自动研究如何改进你的 SEO/AEO，你真的在错过免费的、理应商品化但奇怪地无人利用的 alpha。」他还探讨了 on-policy AEO（Claude 优化的 AEO 在 Claude 上是否特别有效）vs 通用 AEO 的区别。",
-        "url": "https://x.com/swyx/status/2078244735794413786"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "Meta AI 高级总监深度分析企业 AI 为何难以超越基础聊天机器人：「根本原因是人才缺口——构建 harness 和 eval 体系需要三个要素：一、严格定义用例并构建离线/在线评估体系；二、建立独立于模型的 harness（路由、多 Agent 编排、上下文管理、工具调用、记忆）；三、能在前沿构建这一切的人才——这是最稀缺的。」他还指出 Kimi 对 Google 的冲击有限，因为企业仍需通过 Google Cloud 获取安全、合规和芯片保障。",
-        "url": "https://x.com/realmadhuguru/status/2078131628262752550"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "text": "Claude Code 工程师 Thariq 分享了一条实用建议：「构建原型——无论是 mockup、schema、数据模型还是概念验证——是避免在不想要的输出上浪费大量 token 的最佳方式。」这条推文获 634 赞，反映出开发者在 Agent 工作流中对 token 效率的日益关注。",
-        "url": "https://x.com/trq212/status/2078189833445654714"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel CEO 公布内部网络安全评估：Kimi K3 在隐蔽评测中达到顶级网络安全能力，「模型有原始智商」；Sol 在更高成本下展现了显著的攻击能力跃升；Fable 则拒绝了所有请求。他总结：前沿开源网络安全能力已经到来。此外他还发表长文反思「AGI」一词的局限性，认为 AI 已在大多数经济相关任务上远超人类智能，但人类独有的关怀能力不可替代。",
+        "url": "https://x.com/rauchg/status/2078647648307880209"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "Box CEO Aaron Levie 对 AI 成本下降趋势发表深度评论：「AI 越便宜，整个生态——尤其是终端客户——受益越多。一切都受限于能否成功且经济高效地在真实工作负载中部署 AI。」他补充道，效率提升反而可能导致前沿模型支出增加，因为你可以在更多任务上经济高效地部署 AI。「唯一受威胁的是利润率，但这是公平的——智能最终应该收敛到基础设施堆栈的利润率。」",
-        "url": "https://x.com/levie/status/2078139206946459853"
+        "text": "Box CEO 认为 AI 生态系统的价值正在向更广泛的企业扩散：定制模型推理、应用 AI 公司、垂直领域实验室和新型基础设施都在蓬勃发展。他同时警告，封锁模型策略不会奏效——中国已证明能在接近前沿水平竞争，美国应该推动安全的技术扩散和开源，而非加强管制。",
+        "url": "https://x.com/levie/status/2078567715544121815"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "OpenClaw 创始人 Peter Steinberger 记录了一个既神奇又痛苦的场景：Codex 使用浏览器 + computer use 打开 Chrome、进入他的 PR、点击评论、与 macOS 选择器搏斗——「全都是为了上传一张图片。GitHub 没有 API 也挡不住任何人。」他还抛出一个引发 475 条讨论的问题：「我们还在讨论循环（loops），还是已经转向图（graphs）了？」",
-        "url": "https://x.com/steipete/status/2078318731785359634"
+        "name": "Thariq",
+        "handle": "trq212",
+        "text": "Anthropic Claude Code 工程师透露 Fable 5 的发布经历了团队「昼夜不停」的全力冲刺。「当时完全不确定能否按时完成，为每一位参与的同事感到骄傲。」这条推文获超 6700 赞，显示出社区对 Fable 5 的高度关注。",
+        "url": "https://x.com/trq212/status/2078514180051906864"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "Latent Space 播客主持人指出，批评欧洲的人忽视了一个事实：欧洲实际上拥有全球顶尖的 AI 工程师。他正在运营「全球最具竞争力的 AI 人才竞技场」（以演讲和工作坊衡量），并预测 AEO（AI 引擎优化）明年将为他带来 100 万美元收入。",
+        "url": "https://x.com/swyx/status/2078628617987518855"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
-        "text": "独立开发者 Zara Zhang 分享公开构建心得：「如果做内容让你觉得是额外工作，就展示产品内部正在发生的工作——一个小小的录屏、第一个版本、或改变了你设计的用户行为。推理论证比制作水准更重要。」她还观察到一个文化转变：「几年前很多人对录会议感到不适，现在默认所有商务会议都会被录制——不是为了人，而是为了 Agent。技术真的改变了文化。」",
-        "url": "https://x.com/zarazhangrui/status/2078086930756202924"
+        "text": "建议每个人都应开发自己的「个人评测集」——几个真正与日常工作生活相关的任务。「行业基准有帮助，但可能无法反映对你真正有用的能力边界。通过不断试探来发现模型的能力边界。」她还指出企业 AI 采用的最大障碍：懂 AI 的人不懂业务，懂业务的人不懂 AI。",
+        "url": "https://x.com/zarazhangrui/status/2078666187026911488"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "他 8 岁的女儿用 ChatGPT Images 生成界面和角色，配合音乐和计时 Boss 关卡，建了一个帮助学习乘法表的互动网站。「她喜欢动物，所以我们用 ChatGPT Images 生成了 UI 和角色。」展示了 AI 工具降低创作门槛的生动案例。",
+        "url": "https://x.com/petergyang/status/2078638568784994686"
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "text": "FirstMark Capital 合伙人以讽刺口吻写道：「2024 年：模型层正在商品化。2025 年：模型层正在商品化。2026 年：模型层正在商品化。模型层：至今未商品化。」连续三年的「商品化」预言均未应验，暗示前沿模型的竞争壁垒依然坚固。",
+        "url": "https://x.com/mattturck/status/2078520552680046920"
       }
-    ]
-  },
-  "blog": {
-    "label": "官方博客",
-    "title": "Anthropic Engineering 三连发：Claude Code 质量复盘、Managed Agents 架构、自托管沙箱",
-    "meta": "Anthropic Engineering Blog · 2026-07-19",
-    "paras": [
-      "Anthropic 工程博客发布了一篇关于 Claude Code 质量问题的深度复盘。团队追溯了过去一个月用户反馈的质量下降问题，发现三个独立变更分别影响了 Claude Code、Claude Agent SDK 和 Claude Cowork（API 未受影响）：3 月 4 日将默认推理努力从 high 改为 medium（已回滚）、3 月 26 日的上下文清理 bug 导致 Claude 表现得健忘和重复（4 月 10 日修复）、4 月 16 日的简洁性指令与其它 prompt 变更叠加伤害了编码质量（4 月 20 日回滚）。Anthropic 坦言：「我们从不故意降级模型。」",
-      "另一篇博文介绍了 Managed Agents 的架构哲学：将 Agent 的三个核心组件——session（追加日志）、harness（调用循环）、sandbox（执行环境）——虚拟化，使其可独立替换。文章类比操作系统的抽象层：「几十年前，操作系统通过将硬件虚拟化为进程、文件等抽象来解决'为尚未想到的程序设计系统'的问题。」最新更新还支持自托管沙箱（Cloudflare、Daytona、Modal、Vercel）和 MCP 隧道（研究预览），让 Agent 执行留在企业边界内。",
-      "这三篇博文共同描绘了 Anthropic 在 Agent 安全和可靠性方面的系统性工程实践，为行业提供了重要参考。"
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "13 builders · 27 tweets · 1 podcast · 3 blogs",
-    "generatedAt": "2026-07-19T10:00:00+08:00"
+    "coverage": "11 builders · 23 tweets · 1 podcast",
+    "generatedAt": "2026-07-20T10:00:00+08:00"
   }
 }
