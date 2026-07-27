@@ -1,28 +1,30 @@
 {
   "issue": {
-    "vol": "20260726",
-    "date": "2026年7月26日",
-    "weekday": "星期日",
-    "dateISO": "2026-07-26",
+    "vol": "20260727",
+    "date": "2026年7月27日",
+    "weekday": "星期一",
+    "dateISO": "2026-07-27",
     "tagline": "AI 构建者们的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "DoorDash 创始人：机器人公司的前世今生与 Agentic Commerce 的爆发",
+    "title": "Anthropic 发布 Managed Agents：解耦大脑与双手，构建可演进的智能体架构",
     "paras": [
-      "DoorDash 联合创始人 Andy Fang 和 Stanley Tang 在 No Priors 播客中透露，DoorDash 过去八年实际上是一家机器人公司。他们早在 2018 年就押注自主驾驶和机器人技术，当时这一方向远不如今天明显。如今 DoorDash 拥有超过 900 万 Dashers 和每年 30 亿次配送量，正在 Phoenix 等地全面部署 L4 级自动驾驶机器人。",
-      "在 Agentic Commerce 方面，DoorDash 的 Ask DoorDash 功能展现出惊人数据：50% 使用该功能的用户订单来自从未尝试过的新餐厅，grocery 品类购物车规模扩大 40%。DoorDash 正在从对话式搜索走向真正的 Agent-first 体验，甚至通过 DoorDash CLI 让 AI Agent 直接参与配送场景——比如监控 pantry 货架并自动补货。"
+      "Anthropic 在其工程博客上发布了最新的 Claude Managed Agents 平台，核心在于将智能体的\"大脑\"（Claude 和其 harness）与\"双手\"（沙盒和工具执行）以及\"记忆\"（会话日志）彻底解耦。这种 \"meta-harness\" 设计让系统能够适应未来尚未出现的智能体形式，正如操作系统通过进程、文件等抽象适应了数十年来的硬件演进一样。",
+      "该架构将推理层与执行层分离，使得 harness 不再需要与沙盒耦合在同一容器中，容器变成了可以随时替换的\" cattle\"而非\" pet\"。TTFT（首 token 延迟）下降了约 60%，同时支持连接多个大脑和多个手——这意味着一个 Claude 可以同时与多个沙box环境交互，而之前受限于单一容器环境。此外，他们引入了持久化的会话日志作为外部上下文存储，解决了长任务超出窗口长度的问题。",
+      "在安全设计上，Claude 生成的代码从未直接接触到凭据——Git token 通过仓库权限直接克隆，OAuth 令牌通过 MCP 代理安全注入。Anthropic 还正在增加系统 prompt 变更的控制，为每个模型变更运行更广泛的评估套件，并将在 @ClaudeDevs 上更深入地解释产品决策。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
-    "meta": "No Priors · 2026年7月23日",
+    "title": "Ep 91: Top AI Analyst Unpacks Today's AI Hype Cycle",
+    "meta": "Unsupervised Learning · 2026年7月16日",
     "paras": [
-      "DoorDash 联合创始人 Stanley Tang 回顾了从 2018 年一个\"skunkworks\"实验到今日 Phoenix 数百台自动驾驶机器人的历程。他们发现，真正的挑战不是自主驾驶本身，而是围绕它构建的整个生态系统——基础设施、商户集成、首次和最后 100 英尺的取送问题。DoorDash 最终决定自研，因为市面上没有现成方案适合他们的配送场景。",
-      "Andy Fang 则分享了 Agentic Commerce 的洞察。他指出，Google 搜索查询链接正在变长，说明人们越来越习惯用自然语言与 AI 交互。DoorDash 正在将这种对话体验扩展到语音模式（支持 Opus 和 Sonnet 模型）、多语言，并通过 CLI 让 Agent 直接参与商业流程。他们收购 Metis 以注入 AI-native 思维，AI 支出在 6 月份同比增长了 20 倍，但通过基准测试和优化正在控制成本。"
+      "Redpoint 的 Jacob Efron 专访了知名投资人 Benedict Evans，探讨当前 AI hype cycle 中的关键问题。Evans 主张不要执着于与互联网或移动技术做简单对比，因为每次技术变革都有其独特性。他提醒人们回到历史模式去观察：当新技术出现时，价值往往会向上迁移——移动网络基础设施公司并没有成为 Uber 或 YouTube，价值被应用层捕获了。",
+      "最深刻的洞见来自对能力曲线的判断：\"我们不知道物理极限在哪里。对以前的平台我们知道边界在哪——iPhone 不会视网膜植入、飞行、电池寿命无限，成本也不会是 3000 美元以下就普及。但 AI 不同，我们不知道它的能力上限在哪里。\" Evans 认为当前的 AI 类似 1990 年代中期的移动互联网——确实很酷，能做一些令人惊叹的事情，但大多数人其实还没有找到每天会用、能让人上瘾的体验。",
+      "关于就业影响的讨论尤为犀利：\"如果 AGI 真的发生了，那我们有比中产阶级失业更大的问题要担心。如果没有，那就认真想想这对企业软件意味着什么。这两种情况下你都不应该专注于写企业软件的 blog。\" 这提醒从业者保持理性，避免陷入寻找类比的陷阱——就像 1999 年人们激动地要把 Palm 手机连上 GPRS 网络，十年后才真正明白移动互联网会走向何方。"
     ],
-    "url": "https://www.youtube.com/watch?v=vNpcg_Ma-FA"
+    "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w"
   },
   "voices": {
     "label": "建造者观点",
@@ -79,17 +81,20 @@
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude Code now supports artifacts",
-    "meta": "Claude Blog · 2026年6月18日",
+    "title": "[系列] Anthropic Managed Agents 深度解析：解耦架构与企业级扩展",
+    "meta": "Anthropic Engineering & Blog · 今日重点",
     "paras": [
-      "Claude Code 现在支持 artifacts——将工作进展捕获为可实时更新的可视化页面。一次 Claude Code 会话可以涵盖从调查事故到重构服务再到分析数月数据的各种任务，artifacts 将这些工作转化为任何人都能打开和探索的网页，包括 PR walkthrough、系统解释器、仪表盘和发布清单。",
-      "每个发布都是同一链接下的新版本，带版本历史。典型使用场景包括：安全审计发现关联到具体代码行、SRE 事故页面随调查自动更新、工程经理展示本周实际合并的内容。目前以 beta 形式面向 Claude Team 和 Enterprise 组织开放。"
+      "Anthropic 连续发布了两篇关于 Managed Agents 的重要文章。第一篇深入阐述了架构设计的哲学思考：如何通过 virtualization 之道具（session/harness/sandbox）来容纳未构想过的程序。第二篇则聚焦企业落地——自托管沙盒和 MCP 隧道打通了 enterprise adoption 的最后障碍。",
+      "这一系列更新表明，Anthropic 正在将 Claude 从单纯的聊天/编码工具演进为企业级的智能体运营平台。"
     ],
-    "url": "https://claude.com/blog/artifacts-in-claude-code"
+    "blog_entries": [
+      {"entry_title": "Decoupling the brain from the hands", "url": "https://www.anthropic.com/engineering/managed-agents"},
+      {"entry_title": "Self-hosted sandboxes and MCP tunnels", "url": "https://claude.com/blog/claude-managed-agents-updates"}
+    ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "12 builders · 27 tweets · 1 podcast · 1 blog",
-    "generatedAt": "2026-07-26T10:00:00+08:00"
+    "coverage": "8 builders · 8 tweets · 1 podcast · 2 blogs",
+    "generatedAt": "2026-07-27T08:00:00+08:00"
   }
 }
