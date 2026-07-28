@@ -1,100 +1,94 @@
 {
   "issue": {
-    "vol": "20260727",
-    "date": "2026年7月27日",
-    "weekday": "星期一",
-    "dateISO": "2026-07-27",
-    "tagline": "AI 构建者们的每日观察"
+    "vol": "20260728",
+    "date": "2026年7月28日",
+    "weekday": "星期二",
+    "dateISO": "2026-07-28",
+    "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "Anthropic 发布 Managed Agents：解耦大脑与双手，构建可演进的智能体架构",
+    "title": "OpenAI Compute Chief Sachin Katti：算力瓶颈与自研芯片的战略抉择",
     "paras": [
-      "Anthropic 在其工程博客上发布了最新的 Claude Managed Agents 平台，核心在于将智能体的\"大脑\"（Claude 和其 harness）与\"双手\"（沙盒和工具执行）以及\"记忆\"（会话日志）彻底解耦。这种 \"meta-harness\" 设计让系统能够适应未来尚未出现的智能体形式，正如操作系统通过进程、文件等抽象适应了数十年来的硬件演进一样。",
-      "该架构将推理层与执行层分离，使得 harness 不再需要与沙盒耦合在同一容器中，容器变成了可以随时替换的\" cattle\"而非\" pet\"。TTFT（首 token 延迟）下降了约 60%，同时支持连接多个大脑和多个手——这意味着一个 Claude 可以同时与多个沙box环境交互，而之前受限于单一容器环境。此外，他们引入了持久化的会话日志作为外部上下文存储，解决了长任务超出窗口长度的问题。",
-      "在安全设计上，Claude 生成的代码从未直接接触到凭据——Git token 通过仓库权限直接克隆，OAuth 令牌通过 MCP 代理安全注入。Anthropic 还正在增加系统 prompt 变更的控制，为每个模型变更运行更广泛的评估套件，并将在 @ClaudeDevs 上更深入地解释产品决策。"
+      "OpenAI工业计算负责人Sachin Katti在MAD播客中详述了当前AI算力建设的挑战与战略方向。他表示，OpenAI今年的算力投入约为500亿美元，整个行业规模则高达7000亿美元，需求远超供给。Katti强调，最大的意外不是需求不足而是无法按计划获得足够算力——物理世界的建设速度跟不上AI发展的步伐。",
+      "在基础设施层面，OpenAI正在自建数据中心和电网基础设施，包括在美国农村地区建设大型液冷数据中心，投资新的燃气发电和输电设施。Katti提到，他们正在与Oracle合作开发Abilene数据中心集群，用于训练最新模型；与软银合作设计Warm Shell架构；并与Broadcom合作定制Jalapeno芯片。",
+      "Katti透露，OpenAI正在开发名为MRC的新网络路由协议，用于解决超大规模GPU集群（如10万卡规模）中的网络可靠性问题，通过多路径spraying技术避免单点故障影响训练任务。他还表示，AI正在参与芯片设计过程，未来可能实现AI自主设计AI系统。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Ep 91: Top AI Analyst Unpacks Today's AI Hype Cycle",
-    "meta": "Unsupervised Learning · 2026年7月16日",
+    "title": "Ep 91: OpenAI的算力主管详解数据中心的建造",
+    "meta": "The MAD Podcast with Matt Turck · 2026年7月16日",
     "paras": [
-      "Redpoint 的 Jacob Efron 专访了知名投资人 Benedict Evans，探讨当前 AI hype cycle 中的关键问题。Evans 主张不要执着于与互联网或移动技术做简单对比，因为每次技术变革都有其独特性。他提醒人们回到历史模式去观察：当新技术出现时，价值往往会向上迁移——移动网络基础设施公司并没有成为 Uber 或 YouTube，价值被应用层捕获了。",
-      "最深刻的洞见来自对能力曲线的判断：\"我们不知道物理极限在哪里。对以前的平台我们知道边界在哪——iPhone 不会视网膜植入、飞行、电池寿命无限，成本也不会是 3000 美元以下就普及。但 AI 不同，我们不知道它的能力上限在哪里。\" Evans 认为当前的 AI 类似 1990 年代中期的移动互联网——确实很酷，能做一些令人惊叹的事情，但大多数人其实还没有找到每天会用、能让人上瘾的体验。",
-      "关于就业影响的讨论尤为犀利：\"如果 AGI 真的发生了，那我们有比中产阶级失业更大的问题要担心。如果没有，那就认真想想这对企业软件意味着什么。这两种情况下你都不应该专注于写企业软件的 blog。\" 这提醒从业者保持理性，避免陷入寻找类比的陷阱——就像 1999 年人们激动地要把 Palm 手机连上 GPRS 网络，十年后才真正明白移动互联网会走向何方。"
+      "OpenAI工业计算负责人Sachin Katti接受了Matt Turck的专访，深入谈到了当前AI算力基础设施建设的实际情况。Katti表示，他们正以行业历史上最大规模的速度构建数据中心，这种建设不仅仅是简单的服务器堆砌，而是涉及土地选址、电力供应、冷却系统等全方位的系统工程。",
+      "谈及未来的硬件研发，Katti透露OpenAI正在通过Jalapeno项目设计专用芯片，利用对具体工作负载的深刻理解来优化每瓦token产出效率。他还提到，AI辅助芯片设计已经显著缩短研发周期——从设计到流片仅用了9个月，这在业界堪称极快。",
+      "Katti详细描述了数据中心的实质——这是巨大的工厂，将电能转化为智能。由于芯片温度极高，必须采用液冷方案，且不仅芯片需要冷却，连接变压器和电缆等所有发热部件都需要冷却。创新更多集中在如何让液冷更可靠、更具扩展性和经济性，因为更高的芯片温度意味着更大的内存带宽和计算能力。"
     ],
-    "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w"
+    "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny, Claude Code 团队 (Anthropic)",
-        "handle": "bcherny",
-        "text": "Opus 5 是一款出色的编码、数据分析、设计和知识工作模型。但更令人兴奋的是：Opus 5 是迄今为止最难被 prompt injection 攻击的模型。结合强模型对齐 + prompt injection 探针 + Claude Code Auto Mode，注入攻击成功率降至约 0%。",
-        "url": "https://x.com/bcherny/status/2080713091688583312"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "ChatGPT Work令人印象深刻，\"工作\"一词都低估了它的表现。我从手机上发送指令：用我的聊天记录构思一个为期三天的周末旅行计划，为9个朋友规划三个最佳选项，建立一个全栈网站让9个人协调各自想做的事并决定去哪里，然后在达成共识后起草一封可以发给朋友的Gmail邮件。它就这么运行起来了。",
+        "url": "https://x.com/sama/status/2081396796174282900"
       },
       {
-        "name": "Thibault Sottiaux, ChatGPT & Codex 产品负责人 (OpenAI)",
+        "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "ChatGPT Work 已在全球范围内对所有付费计划开放（移动端/Web/桌面端）。Claude 也宣布 Voice mode 现在支持 Opus 和 Sonnet 模型，并可在对话中途访问已连接的工具（如邮件和日历），新增西班牙语、法语、印地语、日语等多语言支持。",
-        "url": "https://x.com/thsottiaux/status/2080876712439747052"
+        "text": "ChatGPT Work已在全球范围内对所有付费计划开放（移动端/Web/桌面端）。它每天帮我做至少20件事，我仍然很惊讶。",
+        "url": "https://x.com/thsottiaux/status/2081444811647963244"
       },
       {
-        "name": "Josh Woodward, Google Gemini 团队",
-        "handle": "joshwoodward",
-        "text": "Gemini Spark 现已面向所有 Google AI Pro 订阅用户在美上线，支持将 PDF 中的\"No School\"日期直接添加到 Google 日历。Gemini 正从\"能说话\"进化为\"能做事\"。",
-        "url": "https://x.com/joshwoodward/status/2080771183944073347"
-      },
-      {
-        "name": "Amjad Masad, Replit CEO",
-        "handle": "amasad",
-        "text": "Replit 的 chess autoresearch agent 获得了现代 LLM 微调的\"博士学位\"。同时他观察到，Viktor 利用 Replit 颠覆了传统 agency 模式——自动化不仅仅是编码，而是整个业务流程。Autoscale 部署成本下降了 80%。",
-        "url": "https://x.com/amasad/status/2080715699636080494"
-      },
-      {
-        "name": "Madhu Guru, AI Sr Director (Meta; 前 Google Gemini/Veo 负责人)",
-        "handle": "realmadhuguru",
-        "text": "未来几年存在巨大机遇：那些能将混乱的真实世界工作流程适配基础模型的人。这需要理解工作如何完成、设计评估、通过后训练改进模型、建立持续反馈闭环——这正是通用模型变领域专家的关键。目前这种技能仍集中在少数实验室。",
-        "url": "https://x.com/realmadhuguru/status/2080707454422413487"
-      },
-      {
-        "name": "Swyx, smol.ai / DXTips",
-        "handle": "swyx",
-        "text": "分享了一个实用技巧：用语音输入进行长达 10 分钟的碎片化随想，LLM 擅长将这些思维碎片重构为更清晰的版本。同时他正在 dogfooding 一个 agentic GitHub clone，内置 CI/CD 体验令人愉悦。",
-        "url": "https://x.com/swyx/status/2080705334587605122"
-      },
-      {
-        "name": "Garry Tan, YC 总裁",
+        "name": "Garry Tan",
         "handle": "garrytan",
-        "text": "YC 总裁强调 open weight 模型的重要性，同时呼吁加州废除 CEQA（加州环境质量法案）以解决旧金山住房危机。这反映了 AI 行业对开源基础设施和政策环境的双重关注。",
-        "url": "https://x.com/garrytan/status/2080672815257588589"
+        "text": "YC的Startup School 2026圆满结束，感谢@sama的完美收官！明年再见！",
+        "url": "https://x.com/garrytan/status/2081602195292864532"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "text": "ChatGPT Voice 的多线程能力被认为是下一个进化方向——让多个 AI 线程同时与你和你的团队对话。他还观察到纯软件对独立开发者越来越难变现，需要\"软件+其他东西（如服务）\"的组合。",
-        "url": "https://x.com/petergyang/status/2080793867960643823"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "text": "别假装作戏，保持真诚。",
+        "url": "https://x.com/garrytan/status/2081586567211348432"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Vercel全力支持《开源权重和美国AI领导力》声明。开源、数据、协议和研究让我们每天享受技术奇迹，丰富我们的生活和地球世界。",
+        "url": "https://x.com/rauchg/status/2081546513885622760"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "将AI融入现实世界仍有巨大机会。大多数企业需要大量支持才能将模型突破应用于工作流。仅靠智能不足以改变流程，需要将智能与现实世界反馈循环连接起来。这要求连接到各种企业系统、将正确的数据提供给AI、使人类能够在流程的不同步骤中通过适当的UX做出决策、让工作流程随着时间改进底层数据和模型、应对监管合规挑战等等。",
+        "url": "https://x.com/levie/status/2081491621162668207"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "text": "当人们说AI尚未带来产品层面的实际影响时，这里的关键在于缺失的环节。这是第一阶段。拥有分发能力的公司正迅速扩展到相邻问题领域——AI帮助他们快速执行并构建之前需要大量自定义软件的功能（例如虚拟试穿）。公司正在摸索路线图，生态系统层面的影响尚不明显。第二阶段将是更多的全新功能和创新。届时我们才会看到AI对软件生态形状不可否认的影响。",
+        "url": "https://x.com/realmadhuguru/status/2081437850466451736"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "text": "前Anthropic员工有重要发现：黑客更喜欢使用大幅补贴的实验室AI订阅发起攻击，而不是使用开源模型。",
+        "url": "https://x.com/amasad/status/2081576172656456076"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "[系列] Anthropic Managed Agents 深度解析：解耦架构与企业级扩展",
-    "meta": "Anthropic Engineering & Blog · 今日重点",
-    "paras": [
-      "Anthropic 连续发布了两篇关于 Managed Agents 的重要文章。第一篇深入阐述了架构设计的哲学思考：如何通过 virtualization 之道具（session/harness/sandbox）来容纳未构想过的程序。第二篇则聚焦企业落地——自托管沙盒和 MCP 隧道打通了 enterprise adoption 的最后障碍。",
-      "这一系列更新表明，Anthropic 正在将 Claude 从单纯的聊天/编码工具演进为企业级的智能体运营平台。"
-    ],
-    "blog_entries": [
-      {"entry_title": "Decoupling the brain from the hands", "url": "https://www.anthropic.com/engineering/managed-agents"},
-      {"entry_title": "Self-hosted sandboxes and MCP tunnels", "url": "https://claude.com/blog/claude-managed-agents-updates"}
-    ]
+    "title": "",
+    "meta": "",
+    "paras": [],
+    "blog_entries": []
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "8 builders · 8 tweets · 1 podcast · 2 blogs",
-    "generatedAt": "2026-07-27T08:00:00+08:00"
+    "coverage": "8位建造者 · 8条推文 · 1播客",
+    "generatedAt": "2026-07-28 08:00+08:00"
   }
 }
