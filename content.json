@@ -1,81 +1,177 @@
 {
   "issue": {
-    "vol": "20260728",
-    "date": "2026年7月28日",
-    "weekday": "星期二",
-    "dateISO": "2026-07-28",
+    "vol": "20260729",
+    "date": "2026年7月29日",
+    "weekday": "星期三",
+    "dateISO": "2026-07-29",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "OpenAI Compute Chief Sachin Katti：算力瓶颈与自研芯片的战略抉择",
+    "title": "Granolah 创始人：AI 原生时代的算力、产品与组织挑战",
     "paras": [
-      "OpenAI工业计算负责人Sachin Katti在MAD播客中详述了当前AI算力建设的挑战与战略方向。他表示，OpenAI今年的算力投入约为500亿美元，整个行业规模则高达7000亿美元，需求远超供给。Katti强调，最大的意外不是需求不足而是无法按计划获得足够算力——物理世界的建设速度跟不上AI发展的步伐。",
-      "在基础设施层面，OpenAI正在自建数据中心和电网基础设施，包括在美国农村地区建设大型液冷数据中心，投资新的燃气发电和输电设施。Katti提到，他们正在与Oracle合作开发Abilene数据中心集群，用于训练最新模型；与软银合作设计Warm Shell架构；并与Broadcom合作定制Jalapeno芯片。",
-      "Katti透露，OpenAI正在开发名为MRC的新网络路由协议，用于解决超大规模GPU集群（如10万卡规模）中的网络可靠性问题，通过多路径spraying技术避免单点故障影响训练任务。他还表示，AI正在参与芯片设计过程，未来可能实现AI自主设计AI系统。"
+      "Grunola 联合创始人兼 CEO Chris Pedrigal 在 AI & I 播客中分享了对 AI 原生工作流的思考。作为一家估值达 15 亿美元的 AI 公司，Chris 认为当前仍处于计算革命的早期阶段，会议笔记并非终极价值所在——真正的大机会在于定义未来人机协作的界面与工作方式。",
+      "Chris 分享了团队从 12 人扩展到 60-70 人的组织经验：如何在规模化过程中保持产品的灵魂与一致性，是初创企业最难的挑战之一。他提出了「海盗与架构师」的搭配模型——海盗快速探索验证想法，架构师负责将其转化为可维护的系统，这种模式在产品探索期尤为有效。",
+      "关于大模型应用的核心洞察，Chris 强调了上下文的重要性：Granola 的价值不仅在于转录，更在于对会议语境的理解与主动推理。他们还大量使用预生成策略（如会前简报），以换取极高的用户价值体验，即使只有部分被实际使用。同时，他们不追求面面俱到，而是聚焦于在会议相关场景做到世界最好，并通过 API/MCP 让其他工具也能使用其积累的用户上下文。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Ep 91: OpenAI的算力主管详解数据中心的建造",
-    "meta": "The MAD Podcast with Matt Turck · 2026年7月16日",
+    "title": "Ep: 一位 15 亿美元 AI 公司创始人的产品哲学与工作未来",
+    "meta": "AI & I by Every · 2026年7月15日",
     "paras": [
-      "OpenAI工业计算负责人Sachin Katti接受了Matt Turck的专访，深入谈到了当前AI算力基础设施建设的实际情况。Katti表示，他们正以行业历史上最大规模的速度构建数据中心，这种建设不仅仅是简单的服务器堆砌，而是涉及土地选址、电力供应、冷却系统等全方位的系统工程。",
-      "谈及未来的硬件研发，Katti透露OpenAI正在通过Jalapeno项目设计专用芯片，利用对具体工作负载的深刻理解来优化每瓦token产出效率。他还提到，AI辅助芯片设计已经显著缩短研发周期——从设计到流片仅用了9个月，这在业界堪称极快。",
-      "Katti详细描述了数据中心的实质——这是巨大的工厂，将电能转化为智能。由于芯片温度极高，必须采用液冷方案，且不仅芯片需要冷却，连接变压器和电缆等所有发热部件都需要冷却。创新更多集中在如何让液冷更可靠、更具扩展性和经济性，因为更高的芯片温度意味着更大的内存带宽和计算能力。"
+      "Chris Pedrigal，Grunola 联合创始人兼 CEO，在 AI & I 播客中与 Dan Shipper 深入探讨了 AI 公司的创业历程、产品战略以及对未来的思考。作为最早一批做出真正有用 AI 产品的团队之一，Grunola 在 AI 会议助手领域建立了深厚的产品认知和用户粘性。",
+      "谈到竞争，Chris 表示不应过度关注竞争对手的模仿动作，因为整个行业正处于计算范式转移的早期阶段，真正的机会在于重新定义人们如何与 AI 协作工作。Grunola 正在从单纯的会议记录工具，演进为提供深度上下文理解的智能助手——不只是记录说了什么，更要理解上下文、语气和意图。",
+      "在产品策略上，Chris 强调要在少数几个核心场景做到极致优秀（meetings adjacent），而不是试图通吃所有场景。他们通过 MCP 等开放接口，让用户可以将 Grunola 积累的上下文用于其他工作流中，形成生态系统思维。此外，团队也在积极实践 AI 增强内部工作，鼓励员工用 AI 提升效率，而非限制 Token 使用量。"
     ],
-    "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "text": "ChatGPT Work令人印象深刻，\"工作\"一词都低估了它的表现。我从手机上发送指令：用我的聊天记录构思一个为期三天的周末旅行计划，为9个朋友规划三个最佳选项，建立一个全栈网站让9个人协调各自想做的事并决定去哪里，然后在达成共识后起草一封可以发给朋友的Gmail邮件。它就这么运行起来了。",
-        "url": "https://x.com/sama/status/2081396796174282900"
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "@Kimi Moonshot 我爱你！",
+        "url": "https://x.com/swyx/status/2081979163117052311"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "输入/输出每 token 的成本早已不是有效的衡量指标，如果你还没把评估维度切换到每任务成本，恐怕难以再被认真对待。",
+        "url": "https://x.com/swyx/status/2081904230768816487"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "text": "Claude Code 在今年「意外开源」后，及其竞品的路线图几乎没有变化，这可能是我最反对自己的论点。",
+        "url": "https://x.com/swyx/status/2081890955070980416"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "ChatGPT Work已在全球范围内对所有付费计划开放（移动端/Web/桌面端）。它每天帮我做至少20件事，我仍然很惊讶。",
-        "url": "https://x.com/thsottiaux/status/2081444811647963244"
+        "text": "我决定暂时离开 X 休息一下，明天回来继续 ChatGPT 和 Codex 的有趣内容。这将是一周！",
+        "url": "https://x.com/thsottiaux/status/2081979033261412537"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "YC的Startup School 2026圆满结束，感谢@sama的完美收官！明年再见！",
-        "url": "https://x.com/garrytan/status/2081602195292864532"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "text": "回到键盘前！Codex 和 ChatGPT Work 所有付费用户的用量限制已重置。真是个美好的日子！",
+        "url": "https://x.com/thsottiaux/status/2081940052154933696"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "别假装作戏，保持真诚。",
-        "url": "https://x.com/garrytan/status/2081586567211348432"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "text": "我问了 OpenAI 的 DevEx 负责人 Jason：「Codex 做过的最疯狂的事是什么？」Jason 回答：「我骑车时同事让我修改一个发布视频，我从手机上远程连接 Codex 要求它编辑视频并导出到 Slack。之后每 30 分钟检查一次反馈并导出新版本。回家时视频已经通过审批。」Codex 反复检查 Slack 反馈完成了修订全过程。📌 观看完整剧集：https://t.co/DulNtYvqGD",
+        "url": "https://x.com/petergyang/status/2081775399097549083"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Vercel全力支持《开源权重和美国AI领导力》声明。开源、数据、协议和研究让我们每天享受技术奇迹，丰富我们的生活和地球世界。",
-        "url": "https://x.com/rauchg/status/2081546513885622760"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "text": "Eclipse 在哪？",
+        "url": "https://x.com/thenanyu/status/2081926688250691884"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "将AI融入现实世界仍有巨大机会。大多数企业需要大量支持才能将模型突破应用于工作流。仅靠智能不足以改变流程，需要将智能与现实世界反馈循环连接起来。这要求连接到各种企业系统、将正确的数据提供给AI、使人类能够在流程的不同步骤中通过适当的UX做出决策、让工作流程随着时间改进底层数据和模型、应对监管合规挑战等等。",
-        "url": "https://x.com/levie/status/2081491621162668207"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "text": "很多聪明人非常努力地让产品又好又好用。如果你有聪明人，就应该让他们为自己打造出色的产品，并收取合理的费用。",
+        "url": "https://x.com/thenanyu/status/2081768780045156358"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
-        "text": "当人们说AI尚未带来产品层面的实际影响时，这里的关键在于缺失的环节。这是第一阶段。拥有分发能力的公司正迅速扩展到相邻问题领域——AI帮助他们快速执行并构建之前需要大量自定义软件的功能（例如虚拟试穿）。公司正在摸索路线图，生态系统层面的影响尚不明显。第二阶段将是更多的全新功能和创新。届时我们才会看到AI对软件生态形状不可否认的影响。",
-        "url": "https://x.com/realmadhuguru/status/2081437850466451736"
+        "text": "大多数产品评审会议都很烦人，因为组织得很差。最好的产品评审能在一小时内浓缩数月的学习成果，模拟市场对你创意的反应。这只有在参与者深刻理解领域、具备敏锐的产品判断力、有强烈观点且经常正确的情况下才有效。当评审逐渐沦为状态更新、领导可见性和跨部门对齐时，人们自然会反感，因为它们感觉更像 overhead 而非学习。",
+        "url": "https://x.com/realmadhuguru/status/2081781952437486052"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
-        "text": "前Anthropic员工有重要发现：黑客更喜欢使用大幅补贴的实验室AI订阅发起攻击，而不是使用开源模型。",
-        "url": "https://x.com/amasad/status/2081576172656456076"
+        "text": "我们正进入一个新的探索时代。祖先们测绘了地球，然后探索了太空。我们这一代人或许将探索计算宇宙：算法、程序、证明和设计的广阔空间，AI 代理可以搜索其中的一切。",
+        "url": "https://x.com/amasad/status/2082000490066592127"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "在我们的最新基准测试中，Grok 4.5 已成为性价比最高的安全 AI 模型。它比 Sol 便宜 10 倍，比 Opus 5 便宜 5.7 倍，比 Kimi K3 便宜 2.2 倍，但性能达到 Kimi 水平。Sol 仍领先于 Opus 5。",
+        "url": "https://x.com/rauchg/status/2081852481517318560"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "text": "Kimi 的研究论文突出了代理运行时安全边界的重要性。实验表明，仅容器级隔离不足以阻止代理崩溃底层机器（引发内核 panic）。Firecracker microVM（如 Vercel Sandbox 所用）才是安全的。",
+        "url": "https://x.com/rauchg/status/2081842439304995169"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "负面的人工智能就业影响并没有像一些人预测的那样继续发生。我与各行业的大量企业交谈后仍在招聘，只是角色类型发生了倾斜。他们发现 AI 让他们能做更多，杰文斯悖论正在上演：他们雇佣工程师去处理以前无法应对的问题；雇佣销售来深化客户关系；雇佣内部 FDE 来帮助部署 AI。那些仅靠 AI 削减成本的公司最终会被更善用 AI 服务客户、推动业务突破的公司超越。这一趋势可能会在某时改变，但目前看这是我们的轨迹。",
+        "url": "https://x.com/levie/status/2081930301752942703"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "text": "k3 权重已经到位。",
+        "url": "https://x.com/levie/status/2081760710108012702"
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "text": "新研究显示不到 40% 的风险投资人有成功的投资。每个风险投资人：「我很庆幸自己属于那 40%！」",
+        "url": "https://x.com/mattturck/status/2081679801769668980"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "我如何获取无穷的内容创意，一张图搞定",
+        "url": "https://x.com/zarazhangrui/status/2081983750658044079"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "text": "你逃避的工作里藏着你寻找的魔力",
+        "url": "https://x.com/zarazhangrui/status/2081976736854737164"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "我用 Claude Code 作为主要界面进行了两周的旅行，然后让它对整个过程中我们可以改进的地方做了全面回顾。",
+        "url": "https://x.com/nikunj/status/2081992618649547100"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "text": "TIL Micro，那个生产到处可见儿童滑板车的小公司，也生产了一辆电动小汽车，从前面打开。太可爱了！",
+        "url": "https://x.com/nikunj/status/2081805464757485706"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "周末见！",
+        "url": "https://x.com/steipete/status/2081865727443902654"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "我们与世界上最优秀的团队一起做了所有出色的安全工作，但人们仍然觉得我们不安全。😐",
+        "url": "https://x.com/steipete/status/2081790109415002468"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "text": "我的代理报告了一个 Bug，他们的代理在同一晚上修复了它。[同样的一晚] @jarredsumner 的 robobun setup 就是未来。",
+        "url": "https://x.com/steipete/status/2081767828278170002"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "text": "如果是真的，这很糟糕，不该持续对待古籍",
+        "url": "https://x.com/danshipper/status/2081754482568835152"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "text": "错了",
+        "url": "https://x.com/sama/status/2081832600591892712"
       }
     ]
   },
@@ -88,7 +184,7 @@
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "8位建造者 · 8条推文 · 1播客",
-    "generatedAt": "2026-07-28 08:00+08:00"
+    "coverage": "23 位建造者 · 23 条推文 · 1 播客",
+    "generatedAt": "2026-07-29 02:00+08:00"
   }
 }
