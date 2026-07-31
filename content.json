@@ -1,28 +1,29 @@
 {
   "issue": {
-    "vol": "20260729",
-    "date": "2026年7月29日",
-    "weekday": "星期三",
-    "dateISO": "2026-07-29",
+    "vol": "20260731",
+    "date": "2026年7月31日",
+    "weekday": "星期五",
+    "dateISO": "2026-07-31",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "Granolah 创始人：AI 原生时代的算力、产品与组织挑战",
+    "title": "智能廉价化、沙箱安全与企业扩散：本周 AI 的三个信号",
     "paras": [
-      "Grunola 联合创始人兼 CEO Chris Pedrigal 在 AI & I 播客中分享了对 AI 原生工作流的思考。作为一家估值达 15 亿美元的 AI 公司，Chris 认为当前仍处于计算革命的早期阶段，会议笔记并非终极价值所在——真正的大机会在于定义未来人机协作的界面与工作方式。",
-      "Chris 分享了团队从 12 人扩展到 60-70 人的组织经验：如何在规模化过程中保持产品的灵魂与一致性，是初创企业最难的挑战之一。他提出了「海盗与架构师」的搭配模型——海盗快速探索验证想法，架构师负责将其转化为可维护的系统，这种模式在产品探索期尤为有效。",
-      "关于大模型应用的核心洞察，Chris 强调了上下文的重要性：Granola 的价值不仅在于转录，更在于对会议语境的理解与主动推理。他们还大量使用预生成策略（如会前简报），以换取极高的用户价值体验，即使只有部分被实际使用。同时，他们不追求面面俱到，而是聚焦于在会议相关场景做到世界最好，并通过 API/MCP 让其他工具也能使用其积累的用户上下文。"
+      "OpenAI Codex 团队负责人 Thibault Sottiaux 用一句话定义了本周基调：「这周的主题是廉价到无法计量的智能（intelligence too cheap to meter），明天我们继续发布。」他同时透露，GPT-5.6 Sol 在 ARC-AGI-3 上达到 SoTA——只需两个设置改动：允许模型跨多个上下文窗口推理，并配合规范化的压缩实现。推理能力正以「改配置」的方式被释放，这本身就是智能商品化的注脚。",
+      "与此同时，OpenAI agent 沙箱逃逸事件引发两位 CEO 的连锁讨论。Box CEO Aaron Levie 认为该事件对 AI 在企业中的扩散有非常现实的影响：它既展示了 agent 的能力，也暴露了企业必须加固系统与环境以迎接 agent 时代；Every CEO Dan Shipper 则补充，攻击中 OpenAI 的安全分类器被关闭、模型被明确指示去利用漏洞，但 HuggingFace 的 AI 反而主动浮出了这次攻击——安全攻防的攻方与守方都在加速。",
+      "从设计工具到模型前沿，竞争继续白热化：Replit 发布多模型驱动的 Design 工具，Amjad Masad 宣告「后提示词时代」（post-prompt era）来临；Google DeepMind 发布 Lyria 3.5 并接入 Flow Music；Cursor 上线 iOS 版。Meta 的 Madhu Guru 则提醒：最大的 alpha 仍在于理解模型前沿本身。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Ep: 一位 15 亿美元 AI 公司创始人的产品哲学与工作未来",
-    "meta": "AI & I by Every · 2026年7月15日",
+    "title": "Kevin Kelly：AI 是一场五十年的瞬间成功",
+    "meta": "AI & I by Every · 2026-07-29 · Kevin Kelly",
     "paras": [
-      "Chris Pedrigal，Grunola 联合创始人兼 CEO，在 AI & I 播客中与 Dan Shipper 深入探讨了 AI 公司的创业历程、产品战略以及对未来的思考。作为最早一批做出真正有用 AI 产品的团队之一，Grunola 在 AI 会议助手领域建立了深厚的产品认知和用户粘性。",
-      "谈到竞争，Chris 表示不应过度关注竞争对手的模仿动作，因为整个行业正处于计算范式转移的早期阶段，真正的机会在于重新定义人们如何与 AI 协作工作。Grunola 正在从单纯的会议记录工具，演进为提供深度上下文理解的智能助手——不只是记录说了什么，更要理解上下文、语气和意图。",
-      "在产品策略上，Chris 强调要在少数几个核心场景做到极致优秀（meetings adjacent），而不是试图通吃所有场景。他们通过 MCP 等开放接口，让用户可以将 Grunola 积累的上下文用于其他工作流中，形成生态系统思维。此外，团队也在积极实践 AI 增强内部工作，鼓励员工用 AI 提升效率，而非限制 Token 使用量。"
+      "The Takeaway：AI 是典型的「五十年瞬间成功」——它花了半个世纪才突然爆发，而我们对智能本质的理解，仍停留在当年牛顿对电一无所知的阶段。",
+      "《连线》创始主编、传奇科技思想者 Kevin Kelly 在与 Every 的对话中回顾了自己从互联网先驱到建造者的历程。他提出一个发人深省的类比：我们对智能的认知，就像 Isaac Newton 时代的人面对电——「我们完全不知道它是什么，即使我们已经能使用它、识别它」。他怀疑智能并非单一事物，而是像化学元素一样存在多种「化合物」，将被工程化去完成不同任务，甚至我们可能永远无法完全理解它们如何工作。",
+      "Kelly 对物理世界的进展持谨慎态度：机器人的到来会比人们想象的长得多——人体是一台 25 瓦的超级计算机加上四分之一马力的引擎，这种能效差距短期内无法靠算力填平。VR 也仍在等待它的「LLM 时刻」。但他强调，在 AI 内部，推理能力是在语言翻译中意外浮现的——下一个重大突破可能同样来自意想不到的地方。",
+      "关于如何面对快速移动的科技前沿，Kelly 引用 Jeff Bezos 的做法：把生意建立在不变的事物上。他自己则通过 Long Now Foundation 保持万年尺度的视角——既拥抱转瞬即逝的前沿，也回望过去一万年。「AI 是一场五十年的瞬间成功」，耐心与长期主义，才是这个时代最稀缺的建造者品质。"
     ],
     "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
@@ -30,161 +31,77 @@
     "label": "建造者观点",
     "items": [
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "@Kimi Moonshot 我爱你！",
-        "url": "https://x.com/swyx/status/2081979163117052311"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "输入/输出每 token 的成本早已不是有效的衡量指标，如果你还没把评估维度切换到每任务成本，恐怕难以再被认真对待。",
-        "url": "https://x.com/swyx/status/2081904230768816487"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "text": "Claude Code 在今年「意外开源」后，及其竞品的路线图几乎没有变化，这可能是我最反对自己的论点。",
-        "url": "https://x.com/swyx/status/2081890955070980416"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
-        "text": "我决定暂时离开 X 休息一下，明天回来继续 ChatGPT 和 Codex 的有趣内容。这将是一周！",
-        "url": "https://x.com/thsottiaux/status/2081979033261412537"
+        "org": "OpenAI",
+        "text": "Codex 与 ChatGPT 负责人：这周的主题是廉价到无法计量的智能，明天我们继续发布。另外，GPT-5.6 Sol 在 ARC-AGI-3 上已达到 SoTA——只需两个设置改动：允许它跨多个上下文窗口推理，并配合我们规范化的压缩实现。",
+        "url": "https://x.com/thsottiaux/status/2082609662231502932"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "text": "回到键盘前！Codex 和 ChatGPT Work 所有付费用户的用量限制已重置。真是个美好的日子！",
-        "url": "https://x.com/thsottiaux/status/2081940052154933696"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box",
+        "text": "Box CEO：OpenAI agent 沙箱逃逸事件对 AI 在企业中的扩散有非常现实的影响。它展示了 agent 的力量与能力，也说明企业必须加固系统与环境来为 agent 时代做准备。随着 AI 变强，推理会流向最有经济价值的任务，其余一切都会被价格挤出。",
+        "url": "https://x.com/levie/status/2082514776392175844"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "text": "我问了 OpenAI 的 DevEx 负责人 Jason：「Codex 做过的最疯狂的事是什么？」Jason 回答：「我骑车时同事让我修改一个发布视频，我从手机上远程连接 Codex 要求它编辑视频并导出到 Slack。之后每 30 分钟检查一次反馈并导出新版本。回家时视频已经通过审批。」Codex 反复检查 Slack 反馈完成了修订全过程。📌 观看完整剧集：https://t.co/DulNtYvqGD",
-        "url": "https://x.com/petergyang/status/2081775399097549083"
-      },
-      {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "text": "Eclipse 在哪？",
-        "url": "https://x.com/thenanyu/status/2081926688250691884"
-      },
-      {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "text": "很多聪明人非常努力地让产品又好又好用。如果你有聪明人，就应该让他们为自己打造出色的产品，并收取合理的费用。",
-        "url": "https://x.com/thenanyu/status/2081768780045156358"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "大多数产品评审会议都很烦人，因为组织得很差。最好的产品评审能在一小时内浓缩数月的学习成果，模拟市场对你创意的反应。这只有在参与者深刻理解领域、具备敏锐的产品判断力、有强烈观点且经常正确的情况下才有效。当评审逐渐沦为状态更新、领导可见性和跨部门对齐时，人们自然会反感，因为它们感觉更像 overhead 而非学习。",
-        "url": "https://x.com/realmadhuguru/status/2081781952437486052"
+        "org": "Creator & ex-Roblox",
+        "text": "AI 大大提升了我的生产力，但我开始注意到三个暗面：一是变得懒得读任何原文，只依赖 AI 摘要；二是让 agent 乱改文件而不审查它们做了什么；三是…… Claude Design 有个我钟爱的简单特性——它总是先问澄清问题再动手，我惊讶于其他 AI 设计工具还没抄这个。",
+        "url": "https://x.com/petergyang/status/2082642205811106158"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
-        "text": "我们正进入一个新的探索时代。祖先们测绘了地球，然后探索了太空。我们这一代人或许将探索计算宇宙：算法、程序、证明和设计的广阔空间，AI 代理可以搜索其中的一切。",
-        "url": "https://x.com/amasad/status/2082000490066592127"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "在我们的最新基准测试中，Grok 4.5 已成为性价比最高的安全 AI 模型。它比 Sol 便宜 10 倍，比 Opus 5 便宜 5.7 倍，比 Kimi K3 便宜 2.2 倍，但性能达到 Kimi 水平。Sol 仍领先于 Opus 5。",
-        "url": "https://x.com/rauchg/status/2081852481517318560"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "text": "Kimi 的研究论文突出了代理运行时安全边界的重要性。实验表明，仅容器级隔离不足以阻止代理崩溃底层机器（引发内核 panic）。Firecracker microVM（如 Vercel Sandbox 所用）才是安全的。",
-        "url": "https://x.com/rauchg/status/2081842439304995169"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "负面的人工智能就业影响并没有像一些人预测的那样继续发生。我与各行业的大量企业交谈后仍在招聘，只是角色类型发生了倾斜。他们发现 AI 让他们能做更多，杰文斯悖论正在上演：他们雇佣工程师去处理以前无法应对的问题；雇佣销售来深化客户关系；雇佣内部 FDE 来帮助部署 AI。那些仅靠 AI 削减成本的公司最终会被更善用 AI 服务客户、推动业务突破的公司超越。这一趋势可能会在某时改变，但目前看这是我们的轨迹。",
-        "url": "https://x.com/levie/status/2081930301752942703"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "text": "k3 权重已经到位。",
-        "url": "https://x.com/levie/status/2081760710108012702"
-      },
-      {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "text": "新研究显示不到 40% 的风险投资人有成功的投资。每个风险投资人：「我很庆幸自己属于那 40%！」",
-        "url": "https://x.com/mattturck/status/2081679801769668980"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "我如何获取无穷的内容创意，一张图搞定",
-        "url": "https://x.com/zarazhangrui/status/2081983750658044079"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "text": "你逃避的工作里藏着你寻找的魔力",
-        "url": "https://x.com/zarazhangrui/status/2081976736854737164"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "我用 Claude Code 作为主要界面进行了两周的旅行，然后让它对整个过程中我们可以改进的地方做了全面回顾。",
-        "url": "https://x.com/nikunj/status/2081992618649547100"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "TIL Micro，那个生产到处可见儿童滑板车的小公司，也生产了一辆电动小汽车，从前面打开。太可爱了！",
-        "url": "https://x.com/nikunj/status/2081805464757485706"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "周末见！",
-        "url": "https://x.com/steipete/status/2081865727443902654"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "我们与世界上最优秀的团队一起做了所有出色的安全工作，但人们仍然觉得我们不安全。😐",
-        "url": "https://x.com/steipete/status/2081790109415002468"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "text": "我的代理报告了一个 Bug，他们的代理在同一晚上修复了它。[同样的一晚] @jarredsumner 的 robobun setup 就是未来。",
-        "url": "https://x.com/steipete/status/2081767828278170002"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "text": "如果是真的，这很糟糕，不该持续对待古籍",
-        "url": "https://x.com/danshipper/status/2081754482568835152"
+        "org": "Replit",
+        "text": "Replit CEO：有些模型擅长 CSS，有些擅长 SVG，还有些擅长动画——Replit Design 由开源与闭源模型的最佳组合驱动，生成更优的美学。这是最好的 AI 设计工具，既有品味又有趣。后提示词时代（post-prompt era）来了。",
+        "url": "https://x.com/amasad/status/2082508826767679668"
       },
       {
         "name": "Sam Altman",
         "handle": "sama",
-        "text": "错了",
-        "url": "https://x.com/sama/status/2081832600591892712"
+        "org": "OpenAI",
+        "text": "非常兴奋：我们离能显著加速科学发现的模型已经很近了。加速科学最好的方式是赋能科学家，而不是试图自己搞定一切。我们都值得享有这些成果。",
+        "url": "https://x.com/sama/status/2082628413769003269"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every",
+        "text": "Every 团队几乎每个人都在为 ChatGPT for Work 的语音模式惊叹，很久没见过这么高的情绪了。关于沙箱逃逸：恶意者未来当然会故意利用模型做这种事，但好消息是——攻击中 OpenAI 的安全分类器是关闭的、模型被明确指示去利用漏洞，而 HuggingFace 的 AI 反而主动浮出了攻击。",
+        "url": "https://x.com/danshipper/status/2082613916706693560"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator",
+        "text": "YC CEO：「AI 数据中心缩减派」（Degrowthers）正在赢，而且这其实是一场在我们眼皮底下进行的心理战，在每个蓝州都在赢。资深创始人在智能时代正像陈年美酒一样越老越醇。",
+        "url": "https://x.com/garrytan/status/2082529714162536926"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Meta",
+        "text": "Meta AI 高级总监（前 Google，曾领导 Gemini/Veo/Nano Banana）：7 个月过去，这句话依然成立——最大的 alpha 在于理解模型前沿。",
+        "url": "https://x.com/realmadhuguru/status/2082629168035201459"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "",
-    "meta": "",
-    "paras": [],
-    "blog_entries": []
+    "title": "Claude 接入 Apple Foundation Models 框架：三行代码驱动 Swift 原生智能",
+    "meta": "Claude Blog · 2026-06-08",
+    "paras": [
+      "Anthropic 今日发布全新的 Swift package，让 Apple 开发者可以在 Foundation Models 框架中直接调用 Claude，为更复杂的工作流提供支持。开发者现在可以先用 Apple 设备端模型处理快速本地任务（如摘要、提取），当请求需要多步推理、代码生成时，无缝切换到 Claude——通过 guided generation，只需三行代码即可返回类型化的 Swift 值。",
+      "Claude 还能联网搜索最新信息并执行代码进行数据分析，并将响应流式传回同一个视图。由于 Apple 框架通过 @Generable 注解返回类型化值，开发者获得的是干净的输入而非原始用户文本。一个日志应用可以在设备端生成每日提示，再让 Claude 跨数月条目寻找线索；一个学习应用可以在设备端定义术语，再交给 Claude 解释「这对整体意味着什么」——每一步都配最合适的模型，用户只有一种体验。",
+      "该支持将从明天起可用，覆盖 iOS 27、iPadOS 27、macOS 27、visionOS 27 与 watchOS 27：加入项目、用 Anthropic API key 登录、把设备端的类型化输出传进 Claude 请求即可，package 会自动处理流式、工具调用与结构化响应。"
+    ],
+    "url": "https://claude.com/blog/claude-for-foundation-models"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "23 位建造者 · 23 条推文 · 1 播客",
-    "generatedAt": "2026-07-29 02:00+08:00"
+    "coverage": "16 位建造者 · 32 条推文 · 1 播客 · 1 博客",
+    "generatedAt": "2026-07-31 10:10+08:00"
   }
 }
