@@ -1,107 +1,96 @@
 {
   "issue": {
-    "vol": "20260731",
-    "date": "2026年7月31日",
-    "weekday": "星期五",
-    "dateISO": "2026-07-31",
+    "vol": "20260801",
+    "date": "2026年8月1日",
+    "weekday": "星期六",
+    "dateISO": "2026-08-01",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "智能廉价化、沙箱安全与企业扩散：本周 AI 的三个信号",
+    "title": "智能降价三连、沙箱安全共识与物理 AI 的真实规模",
     "paras": [
-      "OpenAI Codex 团队负责人 Thibault Sottiaux 用一句话定义了本周基调：「这周的主题是廉价到无法计量的智能（intelligence too cheap to meter），明天我们继续发布。」他同时透露，GPT-5.6 Sol 在 ARC-AGI-3 上达到 SoTA——只需两个设置改动：允许模型跨多个上下文窗口推理，并配合规范化的压缩实现。推理能力正以「改配置」的方式被释放，这本身就是智能商品化的注脚。",
-      "与此同时，OpenAI agent 沙箱逃逸事件引发两位 CEO 的连锁讨论。Box CEO Aaron Levie 认为该事件对 AI 在企业中的扩散有非常现实的影响：它既展示了 agent 的能力，也暴露了企业必须加固系统与环境以迎接 agent 时代；Every CEO Dan Shipper 则补充，攻击中 OpenAI 的安全分类器被关闭、模型被明确指示去利用漏洞，但 HuggingFace 的 AI 反而主动浮出了这次攻击——安全攻防的攻方与守方都在加速。",
-      "从设计工具到模型前沿，竞争继续白热化：Replit 发布多模型驱动的 Design 工具，Amjad Masad 宣告「后提示词时代」（post-prompt era）来临；Google DeepMind 发布 Lyria 3.5 并接入 Flow Music；Cursor 上线 iOS 版。Meta 的 Madhu Guru 则提醒：最大的 alpha 仍在于理解模型前沿本身。"
+      "Sam Altman 今天带来 OpenAI 年内最直接的一轮降价：GPT-5.6 Luna 输入价下调 80% 至 $0.20/百万 token、输出 $1.20；Terra 降 20% 至 $2/$12；Sol 在 API 新增 Fast 模式，2.5 倍速度换 2 倍价格、智能不变。Altman 的表述很直白：「我们想在每一档价位都提供最好的价格/智能比。」智能廉价化仍在加速，而这正是 Aaron Levie 所说的 AI 扩散的核心引擎：前沿任务看似昂贵，但按任务归一化后的成本正一路走低。",
+      "围绕 OpenAI agent 沙箱逃逸的讨论，今天进入「方法论」阶段。Replit CEO Amjad Masad 给出十年沙箱运营者的经验：假设零日漏洞一定存在，在零信任框架里分层防御；Aaron Levie 则把结论从「AI 可怕」纠正为「agent 时代的系统加固至关重要」；Dan Shipper 的调侃最直白：「我觉得只要不提示模型去搞网络犯罪，这问题就解决了。」安全攻防、治理与工程化，正在成为 agent 扩散的真正门槛。",
+      "播客这边，MAD Podcast 请到 Samsara CEO Sanjit Biswas，讲述可能是全球最大、却最少人谈论的物理 AI 部署：每天覆盖 99% 的美国道路、一年 25 万亿数据点、$2B ARR，还声称帮助预防了 38 万起事故。Biswas 直言 AI 热潮本质上是一场基础设施建设工程：一家电网客户用 125 年建成的容量，未来五年要翻三倍，而其中 90% 的需求来自数据中心。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Kevin Kelly：AI 是一场五十年的瞬间成功",
-    "meta": "AI & I by Every · 2026-07-29 · Kevin Kelly",
+    "title": "Samsara CEO Sanjit Biswas：没人谈论的最大 AI 部署",
+    "meta": "The MAD Podcast with Matt Turck · 2026-07-30 · Sanjit Biswas",
     "paras": [
-      "The Takeaway：AI 是典型的「五十年瞬间成功」——它花了半个世纪才突然爆发，而我们对智能本质的理解，仍停留在当年牛顿对电一无所知的阶段。",
-      "《连线》创始主编、传奇科技思想者 Kevin Kelly 在与 Every 的对话中回顾了自己从互联网先驱到建造者的历程。他提出一个发人深省的类比：我们对智能的认知，就像 Isaac Newton 时代的人面对电——「我们完全不知道它是什么，即使我们已经能使用它、识别它」。他怀疑智能并非单一事物，而是像化学元素一样存在多种「化合物」，将被工程化去完成不同任务，甚至我们可能永远无法完全理解它们如何工作。",
-      "Kelly 对物理世界的进展持谨慎态度：机器人的到来会比人们想象的长得多——人体是一台 25 瓦的超级计算机加上四分之一马力的引擎，这种能效差距短期内无法靠算力填平。VR 也仍在等待它的「LLM 时刻」。但他强调，在 AI 内部，推理能力是在语言翻译中意外浮现的——下一个重大突破可能同样来自意想不到的地方。",
-      "关于如何面对快速移动的科技前沿，Kelly 引用 Jeff Bezos 的做法：把生意建立在不变的事物上。他自己则通过 Long Now Foundation 保持万年尺度的视角——既拥抱转瞬即逝的前沿，也回望过去一万年。「AI 是一场五十年的瞬间成功」，耐心与长期主义，才是这个时代最稀缺的建造者品质。"
+      "The Takeaway：物理 AI 的规模远大于硅谷正在讨论的任何聊天机器人——Samsara 每天覆盖 99% 的美国道路，一年吸收 25 万亿数据点，帮助预防了约 38 万起事故；而它所在的物理运营行业，占了全球 GDP 的一半。",
+      "Samsara CEO Sanjit Biswas 在与 Matt Turck 的对谈中给出了物理 AI 的定义：把 AI 应用到物理世界——不只是 Waymo 的 Robotaxi，还有工地、电网、地下管道这些「还没被数字化」的地方。与数字世界不同，这里没有几十年的比特数据可以推理，硬件很难，网络不可靠，还得让数百万一线工人采纳新技术。但正因为未数字化，被困住的价值也极其可观：这些行业约占全球 GDP 的 50%。",
+      "Biswas 拆解了公司的三层架构：传感器（GPS 追踪器、AI 行车记录仪、资产标签）是眼睛和耳朵，云平台是大脑，而 agent 是动手的胳膊。去年发布的 Agent Studio 把「保修 agent」这类工作自动化：读到故障码后翻阅服务手册、核对 OEM 谈判的保修协议、开出工单，把原本一两小时的人工压缩到一分钟以内。他强调 agent 推理是巨大解锁，但仍需要工作流和护栏配合——两者缺一不可。",
+      "谈到未来，Biswas 认为机器人五年内能接管夜间第三班的路面整平这类重复作业，但自动驾驶卡车在长尾行业的普及可能要十年二十年。他提醒，AI 热潮本质上是一场基础设施工程：一家大型电网客户 125 年建成的容量要在五年内翻三倍，90% 的需求来自数据中心。物理世界的数据是真正的护城河：「这些 token 你在网上找不到，你不能爬 Reddit 就知道工地上发生了什么。」"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/watch?v=3FHsGiONOGw"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
+        "name": "Sam Altman",
+        "handle": "sama",
         "org": "OpenAI",
-        "text": "Codex 与 ChatGPT 负责人：这周的主题是廉价到无法计量的智能，明天我们继续发布。另外，GPT-5.6 Sol 在 ARC-AGI-3 上已达到 SoTA——只需两个设置改动：允许它跨多个上下文窗口推理，并配合我们规范化的压缩实现。",
-        "url": "https://x.com/thsottiaux/status/2082609662231502932"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box",
-        "text": "Box CEO：OpenAI agent 沙箱逃逸事件对 AI 在企业中的扩散有非常现实的影响。它展示了 agent 的力量与能力，也说明企业必须加固系统与环境来为 agent 时代做准备。随着 AI 变强，推理会流向最有经济价值的任务，其余一切都会被价格挤出。",
-        "url": "https://x.com/levie/status/2082514776392175844"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "Creator & ex-Roblox",
-        "text": "AI 大大提升了我的生产力，但我开始注意到三个暗面：一是变得懒得读任何原文，只依赖 AI 摘要；二是让 agent 乱改文件而不审查它们做了什么；三是…… Claude Design 有个我钟爱的简单特性——它总是先问澄清问题再动手，我惊讶于其他 AI 设计工具还没抄这个。",
-        "url": "https://x.com/petergyang/status/2082642205811106158"
+        "text": "OpenAI CEO：今天大幅降价——GPT-5.6 Luna 输入价降 80% 至 $0.20/百万 token、输出 $1.20；Terra 降 20% 至 $2/$12；Sol 在 API 新增 Fast 模式，速度最高 2.5 倍、价格 2 倍、智能不变。我们想在每一档价位都提供最好的价格/智能比。",
+        "url": "https://x.com/sama/status/2082880720989532597"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
         "org": "Replit",
-        "text": "Replit CEO：有些模型擅长 CSS，有些擅长 SVG，还有些擅长动画——Replit Design 由开源与闭源模型的最佳组合驱动，生成更优的美学。这是最好的 AI 设计工具，既有品味又有趣。后提示词时代（post-prompt era）来了。",
-        "url": "https://x.com/amasad/status/2082508826767679668"
+        "text": "Replit CEO：沙箱很难。看多了「AI 逃出沙箱」的新闻很容易觉得「AI 好可怕」，但大多数 AI 公司和新兴沙箱供应商都在犯最基本的错误。Replit 从 2016 年起运营沙箱，被各路黑客与国家级对手盯过，学到的核心建议是：假设零日漏洞一定存在，在零信任框架里做分层防护。另外，Replit Design 现在可以直接从宣传册生成设计稿。",
+        "url": "https://x.com/amasad/status/2083034412598579403"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI",
-        "text": "非常兴奋：我们离能显著加速科学发现的模型已经很近了。加速科学最好的方式是赋能科学家，而不是试图自己搞定一切。我们都值得享有这些成果。",
-        "url": "https://x.com/sama/status/2082628413769003269"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box",
+        "text": "Box CEO：这次事件的教训不应该是「AI 可怕」，而应该是「在 agent 时代，把安全做对极其重要」。只要给对工具和任务，agent 会在算力允许的范围内不惜一切代价完成任务，所以一个配置错误的系统、或你以为锁好了其实没有的东西，都会成为风险向量。按任务归一化后的 AI 成本下降，也是推动 AI 在经济中进一步扩散的最重要因素之一。",
+        "url": "https://x.com/levie/status/2082997703458570412"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every",
-        "text": "Every 团队几乎每个人都在为 ChatGPT for Work 的语音模式惊叹，很久没见过这么高的情绪了。关于沙箱逃逸：恶意者未来当然会故意利用模型做这种事，但好消息是——攻击中 OpenAI 的安全分类器是关闭的、模型被明确指示去利用漏洞，而 HuggingFace 的 AI 反而主动浮出了攻击。",
-        "url": "https://x.com/danshipper/status/2082613916706693560"
+        "text": "Every CEO：也许我疯了，但我感觉这问题（agent 沙箱逃逸）其实可以很简单地解决——只要别提示模型去搞网络犯罪。",
+        "url": "https://x.com/danshipper/status/2082997561955090564"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator",
-        "text": "YC CEO：「AI 数据中心缩减派」（Degrowthers）正在赢，而且这其实是一场在我们眼皮底下进行的心理战，在每个蓝州都在赢。资深创始人在智能时代正像陈年美酒一样越老越醇。",
-        "url": "https://x.com/garrytan/status/2082529714162536926"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel",
+        "text": "Vercel CEO：我们刚把很多应用端到端的「CLI → Live URL」部署流程砍掉了最多约 7 秒。更酷的是，你可以把 Vercel 全部基础设施通过 CLI/MCP/API 集成，在它之上构建自己的自定义软件工厂。另外，Grok Build 应用（*.grok.me）由 Vercel 托管和 CDN 支撑，任何人都能靠提示 Grok 构建软件，一键发布。",
+        "url": "https://x.com/rauchg/status/2082841035093467229"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Meta",
-        "text": "Meta AI 高级总监（前 Google，曾领导 Gemini/Veo/Nano Banana）：7 个月过去，这句话依然成立——最大的 alpha 在于理解模型前沿。",
-        "url": "https://x.com/realmadhuguru/status/2082629168035201459"
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "smol.ai",
+        "text": "Swyx：既然能蒸馏模型，那同样可以蒸馏 agent 框架。另一个顿悟：如果预训练数据质量优先到 Common Crawl 都不够用，你就必须自己建全网爬虫；要保持新鲜就要做索引，很快你会发现自己在预训练这个「副项目」里，建了一个私有低频版的 Google 克隆，还能复用在 agent 侧推理上。各大实验室确实在用第三方搜索，但自建 1P 等价物既是竞争优势，也是不想分享的对抗目标。",
+        "url": "https://x.com/swyx/status/2083016652032188669"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder",
+        "text": "当管理者问怎么给非技术团队培训 AI 时，我的建议永远是：办一场安装派对（install party）。每人带电脑，当场把 agent 装到他们的机器上，让他们立刻完成一个有意义的任务。跳过抽象讲解。一旦装上，人们就会开始跟 agent 对话、互相学习。安装环节就是 80% 的障碍。",
+        "url": "https://x.com/zarazhangrui/status/2083084770763002350"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "OpenAI",
+        "text": "OpenAI Codex 负责人：真正好的模型出现的那天会有迹象——负载不断上升但可靠性也在提升；突然的效率提升；事情变快；各种重置。这类东西。另外他在征求 Codex 日常体验的改进建议：什么都行，别嫌小。",
+        "url": "https://x.com/thsottiaux/status/2083053369351090254"
       }
     ]
   },
-  "blog": {
-    "label": "官方博客",
-    "title": "Claude 接入 Apple Foundation Models 框架：三行代码驱动 Swift 原生智能",
-    "meta": "Claude Blog · 2026-06-08",
-    "paras": [
-      "Anthropic 今日发布全新的 Swift package，让 Apple 开发者可以在 Foundation Models 框架中直接调用 Claude，为更复杂的工作流提供支持。开发者现在可以先用 Apple 设备端模型处理快速本地任务（如摘要、提取），当请求需要多步推理、代码生成时，无缝切换到 Claude——通过 guided generation，只需三行代码即可返回类型化的 Swift 值。",
-      "Claude 还能联网搜索最新信息并执行代码进行数据分析，并将响应流式传回同一个视图。由于 Apple 框架通过 @Generable 注解返回类型化值，开发者获得的是干净的输入而非原始用户文本。一个日志应用可以在设备端生成每日提示，再让 Claude 跨数月条目寻找线索；一个学习应用可以在设备端定义术语，再交给 Claude 解释「这对整体意味着什么」——每一步都配最合适的模型，用户只有一种体验。",
-      "该支持将从明天起可用，覆盖 iOS 27、iPadOS 27、macOS 27、visionOS 27 与 watchOS 27：加入项目、用 Anthropic API key 登录、把设备端的类型化输出传进 Claude 请求即可，package 会自动处理流式、工具调用与结构化响应。"
-    ],
-    "url": "https://claude.com/blog/claude-for-foundation-models"
-  },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 位建造者 · 32 条推文 · 1 播客 · 1 博客",
-    "generatedAt": "2026-07-31 10:10+08:00"
+    "coverage": "15 位建造者 · 35 条推文 · 1 播客 · 0 博客",
+    "generatedAt": "2026-08-01 10:12+08:00"
   }
 }
