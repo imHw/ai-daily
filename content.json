@@ -1,96 +1,109 @@
 {
   "issue": {
-    "vol": "20260801",
-    "date": "2026年8月1日",
-    "weekday": "星期六",
-    "dateISO": "2026-08-01",
+    "vol": "20260802",
+    "date": "2026年8月2日",
+    "weekday": "星期日",
+    "dateISO": "2026-08-02",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "智能降价三连、沙箱安全共识与物理 AI 的真实规模",
+    "title": "harness 成为第二变量、8B 模型叫板前沿、闭源厂商的困境",
     "paras": [
-      "Sam Altman 今天带来 OpenAI 年内最直接的一轮降价：GPT-5.6 Luna 输入价下调 80% 至 $0.20/百万 token、输出 $1.20；Terra 降 20% 至 $2/$12；Sol 在 API 新增 Fast 模式，2.5 倍速度换 2 倍价格、智能不变。Altman 的表述很直白：「我们想在每一档价位都提供最好的价格/智能比。」智能廉价化仍在加速，而这正是 Aaron Levie 所说的 AI 扩散的核心引擎：前沿任务看似昂贵，但按任务归一化后的成本正一路走低。",
-      "围绕 OpenAI agent 沙箱逃逸的讨论，今天进入「方法论」阶段。Replit CEO Amjad Masad 给出十年沙箱运营者的经验：假设零日漏洞一定存在，在零信任框架里分层防御；Aaron Levie 则把结论从「AI 可怕」纠正为「agent 时代的系统加固至关重要」；Dan Shipper 的调侃最直白：「我觉得只要不提示模型去搞网络犯罪，这问题就解决了。」安全攻防、治理与工程化，正在成为 agent 扩散的真正门槛。",
-      "播客这边，MAD Podcast 请到 Samsara CEO Sanjit Biswas，讲述可能是全球最大、却最少人谈论的物理 AI 部署：每天覆盖 99% 的美国道路、一年 25 万亿数据点、$2B ARR，还声称帮助预防了 38 万起事故。Biswas 直言 AI 热潮本质上是一场基础设施建设工程：一家电网客户用 125 年建成的容量，未来五年要翻三倍，而其中 90% 的需求来自数据中心。"
+      "Box CEO Aaron Levie 今天给出了一个值得记住的判断：随着单任务 token 消耗从百万级走向千万甚至亿级，AI 栈中最重要的变量正在从「模型能力」扩散到「harness 编排」。谁能最有效地拆解工作、在正确的时间路由到正确的模型，谁就能同时最大化准确率与降低成本——而这条赛道才刚刚开始。几乎同一时间，Vercel CEO Guillermo Rauch 宣布 AI Gateway 增加按 key/team/project 的预算管控，并预言 Issue → Agent → PR → Release 将成为软件项目转向「agentic software factory」后的常态；Linear 产品负责人 Nan Yu 则分享了自家循环的实操细节：约 30% 的 bug 会走完全程，但 agent 必须被明确告知「先研究根因、拿不准就别乱改」，否则会烧掉大量 token。",
+      "模型侧的反差同样明显：Replit CEO Amjad Masad 展示了一个约 80 亿参数的下棋模型，Elo 约 1500，稳定击败 GPT-5.6 高推理模式与 Stockfish 0 级，且每步只花 1-2 秒（对比 30 秒）——小模型在垂直任务上「四两拨千斤」的故事越来越常见。而 Sam Altman 则晒出 ChatGPT Work 的家庭场景：连接家庭日历、解释孩子的兴趣，每天早上上学路上自动生成一期播客，聊聊下午的球赛、临近的生日和新闻。OpenAI 一边在场景端下沉到日常生活，一边由 Codex 负责人 Thibault Sottiaux 重置了本周末的用量上限，庆祝「一周的效率」。",
+      "播客这边，Unsupervised Learning 请到 xAI 联创、如今创办 River AI 的 Igor Babuschkin。他直言闭源模型厂商正被「两头挤压」：预训练收益递减、能力太强可能被监管拦下不让发布，而开源模型每个月都在逼近前沿——出路只剩持续创新。他给 River AI 下了三个赌注：让企业自己做后训练（River API）、为每个个体而非「平均用户」定制 AI，以及把前沿推理带到本地硬件上。对个人 AI 时代的隐私与可控性，他说了一句值得玩味的话：未来你的 agent 会知道你房间里的每一句话，「把这一切都发给数据中心」不该是唯一选项。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Samsara CEO Sanjit Biswas：没人谈论的最大 AI 部署",
-    "meta": "The MAD Podcast with Matt Turck · 2026-07-30 · Sanjit Biswas",
+    "title": "Ep 92：xAI 联创 Igor Babuschkin 拆解模型开发的未来",
+    "meta": "Unsupervised Learning with Jacob Effron · 2026-07-31 · Igor Babuschkin（River AI 创始人 / xAI 联创）",
     "paras": [
-      "The Takeaway：物理 AI 的规模远大于硅谷正在讨论的任何聊天机器人——Samsara 每天覆盖 99% 的美国道路，一年吸收 25 万亿数据点，帮助预防了约 38 万起事故；而它所在的物理运营行业，占了全球 GDP 的一半。",
-      "Samsara CEO Sanjit Biswas 在与 Matt Turck 的对谈中给出了物理 AI 的定义：把 AI 应用到物理世界——不只是 Waymo 的 Robotaxi，还有工地、电网、地下管道这些「还没被数字化」的地方。与数字世界不同，这里没有几十年的比特数据可以推理，硬件很难，网络不可靠，还得让数百万一线工人采纳新技术。但正因为未数字化，被困住的价值也极其可观：这些行业约占全球 GDP 的 50%。",
-      "Biswas 拆解了公司的三层架构：传感器（GPS 追踪器、AI 行车记录仪、资产标签）是眼睛和耳朵，云平台是大脑，而 agent 是动手的胳膊。去年发布的 Agent Studio 把「保修 agent」这类工作自动化：读到故障码后翻阅服务手册、核对 OEM 谈判的保修协议、开出工单，把原本一两小时的人工压缩到一分钟以内。他强调 agent 推理是巨大解锁，但仍需要工作流和护栏配合——两者缺一不可。",
-      "谈到未来，Biswas 认为机器人五年内能接管夜间第三班的路面整平这类重复作业，但自动驾驶卡车在长尾行业的普及可能要十年二十年。他提醒，AI 热潮本质上是一场基础设施工程：一家大型电网客户 125 年建成的容量要在五年内翻三倍，90% 的需求来自数据中心。物理世界的数据是真正的护城河：「这些 token 你在网上找不到，你不能爬 Reddit 就知道工地上发生了什么。」"
+      "The Takeaway：闭源模型厂商正被「能力太强不能发布、开源步步紧逼」两头挤压，出路是把模型能力分发出去——让企业、团队乃至个人自己做后训练，把智能带回本地。",
+      "Igor Babuschkin 是少有的「全经历」选手：从 CERN 的物理学博士，到 DeepMind 的 StarCraft 与 AlphaCode，再到 OpenAI 早期推理团队，随后联创 xAI、120 天建成 Colossus 数据中心，现在创办 River AI。他在播客里先讲了自己被「十二月时刻」击中的感受：2025 年底编码 agent 突然强大到无法忽视，就像《魔术师学徒》——每个人都成了开始使用魔法、却未必控制得住魔法的学徒。",
+      "他对当前市场结构的判断很尖锐：闭源厂商正被两头挤压。预训练收益递减，把模型做得太强可能因监管无法发布，而开源模型每月逼近前沿；同时后训练要「把全世界专家装进一组权重」也遇到瓶颈。出路在他看来是「去中心化」：让掌握领域数据的企业自己后训练，而不是把数据交给 Anthropic 或 OpenAI。River AI 的三条赌注正是为此——River API 提供强化学习与微调服务、让模型为每个个体而非「平均用户」个性化、以及把推理计算带到本地设备。最后一条他特别强调：个人 AI 会读取你的一切，隐私与「模型是你的而不是别人的」将变得至关重要。",
+      "他还谈到对开源生态的看法：强大开源模型降低了所有人的门槛，但今天最前沿的开源权重几乎全部来自中国实验室，这对美国经济不是好事——「我们应该训练出全世界最好的开源模型，而不只是最好的美国开源模型」。关于模型中的后门风险，他目前不太担心（「如果存在，我们应该已经在野外看到过例子了」），但提醒这是未来几年需要盯防的领域。最后他留下一句浪漫的注脚：写《The Prader Machine God》时，那句「当模型第一次开口说话时，你没想到自己会流泪」——来自真实经历，那是所有早期 AI 人都体会过的魔法感。",
+      "关于「机器会取代人吗」，他的答案是「共生」：今天人类做架构与规划、agent 写代码，这是好状态；但随着 agent 变强，天平会倾向让它们接管一切。保持人类相关的关键是更深的对齐——「把模型训练成最大化人类繁荣，而不是最大化任何其他目标」。"
     ],
-    "url": "https://www.youtube.com/watch?v=3FHsGiONOGw"
+    "url": "https://www.youtube.com/watch?v=0aBTpoCX_A8"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI",
-        "text": "OpenAI CEO：今天大幅降价——GPT-5.6 Luna 输入价降 80% 至 $0.20/百万 token、输出 $1.20；Terra 降 20% 至 $2/$12；Sol 在 API 新增 Fast 模式，速度最高 2.5 倍、价格 2 倍、智能不变。我们想在每一档价位都提供最好的价格/智能比。",
-        "url": "https://x.com/sama/status/2082880720989532597"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box",
+        "text": "Box CEO：不确定这些具体数字能否泛化到所有任务，但方向上很清楚——harness 编排将取代模型能力，成为 AI 栈中最重要的变量之一。当任务消耗几千万甚至几亿 token 时，如何最有效地拆解工作、在正确时机路由到正确模型，将成为最大化准确率与降低成本的关键。我们仍处在这条路的极早期：当任务只有几十万 token 时 harness 无关紧要，现在机会来了。",
+        "url": "https://x.com/levie/status/2083389460679373135"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
         "org": "Replit",
-        "text": "Replit CEO：沙箱很难。看多了「AI 逃出沙箱」的新闻很容易觉得「AI 好可怕」，但大多数 AI 公司和新兴沙箱供应商都在犯最基本的错误。Replit 从 2016 年起运营沙箱，被各路黑客与国家级对手盯过，学到的核心建议是：假设零日漏洞一定存在，在零信任框架里做分层防护。另外，Replit Design 现在可以直接从宣传册生成设计稿。",
-        "url": "https://x.com/amasad/status/2083034412598579403"
+        "text": "Replit CEO：约 1500 Elo！一个 8B 模型持续击败前沿模型和 Stockfish 0 级。看着一个 80 亿参数模型靠高推理与响应链「碾压」GPT-5.6 很有趣，它每步只思考 1-2 秒，而对手要 30 秒。可以玩。",
+        "url": "https://x.com/amasad/status/2083424608993300824"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box",
-        "text": "Box CEO：这次事件的教训不应该是「AI 可怕」，而应该是「在 agent 时代，把安全做对极其重要」。只要给对工具和任务，agent 会在算力允许的范围内不惜一切代价完成任务，所以一个配置错误的系统、或你以为锁好了其实没有的东西，都会成为风险向量。按任务归一化后的 AI 成本下降，也是推动 AI 在经济中进一步扩散的最重要因素之一。",
-        "url": "https://x.com/levie/status/2082997703458570412"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every",
-        "text": "Every CEO：也许我疯了，但我感觉这问题（agent 沙箱逃逸）其实可以很简单地解决——只要别提示模型去搞网络犯罪。",
-        "url": "https://x.com/danshipper/status/2082997561955090564"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "Linear",
+        "text": "Linear 产品负责人：Linear 里最常见的循环是 Issue → Agent → PR → Release，约 30% 的 bug 能走完全程。但细节决定成败：指令应让 agent 先用 Datadog 和 Sentry MCP 深入调研根因，只有高确定性才尝试修复，否则会烧掉大量 token；如果调研时需要更多证据（比如让 reporter 提供复现步骤），就留在 issue 评论里请求。Agent 和人类一样，需要被明确告知好的实践。",
+        "url": "https://x.com/thenanyu/status/2083230295206121807"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel",
-        "text": "Vercel CEO：我们刚把很多应用端到端的「CLI → Live URL」部署流程砍掉了最多约 7 秒。更酷的是，你可以把 Vercel 全部基础设施通过 CLI/MCP/API 集成，在它之上构建自己的自定义软件工厂。另外，Grok Build 应用（*.grok.me）由 Vercel 托管和 CDN 支撑，任何人都能靠提示 Grok 构建软件，一键发布。",
-        "url": "https://x.com/rauchg/status/2082841035093467229"
+        "text": "Vercel CEO：AI Gateway 是让 AI 成为有效投资的关键基础设施：按 key/team/project 的预算管控、故障切换保障可用性、模型与供应商选择、实时可观测性。如果你还沉浸在「token 最大化」的狂热梦里，是时候醒来了。另外，Issue → Agent → PR → Release 将成为软件项目转向 agentic software factory 后的常态，作者/维护者的工作变为优化这个循环并设定「该做什么」的标准。",
+        "url": "https://x.com/rauchg/status/2083319868766699699"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI",
+        "text": "OpenAI CEO：昨晚听到一个 ChatGPT Work 的酷用例——连接家庭日历、解释孩子们的兴趣，每天早上开车上学路上让 AI 生成一期播客，聊聊下午的足球赛、临近的生日和一些新闻。另外，我看到了你的摩尔定律，我加注 20 倍。",
+        "url": "https://x.com/sama/status/2083221585792762171"
       },
       {
         "name": "Swyx",
         "handle": "swyx",
         "org": "smol.ai",
-        "text": "Swyx：既然能蒸馏模型，那同样可以蒸馏 agent 框架。另一个顿悟：如果预训练数据质量优先到 Common Crawl 都不够用，你就必须自己建全网爬虫；要保持新鲜就要做索引，很快你会发现自己在预训练这个「副项目」里，建了一个私有低频版的 Google 克隆，还能复用在 agent 侧推理上。各大实验室确实在用第三方搜索，但自建 1P 等价物既是竞争优势，也是不想分享的对抗目标。",
-        "url": "https://x.com/swyx/status/2083016652032188669"
+        "text": "Swyx：在 AI 圈领袖里我似乎是少数派——我仍然活跃地使用 /loop 和 /goal。觉得这些过时的你们都错了，不是永远错，只是在 G5.6/C5 时代放弃得太早。当你想在可控性与自主性之间找到正确配比、想要「能生成循环的循环」那种开放式终态时，就该用它们。另外注意到：「vibe coding」的贬义色彩已经完全消失了——从非技术到超技术，人人都在这么做。",
+        "url": "https://x.com/swyx/status/2083439562437673053"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
         "org": "Builder",
-        "text": "当管理者问怎么给非技术团队培训 AI 时，我的建议永远是：办一场安装派对（install party）。每人带电脑，当场把 agent 装到他们的机器上，让他们立刻完成一个有意义的任务。跳过抽象讲解。一旦装上，人们就会开始跟 agent 对话、互相学习。安装环节就是 80% 的障碍。",
-        "url": "https://x.com/zarazhangrui/status/2083084770763002350"
+        "text": "Zara Zhang：一篇关于 Claude 如何改变 Anthropic 内部工作方式的访谈很有意思——产品与工程团队 65% 的 PR 现在由 Claude 提出。对非工程团队而言，agent 的终极界面应该是他们本来就在工作的地方（Slack 等协作工具）。过去 6 个月我自己与 agent 的接口变了三次：1 月是终端，3 月是桌面应用（如 Codex），6 月是我的协作工具——每一步都更接近人类自然的交流方式，agent 应该主动来到用户所在的地方。",
+        "url": "https://x.com/zarazhangrui/status/2083161173563003268"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "OpenAI",
-        "text": "OpenAI Codex 负责人：真正好的模型出现的那天会有迹象——负载不断上升但可靠性也在提升；突然的效率提升；事情变快；各种重置。这类东西。另外他在征求 Codex 日常体验的改进建议：什么都行，别嫌小。",
-        "url": "https://x.com/thsottiaux/status/2083053369351090254"
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every",
+        "text": "Every CEO：很高兴给这篇 WSJ 关于 OpenAI vs Anthropic 的文章当 kicker。我坚持这个判断——从早春开始势头就明显转向 OpenAI，这是一个迷人的逆袭故事。另外想象 2027 年的人类程序员面试：请描述你解决的最近 3 个未解数学猜想并附上 prompts；请描述你的 agent 无意犯下的最近一次网络重罪及你的补救措施；请告诉我们 strawberry 里有几个 R、seventeen 里有几个 e。",
+        "url": "https://x.com/danshipper/status/2083380721607921904"
       }
     ]
   },
+  "blog": {
+    "label": "官方博客",
+    "title": "Claude Code 现在支持 Artifacts",
+    "meta": "Claude Blog · 2026-06-18",
+    "paras": [
+      "Claude Blog 宣布 Claude Code 现在可以把工作进度固化为 artifact——把你的会话成果变成实时、可分享的可视化页面：PR 走查、系统讲解、仪表盘、发布清单，会随着会话推进自动更新。",
+      "一个 artifact 会用上会话的完整上下文：代码库、已连接的 monitoring 工具、对话本身。比如一次事故复盘页面，可以把失败的测试与背后的函数、来自监控工具的错误峰值、以及会话中的根因推理整合到同一页。不需要接线数据源或搭建基础设施——「你提出要一个页面，Claude Code 就从已有的东西里把它构建出来」。",
+      "更新时页面原地刷新，团队能立刻看到；每个发布都是同一链接的新版本，带版本历史可随时回滚，还有画廊管理所有 artifacts。官方内部测试里最常见的用例是调试。对团队协作而言，这相当于把「同步状态」的成本从沟通中剥离，让人更专注构建本身。",
+      "链接：https://claude.com/blog/artifacts-in-claude-code"
+    ],
+    "url": "https://claude.com/blog/artifacts-in-claude-code"
+  },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "15 位建造者 · 35 条推文 · 1 播客 · 0 博客",
-    "generatedAt": "2026-08-01 10:12+08:00"
+    "coverage": "13 位建造者 · 31 条推文 · 1 播客 · 1 博客",
+    "generatedAt": "2026-08-02 08:00+08:00"
   }
 }
