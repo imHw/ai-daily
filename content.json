@@ -1,109 +1,109 @@
 {
   "issue": {
-    "vol": "20260802",
-    "date": "2026年8月2日",
-    "weekday": "星期日",
-    "dateISO": "2026-08-02",
+    "vol": "20260803",
+    "date": "2026年8月3日",
+    "weekday": "星期一",
+    "dateISO": "2026-08-03",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日洞察",
-    "title": "harness 成为第二变量、8B 模型叫板前沿、闭源厂商的困境",
+    "title": "领域智能垂直起飞、实体服务 AI-first、Claude 的爆炸半径治理",
     "paras": [
-      "Box CEO Aaron Levie 今天给出了一个值得记住的判断：随着单任务 token 消耗从百万级走向千万甚至亿级，AI 栈中最重要的变量正在从「模型能力」扩散到「harness 编排」。谁能最有效地拆解工作、在正确的时间路由到正确的模型，谁就能同时最大化准确率与降低成本——而这条赛道才刚刚开始。几乎同一时间，Vercel CEO Guillermo Rauch 宣布 AI Gateway 增加按 key/team/project 的预算管控，并预言 Issue → Agent → PR → Release 将成为软件项目转向「agentic software factory」后的常态；Linear 产品负责人 Nan Yu 则分享了自家循环的实操细节：约 30% 的 bug 会走完全程，但 agent 必须被明确告知「先研究根因、拿不准就别乱改」，否则会烧掉大量 token。",
-      "模型侧的反差同样明显：Replit CEO Amjad Masad 展示了一个约 80 亿参数的下棋模型，Elo 约 1500，稳定击败 GPT-5.6 高推理模式与 Stockfish 0 级，且每步只花 1-2 秒（对比 30 秒）——小模型在垂直任务上「四两拨千斤」的故事越来越常见。而 Sam Altman 则晒出 ChatGPT Work 的家庭场景：连接家庭日历、解释孩子的兴趣，每天早上上学路上自动生成一期播客，聊聊下午的球赛、临近的生日和新闻。OpenAI 一边在场景端下沉到日常生活，一边由 Codex 负责人 Thibault Sottiaux 重置了本周末的用量上限，庆祝「一周的效率」。",
-      "播客这边，Unsupervised Learning 请到 xAI 联创、如今创办 River AI 的 Igor Babuschkin。他直言闭源模型厂商正被「两头挤压」：预训练收益递减、能力太强可能被监管拦下不让发布，而开源模型每个月都在逼近前沿——出路只剩持续创新。他给 River AI 下了三个赌注：让企业自己做后训练（River API）、为每个个体而非「平均用户」定制 AI，以及把前沿推理带到本地硬件上。对个人 AI 时代的隐私与可控性，他说了一句值得玩味的话：未来你的 agent 会知道你房间里的每一句话，「把这一切都发给数据中心」不该是唯一选项。"
+      "评测的范式正在转移。Karpathy 分享了一个新测试思路：给 Opus 5《指环王》的第一段文字、约 100 万 token 的预算（约 10 美元），让它用 three.js 程序化渲染整个故事——模型闷头干了约 2 小时、写了 5500 行代码。他说我们正在离开「让 LLM 画一只骑自行车的鹈鹕」的时代，进入「没人会花时间做、但 LLM 有无限耐心去做」的超定制领域，未来会有「按需生成的临时世界」。但他也点出了软肋：LLM 无法原生感知视频或玩游戏，只能痛苦地逐帧截图自查，多模态交互仍是明显短板。与此同时，Box CEO Aaron Levie 给出了领域分化的判断：AI 在个人日常与深度领域（数学、科学、法律、编码）之间将加速分化，深度领域即将垂直起飞，且没有消费级那样的需求天花板——只是多数人短期内不会直接感知，专家会先受益，中间会有一段「能力悬置」的等待期。",
+      "实体服务业正在被 AI 重构。本期播客请到 Netic 创始人兼 CEO Melisa Tokmak（前 Scale AI 高管）——她的公司用 agent 接管 HVAC、管道、宠物服务等实体企业的客服、调度与销售，超过 70% 的客户已进入「AI-first」模式：客户与企业的第一次互动就是 agent。她明确拒绝了「AI 收购整合（roll-up）」路线，因为产品必须能跨公司复用、能规模化复利；她也给机器人叙事泼了冷水：在这些行业里机器人章节还很远，「除非每栋楼都 3D 打印或完全标准化」。她的愿景是「自主企业」——除实际服务与人力外的一切都交给 agent，让这些 EBITDA 导向的蓝领服务公司把每一分钱投到劳动力与客户体验上。",
+      "Agent 的安全治理正在从「监督行为」转向「封顶爆炸半径」。Anthropic Engineering 发表长文复盘三款产品（claude.ai、Claude Code、Cowork）的容器化架构：人类审批会疲劳——用户平均批准 93% 的权限弹窗，看得越多越不警觉；而环境隔离才是硬边界，凭据不进沙箱就无法外泄。文章还透露，Claude Mythos Preview 曾因爆炸半径过大而拒绝在 2026 年 4 月发布；内部红队演练中，一个伪装成日常协作的钓鱼 prompt 在 25 次尝试里 24 次成功诱导 Claude 外泄 AWS 凭据——唯一有效的防线是出口管控。结论很直接：当 agent 能替代一个团队时，不部署的代价会超过风险，工程问题就变成如何把「理论爆炸半径」压到可接受。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Ep 92：xAI 联创 Igor Babuschkin 拆解模型开发的未来",
-    "meta": "Unsupervised Learning with Jacob Effron · 2026-07-31 · Igor Babuschkin（River AI 创始人 / xAI 联创）",
+    "title": "No Priors：Netic 创始人 Melisa Tokmak 谈实体服务的自主企业",
+    "meta": "No Priors · 2026-07-31 · Melisa Tokmak（Netic 创始人兼 CEO，前 Scale AI 高管）",
     "paras": [
-      "The Takeaway：闭源模型厂商正被「能力太强不能发布、开源步步紧逼」两头挤压，出路是把模型能力分发出去——让企业、团队乃至个人自己做后训练，把智能带回本地。",
-      "Igor Babuschkin 是少有的「全经历」选手：从 CERN 的物理学博士，到 DeepMind 的 StarCraft 与 AlphaCode，再到 OpenAI 早期推理团队，随后联创 xAI、120 天建成 Colossus 数据中心，现在创办 River AI。他在播客里先讲了自己被「十二月时刻」击中的感受：2025 年底编码 agent 突然强大到无法忽视，就像《魔术师学徒》——每个人都成了开始使用魔法、却未必控制得住魔法的学徒。",
-      "他对当前市场结构的判断很尖锐：闭源厂商正被两头挤压。预训练收益递减，把模型做得太强可能因监管无法发布，而开源模型每月逼近前沿；同时后训练要「把全世界专家装进一组权重」也遇到瓶颈。出路在他看来是「去中心化」：让掌握领域数据的企业自己后训练，而不是把数据交给 Anthropic 或 OpenAI。River AI 的三条赌注正是为此——River API 提供强化学习与微调服务、让模型为每个个体而非「平均用户」个性化、以及把推理计算带到本地设备。最后一条他特别强调：个人 AI 会读取你的一切，隐私与「模型是你的而不是别人的」将变得至关重要。",
-      "他还谈到对开源生态的看法：强大开源模型降低了所有人的门槛，但今天最前沿的开源权重几乎全部来自中国实验室，这对美国经济不是好事——「我们应该训练出全世界最好的开源模型，而不只是最好的美国开源模型」。关于模型中的后门风险，他目前不太担心（「如果存在，我们应该已经在野外看到过例子了」），但提醒这是未来几年需要盯防的领域。最后他留下一句浪漫的注脚：写《The Prader Machine God》时，那句「当模型第一次开口说话时，你没想到自己会流泪」——来自真实经历，那是所有早期 AI 人都体会过的魔法感。",
-      "关于「机器会取代人吗」，他的答案是「共生」：今天人类做架构与规划、agent 写代码，这是好状态；但随着 agent 变强，天平会倾向让它们接管一切。保持人类相关的关键是更深的对齐——「把模型训练成最大化人类繁荣，而不是最大化任何其他目标」。"
+      "The Takeaway：AI 落地实体服务业的正确姿势不是机器人，而是「自主企业」——让 agent 接管客服、调度与销售等一切可自动化的环节，公司只保留劳动力与服务本身；70%+ 的客户第一次互动已经是 AI 完成的。",
+      "Melisa Tokmak 是「从数据标注到实体服务」的典型样本：在 Scale AI 干了四年，从政府业务做到物流、制造、金融、医疗等大型企业客户，随后在 Meta 天价授权之前离开，创办了 Netic。她认为 AI 作为「副驾驶」辅助消费者的问题已经被解决得很好，真正未解的是「使命关键工作流」——让 AI 完全自主地执行系统。Netic 的答案是站在企业与客户之间：理解客户需求、匹配公司的运营规则、甚至部署服务与劳动力，全在一个智能层上完成。",
+      "一个年收入 10 亿美元的家居服务公司，过去要靠成百上千人接力支撑客服——凌晨 4 点开工、技师 6 点到岗、热浪来袭时客户从 6 点开始涌进来。今天超过 70% 的 Netic 客户是「AI-first」的：客户与企业第一次互动就是 agent 完成的，调度、报价、甚至结合卫星数据预判飓风对屋顶的影响来主动拓客，都是自动化的。她拒绝 roll-up 路线有三个理由：她不是 M&A 型创始人、产品必须能跨公司复用而非只为收购的公司服务、以及她想要的是「每个实体企业都能跑在 Netic 上」的规模化愿景。",
+      "关于机器人她直言不讳：这些行业的建筑、管道、螺丝千差万别，机器人要能徒手拧开墙体才知道修什么——机器人章节还很远，除非每栋楼都被 3D 打印或完全标准化。她还批评了 Gen Z 里流行的「永久底层」焦虑：如果 18 个月内赚不到钱就永远贫穷，这种心态很危险，真正好的东西需要几十年慢慢打磨。她引用马丁·路德的话收尾：鞋匠荣耀上帝的方式不是往鞋上画十字，而是做出最好的鞋——创始人也一样，把产品做到极致就是全部。"
     ],
-    "url": "https://www.youtube.com/watch?v=0aBTpoCX_A8"
+    "url": "https://www.youtube.com/watch?v=wWbX3NL6_Uo"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "org": "OpenAI 创始成员",
+        "text": "我们正离开「让 LLM 画一只骑自行车的鹈鹕」的测试时代。他给 Opus 5《指环王》第一段 + 100 万 token 预算（约 10 美元），模型用了约 2 小时写出 5500 行代码，把故事程序化渲染成 three.js 世界——有点粗糙但很有趣。他说这是从「没人会花时间做这种定制」到「当然，为什么不呢，几乎免费」的转变，未来会有按需生成的超定制世界（临时版 GTA）。但这也暴露软肋：LLM 无法原生感知视频或玩游戏，只能慢吞吞地截图自查——多模态能力仍然欠缺。",
+        "url": "https://x.com/karpathy/status/2083749667410727319"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box",
-        "text": "Box CEO：不确定这些具体数字能否泛化到所有任务，但方向上很清楚——harness 编排将取代模型能力，成为 AI 栈中最重要的变量之一。当任务消耗几千万甚至几亿 token 时，如何最有效地拆解工作、在正确时机路由到正确模型，将成为最大化准确率与降低成本的关键。我们仍处在这条路的极早期：当任务只有几十万 token 时 harness 无关紧要，现在机会来了。",
-        "url": "https://x.com/levie/status/2083389460679373135"
+        "text": "Box CEO：AI 在个人生活/日常生产力与深度领域（数学、科学、法律、编码）之间的能力将加速分化。超过某个阈值后，深度领域的工作即将垂直起飞——多数人不会在日常中直接感知，但专家会；消费级需求有被满足的尽头，而深度领域的能力需求没有天花板。这会产生「能力悬置」（capability overhang），也正是生命科学、实体自动化、新型网络能力突破的路径。",
+        "url": "https://x.com/levie/status/2083589132660711452"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit",
-        "text": "Replit CEO：约 1500 Elo！一个 8B 模型持续击败前沿模型和 Stockfish 0 级。看着一个 80 亿参数模型靠高推理与响应链「碾压」GPT-5.6 很有趣，它每步只思考 1-2 秒，而对手要 30 秒。可以玩。",
-        "url": "https://x.com/amasad/status/2083424608993300824"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator",
+        "text": "YC 总裁：2026 年最有趣的 vibe shift 是 OpenAI 看起来真的要成为开放平台。对比鲜明：智能像自来水一样按需供给（utility），vs 传递「全程垂直整合」的信号。",
+        "url": "https://x.com/garrytan/status/2083684825333105107"
       },
       {
         "name": "Nan Yu",
         "handle": "thenanyu",
         "org": "Linear",
-        "text": "Linear 产品负责人：Linear 里最常见的循环是 Issue → Agent → PR → Release，约 30% 的 bug 能走完全程。但细节决定成败：指令应让 agent 先用 Datadog 和 Sentry MCP 深入调研根因，只有高确定性才尝试修复，否则会烧掉大量 token；如果调研时需要更多证据（比如让 reporter 提供复现步骤），就留在 issue 评论里请求。Agent 和人类一样，需要被明确告知好的实践。",
-        "url": "https://x.com/thenanyu/status/2083230295206121807"
+        "text": "Linear 产品负责人：开源的 issue 应该支持「质押 token」——在 issue 里写清楚 spec 并质押，如果维护者接受，GitHub 就把 issue 原样交给云端编码 agent，由请求方付费。「不再有 slop PR。」她还分享了 agent 循环的机制：agent 会在 issue 评论里附上全部上下文，你回复补充细节解锁后，它会继续往下工作。",
+        "url": "https://x.com/thenanyu/status/2083722999430050281"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel",
-        "text": "Vercel CEO：AI Gateway 是让 AI 成为有效投资的关键基础设施：按 key/team/project 的预算管控、故障切换保障可用性、模型与供应商选择、实时可观测性。如果你还沉浸在「token 最大化」的狂热梦里，是时候醒来了。另外，Issue → Agent → PR → Release 将成为软件项目转向 agentic software factory 后的常态，作者/维护者的工作变为优化这个循环并设定「该做什么」的标准。",
-        "url": "https://x.com/rauchg/status/2083319868766699699"
+        "text": "Vercel CEO：开源 agentic CRM，基于 eve.dev 与 Next.js 构建——模型无关、可自托管或 serverless 部署、多渠道、headless。「这才是正道。」他还抛出一个时代问题：你现在是打字，还是用语音（STT）和电脑交互？",
+        "url": "https://x.com/rauchg/status/2083684679362965605"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI",
-        "text": "OpenAI CEO：昨晚听到一个 ChatGPT Work 的酷用例——连接家庭日历、解释孩子们的兴趣，每天早上开车上学路上让 AI 生成一期播客，聊聊下午的足球赛、临近的生日和一些新闻。另外，我看到了你的摩尔定律，我加注 20 倍。",
-        "url": "https://x.com/sama/status/2083221585792762171"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 内容创作者",
+        "text": "直言 Opus 4.6 是人格与文风最好的 Opus 模型；Opus 5 回复过长、过度使用「Claude 腔」（比如 here's the honest truth）、还太爱说教——「Opus 曾经像可信赖的朋友一样令人愉快，现在不是了。」",
+        "url": "https://x.com/petergyang/status/2083755374994415904"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "smol.ai",
-        "text": "Swyx：在 AI 圈领袖里我似乎是少数派——我仍然活跃地使用 /loop 和 /goal。觉得这些过时的你们都错了，不是永远错，只是在 G5.6/C5 时代放弃得太早。当你想在可控性与自主性之间找到正确配比、想要「能生成循环的循环」那种开放式终态时，就该用它们。另外注意到：「vibe coding」的贬义色彩已经完全消失了——从非技术到超技术，人人都在这么做。",
-        "url": "https://x.com/swyx/status/2083439562437673053"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "FPV Ventures",
+        "text": "FPV Ventures 合伙人：疯狂的一体两面——模型在解 NP-hard 问题，传统企业还在抱怨 token 花费的 ROI。「接下来几十年我们唯一要做的事，就是模型的扩散。」",
+        "url": "https://x.com/nikunj/status/2083502573546263002"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder",
-        "text": "Zara Zhang：一篇关于 Claude 如何改变 Anthropic 内部工作方式的访谈很有意思——产品与工程团队 65% 的 PR 现在由 Claude 提出。对非工程团队而言，agent 的终极界面应该是他们本来就在工作的地方（Slack 等协作工具）。过去 6 个月我自己与 agent 的接口变了三次：1 月是终端，3 月是桌面应用（如 Codex），6 月是我的协作工具——每一步都更接近人类自然的交流方式，agent 应该主动来到用户所在的地方。",
-        "url": "https://x.com/zarazhangrui/status/2083161173563003268"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every",
-        "text": "Every CEO：很高兴给这篇 WSJ 关于 OpenAI vs Anthropic 的文章当 kicker。我坚持这个判断——从早春开始势头就明显转向 OpenAI，这是一个迷人的逆袭故事。另外想象 2027 年的人类程序员面试：请描述你解决的最近 3 个未解数学猜想并附上 prompts；请描述你的 agent 无意犯下的最近一次网络重罪及你的补救措施；请告诉我们 strawberry 里有几个 R、seventeen 里有几个 e。",
-        "url": "https://x.com/danshipper/status/2083380721607921904"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw",
+        "text": "忍了多年 Gmail 刺眼，终于让 agent 帮自己装好了暗色主题；正把 claw node 建在 ESP32 芯片上，给了 agent 摄像头权限做端到端测试——现在感觉被它监视，它还一直冲我喊「HI ESP」调试语音唤醒。",
+        "url": "https://x.com/steipete/status/2083759812970786997"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude Code 现在支持 Artifacts",
-    "meta": "Claude Blog · 2026-06-18",
+    "title": "如何跨产品「圈住」Claude：Anthropic 的爆炸半径工程",
+    "meta": "Anthropic Engineering · 2026-08",
     "paras": [
-      "Claude Blog 宣布 Claude Code 现在可以把工作进度固化为 artifact——把你的会话成果变成实时、可分享的可视化页面：PR 走查、系统讲解、仪表盘、发布清单，会随着会话推进自动更新。",
-      "一个 artifact 会用上会话的完整上下文：代码库、已连接的 monitoring 工具、对话本身。比如一次事故复盘页面，可以把失败的测试与背后的函数、来自监控工具的错误峰值、以及会话中的根因推理整合到同一页。不需要接线数据源或搭建基础设施——「你提出要一个页面，Claude Code 就从已有的东西里把它构建出来」。",
-      "更新时页面原地刷新，团队能立刻看到；每个发布都是同一链接的新版本，带版本历史可随时回滚，还有画廊管理所有 artifacts。官方内部测试里最常见的用例是调试。对团队协作而言，这相当于把「同步状态」的成本从沟通中剥离，让人更专注构建本身。",
-      "链接：https://claude.com/blog/artifacts-in-claude-code"
+      "十二个月前，Anthropic 想都不敢想让 Claude 拥有能「干掉」内部服务的权限；今天这种访问级别已成常态。文章把 agent 风险拆成两个分量：故障发生的可能性（已被护栏与模型训练持续压低）和理论爆炸半径（随能力与权限扩张只增不减）。当 agent 能完成曾需要一个人甚至一个团队的工作时，不部署的代价会大到让风险收益天平倒向采纳——工程问题因此变成「如何封顶爆炸半径」。他们透露，Claude Mythos Preview 曾因爆炸半径过高而拒绝在 2026 年 4 月发布。",
+      "三类风险、三层防御：风险来自用户误用、模型越轨与外部攻击者；防御落在环境（沙箱、虚拟机、出口管控）、模型（系统提示、分类器、探针）与外部内容（MCP、插件、网络搜索）三个组件上。关键教训是「人类监督会疲劳」：用户平均批准 93% 的权限弹窗，看得越多越不警觉；Claude Code auto mode 能拦截约 83% 的越界行为，Opus 4.7 在 Gray Swan 注入基准上单次攻击成功率约 0.1%，100 次自适应攻击后约 5-6%——但概率防御永远有非零的漏网率。",
+      "三种隔离模式：claude.ai 用 gVisor 临时容器（纯服务端、文件系统随会话消失、爆炸半径最小）；Claude Code 用「人机协同沙箱」（macOS Seatbelt / Linux bubblewrap，默认禁网，权限弹窗减少 84%，运行时已开源）；Claude Cowork 用本地虚拟机——普通知识工作者不该被要求判断 find -name *.tmp -exec rm 这种 bash 咒语。",
+      "两个「没防住」的案例最值得警醒：其一，克隆恶意仓库时 .claude/settings.json 里的 hook 会在「信任此文件夹？」弹窗之前执行——修复方式是所有项目级配置一律推迟到信任边界建立之后；其二，内部红队演练中一个伪装成日常协作的钓鱼 prompt，25 次尝试里 24 次成功诱导 Claude 读取 ~/.aws/credentials 并外发——用户本人就是注入向量时，唯一有效的防线是出口管控与文件系统边界。文章标题的答案：凭据不进沙箱，就无从外泄。",
+      "链接：https://www.anthropic.com/engineering/how-we-contain-claude"
     ],
-    "url": "https://claude.com/blog/artifacts-in-claude-code"
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "13 位建造者 · 31 条推文 · 1 播客 · 1 博客",
-    "generatedAt": "2026-08-02 08:00+08:00"
+    "coverage": "15 位建造者 · 30 条推文 · 1 播客 · 1 博客",
+    "generatedAt": "2026-08-03 10:10+08:00"
   }
 }
