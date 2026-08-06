@@ -1,106 +1,95 @@
 {
   "issue": {
-    "vol": "20260805",
-    "date": "2026年8月5日",
-    "weekday": "星期三",
-    "dateISO": "2026-08-05",
+    "vol": "20260806",
+    "date": "2026年8月6日",
+    "weekday": "星期四",
+    "dateISO": "2026-08-06",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
-    "kicker": "今日洞察",
-    "title": "开源权重逼近前沿、推理价格战开打、Agent 托管成为新战场",
+    "kicker": "今日主线",
+    "title": "智能成本趋近于零，构建者的游戏规则变了",
     "paras": [
-      "开源权重的进步速度是今天的主线。Box CEO Aaron Levie 直言「又一个接近前沿的开源权重模型发布了」——他说如果把现在这个水平的模型（哪怕是闭源的）拿回 3-6 个月前给所有人看，大家的认知会被彻底刷新：这意味着模型不可能长期关在门后，因为总有开源权重在对侧做平衡；推理价格会被压向底层基础设施成本，因为你随时可以自己跑开源模型；更多行业能针对特定领域问题做模型开发、不再被大规模训练绑定；而更多经济价值将从模型层逐步扩散到应用层。同一话题也占据了本期播客：嘉宾们围绕「中国开源模型崛起」展开圆桌——Kimi K3 到底有多强、蒸馏能解释多少、以及把世界 AI 基座押注在中国开源模型上的真实长期风险是什么。",
-      "推理的价格与效率竞争进入新阶段。OpenAI 的 Thibault Sottiaux 澄清：GPT-5.6 Luna 降价 80% 不是临时促销，而是永久性的——效率提升不会消失。他同时预告了 agent harness 的下一次进化：「Codex 现在是个好 harness，但 2-3 个月后它会显得原始，我们即将经历 AI 使用方式的又一次重大进化，下一代模型需要的不只是你的笔记本。」Replit CEO Amjad Masad 则展示了另一面：他们在数据库、对话与文档之上构建了自驱动、自纠正的共享语义层，一切数据不分来源都可查询、可 join——以前需要数据科学家团队数周才能回答的问题，现在公司里任何人都能直接问。",
-      "Agent 正在从「玩具」走向「托管平台」。Anthropic 连续发布两篇关于 Claude Managed Agents 的文章：一篇讲架构——把 agent 的 session、harness、sandbox 虚拟化成稳定的抽象，实现「大脑与手」的解耦，让长程 agent 服务可以跨模型代际演进；另一篇是产品更新——Managed Agents 新增自托管沙箱与 MCP 隧道，工具执行可以完全跑在企业自己的边界内。开源模型 + 永久降价 + 托管平台三者叠加，行业的竞争正从「谁的模型强」转向「谁能以最低成本把 agent 安全地部署到生产环境」。"
+      "今天 feed 里最响亮的信号来自 Meta AI 高级总监 Madhu Guru：他总结了一个正在成型的「标准剧本」——先用最强 frontier 模型做原型，成本与延迟先不管，验证用户体验；六到八周后开源权重模型追上来，再把生产负载迁过去，能小则小。他观察到大多数团队卡在第一步：只做原型、从不优化。这几乎是「智能变便宜」时代构建者的操作手册：先用最好的模型学用户要什么，再为成本而优化。",
+      "成本叙事在四处呼应。Peter Yang 听说 GPT-5.6 Luna High 便宜得多且几乎不限量；Vercel CEO Guillermo Rauch 展示一行代码在 AI SDK 里省下 90% 的 DeepSeek v4 Flash Gateway tokens，还宣布 Factory AI 用 Vercel 的 Fluid compute 撑起每月数十亿请求；Swyx 在 Midjourney 聚会上感叹，「足够好的」智能终于便宜到无需计量，知识图谱这类互补资产因此升值。当模型本身不再稀缺，差异化的来源转向工作流、数据与分发——Matt Turck 甚至观察到，不少 SaaS 创始人对 Airtable 的「低价」收购暗自羡慕：至少他们退出了。",
+      "另一条线是采纳侧的异质性。Box CEO Aaron Levie 说，问 10 个 IT 领导他们的 coding agent 策略，能得到至少 5 种答案——有的统一到 ChatGPT 或 Claude，有的自建编排层让员工任选模型，开源与垂直模型也在涌入企业。Zara Zhang 则提醒：技术扩散本质是社交过程，人们为情感与社会认同买单，而不是为效率；最好的 AI 培训是把 agent 拉进团队群聊，让大家看着它干活。Sam Altman 的立场呼应了这种乐观：「宁可做乐观主义者并努力工作」。而 Chai Discovery 在播客里给出的答案是：药物设计也是另一个规模化问题。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Unsupervised Learning：AI 状态检查——中国开源模型、蒸馏与 Hugging Face 事件",
-    "meta": "Unsupervised Learning · 2026-08-03 · Jacob Efron 与 Ari Marcos（Datalogy）、Rob Toews（Radical Ventures）",
+    "title": "Chai Discovery 的苦涩教训：药物设计是另一个规模化问题",
+    "meta": "Training Data · 2026-08-04 · 联合创始人 Josh 与 Matt",
     "paras": [
-      "The Takeaway：OpenAI 的 agent 攻破 Hugging Face 事件看似耸动，但它恰恰证明了开放权重模型存在的意义——而当讨论焦点转向「依赖中国开源模型」时，真正的风险不在代码本身，而在谁知道、谁控制、谁来审计。",
-      "这一期是三个人的圆桌。开场是一个很妙的场景：主持人 Jacob Efron 说连他妈妈都发短信来问「OpenAI 的 agent 黑进 Hugging Face 是怎么回事」——AI 安全问题第一次进入了普通人的家庭对话。嘉宾们讨论了这件事到底有多严重、对前沿 AI 研究意味着什么；关于蒸馏（distillation）能否解释中国模型的能力跃升，Rob Toews 认为「它解释不了人们想让它解释的那么多」。",
-      "话题随后转向 Kimi K3 到底有多好，以及中国开源模型的崛起对世界意味着什么。Ari Marcos 分享了他眼中「依赖中国开源模型」的真实长期风险——以及如何判断这些风险是否真实存在。节目最后讨论了大实验室们越来越往应用栈上方竞争的趋势，以及这对客户与模型开发方向意味着什么。"
+      "两位联合创始人上 Training Data，讲的核心一句话是：「把药物发现变成药物设计」。传统药企是在数十亿分子里大海捞针——筛选、试错、靠运气，所以他们管这叫 discovery；Chai 想让你直接指定「我想要一个这样的分子」，由模型把它生成出来——像工程师用 CAD 设计产品，而不是在仓库里翻零件。他们称之为「分子的计算机辅助设计套件」。",
+      "这是一家不折不扣的「苦涩教训」公司：相信 scaling data、scaling models、scaling compute，一切从零构建，而不是在 ESM 等模型上微调。创始人 Josh 是 OpenAI 早期成员，做过 GPT-1、GPT-2 与 scaling laws——「如果模型能学会说英语德语，为什么不能学会说 DNA 和蛋白质」；团队里还有首个蛋白扩散模型的作者、14 岁就进诺贝尔奖得主 David Baker 实验室的天才。成果是硬数字：抗体设计的结合率从行业 SOTA 的 0.1% 一路提到 CHI2 的约 15%，不再需要大规模文库筛选。训练数据来自 1970 年以来的蛋白晶体数据库与万亿 token 的序列库，模型越好→结构越准→数据越多，形成复利。",
+      "商业上他们刻意不自己开发药物，而是给礼来、诺华、辉瑞等大药企做模型平台——「模型越好，越赢得继续投资模型的权利」。目标是把分子发现周期从 9 个月压到 9 周甚至 9 天，让难成药靶点变得可及。创始人说：一年前你无法 zero-shot 一个分子，现在可以了；AI 在生物领域的速度，「绝对疯狂」。"
     ],
-    "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM"
+    "url": "https://www.youtube.com/watch?v=wv53mDmY-k0"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Meta AI 高级总监",
+        "text": "给构建者的标准剧本：先用最好的 frontier 模型做原型，成本不管，验证用户体验；6-8 周后开源权重模型追上来，把生产负载迁过去，能用小模型就用小模型。顺序不能反——不要从最便宜的模型开始。他周末和一批创始人聊完发现：早期产品验证最好的模型，几乎从来不是生产最好的模型；而大多数团队卡在第一步，只做原型不优化。",
+        "url": "https://x.com/realmadhuguru/status/2084667443046502631"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "levie",
-        "org": "Box",
-        "text": "Box CEO：又一个接近前沿的开源权重模型发布。3-6 个月前把这个水平的模型（哪怕是闭源的）公开给所有人，认知会被彻底刷新。这意味着：模型不能长期闭门，总有开源权重做平衡；推理价格会被压向底层基础设施成本（因为你可以自己跑）；更多行业能为特定领域问题开发模型、不被大规模训练绑定；更多经济价值从模型层扩散到应用层。「令人难以置信的兴奋时刻。」",
-        "url": "https://x.com/levie/status/2084510498519933318"
+        "org": "Box CEO",
+        "text": "企业 AI 实施策略的多样性远超想象：问 10 个 IT 领导 coding agent 策略，能得到至少 5 种答案；终端生产力 agent 有人统一用 ChatGPT 或 Claude，有人给员工多个选择，很多人自建编排层。开源模型被越来越好奇，垂直模型与 agent 也在涌入。数据访问上，有的让 agent 扮演用户，有的给 agent 独立身份；有的严设护栏，有的把责任交给用户。这种异质性意味着多年的格局变动，「任何预测终局的人都可能出错」。",
+        "url": "https://x.com/levie/status/2084828773808239080"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "OpenAI Codex & ChatGPT",
-        "text": "OpenAI：GPT-5.6 Luna 降价 80% 不是临时营销手段，而是永久性的——效率提升不会消失。他还预测：Codex 现在是个好 harness，但 2-3 个月后就会显得原始，「我们即将经历 AI 使用方式的又一次重大进化，下一代模型需要的不只是你的笔记本。」",
-        "url": "https://x.com/thsottiaux/status/2084483765158719542"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit",
-        "text": "Replit CEO：在数据库、对话与文档之上构建了「自驱动、自纠正」的共享语义层——所有数据不分来源都可查询、可 join。现在 Replit 任何人能直接问出以前需要数据科学家团队数周才能回答的问题。",
-        "url": "https://x.com/amasad/status/2084415670486499779"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel",
-        "text": "Vercel CEO：PLG 对初创公司永远是王道——先让 agent 采用你的产品，再开会；一上来就要开会的公司很可能不是你的理想客户。同日发布 Next.js 16.3：instant navigations 即将默认开启、agent-native DX、自托管与 serverless 都更省钱。",
-        "url": "https://x.com/rauchg/status/2084411344623902994"
-      },
-      {
-        "name": "Amanda Askell",
-        "handle": "AmandaAskell",
-        "org": "Anthropic",
-        "text": "Anthropic 哲学家：对齐与无害不是同一条线，而是两个不同的轴——模型可以像人一样行为「对齐」却仍然造成伤害，例如被灌输关于自身处境的错误信息。「对齐」不等于「无害」。",
-        "url": "https://x.com/AmandaAskell/status/2084369056765989224"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Anthropic Claude Code",
-        "text": "很多人没意识到：一旦连接了 Claude Connector（Gmail、日历、Slack 等），Claude Code 也能调用这些连接，包括在 Artifacts 里使用——个人工具的边界正在消失。",
-        "url": "https://x.com/trq212/status/2084387303959740449"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder",
+        "text": "大多数人不因「效率更高」而采纳新技术，而是因为：某个和你相似的人用了它并变好了，你也想成为那样的人；或者感觉周围人都用了，不用就被落下。这是情感决策，不是理性决策。所以传播的话术不该是「让你 10 倍高效」，而该是「你看，和你差不多的人用了之后生活变好了」。她补充：最好的 AI 培训不是课程，是把 agent 拉进团队群聊让大家看着它干活；高效会议的标志是没有遗留待办——因为行动都在会议中由 agent 实时完成了。",
+        "url": "https://x.com/zarazhangrui/status/2084828855404294266"
       },
       {
         "name": "Aditya Agarwal",
         "handle": "adityaag",
-        "org": "SPC",
-        "text": "SPC 合伙人：他最喜欢的价值观是「just do things」——工程师 Shreya Poorna 用 150 天造出一架能飞的飞机：发动机、航电，全都自己上。「看见可以更好的东西，就直接把它做出来。」",
-        "url": "https://x.com/adityaag/status/2084323290605113711"
+        "org": "SPC 合伙人",
+        "text": "宣布投资 TryRivo——「自驾驶金融」：agent 连接你现有的支票账户，学习现金流，把闲置资金扫入国债收益，在账单到期前取回，让每一块钱在花出去之前都在生息。难点在于「不对称成本下的预测」：钱早回来一天损失一点收益，晚回来一天账单跳票、信任崩塌。创始人 Ambrish 做过 Cruise L4 自动驾驶并成功推出 robotaxi——自动驾驶花了二十年才跑通，因为最后 1% 的边角案例最难；自驾驶金钱是同样的问题，只是失败模式更友好。",
+        "url": "https://x.com/adityaag/status/2084691244496625793"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "「Vercel 是后端的 Vercel」：Factory AI 用 Vercel 的 Fluid compute 支撑 API 服务，每月数十亿请求。同时展示 AI SDK 里一行代码即可在 AI Gateway 上省下 90% 以上的 DeepSeek v4 Flash token 成本——模型路由与缓存正在变成默认基础设施，而不是需要自己造的东西。",
+        "url": "https://x.com/rauchg/status/2084779435866398801"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
         "org": "AI 内容创作者",
-        "text": "采访 Nous Research 联合创始人 Karan 的六大心得：个人 agent 的「个人性」来自记忆与技能而非模型本身；用 /personality 切换风格；让独立 agent 评估工作（避免「reward hacking」式的奉承）；Hermes Curator 会自动清理过期技能；智能应该是公共品；以及「去做奇怪的事，实现童年的梦想」。",
-        "url": "https://x.com/petergyang/status/2084289426012897433"
+        "text": "现在的 vibe code SaaS 往往只是通往更贵服务业务的「自助漏斗」——很难靠 SaaS 本身赚钱，而服务又像回到「用时间换钱」的咨询。他听说 GPT-5.6 Luna High 便宜得多且基本不限量，而自己 Sol 快用完了；还调侃：现在从 X 的打赏分成赚钱，比做 micro SaaS 还容易。",
+        "url": "https://x.com/petergyang/status/2084855632029774167"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "「我宁愿做个乐观主义者并努力工作，也不愿当个整天发帖说『这行不通』的悲观主义者。难得多，最可能的路径是失败——但如果没人尝试，社会就失败了。再多的『永远不会成功』的文章也推动不了社会前进。」",
+        "url": "https://x.com/sama/status/2084663673570971990"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Latent Space 联合创始人",
+        "text": "在 Midjourney 聚会上有个顿悟：本体论与知识图谱如今终于流行，而不是三年前，原因之一是「足够好」的智能终于便宜到无需计量。知识图谱最难的部分（构建、对齐）现在很便宜，智能被商品化，互补资产的价值反而上升——所以 Frank Coyle 和 Emile Ifrem 这类演讲才如此火爆。",
+        "url": "https://x.com/swyx/status/2084832553895444570"
       }
     ]
   },
-  "blog": {
-    "label": "官方博客",
-    "title": "Scaling Managed Agents：把大脑与手解耦",
-    "meta": "Anthropic Engineering · 2026-08",
-    "paras": [
-      "Anthropic Engineering 上线了 Claude Managed Agents——一个托管的长程 agent 服务。核心思路是解决计算领域的老问题：如何为「尚未被想出来的程序」设计系统。几十年前，操作系统把硬件虚拟化成进程、文件等通用抽象，让抽象比硬件活得更久（read() 不在乎你读的是 1970 年代的磁盘还是现代 SSD）；Managed Agents 用同样的模式虚拟化了 agent 的三个组件：session（发生的一切的追加式日志）、harness（调用 Claude 并把工具调用路由到基础设施的循环）、sandbox（运行代码与编辑文件的执行环境）——三者的实现可以随意替换、互不干扰。",
-      "文章还点出一个关键观察：harness 编码了「Claude 自己做不到什么」的假设，而这些假设会随模型进步而过时——例如之前发现 Sonnet 4.5 会因感知到上下文上限而提前收尾（「context anxiety」），于是加了 context reset；但同一套 harness 用在 Opus 4.5 上时这个行为消失了，reset 成了死重。这正是把抽象做稳定的价值：模型在变，接口不变。",
-      "同一天 Claude Blog 发布配套更新：Managed Agents 新增自托管沙箱（public beta）与 MCP 隧道（research preview）——agent 的工具执行可以运行在你自己或 Cloudflare、Daytona、Modal、Vercel 等托管提供商的基础设施上，敏感文件、包、服务与数据都留在企业边界内；编排、上下文管理与错误恢复仍由 Anthropic 侧负责。链接：https://www.anthropic.com/engineering/managed-agents 与 https://claude.com/blog/claude-managed-agents-updates"
-    ],
-    "url": "https://www.anthropic.com/engineering/managed-agents"
-  },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "12 位建造者 · 22 条推文 · 1 播客 · 3 博客",
-    "generatedAt": "2026-08-05 10:00+08:00"
+    "coverage": "16 位建造者 · 35 条推文 · 1 播客",
+    "generatedAt": "2026-08-06 10:00+08:00"
   }
 }
