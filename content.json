@@ -1,95 +1,106 @@
 {
   "issue": {
-    "vol": "20260807",
-    "date": "2026年8月7日",
-    "weekday": "星期五",
-    "dateISO": "2026-08-07",
+    "vol": "20260808",
+    "date": "2026年8月8日",
+    "weekday": "星期六",
+    "dateISO": "2026-08-08",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "下一个爆款 AI 产品，将是社交的",
+    "title": "OpenAI 打响消费端总攻：免费无限聊天，agent 全面接管",
     "paras": [
-      "今天最有分量的观点来自播客：Benchmark 合伙人、前 Pinterest 早期员工 Sarah Tavel 断言，ChatGPT 的形态和当年的 Google 一模一样——一个文本框、单机版，由一支意外做出史上最大消费产品的研究实验室打造。她给出一个历史「滑杆」：技术越成熟，话语权从技术天才滑向产品天才——Google 95% 技术，Facebook 多一些产品，到 Pinterest、Snap、Instagram 的 CEO 都是纯产品天才。在她看来，Custom GPTs 与 Gems 是「能力极强但不懂社交的团队做出来的」，真正的机会属于 multiplayer 网络效应产品：由最擅长的人做出好东西，让普通人轻松受益。",
-      "这条产品主线与采纳侧的观察互相印证。Meta AI 高级总监 Madhu Guru 反思 AI 扩散为何缓慢：我们用空白窗口和极客黑话迎接用户——「写个 prompt、选个模型、要不要 agent、懂不懂上下文窗口、推理、MCP、记忆、技能」——可大多数人只想要「把事办了」。他预计 12 个月内会出现那个突破性产品。Google Labs 也在往消费端走：Dreambeans 每日个性化故事扩展到美国 AI Pro 订阅用户。Garry Tan 则补了一句文化判断：AI 检测最终无所谓——银器曾是手工打造，现在没人抱怨叉子是机器冲压的；重要的是想法的质量。",
-      "与此同时，企业侧与基础设施侧没有停下。Box CEO Aaron Levie 说，99% 的 token 最终会在企业语境里被消耗——写代码、梳理生命科学文献、自动化制造、安全、反欺诈。Vercel CEO Guillermo Rauch 晒出「无限 agent 算力」：每分钟 10,000 个并发 agent、5,000 个 CPU 核心，配额还可上调。OpenAI 的 Thibault Sottiaux 推荐在 Codex 里试 /goal 与 GPT-5.6 Sol 的组合。Peter Yang 则发布 /human-review 技能：让 agent 干活之后，人类用可视化编辑器做最后 10% 的打磨——人机协作的分工正在变得清晰。"
+      "今天最响的一声来自 Sam Altman：GPT-5.6 Sol 在聊天场景大幅变强，同时 ChatGPT 免费用户获得无限文本聊天（由 GPT-5.6 Luna 驱动）。OpenAI 团队在 Codex 里已经用行动展示这轮升级的成色——Thibault Sottiaux 说，对着 Codex + GPT-5.6 Sol 口述五分钟那些「看起来要几周才能做完」的事，起身去冰箱拿点吃的、撸撸狗回来，活已经干完了。免费无限 + 更强的模型，消费端战场的弹药又厚了一层。Peter Yang 的判断是：消费级 AI 基本是 ChatGPT 和 Google 的市场，ChatGPT 手握 10 亿用户，关键是把他们接到 agent 上、让 agent 真的去干活。",
+      "模型之外，agent 对软件行业的真实冲击正在被重新定价。Aaron Levie 抓住 Atlassian 的季度大超预期，反驳了半年来「agent 会杀死某些软件品类」的论点——有些领域确实受影响，但很多人把趋势解读过头了，真实世界里的 agent 采纳远没到撼动核心软件的程度。Amjad Masad 则用 Airtable 给「no-code」的兴衰做了个注脚：UI 永远无法构建任意软件，让软件变得人人可用，正解始终是解决代码本身——当年他到处求 Google、Meta 一起训代码模型没人当回事，最后自己训出了 Replit 自己的模型。两条观察指向同一个方向：软件的形态会变，但「软件」这个生意没死，代码与 agent 反而更值钱了。",
+      "与此同时，基础设施与长时程 agent 的方法论都在快速成熟。Vercel 的 Guillermo Rauch 强调 AI 编码 agent 是行业史上最重要的 devtools，而它必须开源、必须可被普遍扩展。Basis 联合创始人 Mitch Troyanovsky 在 MAD Podcast 里给出了一套硬核框架：100 个 eval 全过也不代表能泛化到生产，要用 behavior specs、本体论和过程监督来驯服跑上几小时甚至几天的 agent——他们还因为「说话比写文档快」全员对着麦克风低语给 agent 喂上下文。Claude 则把触角伸进苹果生态：新 Swift 包让 Apple 的 Foundation Models 框架可以直接交接给 Claude 处理多步推理，本地快任务与云端强模型各司其职。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "为什么下一个爆款 AI 产品会是社交的",
-    "meta": "AI & I by Every · 2026-08-06 · Benchmark 合伙人 Sarah Tavel × Dan Shipper",
+    "title": "如何构建长时程 AI Agent：Basis 的行为规范、本体论与过程监督",
+    "meta": "The MAD Podcast with Matt Turck · 2026-08-06 · Basis 联合创始人 Mitch Troyanovsky × Matt Turck",
     "paras": [
-      "Sarah Tavel 的核心论点是：AI 消费产品还停留在「单机版」，而过去所有真正的大赢家都是 multiplayer 的。她拿 ChatGPT 对比 Google——都只是文本框、技术驱动、单机体验；Custom GPTs 和 Gems「看起来像犯罪」：由一支能力极强但不社交的团队做出来，普通人根本不知道从何下手。历史滑杆告诉我们，技术成熟后产品话语权会转向产品天才：Google 95% 技术 → Facebook → Pinterest/Snap/Instagram 的 CEO 们都是产品天才，他们才是大众市场的赢家。",
-      "她眼中的机会：一个 UGC 社区，最擅长的人做出好东西，让其他人复制粘贴就能受益；引用 Eugene Wei 的框架——社交产品的北极星是社区成员对「地位」的追求（粉丝、点赞、被看见），它驱动参与者去做你希望他们做的事。她还预言「我们都会拥有 AI 朋友」：与 AI 的对话将超过与真人的对话。ChatGPT 和 Claude 属于「工作向」，而「个人向」的桶还空着——她分享自己花一个多小时和一个 Tollens 人格聊天，而不是用 ChatGPT。社交化必须从你已经在用的场景里长出来：未来你也许不去 ChatGPT，而是去「Sarah 的 GPT」，把血检报告、补品、孩子信息都放在那里——这个产品最终可能蚕食 ChatGPT。",
-      "投资视角上，她被真正思考网络效应、zero to one、如何逃离竞争的创始人吸引——「这对他是一种召唤，而不只是一份很酷的新工作」。她提醒：过去十年 80% 的 deck 都说自己有网络效应，但真假网络效应要靠早期证据区分；单机版公司也能做得很好，但真正能建立网络效应的大机会，属于多人版产品。"
+      "Basis 是一家用 agent 端到端做会计工作的独角兽：税务申报从原始材料到成品全自动，agent 要自主运行数小时甚至数天并保持连贯。Mitch 开篇就泼了一盆冷水：哪怕 100 个 eval 全过，也不代表能泛化到生产环境——就像一个人每次都能答对是因为去查了 Wikipedia，会计师事务所不会因此录用他，agent 也不该被录用。他的答案是三层工程：behavior specs（行为规范）、ontologies（本体论）和 process supervision（过程监督），把「长时程」从口号变成可验证的工程问题。",
+      "他还有个反直觉的观点：代码反而不如英文值钱。「你会看到有人为一处没抽象好的代码文件抓狂，可他们的上下文简直是一团糟——英文更珍贵，因为英文影响表现，代码不影响表现。」Basis 办公室全员对着麦克风低语，因为对 agent 说话比写文档快得多——写下来等于在给脑海里的疯狂想法做摘要，而 agent 恰恰不在乎你啰嗦，它只在乎上下文够不够。对任何跟 AI 协作的人，第一原则永远是：给它尽可能多的上下文，因为它天生就缺上下文。",
+      "Matt Turck 透露 Basis 的投资人阵容堪称豪华：Amjad Masad、Clement Delangue、Jeff Dean、Azeem Azhar、Scott Belsky、Nat Friedman 等一批顶级创始人与学者都在列。这期节目被 Turck 称为「关于构建长时程自主 agent 的参考级对话」，YouTube、Spotify、Apple Podcasts 全平台可听。"
     ],
-    "url": "https://www.youtube.com/watch?v=dlI-5W7d7uU"
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Meta AI 高级总监",
-        "text": "为什么 AI 扩散这么慢？因为我们让用户去理解实验室黑话：一个空白窗口、写 prompt、选模型、决定要不要 agent、搞懂上下文窗口、推理、MCP、记忆、技能。大多数人不在乎这些——他们只想要「把事办了」，给他们一个能办成事的东西他们就满意了。他相信 12 个月内会出现这个突破性产品。",
-        "url": "https://x.com/realmadhuguru/status/2085036386781221257"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "「GPT-5.6 Sol 在聊天里好太多了，而且免费用户现在无限文本聊天！」——OpenAI 双管齐下：模型变强 + 免费放开，6740 赞说明这轮消费端总攻的分量。",
+        "url": "https://x.com/sama/status/2085454964814753990"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "「世界上 99% 的 token 会在企业语境中被消耗」：写代码、梳理海量生命科学研究、自动化制造、保护企业安全、检测欺诈，以及上千种有显著经济价值的任务——AI 的成本在这里最站得住脚，并行 worker 替你干活的价值在这里也最有用。哪怕最影响消费者的 agent，最终也会被包装成端到端服务，消费者根本意识不到里面有 AI。",
-        "url": "https://x.com/levie/status/2085200776159490111"
-      },
-      {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "Linear 产品负责人",
-        "text": "抛出一个「最蠢的问题」：「ChatGPT 怎么就不算 agent 了？」——当大家在热烈讨论 agent 元年的时候，也许最大的 agent 就是那个十亿人在用的对话框。",
-        "url": "https://x.com/thenanyu/status/2085126362944229400"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "晒出「无限 agent 算力」：10,000 个并发 agent、每分钟 5,000 个 CPU 核心，而且这些配额还可以上调。基础设施的弹药库正在以数量级扩张，agent 规模化执行的瓶颈在快速消失。",
-        "url": "https://x.com/rauchg/status/2085077900190208080"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 内容创作者",
-        "text": "发布 /human-review 技能：让 Codex 或 Claude Code 装好后，输入「/human-review 你的文档」，就会打开一个可视化编辑器，直接编辑文字、调整图片、像 Google Docs 评论一样给 AI 留反馈，完成后点「Send to agent」让 AI 应用全部修改。用来自改 PRD、落地页等。「我们喜欢让 agent 替我们干活，但最后那 10% 的打磨有时需要真人过目。」",
-        "url": "https://x.com/petergyang/status/2085055745410945126"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "YC 总裁兼 CEO",
-        "text": "「等 AI 足够好，所有这些检测 AI 的生意都不重要了」：银器曾是手工打造，但现在没人抱怨晚餐叉子是机器冲压的。重要的是想法的质量，不是它怎么被生产出来——人能吃上饭，才是要紧的。",
-        "url": "https://x.com/garrytan/status/2085038756906901656"
+        "name": "Claude",
+        "handle": "claudeai",
+        "org": "Anthropic 官方",
+        "text": "正在更新 Claude Fable 5 的生物学安全护栏以减少误报：实测中与生物学相关的回退（fallback）在产品各表面平均减少了约 85%，Fable 现在可以在更广的范围内提供协助。安全与能力之间的平衡点正在被精细地校准。",
+        "url": "https://x.com/claudeai/status/2085563808773189680"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "OpenAI（Codex & ChatGPT）",
-        "text": "分享 Codex 的 /goal 工作流：配合 GPT-5.6 Sol 是一个非常强大的循环，建议想「疯狂但鼓舞人心地跳一次」的创始人们去试试。他还透露：让 Codex 拉数据后，平均每 6 分钟就会收到一条求重置的 DM 或邮件——偶尔遇到真正扎实的反馈或有趣的互怼，他会照办。",
-        "url": "https://x.com/thsottiaux/status/2085174625655198156"
+        "text": "「你可以让 Codex + GPT-5.6 Sol 去做最疯狂的事，它真的会去做。我连续跟它讲了 5 分钟那些看似需要数周才能完成的事，起身去冰箱拿点吃的、撸撸狗，回来——已经做完了。」2279 赞，agent 干活的速度感拉满。",
+        "url": "https://x.com/thsottiaux/status/2085597685948813610"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw / Polyagentmorous",
-        "text": "给 Codex 接了一个带视频的远程 KVM，让它能端到端自动化测试 OpenClaw 上的 iMessage 集成——因为 iMessage 在虚拟机里不可靠，某些功能（如已读回执）需要禁用 SIP 才能工作。AI 正在被赋予「真机眼」，agent 做真实设备 E2E 测试不再是 demo 而是日常。",
-        "url": "https://x.com/steipete/status/2084988316324397312"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "「Atlassian 季度大超预期。过去半年有个站不住脚的论点，说 agent 会对某些软件品类不利——某些领域确实有道理，但很多人把趋势解读过头了。」现实世界的 agent 采纳动态，远没有聊天机器人热论暗示的那么激进。",
+        "url": "https://x.com/levie/status/2085474309943030032"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "「Airtable 恰好见证了 no-code 的兴衰。我当年和投资人争论不休：UI 永远无法让你构建任意软件，让软件变得人人可及，正解始终是解决代码本身。」21/22 年他满硅谷求 Google、Meta 一起训代码专用模型，没人觉得这比 NLP 重要——最后他只能自己训出 Replit 的模型。",
+        "url": "https://x.com/amasad/status/2085451197323034902"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "「Devtools 必须一、开源；二、可被普遍扩展。AI 编码 agent 是我们行业历史上最重要的开发者工具。Plugin 标准让任何人都能统一地扩展它们。」工具链的生态位正在被重新定义。",
+        "url": "https://x.com/rauchg/status/2085403169551790359"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "YC 总裁兼 CEO",
+        "text": "「关于个人 AGI，你需要知道的是：它不是任何人都能拥有的聊天机器人，而是一个独特地了解你、从现在到未来都懂你的存在。」YC 掌门人把下一阶段押注在「专属智能」而非「通用对话」上。",
+        "url": "https://x.com/garrytan/status/2085446068461043722"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 内容创作者",
+        "text": "「消费端基本是 ChatGPT 和 Google 的市场，这是我的判断。ChatGPT 已经有 10 亿用户，关键是让用户连接他们常用的应用、用 agent 真正去干活。OpenAI 已经在开创新的交互范式。」",
+        "url": "https://x.com/petergyang/status/2085427222836658600"
+      }
+    ]
+  },
+  "blog": {
+    "label": "官方博客",
+    "items": [
+      {
+        "name": "Claude Blog",
+        "title": "用 Claude 在 Apple Foundation Models 框架中构建智能应用",
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "summary": "Anthropic 发布新 Swift 包：Apple 开发者现在可以在 Foundation Models 框架里把 Claude 接入更复杂的流程——设备端模型处理摘要、提取等快任务，需要多步推理、代码生成时无缝交接给 Claude（支持联网搜索与执行代码做数据分析），Claude 的流式响应直接回到同一个 SwiftUI 视图。即日起支持 iOS 27、iPadOS 27、macOS 27、visionOS 27 与 watchOS 27，三行代码即可拿到类型安全的 Swift 结构化输出。本地快任务 + 云端强模型的混合架构，正式进入苹果全家桶。"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 位建造者 · 34 条推文 · 1 播客",
-    "generatedAt": "2026-08-07 10:00+08:00"
+    "coverage": "15 位建造者 · 31 条推文 · 1 播客 · 1 博客",
+    "generatedAt": "2026-08-08 10:00+08:00"
   }
 }
