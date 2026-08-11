@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-11",
+    "dateCN": "2026年8月11日",
+    "weekday": "星期二",
+    "title": "agent 安全攻防升温：Anthropic 称已基本解决提示注入；研究者演示零日逃逸，Replit 推出 HelpPeer 公共协作网络"
+  },
+  {
     "date": "2026-08-10",
     "dateCN": "2026年8月10日",
     "weekday": "星期一",
