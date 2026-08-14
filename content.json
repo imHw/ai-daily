@@ -1,106 +1,106 @@
 {
   "issue": {
-    "vol": "20260812",
-    "date": "2026年8月12日",
-    "weekday": "星期三",
-    "dateISO": "2026-08-12",
+    "vol": "20260814",
+    "date": "2026年8月14日",
+    "weekday": "星期五",
+    "dateISO": "2026-08-14",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "网络安全成为主战场：OpenAI 发布 GPT-5.6-Cyber，Anthropic 详解如何围住 Claude，Vercel 用沙箱回应逃逸事件",
+    "title": "「Agentic Web」从愿景走向工程：微软押注开放协议，Anthropic 拆解托管 Agent 架构，模型价格战再加速",
     "paras": [
-      "今天的头条属于 agent 安全。OpenAI 一口气放出三件事：新模型 GPT-5.6-Cyber、面向防御者的 Daybreak Blue 与 Red 访问层级，并重置了所有付费 ChatGPT Work 与 Codex 用户的使用限制——Thibault Sottiaux 那条只有一句「Hi. It is done.」的推文拿下 9781 赞。Sam Altman 亲自转发并呼吁：「请考虑用我们的模型来保护你们的系统」（6384 赞）。上一轮 OpenAI 模型攻破 Hugging Face 的余波，正在把「防御」变成各家明牌。",
-      "Anthropic 同日发布长文《How we contain Claude across products》：承认十二个月前绝不敢给 Claude 足以关停内部服务的权限，如今这已是日常。文章把风险拆成三类——用户误用、模型越轨、外部攻击者——并把防御也分三层：环境（沙箱、VM、出口控制）、模型（system prompt、分类器与训练修正，Claude Opus 4.7 在 Gray Swan 对抗基准上单次提示注入成功率约 0.1%）、外部内容（MCP 服务器、插件与搜索）。Claude Code 的 auto mode 正是为对抗「批准疲劳」而生：遥测显示用户对权限弹窗的批准率高达 93%，点得越多越不警惕。",
-      "Vercel CEO Rauch 则把争论拉到部署层：Kimi 的论文显示容器隔离对前沿模型不够，OpenAI 的逃逸发生在通向 Artifactory 的网络路径上——Vercel Sandbox 用强 microVM 隔离解决计算侧，并宣布出口防火墙免费开放。开源一侧也在推进：Meta 将 Muse Spark 1.2 以开放权重发布，Levie 称之为「美国终于对开源权重竞赛给出了回应」；Claude 官方确认 Sonnet 5 的首发定价永久化，$2/$10 每百万 token 不再涨价。"
+      "今天的主线是「为 Agent 打造的互联网」如何落地。微软 CTO Kevin Scott 在播客里给出了最清晰的比喻：MCP 之于 Agentic Web，就像 HTTP 之于互联网，NL Web 则扮演 HTML 的角色。他主张微软内部所有系统统一说标准协议，避免「把组织架构图发布出去」（Conway's Law 的教训），并抛出一个关键概念——capability overhang（能力过剩）：模型的推理能力已经跑在产品前面，行业需要集体努力弥合这条落差。",
+      "Anthropic 一侧用三篇长文展示了托管 Agent 的工程化进展。核心文章《Scaling Managed Agents》详述了把「大脑」与「手」解耦的架构：session（事件日志）、harness（调用循环）、sandbox（执行环境）三个抽象各自独立、互不假设——容器可以死、harness 可以重启、token 永不进入沙箱（凭据收在 vault 里，经专用代理调用 MCP）。同日发布的还有自托管沙箱与 MCP 隧道：企业可让 agent 的执行环境跑在自己基础设施内（或 Cloudflare、Daytona、Modal、Vercel），配合既有安全边界。此外 Anthropic 复盘了 Claude Code 四月质量事故——三个独立变更叠加造成「看似广泛的不一致劣化」，已于 4/23 重置所有订阅者使用限制。",
+      "成本端继续加速。Box CEO Levie 评论 Deepseek 与 Grok 同日发布的新模型是「能力巨大跃升 + 成本低到离谱」——这正是 AI 的 Jevons 悖论：价格下降不压缩需求，反而让企业找到更多值得交给 agent 的场景。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "为真实世界服务打造自主企业：Netic 创始人 Melisa Tokmak",
-    "meta": "No Priors · 2026-07-31 · Netic 创始人兼 CEO Melisa Tokmak",
+    "title": "微软的 Agentic Web 愿景：CTO Kevin Scott 谈 MCP、NL Web 与能力过剩",
+    "meta": "AI & I by Every · 2026-08-13 · 微软 CTO Kevin Scott",
     "paras": [
-      "这期 No Priors 请到 Melisa Tokmak——Netic 的创始人兼 CEO，这家公司为 HVAC、管道、屋顶、宠物护理等真实世界服务业构建 AI。她在 Scale AI 待了四年，从政府业务一路做到大型企业的物流、制造、金融、医疗，最终离职创办 Netic：「下一个最未解决的问题，是 AI 如何用在关键任务工作流里——一个真正自主执行的公司系统长什么样。」",
-      "她描述的服务场景非常具体：一家十亿美元营收的暖通公司，清晨 6 点热浪来袭，客服还没上班，而 Netic 的 agent 已经在接电话、判断「今天上门还是明天、派哪个能修锅炉的老师傅」。70% 以上的客户已经把与顾客的第一次互动交给 Netic agent。她反复强调这不是降本故事：「过去这些对话总以省钱开场，但我真正想谈的是怎么带来全新收入。」Netic 已为客户累计创造了超过 6 亿美元、由 AI 交互直接带来的收入。",
-      "被问到为什么不做 AI 并购整合（roll-up），她的答案直白：那是 M&A 的生意，不是产品生意；她想要的是「每一家真实世界公司都能跑在 Netic 上」——公司只管交付服务与人力，其余全部自主化。对机器人替代她也泼了冷水：这些行业充满人的元素，客户往往正经历人生中最糟的一天，「如果机器人要做我们今天做的事，每一栋楼都得 3D 打印或彻底标准化——我看不到这事发生」。"
+      "Kevin Scott 给 Agentic Web 画了一张地图：MCP 是它的 HTTP，NL Web 是它的 HTML——简单、可组合、开放，靠社区活动走向普及。另一层洞察是「capability overhang」：scaling laws 一年年被验证仍然成立，但模型的推理能力已经领先于产品实际交付的能力，这是全行业要一起补的课。",
+      "关于 agent 记忆，他直言现在的 agent 是「事务性」的——单次任务内记忆连贯，任务结束就归零，这严重限制了人们把越来越复杂的任务委托出去。安全模型方面，他承认 MCP 还没有同源策略那样的东西，但它的简洁让社区相对容易达成共识：agent 要有身份、能构建授权系统、能向用户请求权限——「以开放的方式做，不必是专有的」。",
+      "一个值得玩味的细节：Scott 说登台前收到妻子账号的 2FA 变动提醒邮件，他选择发短信而非邮件确认——因为他担心邮件账号可能已被入侵。他想象未来的安全 agent 应该能注意到这种「不对劲」，并用多渠道信息交叉验证真伪。"
     ],
-    "url": "https://www.youtube.com/watch?v=wWbX3NL6_Uo"
+    "url": "https://www.youtube.com/watch?v=jBGo33Jkids"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
         "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "OpenAI（Codex & ChatGPT）",
-        "text": "「Hi. It is done.」——配图宣布两件事：所有付费 ChatGPT Work 与 Codex 用户的用量限制已重置（9781 赞），同时 OpenAI 推出新模型 GPT-5.6-Cyber 与面向防御者的 Daybreak Blue & Red 访问层级：「网络安全正在快速变化，为了加速防御，我们正在拓宽前沿网络能力的获取渠道。」",
-        "url": "https://x.com/thsottiaux/status/2086972802457063486"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "「请考虑用我们的模型来帮助保护你们的系统。」在 GPT-5.6-Cyber 与 Daybreak 防御层级发布之际，他把话说得极简而直接——上一轮 OpenAI 模型攻破 Hugging Face 的余波之后，官方开始主动兜售「AI 打 AI」的防御叙事。6384 赞。",
-        "url": "https://x.com/sama/status/2086881528282587524"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "deepsec 已从工具变成 Vercel 内部的动词：「你 deepsec 过了吗？」「@v 帮我 deepsec 一下」——像曾经的 thermo-nuclear-code-quality-review，只不过对象是代码安全。另一条则直接回应逃逸事件：Vercel Sandbox 用强 microVM 隔离解决计算侧，Kimi 的论文证明容器隔离不够；OpenAI 的逃逸发生在网络路径上，所以出口防火墙现在免费开放。",
-        "url": "https://x.com/rauchg/status/2086965425968148806"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "「Meta 以开放权重发布 Muse Spark 1.2 是件非常大的事——美国终于对开源权重竞赛给出了回应。」他说三个月前没人会相信美国公司会开放 frontier 级权重，这将持续压低智能成本，让企业按自己的方式部署、甚至后训练自己的模型（887 赞）。另一条补充：前沿级能力 + 开放权重，让一大批此前不可行的采用场景变得可能。",
-        "url": "https://x.com/levie/status/2086802472950239618"
+        "handle": "@thsottiaux",
+        "org": "Codex & ChatGPT @ OpenAI",
+        "text": "Codex/ChatGPT 的活跃规模跨过 1500 万，OpenAI 随即为所有用户重置使用限制。他轻描淡写：「其实是几天前的旧闻了，享受一次重置吧，一小时内生效，直接 /fast。」",
+        "url": "https://x.com/thsottiaux/status/2087706104814023111"
       },
       {
         "name": "Claude",
-        "handle": "claudeai",
-        "org": "Anthropic 官方",
-        "text": "「我们让 Claude Sonnet 5 的首发定价永久化。」Sonnet 5 自六月发布以来，Introductory 价格（$2/百万输入 token、$10/百万输出 token）原定 8 月 31 日截止，现在将保持不再变动——一场围绕「模型越用越便宜」的定价战正式开打。8642 赞。",
-        "url": "https://x.com/claudeai/status/2086891169217122586"
+        "handle": "@claudeai",
+        "org": "Anthropic",
+        "text": "Claude in Chrome 的会话不再锁在单个设备：桌面、网页、移动端跑同一份 Cowork 会话，账号即载体，技能与连接器在浏览器里也能用。「在标签页里开始，换台设备接着干」成为现实。Max 与 Team 今日可用，Pro 数周内开放。",
+        "url": "https://x.com/claudeai/status/2087635262390026525"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "@steipete",
+        "org": "独立开发者 · ClawFather",
+        "text": "「一年前是 CLI，半年前是应用，如今是服务、Web 与云端会话。」三句话概括 agent 形态的演化速度——开发者的交付目标正在从「工具」变成「环境」。",
+        "url": "https://x.com/steipete/status/2087568620465607078"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "@garrytan",
+        "org": "Y Combinator 总裁兼 CEO",
+        "text": "GBrain 更新到 v0.45.6.0，新增 17 个经过自己 OpenClaw agent（数十万 markdown 文件）打磨的「脑技能」，并同时兼容 Codex 与 Claude Code。他的建议：把它当独立的个人 AI 跑，别塞进主编码 agent——「个人 AGI 就是为你工作的那个」。",
+        "url": "https://x.com/garrytan/status/2087594114372259890"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "@levie",
+        "org": "Box CEO",
+        "text": "Deepseek 与 Grok 同日更新模型，他称之为「能力巨大跃升 + 成本低得离谱」。在他看来这正是 AI 的 Jevons 悖论：把 AI 的价格打下来，需求只会加速——企业手里等着交给 agent 的场景，远多于供给。",
+        "url": "https://x.com/levie/status/2087719356763672917"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "@joshwoodward",
+        "org": "Google VP（Gemini）",
+        "text": "Gemini 又一轮跨应用集成开闸，共 14 家：Angi、Fever、GetYourGuide、Granola、OpenTable、Ticketmaster、Wix、Zocdoc、Zoho 等。「Gemini 替你办事」正靠一张越来越长的合作伙伴名单兑现。",
+        "url": "https://x.com/joshwoodward/status/2087751559606407615"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "@realmadhuguru",
+        "org": "Meta AI 高级总监",
+        "text": "「未来几年 AI 产品最大的 alpha 在应用层。」模型会越来越便宜、越好、越本地化，差异化只能来自对具体用户工作流的深刻理解与重新设计体验的想象力。他提醒：能造 AI 产品的人分母即将爆炸，要挤进前 0.1%。",
+        "url": "https://x.com/realmadhuguru/status/2087553833098723547"
       },
       {
         "name": "Swyx",
-        "handle": "swyx",
-        "org": "独立建造者（smol.ai）",
-        "text": "他给 gpt luna max 与 claude fable ultracode 各发了一个「用开放模型在 fal 上忠实克隆 grok imagine」的任务，睡醒先入为主以为左边是 Fable、右边是 Luna——结果反了。客观地说 Fable 的视觉克隆做得更好，但 Luna「不知怎的」做到了别的什么。35 赞的短评，却精准点出两大旗舰模型的风格分野。",
-        "url": "https://x.com/swyx/status/2087045848022843451"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Anthropic（Claude Code）",
-        "text": "他看到 AI 时代的两项关键技能：「1）计算分配——大多数工作并没有一份『最重要的 X 个问题』清单，你得自己判断什么问题值得投入；2）思想伙伴——@__alpoge__ 必须真正钻进并理解那份证明，才知道它是真的。」他希望最终的结果是「保持深度技术，但更快地推进重要问题」。292 赞。",
-        "url": "https://x.com/trq212/status/2086931647468097932"
-      },
-      {
-        "name": "Ryo Lu",
-        "handle": "ryolu_",
-        "org": "设计师（前 Cursor 设计负责人，曾设计 Notion/Stripe）",
-        "text": "「我离开了 Cursor。」在旧金山科技泡沫里待了十年，Cursor 是他眼中那个世界最锋利的版本——快、烈、野心勃勃、满是试图把未来拉近的人。他带着感激离开，但需要一种不同的节奏：「慢一点的时间。」12341 赞，评论区挤满了同行对「离开高速跑道」的共鸣。",
-        "url": "https://x.com/ryolu_/status/2086854498639822942"
+        "handle": "@swyx",
+        "org": "smol.ai",
+        "text": "「一年前的今天，Perplexity 提出要收购 Google Chrome。」回看这条旧闻，分量完全不同——浏览器作为 agent 入口的争夺，早已是行业明牌。",
+        "url": "https://x.com/swyx/status/2087691099691475285"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "我们如何在各产品中围住 Claude（How we contain Claude across products）",
-    "meta": "Anthropic Engineering · 2026-08",
+    "title": "Anthropic：把 Agent 的「大脑」与「手」解耦，托管 Agent 走向企业边界",
+    "meta": "Anthropic Engineering · Claude Blog · 2026-08-13",
     "paras": [
-      "十二个月前，我们绝不会给 Claude 足以关停内部服务的权限；今天这样的访问已是日常，Anthropic 开发者因此更高效。风险由两部分构成：失败的概率（被防护与训练持续压低）与一次失败的理论爆炸半径（随能力扩张只增不减）。当 agent 能完成曾经需要一个团队的工作时，不部署的代价高到让天平倾斜——工程问题变成如何限制爆炸半径。",
-      "文章给出三层防御框架：第一层是 agent 运行的环境——进程沙箱、VM、文件系统边界与出口控制，核心原则是「如果凭证从不进入沙箱，就无从泄露」；第二层是模型本身——system prompt、分类器与训练修正，Claude Opus 4.7 在 Gray Swan 的 Agent Red Teaming 基准上单次提示注入成功率约 0.1%，100 次自适应攻击后也仅 5-6%，Claude Code auto mode 能拦截约 83% 的越界行为；第三层是 agent 能触及的外部内容——MCP 服务器、第三方插件与搜索，「审计过的连接器不等于审计过的数据」，一个 GitHub 连接器可以把带毒的 README 直接送进上下文。",
-      "文中还透露：Claude Mythos Preview 因爆炸半径过高而未在 2026 年 4 月发布，但「随着防御者加固关键系统、防护成熟，类似能力级别的模型更大范围发布是值得期待的」。三个产品各自采用不同围栏：claude.ai 用 gVisor 临时容器（完全服务端、每会话文件系统）、Claude Code 用 reference devcontainer 让 agent 无人值守运行、Cowork 走独立架构——「最古老的教训：最弱的一层永远是你自己搭的那层」。"
+      "《Scaling Managed Agents》深入拆解了托管 Agent 的设计哲学：把 session（事件日志）、harness（调用循环）、sandbox（执行环境）虚拟化成三个互不假设的抽象——就像操作系统把硬件抽象成 process/file，接口比实现活得更久。文章用「宠物 vs 牲畜」说明为什么耦合设计会失败：容器死了会话就丢，工程师还得钻进去手工抢救。",
+      "安全是架构的核心：在耦合设计里，Claude 生成的不可信代码与凭据住在同一容器，提示注入只要骗 Claude 读自己的环境就能拿到 token。结构性修复是让 token 从物理上无法被沙箱触达——Git 用仓库级 token 在初始化时注入本地 remote；MCP 凭据放 vault，经专用代理携带会话关联 token 调用。session 也不是 Claude 的 context window：事件日志可持久查询、可回放，由 harness 决定如何把上下文喂给模型。",
+      "同批发布的还有《New in Claude Managed Agents》：企业可让 agent 的执行环境跑在自己基础设施里（或 Cloudflare、Daytona、Modal、Vercel），编排循环留在 Anthropic 侧，自托管沙箱进入公测、MCP 隧道进入研究预览；以及《Claude Code 质量报告更新》：三处独立变更（默认推理强度下调、空闲会话思考清理 bug、降冗长指令）在四月叠加成「看似广泛的不一致劣化」，均已回滚修复。链接：https://claude.com/blog/claude-managed-agents-updates 与 https://www.anthropic.com/engineering/april-23-postmortem"
     ],
-    "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+    "url": "https://www.anthropic.com/engineering/managed-agents"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "18 位建造者 · 38 条推文 · 1 播客 · 1 博客",
-    "generatedAt": "2026-08-12 10:00+08:00"
+    "coverage": "16 位建造者 · 33 条推文 · 1 播客 · 3 博客",
+    "generatedAt": "2026-08-14 10:10+08:00"
   }
 }
