@@ -1,106 +1,106 @@
 {
   "issue": {
-    "vol": "20260814",
-    "date": "2026年8月14日",
-    "weekday": "星期五",
-    "dateISO": "2026-08-14",
+    "vol": "20260816",
+    "date": "2026年8月16日",
+    "weekday": "星期日",
+    "dateISO": "2026-08-16",
     "tagline": "AI 构建者的每日观察"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "「Agentic Web」从愿景走向工程：微软押注开放协议，Anthropic 拆解托管 Agent 架构，模型价格战再加速",
+    "title": "Cursor 验证了 Agentic Coding 的巨大市场，Anthropic 把 Claude 引入 Apple 原生框架，长期 Agent 的工程化进入深水区",
     "paras": [
-      "今天的主线是「为 Agent 打造的互联网」如何落地。微软 CTO Kevin Scott 在播客里给出了最清晰的比喻：MCP 之于 Agentic Web，就像 HTTP 之于互联网，NL Web 则扮演 HTML 的角色。他主张微软内部所有系统统一说标准协议，避免「把组织架构图发布出去」（Conway's Law 的教训），并抛出一个关键概念——capability overhang（能力过剩）：模型的推理能力已经跑在产品前面，行业需要集体努力弥合这条落差。",
-      "Anthropic 一侧用三篇长文展示了托管 Agent 的工程化进展。核心文章《Scaling Managed Agents》详述了把「大脑」与「手」解耦的架构：session（事件日志）、harness（调用循环）、sandbox（执行环境）三个抽象各自独立、互不假设——容器可以死、harness 可以重启、token 永不进入沙箱（凭据收在 vault 里，经专用代理调用 MCP）。同日发布的还有自托管沙箱与 MCP 隧道：企业可让 agent 的执行环境跑在自己基础设施内（或 Cloudflare、Daytona、Modal、Vercel），配合既有安全边界。此外 Anthropic 复盘了 Claude Code 四月质量事故——三个独立变更叠加造成「看似广泛的不一致劣化」，已于 4/23 重置所有订阅者使用限制。",
-      "成本端继续加速。Box CEO Levie 评论 Deepseek 与 Grok 同日发布的新模型是「能力巨大跃升 + 成本低到离谱」——这正是 AI 的 Jevons 悖论：价格下降不压缩需求，反而让企业找到更多值得交给 agent 的场景。"
+      "今天最引人注目的声音来自 Box CEO Aaron Levie，他用一篇长文复盘 Cursor 的成功：「大多数人严重低估了 AI 编程市场的规模。」Cursor 证明了在用户和底层模型之间存在巨大的创新空间——产品形态、中立层设计、后训练优化、基础设施栈、GTM 策略，每一步都是教科书级别。Meta AI 的 Madhu Guru 也从另一个角度呼应：Cursor 启发了整个「Cursor for X」的产品范式，AI 产品正在摆脱聊天机器人阶段的局限，寻找自己的产品元范式。",
+      "Anthropic 同步推出 Claude Foundation Models framework 支持，让 Apple 开发者可以用原生 Swift 调用 Claude 处理多步推理、代码生成等复杂任务，而简单的摘要和提取则交给本地模型。这种「设备端 + 云端」的分层架构，为 Apple 生态的 AI 应用打开了新思路。",
+      "与此同时，Basis 联合创始人 Mitch Troyanovsky 在 MAD Podcast 中分享了构建长期自主 Agent 的经验：Agent 不是普通的自动化，而是需要适应非确定性实体的协调系统。他直言即便 100 个评估全部通过，也不代表能在真实生产环境中工作——这一观点正在改变行业对 agent 成熟度的判断标准。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "微软的 Agentic Web 愿景：CTO Kevin Scott 谈 MCP、NL Web 与能力过剩",
-    "meta": "AI & I by Every · 2026-08-13 · 微软 CTO Kevin Scott",
+    "title": "如何构建长期自主 AI Agent —— Basis 联合创始人 Mitch Troyanovsky",
+    "meta": "The MAD Podcast with Matt Turck · 2026-08-06 · Basis 联合创始人 Mitch Troyanovsky",
     "paras": [
-      "Kevin Scott 给 Agentic Web 画了一张地图：MCP 是它的 HTTP，NL Web 是它的 HTML——简单、可组合、开放，靠社区活动走向普及。另一层洞察是「capability overhang」：scaling laws 一年年被验证仍然成立，但模型的推理能力已经领先于产品实际交付的能力，这是全行业要一起补的课。",
-      "关于 agent 记忆，他直言现在的 agent 是「事务性」的——单次任务内记忆连贯，任务结束就归零，这严重限制了人们把越来越复杂的任务委托出去。安全模型方面，他承认 MCP 还没有同源策略那样的东西，但它的简洁让社区相对容易达成共识：agent 要有身份、能构建授权系统、能向用户请求权限——「以开放的方式做，不必是专有的」。",
-      "一个值得玩味的细节：Scott 说登台前收到妻子账号的 2FA 变动提醒邮件，他选择发短信而非邮件确认——因为他担心邮件账号可能已被入侵。他想象未来的安全 agent 应该能注意到这种「不对劲」，并用多渠道信息交叉验证真伪。"
+      "Basis 的 agent 可以自主运行数小时甚至数天，已完成端到端报税等复杂任务。Mitch 的核心观点：人们早已习惯与非确定性系统协作（比如同事），只是现在轮到计算机了。设计 agent 的本质，就是设计一个让非确定性实体协同解决问题的系统。",
+      "他提出了一个尖锐的观察：即便 100 个评估全过，也不能保证能泛化到真实生产环境。「如果一个人靠维基百科就能答对 100 题，会计师事务所也不会雇用他。」这句话点出了当前 agent 评估的致命缺陷：测试环境与真实世界的鸿沟。",
+      "另一个反直觉的发现：工程师们为代码文件是否抽象得当而焦虑，却忽视了上下文质量才是真正影响 agent 性能的因素。「英文（prompt）比代码更珍贵，因为英文直接影响性能。」这一洞察对 agent 工程实践有直接指导意义。"
     ],
-    "url": "https://www.youtube.com/watch?v=jBGo33Jkids"
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "@thsottiaux",
-        "org": "Codex & ChatGPT @ OpenAI",
-        "text": "Codex/ChatGPT 的活跃规模跨过 1500 万，OpenAI 随即为所有用户重置使用限制。他轻描淡写：「其实是几天前的旧闻了，享受一次重置吧，一小时内生效，直接 /fast。」",
-        "url": "https://x.com/thsottiaux/status/2087706104814023111"
-      },
-      {
-        "name": "Claude",
-        "handle": "@claudeai",
-        "org": "Anthropic",
-        "text": "Claude in Chrome 的会话不再锁在单个设备：桌面、网页、移动端跑同一份 Cowork 会话，账号即载体，技能与连接器在浏览器里也能用。「在标签页里开始，换台设备接着干」成为现实。Max 与 Team 今日可用，Pro 数周内开放。",
-        "url": "https://x.com/claudeai/status/2087635262390026525"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "@steipete",
-        "org": "独立开发者 · ClawFather",
-        "text": "「一年前是 CLI，半年前是应用，如今是服务、Web 与云端会话。」三句话概括 agent 形态的演化速度——开发者的交付目标正在从「工具」变成「环境」。",
-        "url": "https://x.com/steipete/status/2087568620465607078"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "@garrytan",
-        "org": "Y Combinator 总裁兼 CEO",
-        "text": "GBrain 更新到 v0.45.6.0，新增 17 个经过自己 OpenClaw agent（数十万 markdown 文件）打磨的「脑技能」，并同时兼容 Codex 与 Claude Code。他的建议：把它当独立的个人 AI 跑，别塞进主编码 agent——「个人 AGI 就是为你工作的那个」。",
-        "url": "https://x.com/garrytan/status/2087594114372259890"
-      },
-      {
         "name": "Aaron Levie",
-        "handle": "@levie",
+        "handle": "levie",
         "org": "Box CEO",
-        "text": "Deepseek 与 Grok 同日更新模型，他称之为「能力巨大跃升 + 成本低得离谱」。在他看来这正是 AI 的 Jevons 悖论：把 AI 的价格打下来，需求只会加速——企业手里等着交给 agent 的场景，远多于供给。",
-        "url": "https://x.com/levie/status/2087719356763672917"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "@joshwoodward",
-        "org": "Google VP（Gemini）",
-        "text": "Gemini 又一轮跨应用集成开闸，共 14 家：Angi、Fever、GetYourGuide、Granola、OpenTable、Ticketmaster、Wix、Zocdoc、Zoho 等。「Gemini 替你办事」正靠一张越来越长的合作伙伴名单兑现。",
-        "url": "https://x.com/joshwoodward/status/2087751559606407615"
+        "text": "Cursor 完美执行了 applied AI 战略，证明了大多数人严重低估了 AI 编程市场的规模。最成功的开发工具退出估值仅数十亿美元，而 agent 编程的市场远大于预期。在用户和底层模型之间存在大量创新空间——产品形态、中立层、后训练、基础设施、GTM 策略，Cursor 提供了完整的 applied AI 教科书。",
+        "url": "https://x.com/levie/status/2088476232933577124"
       },
       {
         "name": "Madhu Guru",
-        "handle": "@realmadhuguru",
+        "handle": "realmadhuguru",
         "org": "Meta AI 高级总监",
-        "text": "「未来几年 AI 产品最大的 alpha 在应用层。」模型会越来越便宜、越好、越本地化，差异化只能来自对具体用户工作流的深刻理解与重新设计体验的想象力。他提醒：能造 AI 产品的人分母即将爆炸，要挤进前 0.1%。",
-        "url": "https://x.com/realmadhuguru/status/2087553833098723547"
+        "text": "Cursor 对 AI 产品文化的冲击被严重低估。AI 产品曾被困在聊天机器人阶段，直到「Cursor for X」模式出现，启发了全新的产品范式。当每个人都能用 AI 构建产品时，真正的差异化来自产品直觉、领域知识、分发能力和执行力。AI 不会改变这一基本规律。",
+        "url": "https://x.com/realmadhuguru/status/2088489059115270532"
       },
       {
-        "name": "Swyx",
-        "handle": "@swyx",
-        "org": "smol.ai",
-        "text": "「一年前的今天，Perplexity 提出要收购 Google Chrome。」回看这条旧闻，分量完全不同——浏览器作为 agent 入口的争夺，早已是行业明牌。",
-        "url": "https://x.com/swyx/status/2087691099691475285"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "Linear 产品负责人",
+        "text": "AI 并不是「参差不齐」的——它只是「像 AI 一样」。就像说狗因为与人类在某些任务上相似、优越或 inferior 而「参差不齐」一样荒谬。这个比喻精准地击中了当前 AI 评估框架的误区：我们用的是一套为人类设计的标尺。",
+        "url": "https://x.com/thenanyu/status/2088335744909619230"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "Google VP（Gemini）",
+        "text": "Gemini 3.7 Flash 已上线 Gemini App。同时 Google Labs 的实验 Pomelli 受到小企业欢迎——它能快速生成高质量产品图，新推出的视频/GIF 生成功能让营销内容创作门槛进一步降低。",
+        "url": "https://x.com/joshwoodward/status/2088344782821326980"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw 开发者",
+        "text": "团队已全面转向用 OpenClaw 构建 OpenClaw。将 agent 会话作为 URL 分享是一种超能力——协作模式和上下文传递的方式正在从根本上改变。这种「用自身工具构建自身」的元循环，是 agent 时代开发范式的标志性转变。",
+        "url": "https://x.com/steipete/status/2088473882357530979"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator 总裁兼 CEO",
+        "text": "使用 GStack 前后最大的惊喜：对于很多 once-way-door 问题，现在可以直接说「采纳所有建议」然后继续工作。这反映了 agent 可靠性的实质性提升——从需要逐项决策到可以信任整体建议。",
+        "url": "https://x.com/garrytan/status/2088388000267002195"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @ OpenAI",
+        "text": "ChatGPT 新增餐厅预订功能，Codex 社区在热烈讨论本周解决的难题。OpenAI 正在将 agent 能力从编码扩展到日常生活场景，这种横向扩张是 platform 成熟的标志。",
+        "url": "https://x.com/thsottiaux/status/2088493756391768252"
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "org": "FirstMark 合伙人",
+        "text": "AI 时代工作日的演变：以前是 [决策][流程][流程][决策][流程]……凌晨 10 点还在加班；现在是 [决策][决策][决策][决策][决策]，下午 3 点大脑空白，只想喝咖啡。这个段子背后是真实的 productivity shift——AI 承担了大量执行工作，人类的决策密度显著提高。",
+        "url": "https://x.com/mattturck/status/2088323186819539041"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Anthropic：把 Agent 的「大脑」与「手」解耦，托管 Agent 走向企业边界",
-    "meta": "Anthropic Engineering · Claude Blog · 2026-08-13",
+    "title": "用 Claude Foundation Models framework 为 Apple 平台构建智能应用",
+    "meta": "Claude Blog · 2026-06-08",
     "paras": [
-      "《Scaling Managed Agents》深入拆解了托管 Agent 的设计哲学：把 session（事件日志）、harness（调用循环）、sandbox（执行环境）虚拟化成三个互不假设的抽象——就像操作系统把硬件抽象成 process/file，接口比实现活得更久。文章用「宠物 vs 牲畜」说明为什么耦合设计会失败：容器死了会话就丢，工程师还得钻进去手工抢救。",
-      "安全是架构的核心：在耦合设计里，Claude 生成的不可信代码与凭据住在同一容器，提示注入只要骗 Claude 读自己的环境就能拿到 token。结构性修复是让 token 从物理上无法被沙箱触达——Git 用仓库级 token 在初始化时注入本地 remote；MCP 凭据放 vault，经专用代理携带会话关联 token 调用。session 也不是 Claude 的 context window：事件日志可持久查询、可回放，由 harness 决定如何把上下文喂给模型。",
-      "同批发布的还有《New in Claude Managed Agents》：企业可让 agent 的执行环境跑在自己基础设施里（或 Cloudflare、Daytona、Modal、Vercel），编排循环留在 Anthropic 侧，自托管沙箱进入公测、MCP 隧道进入研究预览；以及《Claude Code 质量报告更新》：三处独立变更（默认推理强度下调、空闲会话思考清理 bug、降冗长指令）在四月叠加成「看似广泛的不一致劣化」，均已回滚修复。链接：https://claude.com/blog/claude-managed-agents-updates 与 https://www.anthropic.com/engineering/april-23-postmortem"
+      "Anthropic 发布了对 Apple Foundation Models framework 的支持，通过新的 Swift package 让开发者用原生 Swift 调用 Claude。核心思路是分层架构：简单任务（摘要、提取）走设备端本地模型，复杂任务（多步推理、代码生成、网络搜索）交给 Claude。",
+      "开发者可以用 @Generable 注解实现类型安全的返回，只需三行代码即可完成 Claude API 调用。示例场景：日记 app 在设备端生成每日 prompt，然后让 Claude 跨数月条目寻找主题关联；学习 app 在设备端定义术语，学生追问「这对我们学过的所有内容意味着什么」时再移交 Claude。",
+      "支持 iOS 27、iPadOS 27、macOS 27 和 watchOS 27，需 Anthropic API key。这一整合的意义在于：Apple 生态的 AI 应用不再只能依赖本地模型，复杂推理可以无缝交给云端——而且对用户而言是一次完整体验。"
     ],
-    "url": "https://www.anthropic.com/engineering/managed-agents"
+    "url": "https://claude.com/blog/claude-for-foundation-models"
   },
   "colophon": {
     "source": "follow-builders feed",
-    "coverage": "16 位建造者 · 33 条推文 · 1 播客 · 3 博客",
-    "generatedAt": "2026-08-14 10:10+08:00"
+    "coverage": "16 位建造者 · 32 条推文 · 1 播客 · 1 博客",
+    "generatedAt": "2026-08-16 10:00+08:00"
   }
 }
