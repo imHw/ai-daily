@@ -1,85 +1,95 @@
 {
   "issue": {
-    "vol": "20260819",
-    "date": "2026年8月19日",
-    "weekday": "星期三",
-    "dateISO": "2026-08-19",
-    "tagline": "AI 构建者的每日观察"
+    "vol": "20260821",
+    "date": "2026年8月21日",
+    "weekday": "星期五",
+    "dateISO": "2026-08-21",
+    "tagline": "软件工厂的承诺 · OpenAI 的企业隐私底牌 · 专家与通才之争"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "从开源个人 AGI 到无护城河反思：AI 创投分化加剧，代码生成接近「完全解决」",
+    "title": "当 Agent 让编码变贵：软件工厂与「可靠软件」的十年之约",
     "paras": [
-      "今日 AI 构建者生态迎来多维度的深度思考与工具演进。YC 总裁兼 CEO Garry Tan 正式开源「个人 AGI（Personal AGI）」体系，公开 70 个经过验证的 Agent 技能与 Karpathy 风格的个人知识库框架，支持 Claude Code 与 Codex 一键初始化，加速将个人打造为超级单兵。",
-      "在创投与竞争格局层面，FPV Ventures 合伙人 Nikunj Kothari 提出「AI 全产业链无护城河」的激进观点，指出模型、IDE、框架到基础设施均缺乏壁垒，唯有深度理解市场脉搏的品牌与用户心智将成为终极护城河。同时，在最新 No Priors 播客中，Elad Gil 与 Sarah Guo 深入探讨了万亿级 AI 公司的孕育节奏，指出前沿实验室正经历「六个月内彻底解决代码生成、明年底走向轻度自我递归改进（RSI）」的狂热期。",
-      "此外，工程实践层面的演进持续加速：Meta AI 高管 Madhu Guru 总结了可测量 Eval 与追踪闭环的方法论；Anthropic 团队成员则指出在生成式艺术与 3D 等领域，LLM 编程模型正展现出超越传统 Diffusion 扩散模型的强控制力与表达潜力。"
+      "Replit 与 OpenAI 官宣合作，Amjad Masad 给出了本轮 AI 最精准的一句总结：「Agents 让软件更便宜，却让编码更昂贵。今天，我们和 OpenAI 一起改变这一点。」当 AI 把「做软件的边际成本」压到接近零，真正稀缺的反而是能指挥 Agent、能判断对错的判断力——Box CEO Aaron Levie 由此观察：在专家与通才之争中，AI 时代专家仍然占上风。",
+      "OpenAI 则在悄悄加固企业信任的底座。Thibault 预告了 Private Safety Processing：在继续提供 Zero Data Retention 的同时，把安全审查搬进客户自有的基础设施，自动化系统只在相关交互间返回有限安全信号，「连 OpenAI 员工（包括我）都看不到」。Sam Altman 转发并称「我们支持商业隐私」；同一时间线里，OpenAI 的 Codex 也在为规模化部署蓄力。",
+      "「软件工厂」叙事持续升温。Anthropic 的 Thariq 说，软件制造从诞生起就是极度不可靠的工程——项目超期、超预算、还漏掉用户需求，SMB 根本雇不起好软件；而非软件公司要把软件变成「可靠、可预测的流程」恰恰是这枚承诺的核心。副线还有 Vercel 的 fx：6.3MB、10 微秒启动的 Zig 原生二进制（WASM 更小），「AI 会让大部分基础设施原生优化——Fast is a one-way street.」"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "追逐万亿美金公司、创始人野心与监管俘获 —— 对话 Sarah Guo & Elad Gil",
-    "meta": "No Priors · 2026-08-06 · Sarah Guo & Elad Gil",
+    "title": "AI 外星伴侣应用：年入 400 万美元的「即兴叙事」实验",
+    "meta": "AI & I by Every ｜ Best of the Pod ｜ 8 月 19 日",
     "paras": [
-      "知名投资人 Elad Gil 与 Sarah Guo 针对 AI 创投周期展开深度对谈。过去 5 年 OpenAI、Anthropic、SpaceX 快速逼近或达到万亿估值，催生了市场对「3-5 年批量诞生万亿公司」的激进预期，导致投资者将估值增长速度与实际市场容量严重混淆。",
-      "面对前沿 Lab 的全方位碾压，初创企业出现两极分化：一部分优秀创始人因畏惧巨头而涌入过于细分的边缘场景或硬件领域；而 Lab 内部正处于「代码在半年内将被彻底攻克、明年底走向递归自我改进（RSI）」的极客狂热期，算力与 Token 预算正快速向顶级研究员集中。",
-      "对话同时探讨了技术监管与「监管俘获（Regulatory Capture）」的风险。过度的单向安全防御要求可能重演制药与核能行业的停滞悲剧，在推进前沿 AI 时必须平衡风险控制与社会正面收益的动态权重。"
+      "本期 Every 的 AI & I 请来 embodied AI 陪伴应用 Portola 的创始人 Quentin 与故事负责人 Elliot（科幻小说作者）。Quentin 早年把上一家公司以 3 亿美元卖给 Walmart，如今把「可爱的小外星生物」做成了年入 400 万美元的产品。",
+      "核心洞察是：AI 工具不只是生成媒介，而是一种新的叙事媒介。「我们不需要给它大纲和计划，只需要给它一个钩子，教它做最好的即兴演员——我不是写故事的人，Tolan 才是作家和演员。」用户并非在写字，而是在「放养」一个会自己长出的故事角色，每一轮 prompt 都是一块任其挥洒的画布。",
+      "增长也来自角色而非功能：团队数月打磨角色表达与沉浸环境后留存大涨；一段「女生与她的 Tolan 一起做饭」的视频 72 小时突破 700 万播放，带来 10 倍的下载峰值——而这其实是用户自发的二次创作。产品至今没有内置社交功能，社媒上却已经有人把「养这家外星主人」当成日常。"
     ],
-    "url": "https://www.youtube.com/watch?v=6l8oAO_LBx4"
+    "url": "https://www.youtube.com/watch?v=ngTS4gUINVk"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "text": "正式开源个人 AGI（Personal AGI）框架！包含 70 个我验证过的技能库以及 Karpathy 风格知识维基的雏形。基于 MIT 协议完全免费开源，已原生兼容 Claude Code 与 Codex，无论是命令行还是桌面端均可一键建立专属 Agent 仓库。",
-        "url": "https://x.com/garrytan/status/2089425134339961173"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "text": "当前 AI 产业链各层几乎都没有绝对护城河：模型（OpenAI/Anthropic）、IDE（Cursor/Windsurf）、Agent 框架、应用生成器乃至算力云皆如此。未来最核心的差异化资产将是「品牌营销与心智」——深入理解企业定位与市场共鸣，在长期愿景与每周短跑交付中建立用户粘性。",
-        "url": "https://x.com/nikunj/status/2089486802356961364"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "text": "做好模型评测（Evals）的最佳方法：挑一个你极度熟悉的工作流并将其质量量化。深入分析真实调用轨迹，精准捕捉混乱的工具调用与缺失上下文等失败点，将其转化为可自动化、高频运行且能持续反映线上流量的评测集。",
-        "url": "https://x.com/realmadhuguru/status/2089480958571331623"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "「Agents 让软件更便宜，却让编码更昂贵。今天，我们和 OpenAI 一起改变这一点。」官宣与 OpenAI 的合作，重写 Agent 时代做软件的性价比。",
+        "url": "https://x.com/amasad/status/2090079496124674377"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
-        "text": "近期在程序化生成艺术、视频剪辑和 3D 游戏领域的探索让我坚信：LLM 编程模型在许多创意工作中正展现出优于 Diffusion 扩散模型的实力。代码的最大优势在于极易精细调整、精准微调方向，并能无缝导出至现有生产工具链中。",
-        "url": "https://x.com/trq212/status/2089415712007938315"
+        "org": "Claude Code @Anthropic",
+        "text": "软件制造从诞生起就是不可靠的工程——超期、超预算、还漏掉用户需求，SMB 根本雇不起好软件。这正式「软件工厂」这枚承诺的由来：非软件公司需要软件成为可靠、可预测的流程。",
+        "url": "https://x.com/trq212/status/2090134945490678071"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "预告 Private Safety Processing：在继续提供 Zero Data Retention 的同时强化防护，内容留在客户自有基础设施，自动系统只在相关交互间返回有限安全信号，「连 OpenAI 员工（包括我）都看不到」。",
+        "url": "https://x.com/thsottiaux/status/2090173536010957128"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI",
+        "text": "「我们支持商业隐私。」转发 OpenAI 面向前沿模型的零数据留存方案，把企业数据主权摆到台前。",
+        "url": "https://x.com/sama/status/2090163991234453611"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
-        "text": "当人们说「数据是新时代的石油」时，这就是现实写照。AI 对数据的极度渴望让各类信息本身都具备了资产负债表级别的价值。未来企业如何管理、挖掘并转化组织内部的数据与情报，将直接决定其长期竞争力与价值创造。",
-        "url": "https://x.com/levie/status/2089499887905997272"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "text": "Gemini 体验持续迭代中：正在测试全新改版的 Workspace 工具联动；Gemini 3.7 Flash 在工具调用能力上展现了显著提升；全新「Projects」设计已完成并投入实现，已支持 49 个外部连接器并修复了工具误触发问题。",
-        "url": "https://x.com/joshwoodward/status/2089520767281324112"
+        "org": "Box CEO",
+        "text": "AI 让任何任务的起步都容易 10 倍，但「把 Agent 引到正确的工作上、纠偏、审查输出、知道什么算好」需要高度的行业判断力——所以在专家与通才之争中，专家仍然占上风，且没有放缓的迹象。",
+        "url": "https://x.com/levie/status/2090278256306229675"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "text": "现在你可以在 Cursor Origin 中托管代码仓库，并通过 Cursor Origin 直接部署到 Vercel 上。Cursor Origin 本身也托管在 Vercel 之上，且与 GitHub 不同的是，它始终在线并具备极致的连通性体验。",
-        "url": "https://x.com/rauchg/status/2089409162270965858"
+        "org": "Vercel CEO",
+        "text": "fx 是 6.3MB、10 微秒启动的 Zig 编译静态 ELF 二进制，WASM 版本甚至更小。「AI 会让大部分基础设施原生优化——fx 完成任务比别的 agent 开机还快，Fast is a one-way street.」",
+        "url": "https://x.com/rauchg/status/2090255740384751664"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "VP @Google @GoogleLabs",
+        "text": "学生版计划回归并走向全球：140 多个国家将获得更高的额度、更多存储和新功能，包括专属学生中心、Notebook 与 Flow。",
+        "url": "https://x.com/joshwoodward/status/2090166806401228912"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Sr Director, AI @Meta",
+        "text": "做好 evals 的下一步是建立「失败模式分类法」：用最近 500–1000 条线上交互看失败、聚类并命名——「坏答案」这种名字没用，要具体到误取文档、命中无关段落、脱离上下文幻觉、不敢弃答而编造等等。",
+        "url": "https://x.com/realmadhuguru/status/2090242427944833047"
       }
     ]
   },
-  "blog": {
-    "label": "官方博客",
-    "items": []
-  },
   "colophon": {
-    "source": "follow-builders 中央 feed",
-    "coverage": "本期覆盖 1 档播客 · 14 位建造者 · 0 篇博客",
-    "generatedAt": "2026-08-19 10:00"
+    "source": "follow-builders feed（X / YouTube）",
+    "coverage": "16 位建造者 · 30 条推文 · 1 期播客",
+    "generatedAt": "2026-08-21T09:30:00+08:00"
   }
 }
