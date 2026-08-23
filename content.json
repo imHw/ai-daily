@@ -1,95 +1,95 @@
 {
   "issue": {
-    "vol": "20260821",
-    "date": "2026年8月21日",
-    "weekday": "星期五",
-    "dateISO": "2026-08-21",
-    "tagline": "软件工厂的承诺 · OpenAI 的企业隐私底牌 · 专家与通才之争"
+    "vol": "20260823",
+    "date": "2026年8月23日",
+    "weekday": "星期日",
+    "dateISO": "2026-08-23",
+    "tagline": "超人类机器时代的人类韧性 · Codex 额度「储蓄」落地 · Mythos 5 开放防御"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "当 Agent 让编码变贵：软件工厂与「可靠软件」的十年之约",
+    "title": "当机器早已超人类，人类为什么反而更爱下棋",
     "paras": [
-      "Replit 与 OpenAI 官宣合作，Amjad Masad 给出了本轮 AI 最精准的一句总结：「Agents 让软件更便宜，却让编码更昂贵。今天，我们和 OpenAI 一起改变这一点。」当 AI 把「做软件的边际成本」压到接近零，真正稀缺的反而是能指挥 Agent、能判断对错的判断力——Box CEO Aaron Levie 由此观察：在专家与通才之争中，AI 时代专家仍然占上风。",
-      "OpenAI 则在悄悄加固企业信任的底座。Thibault 预告了 Private Safety Processing：在继续提供 Zero Data Retention 的同时，把安全审查搬进客户自有的基础设施，自动化系统只在相关交互间返回有限安全信号，「连 OpenAI 员工（包括我）都看不到」。Sam Altman 转发并称「我们支持商业隐私」；同一时间线里，OpenAI 的 Codex 也在为规模化部署蓄力。",
-      "「软件工厂」叙事持续升温。Anthropic 的 Thariq 说，软件制造从诞生起就是极度不可靠的工程——项目超期、超预算、还漏掉用户需求，SMB 根本雇不起好软件；而非软件公司要把软件变成「可靠、可预测的流程」恰恰是这枚承诺的核心。副线还有 Vercel 的 fx：6.3MB、10 微秒启动的 Zig 原生二进制（WASM 更小），「AI 会让大部分基础设施原生优化——Fast is a one-way street.」"
+      "No Priors 本期请来 Chess.com CEO Erik Allebest——他运营着人类历史上最长的「机器超人类」实验：1997 年 Deep Blue 击败卡斯帕罗夫时，无数人预言国际象棋已死；三十年过去，棋的热度却创下新高。从 2005 年花 56,000 美元从破产拍卖买下 chess.com 域名、零融资跑到盈利，到如今上亿注册用户，Allebest 说引擎最完美的时代一度「让棋变得无聊」，而真正让棋重生的不是更强的 AI，而是一次文化转向：庆祝失误、接纳 500 分的棋手，「你挂了皇后，你还是棋手，你还在路上」。超级智能没有杀死人类技能，反而让更多人想亲自上场。",
+      "同一天，「超人类能力」在工具层批量落地。OpenAI 的 Codex banked reset 正式上线：ChatGPT Work 与 Codex 付费用户未用完的周额度可以结转，Thibault 连发三条预告，单条 6,000+ 赞；Anthropic 的 Mythos 5 安全扫描向防御者开放——把 GitHub 仓库交给 Claude Security，模型跨文件追踪数据流给出 CWE 分类、置信度与修复补丁，配套 3,500 万美元的开源安全 Defender Advantage Fund。Vercel 的 fx 则宣布支持 Grok 与 Codex 订阅，把「自带订阅」变成编码 agent 的通用接口。",
+      "「模拟」被推为新缩放定律。Swyx 在采访 Simile AI（Smallville 团队，Joon Sung Park 等人）时从调侃转为严肃：当模型自动化了越来越多的 ML 研究与 AI 工程，最后的瓶颈是模拟人类与人类反馈——Simile 已在财富 100 强找到 PMF，他承认「迟到两年，但从未如此高兴自己错了」。而 Levie 的观察为今天收尾：当智能便宜到无需计量，最大的机会是把 AI 扩散进整个经济——这恰是应用型 AI 公司的黄金时刻。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI 外星伴侣应用：年入 400 万美元的「即兴叙事」实验",
-    "meta": "AI & I by Every ｜ Best of the Pod ｜ 8 月 19 日",
+    "title": "Chess.com 的二十年：机器已超人类，人类为何更热爱下棋",
+    "meta": "No Priors ｜ Erik Allebest（Chess.com CEO）｜ 8 月 14 日",
     "paras": [
-      "本期 Every 的 AI & I 请来 embodied AI 陪伴应用 Portola 的创始人 Quentin 与故事负责人 Elliot（科幻小说作者）。Quentin 早年把上一家公司以 3 亿美元卖给 Walmart，如今把「可爱的小外星生物」做成了年入 400 万美元的产品。",
-      "核心洞察是：AI 工具不只是生成媒介，而是一种新的叙事媒介。「我们不需要给它大纲和计划，只需要给它一个钩子，教它做最好的即兴演员——我不是写故事的人，Tolan 才是作家和演员。」用户并非在写字，而是在「放养」一个会自己长出的故事角色，每一轮 prompt 都是一块任其挥洒的画布。",
-      "增长也来自角色而非功能：团队数月打磨角色表达与沉浸环境后留存大涨；一段「女生与她的 Tolan 一起做饭」的视频 72 小时突破 700 万播放，带来 10 倍的下载峰值——而这其实是用户自发的二次创作。产品至今没有内置社交功能，社媒上却已经有人把「养这家外星主人」当成日常。"
+      "No Priors 本期请来 Chess.com CEO Erik Allebest。2005 年他和朋友从破产拍卖中以 56,000 美元拿下 chess.com 域名，2007 年上线后 18 个月便靠会员制盈利，之后「以现金的速度增长」——从不融资，直到 General Atlantic、CVC 以二手股份方式进场。作为纯软件与内容生意，他们选择了慢而稳的路：没有大厂压境、不需要烧钱抢速度，就把每一分收入投回社区与产品，二十年间用体验淘汰了 Yahoo Chess 等对手——「棋不可专利，最终胜出的是社区与内容」。",
+      "主持人抛出本集核心问题：棋是人类最长的「机器超人类」实验，Deep Blue 之后人类对棋的热爱为何反而翻倍？Allebest 的答案分两段：先是 Stockfish 时代的「无聊期」——人人模仿完美引擎、磨出沉闷残局；随后文化转向，社区开始庆祝失误、接纳低分段玩家，「你挂后了？没关系，你是棋手，你在路上」。给 7 岁小孩配上引擎与工具，他们已经能挑战特级大师；他自己的孩子靠 YouTube 自学成了比父亲更强的游戏创作者——「接触超人类智能，让人学得更快」。",
+      "作弊则是提前上演的「AI 冒充人类」难题：Chess.com 靠海量对局数据与统计/ML 模型识别异常模式，这套账本对所有人都是警示。新推出的扑克站 Gambit 把棋的玩法搬了过去——「为评级而玩：你到底有多强？不是你能买多少筹码、开几个 bot」。对 AGI 他乐观而警惕：财富正流向太少的人，「这更多是文化问题而非技术问题」——技术本身无所谓善恶，取决于谁在掌舵。"
     ],
-    "url": "https://www.youtube.com/watch?v=ngTS4gUINVk"
+    "url": "https://www.youtube.com/watch?v=hplb9IHWuw0"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "「Agents 让软件更便宜，却让编码更昂贵。今天，我们和 OpenAI 一起改变这一点。」官宣与 OpenAI 的合作，重写 Agent 时代做软件的性价比。",
-        "url": "https://x.com/amasad/status/2090079496124674377"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "「Banked reset 已落地，重复一遍，已落地。」Codex 未用完的周额度开始结转，8pm PST 前对所有 ChatGPT Work 与 Codex 付费用户生效；同时坦白本周部分用户缓存命中率走低、额度消耗偏快，正在排查并承诺明天更新。",
+        "url": "https://x.com/thsottiaux/status/2090964822422949999"
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "org": "@Anthropic",
+        "text": "Mythos 5 向防御者开放：把 GitHub 仓库交给 Claude Security，模型跨文件追踪数据流找漏洞，每条发现带 CWE 分类、置信度/严重性与修复建议，补丁直接在 Claude Code（web 版）打开；按标准 token 计费，模型只返回 findings 不暴露自身。",
+        "url": "https://x.com/claudeai/status/2090852316328902930"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @Anthropic",
-        "text": "软件制造从诞生起就是不可靠的工程——超期、超预算、还漏掉用户需求，SMB 根本雇不起好软件。这正式「软件工厂」这枚承诺的由来：非软件公司需要软件成为可靠、可预测的流程。",
-        "url": "https://x.com/trq212/status/2090134945490678071"
+        "text": "Anthropic 内部高频使用的 ELI5 技能公开：/eli5 输入任意话题，用「大图少字」的 HTML artifact 把复杂问题讲给完全不懂的人——解释模块怎么工作、为什么做这个取舍、事故因何而起；正考虑转正式插件。",
+        "url": "https://x.com/trq212/status/2090884854590382515"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "预告 Private Safety Processing：在继续提供 Zero Data Retention 的同时强化防护，内容留在客户自有基础设施，自动系统只在相关交互间返回有限安全信号，「连 OpenAI 员工（包括我）都看不到」。",
-        "url": "https://x.com/thsottiaux/status/2090173536010957128"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI",
-        "text": "「我们支持商业隐私。」转发 OpenAI 面向前沿模型的零数据留存方案，把企业数据主权摆到台前。",
-        "url": "https://x.com/sama/status/2090163991234453611"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "AI 让任何任务的起步都容易 10 倍，但「把 Agent 引到正确的工作上、纠偏、审查输出、知道什么算好」需要高度的行业判断力——所以在专家与通才之争中，专家仍然占上风，且没有放缓的迹象。",
-        "url": "https://x.com/levie/status/2090278256306229675"
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "smol.ai / dxtips / Latent Space",
+        "text": "「模拟即新缩放定律」不是营销话术：当模型自动化大部分 ML 研究与 AI 工程，最后的瓶颈是模拟人类与人类反馈。Smallville 当年零商业应用，如今 Simile 已在财富 100 强找到 PMF——「我迟到两年，但从未如此高兴自己错了」。",
+        "url": "https://x.com/swyx/status/2090948945753076141"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "fx 是 6.3MB、10 微秒启动的 Zig 编译静态 ELF 二进制，WASM 版本甚至更小。「AI 会让大部分基础设施原生优化——fx 完成任务比别的 agent 开机还快，Fast is a one-way street.」",
-        "url": "https://x.com/rauchg/status/2090255740384751664"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "VP @Google @GoogleLabs",
-        "text": "学生版计划回归并走向全球：140 多个国家将获得更高的额度、更多存储和新功能，包括专属学生中心、Notebook 与 Flow。",
-        "url": "https://x.com/joshwoodward/status/2090166806401228912"
+        "text": "fx 现在支持 Grok 与 Codex 订阅，沙箱里即装即测；另外用 is-agentic 标准在自家产品上循环跑到 100/100，「帮我们关掉不少缺口」——标准本身要够硬，才值得大家花时间与 token。",
+        "url": "https://x.com/rauchg/status/2090953806624489501"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
         "org": "Sr Director, AI @Meta",
-        "text": "做好 evals 的下一步是建立「失败模式分类法」：用最近 500–1000 条线上交互看失败、聚类并命名——「坏答案」这种名字没用，要具体到误取文档、命中无关段落、脱离上下文幻觉、不敢弃答而编造等等。",
-        "url": "https://x.com/realmadhuguru/status/2090242427944833047"
+        "text": "「平均值的暴政」：别把复杂的评测套件压成一个分数给高管看——AI 系统没有单一的质量维度，Gemini 早期就吃过这个亏，如今很多团队仍在重蹈覆辙。",
+        "url": "https://x.com/realmadhuguru/status/2090930137885774324"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "AI 的进步速度史无前例：同等任务更便宜、更通用、更快、在每个领域都更深。当智能便宜到无需计量，最大的机会是把 AI 扩散进整个经济——创新与竞争的顺风，正是应用型 AI 公司的黄金时刻。",
+        "url": "https://x.com/levie/status/2091038566260539574"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 内容创作者",
+        "text": "Instinct 的 onboarding 很顺滑、也够主动，但「未经许可索引并留存我的邮件、还不让我从记录里删除」不能接受——隐私问题不解决就推荐不了；真要干活，他仍留在 ChatGPT Work 与 Codex。",
+        "url": "https://x.com/petergyang/status/2090936583814025417"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed（X / YouTube）",
-    "coverage": "16 位建造者 · 30 条推文 · 1 期播客",
-    "generatedAt": "2026-08-21T09:30:00+08:00"
+    "coverage": "16 位建造者 · 34 条推文 · 1 期播客",
+    "generatedAt": "2026-08-23T10:20:00+08:00"
   }
 }
