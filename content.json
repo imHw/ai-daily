@@ -1,30 +1,19 @@
 {
   "issue": {
-    "vol": "20260824",
-    "date": "2026年8月24日",
-    "weekday": "星期一",
-    "dateISO": "2026-08-24",
-    "tagline": "能力过剩：模型跑赢产品 · Agent 网络元年 · 评测成为扩散瓶颈"
+    "vol": "20260825",
+    "date": "2026年8月25日",
+    "weekday": "星期二",
+    "dateISO": "2026-08-25",
+    "tagline": "评测讲金发姑娘法则 · 智能降价引爆需求 · 记录系统变身 AI 缰绳"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "能力过剩时代：Agent 网络元年，评测卡住了扩散",
+    "title": "评测的金发姑娘法则：智能降价潮下，基建竞赛开场",
     "paras": [
-      "微软 CTO Kevin Scott 在 AI & I 播客里给出了今年最清晰的一张路线图：去年的主题还是 scaling laws，今年他反复讲一个词——capability overhang（能力过剩）。模型的推理能力已经跑到了产品前面，行业真正的功课是弥合「模型能做什么」与「用户用到了什么」之间的落差。而他眼中承接这股能力的下一层基建，是 agentic web：MCP 之于 Agent 网络，正如 HTTP 之于互联网，NL Web 则扮演 HTML 的角色；微软内部甚至要求所有系统对自家 Agent 讲同一种标准协议，免得「把组织架构图发出去」。",
-      "另一边，评测（evals）正在被推上瓶颈之位。Aaron Levie 直言：AI 的扩散受「没有好的评测」的限制远超多数人的认知——每个模型发布时的评测只描绘了通用能力的轮廓，真正巨大的空间是企业级工作流的评测，细到单个公司自己的流程。Madhu Guru 的「如何构建好评测」系列第六篇给出方法论：在评测上爬山，就是选定一个真正重要的维度（质量、用例扩展、成本、延迟）持续优化。",
-      "生态侧也在快速调整：OpenAI 的 Thibault 罕见地公开 Codex 限速的「内部账本」——长会话多轮压缩下图片处理的低效、Computer History 功能的高 p95 用量、一个「本应只生成对话标题」的功能耗量超标，tiger team 彻查、次日即修；Zara Zhang 则观察到一股人才暗流：同样的人，用 AI 独立做事能放大 10 倍潜力，进了大组织最多只多 20%——越来越多高手正在离开大公司。"
+      "评测正在成为建造者圈子的头号议题。Meta AI 高级总监 Madhu Guru 在「如何构建好的评测」系列第七篇提出金发姑娘原则：评测粒度要恰到好处，按「待办任务」（jobs to be done）分层测量，而不是只盯着最终答案。他举金融分析 agent 为例——如果推荐错了，一套设计良好的评测应该给出「客户理解 92%、证据提取 92%、数据分析 70%、推荐 75%」的分解，让你知道该往哪里深挖。AI 创作者 Peter Yang 则转述 Shreya 的洞见：top-down 评测（只给任务描述、让模型自由发挥）Claude 做得非常好；bottom-up 评测（从海量样本输出中提炼人的直觉、固化成评测）Claude 非常糟糕——「那是你自己的活儿」。结论惊人一致：评测是人的判断力工程，模型只是工具。",
+      "智能的降价开始引爆需求。Vercel CEO Guillermo Rauch 观察到：OpenAI Sol 的价格下调叠加 Vercel AI Gateway 的折扣，使 Sol 成为 Vercel 增长最快的前沿模型——「智能的需求高度弹性，推理成本下降，用量就快速增长」。他由此断言 gateway 不可避免，不用 gateway 就会错过这波价格波动带来的成本与利润红利。OpenAI Codex 负责人 Thibault Sottiaux 则给出更宏观的判断：2026 年是公司开始认真对待模型效率与可靠性的年份，因为模型正在变成关键基础设施；他同时确认 ChatGPT 用量上限已重置、昨日反馈的问题已修复落地。",
+      "YC 掌门人 Garry Tan 再补一刀预言：记录系统（systems of record）要么变成 AI 的缰绳（harness），要么被 agent 取代。把三条主线放在一起，行业正在从「模型能力竞赛」转向「基建与工具链竞赛」：评测决定质量边界，成本曲线决定扩散速度，数据与记录层决定 agent 的用武之地。"
     ]
-  },
-  "podcast": {
-    "label": "本期播客",
-    "title": "微软 CTO Kevin Scott：为 Agent 而生的互联网",
-    "meta": "AI & I by Every ｜ Kevin Scott（Microsoft CTO）｜ 8 月 13 日",
-    "paras": [
-      "Kevin Scott 在 Build 2026 keynote 后接受 Dan Shipper 采访（Best of the Pod 重播）。他给出的年度叙事是：scaling laws 不再是新闻，capability overhang 才是——模型推理能力已明显超过产品端的使用水平，行业要集体弥合这个落差。而让 Agent 真正有用的下一程是 agentic web：MCP 是它上面的 HTTP，NL Web 是 HTML；微软作为平台公司，自己写的 Agent 反而没那么重要，「帮整个生态解决 Agent 网络涌现出的问题」才重要。",
-      "他坦承当前 Agent 最大的工程短板是记忆：现在的 Agent 是「事务性」的，一次任务结束记忆就消散，下次从零开始，这限制了委派复杂任务。安全模型上，他押注 MCP 的「简洁」会让社区快速达成共识——Agent 需要身份与授权体系（entitlement），执行前向用户请求权限、向系统管理员报备；垂直整合与开放平台之争在他看来是伪二分：权限无关的创新价值巨大，而过去几年涌现的中间层「对真正重要交易的双方没贡献什么价值」。",
-      "关于软件工程的未来，编程 41 年、木工 40 年的他拿木工史类比：手工具 vs 电动工具 vs CNC 的争论每代人都上演，工具变迁从没消灭手艺，只是改变了它——「保持好奇，去试，适合你就用」。他预言一年内最明显的转变：与 Agent 的交互从同步问答走向异步委派——你丢给它一个「去把这件事办妥」，它花很久调用一堆系统、来回迭代，最后回来告诉你「进展到此，该你了」。"
-    ],
-    "url": "https://www.youtube.com/watch?v=jBGo33Jkids"
   },
   "voices": {
     "label": "建造者观点",
@@ -33,63 +22,49 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "罕见的产品透明：Codex 限速的根因找到了——长会话多次压缩下图片处理存在低效、Computer History 功能的 p95 用量偏高，还有一个「本意只是生成对话标题」的功能耗量超标。tiger team 彻查中，修复明天上线。",
-        "url": "https://x.com/thsottiaux/status/2091407991736332689"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "ceo @box",
-        "text": "「AI 的扩散受评测限制的程度远超多数人的想象。」模型发布时的评测只展示通用能力的轮廓，真正的空间在企业级工作流的评测——细到单个公司自己的流程，这会是应用型 AI 落地最大的杠杆。",
-        "url": "https://x.com/levie/status/2091359223368315050"
+        "text": "「2026 年是公司开始认真对待模型效率与可靠性的年份——模型正在成为关键基础设施。」他同时确认 ChatGPT 的用量重置已推送到所有账号，昨日反馈的问题也落地了修复，用户应能感到明显改善。从「炫能力」转向「保稳定、管成本」，OpenAI 正在进入基础设施运营者的节奏。",
+        "url": "https://x.com/thsottiaux/status/2091581575108653374"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
-        "org": "Sr Director, AI @Meta",
-        "text": "「在评测上爬山，就是选定一个真正重要的维度并持续优化」——可以是基于生产数据提升高价值用户路径的质量、扩展到相邻用例，也可以是降成本降延迟。实际工作归结为更好的 harness 与更聪明的模型选择。",
-        "url": "https://x.com/realmadhuguru/status/2091278653435072523"
+        "org": "Meta AI 高级总监（曾任 Google Gemini/Veo/Nano Banana 负责人）",
+        "text": "在「如何构建好的评测」系列第七篇里提出金发姑娘原则：评测粒度要恰到好处，按待办任务分层测量，而不是只比对最终答案。以金融分析 agent 为例——若推荐错了，一套好的评测应该给出「客户理解 92%、证据提取 92%、数据分析 70%、推荐 75%」的分解，让你知道该往哪里深挖。不要太粗，也不要太细，够诊断就行。",
+        "url": "https://x.com/realmadhuguru/status/2091684812012875981"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "一份实用的隐私操作：打开 Chrome 的 Google 授权页，让 Codex 或 Claude Code 读标签页，挑出不再需要的第三方应用让 AI 一键断开——他借此清掉了半数本不该持有其 Google 信息的应用，并表扬 Instinct 团队快速上线了「删除外部数据」入口。",
-        "url": "https://x.com/petergyang/status/2091331251211059468"
+        "org": "AI 教程创作者、播客主理人",
+        "text": "转述 Shreya 关于两类评测的洞见：top-down 评测——只给任务描述、让模型在真空中自由发挥——Claude 做得非常好；bottom-up 评测——面对海量样本输出，把你作为人的直觉外化成评测——「Claude 非常非常差，那是你自己的活儿」。评测的上半场模型能代劳，下半场的品味与判断必须由人来交付。",
+        "url": "https://x.com/petergyang/status/2091586298779955512"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder",
-        "text": "一个正在重塑人才市场的现象：同样的人，用 AI 独立做自己的事能发挥 10 倍潜力，进了大组织最多只能提升 20%、有时甚至倒退。这就是越来越多优秀人才离开大公司的原因——顶级 AI 实验室或许是例外。",
-        "url": "https://x.com/zarazhangrui/status/2091379220257603593"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "OpenAI Sol 的价格下调叠加 Vercel AI Gateway 的折扣，让 Sol 成为 Vercel 增长最快的前沿模型。他认为这证明智能的需求高度弹性：推理成本一降，用量就暴涨；「不用 gateway 就错过这波剧烈的价格波动」——路由器赛道升温毫不意外，gateway 是必然。另一条推文里他亮出扩展 fx 的哲学：开放协议（MCP、Skills、Plugins）之上，最好的一层是 Unix——小程序各司其职、互相组合；libfx 让 fx 可嵌入更大程序，人人都能构建自己的 CLI、后台 agent 与软件工厂。",
+        "url": "https://x.com/rauchg/status/2091671326897713424"
       },
       {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "ceo @every",
-        "text": "「agent native 就是王道。」他在转发中力挺 Ali Spittel 的观点，Agent 原生正在成为新一代产品的默认架构；Every 同步放出招聘，正在扩充团队。",
-        "url": "https://x.com/danshipper/status/2091162447029608735"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator 总裁兼 CEO",
+        "text": "给出预言：记录系统（systems of record）要么进化成 AI 的缰绳（harness），要么被 agent 取代。作为 YC 掌门人，他把这句话放进 2026 年的语境——企业软件的下一个分水岭，取决于谁能把数据资产变成 agent 顺手的基础设施。",
+        "url": "https://x.com/garrytan/status/2091742825042030681"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "ceo @replit",
-        "text": "「一周有 7 天，意味着 7 次发布。」Replit 的发布节奏已经卷到每天一次——持续 ship 本身就是产品文化，也是对 Agent 时代开发效率的直接表态。",
-        "url": "https://x.com/amasad/status/2091346778746757204"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "partner @fpvventures",
-        "text": "给年轻创始人的一记警钟：「用 ragebait 激怒投资人、然后甩出 SAFE 文件让对方直接打钱——这不是融资的方式。」他提醒年轻人，找对人听建议比什么都重要。",
-        "url": "https://x.com/nikunj/status/2091381756012511244"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw 创始人（@OpenClaw + @OpenAI）",
+        "text": "为 agent 生态站台：CLI 很好，但在你工作的地方有 UI 可视化和团队视图更好。另一条推文里他给开源项目 camsnap 加上旋转 USB 协议，让「龙虾爪」指挥 360 度网络摄像头转圈环视——把 agent 硬件玩成了玩具。从 CLI 到 UI 再到物理世界的爪子，agent 交互的边界正被一点点推开。",
+        "url": "https://x.com/steipete/status/2091650136506327253"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed（X / YouTube）",
-    "coverage": "9 位建造者 · 19 条推文 · 1 期播客",
-    "generatedAt": "2026-08-24T10:18:30+08:00"
+    "coverage": "10 位建造者 · 17 条推文 · 0 期播客",
+    "generatedAt": "2026-08-25T10:22:45+08:00"
   }
 }

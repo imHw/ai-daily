@@ -130,13 +130,14 @@ const issueInner = `    <header class="masthead">
       ${paras(d.lead.paras)}
     </section>
 
+${d.podcast && d.podcast.label ? `
     <div class="section-label"><span>${esc(d.podcast.label)}</span></div>
     <section class="article">
       <h2>${esc(d.podcast.title)}</h2>
       <div class="meta-line">${esc(d.podcast.meta)}</div>
       ${paras(d.podcast.paras)}
       <a class="read-more" href="${esc(d.podcast.url)}">收听原片 ↗</a>
-    </section>
+    </section>` : ''}
 
     <div class="section-label"><span>${esc(d.voices.label)}</span></div>
     <section class="voices">${voices}
