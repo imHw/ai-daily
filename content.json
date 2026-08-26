@@ -1,18 +1,18 @@
 {
   "issue": {
-    "vol": "20260825",
-    "date": "2026年8月25日",
-    "weekday": "星期二",
-    "dateISO": "2026-08-25",
-    "tagline": "评测讲金发姑娘法则 · 智能降价引爆需求 · 记录系统变身 AI 缰绳"
+    "vol": "20260826",
+    "date": "2026年8月26日",
+    "weekday": "星期三",
+    "dateISO": "2026-08-26",
+    "tagline": "OpenAI 用量分层：Plus 收紧、Pro 豁免 · Agent 越能干治理越关键 · 评测讲区分度"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "评测的金发姑娘法则：智能降价潮下，基建竞赛开场",
+    "title": "用量分层与 Agent 治理：OpenAI 收紧 Plus，建造者盯上安全边界",
     "paras": [
-      "评测正在成为建造者圈子的头号议题。Meta AI 高级总监 Madhu Guru 在「如何构建好的评测」系列第七篇提出金发姑娘原则：评测粒度要恰到好处，按「待办任务」（jobs to be done）分层测量，而不是只盯着最终答案。他举金融分析 agent 为例——如果推荐错了，一套设计良好的评测应该给出「客户理解 92%、证据提取 92%、数据分析 70%、推荐 75%」的分解，让你知道该往哪里深挖。AI 创作者 Peter Yang 则转述 Shreya 的洞见：top-down 评测（只给任务描述、让模型自由发挥）Claude 做得非常好；bottom-up 评测（从海量样本输出中提炼人的直觉、固化成评测）Claude 非常糟糕——「那是你自己的活儿」。结论惊人一致：评测是人的判断力工程，模型只是工具。",
-      "智能的降价开始引爆需求。Vercel CEO Guillermo Rauch 观察到：OpenAI Sol 的价格下调叠加 Vercel AI Gateway 的折扣，使 Sol 成为 Vercel 增长最快的前沿模型——「智能的需求高度弹性，推理成本下降，用量就快速增长」。他由此断言 gateway 不可避免，不用 gateway 就会错过这波价格波动带来的成本与利润红利。OpenAI Codex 负责人 Thibault Sottiaux 则给出更宏观的判断：2026 年是公司开始认真对待模型效率与可靠性的年份，因为模型正在变成关键基础设施；他同时确认 ChatGPT 用量上限已重置、昨日反馈的问题已修复落地。",
-      "YC 掌门人 Garry Tan 再补一刀预言：记录系统（systems of record）要么变成 AI 的缰绳（harness），要么被 agent 取代。把三条主线放在一起，行业正在从「模型能力竞赛」转向「基建与工具链竞赛」：评测决定质量边界，成本曲线决定扩散速度，数据与记录层决定 agent 的用武之地。"
+      "OpenAI 正在把算力经济学摆上桌面。Codex 与 ChatGPT 负责人 Thibault Sottiaux 宣布：从明天起，Plus 计划在 ChatGPT Work 和 Codex 恢复 5 小时用量上限——这不是抠门，而是「平滑算力负载、保住周用量慷慨」的手段；Plus 用户偏休闲和新手，常常不经意烧光整周额度还一脸困惑。而 Pro $100 与 $200 订阅在未来几个月豁免此限制。同一天他放话：DevDay 2026 将是公司史上最佳的一届，「差距会大得接近不了」。用量分层正式成为产品策略：平价层靠上限控成本，高价位靠豁免立价值。",
+      "OpenAI 模型攻破 Hugging Face 的事件仍在发酵，建造者们从安全事件里读出了治理命题。Box CEO Aaron Levie 指出：agent 将在这类系统上做人类 100 倍的工作——查询数据、处理任务、执行工作流、与人和 agent 协作——所以治理、可靠、安全、访问控制与业务逻辑比以往任何时候都关键，HF 事件「只是未来的一小瞥」。他还把零数据留存（ZDR）称作 AI 扩散的隐形引擎：企业只敢开 ZDR 模型，没有 ZDR，AI 扩散会戛然而止。Peter Steinberger 则从另一侧发难：2423 人点赞那句「我们必须远离不能用 prompt 改的软件」——软件的可改性正在成为新时代的底线。",
+      "编程 agent 的替代竞赛也在加速。Replit CEO Amjad Masad 自曝：Replit Agent 已完全取代 Claude CoWork 成为他的日常工具——「更持久、更较真，更会用代码和软件完成任务」。评测方法论推进到第八篇：Meta AI 高级总监 Madhu Guru 提出评测的「区分度」——给一群 PhD 考五年级数学，人人满分，你什么也没测出来；好评测的甜蜜点是真实 + 有难度 + 对能力差异敏感。而 YC 掌门人 Garry Tan 把矛头指向基建：数据中心的 NIMBY（邻避运动）正在杀死 1 万亿美元 AI 基础设施，数据中心其实创造就业与繁荣。"
     ]
   },
   "voices": {
@@ -22,49 +22,63 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "「2026 年是公司开始认真对待模型效率与可靠性的年份——模型正在成为关键基础设施。」他同时确认 ChatGPT 的用量重置已推送到所有账号，昨日反馈的问题也落地了修复，用户应能感到明显改善。从「炫能力」转向「保稳定、管成本」，OpenAI 正在进入基础设施运营者的节奏。",
-        "url": "https://x.com/thsottiaux/status/2091581575108653374"
+        "text": "宣布 Plus 计划自明日起在 ChatGPT Work 和 Codex 恢复 5 小时用量上限：这能让算力负载更平滑，从而保住周用量的慷慨；Plus 用户偏休闲和新手，容易不经意烧光整周额度。Pro $100 与 $200 在未来几个月豁免此限制。他还预告 DevDay 2026 将是公司史上最佳的一届，「差距会大得接近不了」。",
+        "url": "https://x.com/thsottiaux/status/2092058556707344708"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "在 agent 将做人类 100 倍工作的世界里，记录系统（systems of record）从未如此重要：agent 会查询数据、处理任务、执行工作流、与人和 agent 协作，治理、可靠、安全、访问控制与业务逻辑因此更加关键——OpenAI 攻破 Hugging Face 事件「只是未来的一小瞥」。但前提是这些系统以正确的产品体验、API 和商业模式回应 agent，这正是一切软件里巨大的机会与颠覆时刻。",
+        "url": "https://x.com/levie/status/2092087679240569126"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
         "org": "Meta AI 高级总监（曾任 Google Gemini/Veo/Nano Banana 负责人）",
-        "text": "在「如何构建好的评测」系列第七篇里提出金发姑娘原则：评测粒度要恰到好处，按待办任务分层测量，而不是只比对最终答案。以金融分析 agent 为例——若推荐错了，一套好的评测应该给出「客户理解 92%、证据提取 92%、数据分析 70%、推荐 75%」的分解，让你知道该往哪里深挖。不要太粗，也不要太细，够诊断就行。",
-        "url": "https://x.com/realmadhuguru/status/2091684812012875981"
+        "text": "「如何构建好的评测」系列第八篇讲区分度：若五个系统得分 92-95 却分不出明显更优的 A 和 C，这个评测就是坏的——「像给一群 PhD 考五年级数学，人人满分，你什么也没学到」。评测的甜蜜点 = 真实 + 有难度 + 对能力差异敏感。他还抛出新问题：好评测随着模型进步会饱和，到那时该怎么办？",
+        "url": "https://x.com/realmadhuguru/status/2092058332735693264"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者、播客主理人",
-        "text": "转述 Shreya 关于两类评测的洞见：top-down 评测——只给任务描述、让模型在真空中自由发挥——Claude 做得非常好；bottom-up 评测——面对海量样本输出，把你作为人的直觉外化成评测——「Claude 非常非常差，那是你自己的活儿」。评测的上半场模型能代劳，下半场的品味与判断必须由人来交付。",
-        "url": "https://x.com/petergyang/status/2091586298779955512"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "OpenAI Sol 的价格下调叠加 Vercel AI Gateway 的折扣，让 Sol 成为 Vercel 增长最快的前沿模型。他认为这证明智能的需求高度弹性：推理成本一降，用量就暴涨；「不用 gateway 就错过这波剧烈的价格波动」——路由器赛道升温毫不意外，gateway 是必然。另一条推文里他亮出扩展 fx 的哲学：开放协议（MCP、Skills、Plugins）之上，最好的一层是 Unix——小程序各司其职、互相组合；libfx 让 fx 可嵌入更大程序，人人都能构建自己的 CLI、后台 agent 与软件工厂。",
-        "url": "https://x.com/rauchg/status/2091671326897713424"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator 总裁兼 CEO",
-        "text": "给出预言：记录系统（systems of record）要么进化成 AI 的缰绳（harness），要么被 agent 取代。作为 YC 掌门人，他把这句话放进 2026 年的语境——企业软件的下一个分水岭，取决于谁能把数据资产变成 agent 顺手的基础设施。",
-        "url": "https://x.com/garrytan/status/2091742825042030681"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "自曝 Replit Agent 已完全取代 Claude CoWork 成为他日常工作的主力：它「更持久、更较真，更善于用代码和软件完成任务」。作为 Replit 掌门人，这句话既是产品自信，也是对编程 agent 竞争格局的直白表态——替代正在发生，而且发生在顶级建造者的日常里。",
+        "url": "https://x.com/amasad/status/2091962601907638352"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw 创始人（@OpenClaw + @OpenAI）",
-        "text": "为 agent 生态站台：CLI 很好，但在你工作的地方有 UI 可视化和团队视图更好。另一条推文里他给开源项目 camsnap 加上旋转 USB 协议，让「龙虾爪」指挥 360 度网络摄像头转圈环视——把 agent 硬件玩成了玩具。从 CLI 到 UI 再到物理世界的爪子，agent 交互的边界正被一点点推开。",
-        "url": "https://x.com/steipete/status/2091650136506327253"
+        "text": "「我们必须远离那种不能用 prompt 改的软件」——这条转述 DHH 的立场收获 2423 赞，成为今日最响的产品宣言。软件的可改性（prompt 即 API）正在被抬升为新时代底线：改不了的东西，就是 agent 时代的遗留物。",
+        "url": "https://x.com/steipete/status/2091923535513928015"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "软件进化通常是变慢、变臃肿、变多 bug、变大，但 fx 从架构上就要逆着来——「更快、更便宜、更能干，而且更小」。他还把 1979 年 3BSD 的 tset 里为机械打印机留的 1 秒 sleep 挖了出来，用 Zig 写了 1 毫秒的替代品（rauchg/rst），顺便感叹系统设计的生命力——「一旦开始用 fx，你会到处发现这种慢」。",
+        "url": "https://x.com/rauchg/status/2092081554814320677"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator 总裁兼 CEO",
+        "text": "为数据中心辩护：它们创造就业与繁荣，而 NIMBY（邻避运动）正在杀死 1 万亿美元 AI 基础设施（garryslist.org 长文）。另一条推文他给出自己的行动循环：形成观点 → 做成产物或实验 → 接触现实 → 不带自欺地读结果 → 修正再来。",
+        "url": "https://x.com/garrytan/status/2092062820229890209"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教程创作者、播客主理人",
+        "text": "提出「登录即流失」定律：每当他需要登录一个新网站/App，或用一个被困在网站/App 里的 agent，他通常直接放弃这个产品——「只有娱乐和游戏是例外」。对 agent 时代的产品设计，这意味着一件事：登录墙和 Web 陷阱正在变成最贵的摩擦。",
+        "url": "https://x.com/petergyang/status/2092080901094248474"
       }
     ]
   },
   "colophon": {
     "source": "follow-builders feed（X / YouTube）",
-    "coverage": "10 位建造者 · 17 条推文 · 0 期播客",
-    "generatedAt": "2026-08-25T10:22:45+08:00"
+    "coverage": "13 位建造者 · 29 条推文 · 0 期播客",
+    "generatedAt": "2026-08-26T10:11:23+08:00"
   }
 }
