@@ -1,19 +1,29 @@
 {
   "issue": {
-    "vol": "20260826",
-    "date": "2026年8月26日",
-    "weekday": "星期三",
-    "dateISO": "2026-08-26",
-    "tagline": "OpenAI 用量分层：Plus 收紧、Pro 豁免 · Agent 越能干治理越关键 · 评测讲区分度"
+    "vol": "20260829",
+    "date": "2026年8月29日",
+    "weekday": "星期六",
+    "dateISO": "2026-08-29",
+    "tagline": "OpenAI 与 Cursor 决裂 · Anthropic 详解 Claude Code 退化 · Web 走向两极化"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "用量分层与 Agent 治理：OpenAI 收紧 Plus，建造者盯上安全边界",
+    "title": "IDE 代理战争升级：OpenAI 宣布断供 Cursor，Anthropic 深度复盘 Claude Code 退化之谜",
     "paras": [
-      "OpenAI 正在把算力经济学摆上桌面。Codex 与 ChatGPT 负责人 Thibault Sottiaux 宣布：从明天起，Plus 计划在 ChatGPT Work 和 Codex 恢复 5 小时用量上限——这不是抠门，而是「平滑算力负载、保住周用量慷慨」的手段；Plus 用户偏休闲和新手，常常不经意烧光整周额度还一脸困惑。而 Pro $100 与 $200 订阅在未来几个月豁免此限制。同一天他放话：DevDay 2026 将是公司史上最佳的一届，「差距会大得接近不了」。用量分层正式成为产品策略：平价层靠上限控成本，高价位靠豁免立价值。",
-      "OpenAI 模型攻破 Hugging Face 的事件仍在发酵，建造者们从安全事件里读出了治理命题。Box CEO Aaron Levie 指出：agent 将在这类系统上做人类 100 倍的工作——查询数据、处理任务、执行工作流、与人和 agent 协作——所以治理、可靠、安全、访问控制与业务逻辑比以往任何时候都关键，HF 事件「只是未来的一小瞥」。他还把零数据留存（ZDR）称作 AI 扩散的隐形引擎：企业只敢开 ZDR 模型，没有 ZDR，AI 扩散会戛然而止。Peter Steinberger 则从另一侧发难：2423 人点赞那句「我们必须远离不能用 prompt 改的软件」——软件的可改性正在成为新时代的底线。",
-      "编程 agent 的替代竞赛也在加速。Replit CEO Amjad Masad 自曝：Replit Agent 已完全取代 Claude CoWork 成为他的日常工具——「更持久、更较真，更会用代码和软件完成任务」。评测方法论推进到第八篇：Meta AI 高级总监 Madhu Guru 提出评测的「区分度」——给一群 PhD 考五年级数学，人人满分，你什么也没测出来；好评测的甜蜜点是真实 + 有难度 + 对能力差异敏感。而 YC 掌门人 Garry Tan 把矛头指向基建：数据中心的 NIMBY（邻避运动）正在杀死 1 万亿美元 AI 基础设施，数据中心其实创造就业与繁荣。"
+      "AI 编程赛道迎来标志性决裂。OpenAI（Codex 与 ChatGPT 负责人 Thibault Sottiaux）正式宣布将在 11 月 12 日终止与 Cursor 的合作，停止向其直接提供模型访问权限，核心原因直指「信任问题」。Thibault 同时预告 Codex 即将迎来历史新里程碑。此举瞬间引发生态重构：Anthropic Claude Code 团队成员 Thariq 迅速表态赞赏 Cursor 并承诺全力合作；Replit CEO Amjad Masad 则宣布在 Replit 上免费开放 OpenAI 模型，并愿意出资赞助企业从 Cursor 迁移。编程入口之争彻底从暗战变为明火执仗的生态站队。",
+      "Anthropic Engineering 连发两篇硬核工程复盘。其一详尽拆解了此前用户反馈「Claude 变笨变健忘」的真相：排查确认 API 未受影响，而是客户端三处改动叠加导致的连锁反应——将默认思考强度降至 medium（已回滚为 xhigh/high）、清理闲置会话思考缓存的 bug 导致后续每次交互误删推理历史、以及系统提示词加入「工具间输出≤25词」的控字指令损伤了智力。其二则系统阐述了「托管 Agent 架构」（Managed Agents），核心原则是将「大脑」（Harness 循环）与「双手」（Sandbox 沙箱）彻底解耦，将沙箱视作随时可销毁重建的牲畜，同时将凭证隔离在沙箱外部杜绝注入攻击。",
+      "建造者们对行业演化速度达成罕见共识。Box CEO Aaron Levie 与 Meta AI 高级总监 Madhu Guru 分别提出「AI 信念 6 个月半衰期」与「产品打法 3 个月半衰期」——传统团队沉迷于一套 Playbook 吃五年，而前沿实验室每隔数月就得推翻旧认知。Vercel CEO Guillermo Rauch 则预言 Web 正分化为两大极端：一端是服务于人类愉悦的高端视觉体验，另一端则是纯粹面向 Agent 的 Markdown 与 MCP 机器协议，中间地带将被实时生成的 JIT 界面彻底吞噬。"
     ]
+  },
+  "podcast": {
+    "label": "播客精选",
+    "title": "No Priors｜重构遗留数据基建：数据是 AI 时代唯一不可替代的重资产",
+    "meta": "No Priors · 2026年8月27日",
+    "paras": [
+      "No Priors 邀请云原生数据与容灾平台 Eon 联合创始人 Ofir Ehrlich 和 Gonen Stein 深入探讨 AI 时代的底层数据架构。Eon 创始人指出：在当前环境下，模型架构和算力基础设施正日趋同质化，企业的切换成本几乎为零；而企业私有数据是唯一具备不可替代价值的核心资产。最具代表性的例子是 Google 在精神航空（Spirit Airlines）破产清算中，以 1000 万美元专门收购其全量历史运营与客户数据用于模型训练，而非购买其实体飞机资产。",
+      "Eon 正在构建跨多云环境的统一数据底座，让冷备份与归档数据不再只是沉睡的保险箱，而是能够被 LLM 和 Agent 随时检索与分析的活跃资产。创始人同时提醒：随着非技术员工也能在企业内部随意组装 Agent，大量不受现有合规框架约束的「影子 Agent」正在私自调用与处理敏感数据，这让跨云的数据治理与访问控制成为当下最紧迫的安全防线。"
+    ],
+    "url": "https://www.youtube.com/watch?v=YscDZpVF4CQ"
   },
   "voices": {
     "label": "建造者观点",
@@ -22,63 +32,74 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "宣布 Plus 计划自明日起在 ChatGPT Work 和 Codex 恢复 5 小时用量上限：这能让算力负载更平滑，从而保住周用量的慷慨；Plus 用户偏休闲和新手，容易不经意烧光整周额度。Pro $100 与 $200 在未来几个月豁免此限制。他还预告 DevDay 2026 将是公司史上最佳的一届，「差距会大得接近不了」。",
-        "url": "https://x.com/thsottiaux/status/2092058556707344708"
+        "text": "正式宣布将于 11 月 12 日终止与 Cursor 的合作并停止向其提供模型访问，直言核心在于「信任」。开发者未来仍可通过自有 API Key 或官方插件使用，OpenAI 将继续支持广泛的开源与闭源工具。同时他透露 Codex 仪表盘即将迎来值得庆祝的历史新里程碑。",
+        "url": "https://x.com/thsottiaux/status/2093515916076343774"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "在 agent 将做人类 100 倍工作的世界里，记录系统（systems of record）从未如此重要：agent 会查询数据、处理任务、执行工作流、与人和 agent 协作，治理、可靠、安全、访问控制与业务逻辑因此更加关键——OpenAI 攻破 Hugging Face 事件「只是未来的一小瞥」。但前提是这些系统以正确的产品体验、API 和商业模式回应 agent，这正是一切软件里巨大的机会与颠覆时刻。",
-        "url": "https://x.com/levie/status/2092087679240569126"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Meta AI 高级总监（曾任 Google Gemini/Veo/Nano Banana 负责人）",
-        "text": "「如何构建好的评测」系列第八篇讲区分度：若五个系统得分 92-95 却分不出明显更优的 A 和 C，这个评测就是坏的——「像给一群 PhD 考五年级数学，人人满分，你什么也没学到」。评测的甜蜜点 = 真实 + 有难度 + 对能力差异敏感。他还抛出新问题：好评测随着模型进步会饱和，到那时该怎么办？",
-        "url": "https://x.com/realmadhuguru/status/2092058332735693264"
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic",
+        "text": "在 OpenAI 与 Cursor 决裂的第一时间公开发声：长期以来都是 Cursor 团队的忠实拥趸，几乎没有人比 Cursor 为 AI 编程在全世界的普及做出更大贡献，Anthropic 非常期待并兴奋能继续与 Cursor 保持深度合作。",
+        "url": "https://x.com/trq212/status/2093541555068182781"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
         "org": "Replit CEO",
-        "text": "自曝 Replit Agent 已完全取代 Claude CoWork 成为他日常工作的主力：它「更持久、更较真，更善于用代码和软件完成任务」。作为 Replit 掌门人，这句话既是产品自信，也是对编程 agent 竞争格局的直白表态——替代正在发生，而且发生在顶级建造者的日常里。",
-        "url": "https://x.com/amasad/status/2091962601907638352"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw 创始人（@OpenClaw + @OpenAI）",
-        "text": "「我们必须远离那种不能用 prompt 改的软件」——这条转述 DHH 的立场收获 2423 赞，成为今日最响的产品宣言。软件的可改性（prompt 即 API）正在被抬升为新时代底线：改不了的东西，就是 agent 时代的遗留物。",
-        "url": "https://x.com/steipete/status/2091923535513928015"
+        "text": "迅速跟进 Cursor 事件发起攻势：宣布 Replit 免费向用户开放 OpenAI 模型，并通过智能路由器让高端模型极具成本效益；同时直接向所有寻找独立、多模型替代方案的企业喊话，Replit 愿全额资助其从 Cursor 迁移的过渡成本。",
+        "url": "https://x.com/amasad/status/2093533378880667787"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "软件进化通常是变慢、变臃肿、变多 bug、变大，但 fx 从架构上就要逆着来——「更快、更便宜、更能干，而且更小」。他还把 1979 年 3BSD 的 tset 里为机械打印机留的 1 秒 sleep 挖了出来，用 Zig 写了 1 毫秒的替代品（rauchg/rst），顺便感叹系统设计的生命力——「一旦开始用 fx，你会到处发现这种慢」。",
-        "url": "https://x.com/rauchg/status/2092081554814320677"
+        "text": "预判 Web 正在向两个极端演进：一是服务于人类愉悦与品牌探索的极致体验（Three.js / TypeGPU）；另一端则是纯粹供机器吞吐的无损信号（Markdown 与爆发式增长的 MCP 协议）。中间地带将由 Agent 实时生成的即时 UI（JIT UI）接管，Agent 就是新时代的浏览器。",
+        "url": "https://x.com/rauchg/status/2093482695838007318"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator 总裁兼 CEO",
-        "text": "为数据中心辩护：它们创造就业与繁荣，而 NIMBY（邻避运动）正在杀死 1 万亿美元 AI 基础设施（garryslist.org 长文）。另一条推文他给出自己的行动循环：形成观点 → 做成产物或实验 → 接触现实 → 不带自欺地读结果 → 修正再来。",
-        "url": "https://x.com/garrytan/status/2092062820229890209"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "总结当前 AI 行业的「坚定信念」半衰期最多只有 6 个月：从「开源追不上闭源」「模型无法形成壁垒」「RAG 已死」到「遇到训练墙」「模型太危险不能发布」，行业已循环推翻数十个假设。在持续巨变时代，保持灵活认知比执念更重要。",
+        "url": "https://x.com/levie/status/2093568352736436576"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Meta AI 高级总监（曾主导 Gemini/Veo/Nano Banana）",
+        "text": "指出 AI 产品的打法（Playbook）半衰期只有约 3 个月。传统产品团队习惯找出一套打法后榨取 5 年红利，而 AI 实验室必须每隔几个月主动推翻收益递减的旧框架。团队必须建立快速感知市场变化并以极高紧迫感执行的元原则。",
+        "url": "https://x.com/realmadhuguru/status/2093562783627620456"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "org": "AI 教程创作者、播客主理人",
-        "text": "提出「登录即流失」定律：每当他需要登录一个新网站/App，或用一个被困在网站/App 里的 agent，他通常直接放弃这个产品——「只有娱乐和游戏是例外」。对 agent 时代的产品设计，这意味着一件事：登录墙和 Web 陷阱正在变成最贵的摩擦。",
-        "url": "https://x.com/petergyang/status/2092080901094248474"
+        "org": "AI 创作者、播客主理人",
+        "text": "抛出暴论：Claude Cowork 和 ChatGPT Work 只是过渡期方案，Grok Bot 这种云端虚拟计算机才是非技术用户 AI Agent 的终局形态。因为普通用户根本搞不懂本地沙箱与云端工作流的技术差异，但能一眼看懂「云端的一台电脑」。",
+        "url": "https://x.com/petergyang/status/2093379695144530313"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "AI 独立建造者",
+        "text": "深入剖析 AI 生成内容（Slop）的本质：一段内容是不是垃圾，不在于它是 AI 还是人类写的，而在于它是否基于具体、独特的人类经验与视角——人类自己制造的垃圾内容从来就不少。",
+        "url": "https://x.com/zarazhangrui/status/2093396989329469505"
       }
     ]
   },
+  "blog": {
+    "label": "工程精选",
+    "title": "Claude Code 性能退化深度复盘：三个工程妥协的连锁反应与托管 Agent 架构",
+    "meta": "Anthropic Engineering · 2026年8月",
+    "paras": [
+      "Anthropic 首次公开复盘 Claude Code 体验退化的根本原因。排查确认 API 层完全正常，问题源于客户端三处优化改动的叠加：3 月为缓解长耗时将默认思考强度降至 medium（已于 4 月 7 日全面恢复最高档）；3 月 26 日为优化闲置会话缓存引入 bug，导致后续每次交互误将旧思考历史全部剔除，使模型表现出「健忘与重复」；4 月 16 日为控制输出字数加入「工具调用间≤25词」的系统提示词，评测显示智力下降 3%（已于 4 月 20 日撤回）。团队已重置所有订阅者用量额度，并引入更严格的模型隔离评测门禁。",
+      "在另一篇工程长文《Scaling Managed Agents: Decoupling the brain from the hands》中，Anthropic 提出了托管 Agent 的解耦范式：将 Agent 拆分为 Session（只增事件流）、Harness（状态机大脑）与 Sandbox（计算沙箱）。沙箱被作为随时可故障替换的牲畜（Cattle）管理，认证 Token 与凭证被严格隔离在沙箱外部，杜绝提示词注入劫持；同时将 Session 事件流置于上下文窗口之外，使 TTFT（首 Token 延迟）在 P50 下降 60%、P95 下降超 90%。",
+      "链接：https://www.anthropic.com/engineering/april-23-postmortem 与 https://www.anthropic.com/engineering/managed-agents"
+    ],
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+  },
   "colophon": {
-    "source": "follow-builders feed（X / YouTube）",
-    "coverage": "13 位建造者 · 29 条推文 · 0 期播客",
-    "generatedAt": "2026-08-26T10:11:23+08:00"
+    "source": "follow-builders feed（X / YouTube / Blogs）",
+    "coverage": "15 位建造者 · 30 条推文 · 1 期播客 · 2 篇深度技术博文",
+    "generatedAt": "2026-08-29T16:20:00+08:00"
   }
 }
