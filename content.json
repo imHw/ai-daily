@@ -1,19 +1,29 @@
 {
   "issue": {
-    "vol": "20260830",
-    "date": "2026年8月30日",
-    "weekday": "星期日",
-    "dateISO": "2026-08-30",
-    "tagline": "Codex 预告新里程碑 · MCP 生态爆发式增长 · 建造者转向评估与标准"
+    "vol": "20260831",
+    "date": "2026年8月31日",
+    "weekday": "星期一",
+    "dateISO": "2026-08-31",
+    "tagline": "Codex 预告新里程碑 · 模型实验室之争与 token 涨价预判 · 前沿共识转向 RSI"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Cursor 决裂余波未平：Codex 预告新里程碑，MCP 生态爆发，行业重心转向「评估与标准」",
+    "title": "「按钮已经按下」：Codex 里程碑将至，模型实验室之争升级，RSI 共识浮现",
     "paras": [
-      "OpenAI 与 Cursor 决裂的消息余波仍在发酵。Codex 与 ChatGPT 负责人 Thibault Sottiaux 在断供公告之外再度放出信号：盯着仪表盘看，明天可能就要迎来一个值得庆祝的历史新里程碑，并呼吁开发者「Hold on to your Codex」。就在生态站队白热化之时，Replit CEO Amjad Masad 把目光投向另一个被低估的方向——「增长型 Agent」（Growth Agent），认为这是尚未被充分开发的巨大潜力。",
-      "Vercel CEO Guillermo Rauch 则用数据印证了 Agent 协议的爆发：MCP 正在爆炸式增长，实现 MCP 服务器的 npm 包 mcp-handler 下载量飙升，增长远不止 Vercel MCP 一家。他同时提醒：市面上「简单」做 Agent 的方式很多，但能让你真正拥有整套智能技术栈——运行时、模型选择、技能、工具、连接——并以 Git 仓库形式沉淀为自有资产的并不多。",
-      "当模型能力不再是唯一瓶颈，建造者们开始把注意力转向评估标准。Every 宣布迎来首位 Head of EVALS，Dan Shipper 断言「AI 里没有坏主意，只有弱模型」；VC 们也在收紧自己的判断框架——Matt Turck 晒出热门轮次的尽调现场，Nikunj 直言最好的 pitch 根本不需要出现「AI」这个词。"
+      "OpenAI Codex 与 ChatGPT 负责人 Thibault Sottiaux 连续放出信号：团队「从未如此火力全开」，按钮「今天已经按下」，庆祝仪式挪到明天，本人也正在返程落地——一场大版本发布或里程碑官宣似乎近在眼前。在 OpenAI 与 Cursor 决裂余波未平的时间点，这一悬念预告让外界对 Codex 下一步的形态充满想象。",
+      "模型实验室之间的正面竞争也开始显性化。FPV Ventures 合伙人 Nikunj Kothari 直言「大模型实验室打起来是必然的」，并预测补贴性 token 价格会在 6 个月内随算力成本与短缺的真实显现而上调，重置额度（reset limits）时代将终结；短期利好则是各类 open harness 估值或再增 10 亿到 300 亿美元。Vercel CEO Guillermo Rauch 则发布 CLI 工具 fx 0.0.7：MCP 支持大幅增强（用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon 等主流 MCP 实测），工具集更精简、shell 执行更稳健——CLI Agent 的工程细节正在成为新的竞争点。",
+      "第一性判断也在收紧。FirstMark 合伙人 Matt Turck 引用 Ryan Greenblatt 的预测：所有前沿实验室其实都在做同一件事——递归自我改进（RSI，即 AI 构建 AI），AI 接管最早可能在 2028 年末到 2029 年到来。而建造者 Zara Zhang 则泼了一盆冷水：AI 产品数量在爆炸，激进的新想法却不多，同质化让每个新产品都「像家庭作业」。"
     ]
+  },
+  "podcast": {
+    "label": "播客精选",
+    "title": "No Priors｜Science 创始人 Max Hodak：大脑就是计算机，视网膜假体只是起点",
+    "meta": "No Priors · 2026年8月20日",
+    "paras": [
+      "「大脑就是计算机，颅骨就是你的缸中之脑容器。」Science 创始人兼 CEO、Neuralink 前总裁 Max Hodak 在 No Priors 节目中如此开篇。他的公司刚完成一个关键里程碑：Prima 视网膜假体于 2026 年 7 月获得欧洲 CE 上市批准，首批销售将在未来数周内开始。这枚植入视网膜下方的微型芯片配合激光投影眼镜，绕过已死亡的感光细胞直接刺激视网膜，首次让失明患者「看见」成形图像——临床试验里有患者靠它填数独、读完整本书。Hodak 认为这正是「大脑即计算机」的证明：药物发现是漫长的随机游走，「而把电极放进大脑皮层，一小时后你就能打游戏」。",
+      "更远的目标是「基质独立」（substrate independence）：让意识不再绑定脆弱的肉身，可升级、可替换部件，最终连太空适应也纳入同一项目。Hodak 相信柏拉图表征假说——AI 模型内部表征与大脑神经表征共享几何结构，Science 已经在用它做脑机对齐，「研究神经科学最快的方式反而是研究 AI 模型」。但他明确拒绝「脑键盘」路线：说话或写作就是思考，约 10 bits/s 的认知瓶颈让高带宽脑机打字成为伪需求；真正值得做的是生成视觉、听觉，以及重新定义「你是谁」。"
+    ],
+    "url": "https://www.youtube.com/watch?v=7HXqMepjvy8"
   },
   "voices": {
     "label": "建造者观点",
@@ -22,63 +32,49 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "在宣布与 Cursor 断供的同一时间线里，再度放出一个悬念预告：盯着 Codex 仪表盘看，明天很可能迎来一个值得庆祝的历史新里程碑，让开发者「握紧手中的 Codex」。结合此前预告的用量与增长曲线，外界普遍猜测这指向 Codex 的用户规模或调用量新高。",
-        "url": "https://x.com/thsottiaux/status/2093573991965557198"
+        "text": "在 OpenAI 与 Cursor 决裂的余波中放出悬念预告：团队「从未如此火力全开」，并称「按钮今天已经按下」，庆祝仪式挪到明天，本人正赶回落地。外界普遍解读为 Codex 即将迎来一个重量级里程碑或新版本官宣。",
+        "url": "https://x.com/thsottiaux/status/2093811840258293947"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "晒出数据称 MCP 正在爆发式增长，且远不止 Vercel MCP 一家——用于实现 MCP 服务器的 npm 包 mcp-handler 下载量也在飙升。他同时强调：市面上「简单」建 Agent 的方式很多，但能让你真正拥有并掌控整套智能栈（运行时、模型选择、技能、工具、连接）的并不多。",
-        "url": "https://x.com/rauchg/status/2093463771071336497"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "在借 Cursor 事件抢量之余，点出下一个未被开发的机会：增长型 Agent（Growth Agent）。他认为这类能自动跑增长实验、优化获客转化的 Agent 潜力巨大，是当前市场被严重低估的方向。",
-        "url": "https://x.com/amasad/status/2093434828385313068"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "宣布 Every 迎来了首位 Head of EVALS，称其工作「堪称改变游戏规则」，迫不及待要向外界展示成果。此前他曾断言：在 AI 领域没有坏主意，只有弱模型——随着指数曲线继续，每个想法都会等到属于它的时刻。",
-        "url": "https://x.com/danshipper/status/2093347973669286146"
+        "text": "发布 CLI 工具 fx 0.0.7：MCP 支持大幅增强，并用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon 等主流 MCP 实测；同时工具集更精简、shell 执行更稳健。他指出 CLI Agent 最棘手的工程问题之一就是「跑命令」——命令可能挂起或跑很久、输出可能巨大也可能没有，这正是 fx 持续发力的方向。",
+        "url": "https://x.com/rauchg/status/2093736865191076318"
       },
       {
         "name": "Matt Turck",
         "handle": "mattturck",
         "org": "FirstMark Capital 合伙人、MAD Podcast 主理人",
-        "text": "用一张梗图调侃火热融资轮里的 VC 尽调现场：当市场情绪高涨、大家都在抢份额时，「尽调」往往只剩下象征性的走流程。对创业者是甜蜜的烦恼，对投资纪律则是持续的考验。",
-        "url": "https://x.com/mattturck/status/2093304544029463009"
+        "text": "转述 Ryan Greenblatt 的判断：所有前沿 AI 实验室其实都在做同一件事——递归自我改进（RSI，即 AI 构建 AI）。按此推演，AI 接管最早可能在 2028 年底至 2029 年到来。这条转发把「对齐 vs 能力」的老话题重新拉回风口浪尖。",
+        "url": "https://x.com/mattturck/status/2093794720510062617"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator 总裁兼 CEO",
-        "text": "为数据中心正名：数据中心创造繁荣和优质就业岗位。他附上实景数据指出，AI 算力基建的落地正在带动地方经济与就业，数据中心不是资源的浪费，而是新一轮区域繁荣的引擎。",
-        "url": "https://x.com/garrytan/status/2093500353849544842"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "Google VP（Gemini / Google Labs）",
-        "text": "点赞 Gemini Notebook 的 Expert Intelligence 新特性：笔记里能收到来自作者的亲笔信（letter from the author），是产品体验里非常细腻的一笔，让人感受到内容与人之间重新建立起的温度。",
-        "url": "https://x.com/joshwoodward/status/2093409673571631480"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder",
+        "text": "吐槽 AI 产品前所未有的同质化：产品数量在爆炸，激进的新想法却不多，一切都彼此模糊。每个新产品都承诺「做同样的事但更好」，但具体好在哪，不投入几小时试用根本说不清——「每次打开一个新 app 都像做家庭作业」。她还调侃，几乎所有产品都在要她的 Gmail、日历、Notion、Granola、GitHub、Slack 权限。",
+        "url": "https://x.com/zarazhangrui/status/2093944988262371465"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
         "org": "FPV Ventures 合伙人",
-        "text": "给创始人的建议：最好的 pitch 根本不需要出现「AI」这个词；AI 也不能成为你唯一「为什么是现在」的理由。他强调这只是个人观点、每个 VC 口味不同，但值得创业者反复咀嚼。",
-        "url": "https://x.com/nikunj/status/2093367245024240043"
+        "text": "直言「大模型实验室打起来是必然的」，并给出三个预判：补贴性 token 价格将在 6 个月内随算力成本与短缺的真实显现而上调；重置额度时代将终结；长期对客户选择是好事，而各类 open harness 的估值短期或再添 10 亿到 300 亿美元。",
+        "url": "https://x.com/nikunj/status/2093860971781746776"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "在回应一篇关于 AI 模型协作风险的帖子时自谦「不是专家」：这类问题很大程度可以通过让模型不情愿地主动协作、或训练模型报告不良行为来解决。这也是「安全靠训练而非约定」思路在模型协作问题上的又一次延伸。",
+        "url": "https://x.com/danshipper/status/2093713002453225891"
       }
     ]
   },
   "colophon": {
-    "source": "follow-builders feed（X / YouTube / Blogs）",
-    "coverage": "15 位建造者 · 30 条推文（播客与博客与上期相同，未重复收录）",
-    "generatedAt": "2026-08-30T10:10:00+08:00"
+    "source": "follow-builders feed（X / YouTube）",
+    "coverage": "精选 6 位建造者观点（feed 共 8 位 · 18 条推文）；播客 1 期；本期无官方博客",
+    "generatedAt": "2026-08-31T10:20:00+08:00"
   }
 }
