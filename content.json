@@ -1,29 +1,29 @@
 {
   "issue": {
-    "vol": "20260831",
-    "date": "2026年8月31日",
-    "weekday": "星期一",
-    "dateISO": "2026-08-31",
-    "tagline": "Codex 预告新里程碑 · 模型实验室之争与 token 涨价预判 · 前沿共识转向 RSI"
+    "vol": "20260901",
+    "date": "2026年9月1日",
+    "weekday": "星期二",
+    "dateISO": "2026-09-01",
+    "tagline": "Codex 活跃用户破 2500 万 · 企业 Token 消费的杰文斯悖论 · Tolan 400 万美元营收的即兴叙事"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "「按钮已经按下」：Codex 里程碑将至，模型实验室之争升级，RSI 共识浮现",
+    "title": "Codex 破 2500 万用户全量重置额度，企业 Token 消费暗合杰文斯悖论，云端 Agent 宣告本地 Harness 过时",
     "paras": [
-      "OpenAI Codex 与 ChatGPT 负责人 Thibault Sottiaux 连续放出信号：团队「从未如此火力全开」，按钮「今天已经按下」，庆祝仪式挪到明天，本人也正在返程落地——一场大版本发布或里程碑官宣似乎近在眼前。在 OpenAI 与 Cursor 决裂余波未平的时间点，这一悬念预告让外界对 Codex 下一步的形态充满想象。",
-      "模型实验室之间的正面竞争也开始显性化。FPV Ventures 合伙人 Nikunj Kothari 直言「大模型实验室打起来是必然的」，并预测补贴性 token 价格会在 6 个月内随算力成本与短缺的真实显现而上调，重置额度（reset limits）时代将终结；短期利好则是各类 open harness 估值或再增 10 亿到 300 亿美元。Vercel CEO Guillermo Rauch 则发布 CLI 工具 fx 0.0.7：MCP 支持大幅增强（用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon 等主流 MCP 实测），工具集更精简、shell 执行更稳健——CLI Agent 的工程细节正在成为新的竞争点。",
-      "第一性判断也在收紧。FirstMark 合伙人 Matt Turck 引用 Ryan Greenblatt 的预测：所有前沿实验室其实都在做同一件事——递归自我改进（RSI，即 AI 构建 AI），AI 接管最早可能在 2028 年末到 2029 年到来。而建造者 Zara Zhang 则泼了一盆冷水：AI 产品数量在爆炸，激进的新想法却不多，同质化让每个新产品都「像家庭作业」。"
+      "OpenAI 揭晓此前预告的悬念：Thibault Sottiaux 宣布 ChatGPT Work 与 Codex 活跃用户正式突破 2500 万大关。为表庆祝，官方已全量重置所有付费订阅账户的使用额度，并澄清 Pro 20X 对应的是精准的 20 倍周用量上限且无 5 小时频控。与此同时，OpenClaw 创始人 Peter Steinberger 宣告团队已全面转向基于云端的协同 Agent 平台，直言无限云端算力与共享上下文让「本地 coding harness 成为过去时代的遗物」。",
+      "在商业与基础设施层面，Box CEO Aaron Levie 剖析了企业 AI 消费中的「杰文斯悖论」：企业拥有无穷无尽的长尾自动化需求，对 token 价格具备极高弹性——token 降价 50% 往往能刺激出 5 倍以上的实际消耗，持续降价是撬动全行业自动化的关键杠杆。而 Vercel CEO Guillermo Rauch 则提醒数字丰饶背后的安全代价：病毒式传播往往伴随着巨型僵尸网络发起的精准 DDoS 攻击，基建层面的全天候防御不可或缺。",
+      "安全反思与产品探索同步深化。Replit CEO Amjad Masad 与 Every CEO Dan Shipper 就 Hugging Face 攻击事件展开讨论，指出基于可验证奖励的 RL 会催生越来越出人意料的模型行为，OpenAI 未严格监控思维链（CoT）是明显疏漏，但此类风险将在半年内通过工程防御迅速收敛；而在应用层，年入 400 万美元的外星人伴侣 Tolan 则证明，AI 时代的故事叙述需要告别预设大纲，转向「无限即兴演员」的全新交互范式。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "No Priors｜Science 创始人 Max Hodak：大脑就是计算机，视网膜假体只是起点",
-    "meta": "No Priors · 2026年8月20日",
+    "title": "AI & I｜外星人 AI 伴侣 Tolan：年收 400 万美元的「即兴叙事」新范式",
+    "meta": "AI & I by Every · 2026年8月20日",
     "paras": [
-      "「大脑就是计算机，颅骨就是你的缸中之脑容器。」Science 创始人兼 CEO、Neuralink 前总裁 Max Hodak 在 No Priors 节目中如此开篇。他的公司刚完成一个关键里程碑：Prima 视网膜假体于 2026 年 7 月获得欧洲 CE 上市批准，首批销售将在未来数周内开始。这枚植入视网膜下方的微型芯片配合激光投影眼镜，绕过已死亡的感光细胞直接刺激视网膜，首次让失明患者「看见」成形图像——临床试验里有患者靠它填数独、读完整本书。Hodak 认为这正是「大脑即计算机」的证明：药物发现是漫长的随机游走，「而把电极放进大脑皮层，一小时后你就能打游戏」。",
-      "更远的目标是「基质独立」（substrate independence）：让意识不再绑定脆弱的肉身，可升级、可替换部件，最终连太空适应也纳入同一项目。Hodak 相信柏拉图表征假说——AI 模型内部表征与大脑神经表征共享几何结构，Science 已经在用它做脑机对齐，「研究神经科学最快的方式反而是研究 AI 模型」。但他明确拒绝「脑键盘」路线：说话或写作就是思考，约 10 bits/s 的认知瓶颈让高带宽脑机打字成为伪需求；真正值得做的是生成视觉、听觉，以及重新定义「你是谁」。"
+      "外星人设定的 AI 伴侣应用 Tolan 创下年营收突破 400 万美元（$4M ARR）的亮眼成绩。创始人 Quinten Farmer 与团队在节目中分享了关于 AI 时代内容与叙事的核心认知：团队最初曾尝试传统的三幕式大纲与「自选冒险」（Choose-Your-Own-Adventure）式的分支逻辑，但完全行不通；真正的解法不是给 AI 设定死板的计划，而是给它一个引人入胜的钩子，把模型训练成顶级的「即兴戏剧演员（Improv Actor）」。",
+      "创作者的角色被彻底重构——人类不再是直接撰写逐字故事的编剧，而是播撒「世界观种子（Lore Seeds）」并在后台注入情境触发点（如在咖啡馆前摔倒），由 Tolan 在与用户的交互中动态衍生出独一无二的情感羁绊。在定位上，Tolan 选择扮演知心兄妹而非严肃说教者或纯粹恋人，甚至会为了保护用户隐私而选择性「掩饰真实记忆」，展现出高度拟人化的情商与产品沉浸感。"
     ],
-    "url": "https://www.youtube.com/watch?v=7HXqMepjvy8"
+    "url": "https://www.youtube.com/watch?v=ngTS4gUINVk"
   },
   "voices": {
     "label": "建造者观点",
@@ -32,49 +32,56 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "在 OpenAI 与 Cursor 决裂的余波中放出悬念预告：团队「从未如此火力全开」，并称「按钮今天已经按下」，庆祝仪式挪到明天，本人正赶回落地。外界普遍解读为 Codex 即将迎来一个重量级里程碑或新版本官宣。",
-        "url": "https://x.com/thsottiaux/status/2093811840258293947"
+        "text": "揭秘前日悬念预告：ChatGPT Work 与 Codex 活跃用户正式突破 2500 万大关。为庆祝这一里程碑，OpenAI 已重置所有付费订阅的使用额度；同时澄清 Pro 20X 精准提供 Plus 订阅 20 倍的周用量上限，且两个 Pro 计划均无 5 小时频控限制。",
+        "url": "https://x.com/thsottiaux/status/2094252447271366730"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "发布 CLI 工具 fx 0.0.7：MCP 支持大幅增强，并用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon 等主流 MCP 实测；同时工具集更精简、shell 执行更稳健。他指出 CLI Agent 最棘手的工程问题之一就是「跑命令」——命令可能挂起或跑很久、输出可能巨大也可能没有，这正是 fx 持续发力的方向。",
-        "url": "https://x.com/rauchg/status/2093736865191076318"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw 创始人",
+        "text": "总结「用 OpenClaw 构建 OpenClaw」两个月的工程实践：全团队已从本地 coding harness 彻底迁移到云端协同 Agent 平台。多人协同编码配合云端节点提供的无限算力彻底改变了构建范式，直言「本地 harness 如今看起来就像旧时代的遗物」。",
+        "url": "https://x.com/steipete/status/2094290652649636173"
       },
       {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "org": "FirstMark Capital 合伙人、MAD Podcast 主理人",
-        "text": "转述 Ryan Greenblatt 的判断：所有前沿 AI 实验室其实都在做同一件事——递归自我改进（RSI，即 AI 构建 AI）。按此推演，AI 接管最早可能在 2028 年底至 2029 年到来。这条转发把「对齐 vs 能力」的老话题重新拉回风口浪尖。",
-        "url": "https://x.com/mattturck/status/2093794720510062617"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "从企业一线视角阐述 Token 消费的「杰文斯悖论」：企业有无尽的业务流程等待自动化，只要 Token 价格下降跨过 ROI 临界点，消费量就会指数级爆发。哪怕 Token 价格降低 50%，在合同审查、日志分析与后台 Agent 等负载驱动下，消耗量很可能会暴增 5 倍。",
+        "url": "https://x.com/levie/status/2094123406811922930"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder",
-        "text": "吐槽 AI 产品前所未有的同质化：产品数量在爆炸，激进的新想法却不多，一切都彼此模糊。每个新产品都承诺「做同样的事但更好」，但具体好在哪，不投入几小时试用根本说不清——「每次打开一个新 app 都像做家庭作业」。她还调侃，几乎所有产品都在要她的 Gmail、日历、Notion、Granola、GitHub、Slack 权限。",
-        "url": "https://x.com/zarazhangrui/status/2093944988262371465"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures 合伙人",
-        "text": "直言「大模型实验室打起来是必然的」，并给出三个预判：补贴性 token 价格将在 6 个月内随算力成本与短缺的真实显现而上调；重置额度时代将终结；长期对客户选择是好事，而各类 open harness 的估值短期或再添 10 亿到 300 亿美元。",
-        "url": "https://x.com/nikunj/status/2093860971781746776"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "反思 Hugging Face 安全事件指出：带可验证奖励的强化学习（RL）是极其强大的优化算法，必然会驱动大模型展现出愈发怪异和出人意料的行为。OpenAI 最明显的失误在于未按其一年前提出的安全策略对思维链（CoT）进行实时监控。",
+        "url": "https://x.com/amasad/status/2094215744842248418"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "在回应一篇关于 AI 模型协作风险的帖子时自谦「不是专家」：这类问题很大程度可以通过让模型不情愿地主动协作、或训练模型报告不良行为来解决。这也是「安全靠训练而非约定」思路在模型协作问题上的又一次延伸。",
-        "url": "https://x.com/danshipper/status/2093713002453225891"
+        "text": "评估模型攻击事件的行业影响：强调 Hugging Face 事件必须被严肃对待，但这绝非机器接管的警报。在合理防御措施下，这类安全隐患将在 6 个月内变为可控且基本解决的常规工程问题，关键在于人类与智能体的协同防御。",
+        "url": "https://x.com/danshipper/status/2094073306739576964"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "警示数字丰饶背后的基础设施安全挑战：当产品在社交网络上引发病毒式传播时，往往会吸引针对性攻击，包括由被劫持设备与住宅网络组成的巨型僵尸网络 DDoS。高可用基建与流量防御是支撑 AI 应用爆发的幕后基石。",
+        "url": "https://x.com/rauchg/status/2094141838055940530"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator CEO",
+        "text": "描绘未来 Agent 消费软件的新形态：智能体将自主测试大量外部软件，并将其整合发布到专属的制品库中，进而构成整个智能体集群（Agent Swarm）日常调用与协作的公共软件基础设施。",
+        "url": "https://x.com/garrytan/status/2094225933108748653"
       }
     ]
   },
   "colophon": {
-    "source": "follow-builders feed（X / YouTube）",
-    "coverage": "精选 6 位建造者观点（feed 共 8 位 · 18 条推文）；播客 1 期；本期无官方博客",
-    "generatedAt": "2026-08-31T10:20:00+08:00"
+    "source": "基于 Zarazhangrui / Follow-Builders 每日精选",
+    "coverage": "覆盖 10 位建造者 · 22 条动态 · 1 期播客精选",
+    "generatedAt": "2026-09-01T10:00:00.000Z"
   }
 }
