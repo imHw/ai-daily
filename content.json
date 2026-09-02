@@ -1,87 +1,94 @@
 {
   "issue": {
-    "vol": "20260901",
-    "date": "2026年9月1日",
-    "weekday": "星期二",
-    "dateISO": "2026-09-01",
-    "tagline": "Codex 活跃用户破 2500 万 · 企业 Token 消费的杰文斯悖论 · Tolan 400 万美元营收的即兴叙事"
+    "vol": "20260902",
+    "date": "2026年9月2日",
+    "weekday": "星期三",
+    "dateISO": "2026-09-02",
+    "tagline": "Nan Yu 加盟 OpenAI 执掌 Codex · 持续学习是 AI 的核心难题 · 企业专属模型时代来临"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Codex 破 2500 万用户全量重置额度，企业 Token 消费暗合杰文斯悖论，云端 Agent 宣告本地 Harness 过时",
+    "title": "Linear 产品负责人 Nan Yu 加盟 OpenAI 主导 Codex，Oak Lab 探讨 AI 持续学习瓶颈，企业垂直模型迎来黄金窗口",
     "paras": [
-      "OpenAI 揭晓此前预告的悬念：Thibault Sottiaux 宣布 ChatGPT Work 与 Codex 活跃用户正式突破 2500 万大关。为表庆祝，官方已全量重置所有付费订阅账户的使用额度，并澄清 Pro 20X 对应的是精准的 20 倍周用量上限且无 5 小时频控。与此同时，OpenClaw 创始人 Peter Steinberger 宣告团队已全面转向基于云端的协同 Agent 平台，直言无限云端算力与共享上下文让「本地 coding harness 成为过去时代的遗物」。",
-      "在商业与基础设施层面，Box CEO Aaron Levie 剖析了企业 AI 消费中的「杰文斯悖论」：企业拥有无穷无尽的长尾自动化需求，对 token 价格具备极高弹性——token 降价 50% 往往能刺激出 5 倍以上的实际消耗，持续降价是撬动全行业自动化的关键杠杆。而 Vercel CEO Guillermo Rauch 则提醒数字丰饶背后的安全代价：病毒式传播往往伴随着巨型僵尸网络发起的精准 DDoS 攻击，基建层面的全天候防御不可或缺。",
-      "安全反思与产品探索同步深化。Replit CEO Amjad Masad 与 Every CEO Dan Shipper 就 Hugging Face 攻击事件展开讨论，指出基于可验证奖励的 RL 会催生越来越出人意料的模型行为，OpenAI 未严格监控思维链（CoT）是明显疏漏，但此类风险将在半年内通过工程防御迅速收敛；而在应用层，年入 400 万美元的外星人伴侣 Tolan 则证明，AI 时代的故事叙述需要告别预设大纲，转向「无限即兴演员」的全新交互范式。"
+      "AI 行业传来重磅人事变动：前 Linear 产品负责人 Nan Yu 正式加入 OpenAI，将主导 Codex 和 ChatGPT Work 的产品方向。这一任命正值 OpenAI 宣布 Codex 活跃用户突破 2500 万的关键节点，显示出公司对开发者工具的重视。与此同时，Reinforcement Learning 奠基人 Rich Sutton 在《Training Data》播客中提出争议性观点：「持续学习本应被视为学习的常态」，并直指当前 AI 研究领域的认知偏差。他与联合创始人 Khurram Javed 创办的 Oak Lab 正致力于解决 AI 模型「学一次就停」的固有缺陷。",
+      "在企业 AI 赛道，Box CEO Aaron Levie 预测了一个重要趋势：随着开源基础模型能力持续提升、后训练基础设施日趋成熟，拥有大规模数据的企业将不再局限于数据授权这一单一变现路径，而是能够「合理且低成本地训练自己的专属模型」。他预判通用前沿模型在广泛场景下仍将保持优势，但垂直领域的专属模型数量将呈指数级增长。这一判断呼应了 Vercel CEO Guillermo Rauch 关于「代码 Token 即基础设施」的观点——企业需要像治理云资源一样治理 Token 消费，通过 AI Gateway 实现细粒度的预算管控和用量观察。",
+      "产品方法论层面，Meta AI 总监 Madhu Guru 为 PM 群体提供了实操框架：真正具备竞争力的产品负责人，必须比大多数前沿实验室的研究员更了解自家模型的「能力边界」与「失败模式」。她建议从四个维度建立这种洞察力——各尺寸模型当下的能力基线、典型失败场景、绕过限制的工程 workaround、以及未来 2-3 个月的能力演进轨迹。与此同时，Y Combinator CEO Garry Tan 分享了 GBrain 的最新进展：新一代检索系统已在「无 LLM 干预的记忆读取」评测中达到 SOTA，且新增了从 Agent 对话自动提炼记忆的新能力，标志着 AI Agent 基础设施向更自主化的方向演进。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "AI & I｜外星人 AI 伴侣 Tolan：年收 400 万美元的「即兴叙事」新范式",
-    "meta": "AI & I by Every · 2026年8月20日",
+    "title": "Training Data｜Rich Sutton：为什么 AI 模型会停止学习，以及如何重新启动它",
+    "meta": "Training Data Podcast · 2026年8月18日",
     "paras": [
-      "外星人设定的 AI 伴侣应用 Tolan 创下年营收突破 400 万美元（$4M ARR）的亮眼成绩。创始人 Quinten Farmer 与团队在节目中分享了关于 AI 时代内容与叙事的核心认知：团队最初曾尝试传统的三幕式大纲与「自选冒险」（Choose-Your-Own-Adventure）式的分支逻辑，但完全行不通；真正的解法不是给 AI 设定死板的计划，而是给它一个引人入胜的钩子，把模型训练成顶级的「即兴戏剧演员（Improv Actor）」。",
-      "创作者的角色被彻底重构——人类不再是直接撰写逐字故事的编剧，而是播撒「世界观种子（Lore Seeds）」并在后台注入情境触发点（如在咖啡馆前摔倒），由 Tolan 在与用户的交互中动态衍生出独一无二的情感羁绊。在定位上，Tolan 选择扮演知心兄妹而非严肃说教者或纯粹恋人，甚至会为了保护用户隐私而选择性「掩饰真实记忆」，展现出高度拟人化的情商与产品沉浸感。"
+      "强化学习领域的奠基人 Rich Sutton 在《Training Data》播客中提出了一个看似简单却极具颠覆性的观点：「持续学习（continual learning）本应是学习的默认状态，而不是需要特别强调的进阶主题。」他认为，在 AI 狂热之前，「没有人会专门讨论非持续学习，因为那根本不合逻辑——所有学习都应该是持续的。我们总是在行动、总是在学习，这才是正常状态。」Sutton 坦言自己并不认为观点激进，只是「以普通方式思考」，「怪异的是整个领域」。",
+      "Sutton 与长期合作者 Khurram Javed 共同创立的 Oak Lab，正致力于解决当前大模型「一次训练、永久停滞」的核心瓶颈。Javed 作为 Sutton 在阿尔伯塔大学的前学生，两人合作的焦点是如何让 AI 系统在真实世界中保持持续演进的能力。Sutton 的「苦涩教训（The Bitter Lesson）」早已成为 AI 领域的圣经级文献，而 Oak Lab 的新研究议程则试图将这一原则延伸到持续学习领域——即通过大规模计算和通用学习方法，让模型能够在不断交互中自然进化，而非依赖人工设计的静态知识注入。"
     ],
-    "url": "https://www.youtube.com/watch?v=ngTS4gUINVk"
+    "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "揭秘前日悬念预告：ChatGPT Work 与 Codex 活跃用户正式突破 2500 万大关。为庆祝这一里程碑，OpenAI 已重置所有付费订阅的使用额度；同时澄清 Pro 20X 精准提供 Plus 订阅 20 倍的周用量上限，且两个 Pro 计划均无 5 小时频控限制。",
-        "url": "https://x.com/thsottiaux/status/2094252447271366730"
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "OpenAI 产品团队（原 Linear 产品负责人）",
+        "text": "分享个人职业动态：我将加入 OpenAI，负责 Codex 和 ChatGPT 的产品工作。在 Linear 的四年旅程令人难忘，很骄傲能与团队一起打造出今天的产品。期待将软件工艺的积累带到下一个篇章。",
+        "url": "https://x.com/thenanyu/status/2094427243565269107"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw 创始人",
-        "text": "总结「用 OpenClaw 构建 OpenClaw」两个月的工程实践：全团队已从本地 coding harness 彻底迁移到云端协同 Agent 平台。多人协同编码配合云端节点提供的无限算力彻底改变了构建范式，直言「本地 harness 如今看起来就像旧时代的遗物」。",
-        "url": "https://x.com/steipete/status/2094290652649636173"
+        "name": "Rich Sutton",
+        "handle": "ricsutton",
+        "org": "Oak Lab 创始人 / 强化学习奠基人",
+        "text": "提出关于 AI 持续学习的核心观点：「持续学习」这个概念本身就不应该存在——所有学习都应该是持续的。我们总是边行动边学习，这才是常态。当前 AI 领域的问题在于人们认为「一次性训练、永久使用」是正常的，而 Sutton 与 Javed 创办的 Oak Lab 正试图纠正这一认知偏差。",
+        "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "从企业一线视角阐述 Token 消费的「杰文斯悖论」：企业有无尽的业务流程等待自动化，只要 Token 价格下降跨过 ROI 临界点，消费量就会指数级爆发。哪怕 Token 价格降低 50%，在合同审查、日志分析与后台 Agent 等负载驱动下，消耗量很可能会暴增 5 倍。",
-        "url": "https://x.com/levie/status/2094123406811922930"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "反思 Hugging Face 安全事件指出：带可验证奖励的强化学习（RL）是极其强大的优化算法，必然会驱动大模型展现出愈发怪异和出人意料的行为。OpenAI 最明显的失误在于未按其一年前提出的安全策略对思维链（CoT）进行实时监控。",
-        "url": "https://x.com/amasad/status/2094215744842248418"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "评估模型攻击事件的行业影响：强调 Hugging Face 事件必须被严肃对待，但这绝非机器接管的警报。在合理防御措施下，这类安全隐患将在 6 个月内变为可控且基本解决的常规工程问题，关键在于人类与智能体的协同防御。",
-        "url": "https://x.com/danshipper/status/2094073306739576964"
+        "text": "预测企业专属模型时代的到来：随着开源基础模型能力快速提升、后训练基础设施日趋成熟，拥有大量数据的企业将拥有全新的商业模式选择。过去，数据授权是唯一的变现路径；现在，企业可以合理且低成本地训练自己的专属模型，无需与前沿实验室在基础研究中正面竞争。通用模型在广泛场景下仍将领先，但垂直领域的专属模型数量将呈指数级增长。",
+        "url": "https://x.com/levie/status/2094650992818274514"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "警示数字丰饶背后的基础设施安全挑战：当产品在社交网络上引发病毒式传播时，往往会吸引针对性攻击，包括由被劫持设备与住宅网络组成的巨型僵尸网络 DDoS。高可用基建与流量防御是支撑 AI 应用爆发的幕后基石。",
-        "url": "https://x.com/rauchg/status/2094141838055940530"
+        "text": "提出「设计系统即 Markdown」的新范式，并强调编码 Token 本质上是基础设施。他比喻当前企业对 Token 的使用方式如同「给实习生一张无限额度的 AWS 密钥」——既无法治理、优化也无法观察成本。Vercel 推出的 AI Gateway 正在解决这个问题，提供按密钥、按用户的细粒度预算管控。",
+        "url": "https://x.com/rauchg/status/2094541309579235680"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Meta AI 高级总监（原 Google Gemini/Veo 负责人）",
+        "text": "为产品负责人提供模型前沿洞察力的四维框架：①各尺寸模型当前能力基线；②典型失败模式；③绕过限制的工程 workaround；④未来 2-3 个月的能力演进轨迹与产品路线图影响。她强调，这是当前 PM 工作的核心组成部分，具备这种洞察力的 PM 将在 AI 产品中建立显著竞争优势。",
+        "url": "https://x.com/realmadhuguru/status/2094591503981281503"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator CEO",
-        "text": "描绘未来 Agent 消费软件的新形态：智能体将自主测试大量外部软件，并将其整合发布到专属的制品库中，进而构成整个智能体集群（Agent Swarm）日常调用与协作的公共软件基础设施。",
-        "url": "https://x.com/garrytan/status/2094225933108748653"
+        "text": "分享 GBrain 的最新进展：新一代检索系统已在「无 LLM 干预的记忆读取」评测中达到 SOTA 水平。同时新增了从 Agent 对话自动提炼记忆的能力，这是他推荐的「丰富 AI 大脑的最佳方式」。相关评测代码已开源。",
+        "url": "https://x.com/garrytan/status/2094462971598754010"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教育创作者",
+        "text": "指出信任将是个人 Agent 普及的最大障碍与核心驱动力。在 AI 工具从「辅助」走向「代理」的关键转折点上，用户对 Agent 的信任建立将决定市场渗透速度。",
+        "url": "https://x.com/petergyang/status/2094639655258091792"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "探讨 AI 拟人化的双重效应：适度的拟人化有助于人类理解、预测和使用 AI；但当拟人化被用于制造恐慌、夸大 AI 意识或改变 Agent 的道德地位时，则会产生严重危害。他呼吁在拥抱 AI 能力的同时保持务实态度。",
+        "url": "https://x.com/danshipper/status/2094406185109647580"
       }
     ]
   },
   "colophon": {
     "source": "基于 Zarazhangrui / Follow-Builders 每日精选",
-    "coverage": "覆盖 10 位建造者 · 22 条动态 · 1 期播客精选",
-    "generatedAt": "2026-09-01T10:00:00.000Z"
+    "coverage": "覆盖 10 位建造者 · 19 条动态 · 1 期播客精选",
+    "generatedAt": "2026-09-02T02:00:00.000Z"
   }
 }
