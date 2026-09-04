@@ -1,122 +1,122 @@
 {
   "issue": {
-    "vol": "20260903",
-    "date": "2026年9月3日",
-    "weekday": "星期四",
-    "dateISO": "2026-09-03",
-    "tagline": "Claude Fable 5.1 正式发布 · Sam Altman 谈安全与进展 · 企业专属模型时代加速到来"
+    "vol": "20260904",
+    "date": "2026年9月4日",
+    "weekday": "星期五",
+    "dateISO": "2026-09-04",
+    "tagline": "Gemini 3.8 Flash 推送 · ChatGPT 桌面端成生产力主力 · Claude 后台计算使用功能上线 · 会议记录的时代正在终结"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Anthropic 发布 Fable 5.1：安全干预大幅降低、企业防线升级，Sam Altman 披露下一代模型开发节奏",
+    "title": "Google 推送 Gemini 3.8 Flash，OpenAI ChatGPT 桌面端重新定义浏览器，Claude 推后台计算机使用功能",
     "paras": [
-      "Anthropic 正式发布 Claude Fable 5.1，这是其旗舰模型的一次重要迭代。最大的亮点在于安全与体验的精细平衡：企业客户的安全干预（safeguards）在 Fable 5.1 中对良性请求的误判率较前代降低了 60%，基础生物学和医学问题的回退率更是下降了 85%。与此同时，Anthropic 还推出了 Enterprise Frontier Safeguards（EFS）——这是在零数据保留（ZDR）基础上的升级版，既保持企业数据不出云的安全承诺，又能在 Agent 运行过程中持续监控风险模式，被视为企业级 Agent 部署的基础设施新标准。价格方面，Fable 5.1 的企业缓存读取降至每百万 token 0.25 美元，典型 Claude Code 会话成本下降最高 38%。",
-      "OpenAI CEO Sam Altman 在同日发表长文，深入探讨了能力进展与安全节奏之间的张力。他透露，名为 Astra 的新模型已完成训练，能力与对齐均有显著提升，但因安全标准考量，后续模型的发布节奏已主动放缓。Altman 明确表示：「我们正在进入一个阶段，认为谨慎是必要的」——这不是对进展的担忧，而是对影响的理解不足。他强调，「将 AI 过渡到一个拥有丰富且强大 AI 的世界，优化安全性和对人类有益的结果，应该是世界上最高的优先级之一。」这一表态为行业设定了安全优先的基调，也暗示未来数周内 OpenAI 可能有重要发布。",
-      "在企业 AI 赛道，Box CEO Aaron Levie 分享了 Fable 5.1 在企业工作负载上的实测数据：金融服务业 (+17%)、科技行业 (+37%)、公共部门 (+16%) 均有显著提升，尤其在需要复杂推理和多步骤操作的长程 Agent 工作流中表现突出。Meta AI 总监 Madhu Guru 则从方法论角度提出，企业构建自训练系统的五个核心要素——清晰的指标定义、产品策略与路线图、历史决策知识库、内部系统连接、以及了解产品全流程的 harness——正在成为企业 AI 竞争的新壁垒。"
+      "Google AI 团队 VP Josh Woodward 宣布 Gemini 3.8 Flash 正在向 Gemini App 推送，该模型以高质量和低价格著称。与此同时，OpenAI 的 Thibault Sottiaux 在 X 上分享：ChatGPT 桌面应用已成为他的主要浏览器，生产力达到前所未有的高度——这条推文获得了超过 5500 个赞和 1100 多条回复，反映出用户对 AI 原生应用形态的高度关注。",
+      "Anthropic 官方账号宣布 Claude 可以在后台使用计算机——在 Claude Cowork 和 Claude Code 中，用户可以给 Claude 布置桌面任务，它会在后台点击、输入、打开应用，用户则可以同时处理其他工作。这一功能获得了 8800 多个赞，Boris Cherny 也评论称「后台计算机使用被严重低估了」。",
+      "Replit CEO Amjad Masad 宣布 Replit 将在伦敦开设首个国际办公室，并与 OpenAI 合作于 9 月 10 日举办活动，Paul Graham 将进行对谈。Box CEO Aaron Levie 评论称本周是 AI 发布疯狂的一周，Muse 模型的重大更新可能改变开源模型的竞争格局。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Training Data｜Making Cities Awesome：Peregrine 的 Nick Noone 与 Ben Rudolph",
-    "meta": "Training Data Podcast · 2026年9月1日",
+    "title": "AI & I｜专业作家如何使用 AI 写作",
+    "meta": "AI & I by Every · 2026年9月2日",
     "paras": [
-      "本期播客聚焦 AI 在城市建设与安全领域的应用。Peregrine 是一家专注于利用技术改善城市、县、州层面的治理与安全的公司，其核心理念是：在金字塔的底层，安全是最重要的——人们既需要客观的安全，也需要感到安全。当这种稳定性存在时，才可能有更多可能。",
-      "Nick Noone 曾负责 Palantir 的 SOCOM 部门，在危险的高风险情报行动中长期部署。他与 Ben Rudolph 探讨了如何将 AI 技术用于消除复杂组织中信息的错误处理，同时保留个人隐私。他们的目标是构建现代城市的骨干基础设施——在保护隐私与促进社区联结之间找到平衡，而非走向 Surveillance State。"
+      "本期节目采访了 Every 的资深撰稿人 Katie Parrott，探讨她如何利用 AI 辅助写作。Katie 两年前来到了 Every——当时她刚被裁员，正经历心理健康危机，一度对 AI 持怀疑态度，却意外地转向 ChatGPT 寻求职业指导。",
+      "如今她已成为 AI 写作的坚定实践者，并开发了一款名为「Compound Writing」的实验性插件，灵感来自 Kieran Klassen 的 Compound Engineering。节目由 Every 的 AI 咨询负责人 Natalia Quintero 主持，深入探讨了 Katie 的写作流程转变，以及她如何将个人经验转化为高效的 AI 辅助写作方法论。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "过去夏天我们全力冲刺安全优先事项——能力与安全必须同步推进。Astra 已训练完成，能力与对齐均有显著提升，但我们决定放缓后续模型节奏以确保安全标准到位。「AI 正变得极其强大，没有人完全理解其后果。管理这一过渡期，优化安全性和对人类有益的结果，应该是全球最高优先级之一。」",
-        "url": "https://x.com/sama/status/2094934592062959832"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "Google Labs VP",
+        "text": "Gemini 3.8 Flash 正在向 Gemini App 推送，该模型以高质量和极具竞争力的价格著称。这是 Google 在轻量高效模型赛道上的重要一步。",
+        "url": "https://x.com/joshwoodward/status/2095177483129917849"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "ChatGPT 桌面应用现在是我的主要浏览器，我的生产力从未如此之高。OpenAI 的文化可以概括为「超大号创业公司」——极端的个人负责制、关怀意识和执行速度。",
+        "url": "https://x.com/thsottiaux/status/2095288416292487289"
+      },
+      {
+        "name": "Claude 官方",
+        "handle": "claudeai",
+        "org": "@anthropicai",
+        "text": "Claude 现在可以在后台使用计算机——在 Claude Cowork 和 Claude Code 中，给用户布置桌面任务，Claude 会像你一样点击、输入、打开应用，而用户可以同时处理其他工作。该功能已在 Pro 和 Max 订阅中上线 Beta。",
+        "url": "https://x.com/claudeai/status/2095226833293685100"
       },
       {
         "name": "Boris Cherny",
         "handle": "bcherny",
         "org": "Claude Code @Anthropic",
-        "text": "Fable 5.1 的写作质量更高、语气更自然，我们听到了关于减少「Claude-speak」的反馈，已取得实质进展。安全方面：生物学安全干预较 Fable 5 降低 85%，Claude Code 用户的网络干预减少约 60%。价格调整：企业缓存读取降至 $0.25/百万 token（原 $1），典型 Claude Code 会话成本最高降低 38%。",
-        "url": "https://x.com/bcherny/status/2094864064648536068"
+        "text": "后台计算机使用被严重低估了。此外，Fable 5.1 让 Claude Tag 更实用——它可以从不一致的 Slack 数据和 vendor 报告中识别出矛盾的数字，在移动之前就先标记出来。Claude Tag 已在 Slack 的 Team 和 Enterprise 计划中可用。",
+        "url": "https://x.com/bcherny/status/2095378890370019683"
       },
       {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "OpenAI 产品团队（原 Linear 产品负责人）",
-        "text": "让 Agent 变得「不那么烦人」蕴含着巨大价值——如果用户要频繁 rage quit，就无法触达价值。我认为 UX 设计师的一个重要未被挖掘的机会是成为对话/修辞设计师（conversation/rhetoric designer）。这不是小事，但能产生巨大影响。",
-        "url": "https://x.com/thenanyu/status/2094928205753040999"
-      },
-      {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "org": "Anthropic 研究员",
-        "text": "Fable 5.1 新增的 Enterprise Frontier Safeguards (EFS) 是我最兴奋的 non-model 发布之一。传统 ZDR（零数据保留）无法识别 Agent 跨会话的风险模式——EFS 是 ZDR++，为 Agent 时代构建的可观测性与风险缓解层。企业数据留在自己云端，自动化监控层标记风险模式。我预计这将成为企业运行强大 AI 的标配要求。",
-        "url": "https://x.com/alexalbert__/status/2094889286990446769"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "Box 使用 Fable 5.1 在企业复杂工作负载评测中测试：金融服务业 +17%（正确应用资本 allowances 顺序）、科技行业 +37%（识别模糊指标并计算两种形式）、公共部门 +16%（完整加权均值方法不崩溃）。这些是企业级长程 Agent 工作流能力的重大跃升。AI for cyber 即将垂直化——模型越来越擅长发现和利用漏洞，自动化修复+人工监督是唯一出路。",
-        "url": "https://x.com/levie/status/2094851976769257770"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "Replit 即将登陆伦敦🇬🇧——这是我们的第一个国际办公室。为庆祝这一时刻，我们将与 OpenAI 合作举办活动，Paul Graham 将进行对谈。9月10日周四，欢迎 RSVP。",
+        "url": "https://x.com/amasad/status/2095291912706220410"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
-        "org": "Meta AI 高级总监（原 Google Gemini/Veo 负责人）",
-        "text": "自改进产品是每个公司都应该实施的核心思路。五个必要要素：①清晰的指标定义（primary/secondary/guardrail）；②产品策略、路线图与重点指标；③历史决策与原则的知识库；④与内部产品系统（dashboards/APIs/MCPs/tools）的连接；⑤了解端到端产品开发流程的 harness。复杂产品可以从小原型开始，复用现有 SWE Agent。",
-        "url": "https://x.com/realmadhuguru/status/2094817857821704659"
+        "org": "Meta AI 高级总监",
+        "text": "每个 AI 产品都应该致力于让用户无需选择模型。 intelligence 是底层引擎——用户只关心任务是否完成。模型选择对用户的认知负荷太大了。实现这一目标需要三件事：对模型前沿的深刻理解、针对工作流的优秀评估体系、以及具备 AI 原生运营模式的人才团队。",
+        "url": "https://x.com/realmadhuguru/status/2095174463696589223"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教育创作者",
-        "text": "我不喜欢安装太多零散 skills。现在我只保留了十几个（主要是自己的），并定期删除不再使用的。我也尽量让 skills 保持精简。同时推荐运行 /claude-api prompt-audit 来清理 skills 中的冗余规则——针对最新模型做了大量优化。",
-        "url": "https://x.com/petergyang/status/2094999358525821099"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard'17",
+        "text": "我们记录会议不再是为了人类。没人会读 AI 生成的摘要笔记，也没人会回听录音。我们正在捕获转录文本，用来喂给 Agent。这是会议 AI 应用的范式转变——从辅助人类到服务机器。",
+        "url": "https://x.com/zarazhangrui/status/2095375073381318656"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "SPC General Partner",
+        "text": "很难信任这些前沿实验室说「别担心，我们不会用你的数据训练」。这正是开源模型如此重要的原因。使用中国模型来确保隐私，同时也凸显了美国开源的必要性。另外，太多初创公司只关注当下的模型能力，而更有意思的是对一年后的能力做出预判。",
+        "url": "https://x.com/adityaag/status/2095227334534041714"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "Fable 5.1 现已在 Vercel AI Gateway 上线。Fluid 平台实现了 Vercel 的行业领先构建性能、沙箱可靠性和 30 分钟函数时长——统一的 Dockerfile、安全边界、网络和文件系统让 Builds、Functions 和 Servers 可以在同一安全计算边界内协作。未来是单一的全球统一计算平台。",
-        "url": "https://x.com/rauchg/status/2094867652573528074"
+        "text": "一切皆代码。Fluid 平台实现了 Vercel 行业领先的构建性能、沙箱可靠性和 30 分钟函数时长——统一的 Dockerfile、安全边界、网络和文件系统让 Builds、Functions 和 Servers 可以在同一安全计算边界内协作。",
+        "url": "https://x.com/rauchg/status/2095234831013814611"
       },
       {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "org": "Claude Code + Cowork @Anthropic",
-        "text": "使用 Fable 5.1，我们的团队开始承担以前需要数月才能完成的大胆项目。通过 Claude Code、Claude Cowork、Claude Tag 都可以体验。Fable 5.1 在复杂企业任务中展现出显著的能力跃升。",
-        "url": "https://x.com/_catwu/status/2094933602228416603"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "本周的 AI 发布简直疯狂，Muse 也带来了重大模型更新。我们似乎正在接近能力进步的逃逸速度。如果这个模型以开源权重发布，将彻底改变美国开源模型的竞争格局。",
+        "url": "https://x.com/levie/status/2095234253613359200"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
-        "org": "Claude Code @Anthropic（原 YC W20）",
-        "text": "Fable 5.1 是一个非常好的模型，我花了大量时间深入研究。对低难度任务使用更低 effort 模式效果更好——切换 effort 不再打断 prompt cache，这是一个实用的改进。",
-        "url": "https://x.com/trq212/status/2094945951865520458"
+        "org": "Claude Code @Anthropic",
+        "text": "低 effort 模式不打破 prompt cache 的功能已在 API 上线，Claude Code 端预计一天内上线。在 Fable 5.1 上使用低 effort 模式处理简单任务效果更好——这是一个实用的改进。",
+        "url": "https://x.com/trq212/status/2095367584489038044"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures Partner",
-        "text": "WebMCP 被严重低估——现在可以给 Agent 提供工具调用直接交互你的网站，包括完整的 UI/UX 支持和交互式元素来构建自定义视图。Demo 展示了 Agent 如何与 El Niño 情况追踪器互动：创建自己的视图、保留人工编辑、生成可分享的链接。",
-        "url": "https://x.com/nikunj/status/2094922789128196314"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "Every 团队完成了 Fable 5.1 的 Vibe Check，详细报告已发布。从低阶代码到 AI 生成代码的转变持续加速——「还记得我们以前需要手写低级代码的日子吗？」",
-        "url": "https://x.com/danshipper/status/2094855479167996036"
+        "name": "Claude 官方",
+        "handle": "claudeai",
+        "org": "@anthropicai",
+        "text": "Claude Campus Ambassadors 项目现已开放申请。今年我们将扩大机会，为本科生、研究生和博士/博士后提供三个 Track。",
+        "url": "https://x.com/claudeai/status/2095168559873773970"
       }
     ]
   },
   "colophon": {
     "source": "基于 Zarazhangrui / Follow-Builders 每日精选",
-    "coverage": "覆盖 12 位建造者 · 38 条动态 · 1 期播客精选",
-    "generatedAt": "2026-09-03T02:00:00.000Z"
+    "coverage": "覆盖 12 位建造者 · 15 条动态 · 1 期播客精选",
+    "generatedAt": "2026-09-04T02:00:00.000Z"
   }
 }
