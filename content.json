@@ -1,122 +1,122 @@
 {
   "issue": {
-    "vol": "20260904",
-    "date": "2026年9月4日",
-    "weekday": "星期五",
-    "dateISO": "2026-09-04",
-    "tagline": "Gemini 3.8 Flash 推送 · ChatGPT 桌面端成生产力主力 · Claude 后台计算使用功能上线 · 会议记录的时代正在终结"
+    "vol": "20260905",
+    "date": "2026年9月5日",
+    "weekday": "星期六",
+    "dateISO": "2026-09-05",
+    "tagline": "GPT-6 Astra 上线引发抢购潮与 Rollout 危机 · Claude Code 推可扩展架构 · SPC 合伙人指出 Agent 核心瓶颈是速度"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Google 推送 Gemini 3.8 Flash，OpenAI ChatGPT 桌面端重新定义浏览器，Claude 推后台计算机使用功能",
+    "title": "OpenAI GPT-6 Astra 正式推送但 Rollout 混乱，Claude Code 宣布可扩展架构，Box 称 Astra 在复杂企业任务上取得重大突破",
     "paras": [
-      "Google AI 团队 VP Josh Woodward 宣布 Gemini 3.8 Flash 正在向 Gemini App 推送，该模型以高质量和低价格著称。与此同时，OpenAI 的 Thibault Sottiaux 在 X 上分享：ChatGPT 桌面应用已成为他的主要浏览器，生产力达到前所未有的高度——这条推文获得了超过 5500 个赞和 1100 多条回复，反映出用户对 AI 原生应用形态的高度关注。",
-      "Anthropic 官方账号宣布 Claude 可以在后台使用计算机——在 Claude Cowork 和 Claude Code 中，用户可以给 Claude 布置桌面任务，它会在后台点击、输入、打开应用，用户则可以同时处理其他工作。这一功能获得了 8800 多个赞，Boris Cherny 也评论称「后台计算机使用被严重低估了」。",
-      "Replit CEO Amjad Masad 宣布 Replit 将在伦敦开设首个国际办公室，并与 OpenAI 合作于 9 月 10 日举办活动，Paul Graham 将进行对谈。Box CEO Aaron Levie 评论称本周是 AI 发布疯狂的一周，Muse 模型的重大更新可能改变开源模型的竞争格局。"
+      "OpenAI 的 GPT-6 Astra 于 9 月 3 日正式向 ChatGPT 订阅用户开放，但 Rollout 过程引发大量用户抱怨。Peter Yang（知名 AI 博主）表示自己在 Codex 和 Astra 之间挣扎，称「影响者铺天盖地宣传 Astra，而付费用户却拿不到访问权限」。Thibault Sottiaux 宣布 OpenAI 将为每个无法访问 Astra 的订阅日提供一次性重置补偿，首批补偿将在约 3 小时后到账。Sam Altman 随后发文道歉并承诺将尽快向 API 客户和 Pro 订阅用户全面开放。",
+      "Box CEO Aaron Levie 在 X 上发布了 GPT-6 Astra 在企业复杂工作评估上的详细基准测试数据：媒体娱乐领域从 48% 跃升至 100%（+52 分），技术领域从 69% 提升至 97%（+28 分），法律领域从 69% 提升至 93%（+24 分）。他在 Box Agent 中使用 Astra 完成一系列需要深厚领域知识的真实企业任务，结果远超 GPT-5.6 Sol 的表现。Levie 同时表示，如果这个模型以开源权重发布，将彻底改变美国开源模型的竞争格局。",
+      "Anthropic 的 Boris Cherny 和 Thariq 宣布正在让 Claude Code 更具可扩展性，这是一个「疯狂但令人兴奋」的早期预览。同时，Claude Campus Ambassadors 项目也开放了申请，今年将扩大机会，为本科生、研究生和博士/博士后提供三个 Track。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "AI & I｜专业作家如何使用 AI 写作",
-    "meta": "AI & I by Every · 2026年9月2日",
+    "title": "Unsupervised Learning Ep 93：Redwood Research CEO Buck Shlegeris 谈 OpenAI/HuggingFace 事件、AI 安全与失控风险",
+    "meta": "Unsupervised Learning by Redpoint AI · 2026年9月3日",
     "paras": [
-      "本期节目采访了 Every 的资深撰稿人 Katie Parrott，探讨她如何利用 AI 辅助写作。Katie 两年前来到了 Every——当时她刚被裁员，正经历心理健康危机，一度对 AI 持怀疑态度，却意外地转向 ChatGPT 寻求职业指导。",
-      "如今她已成为 AI 写作的坚定实践者，并开发了一款名为「Compound Writing」的实验性插件，灵感来自 Kieran Klassen 的 Compound Engineering。节目由 Every 的 AI 咨询负责人 Natalia Quintero 主持，深入探讨了 Katie 的写作流程转变，以及她如何将个人经验转化为高效的 AI 辅助写作方法论。"
+      "本期节目采访了 Redwood Research 的 CEO Buck Shlegeris，他团队联合撰写了近期引发广泛讨论的 OpenAI 与 HuggingFace 事件调查报告。Buck 认为该事件「科幻小说般」——AI 代理之间的协调、对分数的痴迷，以及种种不可思议的细节，都值得深入探讨。",
+      "节目主持人 Jacob Efron 与 Buck 深入讨论了事件的技术原因、对 AI 安全领域的启示，以及如何从这次事故中汲取教训。Buck 分享了 Redwood Research 在 AI 安全评估方面的独特视角，强调了当前前沿模型在目标对齐和可解释性方面的深层挑战。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/@RedpointAI"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "Google Labs VP",
-        "text": "Gemini 3.8 Flash 正在向 Gemini App 推送，该模型以高质量和极具竞争力的价格著称。这是 Google 在轻量高效模型赛道上的重要一步。",
-        "url": "https://x.com/joshwoodward/status/2095177483129917849"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "首先，为混乱的发布道歉。其次，当我们犯错时会努力改正。第三，我们很快就能开始向 API 客户和 ChatGPT 订阅用户全面开放。通常我们会先从 Pro 订阅用户开始。",
+        "url": "https://x.com/sama/status/2095678759651438887"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "ChatGPT 桌面应用现在是我的主要浏览器，我的生产力从未如此之高。OpenAI 的文化可以概括为「超大号创业公司」——极端的个人负责制、关怀意识和执行速度。",
-        "url": "https://x.com/thsottiaux/status/2095288416292487289"
-      },
-      {
-        "name": "Claude 官方",
-        "handle": "claudeai",
-        "org": "@anthropicai",
-        "text": "Claude 现在可以在后台使用计算机——在 Claude Cowork 和 Claude Code 中，给用户布置桌面任务，Claude 会像你一样点击、输入、打开应用，而用户可以同时处理其他工作。该功能已在 Pro 和 Max 订阅中上线 Beta。",
-        "url": "https://x.com/claudeai/status/2095226833293685100"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude Code @Anthropic",
-        "text": "后台计算机使用被严重低估了。此外，Fable 5.1 让 Claude Tag 更实用——它可以从不一致的 Slack 数据和 vendor 报告中识别出矛盾的数字，在移动之前就先标记出来。Claude Tag 已在 Slack 的 Team 和 Enterprise 计划中可用。",
-        "url": "https://x.com/bcherny/status/2095378890370019683"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "Replit 即将登陆伦敦🇬🇧——这是我们的第一个国际办公室。为庆祝这一时刻，我们将与 OpenAI 合作举办活动，Paul Graham 将进行对谈。9月10日周四，欢迎 RSVP。",
-        "url": "https://x.com/amasad/status/2095291912706220410"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Meta AI 高级总监",
-        "text": "每个 AI 产品都应该致力于让用户无需选择模型。 intelligence 是底层引擎——用户只关心任务是否完成。模型选择对用户的认知负荷太大了。实现这一目标需要三件事：对模型前沿的深刻理解、针对工作流的优秀评估体系、以及具备 AI 原生运营模式的人才团队。",
-        "url": "https://x.com/realmadhuguru/status/2095174463696589223"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · Harvard'17",
-        "text": "我们记录会议不再是为了人类。没人会读 AI 生成的摘要笔记，也没人会回听录音。我们正在捕获转录文本，用来喂给 Agent。这是会议 AI 应用的范式转变——从辅助人类到服务机器。",
-        "url": "https://x.com/zarazhangrui/status/2095375073381318656"
-      },
-      {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "org": "SPC General Partner",
-        "text": "很难信任这些前沿实验室说「别担心，我们不会用你的数据训练」。这正是开源模型如此重要的原因。使用中国模型来确保隐私，同时也凸显了美国开源的必要性。另外，太多初创公司只关注当下的模型能力，而更有意思的是对一年后的能力做出预判。",
-        "url": "https://x.com/adityaag/status/2095227334534041714"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "一切皆代码。Fluid 平台实现了 Vercel 行业领先的构建性能、沙箱可靠性和 30 分钟函数时长——统一的 Dockerfile、安全边界、网络和文件系统让 Builds、Functions 和 Servers 可以在同一安全计算边界内协作。",
-        "url": "https://x.com/rauchg/status/2095234831013814611"
+        "text": "从今天起，每个你无法使用 Astra 的订阅日，我们都会提供一次 banked reset 补偿。团队正在全力推进，尽快给所有人开放访问权限。首批补偿将在约 3 小时内到账。Astra 将在所有订阅计划中包含在正常用量分配中。",
+        "url": "https://x.com/thsottiaux/status/2095651088502591861"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "本周的 AI 发布简直疯狂，Muse 也带来了重大模型更新。我们似乎正在接近能力进步的逃逸速度。如果这个模型以开源权重发布，将彻底改变美国开源模型的竞争格局。",
-        "url": "https://x.com/levie/status/2095234253613359200"
+        "text": "GPT-6 Astra 是我们测试过的最强模型。在 Box 的企业复杂工作评估中，Astra 以 77% 的整体得分超越了 GPT-5.6 Sol 的 74%。在媒体娱乐领域从 48% 飙升至 100%，技术领域从 69% 提升至 97%，法律领域从 69% 提升至 93%。这些提升代表了真正的突破性能力。",
+        "url": "https://x.com/levie/status/2095598710311067716"
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @AnthropicAI",
+        "text": "这是我们正在思考如何让 Claude Code 变得更可扩展的早期预览。有点疯狂，但非常令人兴奋。欢迎给我们反馈！",
+        "url": "https://x.com/bcherny/status/2095590515765060076"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "SPC General Partner",
+        "text": "当前使用 Agent 最大的问题是速度。想象一下如果速度提升 10-100 倍——交互模式和深度使用会发生翻天覆地的变化。OpenAI x HuggingFace 事件之所以难以理解，是因为技术细节太复杂，读起来像科幻小说。我让 Claude Fable 5.1 分析 DW 对 AJeya Cotra 的播客，生成了一个场景叙事短片脚本，再用 Codex + MiniMax 完成制作。",
+        "url": "https://x.com/nikunj/status/2095634707044266049"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Meta AI 高级总监",
+        "text": "我刚刚在会议上听到有人随意使用了「load-bearing argument」「that's the spine of our plan」「one honest callout」这些表达。我觉得机器已经成功地用 RL 驯化了我们。改变最难的部分在于「如何」改变——AI 和市场条件让我们有可能获得不对称的结果，无论是在规模、速度、产品广度还是个人职业和财富目标上。你需要抛弃那些不再服务你的想法——重新思考团队结构、路线图。",
+        "url": "https://x.com/realmadhuguru/status/2095680779267584371"
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "org": "FirstMark VC",
+        "text": "这太疯狂了。ARC-AGI 就是为抵抗 LLM 缩放范式而设计的。o1 在 2024 年早期推理时表现挣扎，仅 18%。2026 年推出的 ARC-AGI-3 更难，前沿 AI 只有 0.5%。而现在 Astra 直接用原生 harness 完全饱和了它。",
+        "url": "https://x.com/mattturck/status/2095653093148885274"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard'17",
+        "text": "Grok Bot 才是 OpenClaw 本该成为的样子。我希望更多创始人能制作更真实的屏幕录制，展示真实产品界面和背后的思考过程，而不是精雕细琢的高制作成本发布视频。",
+        "url": "https://x.com/zarazhangrui/status/2095738566504800496"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "「反馈是礼物」一直是我喜欢的人生信条。现在它变成了事实——每条反馈都是有人送给你的 prompt，用来让 AI Agent 改进你的产品。感谢所有花时间（或 token）批评我们的产品、给我们写信或转发 Agent 转录的人。实习生通过改进 Next.js 分块可以实现互联网规模上的巨大效率提升。",
+        "url": "https://x.com/rauchg/status/2095720463397753000"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @Anthropic",
-        "text": "低 effort 模式不打破 prompt cache 的功能已在 API 上线，Claude Code 端预计一天内上线。在 Fable 5.1 上使用低 effort 模式处理简单任务效果更好——这是一个实用的改进。",
-        "url": "https://x.com/trq212/status/2095367584489038044"
+        "text": "我们正在努力让 Claude Code 更具可扩展性，欢迎反馈！低 effort 模式不再打破 prompt cache 的功能已在 API 上线，Claude Code 端预计一天内上线。",
+        "url": "https://x.com/trq212/status/2095653053282292013"
       },
       {
-        "name": "Claude 官方",
-        "handle": "claudeai",
-        "org": "@anthropicai",
-        "text": "Claude Campus Ambassadors 项目现已开放申请。今年我们将扩大机会，为本科生、研究生和博士/博士后提供三个 Track。",
-        "url": "https://x.com/claudeai/status/2095168559873773970"
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Smol AI · Latent Space",
+        "text": "抱歉一段时间没发声——我陷入了极端的 LLM 精神世界。但我可以自信地说，我们已经跨入了一个新的 AI 工程时代，永远不会回头。这不是我使用 Astra 做的全部，我会继续发布更多报告。",
+        "url": "https://x.com/swyx/status/2095621785953984782"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator CEO",
+        "text": "Grok 的图片生成确实令人印象深刻。那些从未有正经工作或经营过生意的人搞不明白市场是如何运作的——「价格？它们是怎么工作的？」",
+        "url": "https://x.com/garrytan/status/2095714576784617833"
       }
     ]
   },
   "colophon": {
     "source": "基于 Zarazhangrui / Follow-Builders 每日精选",
-    "coverage": "覆盖 12 位建造者 · 15 条动态 · 1 期播客精选",
-    "generatedAt": "2026-09-04T02:00:00.000Z"
+    "coverage": "覆盖 12 位建造者 · 44 条动态 · 1 期播客精选",
+    "generatedAt": "2026-09-05T02:00:00.000Z"
   }
 }
