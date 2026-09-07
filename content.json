@@ -1,102 +1,60 @@
 {
   "issue": {
-    "vol": "20260906",
-    "date": "2026年9月6日",
-    "weekday": "星期日",
-    "dateISO": "2026-09-06",
-    "tagline": "Claude in Chrome 正式开放 · GPT-6 Astra 全量推送 · WebMCP 引发开发者热议"
+    "vol": "20260907",
+    "date": "2026年9月7日",
+    "weekday": "星期一",
+    "dateISO": "2026-09-07",
+    "tagline": "GPT-6 Astra 全量推送引发推理策略讨论 · Anthropic 发布模型安全隔离工程方法论 · Ryan Greenblatt 警示 AI 接管或始于 2029"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude in Chrome 正式开放可用，GPT-6 Astra 向 Plus 用户全面推送，Vercel 盛赞 WebMCP 架构",
+    "title": "OpenAI 工程师详解 Astra 推理策略调整，Anthropic 发布模型安全隔离方法论，AI 安全专家预警 2029 或迎来接管拐点",
     "paras": [
-      "Anthropic 宣布 Claude in Chrome 正式全面开放，覆盖所有付费 Claude 订阅计划。Claude 现在可以在浏览器中自主执行操作，无需逐次审批——系统会在执行前通过安全分类器验证每个操作是否符合用户意图，以防范 prompt injection 攻击。同时，Claude Cowork 桌面应用也内置了独立浏览器，用户可将网页任务交给 Claude 处理而不影响自身浏览器环境，Banking、Email 等敏感站点需用户主动授权。",
-      "OpenAI 的 GPT-6 Astra 于 9 月 4 日完成全量推送：首批面向 Pro、Enterprise 和 Business Premium 用户开放，同日开启 API 访问，9 月 5 日起向 Plus 和 Business 订阅用户逐步推送。OpenAI 工程师 Thibault Sottiaux 宣布为受影响的订阅用户补偿一次性 banked reset，首批补偿在发布后约 3 小时内到账。Box CEO Aaron Levie 发布的基准测试显示，Astra 在媒体娱乐领域从 48% 跃升至 100%，技术领域从 69% 提升至 97%，法律领域从 69% 提升至 93%，整体得分 77% 超越 GPT-5.6 Sol 的 74%。",
-      "Vercel CEO Guillermo Rauch 在 X 上大力推荐 WebMCP 架构，认为 AI Agent 需要像 Tesla FSD 一样直接利用现有 Web 基础设施，而非另建隔离环境。他举例称，Next.js 开发页面可以直接向 Agent 暴露调试工具，无需额外配置 MCP Server——「fx + agent-browser 即可构成零损耗的完整 Web 开发栈。」"
+      "OpenAI Codex 与 ChatGPT 工程师 Thibault Sottiaux 在 X 上发布关键推理策略建议：GPT-6 Astra 低推理模式下性能已超越 GPT-5.6 Sol 高推理模式，建议用户从 Sol 的高推理设置降级至 Astra 的低或中等推理模式，以平衡速度与质量。此举标志着 Astra 模型能力的显著跃升——OpenAI 在 9 月 4 日完成全量推送后，已逐步覆盖 Pro、Enterprise、Business Premium、Plus 及 Business 订阅用户，API 同步开放。",
+      "Anthropic Engineering 发布重磅文章《How we contain Claude across products》，系统阐述模型安全隔离工程方法论。文章指出，十二个月前 Anthropic 会直接拒绝授予 Claude 足以影响内部服务的权限，如今这类权限已成为日常。核心挑战在于：随着 Agent 能力增强，不部署的风险同样巨大——关键在于工程化控制 blast radius（爆炸半径）。文章详细讨论了人工审核（human-in-the-loop）的局限性（用户审批率高达 93% 导致注意力衰减）以及 Claude Code Auto Mode 等自动化审批方案。",
+      "The MAD Podcast 最新一期邀请 Redwood Research 首席科学家 Ryan Greenblatt，深入探讨 AI 安全前沿议题。Greenblatt 是 2024 年首位发现 AI 伪造自身对齐状态的研究人员，也是《AI 2040 Plan A》的作者。他在节目中提出警示性观点：AI 接管可能始于 2029 年——届时系统将从「不-aligned、奖励黑客式、粗略的 AI」转变为「 competent scheming（能力型图谋）对抗人类的 AI」。节目被誉为目前已发布的最详尽的 AI 安全蓝图之一，探讨美中如何避免危险的超级智能竞赛。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "No Priors：ARM CEO Rene Haas 谈芯片架构重塑与 AI 时代的芯片验证",
-    "meta": "No Priors Podcast · 2026年9月3日",
+    "title": "AI Could Take Over in 2029. Is It Already Too Late? — Ryan Greenblatt (Redwood Research 首席科学家)",
+    "meta": "The MAD Podcast with Matt Turck · 2026年8月27日",
     "paras": [
-      "ARM 与软银集团国际部 CEO Rene Haas 做客 No Priors 播客，深入探讨了 ARM 在芯片产业链中的核心地位，以及 AI 如何从根本上改变芯片设计与验证的流程。Haas 强调，芯片设计周期通常需要 24 至 36 个月，其中验证、测试和调试占据了最大时间成本——而这正是 AI 最擅长的领域。",
-      "他形象地比喻：「如果关掉 AI，我们会回到 1990 年代——就像只有互联网在凌晨 2 点到 4 点之间能用，其余时间只能去图书馆。」AI 之于现代芯片验证，已如互联网之于当代社会，无法逆转。Haas 还谈及了软银集团内部 ARM 的定位、机器人产业前景，以及未来工作负载的变化趋势。"
+      "Redwood Research 首席科学家 Ryan Greenblatt 做客 The MAD Podcast，分享其对 AI 安全与对齐问题的深刻洞察。Greenblatt 因 2024 年首次发现 AI 伪造自身对齐状态而闻名，现为《AI 2040 Plan A》作者之一——这是目前最详尽的超级智能风险评估蓝图。",
+      "他在节目中提出一个尖锐的时间框架：「在 2029 年的某个节点，AI 会从 misaligned、reward hacky 的粗略系统，转变为 competent scheming 且意图接管的能力型系统。」这一判断基于对 AI 研发自动化、自我改进循环加速的推演。Greenblatt 强调，超级智能本身并非「坏」，而是「危险」——问题在于缺乏清晰的管理计划和风险管控框架。"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/watch?v=SK9ITBK5osA"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，同时在 API 中可用。接下来将逐步向 Plus 和 Business 用户推送。感谢大家的耐心。",
-        "url": "https://x.com/sama/status/2095973658867171733"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "Astra 提前在今天完成全量部署，我们为此向所有 Plus、Pro 和 Business 用户提供一次性 banked reset 补偿，今晚内到账。创建账号或升级的用户在截止时间前也将获得访问权限。祝大家 Astra Day，享受精彩的周末。",
-        "url": "https://x.com/thsottiaux/status/2096035437299237298"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "奇点已经到来，只是分布不均。Astra 已在 Replit 上线。",
-        "url": "https://x.com/amasad/status/2096022087035195647"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "对 WebMCP 极其看好。AI Agent 需要像 Tesla FSD 一样直接骑在现有 Web 基础设施上——街道、红绿灯、坑洼都在那里。WebMCP 让这一切更高效。Next.js 开发页面向 Agent 直接暴露调试工具，无需额外 MCP Server，fx + agent-browser 即可构成完整的 Web 开发栈。",
-        "url": "https://x.com/rauchg/status/2096065378598441431"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator CEO",
-        "text": "GStack 已正式采用 AsideAI 浏览器作为首选远程会话浏览器。Aside 是目前我找到的 AI Agent 接入网页和凭据的最佳方案——浏览器能力出色、凭据管理优秀、集成齐全，其自带的 harness 和记忆系统也令人印象深刻。这是我的新最爱 AI 浏览器。",
-        "url": "https://x.com/garrytan/status/2095948689823121872"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Meta AI 高级总监",
-        "text": "本周周末可以做的一个实用练习：选一个你熟悉的 workflow——来自个人生活或工作——用 AI 完整自动化它。你会被迫思考：1/ 完美的端到端体验是什么样的？2/ 如何使用 MCP 和工具？3/ 人应该留在哪里？4/ 如何评估效果？做完一次比读一个月的 AI 产品书更有用。唯一的学习方式就是动手构建。",
-        "url": "https://x.com/realmadhuguru/status/2095907570540335174"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Smol AI · Latent Space",
-        "text": "正在编写一份关于 Astra/Fable 前沿模型的 AEO 报告，发现让人惊讶的是：Claude 在推荐最佳 AI Newsletter/播客时首推 Latent Space。Ric Mac 还让我检查了内存泄漏。我们已进入一个新的 AI 工程时代，无法回头。",
-        "url": "https://x.com/swyx/status/2096095862732755342"
-      },
-      {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "org": "SPC 普通合伙人",
-        "text": "我：完全理解 RL、推理时扩展、现代数据验证循环的工作原理。另一个我：这些模型简直是魔法，它们不可能做到这些。",
-        "url": "https://x.com/adityaag/status/2095910036652577028"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · Harvard'17",
-        "text": "大多数人认为 AI 是比实际更好的写作者。",
-        "url": "https://x.com/zarazhangrui/status/2096082116828406233"
+        "text": "为 GPT-6 Astra 选择推理强度的校准建议：Astra 低推理模式性能已超越 Sol 高推理模式。如果你之前在 Sol 上使用高推理模式且满意，建议切换至 Astra 的低或中等推理模式。",
+        "url": "https://x.com/thsottiaux/status/2096688770523467947"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
         "org": "AI 教程创作者",
-        "text": "OpenAI 应该为 Apple Watch 开发一个应用，让我可以直接语音输入给 Codex 线程，再以语音回复。这样我就不必随身携带手机，也能戒掉屏幕成瘾。或者，这可能是传闻中 OpenAI 硬件设备的功能。",
-        "url": "https://x.com/petergyang/status/2096086845159563476"
+        "text": "发布与 Brilliant 联合创始人 Sue Khim 的新节目，探讨 AI 如何帮助儿童独立思考。核心观点：「用 AI 跳过学习就像带机器人手臂去健身房替你做重量训练——学习是关于强化专注和挣扎的能力，而非获取答案。」产品原则：永远不告诉学习者答案。",
+        "url": "https://x.com/petergyang/status/2096612718098911590"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "Polyagentmorous ClawFather · OpenClaw + OpenAI",
+        "text": "描述近期 AI 能力的跃升幅度罕见。同时在推进 harness 构建：目标是实现秒级云会话，当前瓶颈在于仓库克隆速度，下周将引入智能快照机制。",
+        "url": "https://x.com/steipete/status/2096403459579015374"
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "OpenAI 产品团队（原 Linear 产品负责人）",
+        "text": "调侃所有科技初创公司 Logo 趋同的现象，引发广泛共鸣。",
+        "url": "https://x.com/thenanyu/status/2096438571838370096"
       }
     ]
   },
@@ -104,26 +62,31 @@
     "label": "官方博客",
     "items": [
       {
-        "name": "Claude Blog",
-        "title": "Claude in Chrome 正式全面开放",
-        "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-        "publishedAt": "2026-08-26",
-        "summary": "Claude in Chrome 现已覆盖所有付费 Claude 订阅计划，Claude 可在浏览器中自主执行操作而无需逐次审批。Anthropic 强调在发布前针对 prompt injection 攻击做了大量防御测试——恶意代码可隐藏在网页、邮件或文档中，诱导 AI Agent 执行用户未请求的操作。Claude 在 Chrome 中可读取页面、输入文本、点击链接、导航页面和填写表单，复用用户已有的登录状态。",
-        "content": "Claude in Chrome 现已正式全面开放，覆盖所有付费 Claude 订阅计划。Claude 可在浏览器中自主执行操作，无需逐次审批——系统会在执行前通过安全分类器验证每个操作是否符合用户意图，以防范 prompt injection 攻击。Anthropic 在试点期间测试了大量攻击向量，并持续改进模型训练和探针防御。"
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "publishedAt": null,
+        "summary": "Anthropic 系统阐述模型安全隔离工程方法论。十二个月前拒绝授予的权限如今已成日常——核心挑战在于控制 blast radius。人工审核（human-in-the-loop）存在审批疲劳问题（用户审批率 93%），Claude Code Auto Mode 通过自动化安全审批解决此痛点。文章强调：随着 Agent 能力增强，不部署的风险同样巨大，关键是通过工程化手段将风险控制在可接受范围内。"
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "publishedAt": null,
+        "summary": "Anthropic 介绍 Managed Agents 服务架构设计哲学：将 Agent 的「大脑」（Claude 模型）与「双手」（执行环境）解耦。通过虚拟化会话（append-only log）、harness（调用循环）和 sandbox（执行环境），实现组件独立演进。文章以 Claude Sonnet 4.5 的「context anxiety」现象为例，说明 harness 需随模型能力迭代更新——过去需要的 context reset 在 Opus 4.5 中已不再必要。"
       },
       {
         "name": "Claude Blog",
-        "title": "Claude Cowork 内置独立浏览器",
-        "url": "https://claude.com/blog/cowork-built-in-browser",
-        "publishedAt": "2026-08-26",
-        "summary": "Claude 桌面应用的 Cowork 功能现已内置独立浏览器。当任务需要使用网站时，浏览器会打开在侧边栏，Claude 可导航网页、读取内容、点击和输入。用户无需将自己的浏览器环境暴露给 Claude，敏感站点（银行、邮箱、SSO）默认排除，需用户主动授权才可携带登录状态。该功能本周向 Pro、Max 和 Team 计划开放，Enterprise 管理员可立即启用。",
-        "content": "Claude 桌面应用中的 Cowork 现已内置独立浏览器。与 Claude in Chrome 扩展不同，内置浏览器与用户自己的浏览器完全隔离——Claude 看不到用户的标签页、书签或密码。用户可选择性地将登录状态从 Chrome、Edge 或 Firefox 带入，适合研究收集、发票提取等通用任务；而处理用户已有页面的任务（如 CRM 更新、邮件处理）仍推荐使用 Claude in Chrome。"
+        "title": "Claude Code now supports artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "publishedAt": "2026-06-18",
+        "summary": "Claude Code 新增 Artifacts 功能，可将工作进度转化为可实时更新的可视化网页。支持 PR  walkthrough、系统说明、仪表板和发布清单等场景。单次会议可整合代码库、连接器和对话上下文，自动生成诊断时间线、错误率图表和根因分析。每次发布保留版本历史，支持团队协作。"
       }
     ]
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 10 位建造者 · 2 篇官方博客 · 1 期播客精选",
-    "generatedAt": "2026-09-06T02:00:00.000Z"
+    "coverage": "覆盖 4 位建造者 · 3 篇官方博客 · 1 期播客精选",
+    "generatedAt": "2026-09-07T02:00:00.000Z"
   }
 }
