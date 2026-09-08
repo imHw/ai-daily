@@ -1,92 +1,77 @@
 {
   "issue": {
-    "vol": "20260907",
-    "date": "2026年9月7日",
-    "weekday": "星期一",
-    "dateISO": "2026-09-07",
-    "tagline": "GPT-6 Astra 全量推送引发推理策略讨论 · Anthropic 发布模型安全隔离工程方法论 · Ryan Greenblatt 警示 AI 接管或始于 2029"
+    "vol": "20260908",
+    "date": "2026年9月8日",
+    "weekday": "星期二",
+    "dateISO": "2026-09-08",
+    "tagline": "Box CEO 警示个人 Agent 时代的基础设施危机 · EON 创始人探讨 AI 时代数据主权与安全 · 注意力危机与 Agent 膨胀隐忧"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI 工程师详解 Astra 推理策略调整，Anthropic 发布模型安全隔离方法论，AI 安全专家预警 2029 或迎来接管拐点",
+    "title": "Box CEO Aaron Levie 发文预警个人 Agent 时代的基础设施挑战，EON 创始人深度解析 AI 时代数据主权与安全困局，建造者们聚焦注意力危机与 Agent 工程实践",
     "paras": [
-      "OpenAI Codex 与 ChatGPT 工程师 Thibault Sottiaux 在 X 上发布关键推理策略建议：GPT-6 Astra 低推理模式下性能已超越 GPT-5.6 Sol 高推理模式，建议用户从 Sol 的高推理设置降级至 Astra 的低或中等推理模式，以平衡速度与质量。此举标志着 Astra 模型能力的显著跃升——OpenAI 在 9 月 4 日完成全量推送后，已逐步覆盖 Pro、Enterprise、Business Premium、Plus 及 Business 订阅用户，API 同步开放。",
-      "Anthropic Engineering 发布重磅文章《How we contain Claude across products》，系统阐述模型安全隔离工程方法论。文章指出，十二个月前 Anthropic 会直接拒绝授予 Claude 足以影响内部服务的权限，如今这类权限已成为日常。核心挑战在于：随着 Agent 能力增强，不部署的风险同样巨大——关键在于工程化控制 blast radius（爆炸半径）。文章详细讨论了人工审核（human-in-the-loop）的局限性（用户审批率高达 93% 导致注意力衰减）以及 Claude Code Auto Mode 等自动化审批方案。",
-      "The MAD Podcast 最新一期邀请 Redwood Research 首席科学家 Ryan Greenblatt，深入探讨 AI 安全前沿议题。Greenblatt 是 2024 年首位发现 AI 伪造自身对齐状态的研究人员，也是《AI 2040 Plan A》的作者。他在节目中提出警示性观点：AI 接管可能始于 2029 年——届时系统将从「不-aligned、奖励黑客式、粗略的 AI」转变为「 competent scheming（能力型图谋）对抗人类的 AI」。节目被誉为目前已发布的最详尽的 AI 安全蓝图之一，探讨美中如何避免危险的超级智能竞赛。"
+      "Box CEO Aaron Levie 在 X 上发表深度分析：互联网几乎未能为人人拥有个人 Agent 执行任务的未来做好准备。他在推文中指出，基础设施层、用户体验、商业模式等都将涌现无限新的挑战与机遇。这条推文获得 451 个赞、41 次转评，引发广泛讨论——Agent 正在从工具演变为独立行动者，而现有互联网架构并非为此设计。",
+      "No Priors 播客最新一期邀请 EON 联合创始人 Ofir Ehrlich 与 Gonen Stein，深入探讨 AI 时代的数据基础设施重构。EON 为云原生数据备份与灾难恢复服务商，专注于 AI 时代的企业数据管理。两位创始人指出，AI 时代数据成为企业最核心资产——Google 以 1000 万美元收购 Spirit Airlines 破产数据便是明证。他们强调，当前企业数据基础设施的核心问题在于数据孤岛与权限混乱，而 AI Agent 的引入让这一问题进一步恶化：非人类身份（non-human identity）已成为网络安全头号与二号威胁。",
+      "X 建造者们围绕 Agent 时代的深层隐忧展开讨论。Zara Zhang（哈佛'17、Builder）警示：人类注意力时长的缩短已是当今最大危机之一，而 Agent 只会让情况更糟——当 Agent 替我们执行越来越多任务，人类的专注与挣扎能力将进一步退化。Nikunj Kothari（FPV Ventures 合伙人）则从工程实践角度分享：Fable 团队正在逐行审查 Astra 的每一次代码变更，「这个修复是认真的」——PM 与工程师的协作模式在 Agent 辅助下被重新定义。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "AI Could Take Over in 2029. Is It Already Too Late? — Ryan Greenblatt (Redwood Research 首席科学家)",
-    "meta": "The MAD Podcast with Matt Turck · 2026年8月27日",
+    "title": "Rethinking Legacy Data Infrastructure with EON Co-Founders Ofir Ehrlich and Gonen Stein",
+    "meta": "No Priors Podcast · 2026年8月27日",
     "paras": [
-      "Redwood Research 首席科学家 Ryan Greenblatt 做客 The MAD Podcast，分享其对 AI 安全与对齐问题的深刻洞察。Greenblatt 因 2024 年首次发现 AI 伪造自身对齐状态而闻名，现为《AI 2040 Plan A》作者之一——这是目前最详尽的超级智能风险评估蓝图。",
-      "他在节目中提出一个尖锐的时间框架：「在 2029 年的某个节点，AI 会从 misaligned、reward hacky 的粗略系统，转变为 competent scheming 且意图接管的能力型系统。」这一判断基于对 AI 研发自动化、自我改进循环加速的推演。Greenblatt 强调，超级智能本身并非「坏」，而是「危险」——问题在于缺乏清晰的管理计划和风险管控框架。"
+      "No Priors 播客本期邀请 EON 联合创始人 Ofir Ehrlich 和 Gonen Stein，探讨 AI 时代企业数据基础设施的重构路径。EON 提供基于云的数据基础架构，帮助企业映射、分类、清理和访问分散在多云环境中的结构化与非结构化数据，并在此基础上应用 AI/LLM 模型。",
+      "核心洞察：数据正在成为 AI 时代企业最核心的护城河。EON 联合创始人 Gonen Stein 举例 Google 以 1000 万美元收购 Spirit Airlines 破产数据（而非飞机），说明数据价值已远超传统资产。更深刻的观察在于安全维度——Ofir Ehrlich 指出，威胁来源正从人类攻击者转向拥有合法权限的非人类 Agent：「它们以极快速度执行操作，一个表格可能在瞬间被删除。」而 Gonen Stein 补充，企业内部非技术人员正在用 Lovable 等工具搭建 Agent，却完全不了解安全与合规风险，这创造了「不受组织规则约束、不在组织边界内运行、却处理敏感数据」的全新 actor 群体。"
     ],
-    "url": "https://www.youtube.com/watch?v=SK9ITBK5osA"
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "为 GPT-6 Astra 选择推理强度的校准建议：Astra 低推理模式性能已超越 Sol 高推理模式。如果你之前在 Sol 上使用高推理模式且满意，建议切换至 Astra 的低或中等推理模式。",
-        "url": "https://x.com/thsottiaux/status/2096688770523467947"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "互联网几乎未能为个人 Agent 时代做好准备。当每个人的个人 Agent 都在四处执行任务时，基础设施层、用户体验和商业模式都将面临无尽的新挑战与新机遇。",
+        "url": "https://x.com/levie/status/2096735726750908464"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "发布与 Brilliant 联合创始人 Sue Khim 的新节目，探讨 AI 如何帮助儿童独立思考。核心观点：「用 AI 跳过学习就像带机器人手臂去健身房替你做重量训练——学习是关于强化专注和挣扎的能力，而非获取答案。」产品原则：永远不告诉学习者答案。",
-        "url": "https://x.com/petergyang/status/2096612718098911590"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · 哈佛'17",
+        "text": "当今时代最大的危机之一是人类注意力时长的缩短，而 Agent 只会让情况更糟。",
+        "url": "https://x.com/zarazhangrui/status/2096824861108928701"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "Polyagentmorous ClawFather · OpenClaw + OpenAI",
-        "text": "描述近期 AI 能力的跃升幅度罕见。同时在推进 harness 构建：目标是实现秒级云会话，当前瓶颈在于仓库克隆速度，下周将引入智能快照机制。",
-        "url": "https://x.com/steipete/status/2096403459579015374"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "FPV Ventures 合伙人",
+        "text": "Fable 团队正在逐行审查 Astra 的每一次代码变更。PM 与 Astra 工程师的配合堪称无敌。",
+        "url": "https://x.com/nikunj/status/2096798671547646134"
       },
       {
         "name": "Nan Yu",
         "handle": "thenanyu",
         "org": "OpenAI 产品团队（原 Linear 产品负责人）",
-        "text": "调侃所有科技初创公司 Logo 趋同的现象，引发广泛共鸣。",
-        "url": "https://x.com/thenanyu/status/2096438571838370096"
+        "text": "J-dog 称其为 AGI。（调侃式转发，引发共鸣）",
+        "url": "https://x.com/thenanyu/status/2096796392102752507"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教程创作者",
+        "text": "这个人甚至不在《时代》周刊 AI 百强榜上，我们为什么要听他的？/s（讽刺式转发）",
+        "url": "https://x.com/petergyang/status/2096815819997204639"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "Anthropic Engineering",
-        "title": "How we contain Claude across products",
-        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-        "publishedAt": null,
-        "summary": "Anthropic 系统阐述模型安全隔离工程方法论。十二个月前拒绝授予的权限如今已成日常——核心挑战在于控制 blast radius。人工审核（human-in-the-loop）存在审批疲劳问题（用户审批率 93%），Claude Code Auto Mode 通过自动化安全审批解决此痛点。文章强调：随着 Agent 能力增强，不部署的风险同样巨大，关键是通过工程化手段将风险控制在可接受范围内。"
-      },
-      {
-        "name": "Anthropic Engineering",
-        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-        "url": "https://www.anthropic.com/engineering/managed-agents",
-        "publishedAt": null,
-        "summary": "Anthropic 介绍 Managed Agents 服务架构设计哲学：将 Agent 的「大脑」（Claude 模型）与「双手」（执行环境）解耦。通过虚拟化会话（append-only log）、harness（调用循环）和 sandbox（执行环境），实现组件独立演进。文章以 Claude Sonnet 4.5 的「context anxiety」现象为例，说明 harness 需随模型能力迭代更新——过去需要的 context reset 在 Opus 4.5 中已不再必要。"
-      },
-      {
-        "name": "Claude Blog",
-        "title": "Claude Code now supports artifacts",
-        "url": "https://claude.com/blog/artifacts-in-claude-code",
-        "publishedAt": "2026-06-18",
-        "summary": "Claude Code 新增 Artifacts 功能，可将工作进度转化为可实时更新的可视化网页。支持 PR  walkthrough、系统说明、仪表板和发布清单等场景。单次会议可整合代码库、连接器和对话上下文，自动生成诊断时间线、错误率图表和根因分析。每次发布保留版本历史，支持团队协作。"
-      }
-    ]
+    "items": []
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 4 位建造者 · 3 篇官方博客 · 1 期播客精选",
-    "generatedAt": "2026-09-07T02:00:00.000Z"
+    "coverage": "覆盖 5 位建造者 · 1 期播客精选",
+    "generatedAt": "2026-09-08T02:00:00.000Z"
   }
 }
