@@ -1,67 +1,89 @@
 {
   "issue": {
-    "vol": "20260908",
-    "date": "2026年9月8日",
-    "weekday": "星期二",
-    "dateISO": "2026-09-08",
-    "tagline": "Box CEO 警示个人 Agent 时代的基础设施危机 · EON 创始人探讨 AI 时代数据主权与安全 · 注意力危机与 Agent 膨胀隐忧"
+    "vol": "20260909",
+    "date": "2026年9月9日",
+    "weekday": "星期三",
+    "dateISO": "2026-09-09",
+    "tagline": "Box CEO 论 AI 时代的投资使命 · Replit 伦敦扩张与 Vercel 开源基金 · AGI 已至？建造者们热议自动化与人类价值"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Box CEO Aaron Levie 发文预警个人 Agent 时代的基础设施挑战，EON 创始人深度解析 AI 时代数据主权与安全困局，建造者们聚焦注意力危机与 Agent 工程实践",
+    "title": "Box CEO Aaron Levie 提出 AI 投资的「数量级思维」，Vercel 郭冠廷公布千美元开源资助计划，Replit 创始人 Amjad Masad 直言功能上 AGI 已至——建造者们围绕 AI 时代的基础设施、人才与组织形态展开密集讨论",
     "paras": [
-      "Box CEO Aaron Levie 在 X 上发表深度分析：互联网几乎未能为人人拥有个人 Agent 执行任务的未来做好准备。他在推文中指出，基础设施层、用户体验、商业模式等都将涌现无限新的挑战与机遇。这条推文获得 451 个赞、41 次转评，引发广泛讨论——Agent 正在从工具演变为独立行动者，而现有互联网架构并非为此设计。",
-      "No Priors 播客最新一期邀请 EON 联合创始人 Ofir Ehrlich 与 Gonen Stein，深入探讨 AI 时代的数据基础设施重构。EON 为云原生数据备份与灾难恢复服务商，专注于 AI 时代的企业数据管理。两位创始人指出，AI 时代数据成为企业最核心资产——Google 以 1000 万美元收购 Spirit Airlines 破产数据便是明证。他们强调，当前企业数据基础设施的核心问题在于数据孤岛与权限混乱，而 AI Agent 的引入让这一问题进一步恶化：非人类身份（non-human identity）已成为网络安全头号与二号威胁。",
-      "X 建造者们围绕 Agent 时代的深层隐忧展开讨论。Zara Zhang（哈佛'17、Builder）警示：人类注意力时长的缩短已是当今最大危机之一，而 Agent 只会让情况更糟——当 Agent 替我们执行越来越多任务，人类的专注与挣扎能力将进一步退化。Nikunj Kothari（FPV Ventures 合伙人）则从工程实践角度分享：Fable 团队正在逐行审查 Astra 的每一次代码变更，「这个修复是认真的」——PM 与工程师的协作模式在 Agent 辅助下被重新定义。"
+      "Box CEO Aaron Levie 发布重磅观点：在 AI 能力快速跃迁的当下，创业者应以「数量级」为维度思考机会——用当前 barely 可行的技术，服务那些需要百倍数据处理能力或模型能力仍处于幼年期的高潜力场景。他同时驳斥了「AI 取代工程师/律师」的论调，指出 AI 反而正在创造网络安全、FDE（前端开发工程师）、Agent 操作员等全新职业品类，需求边界仍在不断扩展。",
+      "Vercel CEO 郭冠廷（Guillermo Rauch）宣布其个人开源基金 v2 版，向 35 位贡献者每人资助 1,000 美元。五大主题聚焦 Agent Skills & Tools（如 pgbot、kniqp、unlighthouse）、Local AI（slotsstream、LocalAI、colibri）、性能工具（fff、takumi、PerryTS）、高质量基础组件（shadcn、SvelteKit、Node.js）及实验性项目（dithe-kit、终端金融终端）。他强调 AI 最擅长的仍是复用已有优质组件，而非从头生成。",
+      "Replit CEO Amjad Masad 发出争议性判断：「我们尚未抵达 AGI，但我们拥有的东西在功能上与 AGI 无法区分——因为我们拥有一个永不疲倦、永不无聊的 relentlessly programmer。」这一论断与 Box CEO Levie 的观点形成有趣呼应：自动化并非消灭工作，而是将人类从执行层推向更高层次的决策与监督。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Rethinking Legacy Data Infrastructure with EON Co-Founders Ofir Ehrlich and Gonen Stein",
-    "meta": "No Priors Podcast · 2026年8月27日",
+    "title": "A $10B Hedge Fund's AI Playbook (Best of the Pod) — AI & I by Every",
+    "meta": "AI & I by Every · 2026年8月26日",
     "paras": [
-      "No Priors 播客本期邀请 EON 联合创始人 Ofir Ehrlich 和 Gonen Stein，探讨 AI 时代企业数据基础设施的重构路径。EON 提供基于云的数据基础架构，帮助企业映射、分类、清理和访问分散在多云环境中的结构化与非结构化数据，并在此基础上应用 AI/LLM 模型。",
-      "核心洞察：数据正在成为 AI 时代企业最核心的护城河。EON 联合创始人 Gonen Stein 举例 Google 以 1000 万美元收购 Spirit Airlines 破产数据（而非飞机），说明数据价值已远超传统资产。更深刻的观察在于安全维度——Ofir Ehrlich 指出，威胁来源正从人类攻击者转向拥有合法权限的非人类 Agent：「它们以极快速度执行操作，一个表格可能在瞬间被删除。」而 Gonen Stein 补充，企业内部非技术人员正在用 Lovable 等工具搭建 Agent，却完全不了解安全与合规风险，这创造了「不受组织规则约束、不在组织边界内运行、却处理敏感数据」的全新 actor 群体。"
+      "本期每期播客邀请到一家接近 100 亿美元资产管理规模（AUM）的对冲基金 Walleye 的 CEO兼CIO Will，分享他们如何将 AI 深度融入组织运营。Will 开宗明义：「使用 ChatGPT 不是作弊——这是学术界才有的过时观念。」他强调，作为对冲基金，忽视能让团队更快、更聪明、更高效的工具是一种耻辱。",
+      "Will 将公司文化定义为「从顶层开始构建围绕 AI 的文化」，并指出拒绝使用 AI 就像 1995 年因为互联网不够完美而拒绝使用它一样荒谬。每一家公司都应该将 AI 整合进每一个职能。这段访谈为金融机构乃至所有行业的 AI 落地提供了高层视角的实践范本。",
+      "核心洞察：顶级对冲基金的 AI 哲学不是「用 AI 替代人」，而是「用 AI 放大人的决策质量」——这一逻辑对任何规模的组织都具有可移植性。"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO · civilizationist",
+        "text": "我们尚未抵达 AGI，但我们拥有的东西在功能上与 AGI 无法区分——因为我们拥有永不疲倦、永不无聊的 relentless programmer。任何能被转化为编程问题的难题，基本上都已得到解决。",
+        "url": "https://x.com/amasad/status/2096936109817135331"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "互联网几乎未能为个人 Agent 时代做好准备。当每个人的个人 Agent 都在四处执行任务时，基础设施层、用户体验和商业模式都将面临无尽的新挑战与新机遇。",
-        "url": "https://x.com/levie/status/2096735726750908464"
+        "text": "最好的机会存在于那些需要数量级数据处理能力、或模型能力仍处于幼年期的场景中——用当前 barely 可行的技术，服务今日即可交付客户价值的产品，同时怀抱近乎不可能的使命。",
+        "url": "https://x.com/levie/status/2097189559712837770"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · 哈佛'17",
-        "text": "当今时代最大的危机之一是人类注意力时长的缩短，而 Agent 只会让情况更糟。",
-        "url": "https://x.com/zarazhangrui/status/2096824861108928701"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "AI 岗位预测的剧本与许多人预想的相反。AI 将自动化带入没有有限需求特征的领域，让企业能做更多过去做不到的事。更关键的是，AI 不仅没有取代工程师和律师——反而正在创造或扩大网络安全、FDE、Agent 操作员、非软件领域工程师等大量全新职业品类。",
+        "url": "https://x.com/levie/status/2097004960307449937"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures 合伙人",
-        "text": "Fable 团队正在逐行审查 Astra 的每一次代码变更。PM 与 Astra 工程师的配合堪称无敌。",
-        "url": "https://x.com/nikunj/status/2096798671547646134"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "宣布开源基金 v2：向 35 位贡献者每人资助 1,000 美元。五大主题——Agent Skills & Tools、Local AI、性能、高质量基础组件、酷炫实验。AI 在能复用优质组件时表现最佳，而非每次从头生成。",
+        "url": "https://x.com/rauchg/status/2097116011384426516"
       },
       {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "OpenAI 产品团队（原 Linear 产品负责人）",
-        "text": "J-dog 称其为 AGI。（调侃式转发，引发共鸣）",
-        "url": "https://x.com/thenanyu/status/2096796392102752507"
+        "name": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "org": "Anthropic AI 哲学家与伦理学家",
+        "text": "如果自主 AI 模型需要一个邮箱来获取道德指导就好了——但这需要一个逆向验证码，能识别出你既不是人类、也不是被人类指示去破解验证码的 AI。",
+        "url": "https://x.com/AmandaAskell/status/2096995340654444674"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "这个人甚至不在《时代》周刊 AI 百强榜上，我们为什么要听他的？/s（讽刺式转发）",
-        "url": "https://x.com/petergyang/status/2096815819997204639"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "正在看一份 28 页的 deck，Codex 在追踪所有各个 launch。每一个都让人迫不及待想看人们会用它做什么。感谢不可思议的团队（及 Astra）。",
+        "url": "https://x.com/thsottiaux/status/2097193293532848288"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "有些事是更多 token 也换不来的——而对于其他所有事，有 Fable 和 Astra。",
+        "url": "https://x.com/danshipper/status/2097110684509380796"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "Polyagentmorous ClawFather · @OpenClaw + @OpenAI",
+        "text": "给上游项目提了 PR，对方要求做一些小修改。但 workflows 的意义何在？你已经写了 prompt，为什么还要 ping 我的 agent 一下，然后你的 agent 再合并？",
+        "url": "https://x.com/steipete/status/2097091456234111377"
       }
     ]
   },
@@ -71,7 +93,7 @@
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 5 位建造者 · 1 期播客精选",
-    "generatedAt": "2026-09-08T02:00:00.000Z"
+    "coverage": "覆盖 8 位建造者 · 1 期播客精选",
+    "generatedAt": "2026-09-09T02:00:00.000Z"
   }
 }
