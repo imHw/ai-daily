@@ -1,89 +1,85 @@
 {
   "issue": {
-    "vol": "20260909",
-    "date": "2026年9月9日",
-    "weekday": "星期三",
-    "dateISO": "2026-09-09",
-    "tagline": "Box CEO 论 AI 时代的投资使命 · Replit 伦敦扩张与 Vercel 开源基金 · AGI 已至？建造者们热议自动化与人类价值"
+    "vol": "20260911",
+    "date": "2026年9月11日",
+    "weekday": "星期五",
+    "dateISO": "2026-09-11",
+    "tagline": "Codex 银行重置故障引发用户不满 · Aaron Levie 论 AI 扩散的「公司法则」 · Vercel 半年连降8次价格 · Paul Backus 回归 OpenAI"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Box CEO Aaron Levie 提出 AI 投资的「数量级思维」，Vercel 郭冠廷公布千美元开源资助计划，Replit 创始人 Amjad Masad 直言功能上 AGI 已至——建造者们围绕 AI 时代的基础设施、人才与组织形态展开密集讨论",
+    "title": "OpenAI Codex 银行重置功能故障道歉，Box CEO Aaron Levie 提出 AI 扩散的「公司法则」与 GDP 衡量难题，Vercel 宣布半年内连续降价8次并推出 AI 基准评测活动——建造者们聚焦 AI 落地现实、定价战争与组织变革的深层挑战",
     "paras": [
-      "Box CEO Aaron Levie 发布重磅观点：在 AI 能力快速跃迁的当下，创业者应以「数量级」为维度思考机会——用当前 barely 可行的技术，服务那些需要百倍数据处理能力或模型能力仍处于幼年期的高潜力场景。他同时驳斥了「AI 取代工程师/律师」的论调，指出 AI 反而正在创造网络安全、FDE（前端开发工程师）、Agent 操作员等全新职业品类，需求边界仍在不断扩展。",
-      "Vercel CEO 郭冠廷（Guillermo Rauch）宣布其个人开源基金 v2 版，向 35 位贡献者每人资助 1,000 美元。五大主题聚焦 Agent Skills & Tools（如 pgbot、kniqp、unlighthouse）、Local AI（slotsstream、LocalAI、colibri）、性能工具（fff、takumi、PerryTS）、高质量基础组件（shadcn、SvelteKit、Node.js）及实验性项目（dithe-kit、终端金融终端）。他强调 AI 最擅长的仍是复用已有优质组件，而非从头生成。",
-      "Replit CEO Amjad Masad 发出争议性判断：「我们尚未抵达 AGI，但我们拥有的东西在功能上与 AGI 无法区分——因为我们拥有一个永不疲倦、永不无聊的 relentlessly programmer。」这一论断与 Box CEO Levie 的观点形成有趣呼应：自动化并非消灭工作，而是将人类从执行层推向更高层次的决策与监督。"
+      "OpenAI Codex 产品负责人 Thibault Sottiaux 通报：今晨部分「银行重置」（banked resets）在 ChatGPT Work 和 Codex 中未完全生效，受影响用户在时间窗口内使用的重置将重新发放，并附道歉邮件。该推获 9,117 赞、1,980 评论，成为当日最高互动内容。Sottiaux 另表示团队正与研究员激烈辩论新模型命名，「总能冒出最搞笑的点子」。",
+      "Box CEO Aaron Levie 发布长推，系统阐述 AI 扩散为何比预期更慢：即便把最强超智能接入工作流，仍受「公司法则」制约——数据准备、流程重构、变革管理、跨部门对齐每一步都耗时；更关键的是，现实世界本身有速度上限，等客户回复提案、等项目获批、等药物研发管线数年才能触达消费者。Levie 认为，AI 扩散将是未来十年的主题，而在超智能与现实工作流之间搭建桥梁的机会巨大。",
+      "Vercel CEO 郭冠廷（Guillermo Rauch）宣布两件事：一是 AI Benchmarks 活动将于旧金山举办，联合 Benchmark 公司，聚焦「引导世界走向技能、真理与效率」的模型评测赛道；二是披露过去六个月已执行 8 次降价、费用减免和结构优化，并追加 16 个模型折扣，「更多将至」。Vercel 的价格战正将 AI 基础设施成本持续压降。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "A $10B Hedge Fund's AI Playbook (Best of the Pod) — AI & I by Every",
-    "meta": "AI & I by Every · 2026年8月26日",
-    "paras": [
-      "本期每期播客邀请到一家接近 100 亿美元资产管理规模（AUM）的对冲基金 Walleye 的 CEO兼CIO Will，分享他们如何将 AI 深度融入组织运营。Will 开宗明义：「使用 ChatGPT 不是作弊——这是学术界才有的过时观念。」他强调，作为对冲基金，忽视能让团队更快、更聪明、更高效的工具是一种耻辱。",
-      "Will 将公司文化定义为「从顶层开始构建围绕 AI 的文化」，并指出拒绝使用 AI 就像 1995 年因为互联网不够完美而拒绝使用它一样荒谬。每一家公司都应该将 AI 整合进每一个职能。这段访谈为金融机构乃至所有行业的 AI 落地提供了高层视角的实践范本。",
-      "核心洞察：顶级对冲基金的 AI 哲学不是「用 AI 替代人」，而是「用 AI 放大人的决策质量」——这一逻辑对任何规模的组织都具有可移植性。"
-    ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "title": "暂无新期",
+    "meta": "本期 follow-builders feed 无新增播客内容",
+    "paras": [],
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO · civilizationist",
-        "text": "我们尚未抵达 AGI，但我们拥有的东西在功能上与 AGI 无法区分——因为我们拥有永不疲倦、永不无聊的 relentless programmer。任何能被转化为编程问题的难题，基本上都已得到解决。",
-        "url": "https://x.com/amasad/status/2096936109817135331"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "最好的机会存在于那些需要数量级数据处理能力、或模型能力仍处于幼年期的场景中——用当前 barely 可行的技术，服务今日即可交付客户价值的产品，同时怀抱近乎不可能的使命。",
-        "url": "https://x.com/levie/status/2097189559712837770"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "AI 岗位预测的剧本与许多人预想的相反。AI 将自动化带入没有有限需求特征的领域，让企业能做更多过去做不到的事。更关键的是，AI 不仅没有取代工程师和律师——反而正在创造或扩大网络安全、FDE、Agent 操作员、非软件领域工程师等大量全新职业品类。",
-        "url": "https://x.com/levie/status/2097004960307449937"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "宣布开源基金 v2：向 35 位贡献者每人资助 1,000 美元。五大主题——Agent Skills & Tools、Local AI、性能、高质量基础组件、酷炫实验。AI 在能复用优质组件时表现最佳，而非每次从头生成。",
-        "url": "https://x.com/rauchg/status/2097116011384426516"
-      },
-      {
-        "name": "Amanda Askell",
-        "handle": "AmandaAskell",
-        "org": "Anthropic AI 哲学家与伦理学家",
-        "text": "如果自主 AI 模型需要一个邮箱来获取道德指导就好了——但这需要一个逆向验证码，能识别出你既不是人类、也不是被人类指示去破解验证码的 AI。",
-        "url": "https://x.com/AmandaAskell/status/2096995340654444674"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "正在看一份 28 页的 deck，Codex 在追踪所有各个 launch。每一个都让人迫不及待想看人们会用它做什么。感谢不可思议的团队（及 Astra）。",
-        "url": "https://x.com/thsottiaux/status/2097193293532848288"
+        "text": "今早部分银行重置在 ChatGPT Work 和 Codex 中未完全生效，所有受影响用户将收到补偿重置和道歉邮件。团队正在修复，感谢耐心。",
+        "url": "https://x.com/thsottiaux/status/2097752790177370535"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "AI 能力与 GDP 影响之间的差距，关键在于扩散速度比人们预期的慢得多。即便引入世界顶级超智能，仍被「公司法则」束缚：数据准备、流程重构、变革管理、对齐新工作流方式。更深层的是现实世界速度上限——等客户回复、等审批、等药物管线数年。AI 扩散才是未来十年的主题，而桥梁 builders 的机会巨大。",
+        "url": "https://x.com/levie/status/2097738533297689012"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "世界将用编程 Agent 做远超想象的事：为买不起软件的公司构建工具、用 Agent 保护系统免受网络风险、自动化生命科学研发、处理海量复杂数据、升级遗留基础设施。降低代码成本意味着工程师杠杆率大幅提升——我们需要更多工程师，而非更少。",
+        "url": "https://x.com/levie/status/2097920810543468551"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "有些事是更多 token 也换不来的——而对于其他所有事，有 Fable 和 Astra。",
-        "url": "https://x.com/danshipper/status/2097110684509380796"
+        "text": "一份设计良好的 AI 经济影响报告有两个关键假设值得质疑：其一，自动化总是减少人类劳动（或最多持平）——我的经验恰恰相反，自动化常常创造数倍于替代的人类工作；其二，工作可分解为任务清单，但清单遗漏了新任务从哪来。工作是一种看待和关心世界的方式， editor 和 nurse 关注的东西不同。工具和环境变化时，相同的关心会催生全新任务。",
+        "url": "https://x.com/danshipper/status/2097758891270697101"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "欢迎 Paul！感谢你为 AI 安全所做的一切，期待再次共事。另外，Ocarina of Time 重制版是近来最佳消息，11月5-6日我将 unavailable，需要囤 Mountain Dew。",
+        "url": "https://x.com/sama/status/2097776310940569783"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "AI Benchmarks 活动将在旧金山举办，与 Benchmark 合作。这是 SF 历史上命名最贴切的活动，聚焦我们这个时代最重要的软件类别之一：引导世界走向技能、真理与效率的模型评测公司。过去六个月我们已执行8次降价、费用减免和结构优化，加上16个模型折扣，更多将至。",
+        "url": "https://x.com/rauchg/status/2097837950612717804"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
-        "org": "Polyagentmorous ClawFather · @OpenClaw + @OpenAI",
-        "text": "给上游项目提了 PR，对方要求做一些小修改。但 workflows 的意义何在？你已经写了 prompt，为什么还要 ping 我的 agent 一下，然后你的 agent 再合并？",
-        "url": "https://x.com/steipete/status/2097091456234111377"
+        "org": "OpenClaw/OpenAI",
+        "text": "OpenClaw 云端会话终于跑通且速度极快——远程终端、WebVNC 和 CUA 计算机控制全部就绪。两个月前提出的 Dashboard/Mini-App 构想如今已替代了大量定制工具，团队服务器上所有东西现在是侧边栏入口、仪表盘或插件。",
+        "url": "https://x.com/steipete/status/2097935551735423464"
+      },
+      {
+        "name": "Claude AI",
+        "handle": "claudeai",
+        "org": "@Anthropic",
+        "text": "Claude Marketplace 新增企业级伙伴：CrowdStrike、Cursor、FactoryAI、Gamma、Vercel。企业现在可用 Anthropic 承诺支出购买更多 Claude 驱动的产品和 Agent。",
+        "url": "https://x.com/claudeai/status/2097718980437831935"
       }
     ]
   },
@@ -93,7 +89,7 @@
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 8 位建造者 · 1 期播客精选",
-    "generatedAt": "2026-09-09T02:00:00.000Z"
+    "coverage": "覆盖 8 位建造者 · 0 期播客精选 · 0 篇博客",
+    "generatedAt": "2026-09-11T02:00:00.000Z"
   }
 }
