@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-12",
+    "dateCN": "2026年9月12日",
+    "weekday": "星期六",
+    "title": "Recursive 创始人 Richard Socher 新书《The Eureka Machine》探讨 AI 如何重振科学进步——从\"科学增长放缓\"的惊人 premise 到递归自我改进的四个支柱；与此同时，Box CEO Aaron Levie 分享企业 AI 落地四大趋势：网络安全焦虑、模型混用现实、Agent 身份治理与流程重构的 ROI 差异。Vercel 披露 CDN 元数据存储系统提速 91%，支撑每日 1000 万次部署。"
+  },
+  {
     "date": "2026-09-11",
     "dateCN": "2026年9月11日",
     "weekday": "星期五",

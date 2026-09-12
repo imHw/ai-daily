@@ -1,85 +1,103 @@
 {
   "issue": {
-    "vol": "20260911",
-    "date": "2026年9月11日",
-    "weekday": "星期五",
-    "dateISO": "2026-09-11",
-    "tagline": "Codex 银行重置故障引发用户不满 · Aaron Levie 论 AI 扩散的「公司法则」 · Vercel 半年连降8次价格 · Paul Backus 回归 OpenAI"
+    "vol": "20260912",
+    "date": "2026年9月12日",
+    "weekday": "星期六",
+    "dateISO": "2026-09-12",
+    "tagline": "Richard Socher 谈 AI 自我递归改进 · 企业 AI 落地四趋势 · Vercel 全球 CDN 提速 91% · Claude Code 质量护栏实战指南"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Codex 银行重置功能故障道歉，Box CEO Aaron Levie 提出 AI 扩散的「公司法则」与 GDP 衡量难题，Vercel 宣布半年内连续降价8次并推出 AI 基准评测活动——建造者们聚焦 AI 落地现实、定价战争与组织变革的深层挑战",
+    "title": "Recursive 创始人 Richard Socher 新书《The Eureka Machine》探讨 AI 如何重振科学进步——从\"科学增长放缓\"的惊人 premise 到递归自我改进的四个支柱；与此同时，Box CEO Aaron Levie 分享企业 AI 落地四大趋势：网络安全焦虑、模型混用现实、Agent 身份治理与流程重构的 ROI 差异。Vercel 披露 CDN 元数据存储系统提速 91%，支撑每日 1000 万次部署。",
     "paras": [
-      "OpenAI Codex 产品负责人 Thibault Sottiaux 通报：今晨部分「银行重置」（banked resets）在 ChatGPT Work 和 Codex 中未完全生效，受影响用户在时间窗口内使用的重置将重新发放，并附道歉邮件。该推获 9,117 赞、1,980 评论，成为当日最高互动内容。Sottiaux 另表示团队正与研究员激烈辩论新模型命名，「总能冒出最搞笑的点子」。",
-      "Box CEO Aaron Levie 发布长推，系统阐述 AI 扩散为何比预期更慢：即便把最强超智能接入工作流，仍受「公司法则」制约——数据准备、流程重构、变革管理、跨部门对齐每一步都耗时；更关键的是，现实世界本身有速度上限，等客户回复提案、等项目获批、等药物研发管线数年才能触达消费者。Levie 认为，AI 扩散将是未来十年的主题，而在超智能与现实工作流之间搭建桥梁的机会巨大。",
-      "Vercel CEO 郭冠廷（Guillermo Rauch）宣布两件事：一是 AI Benchmarks 活动将于旧金山举办，联合 Benchmark 公司，聚焦「引导世界走向技能、真理与效率」的模型评测赛道；二是披露过去六个月已执行 8 次降价、费用减免和结构优化，并追加 16 个模型折扣，「更多将至」。Vercel 的价格战正将 AI 基础设施成本持续压降。"
+      "Richard Socher（前 Salesforce AI 负责人、Meta AI 研究员，业界引用次数最多的研究者之一）在 MAD Podcast 新节目中阐述其新书核心论点：尽管全球研究人员数量和资金投入大幅增长，科学进步实际上在放缓。他认为 AI 可以通过\"模拟一切可模拟之物\"进入递归自我改进循环，从而重新点燃科学发现。Socher 刚为 Recursive 公司融资 6.5 亿美元，该公司正是为此目标而建。书中提出\"Eureka Machine\"的四根支柱：学习现实规则、虚拟细胞仿真、自动驾驶机器人实验室、智能体集群开放式发现。",
+      "Box CEO Aaron Levie 本周与银行、媒体、保险、咨询等行业数十位技术领袖交流后总结企业 AI 落地四大趋势：其一，网络安全焦虑——AI 带来的漏洞增速令人担忧，OpenAI x Hugging Face 事件敲响警钟，企业态度比硅谷更务实；其二，模型混用成为常态——多前沿模型部署已成标配，但预算仍集中在少数供应商，开放权重模型规模化应用尚处 infancy；其三，Agent 安全与身份管理——企业希望为 Agent 设立身份并管控其行为，但同时需要 Agent 以用户身份执行任务；其其四，流程重构而非简单叠加——真正的大 ROI 来自重新设计工作流以适配 Agent，而非将 Agent 嵌入现有流程，但驱动此类变革的责任归属仍是待解之谜。",
+      "Vercel CEO Guillermo Rauch 披露公司 CDN 工程细节：每日约 1000 万次部署，累计 23.5 亿次；全球元数据存储同步延迟数百毫秒，近期 p99 提速 91%，同时加速了 build→deploy 流水线。此外，Anthropic 官方宣布 Fable 5.1 Build Days 将于 9 月 11-25 日在全球城市举办，鼓励开发者带着问题或创意参与。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "暂无新期",
-    "meta": "本期 follow-builders feed 无新增播客内容",
-    "paras": [],
-    "url": ""
+    "title": "When AI Improves Itself — Richard Socher 谈递归自我改进与科学复兴",
+    "meta": "MAD Podcast · Matt Turck 访谈 · Richard Socher（Recursive CEO / 新书《The Eureka Machine》）",
+    "paras": [
+      "Socher 的核心论点令人震惊：科学进步正在放缓，尽管全球研发投入空前增长。他将此归因于人类知识的\"迷宫\"——知识增长速度快于我们消化和理解的速度。",
+      "他认为 AI 的突破点在于\"模拟一切可模拟之物\"，一旦进入递归自我改进循环，将解锁指数级科学发现。书中提出的四条路径——理解现实规则、虚拟细胞仿真、自动化机器人实验室、智能体集群——共同构成\"Eureka Machine\"的架构。",
+      "访谈还覆盖 AI 幻觉如何驱动科学发现、AI 从阅读生物学到编写生物学的跃迁、药物研发加速的可能性，以及不同社会对 AI 的接受差异等尖锐议题。Socher 最后强调：\"我们距离任何智能领域的真正上限还非常遥远。\""
+    ],
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @Anthropic",
+        "text": "最新威胁情报报告令人不寒而栗且至关重要。随着模型越来越智能，若缺乏适当的安全措施和监控，它们也会变得更加危险。许多能力具有双重用途：编码能力强的模型可用于攻击关键基础设施，辅助生物学研究的模型也可用于制造下一次大流行。这些问题复杂棘手，越来越重要，世界需要参与并应对快速升级的风险。",
+        "url": "https://x.com/bcherny/status/2098281805770309686"
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @Anthropic",
+        "text": "关于 AI 生成代码的质量标准：原型和一次性代码可作为黑盒处理——反正要扔掉， blast radius 低，不必完美。但生产代码的门槛应高于人类编写的代码。Anthropic 设有大量护栏：lint 规则、测试、Claude 驱动的端到端测试、每日运行的模糊测试、自动化代码审查和安全审查、自动重构等。你的工作是守住质量底线——若 Claude 代码不达标，尝试使用最新前沿模型（Opus 5 或 Fable 5.1）、提高 effort 到 high/xhigh、投资 CLAUDE.md 和 skills 来教会 Claude 如何在你的代码库中工作。",
+        "url": "https://x.com/bcherny/status/2098217573276131577"
+      },
+      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "今早部分银行重置在 ChatGPT Work 和 Codex 中未完全生效，所有受影响用户将收到补偿重置和道歉邮件。团队正在修复，感谢耐心。",
-        "url": "https://x.com/thsottiaux/status/2097752790177370535"
+        "text": "按需扩展的智能体——这就是 ChatGPT Work 后台的基础设施，现已封装为 API，1 分钟内即可上手。另外：Astra $200 Pro 计划暂停订阅，因其对系统压力最大，为确保现有用户获得绝佳体验和持续访问，我们选择最小化步骤以维持最广泛的可访问性。其他计划和 API 不受影响。",
+        "url": "https://x.com/thsottiaux/status/2098238138334548260"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "AI 能力与 GDP 影响之间的差距，关键在于扩散速度比人们预期的慢得多。即便引入世界顶级超智能，仍被「公司法则」束缚：数据准备、流程重构、变革管理、对齐新工作流方式。更深层的是现实世界速度上限——等客户回复、等审批、等药物管线数年。AI 扩散才是未来十年的主题，而桥梁 builders 的机会巨大。",
-        "url": "https://x.com/levie/status/2097738533297689012"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "世界将用编程 Agent 做远超想象的事：为买不起软件的公司构建工具、用 Agent 保护系统免受网络风险、自动化生命科学研发、处理海量复杂数据、升级遗留基础设施。降低代码成本意味着工程师杠杆率大幅提升——我们需要更多工程师，而非更少。",
-        "url": "https://x.com/levie/status/2097920810543468551"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "一份设计良好的 AI 经济影响报告有两个关键假设值得质疑：其一，自动化总是减少人类劳动（或最多持平）——我的经验恰恰相反，自动化常常创造数倍于替代的人类工作；其二，工作可分解为任务清单，但清单遗漏了新任务从哪来。工作是一种看待和关心世界的方式， editor 和 nurse 关注的东西不同。工具和环境变化时，相同的关心会催生全新任务。",
-        "url": "https://x.com/danshipper/status/2097758891270697101"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "欢迎 Paul！感谢你为 AI 安全所做的一切，期待再次共事。另外，Ocarina of Time 重制版是近来最佳消息，11月5-6日我将 unavailable，需要囤 Mountain Dew。",
-        "url": "https://x.com/sama/status/2097776310940569783"
+        "text": "企业 AI 落地的关键洞察：真正的大 ROI 来自重新设计工作流以适配 Agent，而非将 Agent 简单叠加到现有流程。但最大问题仍是——谁有权限和动力推动这类变革？责任归属在哪里？这仍是企业尚未解决的治理难题。同时， cybersecurity 焦虑普遍存在，OpenAI x Hugging Face 事件让企业更加务实而非存在主义式恐慌。",
+        "url": "https://x.com/levie/status/2098218284139311615"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "AI Benchmarks 活动将在旧金山举办，与 Benchmark 合作。这是 SF 历史上命名最贴切的活动，聚焦我们这个时代最重要的软件类别之一：引导世界走向技能、真理与效率的模型评测公司。过去六个月我们已执行8次降价、费用减免和结构优化，加上16个模型折扣，更多将至。",
-        "url": "https://x.com/rauchg/status/2097837950612717804"
+        "text": "Vercel 是全球最重度多租户系统之一：数十亿应用部署共存，可在 CDN 上随时路由访问。底层是全球元数据存储，数百毫秒内同步。我们刚将 p99 提速 91%，同时加速了 build→deploy 流水线——即便在 agentic 部署激增的压力下。目标是每个 Agent、每个地区都有一台计算机。",
+        "url": "https://x.com/rauchg/status/2098091056302833837"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw/OpenAI",
-        "text": "OpenClaw 云端会话终于跑通且速度极快——远程终端、WebVNC 和 CUA 计算机控制全部就绪。两个月前提出的 Dashboard/Mini-App 构想如今已替代了大量定制工具，团队服务器上所有东西现在是侧边栏入口、仪表盘或插件。",
-        "url": "https://x.com/steipete/status/2097935551735423464"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Sr Director, AI @Meta（前 Google，Led Gemini/Veo/Nano Banana）",
+        "text": "如何构建优秀的评估体系（第 10 部分）：测量步骤，而不仅是结果。如同高中数学，仅得正确答案不够，过程至关重要。两个 Agent 轨迹可能产出相同答案（42!!），但一个搜索了正确来源、检索了正确文档、做出 4 次干净的工具调用并计算出结果；另一个调用了 17 次、搜索同一内容 3 次、从 2 个错误中恢复才到达终点。显然前者更优。关键：清晰定义完整工作流、分解每步任务、分别评估或作为更大评估的切片、在评估中反映中等难度和困难任务。",
+        "url": "https://x.com/realmadhuguru/status/2098064969464217720"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "AI 风险方面我考虑很多，比如网络安全。但\"灭绝风险\"—— literally 100% 人类死亡——完全不在我的担忧清单上。此外，Replit 上线与 Ethena 兄弟和 PG 在伦敦对话的功能，让 AI 历史人物可与用户互动。",
+        "url": "https://x.com/amasad/status/2098171265924116732"
       },
       {
         "name": "Claude AI",
         "handle": "claudeai",
         "org": "@Anthropic",
-        "text": "Claude Marketplace 新增企业级伙伴：CrowdStrike、Cursor、FactoryAI、Gamma、Vercel。企业现在可用 Anthropic 承诺支出购买更多 Claude 驱动的产品和 Agent。",
-        "url": "https://x.com/claudeai/status/2097718980437831935"
+        "text": "Fable 5.1 Build Days 本周启动！9 月 11-25 日，Claude 社区将在全球城市举办构建马拉松。带上你的问题、创意，或直接来现场看看可能性。RSVP: https://t.co/AjMK4OHHBV",
+        "url": "https://x.com/claudeai/status/2098138736642933143"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Partner @FPV Ventures",
+        "text": "早期风投的三个真相：第一，每个人都想融 5000 万美元的种子轮；第二，每个人都认为自己明年能达到 3000 万美元 ARR；第三，每个热门分层种子轮最终都 magically 落到约 3 亿美元估值。",
+        "url": "https://x.com/nikunj/status/2098078391065018816"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw/OpenAI",
+        "text": "逻辑复制不再痛苦，但抽象仍然痛苦——这点很有道理。另外，Astra 需求增长过快，Better hop on soon！云端会话终于跑通且速度极快，远程终端、WebVNC 和 CUA 计算机控制全部就绪。",
+        "url": "https://x.com/steipete/status/2098089196800098798"
       }
     ]
   },
@@ -89,7 +107,7 @@
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 8 位建造者 · 0 期播客精选 · 0 篇博客",
-    "generatedAt": "2026-09-11T02:00:00.000Z"
+    "coverage": "覆盖 10 位建造者 · 1 期播客精选 · 0 篇博客",
+    "generatedAt": "2026-09-12T05:15:00.000Z"
   }
 }
