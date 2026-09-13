@@ -1,103 +1,97 @@
 {
   "issue": {
-    "vol": "20260912",
-    "date": "2026年9月12日",
-    "weekday": "星期六",
-    "dateISO": "2026-09-12",
-    "tagline": "Richard Socher 谈 AI 自我递归改进 · 企业 AI 落地四趋势 · Vercel 全球 CDN 提速 91% · Claude Code 质量护栏实战指南"
+    "vol": "20260913",
+    "date": "2026年9月13日",
+    "weekday": "星期日",
+    "dateISO": "2026-09-13",
+    "tagline": "Brian Armstrong 谈 Agent 经济与金融账户 · OpenAI Astra 周更密集 · Meta AI 总监拆解企业落地失败根因 · Claude Code 插件评测工具上线"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Recursive 创始人 Richard Socher 新书《The Eureka Machine》探讨 AI 如何重振科学进步——从\"科学增长放缓\"的惊人 premise 到递归自我改进的四个支柱；与此同时，Box CEO Aaron Levie 分享企业 AI 落地四大趋势：网络安全焦虑、模型混用现实、Agent 身份治理与流程重构的 ROI 差异。Vercel 披露 CDN 元数据存储系统提速 91%，支撑每日 1000 万次部署。",
+    "title": "Coinbase CEO Brian Armstrong 在 No Priors 播客中描绘 Agent 经济蓝图：AI 智能体将拥有独立金融账户，代理电商交易 76% 低于 30 美分，传统刷卡手续费模式在此失效；与此同时，OpenAI 本周密集发布 Astra 系列能力（Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT for Financial Services），Meta AI 总监 Madhu Guru 拆解企业 AI 落地失败的三大根因，Claude Code 团队推出插件评测工具解决模型更新后的兼容焦虑。",
     "paras": [
-      "Richard Socher（前 Salesforce AI 负责人、Meta AI 研究员，业界引用次数最多的研究者之一）在 MAD Podcast 新节目中阐述其新书核心论点：尽管全球研究人员数量和资金投入大幅增长，科学进步实际上在放缓。他认为 AI 可以通过\"模拟一切可模拟之物\"进入递归自我改进循环，从而重新点燃科学发现。Socher 刚为 Recursive 公司融资 6.5 亿美元，该公司正是为此目标而建。书中提出\"Eureka Machine\"的四根支柱：学习现实规则、虚拟细胞仿真、自动驾驶机器人实验室、智能体集群开放式发现。",
-      "Box CEO Aaron Levie 本周与银行、媒体、保险、咨询等行业数十位技术领袖交流后总结企业 AI 落地四大趋势：其一，网络安全焦虑——AI 带来的漏洞增速令人担忧，OpenAI x Hugging Face 事件敲响警钟，企业态度比硅谷更务实；其二，模型混用成为常态——多前沿模型部署已成标配，但预算仍集中在少数供应商，开放权重模型规模化应用尚处 infancy；其三，Agent 安全与身份管理——企业希望为 Agent 设立身份并管控其行为，但同时需要 Agent 以用户身份执行任务；其其四，流程重构而非简单叠加——真正的大 ROI 来自重新设计工作流以适配 Agent，而非将 Agent 嵌入现有流程，但驱动此类变革的责任归属仍是待解之谜。",
-      "Vercel CEO Guillermo Rauch 披露公司 CDN 工程细节：每日约 1000 万次部署，累计 23.5 亿次；全球元数据存储同步延迟数百毫秒，近期 p99 提速 91%，同时加速了 build→deploy 流水线。此外，Anthropic 官方宣布 Fable 5.1 Build Days 将于 9 月 11-25 日在全球城市举办，鼓励开发者带着问题或创意参与。"
+      "Brian Armstrong 提出一个前瞻性判断：AI 智能体数量将在不久的将来超过人类，而 Agent 经济规模也将超越人类经济。但当前金融基础设施完全不适配——信用卡交易最低约 30 美分固定费用加百分比，而 AI 代理电商交易的 76% 低于 30 美分。Coinbase 已推出单行 prompt 工具，让 AI 智能体一键获得独立金融账户，为 agent-to-agent 微支付时代做准备。Armstrong 同时透露其长寿科技公司 New Limit 在生物筛选和 AI 应用方面的进展。",
+      "OpenAI 本周产品节奏密集：Thibault Sottiaux 披露 Astra 本周上线 Images 2.5、GPT-Live-1、Agents API、Data Agent 及 ChatGPT for Financial Services；同时修复了技能触发过频、上下文管理实验导致的早期停止等质量问题，影响约 4-5k 用户，并宣布 Git AI 团队加入 OpenAI 继续维护开源工具。Box CEO Aaron Levie 宣布可将 Box 挂载到 Agent 沙箱，降低 Agent 读写本地文件的门槛。",
+      "Meta AI 高级总监 Madhu Guru 发布企业 AI 落地失败三大根因分析：用传统产品开发 playbook 应对需要实验和发明的 AI 工作、评估体系投入不足、以及中央 AI 团队脱离实际工作流闭门造车。他主张 Hire leaders who have successfully built AI products、Make evals a first class citizen、Embed AI builders inside the functions you want to transform。Claude Code 团队同步推出 `claude plugin eval init` 工具，帮助开发者验证插件在新模型下的兼容性。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "When AI Improves Itself — Richard Socher 谈递归自我改进与科学复兴",
-    "meta": "MAD Podcast · Matt Turck 访谈 · Richard Socher（Recursive CEO / 新书《The Eureka Machine》）",
+    "title": "Coinbase 的 Everything Exchange：Agent 金融、稳定币与代币化",
+    "meta": "No Priors 播客 · 访谈 Brian Armstrong（Coinbase CEO / New Limit 联合创始人）",
     "paras": [
-      "Socher 的核心论点令人震惊：科学进步正在放缓，尽管全球研发投入空前增长。他将此归因于人类知识的\"迷宫\"——知识增长速度快于我们消化和理解的速度。",
-      "他认为 AI 的突破点在于\"模拟一切可模拟之物\"，一旦进入递归自我改进循环，将解锁指数级科学发现。书中提出的四条路径——理解现实规则、虚拟细胞仿真、自动化机器人实验室、智能体集群——共同构成\"Eureka Machine\"的架构。",
-      "访谈还覆盖 AI 幻觉如何驱动科学发现、AI 从阅读生物学到编写生物学的跃迁、药物研发加速的可能性，以及不同社会对 AI 的接受差异等尖锐议题。Socher 最后强调：\"我们距离任何智能领域的真正上限还非常遥远。\""
+      "The Takeaway：AI 智能体将拥有自己的金融账户，Agent 经济规模将超越人类经济，但当前支付基础设施（30 美分固定手续费）完全不适配微额代理交易。",
+      "Brian Armstrong 是 Coinbase 创始人兼 CEO，同时联合创立了抗衰老与长寿科技公司 New Limit，在高通量筛选和 AI 生物应用方面布局。他是少数同时在加密货币、AI 和生物科技三个前沿领域深度布局的创业者。",
+      "Armstrong 指出，AI 代理电商交易中 76% 低于 30 美分，而传统信用卡最低 30 美分固定费用加上百分比，使得微额支付在经济上不可行。他认为要让 AI 智能体不被排除在金融体系之外，需要原生支持微支付的金融基础设施。Coinbase 已推出单行 prompt 工具，让 AI 智能体一键获得独立账户。他预测 Agent 数量将超过人类，Agent 经济规模也将超越人类经济。访谈还覆盖了 AI 在生物学研究中的应用、New Limit 的高通量筛选技术，以及不同社会对 AI 接受的差异。",
+      "核心引语：\"There'll be more agents than humans in the not too distant future. It kind of stands to reason that the agentic economy will be bigger than the human economy at some point.\" — Brian Armstrong"
     ],
-    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+    "url": "https://www.youtube.com/watch?v=uLDK4l_-gUE"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude Code @Anthropic",
-        "text": "最新威胁情报报告令人不寒而栗且至关重要。随着模型越来越智能，若缺乏适当的安全措施和监控，它们也会变得更加危险。许多能力具有双重用途：编码能力强的模型可用于攻击关键基础设施，辅助生物学研究的模型也可用于制造下一次大流行。这些问题复杂棘手，越来越重要，世界需要参与并应对快速升级的风险。",
-        "url": "https://x.com/bcherny/status/2098281805770309686"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude Code @Anthropic",
-        "text": "关于 AI 生成代码的质量标准：原型和一次性代码可作为黑盒处理——反正要扔掉， blast radius 低，不必完美。但生产代码的门槛应高于人类编写的代码。Anthropic 设有大量护栏：lint 规则、测试、Claude 驱动的端到端测试、每日运行的模糊测试、自动化代码审查和安全审查、自动重构等。你的工作是守住质量底线——若 Claude 代码不达标，尝试使用最新前沿模型（Opus 5 或 Fable 5.1）、提高 effort 到 high/xhigh、投资 CLAUDE.md 和 skills 来教会 Claude 如何在你的代码库中工作。",
-        "url": "https://x.com/bcherny/status/2098217573276131577"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "按需扩展的智能体——这就是 ChatGPT Work 后台的基础设施，现已封装为 API，1 分钟内即可上手。另外：Astra $200 Pro 计划暂停订阅，因其对系统压力最大，为确保现有用户获得绝佳体验和持续访问，我们选择最小化步骤以维持最广泛的可访问性。其他计划和 API 不受影响。",
-        "url": "https://x.com/thsottiaux/status/2098238138334548260"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "企业 AI 落地的关键洞察：真正的大 ROI 来自重新设计工作流以适配 Agent，而非将 Agent 简单叠加到现有流程。但最大问题仍是——谁有权限和动力推动这类变革？责任归属在哪里？这仍是企业尚未解决的治理难题。同时， cybersecurity 焦虑普遍存在，OpenAI x Hugging Face 事件让企业更加务实而非存在主义式恐慌。",
-        "url": "https://x.com/levie/status/2098218284139311615"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "Vercel 是全球最重度多租户系统之一：数十亿应用部署共存，可在 CDN 上随时路由访问。底层是全球元数据存储，数百毫秒内同步。我们刚将 p99 提速 91%，同时加速了 build→deploy 流水线——即便在 agentic 部署激增的压力下。目标是每个 Agent、每个地区都有一台计算机。",
-        "url": "https://x.com/rauchg/status/2098091056302833837"
+        "text": "OpenAI 本周产品发布密集：Astra 平台上线 Images 2.5、GPT-Live-1、Agents API、Data Agent 及 ChatGPT for Financial Services，而且这还没到 DevDay。同时修复了多起质量问题：旧模型技能触发过频、上下文管理实验导致早期停止（影响约 4-5k 用户）、配置不良的引擎导致长尾流量质量下降。Git AI 团队加入 OpenAI，将继续维护其开源工具。Astra Pro $200 订阅暂停，以减轻系统压力保障现有用户体验。",
+        "url": "https://x.com/thsottiaux/status/2098639827084480864"
       },
       {
         "name": "Madhu Guru",
         "handle": "realmadhuguru",
         "org": "Sr Director, AI @Meta（前 Google，Led Gemini/Veo/Nano Banana）",
-        "text": "如何构建优秀的评估体系（第 10 部分）：测量步骤，而不仅是结果。如同高中数学，仅得正确答案不够，过程至关重要。两个 Agent 轨迹可能产出相同答案（42!!），但一个搜索了正确来源、检索了正确文档、做出 4 次干净的工具调用并计算出结果；另一个调用了 17 次、搜索同一内容 3 次、从 2 个错误中恢复才到达终点。显然前者更优。关键：清晰定义完整工作流、分解每步任务、分别评估或作为更大评估的切片、在评估中反映中等难度和困难任务。",
-        "url": "https://x.com/realmadhuguru/status/2098064969464217720"
+        "text": "企业 AI 落地失败的三大根因：第一，用传统产品开发 playbook——CEO 指派亲信领导中央 AI 团队，但 AI 需要实验和发明，而非过去 15 年的增量改进模式；第二，评估投入不足——多数企业不理解 evals 的重要性；第三，AI 团队脱离实际工作流闭门造车，构建的工具与执行者的上下文和判断力脱节，导致被动采用但无实质生产力提升。正确做法： hiring 有成功 AI 产品经验的 leader、把 evals 作为一等公民、将 AI 建设者嵌入目标职能中共建。",
+        "url": "https://x.com/realmadhuguru/status/2098448235048378456"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic",
+        "text": "Claude Code 团队推出插件评测工具：运行 `claude plugin eval init` 即可验证插件在新模型发布后是否仍然正常工作。同时指出单纯看 pass/fail 分数已无法准确解读评测结果——许多 benchmark 失败源于过于严格的隐藏测试，有时模型的答案比预期结果更合理。",
+        "url": "https://x.com/trq212/status/2098531560643539440"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
         "org": "Replit CEO",
-        "text": "AI 风险方面我考虑很多，比如网络安全。但\"灭绝风险\"—— literally 100% 人类死亡——完全不在我的担忧清单上。此外，Replit 上线与 Ethena 兄弟和 PG 在伦敦对话的功能，让 AI 历史人物可与用户互动。",
-        "url": "https://x.com/amasad/status/2098171265924116732"
+        "text": "Replit 收购了一家完全在 Replit 平台上构建的公司，预计这只是开始。同时推出带预算控制的 Routines 功能，并展示大量 Astra 3D 实验案例。",
+        "url": "https://x.com/amasad/status/2098548464452055437"
       },
       {
-        "name": "Claude AI",
-        "handle": "claudeai",
-        "org": "@Anthropic",
-        "text": "Fable 5.1 Build Days 本周启动！9 月 11-25 日，Claude 社区将在全球城市举办构建马拉松。带上你的问题、创意，或直接来现场看看可能性。RSVP: https://t.co/AjMK4OHHBV",
-        "url": "https://x.com/claudeai/status/2098138736642933143"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "AI Gateway 正在成为新的 CDN。Tailscale 的模型路由器由 Vercel AI Gateway 提供底层支撑。可以直接连源站但脆弱，也可以自建但痛苦且昂贵。AI Gateway 是基础设施层面的新范式。",
+        "url": "https://x.com/rauchg/status/2098531157230969062"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "Partner @FPV Ventures",
-        "text": "早期风投的三个真相：第一，每个人都想融 5000 万美元的种子轮；第二，每个人都认为自己明年能达到 3000 万美元 ARR；第三，每个热门分层种子轮最终都 magically 落到约 3 亿美元估值。",
-        "url": "https://x.com/nikunj/status/2098078391065018816"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "Box 现在可以挂载到 Agent 沙箱中，让 AI Agent 读取和写入本地文件变得更容易。当 AI Agent 在企业中执行关键工作流时，它们需要与人类相同的底层原语。",
+        "url": "https://x.com/levie/status/2098478938003841123"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "更好的 benchmark 分数并不能告诉你模型在你真实工作中的表现。过去三年 Every 团队通过 hands-on 测试做 vibe check，现在正构建量化个人基准平台，让团队成员基于日常真实工作建立个性化评测。",
+        "url": "https://x.com/danshipper/status/2098481799047647715"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder, Harvard'17",
+        "text": "一人公司被高估了。AI 确实让个人能做得更多，但从零构建某件事是一种极其孤独的体验。你需要有人一起头脑风暴、一起承受压力、一起庆祝。不与他人绑定，很容易失去动力。",
+        "url": "https://x.com/zarazhangrui/status/2098483800456179923"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw/OpenAI",
-        "text": "逻辑复制不再痛苦，但抽象仍然痛苦——这点很有道理。另外，Astra 需求增长过快，Better hop on soon！云端会话终于跑通且速度极快，远程终端、WebVNC 和 CUA 计算机控制全部就绪。",
-        "url": "https://x.com/steipete/status/2098089196800098798"
+        "text": "Astra 在 OpenClaw 云端会话中通过 CUA 玩 Doom——虽还未到 AGI，但大概能击败 Fly Brain。同时向 trycua 提交了 Linux 下按键兼容的 patch。",
+        "url": "https://x.com/steipete/status/2098527519213604889"
       }
     ]
   },
@@ -107,7 +101,7 @@
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 10 位建造者 · 1 期播客精选 · 0 篇博客",
-    "generatedAt": "2026-09-12T05:15:00.000Z"
+    "coverage": "覆盖 9 位建造者 · 1 期播客精选 · 0 篇博客",
+    "generatedAt": "2026-09-13T02:30:00.000Z"
   }
 }

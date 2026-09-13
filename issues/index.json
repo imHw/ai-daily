@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-13",
+    "dateCN": "2026年9月13日",
+    "weekday": "星期日",
+    "title": "Coinbase CEO Brian Armstrong 在 No Priors 播客中描绘 Agent 经济蓝图：AI 智能体将拥有独立金融账户，代理电商交易 76% 低于 30 美分，传统刷卡手续费模式在此失效；与此同时，OpenAI 本周密集发布 Astra 系列能力（Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT for Financial Services），Meta AI 总监 Madhu Guru 拆解企业 AI 落地失败的三大根因，Claude Code 团队推出插件评测工具解决模型更新后的兼容焦虑。"
+  },
+  {
     "date": "2026-09-12",
     "dateCN": "2026年9月12日",
     "weekday": "星期六",
