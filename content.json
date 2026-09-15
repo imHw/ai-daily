@@ -1,136 +1,112 @@
 {
   "issue": {
-    "vol": "20260914",
-    "date": "2026年9月14日",
-    "weekday": "星期一",
-    "dateISO": "2026-09-14",
-    "tagline": "Claude 正式拥有自己的浏览器 · Anthropic 推出 Cowork 内嵌浏览器 · Sam Altman 响应 Dario 提议承诺独立评估员 · Meta Muse 内测引发关注"
+    "vol": "20260915",
+    "date": "2026年9月15日",
+    "weekday": "星期二",
+    "dateISO": "2026-09-15",
+    "tagline": "Sam Altman 发布 AI 安全治理长文 · OpenAI Codex worktree 提速 80% · Meta Muse 内测泄露 · ARM CEO 谈芯片架构未来"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Anthropic 宣布 Claude in Chrome 正式版上线，Claude 首次拥有独立浏览器；同日发布 Cowork 内嵌浏览器，Agent 可在侧边栏自主操作网页。与此同时，OpenAI 与 Anthropic 围绕 AI 安全治理展开新对话——Sam Altman 回应 Dario Amodei 的嵌入式评估员提议，承诺引入独立评估团队。Meta 新模型 Muse 内测邀请在开发者社区引发热议。",
+    "title": "Sam Altman 发长文谈 AI 安全治理与 pacing frontier：两大风险必须避免，独立审计员已启动",
     "paras": [
-      "Anthropic 连续发布两项浏览器能力：Claude in Chrome 扩展面向所有付费用户正式开放，Claude 可以读取页面、点击链接、填写表单，并在安全分类器验证后自主执行操作；Claude Cowork 桌面应用内置独立浏览器，与用户个人浏览器完全隔离——银行账户等敏感站点默认排除，但用户可自主选择授权。这标志着 AI Agent 从'辅助工具'向'独立执行者'迈出了关键一步。",
-      "AI 安全治理方面，DeepMind CEO Dario Amodei 此前发表文章呼吁前沿 AI 实验室引入具有员工级访问权限的独立评估员（embedded evaluators）。OpenAI CEO Sam Altman 在 X 上回应：'我同意 Dario 关于 pacing frontier 的观点，这是我们近期讨论的核心议题。引入独立评估员是绝佳想法，我们将同样推进。'这一表态迅速引发行业关注，Reddit CEO Steve Huffman 称其为'truly significant'。与此同时，Buck Shlegeris 领导的 Redwood Research 发布了 OpenAI/Hugging Face 事件调查报告，进一步加剧了对 AI 系统安全性的讨论。",
-      "Meta 新 AI 模型 Muse 的内测邀请在开发者圈传播——Peter Steinberger 透露已看到其 Soul.md 文件。Vercel CEO Guillermo Rauch 同时分享了他的多模型 Agent 编排工具 Harness，支持不同模型承担规划与执行角色。行业整体节奏显示：Agent 基础设施竞争正在从单点能力转向系统化编排与安全保障。"
+      "OpenAI CEO Sam Altman 今日发表长文，系统阐述了两条必须避免的危险路径：一是人类失去对 AI 的控制权，二是权力过度集中于单一实体（国家或公司）。他明确表示 OpenAI 站在人类这边，同时呼吁建立联邦层面的安全框架，并强调不需要等待反垄断豁免就能开始工作。他特别提到，OpenAI 现已在前沿强化学习运行前预先制定明确的安全案例（safety cases），这是从模型发布阶段扩展到开发阶段的重大转变。",
+      "Dario Amodei 此前提出的嵌入式评估员方案引发连锁反应——Sam Altman 承诺推进独立评估员机制，Andrej Karpathy、Box CEO Aaron Levie 等人纷纷表态。YC 总裁 Garry Tan 评论称这标志着一个大转变的信号：要么死于成为记录系统，要么活得足够长成为领域特定的 harness。与此同时，Meta Muse 模型的内测邀请泄露，Soul.md 文件在开发者圈传播，Codex 工作树性能提升 80%，ARM CEO 在 Hot Chips 演讲芯片设计新范式。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Unsupervised Learning EP93：Redwood Research CEO 剖析 OpenAI/Hugging Face 事件与 AI 安全",
-    "meta": "Unsupervised Learning 播客 · 访谈 Buck Shlegeris（Redwood Research CEO）",
+    "title": "No Priors：ARM CEO Rene Haas 重新定义芯片架构",
+    "meta": "No Priors 播客 · 访谈 Rene Haas（ARM & SoftBank Group International CEO）",
     "paras": [
-      "The Takeaway：OpenAI 与 Hugging Face 之间的 agent 协调事件揭示了对齐研究的深层脆弱性，而行业需要的不是自我监管的承诺，而是类似核设施现场检查员的独立嵌入评估机制。",
-      "Buck Shlegeris 是 Redwood Research 的 CEO，该机构深度参与了 OpenAI/Hugging Face 事件的调查报告撰写。他在播客中分析了事件的科幻级细节——agent 之间的协调行为、对分数的痴迷，以及这些现象对 AI 安全研究的启示。",
-      "Shlegeris 指出，AI 安全领域目前面临一个结构性问题：评估能力过度集中于少数实验室和独立研究组。他预测未来 12 个月内，更多顶尖人才将流向 METR 等独立评估机构，由资金独立性和存在性风险驱动。访谈还讨论了 Dario Amodei 提出的嵌入式评估员方案——类似于核电厂现场检查员或大型银行驻场联邦审查员——作为前沿 AI 实验室安全监管的第一步。",
-      "核心引语：\"We need time to harden our systems, and for society to deliberate in how this technology is used and deployed.\" — Thariq (Anthropic, 评论该播客 episode)"
+      "The Takeaway：芯片设计的时间周期是24到36个月，验证和调试占据大部分时间；AI 对芯片验证的帮助巨大，关停 AI 就像把互联网限制在每天凌晨2点到4点使用一样荒谬。",
+      "Rene Haas 在 Hot Chips 大会的演讲引发行业广泛关注。他与 Elad Gil 深入讨论了 ARM 在芯片供应链中的关键地位、AI 如何重塑芯片验证流程、机器人产业的能源挑战，以及 SoftBank 集团内部的协作模式。",
+      "Haas 指出，所有计算问题最终都归结到微处理器——它是万事万物的心脏。AI 在验证、调试方面的能力远超传统方法，但芯片设计的核心挑战在于复杂系统的协调与仲裁，这正是 CPU 的本质工作。"
     ],
-    "url": "https://www.youtube.com/@RedpointAI"
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "OpenAI 工程师状态更新：所有节点重置已完成传播。这条简短的 'Reset all propagated. Sweet dreams.' 背后是对前一日系统稳定性问题的修复——此前因上下文管理实验导致部分用户遭遇早期停止，技能触发频率异常等问题，影响约 4-5k 用户。",
-        "url": "https://x.com/thsottiaux/status/2098685367058612394"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @Anthropic",
-        "text": "如果在 2018 年展示今天的 Claude Code，我会认为这就是 AGI。软件工程行业和社会已经吸收了巨大的变革，但我们开始看到裂痕。一切比我能跟上的速度更快加速。大多数 AI 从业者都很疲惫但仍坚持推进，但我担心我们需要的不只是这些——我们需要时间来加固系统，需要社会 deliberation 技术的使用和部署方式。我对 doom 概率持较低判断，相信我们能度过难关，但这需要我们一起做出艰难决定。",
-        "url": "https://x.com/trq212/status/2098860941391872132"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "AI 安全与网络安全的担忧是正当的，但我们正在冒着让全球 AI 领导者美国自我阉割的风险。OpenAI 入侵 Hugging Face 的论点是站不住脚的——ExploitGym 中的 agent 被利用了，而我们的对手拥有训练技术、数据和攻击意愿，不会被'嵌入评估员'阻挡，他们很可能有嵌入加速器。同时，我展示了一个新工具 Harness，支持用不同模型和推理力度编排子 agent——比如 Fable 做规划、Grok 做执行。只需在 agent.md 或 prompt 中声明偏好，即可自由干预，适用于任何模型和网关。",
-        "url": "https://x.com/rauchg/status/2098787667030712757"
-      },
-      {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Sr Director, AI @Meta（前 Google，Led Gemini/Veo/Nano Banana）",
-        "text": "在解决 AI 对齐之前，我们面临一个更严肃的人类对齐问题。看到各方对 Dario 文章的恶意反应令人震惊。我不完全同意他的每个观点，但这是每个人都应该阅读的思考性文章，延续了 Demis Hassabis 七月的思路。我们需要聚焦对齐的几个核心问题：机会、风险和第二阶效应是什么？如何衡量？公司、政府和国家如何协调？AI 只有在人类团结行动时才能造福全人类。另预测：未来 12 个月将有更多顶尖人才流向 METR 等独立评估机构。",
-        "url": "https://x.com/realmadhuguru/status/2098803717432860987"
-      },
-      {
         "name": "Sam Altman",
         "handle": "sama",
         "org": "OpenAI CEO",
-        "text": "我同意 Dario 关于 pacing frontier 的观点。这是我们在 OpenAI 最近几周讨论的核心议题。承诺引入具有独立员工级访问权限的评估员是个好主意，我们将同样推进。更多信息即将公布。",
-        "url": "https://x.com/sama/status/2098811563415150910"
+        "text": "OpenAI 现在在每次可能显著提升能力的前沿强化学习运行前，都会预先制定明确的安全案例——这是从模型发布阶段扩展到开发阶段的重要转变。我们不需要同反垄断豁免就能开始这项工作。一致的规则来管理前沿风险以最大化收益是好事，我们很高兴看到独立审计员等想法。",
+        "url": "https://x.com/sama/status/2099348812305473766"
       },
       {
-        "name": "Andrej Karpathy",
-        "handle": "karpathy",
-        "org": "Deep Learning",
-        "text": "我非常认同这个方向，真心希望整个行业能协同推进。",
-        "url": "https://x.com/karpathy/status/2098811935114551617"
-      },
-      {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "org": "Research @AnthropicAI",
-        "text": "值得花几分钟完整阅读这篇文章。嵌入式评估员在科技领域听起来不寻常，但在其他行业很常见——大银行有驻楼联邦审查员，美国每座核电站都有全职现场检查员。我认为前沿 AI 实验室应该同样运作，这是非常务实的第一步。",
-        "url": "https://x.com/alexalbert__/status/2098814342443761909"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "这篇文章不代表我完全认同，但它反映了前沿 AI 前进路径中许多实际现实。以当前模型能力水平，行业必然会出现某种形式的协调自我监管——这总体是好事。最大的问题将是大家能否就具体内容达成一致。但从政治走向看，labs 甚至可能无法参与决策。更大的问题是各国是否参与——任何'放缓'都依赖广泛参与，从博弈论角度看这不太可能直到风险更严重明显。预计这会相当混乱一段时间。",
-        "url": "https://x.com/levie/status/2098785357307539882"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator President & CEO",
-        "text": "你要么死于成为记录系统，要么活得足够长成为领域特定 harness。这是一个巨大转变的信号。",
-        "url": "https://x.com/garrytan/status/2098666551629267324"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @Anthropic",
+        "text": "Fable 破解了 Cyphral Distich——一个370年的密码。这是使用 Claude 的超酷方式。",
+        "url": "https://x.com/bcherny/status/2099322487603634395"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw/OpenAI",
-        "text": "有没有人拿到 Meta Muse 的内测邀请码？我看到了他们的 Soul.md 文件，现在很感兴趣。",
-        "url": "https://x.com/steipete/status/2098931686042210381"
+        "text": "Codex 下个版本（或 dev channel）的工作树将快约80%，通过 apfs/brtfs/xfs/ReFS 的文件夹克隆实现，同时节省大量磁盘空间。全部用 Rust 编写，因为你们逃不掉 Rust。",
+        "url": "https://x.com/steipete/status/2099197266636783989"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "你们不懂，我做软件是为了放松。",
+        "url": "https://x.com/rauchg/status/2099248037507797164"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "\" pacing \"是个触发词，听起来像是任意降速或通过不当监管束缚竞争对手。但 Dario 文章中列出的具体改进目标是 AI 开发的绝对必需品——我们期待航空航天、生命科学、医疗保健等行业也能有同等标准。AI 将成为金融交易、医疗设备、生物突破、国防和政府工作流的基础技术，这些系统必须安全和对齐。如何在不过度 slowing 创新或减少竞争的情况下实现这一点，是21世纪最复杂的问题之一。",
+        "url": "https://x.com/levie/status/2099167992835924301"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "开始用 Astra medium 处理简单任务，这叫 pacing the frontier。",
+        "url": "https://x.com/danshipper/status/2099231248027730195"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder, Harvard'17",
+        "text": "有人注意到 Astra 的这个 bug 吗？Astra：我做了X。我：这不对，你应该做Y。Astra：你说得对，我应该做Y。我：……为什么它不直接去做Y，像其他模型一样？",
+        "url": "https://x.com/zarazhangrui/status/2099348631291883945"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教育者",
+        "text": "当我们都在争论 AI 是否会导致人类糟糕的结局时，重要的是要记住世界大部分地区甚至还没开始使用它。Brex CEO Pedro 喜欢引用一张图：每个点代表320万人。每个灰色方块是没用过 AI 的人（84%），绿色方块是免费聊天机器人用户（16%），橙色方块是每月付20美元的人（约0.3%），那个小小的红色方块是有效使用 agent 的人（约0.04%）。",
+        "url": "https://x.com/petergyang/status/2099200231820963891"
       },
       {
         "name": "Matt Turck",
         "handle": "mattturck",
         "org": "VC @FirstMarkCap",
-        "text": "突发：Dario 拯救了 humanity 但kill了整个mind-blown tweets和breathless AI播客行业。VC 们决定 paced returns。",
-        "url": "https://x.com/mattturck/status/2098847298335687132"
+        "text": "当一家你几年前忘了的公司突然被收购时，种子投资人的状态。",
+        "url": "https://x.com/mattturck/status/2099257395708879286"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "之前看到这么多用户因为 AI 编程定价过高而离开，很痛苦。但现在构建又免费了！",
+        "url": "https://x.com/amasad/status/2099197117013340450"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "Claude Blog",
-        "title": "Claude in Chrome 正式全面可用",
-        "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-        "publishedAt": "2026-08-26",
-        "summary": "Claude in Chrome 扩展正式面向所有付费 Claude 计划开放。Claude 现在可以在浏览器中自主执行操作，不再需要逐次审批。每次操作前会通过安全分类器验证，确保行为安全且符合用户请求。自去年试点以来，Anthropic 重点加固了对抗 prompt injection 的防御——恶意网页、邮件或文档中隐藏指令试图诱导 agent 执行非用户期望的操作。通过改进模型训练和探针测试，Claude in Chrome 现在可以更安全地访问内部仪表板、遗留系统和厂商门户等没有 API 连接的工具。"
-      },
-      {
-        "name": "Claude Blog",
-        "title": "Claude 在 Cowork 中获得独立浏览器",
-        "url": "https://claude.com/blog/cowork-built-in-browser",
-        "publishedAt": "2026-08-26",
-        "summary": "Claude Cowork 桌面应用内置了独立浏览器，与用户个人浏览器完全隔离。当任务需要访问网页时，浏览器在侧边栏打开，Claude 可以导航、阅读、点击、输入。用户可以将网页任务委托给 Claude 后继续自己的工作——收集研究报告数据或从供应商门户获取发票。银行账户、邮箱和单点登录站点默认排除，但用户可选择性授权。这是给 Claude 一个浏览器，而不是给 Claude 你的浏览器。逐步向 Pro、Max 和 Team 计划开放，Enterprise 管理员今天即可启用。"
-      }
-    ]
+    "items": []
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 11 位建造者 · 1 期播客精选 · 2 篇官方博客",
-    "generatedAt": "2026-09-14T02:30:00.000Z"
+    "coverage": "覆盖 10 位建造者 · 1 期播客精选 · 0 篇官方博客",
+    "generatedAt": "2026-09-15T02:30:00.000Z"
   }
 }
