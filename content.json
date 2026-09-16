@@ -1,112 +1,137 @@
 {
   "issue": {
-    "vol": "20260915",
-    "date": "2026年9月15日",
-    "weekday": "星期二",
-    "dateISO": "2026-09-15",
-    "tagline": "Sam Altman 发布 AI 安全治理长文 · OpenAI Codex worktree 提速 80% · Meta Muse 内测泄露 · ARM CEO 谈芯片架构未来"
+    "vol": "20260916",
+    "date": "2026年9月16日",
+    "weekday": "星期三",
+    "dateISO": "2026-09-16",
+    "tagline": "Google 扩展 Gemini 内测用户群 · Claude Code 支持插件 Mods · Vercel 挖来 Google Cloud Run 创始人 · OpenAI 本周或有大发布"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sam Altman 发长文谈 AI 安全治理与 pacing frontier：两大风险必须避免，独立审计员已启动",
+    "title": "Claude Code Mods 上线、Vercel 挖角 Google Cloud Run 创始人、OpenAI 本周或将发布重磅更新",
     "paras": [
-      "OpenAI CEO Sam Altman 今日发表长文，系统阐述了两条必须避免的危险路径：一是人类失去对 AI 的控制权，二是权力过度集中于单一实体（国家或公司）。他明确表示 OpenAI 站在人类这边，同时呼吁建立联邦层面的安全框架，并强调不需要等待反垄断豁免就能开始工作。他特别提到，OpenAI 现已在前沿强化学习运行前预先制定明确的安全案例（safety cases），这是从模型发布阶段扩展到开发阶段的重大转变。",
-      "Dario Amodei 此前提出的嵌入式评估员方案引发连锁反应——Sam Altman 承诺推进独立评估员机制，Andrej Karpathy、Box CEO Aaron Levie 等人纷纷表态。YC 总裁 Garry Tan 评论称这标志着一个大转变的信号：要么死于成为记录系统，要么活得足够长成为领域特定的 harness。与此同时，Meta Muse 模型的内测邀请泄露，Soul.md 文件在开发者圈传播，Codex 工作树性能提升 80%，ARM CEO 在 Hot Chips 演讲芯片设计新范式。"
+      "Anthropic 今日宣布 Claude Code Mods 正式落地，社区已开始涌现创意作品——包括用 Claude 编写的俄罗斯方块。同时，Google 扩展其 Gemini Power User 内测项目：两个月前启动的早期体验计划已测试超过 20 个功能，新一批用户获准接入 Daily Brief 与 Personal Intelligence 相关功能。Vercel 则宣布聘用 Google Cloud Run 的创建者 Steren，负责 Fluid 系列计算产品（Functions、Containers、Sandbox、Builds），标志着 serverless 之后的下一代计算范式竞争升温。",
+      "OpenAI 方面，Codex 团队成员 Thibault Sottiaux 放话「本周将交付 DevDay 2025 级别的更新」，引发社区热议——他同时发起投票询问用户希望从 Codex 中移除哪些功能，获得超过 8000 点赞和近 9000 条评论。Anthropic 工程师团队连续发布多篇技术博客，探讨如何在产品中安全管控 Claude 的智能体权限、解决近期质量回退问题、以及通过 Managed Agents 架构实现大脑与手脚的解耦。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "No Priors：ARM CEO Rene Haas 重新定义芯片架构",
-    "meta": "No Priors 播客 · 访谈 Rene Haas（ARM & SoftBank Group International CEO）",
+    "title": "AI & I by Every：专业写作者如何用 AI 写作",
+    "meta": "AI & I 播客 · 采访 Katie Parrott（Every 资深撰稿人）与 Natalia Quintero",
     "paras": [
-      "The Takeaway：芯片设计的时间周期是24到36个月，验证和调试占据大部分时间；AI 对芯片验证的帮助巨大，关停 AI 就像把互联网限制在每天凌晨2点到4点使用一样荒谬。",
-      "Rene Haas 在 Hot Chips 大会的演讲引发行业广泛关注。他与 Elad Gil 深入讨论了 ARM 在芯片供应链中的关键地位、AI 如何重塑芯片验证流程、机器人产业的能源挑战，以及 SoftBank 集团内部的协作模式。",
-      "Haas 指出，所有计算问题最终都归结到微处理器——它是万事万物的心脏。AI 在验证、调试方面的能力远超传统方法，但芯片设计的核心挑战在于复杂系统的协调与仲裁，这正是 CPU 的本质工作。"
+      "The Takeaway：AI 写作的最佳实践不是让机器替你做，而是把 AI 当作思维伙伴——前提是你已经经历过一段深刻的个人低谷，找到属于自己的对话方式。",
+      "Katie Parrott 在 Every 的资深撰稿人，两年前的今天她刚经历裁员与心理健康危机，转而用 ChatGPT 当职业教练，开启了从 AI 怀疑论者到 AI 写作者的转变。本期节目中，Natalia Quintero 与她深入探讨了这一旅程。",
+      "Katie 分享了她开发 'Compound Writing' 插件的灵感来源——借鉴 Kieran Klassen 的 Compound Engineering 方法论。她强调：「写作不是让 AI 替你写，而是让 AI 帮你理清思路，再用自己的声音表达出来。」"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "OpenAI 现在在每次可能显著提升能力的前沿强化学习运行前，都会预先制定明确的安全案例——这是从模型发布阶段扩展到开发阶段的重要转变。我们不需要同反垄断豁免就能开始这项工作。一致的规则来管理前沿风险以最大化收益是好事，我们很高兴看到独立审计员等想法。",
-        "url": "https://x.com/sama/status/2099348812305473766"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "Google Labs VP",
+        "text": "两个多月前我们启动了一个 Gemini 高级用户内测组，用来测试 App 中的早期功能。经过 20+ 功能的迭代测试，你们的反馈非常出色，感谢每一位参与者！现在新一批用户将获得 Daily Brief 与 Personal Intelligence 的抢先体验，我们将持续扩大内测规模。",
+        "url": "https://x.com/joshwoodward/status/2099558443078365287"
       },
       {
         "name": "Boris Cherny",
         "handle": "bcherny",
         "org": "Claude Code @Anthropic",
-        "text": "Fable 破解了 Cyphral Distich——一个370年的密码。这是使用 Claude 的超酷方式。",
-        "url": "https://x.com/bcherny/status/2099322487603634395"
+        "text": "Claude Mods 正式上线了！有人已经用 Claude 做了一个俄罗斯方块 MOD，太酷了。详见官方 Issue 获取最新更新、技术细节和更多社区 Demo。",
+        "url": "https://x.com/bcherny/status/2099551291601248485"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw/OpenAI",
-        "text": "Codex 下个版本（或 dev channel）的工作树将快约80%，通过 apfs/brtfs/xfs/ReFS 的文件夹克隆实现，同时节省大量磁盘空间。全部用 Rust 编写，因为你们逃不掉 Rust。",
-        "url": "https://x.com/steipete/status/2099197266636783989"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "本周会有一波你们原本以为要等到 DevDay 2025 才能看到的更新量级，疯狂。另外：你们觉得 Codex 里有什么功能可以移除了？",
+        "url": "https://x.com/thsottiaux/status/2099744972195131850"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "你们不懂，我做软件是为了放松。",
-        "url": "https://x.com/rauchg/status/2099248037507797164"
+        "text": "Agent 的质量取决于你赋予它的验证能力——proof-checkers、编译器、类型系统和 linter。Shadowcat/Lint 帮助 Agent 遵循你的设计系统规则。Meta 认为：验证器 + Skills 是新一代框架。另外欢迎 Google Cloud Run 创始人 Steren 加入 Vercel，他将负责 Fluid 计算产品线。Serverless 是云的最后一章，而 Agent 是下一个前沿阵地。",
+        "url": "https://x.com/rauchg/status/2099540886409695346"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "\" pacing \"是个触发词，听起来像是任意降速或通过不当监管束缚竞争对手。但 Dario 文章中列出的具体改进目标是 AI 开发的绝对必需品——我们期待航空航天、生命科学、医疗保健等行业也能有同等标准。AI 将成为金融交易、医疗设备、生物突破、国防和政府工作流的基础技术，这些系统必须安全和对齐。如何在不过度 slowing 创新或减少竞争的情况下实现这一点，是21世纪最复杂的问题之一。",
-        "url": "https://x.com/levie/status/2099167992835924301"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "开始用 Astra medium 处理简单任务，这叫 pacing the frontier。",
-        "url": "https://x.com/danshipper/status/2099231248027730195"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder, Harvard'17",
-        "text": "有人注意到 Astra 的这个 bug 吗？Astra：我做了X。我：这不对，你应该做Y。Astra：你说得对，我应该做Y。我：……为什么它不直接去做Y，像其他模型一样？",
-        "url": "https://x.com/zarazhangrui/status/2099348631291883945"
+        "text": "我们需要重新思考 Agentic 工作负载的未来——Agent Swarm、更智能的 Computer Use、即将到来的新 API 与 MCP、以及 Muse/Instinct 等新形态。我们将把 Agent 部署到远超想象的任务中，它们后台收集和处理的信息量将是过去的 100 倍。与此同时，企业数据的安全治理将成为 21 世纪最复杂的挑战之一：给 Agent 太多权限就难以控制数据，限制太多又无法获得真正的生产力提升。Box Shield 正在构建新的智能防护机制，根据文档分类级别精确控制 Agent 的内容访问权限。",
+        "url": "https://x.com/levie/status/2099739019517235618"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "org": "AI 教育者",
-        "text": "当我们都在争论 AI 是否会导致人类糟糕的结局时，重要的是要记住世界大部分地区甚至还没开始使用它。Brex CEO Pedro 喜欢引用一张图：每个点代表320万人。每个灰色方块是没用过 AI 的人（84%），绿色方块是免费聊天机器人用户（16%），橙色方块是每月付20美元的人（约0.3%），那个小小的红色方块是有效使用 agent 的人（约0.04%）。",
-        "url": "https://x.com/petergyang/status/2099200231820963891"
+        "org": "Practical AI 教程创作者",
+        "text": "语音交互让我在自然中散步时比盯着屏幕高效得多，这种感觉太棒了。另外——我真的等不及看到 2030 年的 AI 会是什么样子。",
+        "url": "https://x.com/petergyang/status/2099677771408846975"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic",
+        "text": "刚录完 Latent Space 播客，这次聊了很多技术深度内容，之前很少公开讨论过。我还和 Sid、Robert 深入聊了构建 Claude Code 的历程——变化有多大、跟上模型能力有多难，以及我们对 AI 时代之前软件工程状态的怀念。",
+        "url": "https://x.com/trq212/status/2099551141621329994"
       },
       {
         "name": "Matt Turck",
         "handle": "mattturck",
         "org": "VC @FirstMarkCap",
-        "text": "当一家你几年前忘了的公司突然被收购时，种子投资人的状态。",
-        "url": "https://x.com/mattturck/status/2099257395708879286"
+        "text": "Ramp 的品牌营销真是天才——百老汇音乐剧讲账单这件事……在最好的意义上来说完全失控。另外周末很有趣，但我们所有人都清楚 AI 进步不会减速——玩家太多、经济激励太强、囚徒困境在国内和全球都无处不在。",
+        "url": "https://x.com/mattturck/status/2099589199104033031"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "之前看到这么多用户因为 AI 编程定价过高而离开，很痛苦。但现在构建又免费了！",
-        "url": "https://x.com/amasad/status/2099197117013340450"
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "GP @SPC, Bevel Health 联合创始人",
+        "text": "这绝对是一个令人惊艳的 Demo。AI 可以成为人类——这是终极目标。作为他们最早的合作伙伴，我深感自豪。当然，还有大量工作要做。",
+        "url": "https://x.com/adityaag/status/2099529959262019887"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw/OpenAI",
+        "text": "这个工具太有用了，正推动把它集成到 Codex 中。",
+        "url": "https://x.com/steipete/status/2099571935495827761"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": []
+    "items": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "如何在产品中管控 Claude 的能力边界",
+        "summary": "一年前，让 Claude 拥有足以关闭内部服务的权限是不可想象的；今天这已是常态。风险评估的两个维度：失败概率（已通过安全加固持续降低）和破坏规模（随能力增长而扩大）。关键在于如何限制自主 Agent 的影响范围——通过环境控制和权限分级。人工监督虽然理论上可行，但数据显示用户批准了约 93% 的权限请求，审批疲劳会让监督形同虚设。Auto Mode 正在解决这个问题。",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Claude Code 近期质量报告更新",
+        "summary": "过去一个月调查了用户反映的响应质量下降问题，追溯到三个独立变更：3月4日将默认推理强度从 high 降至 medium（4月7日回滚）；3月26日清理长时间闲置会话的思考记录（4月10日修复 Bug）；4月16日添加的系统提示减少冗长（4月20日回滚）。每次影响不同流量切片，聚合后看似广泛降级，实则各有归因。",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "扩展托管 Agent：将大脑与手脚解耦",
+        "summary": "Managed Agents 是 Claude Platform 上的托管服务，通过一套稳定接口运行长期 Agent。借鉴操作系统的虚拟化思路——进程、文件抽象超越硬件迭代——我们将 Agent 组件虚拟化为会话（append-only 日志）、Harness（调用 Claude 并路由工具调用的循环）和沙箱（代码执行环境），使各层可独立演进。",
+        "url": "https://www.anthropic.com/engineering/managed-agents"
+      },
+      {
+        "name": "Claude Blog",
+        "title": "Claude Code 现支持 Artifacts",
+        "summary": "Claude Code 可将工作进展捕获为 Artifact——实时可分享的可视化页面，包括 PR 走查、系统说明、仪表盘和发布清单，随会话推进自动更新。每次发布生成新版本链接并保留历史，团队只需打开链接即可查看最新状态。",
+        "url": "https://claude.com/blog/artifacts-in-claude-code"
+      }
+    ]
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 10 位建造者 · 1 期播客精选 · 0 篇官方博客",
-    "generatedAt": "2026-09-15T02:30:00.000Z"
+    "coverage": "覆盖 10 位建造者 · 1 期播客精选 · 4 篇官方博客",
+    "generatedAt": "2026-09-16T02:30:00.000Z"
   }
 }
