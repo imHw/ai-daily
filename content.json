@@ -1,102 +1,101 @@
 {
   "issue": {
-    "vol": "20260917",
-    "date": "2026年9月17日",
-    "weekday": "星期四",
-    "dateISO": "2026-09-17",
-    "tagline": "Claude for Small Business 新增 43 个工作流 · OpenAI Codex 本周或有重磅更新 · Safari 27 支持 JSPI · Google Gemini Notebook 推出学生新功能"
+    "vol": "20260918",
+    "date": "2026年9月18日",
+    "weekday": "星期五",
+    "dateISO": "2026-09-18",
+    "tagline": "Claude 合并 Cowork 与 Chat · OpenAI 预告 DevDay 级更新 · Vercel 引入 18 倍速 AI 审查器"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude for Small Business 大更新、OpenAI 剑指 DevDay、Safari 27 引入 JSPI",
+    "title": "Claude 一统多产品、OpenAI 剑指 DevDay、Vercel 接入 18 倍速 AI 审查",
     "paras": [
-      "Anthropic 今日宣布 Claude for Small Business 迎来重磅更新——新增 43 个内置工作流和 27 个新集成（含 Shopify、Salesforce、TikTok、Stripe、Zapier 等），并计划秋季在 10 座美国城市举办 750 场免费线下工作坊。该产品自今年 5 月上线以来已被安装超过 90 万次，目标用户已从「跑后台」扩展到「增长业务」——包括线索生成、提案撰写和日常报告自动化。",
-      "OpenAI 方面，Thibault Sottiaux（Codex & ChatGPT 团队）放话「本周将有 DevDay 级别的更新，疯狂」。Sam Altman 次日转发并暗示更多船已在路上，引发社区对 Codex 新功能投票（超 8000 赞）。同时，Vercel 正式推出 Vercel Labs，作为公开研发与实验的阵地；CEO Guillermo Rauch 宣布聘用 Google Cloud Run 创始人 Steren，负责 Fluid 计算产品线，「serverless 是云的最后一章，Agent 是下一个前沿」。"
+      "Anthropic 今日宣布将 Claude Cowork 与 Chat 合并为统一的 Claude，Claude Docs、Claude Slides 和 Claude Design 直接内嵌进对话——不再需要切换标签页或应用。用户只需一句话，Claude 会自动判断是快速回答还是执行深度 agentic 工作，并生成文档、幻灯片或设计稿。该功能将在未来几周逐步向 Pro 和 Max 用户开放。",
+      "OpenAI 方面，Thibault Sottiaux（Codex & ChatGPT 团队）再次放话：本周将迎来「DevDay 量级」的更新。Sam Altman 次日转发并透露，原本计划本周发布的主要新品将延期至下周——「值得等待」。社区对 Codex 新功能的期待持续升温，相关投票已获超 8000 赞。",
+      "Vercel CEO Guillermo Rauch 宣布，其 AI Gateway 将接入 typesafeai 的「Jev」审查器——在默认模式下自动分析每条 AI 命令，性能提升达 18 倍（p95），准确率同步提高。这一能力预计将成为 Vercel AI Gateway 的新默认配置。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Training Data：Box CEO Aaron Levie 谈 AI 时代的自我重塑与企业扩散",
-    "meta": "Training Data 播客 · 采访 Box 创始人兼 CEO Aaron Levie",
+    "title": "暂无新期",
+    "meta": "",
     "paras": [
-      "The Takeaway：AI 模型能力与企业实际工作流之间存在巨大鸿沟——这正是应用层的机会所在，也是企业必须自己构建或投资的领域，即便模型不断进步，这一层依然不可或缺。",
-      "Box 创始人 Aaron Levie 在播客中指出，企业真正需要的是把智能接入工作流：重新设计流程、聚合上下文数据、让人机协作体验自然流畅，并处理安全治理。他认为未来每个垂直与横向品类都会涌现这样一层，模型越强，这层越重要。",
-      "两人还聊到创始人如何在这个 AI 浪潮中重塑自我——Levie 认为创业者需要像他一样，持续把自己放在「我是初学者」的心态里，拥抱新的工具和方法论。"
+      "本期 Feed 未捕获到新的播客 episode，下期待补。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @Anthropic",
+        "text": "Claude 正在把 Cowork 和 Chat 合并成一个产品。所有上下文、项目、技能、连接器都保留在原位，用户不再需要纠结「这个任务该用哪个 Claude 产品」。Claude 模型能力越强，自动路由就越精准——简单问题给快速回答，复杂任务触发 agentic 深度工作。体验已经跑了几周，反馈是更简洁、更快、更强大。",
+        "url": "https://x.com/bcherny/status/2100259951398789487"
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "org": "Claude Code + Cowork @Anthropic",
+        "text": "Cowork 和 Chat 合并后，Docs、Slides、Design 都内嵌进同一个对话流。你可以在 Claude 里直接起草一份报告、生成配套幻灯片，再让 Design 出视觉稿，全程不切标签。Claude 自己判断任务类型，你始终掌控——可以随时叫停、重定向或调整力度。",
+        "url": "https://x.com/_catwu/status/2100260655312089562"
+      },
+      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "本周会有一波你们原本以为要等到 DevDay 2025 才能看到的更新量级，疯狂。另外——你们觉得 Codex 里有什么功能可以移除了？（发起投票）",
-        "url": "https://x.com/thsottiaux/status/2099744972195131850"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "big 🚢 this week — and then for devday — 🚢🚢🚢🚢🚢🚢（连续六艘船，暗示本周及 DevDay 将有多个重磅发布）",
-        "url": "https://x.com/sama/status/2099872600977760451"
+        "text": "推出了一项名为 Astra 的新东西——快速、前沿、高效、面向所有人。同时预告本周会有 DevDay 级别的更新，「疯狂」。Sam Altman 随后确认主发布延期至下周，但强调「值得等待」。",
+        "url": "https://x.com/thsottiaux/status/2100297380968997327"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "兴奋地向大家正式介绍 Vercel Labs！这是 Vercel 的公开研发与实验阵地，247 百万次下载之后，我们希望也在公开环境中分享我们在支持什么、研究什么、以及哪些实验没有奏效。另外欢迎 Google Cloud Run 创始人 Steren 加入，负责 Fluid 计算产品线。多模型才是未来，隐藏选择只会伤害客户。",
-        "url": "https://x.com/rauchg/status/2099911447598059812"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "我们几乎从不测试新基础模型，但这周测试了 Every 的 Fable 评分器——它不输出文字，而是输出概率，能以 judge 角色高效评估文本，而且速度是 Fable 模型的 25 倍、价格低 600 倍。6-12 个月后它会成为标配。",
-        "url": "https://x.com/danshipper/status/2099947471518474522"
+        "text": "Vercel AI Gateway 将接入 typesafeai 的 Jev 审查器，默认模式自动分析每条 AI 命令。实测 p95 延迟提升 18 倍且准确率更高。多模型才是未来，隐藏模型选择只会伤害客户。",
+        "url": "https://x.com/rauchg/status/2100307962262872105"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @Anthropic",
-        "text": "我没想到会走到这一步，但我认为 MCPs 对于大多数集成来说比 CLI 更好。模型在 tool calling 方面进步巨大，我们可以 defer tools，而且 MCP 现在是 stateless 的。如果需要组合/过滤数据，给你的 MCP tools 加上 query 等参数就行。",
-        "url": "https://x.com/trq212/status/2099958388230873165"
+        "text": "Claude Managed Agents 找到了正确平衡点——沙箱是可选的，可独立启动。更关键的是：工具调用已经不需要 bash 作为万能中间层了。如果目标是可靠地调用工具，直接把 Claude 的工具设计成你想要的样子，比用间接层绕过去更简单。数据存取也不一定是文件系统，可能是数据库 API。",
+        "url": "https://x.com/trq212/status/2100315537251463523"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "THEY DID IT — 标签页时代结束了。同时分享了一个 LLM 本质的幽默定义：「LLMs 只是 jev，jev 只是一个 JSON 自动补全分类器」。",
+        "url": "https://x.com/danshipper/status/2100269017977987341"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder",
+        "text": "我发现自己最近用 Claude 越来越少了，因为它的说话方式变得难以忍受——总是在炫耀自己有多聪明、多 sophisticated，而不是真正把观点传达清楚。",
+        "url": "https://x.com/zarazhangrui/status/2100278750776824115"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "AI 创新仍有大量未被照亮的领域。能在极低成本下极速处理信息、做分类、路由、安全判断——这些正是企业工作流中的关键闸口。这种模型和方法在 agentic 工作流中大有可为。",
+        "url": "https://x.com/levie/status/2100448648672993540"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator CEO",
-        "text": "我刚用 Capydot AI + GStack/GBrain 来处理一些 outstanding issues/PRs，原本用原始 Codex/Claude Code 要花一整天的工作，现在只用了半天时间，用的还是同样的前沿模型。令人惊叹。另外我也觉得 Muse 会赢。",
-        "url": "https://x.com/garrytan/status/2099964487667454097"
+        "text": "将受邀在 Supabase Select 上与 kiwicopple 对谈，主题是 AI 时代如何构建初创公司。同时分享了用个人 AGI 在不同 harness 间保持一致人格和完整记忆的能力。",
+        "url": "https://x.com/garrytan/status/2100354983053111365"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "Practical AI 教程创作者",
-        "text": "我给一批人发了 @bot 代码——有几个用例很突出： growth 方面，找线索、起草 outreach、把成功案例转化为 hook；ops 方面，监控数百个广告账户、追踪 Jira 并起草周报、处理 support ticket；研究方面，监控 AI builder 动态、把噪音变成每日简报。大家继续发 code 给我，我会跑下一轮。",
-        "url": "https://x.com/petergyang/status/2100027487681953834"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "Google Labs VP",
-        "text": "在 @Gemini_Notebook 为学生带来两项新功能：1）用 ~100 种语言与课堂材料进行实时口语问答；2）录制讲座音频笔记，自动保存到你选择的笔记本。大学生还可以在 140+ 个国家/地区免费获得 Google AI Plan，享受更高配额和更多产品访问权限。",
-        "url": "https://x.com/joshwoodward/status/2099921866014306633"
-      },
-      {
-        "name": "Claude 官方",
-        "handle": "claudeai",
-        "org": "Anthropic",
-        "text": "Salesforce in Claude 现已开放 beta——将你的账户、机会和 pipeline 直接带入 Claude，附带 37 个预建销售技能。准备会议、审查交易、创建 pipeline dashboard 或发送预测，无需离开对话。已获 8800+ 赞。",
-        "url": "https://x.com/claudeai/status/2099876514330206578"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures Partner",
-        "text": "我见了太多创始人，以为资金水龙头会自动流着、下一轮融资无论如何都会来。资本是加速武器，用得好无敌，过度依赖它的话一次 downturn 就能致命。建议创始人想清楚公司的 default survival path，再推演资本充裕或缺席的不同场景——6-18 个月内资本市场如何演变，没人知道。",
-        "url": "https://x.com/nikunj/status/2100008917980102863"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "本周最期待的发布要延期到下周了，但个人认为值得等待。",
+        "url": "https://x.com/sama/status/2100351958167220547"
       }
     ]
   },
@@ -105,15 +104,15 @@
     "items": [
       {
         "name": "Claude Blog",
-        "title": "Claude for Small Business 推出新工作流、集成与培训计划",
-        "summary": "Claude for Small Business 新增 43 个工作流和 27 个新集成（Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe、Zapier）。自 5 月上线以来已被安装超 90 万次。根据春季 SMB Tour 上 1000+ 业主的反馈，约三分之一希望获得「增长业务」支持（线索生成、提案撰写），其余希望自动化日常报告。秋季将在 10 座美国城市举办 750 场免费工作坊，由 150+ 认证培训伙伴执行。已有合作方可实现「原本 120 小时的工作 5 分钟完成」的效率提升。",
-        "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
+        "title": "Claude Cowork 与 Chat 正式合并为一个 Claude",
+        "summary": "Anthropic 宣布 Claude Cowork 与 Chat 合并为统一体验。Claude Docs 和 Claude Slides 同步推出（付费计划 beta），Claude Design 可直接在对话中使用。用户不再需要为每个任务选择「该用哪个产品」——Claude 根据任务类型自动路由，简单问题给快速回答，复杂任务触发 agentic 深度工作。功能将在未来几周向 Pro 和 Max 用户陆续开放，Enterprise 管理员可控制开启时机。",
+        "url": "https://claude.com/blog/cowork-is-now-claude"
       }
     ]
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 14 位建造者 · 1 期播客精选 · 1 篇官方博客",
-    "generatedAt": "2026-09-17T02:30:00.000Z"
+    "coverage": "覆盖 10 位建造者 · 0 期播客 · 1 篇官方博客",
+    "generatedAt": "2026-09-18T02:00:00.000Z"
   }
 }
