@@ -1,23 +1,23 @@
 {
   "issue": {
-    "vol": "20260918",
-    "date": "2026年9月18日",
-    "weekday": "星期五",
-    "dateISO": "2026-09-18",
-    "tagline": "Claude 合并 Cowork 与 Chat · OpenAI 预告 DevDay 级更新 · Vercel 引入 18 倍速 AI 审查器"
+    "vol": "20260919",
+    "date": "2026年9月19日",
+    "weekday": "星期六",
+    "dateISO": "2026-09-19",
+    "tagline": "Claude Code 推出 Projects 功能 · Google 发布家庭 AI 代理 CC · Vercel 冲击亚秒级部署"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude 一统多产品、OpenAI 剑指 DevDay、Vercel 接入 18 倍速 AI 审查",
+    "title": "Claude Code 正式推送 Projects · Google CC 进军家庭场景 · 亚秒部署再进一步",
     "paras": [
-      "Anthropic 今日宣布将 Claude Cowork 与 Chat 合并为统一的 Claude，Claude Docs、Claude Slides 和 Claude Design 直接内嵌进对话——不再需要切换标签页或应用。用户只需一句话，Claude 会自动判断是快速回答还是执行深度 agentic 工作，并生成文档、幻灯片或设计稿。该功能将在未来几周逐步向 Pro 和 Max 用户开放。",
-      "OpenAI 方面，Thibault Sottiaux（Codex & ChatGPT 团队）再次放话：本周将迎来「DevDay 量级」的更新。Sam Altman 次日转发并透露，原本计划本周发布的主要新品将延期至下周——「值得等待」。社区对 Codex 新功能的期待持续升温，相关投票已获超 8000 赞。",
-      "Vercel CEO Guillermo Rauch 宣布，其 AI Gateway 将接入 typesafeai 的「Jev」审查器——在默认模式下自动分析每条 AI 命令，性能提升达 18 倍（p95），准确率同步提高。这一能力预计将成为 Vercel AI Gateway 的新默认配置。"
+      "Anthropic 今日宣布 Claude Code 正式推出 Projects 功能——每个项目拥有独立 Agent，统一管理记忆并调度子 Agent 执行任务。用户可以设定 Agent 主动执行、定时运行等策略。Boris Cherny 分享使用体验：「我已经不再管理会话，想到什么就发送什么，Claude 会自行拆分为线程，而项目会记住我的工作方式。」该功能正在逐步向用户开放，未来几周内将全面铺开。",
+      "Google Labs 宣布推出新一代 CC（Care Companion）——面向家庭的 AI 代理，支持最多 5 位家庭成员，能同步共享日历与待办事项，自动生成「今日日程摘要」邮件，协助处理学校许可表格、购物清单等琐事，并能区分全局偏好与个人限制（如饮食禁忌、时区差异）。目前美国地区用户可加入等待名单或升级现有 CC。",
+      "Vercel CEO Guillermo Rauch 再次强调部署速度竞争：「明年将诞生的软件将超过计算机史总和」，Vercel 从 10 亿次部署到 24 亿次仅用 10 个月，现在已将部署全流程压缩至 1 秒以内——包括 CDN 分发、域名分配、安全观测和回滚能力。同时，当用户催促 Agent 快速提交热修复时，Agent 现在可以调用 `v0 –turbo –prod` 使用最快的构建机器。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "暂无新期",
+    "title": "本期无新播客",
     "meta": "",
     "paras": [
       "本期 Feed 未捕获到新的播客 episode，下期待补。"
@@ -31,88 +31,81 @@
         "name": "Boris Cherny",
         "handle": "bcherny",
         "org": "Claude Code @Anthropic",
-        "text": "Claude 正在把 Cowork 和 Chat 合并成一个产品。所有上下文、项目、技能、连接器都保留在原位，用户不再需要纠结「这个任务该用哪个 Claude 产品」。Claude 模型能力越强，自动路由就越精准——简单问题给快速回答，复杂任务触发 agentic 深度工作。体验已经跑了几周，反馈是更简洁、更快、更强大。",
-        "url": "https://x.com/bcherny/status/2100259951398789487"
-      },
-      {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "org": "Claude Code + Cowork @Anthropic",
-        "text": "Cowork 和 Chat 合并后，Docs、Slides、Design 都内嵌进同一个对话流。你可以在 Claude 里直接起草一份报告、生成配套幻灯片，再让 Design 出视觉稿，全程不切标签。Claude 自己判断任务类型，你始终掌控——可以随时叫停、重定向或调整力度。",
-        "url": "https://x.com/_catwu/status/2100260655312089562"
+        "text": "Projects 彻底改变了我和 Claude 的交互方式——我不再管理会话，而是随想随发，Claude 自动拆分为线程，项目则记住我的工作习惯。这已经成为我大量编码工作的主场。",
+        "url": "https://x.com/bcherny/status/2100669598995816511"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "推出了一项名为 Astra 的新东西——快速、前沿、高效、面向所有人。同时预告本周会有 DevDay 级别的更新，「疯狂」。Sam Altman 随后确认主发布延期至下周，但强调「值得等待」。",
-        "url": "https://x.com/thsottiaux/status/2100297380968997327"
+        "text": "有人试过让 Astra 和 Fable 就完美风格指南达成一致吗？然后再用 Web MCP 托管它。——OpenAI 团队的轻量幽默，暗示多模型协作的潜力。",
+        "url": "https://x.com/thsottiaux/status/2100645454245720513"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "Vercel AI Gateway 将接入 typesafeai 的 Jev 审查器，默认模式自动分析每条 AI 命令。实测 p95 延迟提升 18 倍且准确率更高。多模型才是未来，隐藏模型选择只会伤害客户。",
-        "url": "https://x.com/rauchg/status/2100307962262872105"
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "org": "Claude Code + Cowork @Anthropic",
+        "text": "在新 Projects 体验中，Claude 协调所有会话。我每天使用它，因为它让我在更高层抽象上工作——发出一批任务后继续前进，Claude 掌握所有上下文，随时可汇总状态报告。它还有持久的、随使用进化的记忆。",
+        "url": "https://x.com/_catwu/status/2100641163120423057"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @Anthropic",
-        "text": "Claude Managed Agents 找到了正确平衡点——沙箱是可选的，可独立启动。更关键的是：工具调用已经不需要 bash 作为万能中间层了。如果目标是可靠地调用工具，直接把 Claude 的工具设计成你想要的样子，比用间接层绕过去更简单。数据存取也不一定是文件系统，可能是数据库 API。",
-        "url": "https://x.com/trq212/status/2100315537251463523"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "THEY DID IT — 标签页时代结束了。同时分享了一个 LLM 本质的幽默定义：「LLMs 只是 jev，jev 只是一个 JSON 自动补全分类器」。",
-        "url": "https://x.com/danshipper/status/2100269017977987341"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder",
-        "text": "我发现自己最近用 Claude 越来越少了，因为它的说话方式变得难以忍受——总是在炫耀自己有多聪明、多 sophisticated，而不是真正把观点传达清楚。",
-        "url": "https://x.com/zarazhangrui/status/2100278750776824115"
+        "text": "Projects 把 Claude Tag 的架构带入了 Claude Code。每个项目一个 Agent，管理记忆并为任务生成子 Agent。你可以让它主动行动、定时执行等。比一堆会话体验好得多。",
+        "url": "https://x.com/trq212/status/2100638355872706571"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "AI 创新仍有大量未被照亮的领域。能在极低成本下极速处理信息、做分类、路由、安全判断——这些正是企业工作流中的关键闸口。这种模型和方法在 agentic 工作流中大有可为。",
-        "url": "https://x.com/levie/status/2100448648672993540"
+        "text": "Agents 已经占据推理的主流，未来一两年将趋向几乎所有推理都由 Agent 完成。绝大多数 Token 将来自后台 24/7 执行海量任务的 Agents——审查代码变更、处理工作流数据、执行招聘研究、分析事件流和日志、在个人生活中执行任务，以及数百种其他用例。新增 Agent 的速度并未放缓。",
+        "url": "https://x.com/levie/status/2100799668573946191"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "当 Agent 被催促快速提交热修复时，现在可以调用 `v0 –turbo –prod` 使用最快的构建机器。这是开发体验的一次微小但实在的提升。",
+        "url": "https://x.com/rauchg/status/2100682030170489160"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator CEO",
-        "text": "将受邀在 Supabase Select 上与 kiwicopple 对谈，主题是 AI 时代如何构建初创公司。同时分享了用个人 AGI 在不同 harness 间保持一致人格和完整记忆的能力。",
-        "url": "https://x.com/garrytan/status/2100354983053111365"
+        "text": "Memorable 找到了一种用 Embeddings 而非更多 Tokens 来优化记忆的新方式——这是记忆管理的强大新范式。同时提醒：「要小心你的愿望」，对齐必须指向全人类而非单一目标。",
+        "url": "https://x.com/garrytan/status/2100668489178456268"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "本周最期待的发布要延期到下周了，但个人认为值得等待。",
-        "url": "https://x.com/sama/status/2100351958167220547"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "FP Ventures Partner",
+        "text": "分享了我的第一个实验：nosugarforkids.com——一个专注于儿童健康零食的目录网站，用 Claude Agent 每日自动运营：检查新品、清理过期商品、搜索 SEO 内容创意、监控 Search Console 数据、撰写和优化文章、维护质量标准，并主动联系媒体获取外链。零外链、零社媒，日自然流量已达约 6K  impressions、60 次点击。",
+        "url": "https://x.com/nikunj/status/2100714665571737885"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "VP @GoogleLabs @GeminiApp",
+        "text": "如果你还没在手机上用 Gemini Notebook，你错过了一些很酷的东西——家庭场景下的 AI 助理新用法。",
+        "url": "https://x.com/joshwoodward/status/2100616682431807860"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "它终于来了——Projects 功能正式上线，Claude 生态又多了一层组织能力。",
+        "url": "https://x.com/danshipper/status/2100587802748440581"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "Claude Blog",
-        "title": "Claude Cowork 与 Chat 正式合并为一个 Claude",
-        "summary": "Anthropic 宣布 Claude Cowork 与 Chat 合并为统一体验。Claude Docs 和 Claude Slides 同步推出（付费计划 beta），Claude Design 可直接在对话中使用。用户不再需要为每个任务选择「该用哪个产品」——Claude 根据任务类型自动路由，简单问题给快速回答，复杂任务触发 agentic 深度工作。功能将在未来几周向 Pro 和 Max 用户陆续开放，Enterprise 管理员可控制开启时机。",
-        "url": "https://claude.com/blog/cowork-is-now-claude"
-      }
-    ]
+    "items": []
   },
   "colophon": {
     "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 10 位建造者 · 0 期播客 · 1 篇官方博客",
-    "generatedAt": "2026-09-18T02:00:00.000Z"
+    "coverage": "覆盖 10 位建造者 · 0 期播客 · 0 篇官方博客",
+    "generatedAt": "2026-09-19T02:00:00.000Z"
   }
 }
