@@ -1,101 +1,88 @@
 {
   "issue": {
-    "vol": "20260919",
-    "date": "2026年9月19日",
-    "weekday": "星期六",
-    "dateISO": "2026-09-19",
-    "tagline": "Claude Code 推出 Projects 功能 · Google 发布家庭 AI 代理 CC · Vercel 冲击亚秒级部署"
+    "vol": "20260920",
+    "date": "2026年9月20日",
+    "weekday": "星期日",
+    "dateISO": "2026-09-20",
+    "tagline": "Claude Code 原生支持 AGENTS.md · 30,000 个 Claude Agent 驱动内部研发 · OpenAI 新 Keynote 蓄势待发"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude Code 正式推送 Projects · Google CC 进军家庭场景 · 亚秒部署再进一步",
+    "title": "Claude Code 迎来 AGENTS.md 支持 · 30,000 个 Agent 驱动 Anthropic 研发 · OpenAI 下周将公布重大更新",
     "paras": [
-      "Anthropic 今日宣布 Claude Code 正式推出 Projects 功能——每个项目拥有独立 Agent，统一管理记忆并调度子 Agent 执行任务。用户可以设定 Agent 主动执行、定时运行等策略。Boris Cherny 分享使用体验：「我已经不再管理会话，想到什么就发送什么，Claude 会自行拆分为线程，而项目会记住我的工作方式。」该功能正在逐步向用户开放，未来几周内将全面铺开。",
-      "Google Labs 宣布推出新一代 CC（Care Companion）——面向家庭的 AI 代理，支持最多 5 位家庭成员，能同步共享日历与待办事项，自动生成「今日日程摘要」邮件，协助处理学校许可表格、购物清单等琐事，并能区分全局偏好与个人限制（如饮食禁忌、时区差异）。目前美国地区用户可加入等待名单或升级现有 CC。",
-      "Vercel CEO Guillermo Rauch 再次强调部署速度竞争：「明年将诞生的软件将超过计算机史总和」，Vercel 从 10 亿次部署到 24 亿次仅用 10 个月，现在已将部署全流程压缩至 1 秒以内——包括 CDN 分发、域名分配、安全观测和回滚能力。同时，当用户催促 Agent 快速提交热修复时，Agent 现在可以调用 `v0 –turbo –prod` 使用最快的构建机器。"
+      "Claude Code 今日在 2.1.277 版本中正式加入 AGENTS.md 支持——若项目中没有 CLAUDE.md，Claude 将自动读取同级 AGENTS.md 作为指令源。这一改动回应了超过 4,300 名工程师的长期诉求，意味着团队在同一代码库中同时使用 Claude Code、Codex、Cursor 等多个 AI 编程助手时，只需维护一份共享的 AGENTS.md 文件，无需再为每个工具维护重复的配置。用户可在 /config 中切换该行为。",
+      "Anthropic 今日披露了一组令人瞩目的内部数据：截至 8 月，Claude 已主导公司 26% 的模型研发工作——这一比例在同年 2 月还是 0。目前 Anthropic 内部同时运行约 30,000 个 Claude Agent，超过 90% 的研发工作有 Claude 作为协作者或主导者参与，所有操作均经过实时监控，8 月份超过 10 亿次 Agent 决策中有约 0.002%（即约 20,000 次）被拦截。Anthropic 强调当前仍属人类监督下的 AL4 级别自主，尚未声称递归自我改进。",
+      "OpenAI 首席技术官 Thibault Sottiaux 透露，他与 CEO Sam Altman 及 Romain Huet 正在准备下周的公开 Keynote，内容「多到令人难以置信」，将在短时间内陆续揭晓。业界普遍猜测可能涉及新一代 GPT 模型、Astra 多模型编排框架的更多细节，或更自主的 Agent 能力。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "本期无新播客",
-    "meta": "",
+    "title": "No Priors: 扩散模型为何将赢得 AI 推理",
+    "meta": "Stefano Ermon | Stanford 教授 / Inception 联合创始人兼 CEO",
     "paras": [
-      "本期 Feed 未捕获到新的播客 episode，下期待补。"
+      "本期 No Priors 播客邀请到 Stefano Ermon——斯坦福教授、扩散模型领域奠基人之一、现任 Inception CEO。他从 2014 年进入生成模型研究说起，分享了扩散技术从早期无人问津到成为 AI 核心基础设施的演变历程。",
+      "Ermon 的核心论点是：速度、效率与可扩展性将成为未来几年 AI 推理的竞争关键，而扩散架构在这一方向上具有独特优势。Inception 正以此挑战 OpenAI、Anthropic 等头部实验室在推理领域的主导地位。他同时讨论了模型成本、延迟优化以及如何在不依赖超大计算资源的前提下实现高质量生成。"
     ],
-    "url": ""
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude Code @Anthropic",
-        "text": "Projects 彻底改变了我和 Claude 的交互方式——我不再管理会话，而是随想随发，Claude 自动拆分为线程，项目则记住我的工作习惯。这已经成为我大量编码工作的主场。",
-        "url": "https://x.com/bcherny/status/2100669598995816511"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "有人试过让 Astra 和 Fable 就完美风格指南达成一致吗？然后再用 Web MCP 托管它。——OpenAI 团队的轻量幽默，暗示多模型协作的潜力。",
-        "url": "https://x.com/thsottiaux/status/2100645454245720513"
+        "text": "今天和 @romainhuet 还有 @sama 一起准备 Keynote，最有趣的部分是如何把这些内容讲清楚——因为即将发布的东西实在太多了，信息量大得离谱。下周会有部分内容率先亮相，不会让大家等太久，非常期待向各位展示我们这段时间的成果。",
+        "url": "https://x.com/thsottiaux/status/2101157729037586694"
       },
       {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "org": "Claude Code + Cowork @Anthropic",
-        "text": "在新 Projects 体验中，Claude 协调所有会话。我每天使用它，因为它让我在更高层抽象上工作——发出一批任务后继续前进，Claude 掌握所有上下文，随时可汇总状态报告。它还有持久的、随使用进化的记忆。",
-        "url": "https://x.com/_catwu/status/2100641163120423057"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教程创作者",
+        "text": "Meta 的 Muse 是我目前用过最好的个人 AI Agent。它能帮我谈判账单，去年就省下了 800 多美元。大多数公司的客服热线还没有准备好应对 Agent 的到来 😅 我最近做了一个视频，演示了 10 个我最喜欢的 Muse 使用场景，包括个性化晨间新闻、习惯追踪，以及让它替我打电话协商降低电信账单。Muse 有可能成为 Meta 下一个十亿用户级应用。",
+        "url": "https://x.com/petergyang/status/2101083891507593576"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @Anthropic",
-        "text": "Projects 把 Claude Tag 的架构带入了 Claude Code。每个项目一个 Agent，管理记忆并为任务生成子 Agent。你可以让它主动行动、定时执行等。比一堆会话体验好得多。",
-        "url": "https://x.com/trq212/status/2100638355872706571"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "Agents 已经占据推理的主流，未来一两年将趋向几乎所有推理都由 Agent 完成。绝大多数 Token 将来自后台 24/7 执行海量任务的 Agents——审查代码变更、处理工作流数据、执行招聘研究、分析事件流和日志、在个人生活中执行任务，以及数百种其他用例。新增 Agent 的速度并未放缓。",
-        "url": "https://x.com/levie/status/2100799668573946191"
+        "text": "AGENTS.md 支持已内置于 Claude Code Mods——这是我们即将推出的自定义 Claude Code 工作区的功能。从今天起，2.1.277 版本中如果项目没有 CLAUDE.md，Claude 会自动检查并使用 AGENTS.md。你可以在 /config 中切换此行为。这标志着跨 AI 编程助手统一配置时代开始。",
+        "url": "https://x.com/trq212/status/2101009392611278961"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "当 Agent 被催促快速提交热修复时，现在可以调用 `v0 –turbo –prod` 使用最快的构建机器。这是开发体验的一次微小但实在的提升。",
-        "url": "https://x.com/rauchg/status/2100682030170489160"
+        "text": "Vercel AI Gateway 今日可能创下了开放模型 Token 使用量的历史新高：Open 模型占 78.4%，Closed 模型占 21.6%。除了 OpenAI 之外，Moonshot AI 和 DeepSeek 的总支出已超过 OpenAI 本身。这是一个清晰的信号：开放模型生态正在以惊人的速度增长。",
+        "url": "https://x.com/rauchg/status/2101186741042663579"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator CEO",
-        "text": "Memorable 找到了一种用 Embeddings 而非更多 Tokens 来优化记忆的新方式——这是记忆管理的强大新范式。同时提醒：「要小心你的愿望」，对齐必须指向全人类而非单一目标。",
-        "url": "https://x.com/garrytan/status/2100668489178456268"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "Jev 对 Agent 在企业工作流中的即时决策非常有价值——数据分类、判断决策、保险理赔、合同审查、安全审核、客服日志分析等数百种场景。我用 Box + Jev 做了一个演示：从 Box 拉取事件报告，判断是否面向客户、严重程度如何，自动分类到相应文件夹并设置元数据模板。整个过程几乎零延迟、几乎零成本。",
+        "url": "https://x.com/levie/status/2101007708044574906"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard '17",
+        "text": "当你消费的都是垃圾信息时，产出垃圾几乎是必然的。要改善输出，先从改善输入开始。",
+        "url": "https://x.com/zarazhangrui/status/2101123389528457596"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
         "org": "FP Ventures Partner",
-        "text": "分享了我的第一个实验：nosugarforkids.com——一个专注于儿童健康零食的目录网站，用 Claude Agent 每日自动运营：检查新品、清理过期商品、搜索 SEO 内容创意、监控 Search Console 数据、撰写和优化文章、维护质量标准，并主动联系媒体获取外链。零外链、零社媒，日自然流量已达约 6K  impressions、60 次点击。",
-        "url": "https://x.com/nikunj/status/2100714665571737885"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "VP @GoogleLabs @GeminiApp",
-        "text": "如果你还没在手机上用 Gemini Notebook，你错过了一些很酷的东西——家庭场景下的 AI 助理新用法。",
-        "url": "https://x.com/joshwoodward/status/2100616682431807860"
+        "text": "Jev 用 28 秒、花费 0.11 美元，对 3,000 款儿童零食按照多个标准进行了评分。这展示了轻量级 Agent 在大规模数据分类任务上的惊人效率。",
+        "url": "https://x.com/nikunj/status/2101006585481073093"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "它终于来了——Projects 功能正式上线，Claude 生态又多了一层组织能力。",
-        "url": "https://x.com/danshipper/status/2100587802748440581"
+        "text": "X 上有很多夸张的 AI 演示，但看到有人指控 Jack Cheng 的工作是「假的」真的很令人遗憾。他是我合作过的最聪明、最有学术诚信、最注重工艺的人之一。他的演示既真实，也让我们窥见了未来的方向。这种质疑不是什么好风气的体现。",
+        "url": "https://x.com/danshipper/status/2101155521818476693"
       }
     ]
   },
@@ -104,8 +91,7 @@
     "items": []
   },
   "colophon": {
-    "source": "基于 Follow-Builders 每日精选",
-    "coverage": "覆盖 10 位建造者 · 0 期播客 · 0 篇官方博客",
-    "generatedAt": "2026-09-19T02:00:00.000Z"
+    "coverage": "覆盖 8 位建造者 · 1 期播客 · 0 篇官方博客",
+    "generatedAt": "2026-09-20T02:00:00.000Z"
   }
 }
