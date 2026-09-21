@@ -1,29 +1,29 @@
 {
   "issue": {
-    "vol": "20260920",
-    "date": "2026年9月20日",
+    "vol": "20260921",
+    "date": "2026年9月21日",
     "weekday": "星期日",
-    "dateISO": "2026-09-20",
-    "tagline": "Claude Code 原生支持 AGENTS.md · 30,000 个 Claude Agent 驱动内部研发 · OpenAI 新 Keynote 蓄势待发"
+    "dateISO": "2026-09-21",
+    "tagline": "Richard Socher 筹 6.5 亿美元造递归自我改进 AI · 个人 Agent 产品形态争论 · 开放模型势能持续攀升"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude Code 迎来 AGENTS.md 支持 · 30,000 个 Agent 驱动 Anthropic 研发 · OpenAI 下周将公布重大更新",
+    "title": "Richard Socher 融 6.5 亿美元打造递归自我改进引擎 · 个人 Agent 的终局产品形态浮现 · 开放模型 Token 用量再创新高",
     "paras": [
-      "Claude Code 今日在 2.1.277 版本中正式加入 AGENTS.md 支持——若项目中没有 CLAUDE.md，Claude 将自动读取同级 AGENTS.md 作为指令源。这一改动回应了超过 4,300 名工程师的长期诉求，意味着团队在同一代码库中同时使用 Claude Code、Codex、Cursor 等多个 AI 编程助手时，只需维护一份共享的 AGENTS.md 文件，无需再为每个工具维护重复的配置。用户可在 /config 中切换该行为。",
-      "Anthropic 今日披露了一组令人瞩目的内部数据：截至 8 月，Claude 已主导公司 26% 的模型研发工作——这一比例在同年 2 月还是 0。目前 Anthropic 内部同时运行约 30,000 个 Claude Agent，超过 90% 的研发工作有 Claude 作为协作者或主导者参与，所有操作均经过实时监控，8 月份超过 10 亿次 Agent 决策中有约 0.002%（即约 20,000 次）被拦截。Anthropic 强调当前仍属人类监督下的 AL4 级别自主，尚未声称递归自我改进。",
-      "OpenAI 首席技术官 Thibault Sottiaux 透露，他与 CEO Sam Altman 及 Romain Huet 正在准备下周的公开 Keynote，内容「多到令人难以置信」，将在短时间内陆续揭晓。业界普遍猜测可能涉及新一代 GPT 模型、Astra 多模型编排框架的更多细节，或更自主的 Agent 能力。"
+      "AI 学术界最高引研究者之一 Richard Socher 此前创办的 Recursive 今日成为焦点——公司已筹集 6.5 亿美元，专门致力于「递归自我改进」（RSI），即让 AI 自主产出更优 AI。Socher 在 MAD Podcast 中阐述了他的核心论题：科学进步之所以放缓，是因为人类已无法跨学科整合爆炸式增长的知识碎片，而 AI 恰好可以像微积分之于物理那样，为生物学等复杂系统重新编织知识。他的新书《The Eureka Machine》即将出版，被视为 RSI 革命科学的蓝图。Socher 强调，凡可模拟或可验证的领域，AI 必将达到超人水平；而创意的门槛也已被实证跨越——其联创 Jeff Kuhn 多次目睹 AI 生成的构想数月后被人类研究者独立发表。",
+      "Box CEO Aaron Levie 发表了对个人 Agent 产品形态的深层思考：个人 Agent 是「建造 Agent 想用的东西」这一理念的终极体现——用户将任务全权委托，Agent 必须能端到端完成。这要求 Agent 能操作你的工具（MCP/CLI）、在你的网站上导航、完成交易等。竞争的关键不再是用户注意力，而是 Agent 的注意力——你能否成为 Agent 优先调用的那个服务。与此同时，OpenAI 产品团队的 Nan Yu 反馈，Muse 和 Instinct 目前均声称无法拨打电话，暗示个人 Agent 的端到端能力仍在滚动部署中。",
+      "Vercel CEO Guillermo Rauch 的观察延续了开放模型崛起的主线：AI 最令人兴奋之处在于所有人都开始热衷于建造而非消费，这是对世界不可估量的好事。此前 Vercel AI Gateway 的开放模型 Token 占比已达 78.4%，远超闭源模型的 21.6%，Moonshot AI 和 DeepSeek 的合计支出已超过 OpenAI 本身。这一结构性趋势仍在加速。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "No Priors: 扩散模型为何将赢得 AI 推理",
-    "meta": "Stefano Ermon | Stanford 教授 / Inception 联合创始人兼 CEO",
+    "title": "MAD Podcast: 递归自我改进如何重启科学进步",
+    "meta": "Richard Socher | Recursive 创始人兼 CEO / AI 最高引研究者之一 / 新书《The Eureka Machine》",
     "paras": [
-      "本期 No Priors 播客邀请到 Stefano Ermon——斯坦福教授、扩散模型领域奠基人之一、现任 Inception CEO。他从 2014 年进入生成模型研究说起，分享了扩散技术从早期无人问津到成为 AI 核心基础设施的演变历程。",
-      "Ermon 的核心论点是：速度、效率与可扩展性将成为未来几年 AI 推理的竞争关键，而扩散架构在这一方向上具有独特优势。Inception 正以此挑战 OpenAI、Anthropic 等头部实验室在推理领域的主导地位。他同时讨论了模型成本、延迟优化以及如何在不依赖超大计算资源的前提下实现高质量生成。"
+      "本期 MAD Podcast 邀请到 Richard Socher——AI 领域被引次数最高的研究者之一、Salesforce 首席科学家、现 Recursive 创始人。他刚为公司筹集 6.5 亿美元，致力于实现递归自我改进（RSI）。对话从他的新书《The Eureka Machine》开篇论题出发：科学进步为何放缓——不是因为缺乏研究者或资金，而是知识碎片化到任何单一天才都无法跨学科整合的程度。",
+      "Socher 的核心类比是：AI 对生物学的意义，如同微积分对物理学的意义——它能将我们已理解的无数微观碎片重新编织成宏观图景。在可模拟或可验证的领域，AI 必然达到超人水平；而创意的门槛已被实证跨越——他观察到 AI 生成的构想数月后被人类独立发表。他同时强调，现有技术加上更多数据和算力，已足以治愈大量疾病、应对衰老、改进聚变反应堆、创造新材料，这些都在可及范围内。"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
@@ -32,57 +32,50 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "今天和 @romainhuet 还有 @sama 一起准备 Keynote，最有趣的部分是如何把这些内容讲清楚——因为即将发布的东西实在太多了，信息量大得离谱。下周会有部分内容率先亮相，不会让大家等太久，非常期待向各位展示我们这段时间的成果。",
-        "url": "https://x.com/thsottiaux/status/2101157729037586694"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "Meta 的 Muse 是我目前用过最好的个人 AI Agent。它能帮我谈判账单，去年就省下了 800 多美元。大多数公司的客服热线还没有准备好应对 Agent 的到来 😅 我最近做了一个视频，演示了 10 个我最喜欢的 Muse 使用场景，包括个性化晨间新闻、习惯追踪，以及让它替我打电话协商降低电信账单。Muse 有可能成为 Meta 下一个十亿用户级应用。",
-        "url": "https://x.com/petergyang/status/2101083891507593576"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @Anthropic",
-        "text": "AGENTS.md 支持已内置于 Claude Code Mods——这是我们即将推出的自定义 Claude Code 工作区的功能。从今天起，2.1.277 版本中如果项目没有 CLAUDE.md，Claude 会自动检查并使用 AGENTS.md。你可以在 /config 中切换此行为。这标志着跨 AI 编程助手统一配置时代开始。",
-        "url": "https://x.com/trq212/status/2101009392611278961"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "Vercel AI Gateway 今日可能创下了开放模型 Token 使用量的历史新高：Open 模型占 78.4%，Closed 模型占 21.6%。除了 OpenAI 之外，Moonshot AI 和 DeepSeek 的总支出已超过 OpenAI 本身。这是一个清晰的信号：开放模型生态正在以惊人的速度增长。",
-        "url": "https://x.com/rauchg/status/2101186741042663579"
+        "text": "2026 是 Linux 桌面之年。",
+        "url": "https://x.com/thsottiaux/status/2101431497437950458"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "Jev 对 Agent 在企业工作流中的即时决策非常有价值——数据分类、判断决策、保险理赔、合同审查、安全审核、客服日志分析等数百种场景。我用 Box + Jev 做了一个演示：从 Box 拉取事件报告，判断是否面向客户、严重程度如何，自动分类到相应文件夹并设置元数据模板。整个过程几乎零延迟、几乎零成本。",
-        "url": "https://x.com/levie/status/2101007708044574906"
+        "text": "个人 Agent 是「建造 Agent 想用的东西」这一理念的终极体现。产品形态要求：用户全权委托任务，Agent 必须端到端完成。为此 Agent 需能操作你的 MCP/CLI、在你的网站上导航、完成交易。新的竞争不再是用户注意力，而是 Agent 的注意力——你能否成为 Agent 优先调用的服务。",
+        "url": "https://x.com/levie/status/2101427997597446636"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · Harvard '17",
-        "text": "当你消费的都是垃圾信息时，产出垃圾几乎是必然的。要改善输出，先从改善输入开始。",
-        "url": "https://x.com/zarazhangrui/status/2101123389528457596"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "AI 这波浪潮最酷的地方在于，所有人都开始热衷于建造。抛开短期噪音不谈，这对世界是不可估量的好事——人们想要创造和交付，而不仅仅是消费。",
+        "url": "https://x.com/rauchg/status/2101397206595231765"
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "Product Staff @OpenAI",
+        "text": "我尝试用 Muse 和 Instinct 拨打电话，两个都说无法执行...这个功能还在滚动部署中吗？",
+        "url": "https://x.com/thenanyu/status/2101383106372805103"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教程创作者",
+        "text": "我用一个简单的 Markdown 文件加上 /tastemaker skill 来记录看过的电影、剧集和书籍的评分，然后每周自动查找新发布和没看过的内容，推荐结果精准得惊人。要开源吗？",
+        "url": "https://x.com/petergyang/status/2101503916743749878"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
         "org": "FP Ventures Partner",
-        "text": "Jev 用 28 秒、花费 0.11 美元，对 3,000 款儿童零食按照多个标准进行了评分。这展示了轻量级 Agent 在大规模数据分类任务上的惊人效率。",
-        "url": "https://x.com/nikunj/status/2101006585481073093"
+        "text": "我每天花约两小时编程、做 Side Project、疯狂折腾、试用新仓库。几乎每天都收到私信问「你是 VC，为什么还写代码？」——这个时代变化太快，不动手根本无法理解即将到来的是什么。想投 AI 时代，你必须：1）理解模型能力以预判下一代改进方向；2）亲手构建才能感知真正的痛点。",
+        "url": "https://x.com/nikunj/status/2101340098356990058"
       },
       {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "X 上有很多夸张的 AI 演示，但看到有人指控 Jack Cheng 的工作是「假的」真的很令人遗憾。他是我合作过的最聪明、最有学术诚信、最注重工艺的人之一。他的演示既真实，也让我们窥见了未来的方向。这种质疑不是什么好风气的体现。",
-        "url": "https://x.com/danshipper/status/2101155521818476693"
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "General Partner @SPC / Ex-CTO @Dropbox",
+        "text": "看到 Gemini、OpenAI 和 Anthropic 纷纷发布更多 Agent 入侵能力的公告后......我 100% 确信，一些大型公司已被国家级攻击者渗透而不自知。",
+        "url": "https://x.com/adityaag/status/2101426570850451914"
       }
     ]
   },
@@ -91,7 +84,7 @@
     "items": []
   },
   "colophon": {
-    "coverage": "覆盖 8 位建造者 · 1 期播客 · 0 篇官方博客",
-    "generatedAt": "2026-09-20T02:00:00.000Z"
+    "coverage": "覆盖 7 位建造者 · 1 期播客 · 0 篇官方博客",
+    "generatedAt": "2026-09-21T02:00:00.000Z"
   }
 }
