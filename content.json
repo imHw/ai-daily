@@ -1,81 +1,81 @@
 {
   "issue": {
-    "vol": "20260921",
-    "date": "2026年9月21日",
-    "weekday": "星期日",
-    "dateISO": "2026-09-21",
-    "tagline": "Richard Socher 筹 6.5 亿美元造递归自我改进 AI · 个人 Agent 产品形态争论 · 开放模型势能持续攀升"
+    "vol": "20260922",
+    "date": "2026年9月22日",
+    "weekday": "星期一",
+    "dateISO": "2026-09-22",
+    "tagline": "Agent QA 能力碾压人类 · 个人 Agent 赛局产品形态浮现 · Jev 接棒 Instinct 成新焦点"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Richard Socher 融 6.5 亿美元打造递归自我改进引擎 · 个人 Agent 的终局产品形态浮现 · 开放模型 Token 用量再创新高",
+    "title": "Agent QA 彻底碾压人类执行力 · 个人 Agent 五强争霸 · Jev 接棒 Instinct 成为 AI 社区新焦点",
     "paras": [
-      "AI 学术界最高引研究者之一 Richard Socher 此前创办的 Recursive 今日成为焦点——公司已筹集 6.5 亿美元，专门致力于「递归自我改进」（RSI），即让 AI 自主产出更优 AI。Socher 在 MAD Podcast 中阐述了他的核心论题：科学进步之所以放缓，是因为人类已无法跨学科整合爆炸式增长的知识碎片，而 AI 恰好可以像微积分之于物理那样，为生物学等复杂系统重新编织知识。他的新书《The Eureka Machine》即将出版，被视为 RSI 革命科学的蓝图。Socher 强调，凡可模拟或可验证的领域，AI 必将达到超人水平；而创意的门槛也已被实证跨越——其联创 Jeff Kuhn 多次目睹 AI 生成的构想数月后被人类研究者独立发表。",
-      "Box CEO Aaron Levie 发表了对个人 Agent 产品形态的深层思考：个人 Agent 是「建造 Agent 想用的东西」这一理念的终极体现——用户将任务全权委托，Agent 必须能端到端完成。这要求 Agent 能操作你的工具（MCP/CLI）、在你的网站上导航、完成交易等。竞争的关键不再是用户注意力，而是 Agent 的注意力——你能否成为 Agent 优先调用的那个服务。与此同时，OpenAI 产品团队的 Nan Yu 反馈，Muse 和 Instinct 目前均声称无法拨打电话，暗示个人 Agent 的端到端能力仍在滚动部署中。",
-      "Vercel CEO Guillermo Rauch 的观察延续了开放模型崛起的主线：AI 最令人兴奋之处在于所有人都开始热衷于建造而非消费，这是对世界不可估量的好事。此前 Vercel AI Gateway 的开放模型 Token 占比已达 78.4%，远超闭源模型的 21.6%，Moonshot AI 和 DeepSeek 的合计支出已超过 OpenAI 本身。这一结构性趋势仍在加速。"
+      "Vercel CEO Guillermo Rauch 分享了一则震撼观察：当他指出一个移动端内嵌浏览器的渲染问题时，Agent 直接深入到底层复现问题——创建了一个临时 Vercel 部署扔给 iPhone 模拟器来验证修复。Rauch 感叹「人类根本不可能匹配这种强度——我们会耗尽精力、会外推猜测、会祈祷它能工作」。Agent 的 QA 和测试彻底性是前所未有的，软件的未来将达到人类从未体验过的质量和性能水平。",
+      "Peter Yang 发表了对个人 Agent 赛局的万字分析：Muse 有望成为领导者——App 直觉好用，Meta 全平台强力推广，一旦用过就发现 Agent 不该住在 iMessage 这样的已有聊天 App 里；ChatGPT 仍是当前领跑者（10 亿+用户），但工作和个人难以兼顾；Grok Bot 专注工作，有望成为「多人 Agentic Slack」；Google 手握 Gmail/Calendar 数据是暗马，但 Spark 藏在 Gemini 次级标签页不够进取；Apple/Siri 有设备与隐私口碑却输在年度发布节奏太慢。Yang 同时指出，多人 AI（multiplayer）至今无人攻克——无法把配偶拉进 Muse 聊天规划度假，也不能把同事拉入 ChatGPT 线程。",
+      "VC Matt Turck 的调侃折射出 AI 产品节奏的极致内卷：「现在人人都痴迷 Jev，但我还依稀记得人们曾对 Instinct 念念不忘——那还是上周的事。」AI 社区的注意力周期正在以周为单位更替，Jev 已接棒 Instinct 成为当前焦点。Swyx 也宣布 Latent Space 即将推出 Jev 专题播客。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "MAD Podcast: 递归自我改进如何重启科学进步",
-    "meta": "Richard Socher | Recursive 创始人兼 CEO / AI 最高引研究者之一 / 新书《The Eureka Machine》",
+    "title": "No Priors: Coinbase 万物交易所——Agentic 金融、稳定币与代币化",
+    "meta": "Brian Armstrong | Coinbase 联合创始人兼 CEO / New Limit 联合创始人",
     "paras": [
-      "本期 MAD Podcast 邀请到 Richard Socher——AI 领域被引次数最高的研究者之一、Salesforce 首席科学家、现 Recursive 创始人。他刚为公司筹集 6.5 亿美元，致力于实现递归自我改进（RSI）。对话从他的新书《The Eureka Machine》开篇论题出发：科学进步为何放缓——不是因为缺乏研究者或资金，而是知识碎片化到任何单一天才都无法跨学科整合的程度。",
-      "Socher 的核心类比是：AI 对生物学的意义，如同微积分对物理学的意义——它能将我们已理解的无数微观碎片重新编织成宏观图景。在可模拟或可验证的领域，AI 必然达到超人水平；而创意的门槛已被实证跨越——他观察到 AI 生成的构想数月后被人类独立发表。他同时强调，现有技术加上更多数据和算力，已足以治愈大量疾病、应对衰老、改进聚变反应堆、创造新材料，这些都在可及范围内。"
+      "本期 No Priors 邀请 Coinbase CEO Brian Armstrong，聚焦 Agentic 经济的金融基础设施。Armstrong 指出，传统银行卡交易最低 30¢ 手续费使得 1¢ 级别的微交易不可行，而当前 76% 的 Agent 电商交易低于 30¢——AI Agent 正在变成「无银行账户群体」。Coinbase 已推出一键式工具，让 Agent 只需粘贴一段 prompt 即可拥有独立金融账户，自主完成支付与交易。",
+      "Armstrong 的核心判断是：Agent 数量将很快超过人类，Agentic 经济规模也将在不远的将来超越人类经济。Coinbase 的战略定位是成为 Agent 的银行——正如人类需要银行账户一样，AI Agent 也需要自己的金融账户。对话还覆盖了稳定币在跨境支付中的成本优势，以及实物资产代币化（RWA Tokenization）对传统金融体系的重构潜力。"
     ],
-    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "2026 是 Linux 桌面之年。",
-        "url": "https://x.com/thsottiaux/status/2101431497437950458"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "个人 Agent 是「建造 Agent 想用的东西」这一理念的终极体现。产品形态要求：用户全权委托任务，Agent 必须端到端完成。为此 Agent 需能操作你的 MCP/CLI、在你的网站上导航、完成交易。新的竞争不再是用户注意力，而是 Agent 的注意力——你能否成为 Agent 优先调用的服务。",
-        "url": "https://x.com/levie/status/2101427997597446636"
-      },
-      {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "AI 这波浪潮最酷的地方在于，所有人都开始热衷于建造。抛开短期噪音不谈，这对世界是不可估量的好事——人们想要创造和交付，而不仅仅是消费。",
-        "url": "https://x.com/rauchg/status/2101397206595231765"
-      },
-      {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "Product Staff @OpenAI",
-        "text": "我尝试用 Muse 和 Instinct 拨打电话，两个都说无法执行...这个功能还在滚动部署中吗？",
-        "url": "https://x.com/thenanyu/status/2101383106372805103"
+        "text": "Agent 测试软件的彻底性无与伦比。我指出一个移动内嵌浏览器渲染问题，Agent 直接深入底层复现——创建临时 Vercel 部署扔给 iPhone 模拟器验证修复。人类根本不可能匹配这种强度，我们会耗尽精力、外推猜测、祈祷能行。未来的软件质量和性能将是我们从未体验过的。",
+        "url": "https://x.com/rauchg/status/2101846262840799251"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
         "org": "AI 教程创作者",
-        "text": "我用一个简单的 Markdown 文件加上 /tastemaker skill 来记录看过的电影、剧集和书籍的评分，然后每周自动查找新发布和没看过的内容，推荐结果精准得惊人。要开源吗？",
-        "url": "https://x.com/petergyang/status/2101503916743749878"
+        "text": "个人 Agent 赛局分析：Muse 有望领跑（直觉好用+Meta 全平台推广）；ChatGPT 仍领先（10 亿+用户）但工作/个人难兼顾；Grok Bot 专注工作，有望成多人 Agentic Slack；Google 有数据但 Spark 不够进取；Apple 有设备+隐私口碑但年度发布太慢。最大缺口：多人 AI 无人攻克。",
+        "url": "https://x.com/petergyang/status/2101862331345154469"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FP Ventures Partner",
-        "text": "我每天花约两小时编程、做 Side Project、疯狂折腾、试用新仓库。几乎每天都收到私信问「你是 VC，为什么还写代码？」——这个时代变化太快，不动手根本无法理解即将到来的是什么。想投 AI 时代，你必须：1）理解模型能力以预判下一代改进方向；2）亲手构建才能感知真正的痛点。",
-        "url": "https://x.com/nikunj/status/2101340098356990058"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "有些东西对 Agent 集群来说简直无法穿透——在 Agent 能力狂飙的同时，安全边界和防护机制也在成为新的竞争维度。",
+        "url": "https://x.com/levie/status/2101731574668747081"
       },
       {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "org": "General Partner @SPC / Ex-CTO @Dropbox",
-        "text": "看到 Gemini、OpenAI 和 Anthropic 纷纷发布更多 Agent 入侵能力的公告后......我 100% 确信，一些大型公司已被国家级攻击者渗透而不自知。",
-        "url": "https://x.com/adityaag/status/2101426570850451914"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "OpenClaw 创始人",
+        "text": "OpenClaw 现在可以 FaceTime 你了——Agent 的通信能力边界继续扩展。同时发布新 benchmark，Agent 评测竞赛白热化。",
+        "url": "https://x.com/steipete/status/2101748928274419843"
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "org": "FirstMark Capital VC / MAD Podcast",
+        "text": "人人都在痴迷 Jev，但我还记得人们曾对 Instinct 念念不忘——那还是上周的事。AI 社区的注意力周期正以周为单位更替。",
+        "url": "https://x.com/mattturck/status/2101820308009206077"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Latent Space 播客 / AI Engineer",
+        "text": "Latent Space 即将推出 Jev 专题播客——AI 社区当前最热话题的深度拆解即将上线。",
+        "url": "https://x.com/swyx/status/2101873256097804529"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "给儿子组装了第一台电脑——建造者的精神从下一代开始传承。",
+        "url": "https://x.com/amasad/status/2101852258468299182"
       }
     ]
   },
@@ -85,6 +85,6 @@
   },
   "colophon": {
     "coverage": "覆盖 7 位建造者 · 1 期播客 · 0 篇官方博客",
-    "generatedAt": "2026-09-21T02:00:00.000Z"
+    "generatedAt": "2026-09-22T02:00:00.000Z"
   }
 }
