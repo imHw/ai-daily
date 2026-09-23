@@ -1,90 +1,101 @@
 {
   "issue": {
-    "vol": "20260922",
-    "date": "2026年9月22日",
-    "weekday": "星期一",
-    "dateISO": "2026-09-22",
-    "tagline": "Agent QA 能力碾压人类 · 个人 Agent 赛局产品形态浮现 · Jev 接棒 Instinct 成新焦点"
+    "vol": "20260923",
+    "date": "2026年9月23日",
+    "weekday": "星期三",
+    "dateISO": "2026-09-23",
+    "tagline": "OpenAI Codex 重置预告引爆全网 · Grok 4.7 逆向工程能力惊艳 · Agent 正在杀死广告模式"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Agent QA 彻底碾压人类执行力 · 个人 Agent 五强争霸 · Jev 接棒 Instinct 成为 AI 社区新焦点",
+    "title": "OpenAI Codex 大版本重置预告 1.2 万赞引爆 · Grok 4.7 逆推二进制惊艳全场 · Agent 浏览器正在杀死广告生意",
     "paras": [
-      "Vercel CEO Guillermo Rauch 分享了一则震撼观察：当他指出一个移动端内嵌浏览器的渲染问题时，Agent 直接深入到底层复现问题——创建了一个临时 Vercel 部署扔给 iPhone 模拟器来验证修复。Rauch 感叹「人类根本不可能匹配这种强度——我们会耗尽精力、会外推猜测、会祈祷它能工作」。Agent 的 QA 和测试彻底性是前所未有的，软件的未来将达到人类从未体验过的质量和性能水平。",
-      "Peter Yang 发表了对个人 Agent 赛局的万字分析：Muse 有望成为领导者——App 直觉好用，Meta 全平台强力推广，一旦用过就发现 Agent 不该住在 iMessage 这样的已有聊天 App 里；ChatGPT 仍是当前领跑者（10 亿+用户），但工作和个人难以兼顾；Grok Bot 专注工作，有望成为「多人 Agentic Slack」；Google 手握 Gmail/Calendar 数据是暗马，但 Spark 藏在 Gemini 次级标签页不够进取；Apple/Siri 有设备与隐私口碑却输在年度发布节奏太慢。Yang 同时指出，多人 AI（multiplayer）至今无人攻克——无法把配偶拉进 Muse 聊天规划度假，也不能把同事拉入 ChatGPT 线程。",
-      "VC Matt Turck 的调侃折射出 AI 产品节奏的极致内卷：「现在人人都痴迷 Jev，但我还依稀记得人们曾对 Instinct 念念不忘——那还是上周的事。」AI 社区的注意力周期正在以周为单位更替，Jev 已接棒 Instinct 成为当前焦点。Swyx 也宣布 Latent Space 即将推出 Jev 专题播客。"
+      "OpenAI Codex & ChatGPT 团队的 Thibault Sottiaux 发出一条意味深长的预告：「女士们先生们……启动……引擎……我们快到周二了，我承诺过周二会有一次重置。还有别的东西。很快见。」这条推文收获 1.25 万赞和 1700+ 回复，是今日最高互动。结合 Codex 近期频繁迭代和 Nikunj Kothari「Codex 在 Mac 上用 Computer Use 简直无敌」的盛赞，OpenAI 即将推出的 Codex 面向大众版本备受期待。",
+      "Vercel CEO Guillermo Rauch 给 Grok 4.7 出了一道难题——逆推一个运行中的二进制文件，Grok 4.7 漂亮地解决了，而且速度快得惊人。这条推文获 2194 赞，反映出 Grok 在代码理解与逆向分析上的能力正在赢得开发者社区的尊重。Rauch 同时宣布 Vercel AI SDK 新增 Jev over HTTP 支持，Jev 正在从社区话题变成基础设施层。",
+      "Peter Yang 对广告行业发出警告：当 Agent 替代人类浏览网页完成任务时，目标展示广告将无人看见——广告市场的粗鲁觉醒正在到来。Box CEO Aaron Levie 则从商业角度论证：个人 Agent 替用户交易的货币化潜力巨大，随着人们把越来越复杂的任务交给 Agent，流经 Agent 的商业规模终将超越人类直接操作的规模。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "No Priors: Coinbase 万物交易所——Agentic 金融、稳定币与代币化",
-    "meta": "Brian Armstrong | Coinbase 联合创始人兼 CEO / New Limit 联合创始人",
-    "paras": [
-      "本期 No Priors 邀请 Coinbase CEO Brian Armstrong，聚焦 Agentic 经济的金融基础设施。Armstrong 指出，传统银行卡交易最低 30¢ 手续费使得 1¢ 级别的微交易不可行，而当前 76% 的 Agent 电商交易低于 30¢——AI Agent 正在变成「无银行账户群体」。Coinbase 已推出一键式工具，让 Agent 只需粘贴一段 prompt 即可拥有独立金融账户，自主完成支付与交易。",
-      "Armstrong 的核心判断是：Agent 数量将很快超过人类，Agentic 经济规模也将在不远的将来超越人类经济。Coinbase 的战略定位是成为 Agent 的银行——正如人类需要银行账户一样，AI Agent 也需要自己的金融账户。对话还覆盖了稳定币在跨境支付中的成本优势，以及实物资产代币化（RWA Tokenization）对传统金融体系的重构潜力。"
-    ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "title": "",
+    "meta": "",
+    "paras": [],
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "OpenAI Codex & ChatGPT",
+        "text": "发出 Codex 大版本重置预告——「女士们先生们，启动引擎」，收获 1.25 万赞。Codex 面向大众的 Agent 版本即将发布，被社区视为 OpenAI 在 agentic coding 赛局的王牌。",
+        "url": "https://x.com/thsottiaux/status/2102254445082116335"
+      },
+      {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "Agent 测试软件的彻底性无与伦比。我指出一个移动内嵌浏览器渲染问题，Agent 直接深入底层复现——创建临时 Vercel 部署扔给 iPhone 模拟器验证修复。人类根本不可能匹配这种强度，我们会耗尽精力、外推猜测、祈祷能行。未来的软件质量和性能将是我们从未体验过的。",
-        "url": "https://x.com/rauchg/status/2101846262840799251"
+        "text": "给 Grok 4.7 出了一道逆向工程运行二进制的难题，Grok 漂亮解决且速度惊人。同时宣布 Vercel AI SDK 新增 Jev over HTTP 支持——Jev 正从社区焦点走向基础设施层。",
+        "url": "https://x.com/rauchg/status/2102089968860721335"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
         "org": "AI 教程创作者",
-        "text": "个人 Agent 赛局分析：Muse 有望领跑（直觉好用+Meta 全平台推广）；ChatGPT 仍领先（10 亿+用户）但工作/个人难兼顾；Grok Bot 专注工作，有望成多人 Agentic Slack；Google 有数据但 Spark 不够进取；Apple 有设备+隐私口碑但年度发布太慢。最大缺口：多人 AI 无人攻克。",
-        "url": "https://x.com/petergyang/status/2101862331345154469"
+        "text": "对广告市场发出警告：Agent 替人类浏览网页完成任务，展示广告将无人看见——广告行业的粗鲁觉醒正在到来。同时分享自己已不再活在邮件或短信里，而是活在和 Agent 的聊天中。",
+        "url": "https://x.com/petergyang/status/2102215701255844074"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "有些东西对 Agent 集群来说简直无法穿透——在 Agent 能力狂飙的同时，安全边界和防护机制也在成为新的竞争维度。",
-        "url": "https://x.com/levie/status/2101731574668747081"
+        "text": "个人 Agent 替用户交易的货币化潜力巨大——从日常简单任务起步，逐步交给更复杂任务，流经 Agent 的商业规模终将超越从前。Agent 使用软件的频率将是人类的 100 倍，安全层和数据管理平台的机会同样巨大。",
+        "url": "https://x.com/levie/status/2102253246807261579"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw 创始人",
-        "text": "OpenClaw 现在可以 FaceTime 你了——Agent 的通信能力边界继续扩展。同时发布新 benchmark，Agent 评测竞赛白热化。",
-        "url": "https://x.com/steipete/status/2101748928274419843"
+        "text": "「Meta 使用 OpenClaw」的故事在社区传播——Meta 团队受 OpenClaw 启发构建了自己的 Agent，4388 赞。同时宣布 OpenClaw 安全审计通过零关键漏洞，以及自建 Agent 无法被封杀的优势。",
+        "url": "https://x.com/steipete/status/2102116206371315854"
       },
       {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "org": "FirstMark Capital VC / MAD Podcast",
-        "text": "人人都在痴迷 Jev，但我还记得人们曾对 Instinct 念念不忘——那还是上周的事。AI 社区的注意力周期正以周为单位更替。",
-        "url": "https://x.com/mattturck/status/2101820308009206077"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "FPV Ventures 合伙人",
+        "text": "Codex 在 Mac 上配合 Computer Use 简直无敌——把手动工作流交给它一键完成。Instinct 和 Muse 在手机浏览器体验上出色，但 Codex 的 Computer Use 能力仍是专业工作流的王者。同时批评 tokenmaxxing 公司的产品体验最差——好产品靠的是精心策展而非把厨房水槽全扔给 Agent。",
+        "url": "https://x.com/nikunj/status/2102186665863463199"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Latent Space 播客 / AI Engineer",
-        "text": "Latent Space 即将推出 Jev 专题播客——AI 社区当前最热话题的深度拆解即将上线。",
-        "url": "https://x.com/swyx/status/2101873256097804529"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "YC CEO",
+        "text": "Capy.ai 成为过去一周最爱的 agentic coding 秘密武器——能追踪多步工作流、生成大 PR 速度比 Codex 或 Claude Code 单独使用更快。同时展示 GBrain 使用 Codex 进行大规模 bug 修复的 PR 案例。",
+        "url": "https://x.com/garrytan/status/2102095924893827501"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "给儿子组装了第一台电脑——建造者的精神从下一代开始传承。",
-        "url": "https://x.com/amasad/status/2101852258468299182"
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Anthropic Claude Code",
+        "text": "现在每天要打好几遍「use big pictures and few words」——Claude Code 的提示词正在重塑开发者的日常表达习惯，1759 赞引发共鸣。",
+        "url": "https://x.com/trq212/status/2102186805034635576"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": []
+    "items": [
+      {
+        "name": "Claude Blog",
+        "title": "Claude in Chrome 正式 GA",
+        "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+        "text": "Claude in Chrome 对所有付费计划正式可用。Claude 现在可以在浏览器中自主执行操作——读取页面、输入文字、点击链接、填写表单，无需逐步审批。安全分类器在每次操作前验证安全性。针对 prompt injection 攻击的防御经过持续改进，包括模型和探针的训练优化，以及额外的安全层。这让 Anthropic 有信心将浏览器 Agent 从试点推向正式发布。"
+      }
+    ]
   },
   "colophon": {
-    "coverage": "覆盖 7 位建造者 · 1 期播客 · 0 篇官方博客",
-    "generatedAt": "2026-09-22T02:00:00.000Z"
+    "coverage": "覆盖 8 位建造者 · 0 期播客 · 1 篇官方博客",
+    "generatedAt": "2026-09-23T02:00:00.000Z"
   }
 }
