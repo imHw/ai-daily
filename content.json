@@ -1,18 +1,18 @@
 {
   "issue": {
-    "vol": "20260923",
-    "date": "2026年9月23日",
-    "weekday": "星期三",
-    "dateISO": "2026-09-23",
-    "tagline": "OpenAI Codex 重置预告引爆全网 · Grok 4.7 逆向工程能力惊艳 · Agent 正在杀死广告模式"
+    "vol": "20260924",
+    "date": "2026年9月24日",
+    "weekday": "星期四",
+    "dateISO": "2026-09-24",
+    "tagline": "Opus 5.5 正式发布成为默认模型 · GPT-6 Sol/Luna 上市 API 降价 50% · 形式化验证引爆代码质量讨论"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Codex 大版本重置预告 1.2 万赞引爆 · Grok 4.7 逆推二进制惊艳全场 · Agent 浏览器正在杀死广告生意",
+    "title": "Opus 5.5 正式上线成为 Claude 默认模型 · GPT-6 Sol 与 Luna 发布 API 价格砍半 · 形式化验证 16 PR 修复引爆代码质量讨论",
     "paras": [
-      "OpenAI Codex & ChatGPT 团队的 Thibault Sottiaux 发出一条意味深长的预告：「女士们先生们……启动……引擎……我们快到周二了，我承诺过周二会有一次重置。还有别的东西。很快见。」这条推文收获 1.25 万赞和 1700+ 回复，是今日最高互动。结合 Codex 近期频繁迭代和 Nikunj Kothari「Codex 在 Mac 上用 Computer Use 简直无敌」的盛赞，OpenAI 即将推出的 Codex 面向大众版本备受期待。",
-      "Vercel CEO Guillermo Rauch 给 Grok 4.7 出了一道难题——逆推一个运行中的二进制文件，Grok 4.7 漂亮地解决了，而且速度快得惊人。这条推文获 2194 赞，反映出 Grok 在代码理解与逆向分析上的能力正在赢得开发者社区的尊重。Rauch 同时宣布 Vercel AI SDK 新增 Jev over HTTP 支持，Jev 正在从社区话题变成基础设施层。",
-      "Peter Yang 对广告行业发出警告：当 Agent 替代人类浏览网页完成任务时，目标展示广告将无人看见——广告市场的粗鲁觉醒正在到来。Box CEO Aaron Levie 则从商业角度论证：个人 Agent 替用户交易的货币化潜力巨大，随着人们把越来越复杂的任务交给 Agent，流经 Agent 的商业规模终将超越人类直接操作的规模。"
+      "Anthropic 正式发布 Claude Opus 5.5，并将其设为 Claude Code、Claude 应用和 Cowork 的默认模型。Cat Wu 表示 Opus 5.5 在 effort medium 下智能可比肩 Fable 5.1 但更快，rate limits 比 Opus 5 多走 25%。Boris Cherny 随即展示用 Opus 5.5 + Lean 对 Claude Agent SDK 做形式化验证，仅几条 prompt 就产出 16 个 PR 修复竞态条件等深层 bug，3324 赞引发「形式化验证是否是编码的未来」大讨论。Opus 5.5 还在 HAProxy C→Rust 移植中以 9.5 小时、成本降低 51% 击败 Fable 5.1 的 12 小时。",
+      "OpenAI 同日发布 GPT-6 Sol 和 Luna，API 价格永久下调 50%，Plus/Pro/Business 账户获 banked reset 额度。Thibault Sottiaux 称两款模型在写作和通用「一试就知道」质量上显著提升。Vercel CEO Guillermo Rauch 跑了 Next.js evals 四模型横评：Opus 5.5、GPT-6 Sol、Fable 5.1 均为 92%，Grok 4.7 为 87% 但便宜 2-7 倍。Box CEO Aaron Levie 从杰文斯悖论视角解读：成本每任务下降速度史无前例，每降一次成本就打开一批新 agent 用例——从全量数据扫描、安全审计到 agent swarm 工作流。",
+      "Opus 5.5 的 3D 建模能力也引发关注。Alex Albert 用 Opus 5.5 在 Blender 中从单条 prompt 重建了 1906 年旧金山 Market Street 的历史精确场景——从 Sanborn 地图、Miles Brothers 影片到 USGS 地形数据全链溯源，每栋建筑可回溯到数据源。Peter Steinberger 则发现 Astra 在 macOS 27 上找到 libuv 一个约 14 年的 bug，850 赞。"
     ]
   },
   "podcast": {
@@ -26,76 +26,69 @@
     "label": "建造者观点",
     "items": [
       {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Anthropic Claude Code",
+        "text": "用 Opus 5.5 + Lean 形式化验证 Claude Agent SDK，几条 prompt 产出 16 个 PR 修复竞态条件等 bug。也用 TLA+ 辅助验证数据流和并发——Claude 对两种形式化语言都很擅长。发问：形式化验证是否是编码的未来？",
+        "url": "https://x.com/bcherny/status/2102543349102338309"
+      },
+      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "OpenAI Codex & ChatGPT",
-        "text": "发出 Codex 大版本重置预告——「女士们先生们，启动引擎」，收获 1.25 万赞。Codex 面向大众的 Agent 版本即将发布，被社区视为 OpenAI 在 agentic coding 赛局的王牌。",
-        "url": "https://x.com/thsottiaux/status/2102254445082116335"
+        "text": "GPT-6 Sol 和 Luna 正式发布，写作和通用质量大幅提升，API 价格永久下调 50%。Plus/Pro/Business 账户获 banked reset——「Let's go!」23K 赞成为今日最高互动推文。",
+        "url": "https://x.com/thsottiaux/status/2102463847714247142"
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "org": "Anthropic Claude Code & Cowork",
+        "text": "Opus 5.5 正式成为 Claude Code 和 Claude 应用的默认模型。effort medium 下智能媲美 Fable 5.1 但更快，rate limits 比 Opus 5 多走 25%。推荐给 Opus 5.5 一个有野心的任务试试。",
+        "url": "https://x.com/_catwu/status/2102437713781944397"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "给 Grok 4.7 出了一道逆向工程运行二进制的难题，Grok 漂亮解决且速度惊人。同时宣布 Vercel AI SDK 新增 Jev over HTTP 支持——Jev 正从社区焦点走向基础设施层。",
-        "url": "https://x.com/rauchg/status/2102089968860721335"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "对广告市场发出警告：Agent 替人类浏览网页完成任务，展示广告将无人看见——广告行业的粗鲁觉醒正在到来。同时分享自己已不再活在邮件或短信里，而是活在和 Agent 的聊天中。",
-        "url": "https://x.com/petergyang/status/2102215701255844074"
+        "text": "跑 Next.js evals 四模型横评：Opus 5.5 / GPT-6 Sol / Fable 5.1 均 92%，Grok 4.7 为 87% 但便宜 2-7 倍。同时感叹软件将永不再死——喜欢的工具可以自己生成和部署，永远属于你。",
+        "url": "https://x.com/rauchg/status/2102519097770885231"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "个人 Agent 替用户交易的货币化潜力巨大——从日常简单任务起步，逐步交给更复杂任务，流经 Agent 的商业规模终将超越从前。Agent 使用软件的频率将是人类的 100 倍，安全层和数据管理平台的机会同样巨大。",
-        "url": "https://x.com/levie/status/2102253246807261579"
+        "text": "Opus 5.5 降价 + GPT-6 降价 50%——成本每任务下降速度史无前例。杰文斯悖论适用：成本越降，能部署 agent 的用例越多。Box 内测 Opus 5.5 做企业知识工作：尽职调查准确率 +39%、云成本分析 +65%，tokens 减少 63%。",
+        "url": "https://x.com/levie/status/2102477253070430322"
+      },
+      {
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "org": "Anthropic Research",
+        "text": "用 Opus 5.5 在 Blender 中从单条 prompt 重建 1906 年旧金山 Market Street——从 Sanborn 火险地图、Miles Brothers 影片到 USGS 地形全链溯源，每栋建筑可回溯到数据源。Opus 5.5 的 3D 建模和视觉能力让你用一个 prompt 就能构建整个世界。",
+        "url": "https://x.com/alexalbert__/status/2102466523164274839"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw 创始人",
-        "text": "「Meta 使用 OpenClaw」的故事在社区传播——Meta 团队受 OpenClaw 启发构建了自己的 Agent，4388 赞。同时宣布 OpenClaw 安全审计通过零关键漏洞，以及自建 Agent 无法被封杀的优势。",
-        "url": "https://x.com/steipete/status/2102116206371315854"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures 合伙人",
-        "text": "Codex 在 Mac 上配合 Computer Use 简直无敌——把手动工作流交给它一键完成。Instinct 和 Muse 在手机浏览器体验上出色，但 Codex 的 Computer Use 能力仍是专业工作流的王者。同时批评 tokenmaxxing 公司的产品体验最差——好产品靠的是精心策展而非把厨房水槽全扔给 Agent。",
-        "url": "https://x.com/nikunj/status/2102186665863463199"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "YC CEO",
-        "text": "Capy.ai 成为过去一周最爱的 agentic coding 秘密武器——能追踪多步工作流、生成大 PR 速度比 Codex 或 Claude Code 单独使用更快。同时展示 GBrain 使用 Codex 进行大规模 bug 修复的 PR 案例。",
-        "url": "https://x.com/garrytan/status/2102095924893827501"
+        "text": "Astra 在 macOS 27 上找到 libuv 一个约 14 年的 bug，导致 ChatGPT 更新后崩溃。850 赞——AI 调试工具在深层系统 bug 定位上展现了惊人能力。",
+        "url": "https://x.com/steipete/status/2102501642176528743"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Anthropic Claude Code",
-        "text": "现在每天要打好几遍「use big pictures and few words」——Claude Code 的提示词正在重塑开发者的日常表达习惯，1759 赞引发共鸣。",
-        "url": "https://x.com/trq212/status/2102186805034635576"
+        "text": "正确使用模型能力的方式不是往生产环境塞 10 倍功能，而是花更多时间理解用户、跑实验、建原型——交付真正有效的东西。4528 赞，这条反直觉观点引发广泛共鸣。",
+        "url": "https://x.com/trq212/status/2102548686303854790"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "Claude Blog",
-        "title": "Claude in Chrome 正式 GA",
-        "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-        "text": "Claude in Chrome 对所有付费计划正式可用。Claude 现在可以在浏览器中自主执行操作——读取页面、输入文字、点击链接、填写表单，无需逐步审批。安全分类器在每次操作前验证安全性。针对 prompt injection 攻击的防御经过持续改进，包括模型和探针的训练优化，以及额外的安全层。这让 Anthropic 有信心将浏览器 Agent 从试点推向正式发布。"
-      }
-    ]
+    "items": []
   },
   "colophon": {
-    "coverage": "覆盖 8 位建造者 · 0 期播客 · 1 篇官方博客",
-    "generatedAt": "2026-09-23T02:00:00.000Z"
+    "coverage": "覆盖 8 位建造者 · 0 期播客 · 0 篇官方博客",
+    "generatedAt": "2026-09-24T02:00:00.000Z"
   }
 }
