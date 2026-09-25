@@ -1,18 +1,18 @@
 {
   "issue": {
-    "vol": "20260924",
-    "date": "2026年9月24日",
-    "weekday": "星期四",
-    "dateISO": "2026-09-24",
-    "tagline": "Opus 5.5 正式发布成为默认模型 · GPT-6 Sol/Luna 上市 API 降价 50% · 形式化验证引爆代码质量讨论"
+    "vol": "20260925",
+    "date": "2026年9月25日",
+    "weekday": "星期五",
+    "dateISO": "2026-09-25",
+    "tagline": "Claude Marketplace 正式上线 · ChatGPT Voice 深度体验刷屏 · Vercel Drives 让 agent 拥有外接磁盘"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Opus 5.5 正式上线成为 Claude 默认模型 · GPT-6 Sol 与 Luna 发布 API 价格砍半 · 形式化验证 16 PR 修复引爆代码质量讨论",
+    "title": "Claude Marketplace 正式上线可发现工具与 Agent · ChatGPT Voice 全生态体验刷屏 4000 赞 · Vercel 发布 Drives 为 Agent 配外接存储",
     "paras": [
-      "Anthropic 正式发布 Claude Opus 5.5，并将其设为 Claude Code、Claude 应用和 Cowork 的默认模型。Cat Wu 表示 Opus 5.5 在 effort medium 下智能可比肩 Fable 5.1 但更快，rate limits 比 Opus 5 多走 25%。Boris Cherny 随即展示用 Opus 5.5 + Lean 对 Claude Agent SDK 做形式化验证，仅几条 prompt 就产出 16 个 PR 修复竞态条件等深层 bug，3324 赞引发「形式化验证是否是编码的未来」大讨论。Opus 5.5 还在 HAProxy C→Rust 移植中以 9.5 小时、成本降低 51% 击败 Fable 5.1 的 12 小时。",
-      "OpenAI 同日发布 GPT-6 Sol 和 Luna，API 价格永久下调 50%，Plus/Pro/Business 账户获 banked reset 额度。Thibault Sottiaux 称两款模型在写作和通用「一试就知道」质量上显著提升。Vercel CEO Guillermo Rauch 跑了 Next.js evals 四模型横评：Opus 5.5、GPT-6 Sol、Fable 5.1 均为 92%，Grok 4.7 为 87% 但便宜 2-7 倍。Box CEO Aaron Levie 从杰文斯悖论视角解读：成本每任务下降速度史无前例，每降一次成本就打开一批新 agent 用例——从全量数据扫描、安全审计到 agent swarm 工作流。",
-      "Opus 5.5 的 3D 建模能力也引发关注。Alex Albert 用 Opus 5.5 在 Blender 中从单条 prompt 重建了 1906 年旧金山 Market Street 的历史精确场景——从 Sanborn 地图、Miles Brothers 影片到 USGS 地形数据全链溯源，每栋建筑可回溯到数据源。Peter Steinberger 则发现 Astra 在 macOS 27 上找到 libuv 一个约 14 年的 bug，850 赞。"
+      "Claude 官方正式发布 Marketplace，4249 赞成为今日最高互动推文。用户可以在 Marketplace 上发现工具、Agent 和专家合作伙伴——添加 Slack、Notion 等连接器，购买 Cursor、CrowdStrike 等公司的 Agent 产品，或接入 Accenture、Deloitte 等服务伙伴规模化部署。Boris Cherny 同日分享 Claude Code 和桌面端近期大幅加速的技术内幕，3292 赞，揭示了让应用「快到可感知」的工程技巧。",
+      "OpenAI 方面，Thibault Sottiaux 发推分享 ChatGPT Voice 的深度使用体验——打电话聊工作、查邮件、写代码、管日历，全生态插件打通含第三方，4009 赞刷屏。他随后预告下周二 DevDay，称这是 OpenAI 最有野心的 sprint，Astra 让新功能在极短时间内成为可能，3159 赞。Josh Woodward 则宣布更多应用接入 Gemini。",
+      "Vercel CEO Guillermo Rauch 拆解成功 Agent 的三组件架构——Brain（模型+harness）、Hands（工具+浏览器+计算机）、Files（记忆+技能+仓库），并发布 Drives：为 Sandbox 的 agent 计算机提供可挂载的「外接磁盘」，支持离线读写记忆和技能文件，1453 赞。Rauch 强调组件解耦不仅优化成本，更从根本上提升安全性和可审计性。"
     ]
   },
   "podcast": {
@@ -26,60 +26,60 @@
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Anthropic Claude Code",
-        "text": "用 Opus 5.5 + Lean 形式化验证 Claude Agent SDK，几条 prompt 产出 16 个 PR 修复竞态条件等 bug。也用 TLA+ 辅助验证数据流和并发——Claude 对两种形式化语言都很擅长。发问：形式化验证是否是编码的未来？",
-        "url": "https://x.com/bcherny/status/2102543349102338309"
+        "name": "Claude",
+        "handle": "claudeai",
+        "org": "Anthropic",
+        "text": "Claude Marketplace 正式上线。可发现工具、Agent 和专家合作伙伴：添加 Slack/Notion 等连接器，购买 Cursor/CrowdStrike 等公司的 Agent 产品，接入 Accenture/Deloitte 等服务伙伴。4249 赞，今日最高互动。",
+        "url": "https://x.com/claudeai/status/2102840851538080172"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "OpenAI Codex & ChatGPT",
-        "text": "GPT-6 Sol 和 Luna 正式发布，写作和通用质量大幅提升，API 价格永久下调 50%。Plus/Pro/Business 账户获 banked reset——「Let's go!」23K 赞成为今日最高互动推文。",
-        "url": "https://x.com/thsottiaux/status/2102463847714247142"
+        "text": "ChatGPT Voice 深度体验：打电话聊工作、查邮件、写代码、管日历，全生态插件打通含第三方开发者。4009 赞。随后预告下周二 DevDay，称这是 OpenAI 最有野心的 sprint，Astra 让新功能在极短时间内成为可能。",
+        "url": "https://x.com/thsottiaux/status/2102814202117411196"
       },
       {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "org": "Anthropic Claude Code & Cowork",
-        "text": "Opus 5.5 正式成为 Claude Code 和 Claude 应用的默认模型。effort medium 下智能媲美 Fable 5.1 但更快，rate limits 比 Opus 5 多走 25%。推荐给 Opus 5.5 一个有野心的任务试试。",
-        "url": "https://x.com/_catwu/status/2102437713781944397"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Anthropic Claude Code",
+        "text": "分享 Claude Code 和桌面端近期大幅加速的技术内幕——lots of juicy learnings & techniques for engineers working on speeding up your own apps。3292 赞。同日晒出在计算机历史博物馆会见 Donald Knuth 的合影，1417 赞。",
+        "url": "https://x.com/bcherny/status/2102854267782705648"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "跑 Next.js evals 四模型横评：Opus 5.5 / GPT-6 Sol / Fable 5.1 均 92%，Grok 4.7 为 87% 但便宜 2-7 倍。同时感叹软件将永不再死——喜欢的工具可以自己生成和部署，永远属于你。",
-        "url": "https://x.com/rauchg/status/2102519097770885231"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "Opus 5.5 降价 + GPT-6 降价 50%——成本每任务下降速度史无前例。杰文斯悖论适用：成本越降，能部署 agent 的用例越多。Box 内测 Opus 5.5 做企业知识工作：尽职调查准确率 +39%、云成本分析 +65%，tokens 减少 63%。",
-        "url": "https://x.com/levie/status/2102477253070430322"
-      },
-      {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "org": "Anthropic Research",
-        "text": "用 Opus 5.5 在 Blender 中从单条 prompt 重建 1906 年旧金山 Market Street——从 Sanborn 火险地图、Miles Brothers 影片到 USGS 地形全链溯源，每栋建筑可回溯到数据源。Opus 5.5 的 3D 建模和视觉能力让你用一个 prompt 就能构建整个世界。",
-        "url": "https://x.com/alexalbert__/status/2102466523164274839"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw 创始人",
-        "text": "Astra 在 macOS 27 上找到 libuv 一个约 14 年的 bug，导致 ChatGPT 更新后崩溃。850 赞——AI 调试工具在深层系统 bug 定位上展现了惊人能力。",
-        "url": "https://x.com/steipete/status/2102501642176528743"
+        "text": "拆解成功 Agent 三组件架构（Brain/Hands/Files），发布 Drives——为 Sandbox 的 agent 计算机提供可挂载外接磁盘，支持离线读写记忆和技能文件。组件解耦不仅优化成本，更从根本上提升安全性和可审计性。1453 赞。",
+        "url": "https://x.com/rauchg/status/2102820148629614685"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Anthropic Claude Code",
-        "text": "正确使用模型能力的方式不是往生产环境塞 10 倍功能，而是花更多时间理解用户、跑实验、建原型——交付真正有效的东西。4528 赞，这条反直觉观点引发广泛共鸣。",
-        "url": "https://x.com/trq212/status/2102548686303854790"
+        "text": "开启新系列：深度分享团队实际工作方式，用具体 prompt 和技术让你能复现。2289 赞。另一条揭示「Claude one-shot this」背后的 prompt 长达 10k 字符——包含好观点、技能、示例和 API keys。",
+        "url": "https://x.com/trq212/status/2102857025206255902"
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "org": "独立开发者",
+        "text": "反效率长文：效率不是意义，规模不是智慧，自动化不是自由——如果只是让人跑得更快。AI 的危险不是让人变懒，而是让人无尽忙碌，在找到意图之前就赋予无限执行力。真正的 frontier 是 discernment：知道什么不该做，什么时候该停下来。1087 赞。",
+        "url": "https://x.com/ryolu_/status/2102933485795369213"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "YC President",
+        "text": "创业获客两大同时发生的趋势：让软件 Agent 想要你的产品，用 Agent 让人想要软件。434 赞。另称「This is not priced in yet」暗示市场尚未充分定价 Agent 对获客的重塑。",
+        "url": "https://x.com/garrytan/status/2102955139875397806"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "Muse 和 Box 正式合作——AI 创作工具与企业内容管理平台的结合。",
+        "url": "https://x.com/levie/status/2102915863989075979"
       }
     ]
   },
@@ -89,6 +89,6 @@
   },
   "colophon": {
     "coverage": "覆盖 8 位建造者 · 0 期播客 · 0 篇官方博客",
-    "generatedAt": "2026-09-24T02:00:00.000Z"
+    "generatedAt": "2026-09-25T02:00:00.000Z"
   }
 }
