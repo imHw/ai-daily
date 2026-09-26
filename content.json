@@ -1,94 +1,105 @@
 {
   "issue": {
-    "vol": "20260925",
-    "date": "2026年9月25日",
-    "weekday": "星期五",
-    "dateISO": "2026-09-25",
-    "tagline": "Claude Marketplace 正式上线 · ChatGPT Voice 深度体验刷屏 · Vercel Drives 让 agent 拥有外接磁盘"
+    "vol": "20260926",
+    "date": "2026年9月26日",
+    "weekday": "星期六",
+    "dateISO": "2026-09-26",
+    "tagline": "VAST Data 揭秘 AI 基础设施 $30B 暗层 · Vercel AI Gateway 算力支出大洗牌 · Claude 小企业版 43 工作流上线"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Claude Marketplace 正式上线可发现工具与 Agent · ChatGPT Voice 全生态体验刷屏 4000 赞 · Vercel 发布 Drives 为 Agent 配外接存储",
+    "title": "VAST Data CEO 揭秘 AI 五层蛋糕中间层 $30B 基础设施 · Vercel AI Gateway 算力份额 Anthropic 69%→40% 大洗牌 · Claude 小企业版 43 工作流+27 集成上线",
     "paras": [
-      "Claude 官方正式发布 Marketplace，4249 赞成为今日最高互动推文。用户可以在 Marketplace 上发现工具、Agent 和专家合作伙伴——添加 Slack、Notion 等连接器，购买 Cursor、CrowdStrike 等公司的 Agent 产品，或接入 Accenture、Deloitte 等服务伙伴规模化部署。Boris Cherny 同日分享 Claude Code 和桌面端近期大幅加速的技术内幕，3292 赞，揭示了让应用「快到可感知」的工程技巧。",
-      "OpenAI 方面，Thibault Sottiaux 发推分享 ChatGPT Voice 的深度使用体验——打电话聊工作、查邮件、写代码、管日历，全生态插件打通含第三方，4009 赞刷屏。他随后预告下周二 DevDay，称这是 OpenAI 最有野心的 sprint，Astra 让新功能在极短时间内成为可能，3159 赞。Josh Woodward 则宣布更多应用接入 Gemini。",
-      "Vercel CEO Guillermo Rauch 拆解成功 Agent 的三组件架构——Brain（模型+harness）、Hands（工具+浏览器+计算机）、Files（记忆+技能+仓库），并发布 Drives：为 Sandbox 的 agent 计算机提供可挂载的「外接磁盘」，支持离线读写记忆和技能文件，1453 赞。Rauch 强调组件解耦不仅优化成本，更从根本上提升安全性和可审计性。"
+      "VAST Data 创始人兼 CEO Renan Hallak 做客 MAD Podcast，深入拆解 Jensen Huang 的 AI 五层蛋糕模型中「最不被理解」的软件基础设施层——管理计算、存储、网络，向上提供数据库、训练推理函数，支撑 Agent 与强化学习。VAST 估值 $30B，powering xAI、CoreWeave、Nebius、Mistral 等顶级 AI 基础设施，客户数据量从 500PB 飙升到追加 2EB，Hallak 称「未来十年变化将超过去千年」。Matt Turck 指出基础设施层虽是 AI 蛋糕中间层，却鲜为人知。",
+      "Vercel CEO Guillermo Rauch 基于 AI Gateway 近两月数据揭示算力支出大洗牌：Anthropic 仍居花费榜首，但份额从 69% 暴跌至 40%；OpenAI 从 10% 飙升至 24%；GPT-6 Astra 与 GPT 5.6 Sol 强势拉升；OpenAI 已在 token 量上反超；Kimi K3 和 DeepSeek 吃掉 Anthropic 近半流失份额；Opus 5.5 爬升至 10%。模型市场格局正剧烈重排。",
+      "Anthropic 官方博客发布 Claude for Small Business 大更新：43 个预制工作流 + 27 个新集成（含 Shopify、Salesforce、TripActions），为小企业主提供开箱即用方案。Nikunj Kothari 引用核心信念——每个小企业主都将拥有定制软件，最后一英里才是差异化所在。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "",
-    "meta": "",
-    "paras": [],
-    "url": ""
+    "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer",
+    "meta": "The MAD Podcast · 嘉宾 Renen Hallak (VAST Data CEO) · 2026-09-24",
+    "paras": [
+      "Renan Hallak 在 Jensen Huang 的 AI 五层蛋糕中精准定位：VAST 坐在正中间的软件基础设施层。从旧栈到新栈，计算/存储/网络管理是基座，数据库和训练推理函数向上赋能，Agent 和 RL 时代需要更多工具让一切简单、安全、快速、可扩展。",
+      "客户数据量爆发令人震惊：一家 AI 云厂商原计划三年 500PB，上周追加了 2EB。Hallak 认为这是 AI 基础设施的真实规模——不是渐进增长，而是数量级跃迁。",
+      "VAST 的差异化在于统一架构：打破传统 HPC 与企业数据的分界，让同一平台同时服务训练（高吞吐顺序读写）和推理（低延迟随机访问），这正是顶级 AI 厂商选择 VAST 的根本原因。"
+    ],
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Claude",
-        "handle": "claudeai",
-        "org": "Anthropic",
-        "text": "Claude Marketplace 正式上线。可发现工具、Agent 和专家合作伙伴：添加 Slack/Notion 等连接器，购买 Cursor/CrowdStrike 等公司的 Agent 产品，接入 Accenture/Deloitte 等服务伙伴。4249 赞，今日最高互动。",
-        "url": "https://x.com/claudeai/status/2102840851538080172"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "OpenAI Codex & ChatGPT",
-        "text": "ChatGPT Voice 深度体验：打电话聊工作、查邮件、写代码、管日历，全生态插件打通含第三方开发者。4009 赞。随后预告下周二 DevDay，称这是 OpenAI 最有野心的 sprint，Astra 让新功能在极短时间内成为可能。",
-        "url": "https://x.com/thsottiaux/status/2102814202117411196"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Anthropic Claude Code",
-        "text": "分享 Claude Code 和桌面端近期大幅加速的技术内幕——lots of juicy learnings & techniques for engineers working on speeding up your own apps。3292 赞。同日晒出在计算机历史博物馆会见 Donald Knuth 的合影，1417 赞。",
-        "url": "https://x.com/bcherny/status/2102854267782705648"
-      },
-      {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "拆解成功 Agent 三组件架构（Brain/Hands/Files），发布 Drives——为 Sandbox 的 agent 计算机提供可挂载外接磁盘，支持离线读写记忆和技能文件。组件解耦不仅优化成本，更从根本上提升安全性和可审计性。1453 赞。",
-        "url": "https://x.com/rauchg/status/2102820148629614685"
+        "text": "AI Gateway 算力支出大洗牌：Anthropic 69%→40%、OpenAI 10%→24%；GPT-6 Astra + GPT 5.6 Sol 强势拉升；OpenAI 已在 token 量上反超；Kimi K3 + DeepSeek 吃掉 Anthropic 近半流失份额；Opus 5.5 爬升至 10%。",
+        "url": "https://x.com/rauchg/status/2103216656747262419"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "AI Engineer",
+        "text": "内容策略见效：3 年才到 10 万 YouTube 订阅，下一个 10 万仅 1.2 个月。AEO/SEO/订阅增长全面加速，Scaling without Slop 策略开始复利回报。",
+        "url": "https://x.com/swyx/status/2103361254433993165"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "Product @ Replit",
+        "text": "Astra 爆了 3D 模型，Opus 爆了视频——AI 生成能力正以不可预测的方式跳级，连业内人都感叹不知道下一个突破在哪。",
+        "url": "https://x.com/petergyang/status/2103318850641260959"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Anthropic Claude Code",
-        "text": "开启新系列：深度分享团队实际工作方式，用具体 prompt 和技术让你能复现。2289 赞。另一条揭示「Claude one-shot this」背后的 prompt 长达 10k 字符——包含好观点、技能、示例和 API keys。",
-        "url": "https://x.com/trq212/status/2102857025206255902"
+        "text": "Claude Code 计划模式（Plan Mode）将重构为内置 Mod——允许自定义计划 prompt、创建和分享新模式，或直接重绑 Shift+Tab 快捷键。用户反馈两极：有人自己计划不需要，有人喜欢进入纯思考/头脑风暴模式。",
+        "url": "https://x.com/trq212/status/2103212052391354794"
       },
       {
-        "name": "Ryo Lu",
-        "handle": "ryolu_",
-        "org": "独立开发者",
-        "text": "反效率长文：效率不是意义，规模不是智慧，自动化不是自由——如果只是让人跑得更快。AI 的危险不是让人变懒，而是让人无尽忙碌，在找到意图之前就赋予无限执行力。真正的 frontier 是 discernment：知道什么不该做，什么时候该停下来。1087 赞。",
-        "url": "https://x.com/ryolu_/status/2102933485795369213"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "Muse 现在可以在 Replit 上直接做 App 了——AI 创作工具从对话走向可部署产物，又一例 Agent + 平台闭环。",
+        "url": "https://x.com/amasad/status/2103129037011120525"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "YC President",
-        "text": "创业获客两大同时发生的趋势：让软件 Agent 想要你的产品，用 Agent 让人想要软件。434 赞。另称「This is not priced in yet」暗示市场尚未充分定价 Agent 对获客的重塑。",
-        "url": "https://x.com/garrytan/status/2102955139875397806"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Anthropic",
+        "text": "每个小企业主都将拥有定制软件——最后一英里才是差异化所在，也是独特客户和员工体验的来源。Claude for Small Business 的核心信念。",
+        "url": "https://x.com/nikunj/status/2103360292973633770"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "Muse 和 Box 正式合作——AI 创作工具与企业内容管理平台的结合。",
-        "url": "https://x.com/levie/status/2102915863989075979"
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "PSPDFKit Founder",
+        "text": "Agent 清理代码的提示词技巧：别只说「清理一下」，它会太早停。给一个雄心勃勃的目标——试试「删掉 20% 最没用的测试，同时保持代码覆盖率在 2% 以内」。",
+        "url": "https://x.com/steipete/status/2103148444701610233"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "Google Labs",
+        "text": "Dreambeans 是 Google Labs 新实验：每天固定数量 Bean 自动出炉，指向真实世界中真实的人在做你关心的事——小而美的社交推荐机制。",
+        "url": "https://x.com/joshwoodward/status/2103182635992514569"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": []
+    "items": [
+      {
+        "name": "Claude Blog",
+        "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+        "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+        "text": "Claude 小企业版大更新：43 个预制工作流 + 27 个新集成（Shopify、Salesforce、TripActions 等），为小企业主提供开箱即用的 AI 自动化方案。"
+      }
+    ]
   },
   "colophon": {
-    "coverage": "覆盖 8 位建造者 · 0 期播客 · 0 篇官方博客",
-    "generatedAt": "2026-09-25T02:00:00.000Z"
+    "coverage": "覆盖 8 位建造者 · 1 期播客 · 1 篇官方博客",
+    "generatedAt": "2026-09-26T02:00:00.000Z"
   }
 }
