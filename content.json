@@ -1,89 +1,89 @@
 {
   "issue": {
-    "vol": "20260926",
-    "date": "2026年9月26日",
-    "weekday": "星期六",
-    "dateISO": "2026-09-26",
-    "tagline": "VAST Data 揭秘 AI 基础设施 $30B 暗层 · Vercel AI Gateway 算力支出大洗牌 · Claude 小企业版 43 工作流上线"
+    "vol": "20260927",
+    "date": "2026年9月27日",
+    "weekday": "星期日",
+    "dateISO": "2026-09-27",
+    "tagline": "OpenAI Codex 大宕机后恢复 · Claude Tag 深度集成重塑团队工作流 · Sequence Holdings $7.7B AI 收购破纪录"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "VAST Data CEO 揭秘 AI 五层蛋糕中间层 $30B 基础设施 · Vercel AI Gateway 算力份额 Anthropic 69%→40% 大洗牌 · Claude 小企业版 43 工作流+27 集成上线",
+    "title": "OpenAI Codex 大宕机后紧急恢复 · Claude Tag 深度集成重塑团队工作流 · Sequence Holdings 完成 $7.7B AI 时代最大 Take-Private",
     "paras": [
-      "VAST Data 创始人兼 CEO Renan Hallak 做客 MAD Podcast，深入拆解 Jensen Huang 的 AI 五层蛋糕模型中「最不被理解」的软件基础设施层——管理计算、存储、网络，向上提供数据库、训练推理函数，支撑 Agent 与强化学习。VAST 估值 $30B，powering xAI、CoreWeave、Nebius、Mistral 等顶级 AI 基础设施，客户数据量从 500PB 飙升到追加 2EB，Hallak 称「未来十年变化将超过去千年」。Matt Turck 指出基础设施层虽是 AI 蛋糕中间层，却鲜为人知。",
-      "Vercel CEO Guillermo Rauch 基于 AI Gateway 近两月数据揭示算力支出大洗牌：Anthropic 仍居花费榜首，但份额从 69% 暴跌至 40%；OpenAI 从 10% 飙升至 24%；GPT-6 Astra 与 GPT 5.6 Sol 强势拉升；OpenAI 已在 token 量上反超；Kimi K3 和 DeepSeek 吃掉 Anthropic 近半流失份额；Opus 5.5 爬升至 10%。模型市场格局正剧烈重排。",
-      "Anthropic 官方博客发布 Claude for Small Business 大更新：43 个预制工作流 + 27 个新集成（含 Shopify、Salesforce、TripActions），为小企业主提供开箱即用方案。Nikunj Kothari 引用核心信念——每个小企业主都将拥有定制软件，最后一英里才是差异化所在。"
+      "OpenAI 编程智能体 Codex 昨日遭遇大规模宕机，引发开发者社区震动。产品负责人 Thibault Sottiaux 先发布故障确认推文（10596赞），随后宣布服务全面恢复，并重置所有付费用户在 Codex 和 ChatGPT 上的用量限制。宕机虽短，但暴露了 AI 编程工具链对单一服务的深度依赖——当 Codex 停摆，无数开发者的工作流也跟着中断。",
+      "Anthropic Claude Code 团队的 Boris Cherny 披露 Tag 日常数据：Tag 写了超过 50% 的 PR、完成近乎 100% 的数据分析、修复大部分产品反馈和 Bug。Tag 不是普通 Slack Bot——它主动、可编程、有记忆、可连接器。搭配 Opus 5.5 和 Fable 5.1 的判断力，Cherny 展示的提示词包括「自动重现在此频道报的每个 Bug，复现后提 PR 修并拉对应团队 review」和「头脑风暴约100个假设解释异常数据，花10M token深挖，画图展示结果」。AI 编程正从辅助走向全托管。",
+      "No Priors 播客最新一期邀请 Sequence Holdings 联合创始人兼 CEO Michael Lee，讨论刚宣布的 AI 时代最大 take-private 交易——联合戴尔家族办公室以 $7.7B 收购保险经纪公司 Baldwin。Sequence 的模式是与世界级企业管理层合作，用前沿工程团队将传统企业「重新建国」为 AI 市场领导者，每年只做一笔交易——追求极度稀缺与深度转型。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer",
-    "meta": "The MAD Podcast · 嘉宾 Renen Hallak (VAST Data CEO) · 2026-09-24",
+    "title": "Re-Founding Incumbents for the AI Era",
+    "meta": "No Priors · 嘉宾 Michael Lee (Sequence Holdings CEO) · 2026-09-24",
     "paras": [
-      "Renan Hallak 在 Jensen Huang 的 AI 五层蛋糕中精准定位：VAST 坐在正中间的软件基础设施层。从旧栈到新栈，计算/存储/网络管理是基座，数据库和训练推理函数向上赋能，Agent 和 RL 时代需要更多工具让一切简单、安全、快速、可扩展。",
-      "客户数据量爆发令人震惊：一家 AI 云厂商原计划三年 500PB，上周追加了 2EB。Hallak 认为这是 AI 基础设施的真实规模——不是渐进增长，而是数量级跃迁。",
-      "VAST 的差异化在于统一架构：打破传统 HPC 与企业数据的分界，让同一平台同时服务训练（高吞吐顺序读写）和推理（低延迟随机访问），这正是顶级 AI 厂商选择 VAST 的根本原因。"
+      "Michael Lee 提出「重新建国」概念：传统企业不需要渐进式 AI 落地，而需要从根本上重建运营模型。在 AI 时代，alpha 来自工程和 AI，因此企业必须将工程师确立为最受推崇的角色——这要求彻底的文化重置。",
+      "Sequence 的「一年一笔交易」哲学令人印象深刻：不追求交易数量，只做最深度、最稀缺的转型。Baldwin 收购是与戴尔家族办公室联手，对一家保险经纪巨头的 AI 全面重构——从后台自动化到前端智能定价，全栈重写。",
+      "Lee 从 Lone Pine（对冲基金）到创办 Sequence 的路径，揭示了公共市场投资思维如何迁移到 AI 时代的企业运营：基本面分析的严谨性 + 工程思维的长期性 + AI 工程的执行力，三者结合形成独特优势。"
     ],
-    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "AI Gateway 算力支出大洗牌：Anthropic 69%→40%、OpenAI 10%→24%；GPT-6 Astra + GPT 5.6 Sol 强势拉升；OpenAI 已在 token 量上反超；Kimi K3 + DeepSeek 吃掉 Anthropic 近半流失份额；Opus 5.5 爬升至 10%。",
-        "url": "https://x.com/rauchg/status/2103216656747262419"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "AI Engineer",
-        "text": "内容策略见效：3 年才到 10 万 YouTube 订阅，下一个 10 万仅 1.2 个月。AEO/SEO/订阅增长全面加速，Scaling without Slop 策略开始复利回报。",
-        "url": "https://x.com/swyx/status/2103361254433993165"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "Product @ Replit",
-        "text": "Astra 爆了 3D 模型，Opus 爆了视频——AI 生成能力正以不可预测的方式跳级，连业内人都感叹不知道下一个突破在哪。",
-        "url": "https://x.com/petergyang/status/2103318850641260959"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @ Anthropic",
+        "text": "Tag 写了 >50% 的 PR、~100% 数据分析、修大部分 Bug。它主动、可编程、有记忆、有连接器。搭配 Opus 5.5 + Fable 5.1 判断力强。示例：自动重现 Bug→提 PR→拉 review；头脑风暴 100 假设→10M token 深挖→画图。",
+        "url": "https://x.com/bcherny/status/2103538666597691552"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
-        "org": "Anthropic Claude Code",
-        "text": "Claude Code 计划模式（Plan Mode）将重构为内置 Mod——允许自定义计划 prompt、创建和分享新模式，或直接重绑 Shift+Tab 快捷键。用户反馈两极：有人自己计划不需要，有人喜欢进入纯思考/头脑风暴模式。",
-        "url": "https://x.com/trq212/status/2103212052391354794"
+        "org": "Claude Code @ Anthropic",
+        "text": "深入解析 Effort 机制：effort low 适合留在循环中参与决策，effort max 适合零输入全自动或找安全漏洞。评测和个人基准测试结果出人意料——不是越高越好，关键看任务性质。",
+        "url": "https://x.com/trq212/status/2103576349499855160"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "Muse 现在可以在 Replit 上直接做 App 了——AI 创作工具从对话走向可部署产物，又一例 Agent + 平台闭环。",
-        "url": "https://x.com/amasad/status/2103129037011120525"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "Vercel 助力世界级企业构建 Agent 部署平台：接入所有 Agent（Claude/Codex/Cursor）+ SSO（Okta/Entra）+ 安全管控。核心问题：当每家公司都架好这套基础设施，SaaS 会怎样？",
+        "url": "https://x.com/rauchg/status/2103564484602384855"
       },
       {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "Anthropic",
-        "text": "每个小企业主都将拥有定制软件——最后一英里才是差异化所在，也是独特客户和员工体验的来源。Claude for Small Business 的核心信念。",
-        "url": "https://x.com/nikunj/status/2103360292973633770"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "「无法衡量就无法自动化」——evals 是 AI 企业扩散的关键闸门。确定性流程可用软件测试，但大部分企业对非确定性流程毫无度量手段，这正是扩散的瓶颈。",
+        "url": "https://x.com/levie/status/2103629073595728372"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "YC President",
+        "text": "「让个性化教育合法化」——当前教育制度批量生产标准化人才，AI 让一人一课表成为可能，制度却还没跟上。",
+        "url": "https://x.com/garrytan/status/2103470568104468517"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "关于 Agent 在训练和评估中使用互联网访问的持续审查，正在发布摘要并持续更新。平衡透明度与安全考量，进展不够快但方向坚定。",
+        "url": "https://x.com/sama/status/2103567198690349362"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
-        "org": "PSPDFKit Founder",
-        "text": "Agent 清理代码的提示词技巧：别只说「清理一下」，它会太早停。给一个雄心勃勃的目标——试试「删掉 20% 最没用的测试，同时保持代码覆盖率在 2% 以内」。",
-        "url": "https://x.com/steipete/status/2103148444701610233"
+        "org": "OpenClaw",
+        "text": "OpenClaw 迁移 SQLite 最大的设计失误：用了同步 DB 访问。单 Agent 报告没问题，但一个 Agent 同时跑 50 个并行 session、整个团队协作时就成了瓶颈。正推进异步改造。",
+        "url": "https://x.com/steipete/status/2103648679169257737"
       },
       {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "Google Labs",
-        "text": "Dreambeans 是 Google Labs 新实验：每天固定数量 Bean 自动出炉，指向真实世界中真实的人在做你关心的事——小而美的社交推荐机制。",
-        "url": "https://x.com/joshwoodward/status/2103182635992514569"
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "org": "FirstMark Capital",
+        "text": "创业公司这么多，但所有投资者都想投同一个 10-30 家。这从来如此，但从没到这个程度——超级幂律。",
+        "url": "https://x.com/mattturck/status/2103550183506337835"
       }
     ]
   },
@@ -92,14 +92,14 @@
     "items": [
       {
         "name": "Claude Blog",
-        "title": "Claude for Small Business launches new workflows, integrations, and training programs",
-        "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-        "text": "Claude 小企业版大更新：43 个预制工作流 + 27 个新集成（Shopify、Salesforce、TripActions 等），为小企业主提供开箱即用的 AI 自动化方案。"
+        "title": "Claude Cowork and chat are now one Claude",
+        "url": "https://claude.com/blog/cowork-is-now-claude",
+        "text": "Claude Cowork 与对话合并为统一的 Claude 体验：快速提问或交付任务，Claude 都能接手，甚至在你关上笔记本后继续工作。正在 Pro 和 Max 计划上逐步推出。"
       }
     ]
   },
   "colophon": {
     "coverage": "覆盖 8 位建造者 · 1 期播客 · 1 篇官方博客",
-    "generatedAt": "2026-09-26T02:00:00.000Z"
+    "generatedAt": "2026-09-27T02:00:00.000Z"
   }
 }
