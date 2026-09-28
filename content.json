@@ -1,28 +1,28 @@
 {
   "issue": {
-    "vol": "20260927",
-    "date": "2026年9月27日",
-    "weekday": "星期日",
-    "dateISO": "2026-09-27",
-    "tagline": "OpenAI Codex 大宕机后恢复 · Claude Tag 深度集成重塑团队工作流 · Sequence Holdings $7.7B AI 收购破纪录"
+    "vol": "20260928",
+    "date": "2026年9月28日",
+    "weekday": "星期一",
+    "dateISO": "2026-09-28",
+    "tagline": "OpenAI Codex 用量重置全面恢复 · Vercel CEO 发起反 Slop 宣言捍卫理解力 · Gemini Audio API 催生语言学习应用潮"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Codex 大宕机后紧急恢复 · Claude Tag 深度集成重塑团队工作流 · Sequence Holdings 完成 $7.7B AI 时代最大 Take-Private",
+    "title": "OpenAI Codex 用量重置全面恢复 · Vercel CEO 发起反 Slop 宣言捍卫理解力 · Gemini Audio API 催生应用潮",
     "paras": [
-      "OpenAI 编程智能体 Codex 昨日遭遇大规模宕机，引发开发者社区震动。产品负责人 Thibault Sottiaux 先发布故障确认推文（10596赞），随后宣布服务全面恢复，并重置所有付费用户在 Codex 和 ChatGPT 上的用量限制。宕机虽短，但暴露了 AI 编程工具链对单一服务的深度依赖——当 Codex 停摆，无数开发者的工作流也跟着中断。",
-      "Anthropic Claude Code 团队的 Boris Cherny 披露 Tag 日常数据：Tag 写了超过 50% 的 PR、完成近乎 100% 的数据分析、修复大部分产品反馈和 Bug。Tag 不是普通 Slack Bot——它主动、可编程、有记忆、可连接器。搭配 Opus 5.5 和 Fable 5.1 的判断力，Cherny 展示的提示词包括「自动重现在此频道报的每个 Bug，复现后提 PR 修并拉对应团队 review」和「头脑风暴约100个假设解释异常数据，花10M token深挖，画图展示结果」。AI 编程正从辅助走向全托管。",
-      "No Priors 播客最新一期邀请 Sequence Holdings 联合创始人兼 CEO Michael Lee，讨论刚宣布的 AI 时代最大 take-private 交易——联合戴尔家族办公室以 $7.7B 收购保险经纪公司 Baldwin。Sequence 的模式是与世界级企业管理层合作，用前沿工程团队将传统企业「重新建国」为 AI 市场领导者，每年只做一笔交易——追求极度稀缺与深度转型。"
+      "OpenAI Codex 与 ChatGPT 产品负责人 Thibault Sottiaux 宣布所有用量重置已全面传播生效（13920 赞）。这意味着此前的 Codex 大规模宕机事件正式收尾，付费用户额度恢复正常。几乎同一时间，Peter Yang 惊叹 Claude 的用量限制从「勉强能用」骤变为「几乎无限」——Anthropic 似乎在悄然大幅放宽额度，AI 编程工具的用户额度战正在白热化。",
+      "Vercel CEO Guillermo Rauch 发布「Reject non-understanding」（拒绝非理解）宣言：Slop 的危害不止于代码和 PR，更危险的是低质量、未经核实的 AI 生成内容无休止地砸向你，会让「阅读」这件事本身被彻底贬值。他举了一个正在热传的例子——论坛把一项性能提升归功于编译器变更，但那个 PR 的描述里 AI 自己就写着真正原因是算法和数据结构的改变，暗示同样的收益本可以用别的方式取得。Rauch 说，他要的是让 AI 服务于理解宇宙、增强人类认知与创造力。",
+      "Gemini 的新音频 API 正在催生一波语言学习应用。Peter Yang 用它构建了日语会话教学 App（10 课 × 每课 10 短语），并首次通过 Antigravity 调用 Google 的新音频接口。创作侧同样热闹：Every CEO Dan Shipper 把柏拉图《普罗泰戈拉篇》改写成小说，再用 Opus 5.5 生成电影短片——AI 创作正从辅助代码走向文化经典的再生产。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Re-Founding Incumbents for the AI Era",
-    "meta": "No Priors · 嘉宾 Michael Lee (Sequence Holdings CEO) · 2026-09-24",
+    "title": "Why Diffusion Will Win AI Inference",
+    "meta": "No Priors · 嘉宾 Stefano Ermon（Inception 联合创始人兼 CEO / Stanford 教授）· 2026-09-18",
     "paras": [
-      "Michael Lee 提出「重新建国」概念：传统企业不需要渐进式 AI 落地，而需要从根本上重建运营模型。在 AI 时代，alpha 来自工程和 AI，因此企业必须将工程师确立为最受推崇的角色——这要求彻底的文化重置。",
-      "Sequence 的「一年一笔交易」哲学令人印象深刻：不追求交易数量，只做最深度、最稀缺的转型。Baldwin 收购是与戴尔家族办公室联手，对一家保险经纪巨头的 AI 全面重构——从后台自动化到前端智能定价，全栈重写。",
-      "Lee 从 Lone Pine（对冲基金）到创办 Sequence 的路径，揭示了公共市场投资思维如何迁移到 AI 时代的企业运营：基本面分析的严谨性 + 工程思维的长期性 + AI 工程的执行力，三者结合形成独特优势。"
+      "Stefano Ermon 是扩散模型的奠基者之一，被主播称为「扩散之父」式的人物。他 2014 年以助理教授身份加入 Stanford 时就开始做生成模型，那时这个方向并不热门——能在 MNIST 上生成带噪点的数字就是大成功，写论文甚至需要反复解释「训练生成模型是为了从无标注数据里学特征，好提升监督学习效果」，因为那才是当时所有人关心的事。他承认自己只是「在对的时间、对的地点、做对的事」，但坚持了整整十年。",
+      "Inception 的核心赌注是：扩散模型不只赢在图像生成，它会在 AI 推理（inference）这场仗里胜出。关键在于速度与效率——当推理成本成为大规模部署的真正瓶颈，扩散架构天然的并行性与采样效率将变成决定性优势。Ermon 判断未来几年 AI 竞争的胜负手不在训练而在推理，这也是这家创业公司敢于正面挑战大型实验室的底气。",
+      "对从业者的启示：Ermon 的路径是「学术界深耕基础理论 → 时机成熟 → 创业转化」，而不是追热点。他反复强调的「速度和效率将是未来几年的主题」，对任何在推理成本上做优化的团队都是明确的信号。"
     ],
     "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
@@ -30,76 +30,62 @@
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude Code @ Anthropic",
-        "text": "Tag 写了 >50% 的 PR、~100% 数据分析、修大部分 Bug。它主动、可编程、有记忆、有连接器。搭配 Opus 5.5 + Fable 5.1 判断力强。示例：自动重现 Bug→提 PR→拉 review；头脑风暴 100 假设→10M token 深挖→画图。",
-        "url": "https://x.com/bcherny/status/2103538666597691552"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @ Anthropic",
-        "text": "深入解析 Effort 机制：effort low 适合留在循环中参与决策，effort max 适合零输入全自动或找安全漏洞。评测和个人基准测试结果出人意料——不是越高越好，关键看任务性质。",
-        "url": "https://x.com/trq212/status/2103576349499855160"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @ OpenAI",
+        "text": "「所有用量重置已全面传播生效。就这些了，祝大家周末愉快。」——Codex 故障事件正式收尾，付费用户额度全部恢复。",
+        "url": "https://x.com/thsottiaux/status/2103911959544610829"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "Vercel 助力世界级企业构建 Agent 部署平台：接入所有 Agent（Claude/Codex/Cursor）+ SSO（Okta/Entra）+ 安全管控。核心问题：当每家公司都架好这套基础设施，SaaS 会怎样？",
-        "url": "https://x.com/rauchg/status/2103564484602384855"
+        "text": "「拒绝非理解。Slop 手雷不只是代码和 PR——我们面临一个真实风险：因为低质量、未核实的 AI 文本不断砸过来让人疲惫，「阅读」会被整体贬值。」他举例：一个热传的「性能提升」被归功于编译器变更，而 PR 描述里 AI 自己就说了不是编译器、是算法和数据结构变了。他要的是 AI 服务于理解宇宙、增强人类认知与创造力。",
+        "url": "https://x.com/rauchg/status/2103939888513274147"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "「无法衡量就无法自动化」——evals 是 AI 企业扩散的关键闸门。确定性流程可用软件测试，但大部分企业对非确定性流程毫无度量手段，这正是扩散的瓶颈。",
-        "url": "https://x.com/levie/status/2103629073595728372"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教程创作者",
+        "text": "「不知道 Claude 的限制发生了什么，从勉强能用直接变成了几乎无限 😂」——感叹 Anthropic 额度大幅放宽。同时他正用 Gemini 音频 API 做一个教我日语会话的 App，10 课、每课 10 个短语。",
+        "url": "https://x.com/petergyang/status/2104066667361992892"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @ Anthropic",
+        "text": "「大概一年前我发了最早一批用 Claude Code 做视频的帖子。当时每个作品都要和 Claude 迭代很久才能做对，要一条条指出哪里错了。现在回头看，走得真远。」——一年间 AI 视频生成能力的跃迁。",
+        "url": "https://x.com/trq212/status/2103897226154328502"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "YC President",
-        "text": "「让个性化教育合法化」——当前教育制度批量生产标准化人才，AI 让一人一课表成为可能，制度却还没跟上。",
-        "url": "https://x.com/garrytan/status/2103470568104468517"
+        "text": "「这是我现在最喜欢的修 Bug 方式：用 Capy.ai 配 GStack 的 /autoplan 处理生产环境问题，GPT-6 medium reasoning 驱动。」——AI 辅助调试已进入生产实战常态化。",
+        "url": "https://x.com/garrytan/status/2103989902476259702"
       },
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "关于 Agent 在训练和评估中使用互联网访问的持续审查，正在发布摘要并持续更新。平衡透明度与安全考量，进展不够快但方向坚定。",
-        "url": "https://x.com/sama/status/2103567198690349362"
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "「我把柏拉图的《普罗泰戈拉篇》写成了小说，然后让 Opus 5.5 把它拍成电影（第一场）。」续作第二场也已发布——AI 创作从代码辅助走向文化经典的再生产。",
+        "url": "https://x.com/danshipper/status/2103850415930708437"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw",
-        "text": "OpenClaw 迁移 SQLite 最大的设计失误：用了同步 DB 访问。单 Agent 报告没问题，但一个 Agent 同时跑 50 个并行 session、整个团队协作时就成了瓶颈。正推进异步改造。",
-        "url": "https://x.com/steipete/status/2103648679169257737"
-      },
-      {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "org": "FirstMark Capital",
-        "text": "创业公司这么多，但所有投资者都想投同一个 10-30 家。这从来如此，但从没到这个程度——超级幂律。",
-        "url": "https://x.com/mattturck/status/2103550183506337835"
+        "text": "「现在我开始理解为什么有人会聊 AGI 了。这真的太聪明了！」——对某项 AI 能力的公开惊叹，收获 1609 赞。",
+        "url": "https://x.com/steipete/status/2103883264054505493"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "Claude Blog",
-        "title": "Claude Cowork and chat are now one Claude",
-        "url": "https://claude.com/blog/cowork-is-now-claude",
-        "text": "Claude Cowork 与对话合并为统一的 Claude 体验：快速提问或交付任务，Claude 都能接手，甚至在你关上笔记本后继续工作。正在 Pro 和 Max 计划上逐步推出。"
-      }
-    ]
+    "items": []
   },
   "colophon": {
-    "coverage": "覆盖 8 位建造者 · 1 期播客 · 1 篇官方博客",
-    "generatedAt": "2026-09-27T02:00:00.000Z"
+    "coverage": "覆盖 7 位建造者 · 1 期播客",
+    "generatedAt": "2026-09-28T02:00:00.000Z"
   }
 }
