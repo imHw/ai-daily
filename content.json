@@ -17,12 +17,13 @@
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Why Diffusion Will Win AI Inference",
-    "meta": "No Priors · 嘉宾 Stefano Ermon（Inception 联合创始人兼 CEO / Stanford 教授）· 2026-09-18",
+    "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+    "meta": "No Priors · 主播 Sarah Guo · 嘉宾 Stefano Ermon（Inception 联合创始人兼 CEO / Stanford 教授，扩散模型奠基者之一）· 2026-09-18",
     "paras": [
       "Stefano Ermon 是扩散模型的奠基者之一，被主播称为「扩散之父」式的人物。他 2014 年以助理教授身份加入 Stanford 时就开始做生成模型，那时这个方向并不热门——能在 MNIST 上生成带噪点的数字就是大成功，写论文甚至需要反复解释「训练生成模型是为了从无标注数据里学特征，好提升监督学习效果」，因为那才是当时所有人关心的事。他承认自己只是「在对的时间、对的地点、做对的事」，但坚持了整整十年。",
-      "Inception 的核心赌注是：扩散模型不只赢在图像生成，它会在 AI 推理（inference）这场仗里胜出。关键在于速度与效率——当推理成本成为大规模部署的真正瓶颈，扩散架构天然的并行性与采样效率将变成决定性优势。Ermon 判断未来几年 AI 竞争的胜负手不在训练而在推理，这也是这家创业公司敢于正面挑战大型实验室的底气。",
-      "对从业者的启示：Ermon 的路径是「学术界深耕基础理论 → 时机成熟 → 创业转化」，而不是追热点。他反复强调的「速度和效率将是未来几年的主题」，对任何在推理成本上做优化的团队都是明确的信号。"
+      "Inception 的核心赌注是：扩散模型不只赢在图像生成，它会在 AI 推理（inference）这场仗里胜出。Ermon 的技术论证很具体——自回归 LLM 逐 token 生成，而扩散模型从噪声出发做并行 token 生成与精修，这种架构在标准 GPU 上能带来更优的推理扩展性和硬件利用率。他们把这套思路从图像、视频推进到离散的文本与代码生成，产品即 Inception 的 Mercury 系列模型。",
+      "最有说服力的论据来自真实客户：语音 agent 场景（如 Open Call 这类客户）里，ASR → LLM → 文本 → TTS 整条流水线的延迟直接决定用户体验，速度不是锦上添花而是产品门槛。Ermon 判断，效率过去排在能力扩展之后只是次要考量，如今正成为前沿实验室算力战略的核心，而「如何构建这类系统，行业还没找到最好的答案」。",
+      "对从业者的启示：Ermon 的路径是「学术界深耕基础理论 → 时机成熟 → 创业转化」，而不是追热点。他反复强调「速度和效率将是未来几年的主题」，对任何在推理成本上做优化的团队都是明确信号。"
     ],
     "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
