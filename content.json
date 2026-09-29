@@ -1,92 +1,95 @@
 {
   "issue": {
-    "vol": "20260928",
-    "date": "2026年9月28日",
-    "weekday": "星期一",
-    "dateISO": "2026-09-28",
-    "tagline": "OpenAI Codex 用量重置全面恢复 · Vercel CEO 发起反 Slop 宣言捍卫理解力 · Gemini Audio API 催生语言学习应用潮"
+    "vol": "20260929",
+    "date": "2026年9月29日",
+    "weekday": "星期二",
+    "dateISO": "2026-09-29",
+    "tagline": "Box CEO 论 Agent 时代的商业摩擦消融 · Thariq 警惕生产力反噬 · Rauch 原生浏览器实验"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Codex 用量重置全面恢复 · Vercel CEO 发起反 Slop 宣言捍卫理解力 · Gemini Audio API 催生应用潮",
+    "title": "Box CEO 论 Agent 时代的商业摩擦消融 · Thariq 警惕生产力反噬 · Rauch 原生浏览器实验",
     "paras": [
-      "OpenAI Codex 与 ChatGPT 产品负责人 Thibault Sottiaux 宣布所有用量重置已全面传播生效（13920 赞）。这意味着此前的 Codex 大规模宕机事件正式收尾，付费用户额度恢复正常。几乎同一时间，Peter Yang 惊叹 Claude 的用量限制从「勉强能用」骤变为「几乎无限」——Anthropic 似乎在悄然大幅放宽额度，AI 编程工具的用户额度战正在白热化。",
-      "Vercel CEO Guillermo Rauch 发布「Reject non-understanding」（拒绝非理解）宣言：Slop 的危害不止于代码和 PR，更危险的是低质量、未经核实的 AI 生成内容无休止地砸向你，会让「阅读」这件事本身被彻底贬值。他举了一个正在热传的例子——论坛把一项性能提升归功于编译器变更，但那个 PR 的描述里 AI 自己就写着真正原因是算法和数据结构的改变，暗示同样的收益本可以用别的方式取得。Rauch 说，他要的是让 AI 服务于理解宇宙、增强人类认知与创造力。",
-      "Gemini 的新音频 API 正在催生一波语言学习应用。Peter Yang 用它构建了日语会话教学 App（10 课 × 每课 10 短语），并首次通过 Antigravity 调用 Google 的新音频接口。创作侧同样热闹：Every CEO Dan Shipper 把柏拉图《普罗泰戈拉篇》改写成小说，再用 Opus 5.5 生成电影短片——AI 创作正从辅助代码走向文化经典的再生产。"
+      "Box CEO Aaron Levie 发出 Agent 时代商业重构的核心判断：当 Agent 开始为人类做最优决策，传统「切换成本」将被瓦解——医疗、旅行、本地服务等曾因摩擦而过重的市场将被重新激活；但也有大量依赖用户惰性的行业会面临激烈竞争直至均衡。他预言：一个由 Agent 深度中介的未来，「不可能与今天完全相同」。",
+      "Anthropic 的 Thariq 发出冷静警告：我们最大的风险不是 Agent 太笨，而是人类「吃掉 Agent 带来的生产力增益，只是因为变得更懒了」。4322 赞引发广泛共鸣——生产力工具如果不能转化为真正的产出跃升，只是温水煮青蛙。",
+      "Vercel CEO Guillermo Rauch 公布个人项目：把 Mini 网页浏览器用 Rust + Swift 重写，放弃 Electron + Bun，获得 Liquid Glass 原生体验、更快启动和更精细的焦点/输入控制。他判断「原生是未来」——桌面端和云端都将加速 nativify。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
-    "meta": "No Priors · 主播 Sarah Guo · 嘉宾 Stefano Ermon（Inception 联合创始人兼 CEO / Stanford 教授，扩散模型奠基者之一）· 2026-09-18",
+    "title": "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+    "meta": "Training Data · 主播 · 嘉宾 Aaron Levie（Box 创始人兼 CEO）· 2026-09-15",
     "paras": [
-      "Stefano Ermon 是扩散模型的奠基者之一，被主播称为「扩散之父」式的人物。他 2014 年以助理教授身份加入 Stanford 时就开始做生成模型，那时这个方向并不热门——能在 MNIST 上生成带噪点的数字就是大成功，写论文甚至需要反复解释「训练生成模型是为了从无标注数据里学特征，好提升监督学习效果」，因为那才是当时所有人关心的事。他承认自己只是「在对的时间、对的地点、做对的事」，但坚持了整整十年。",
-      "Inception 的核心赌注是：扩散模型不只赢在图像生成，它会在 AI 推理（inference）这场仗里胜出。Ermon 的技术论证很具体——自回归 LLM 逐 token 生成，而扩散模型从噪声出发做并行 token 生成与精修，这种架构在标准 GPU 上能带来更优的推理扩展性和硬件利用率。他们把这套思路从图像、视频推进到离散的文本与代码生成，产品即 Inception 的 Mercury 系列模型。",
-      "最有说服力的论据来自真实客户：语音 agent 场景（如 Open Call 这类客户）里，ASR → LLM → 文本 → TTS 整条流水线的延迟直接决定用户体验，速度不是锦上添花而是产品门槛。Ermon 判断，效率过去排在能力扩展之后只是次要考量，如今正成为前沿实验室算力战略的核心，而「如何构建这类系统，行业还没找到最好的答案」。",
-      "对从业者的启示：Ermon 的路径是「学术界深耕基础理论 → 时机成熟 → 创业转化」，而不是追热点。他反复强调「速度和效率将是未来几年的主题」，对任何在推理成本上做优化的团队都是明确信号。"
+      "Box 是面向企业的内容管理与协作平台，正在借助 AI 获得全新生命力。Levie 与主播探讨三个主题：AI 如何重塑企业软件生态、创始人如何在 AI 浪潮中 reinvent 自己、以及 Agent 经济学对传统商业模型的深层冲击。",
+      "核心论点：Agent 将瓦解「摩擦护城河」。Levie 指出，许多行业（医疗、旅行、本地服务）的高价格和高壁垒来自「切换成本」——用户懒得换、难换。Agent 让「找最优解」变得零摩擦，这些市场的竞争将骤然加剧，直到新旧势力达到新均衡；而依赖用户惰性的细分市场则面临颠覆性重构。",
+      "对从业者的启示：Levie 强调创始人必须主动 reinvent，而非等市场倒逼。他反复提示：当 Agent 开始替用户做决策，「为摩擦定价」的商业逻辑将彻底失效——企业需要重新思考 value prop 是交付给人类还是交付给 Agent。"
     ],
-    "url": "https://www.youtube.com/watch?v=N1rjtDs8blY"
+    "url": "https://www.youtube.com/watch?v=NE4CLThMPGU"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @ OpenAI",
-        "text": "「所有用量重置已全面传播生效。就这些了，祝大家周末愉快。」——Codex 故障事件正式收尾，付费用户额度全部恢复。",
-        "url": "https://x.com/thsottiaux/status/2103911959544610829"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "「拒绝非理解。Slop 手雷不只是代码和 PR——我们面临一个真实风险：因为低质量、未核实的 AI 文本不断砸过来让人疲惫，「阅读」会被整体贬值。」他举例：一个热传的「性能提升」被归功于编译器变更，而 PR 描述里 AI 自己就说了不是编译器、是算法和数据结构变了。他要的是 AI 服务于理解宇宙、增强人类认知与创造力。",
-        "url": "https://x.com/rauchg/status/2103939888513274147"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "「不知道 Claude 的限制发生了什么，从勉强能用直接变成了几乎无限 😂」——感叹 Anthropic 额度大幅放宽。同时他正用 Gemini 音频 API 做一个教我日语会话的 App，10 课、每课 10 个短语。",
-        "url": "https://x.com/petergyang/status/2104066667361992892"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "Agent 时代的核心趋势：当 Agent 开始为人类做最优决策，传统「切换成本」护城河将被瓦解。医疗、旅行、本地服务曾因摩擦而高壁垒的市场将被重新激活；依赖用户惰性的行业将面临激烈竞争。一个由 Agent 深度中介的未来不可能与今天相同。",
+        "url": "https://x.com/levie/status/2104350592290406849"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @ Anthropic",
-        "text": "「大概一年前我发了最早一批用 Claude Code 做视频的帖子。当时每个作品都要和 Claude 迭代很久才能做对，要一条条指出哪里错了。现在回头看，走得真远。」——一年间 AI 视频生成能力的跃迁。",
-        "url": "https://x.com/trq212/status/2103897226154328502"
+        "text": "我最担心的是：我们可能会「吃掉 Agent 带来的生产力增益，只是因为变得更懒了」。4322 人认同这个警示——生产力工具如果不能转化为真正的产出跃升，只是温水煮青蛙。",
+        "url": "https://x.com/trq212/status/2104273243599405395"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "我把 Mini 网页浏览器用 Rust + Swift 重写，放弃 Electron + Bun。获得 Liquid Glass 原生体验、更快启动、更精细的焦点/输入控制。「原生是未来」——桌面端和云端都将加速 nativify，Vercel 的 Fluid 项目正是在支持这一趋势。",
+        "url": "https://x.com/rauchg/status/2104428800134013205"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @ OpenAI",
+        "text": "「Code freeze 在发布前已不再真实存在，未来代码可能根据约束条件在线生成。」——OpenAI 产品负责人预言软件开发流程的根本转变。6051 赞。",
+        "url": "https://x.com/thsottiaux/status/2104108167806550046"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "YC President",
-        "text": "「这是我现在最喜欢的修 Bug 方式：用 Capy.ai 配 GStack 的 /autoplan 处理生产环境问题，GPT-6 medium reasoning 驱动。」——AI 辅助调试已进入生产实战常态化。",
-        "url": "https://x.com/garrytan/status/2103989902476259702"
+        "text": "「Anti-bot 是给输家准备的。」YC 总裁直怼网站反自动化浪潮，认为过度防护正在赶走真实用户。同日还调侃：「以为用 CDP 就能绕过反爬？你还没见过真正的 anti-bot。」",
+        "url": "https://x.com/garrytan/status/2104402742517420517"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "「我把柏拉图的《普罗泰戈拉篇》写成了小说，然后让 Opus 5.5 把它拍成电影（第一场）。」续作第二场也已发布——AI 创作从代码辅助走向文化经典的再生产。",
-        "url": "https://x.com/danshipper/status/2103850415930708437"
+        "text": "「建立在建模人类为理性代理上的行业，正恐慌于人类 Adopt Rational Agents。」——AI 正在反向冲击那些依赖人类非理性的商业模式。",
+        "url": "https://x.com/danshipper/status/2104302924251951553"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw",
-        "text": "「现在我开始理解为什么有人会聊 AGI 了。这真的太聪明了！」——对某项 AI 能力的公开惊叹，收获 1609 赞。",
-        "url": "https://x.com/steipete/status/2103883264054505493"
+        "text": "计划让 Codex 决定哪些测试真正需要运行，大幅削减 CI 频率至每小时一次。Blacksmith 是优秀赞助方，但需要分散负载。571 赞。",
+        "url": "https://x.com/steipete/status/2104305554760114488"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard'17",
+        "text": "「为什么你持续发文却不变现？」——不理解这两点的人问这种问题：自我表达是人类本能，无需功利 justification；影响力远比金钱值钱。同时提醒：新技术 dazzle 时会 blinded 到它不工作的部分，让人误以为「出问题是我的错」。",
+        "url": "https://x.com/zarazhangrui/status/2104253882025341231"
       }
     ]
   },
-  "blog": {
-    "label": "官方博客",
-    "items": []
-  },
   "colophon": {
-    "coverage": "覆盖 7 位建造者 · 1 期播客",
-    "generatedAt": "2026-09-28T02:00:00.000Z"
+    "source": "follow-builders feed · 14 位建造者 · 1 期播客",
+    "coverage": "覆盖 8 位建造者 · 1 期播客",
+    "generatedAt": "2026-09-29T02:00:17.400Z"
   }
 }
