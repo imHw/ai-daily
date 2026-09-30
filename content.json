@@ -1,95 +1,97 @@
 {
   "issue": {
-    "vol": "20260929",
-    "date": "2026年9月29日",
-    "weekday": "星期二",
-    "dateISO": "2026-09-29",
-    "tagline": "Box CEO 论 Agent 时代的商业摩擦消融 · Thariq 警惕生产力反噬 · Rauch 原生浏览器实验"
+    "vol": "20260930",
+    "date": "2026年9月30日",
+    "weekday": "星期三",
+    "dateISO": "2026-09-30",
+    "tagline": "Sonnet 5.5 正式发布 · OpenAI Dev Day 倒计时一天 · Box 实测 2.4× 更快完成企业知识库任务"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Box CEO 论 Agent 时代的商业摩擦消融 · Thariq 警惕生产力反噬 · Rauch 原生浏览器实验",
+    "title": "Sonnet 5.5 正式发布：效率跃升背后的 Agent 范式转移 · OpenAI Dev Day 明日启幕",
     "paras": [
-      "Box CEO Aaron Levie 发出 Agent 时代商业重构的核心判断：当 Agent 开始为人类做最优决策，传统「切换成本」将被瓦解——医疗、旅行、本地服务等曾因摩擦而过重的市场将被重新激活；但也有大量依赖用户惰性的行业会面临激烈竞争直至均衡。他预言：一个由 Agent 深度中介的未来，「不可能与今天完全相同」。",
-      "Anthropic 的 Thariq 发出冷静警告：我们最大的风险不是 Agent 太笨，而是人类「吃掉 Agent 带来的生产力增益，只是因为变得更懒了」。4322 赞引发广泛共鸣——生产力工具如果不能转化为真正的产出跃升，只是温水煮青蛙。",
-      "Vercel CEO Guillermo Rauch 公布个人项目：把 Mini 网页浏览器用 Rust + Swift 重写，放弃 Electron + Bun，获得 Liquid Glass 原生体验、更快启动和更精细的焦点/输入控制。他判断「原生是未来」——桌面端和云端都将加速 nativify。"
+      "Claude Sonnet 5.5 今日正式上线。Anthropic 团队在 Claude Code 中的实测数据显示：相比 Sonnet 5，任务完成量提升约 30%，速度提高 24 秒，token 消耗减少 6K；Boris Cherny 进一步指出整体 bug 修复速度更快、token 用量减少 30%。这意味着同样的产出可以用更少的成本完成——Agent 的每次循环变得更便宜、更可靠。",
+      "Box CEO Aaron Levie 分享了企业知识库场景下的实测数据：Sonnet 5.5 在 Box Agent 上比 Sonnet 5 整体提升 4 分，且以 12% 更少的 token 量在 2.4 倍更快的速度下交付结果；金融、法律、生命科学、公共部门四大垂直领域分别实现 +18pp、+7pp、+8pp、+7pp 的提升。当 enterprise content 都变得这么好用时，Agent 的中层应用护城河正在被重写。",
+      "OpenAI Dev Day 明日（9月30日）开幕——这是 Dan Shipper 观察到的「OpenAI 历史上发布最多的一次」。Sama 预热称「我们发现了新东西」并获 8097 赞。Thibault Sottiaux 同步公布 Pro $200 订阅调整：取消 5h 硬性限制，每月实际 API 消费折半，且未来会继续降价让利；更重磅的是「更多不消耗 usage 的新功能」将在明天揭晓。"
     ]
   },
   "podcast": {
     "label": "播客精选",
-    "title": "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
-    "meta": "Training Data · 主播 · 嘉宾 Aaron Levie（Box 创始人兼 CEO）· 2026-09-15",
+    "title": "（本期无可用播客素材）",
+    "meta": "follow-builders feed · 本期音频源检索失败，暂无播客内容",
     "paras": [
-      "Box 是面向企业的内容管理与协作平台，正在借助 AI 获得全新生命力。Levie 与主播探讨三个主题：AI 如何重塑企业软件生态、创始人如何在 AI 浪潮中 reinvent 自己、以及 Agent 经济学对传统商业模型的深层冲击。",
-      "核心论点：Agent 将瓦解「摩擦护城河」。Levie 指出，许多行业（医疗、旅行、本地服务）的高价格和高壁垒来自「切换成本」——用户懒得换、难换。Agent 让「找最优解」变得零摩擦，这些市场的竞争将骤然加剧，直到新旧势力达到新均衡；而依赖用户惰性的细分市场则面临颠覆性重构。",
-      "对从业者的启示：Levie 强调创始人必须主动 reinvent，而非等市场倒逼。他反复提示：当 Agent 开始替用户做决策，「为摩擦定价」的商业逻辑将彻底失效——企业需要重新思考 value prop 是交付给人类还是交付给 Agent。"
+      "本期 follow-builders podcast 源因 transcript 接口返回 404（\"Episode not found\"），未能获取到可用的播客素材。如需要补录往期播客，可手动从 YouTube 链接提取 transcript 后重新运行 prepare-digest.js。"
     ],
-    "url": "https://www.youtube.com/watch?v=NE4CLThMPGU"
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude Code @ Anthropic",
+        "text": "Sonnet 5.5 修复了 Claude Code 中的 bug，速度提升 30%，token 用量减少 30%（4835 赞）。更少的 token = 更低的成本 + 更少的中间失败，Agent 可用性再上一个台阶。",
+        "url": "https://x.com/bcherny/status/2104638725317923228"
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "org": "Claude Code & Cowork @ Anthropic",
+        "text": "Sonnet 5.5 在 Claude Code 里用户任务完成率提升约 30%；同一个扫落叶任务的 tool call 比 Sonnet 5 快 24 秒、少用 6K token——省下的时间可以拿来读更多书。",
+        "url": "https://x.com/_catwu/status/2104639552170377399"
+      },
+      {
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "org": "Research @ Anthropic AI",
+        "text": "Sonnet 5.5 有着和 Opus 5.5 类似的手感：写得清晰、速度很快，相比 Sonnet 5 是重大的能力跳跃，非常适合迭代工作。",
+        "url": "https://x.com/alexalbert__/status/2104633937280811010"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "Agent 时代的核心趋势：当 Agent 开始为人类做最优决策，传统「切换成本」护城河将被瓦解。医疗、旅行、本地服务曾因摩擦而高壁垒的市场将被重新激活；依赖用户惰性的行业将面临激烈竞争。一个由 Agent 深度中介的未来不可能与今天相同。",
-        "url": "https://x.com/levie/status/2104350592290406849"
+        "text": "Box Agent 使用 Sonnet 5.5 测试企业知识库复杂工作评估：整体 +4 分、2.4× 更快、少 12% token；金融尽职调查 +48 分（发现算术错误速度快 61%）、法律租赁审查 +14 分、生命科学试验报告 +22 分。当 enterprise 都用得这么顺手，Agent 应用的门槛已被大幅拉低。",
+        "url": "https://x.com/levie/status/2104648654074343480"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @ Anthropic",
-        "text": "我最担心的是：我们可能会「吃掉 Agent 带来的生产力增益，只是因为变得更懒了」。4322 人认同这个警示——生产力工具如果不能转化为真正的产出跃升，只是温水煮青蛙。",
-        "url": "https://x.com/trq212/status/2104273243599405395"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "我把 Mini 网页浏览器用 Rust + Swift 重写，放弃 Electron + Bun。获得 Liquid Glass 原生体验、更快启动、更精细的焦点/输入控制。「原生是未来」——桌面端和云端都将加速 nativify，Vercel 的 Fluid 项目正是在支持这一趋势。",
-        "url": "https://x.com/rauchg/status/2104428800134013205"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @ OpenAI",
-        "text": "「Code freeze 在发布前已不再真实存在，未来代码可能根据约束条件在线生成。」——OpenAI 产品负责人预言软件开发流程的根本转变。6051 赞。",
-        "url": "https://x.com/thsottiaux/status/2104108167806550046"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "YC President",
-        "text": "「Anti-bot 是给输家准备的。」YC 总裁直怼网站反自动化浪潮，认为过度防护正在赶走真实用户。同日还调侃：「以为用 CDP 就能绕过反爬？你还没见过真正的 anti-bot。」",
-        "url": "https://x.com/garrytan/status/2104402742517420517"
+        "text": "现在想让别人「看一下你的 prompt」几乎不可能了——Everything is about references, skills and examples。我现在让 agent 先看自己另外 3 个仓库、搜索网络参考、调用其他 AI API，再做任务。提示词工程正在退场，Skill 工程正在登场。",
+        "url": "https://x.com/trq212/status/2104608785696440510"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "「建立在建模人类为理性代理上的行业，正恐慌于人类 Adopt Rational Agents。」——AI 正在反向冲击那些依赖人类非理性的商业模式。",
-        "url": "https://x.com/danshipper/status/2104302924251951553"
+        "text": "Sonnet 5.5 写作能力在实测中大幅优于 Opus 5.5——我的 benchmark 显示它击败 Astra 的修订任务。但它不是万能的：kieranklaassen 仍偏好它在快速迭代编码与设计上的速度优势。",
+        "url": "https://x.com/danshipper/status/2104636728992776510"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw",
-        "text": "计划让 Codex 决定哪些测试真正需要运行，大幅削减 CI 频率至每小时一次。Blacksmith 是优秀赞助方，但需要分散负载。571 赞。",
-        "url": "https://x.com/steipete/status/2104305554760114488"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教程创作者",
+        "text": "用 Sonnet 5.5 在浏览器里搭了一个完整的星际争霸关卡——Terran 防守 against Zerg，SC2 模型来自 Sketchfab，BGM 用 Suno 生成，整支宣传短片也是 Sonnet 写的代码。AI 创作闭环正在形成。",
+        "url": "https://x.com/petergyang/status/2104736498151256303"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · Harvard'17",
-        "text": "「为什么你持续发文却不变现？」——不理解这两点的人问这种问题：自我表达是人类本能，无需功利 justification；影响力远比金钱值钱。同时提醒：新技术 dazzle 时会 blinded 到它不工作的部分，让人误以为「出问题是我的错」。",
-        "url": "https://x.com/zarazhangrui/status/2104253882025341231"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @ OpenAI",
+        "text": "明天重开 Pro $200 订阅，同时调整 usage 计算方式——折算下来每月实际 API 消费折半。不再 reintroduce 5h 限制，并承诺模型越来越高效，降价红利直接传给用户。还预告了更多不消耗 usage 的新功能，明天揭晓。",
+        "url": "https://x.com/thsottiaux/status/2104823812042940713"
       }
     ]
   },
+  "blog": {
+    "label": "官方博客",
+    "items": []
+  },
   "colophon": {
-    "source": "follow-builders feed · 14 位建造者 · 1 期播客",
-    "coverage": "覆盖 8 位建造者 · 1 期播客",
-    "generatedAt": "2026-09-29T02:00:17.400Z"
+    "source": "follow-builders feed · 18 位建造者 · 34 条推文",
+    "coverage": "覆盖 8 位建造者",
+    "generatedAt": "2026-09-30T02:00:00.000Z"
   }
 }
