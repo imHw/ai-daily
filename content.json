@@ -1,97 +1,94 @@
 {
   "issue": {
-    "vol": "20260930",
-    "date": "2026年9月30日",
-    "weekday": "星期三",
-    "dateISO": "2026-09-30",
-    "tagline": "Sonnet 5.5 正式发布 · OpenAI Dev Day 倒计时一天 · Box 实测 2.4× 更快完成企业知识库任务"
+    "vol": "20261001",
+    "date": "2026年10月01日",
+    "weekday": "星期四",
+    "dateISO": "2026-10-01",
+    "tagline": "OpenAI Dev Day 落幕 · Dots 智能体上线 · Claude in Chrome GA"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sonnet 5.5 正式发布：效率跃升背后的 Agent 范式转移 · OpenAI Dev Day 明日启幕",
+    "title": "OpenAI Dev Day 释放三大信号：Dots 24/7 智能体、Ultrafast 极速模型、Sol 6.1 降价 80%",
     "paras": [
-      "Claude Sonnet 5.5 今日正式上线。Anthropic 团队在 Claude Code 中的实测数据显示：相比 Sonnet 5，任务完成量提升约 30%，速度提高 24 秒，token 消耗减少 6K；Boris Cherny 进一步指出整体 bug 修复速度更快、token 用量减少 30%。这意味着同样的产出可以用更少的成本完成——Agent 的每次循环变得更便宜、更可靠。",
-      "Box CEO Aaron Levie 分享了企业知识库场景下的实测数据：Sonnet 5.5 在 Box Agent 上比 Sonnet 5 整体提升 4 分，且以 12% 更少的 token 量在 2.4 倍更快的速度下交付结果；金融、法律、生命科学、公共部门四大垂直领域分别实现 +18pp、+7pp、+8pp、+7pp 的提升。当 enterprise content 都变得这么好用时，Agent 的中层应用护城河正在被重写。",
-      "OpenAI Dev Day 明日（9月30日）开幕——这是 Dan Shipper 观察到的「OpenAI 历史上发布最多的一次」。Sama 预热称「我们发现了新东西」并获 8097 赞。Thibault Sottiaux 同步公布 Pro $200 订阅调整：取消 5h 硬性限制，每月实际 API 消费折半，且未来会继续降价让利；更重磅的是「更多不消耗 usage 的新功能」将在明天揭晓。"
+      "Sam Altman 在 OpenAI Dev Day 上正式发布 Dots——一种新型 AI 使用方式，能够 24/7 为用户工作，「帮你把时间和注意力收回工作本身」。配套推出 Ultrafast 模式，号称「快到我再也不想回去」，以及 Sol 6.1 模型，价格仅为 Astra 的 1/5，缓存读取享 95% 折扣。",
+      "Thibault Sottiaux 透露，Dots 将在数日内上线数百万实例，用户将用它们处理各种任务。他在实测后发现，经过 2-3 天调教后，Dots 学习速度极快，能独立承担「相当雄心勃勃的任务」，并预告未来将开放创建整个 Dots 团队的能力。",
+      "GitHub SDK 周下载量突破 3000 万，Rauch 用 ffames + Opus 制作了一支 GPU 渲染的视频展示这一里程碑，「用 Rust 编写、GPU 渲染」，展现 AI 辅助开发的高效率闭环。"
     ]
-  },
-  "podcast": {
-    "label": "播客精选",
-    "title": "（本期无可用播客素材）",
-    "meta": "follow-builders feed · 本期音频源检索失败，暂无播客内容",
-    "paras": [
-      "本期 follow-builders podcast 源因 transcript 接口返回 404（\"Episode not found\"），未能获取到可用的播客素材。如需要补录往期播客，可手动从 YouTube 链接提取 transcript 后重新运行 prepare-digest.js。"
-    ],
-    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude Code @ Anthropic",
-        "text": "Sonnet 5.5 修复了 Claude Code 中的 bug，速度提升 30%，token 用量减少 30%（4835 赞）。更少的 token = 更低的成本 + 更少的中间失败，Agent 可用性再上一个台阶。",
-        "url": "https://x.com/bcherny/status/2104638725317923228"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "OpenAI CEO",
+        "text": "Dots 正式发布，代表一种全新 AI 使用方式——24/7 不间断工作，帮用户收回时间与注意力。「Ultrafast 快到我再也不想回去」，Sol 6.1 定价为 Astra 的 1/5 且享 95% 缓存折扣。",
+        "url": "https://x.com/sama/status/2104995014208258235"
       },
       {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "org": "Claude Code & Cowork @ Anthropic",
-        "text": "Sonnet 5.5 在 Claude Code 里用户任务完成率提升约 30%；同一个扫落叶任务的 tool call 比 Sonnet 5 快 24 秒、少用 6K token——省下的时间可以拿来读更多书。",
-        "url": "https://x.com/_catwu/status/2104639552170377399"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "数日内将有数百万 Dots 上线，服务于多样化社区。「2-3 天后我会明显感觉跳跃——它学得快，能独立承担雄心勃勃的任务。我们在观察用户对主 Dots 的使用后，即将开放创建整个团队的能力。」",
+        "url": "https://x.com/thsottiaux/status/2105105086506840421"
       },
       {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "org": "Research @ Anthropic AI",
-        "text": "Sonnet 5.5 有着和 Opus 5.5 类似的手感：写得清晰、速度很快，相比 Sonnet 5 是重大的能力跳跃，非常适合迭代工作。",
-        "url": "https://x.com/alexalbert__/status/2104633937280811010"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "AI SDK 周下载量突破 3000 万。他用 ffames + Opus 制作了一支 GPU 渲染的视频，用 Rust 编写，展示 AI 辅助开发的完整闭环。「你可以直接发货（并沉迷于地图装饰）。」",
+        "url": "https://x.com/rauchg/status/2105043144975011982"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic",
+        "text": "「你试过对 Claude 说『我们有能力做任何事，请更大胆些』吗？」同时分享了 Claude 提速的官方博客文章——Claude Code 性能优化进入新阶段。",
+        "url": "https://x.com/trq212/status/2105065127892734076"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "分享如何设计和构建 harness 以达到前沿性能，但成本仅为 fraction。「用极低成本触及 frontier performance 的方法论。」",
+        "url": "https://x.com/amasad/status/2104996638817386820"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder, Harvard'17",
+        "text": "用 Opus 5.5 在 6 个 prompt 内完成了一个水瓶营销网站，集成 Elevenlabs 音乐、Meshy 3D 资产、OpenAI API 图像生成。「AI 创作闭环正在形成——从代码到设计到素材一站式完成。」",
+        "url": "https://x.com/zarazhangrui/status/2105096296831017078"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "FPV Ventures Partner",
+        "text": "两则市场观察：一是「找到 missionary 比历史上任何时候都难」，创始人跳船加入『显而易见赢家』；二是护城河不再是单一因素，「harness 是千百件小事做对」，执行速度和适应能力成为新门槛。",
+        "url": "https://x.com/nikunj/status/2105148927599423752"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "Box Agent 使用 Sonnet 5.5 测试企业知识库复杂工作评估：整体 +4 分、2.4× 更快、少 12% token；金融尽职调查 +48 分（发现算术错误速度快 61%）、法律租赁审查 +14 分、生命科学试验报告 +22 分。当 enterprise 都用得这么顺手，Agent 应用的门槛已被大幅拉低。",
-        "url": "https://x.com/levie/status/2104648654074343480"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @ Anthropic",
-        "text": "现在想让别人「看一下你的 prompt」几乎不可能了——Everything is about references, skills and examples。我现在让 agent 先看自己另外 3 个仓库、搜索网络参考、调用其他 AI API，再做任务。提示词工程正在退场，Skill 工程正在登场。",
-        "url": "https://x.com/trq212/status/2104608785696440510"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "Every CEO",
-        "text": "Sonnet 5.5 写作能力在实测中大幅优于 Opus 5.5——我的 benchmark 显示它击败 Astra 的修订任务。但它不是万能的：kieranklaassen 仍偏好它在快速迭代编码与设计上的速度优势。",
-        "url": "https://x.com/danshipper/status/2104636728992776510"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教程创作者",
-        "text": "用 Sonnet 5.5 在浏览器里搭了一个完整的星际争霸关卡——Terran 防守 against Zerg，SC2 模型来自 Sketchfab，BGM 用 Suno 生成，整支宣传短片也是 Sonnet 写的代码。AI 创作闭环正在形成。",
-        "url": "https://x.com/petergyang/status/2104736498151256303"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @ OpenAI",
-        "text": "明天重开 Pro $200 订阅，同时调整 usage 计算方式——折算下来每月实际 API 消费折半。不再 reintroduce 5h 限制，并承诺模型越来越高效，降价红利直接传给用户。还预告了更多不消耗 usage 的新功能，明天揭晓。",
-        "url": "https://x.com/thsottiaux/status/2104823812042940713"
+        "text": "AI 行业可通过共享标准和实践应对安全与合规，「我们仍处于行业能集体对齐的阶段，不会损害竞争」。对 AI 安全治理持乐观态度。",
+        "url": "https://x.com/levie/status/2105111520913039530"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": []
+    "title": "Claude in Chrome 正式版上线",
+    "meta": "Claude Blog · 2026-08-26",
+    "paras": [
+      "Claude in Chrome 现已在全部付费订阅中正式可用。Claude 可在浏览器中自主执行操作，无需逐项确认——每次操作前会经安全分类器验证，确保行为安全且符合用户意图。",
+      "该功能已支持读取页面、输入文本、点击链接、页面导航和表单填写，并复用用户现有登录状态。针对 prompt injection 攻击，Anthropic 持续改进模型训练与探测机制，增强对隐藏指令的防御能力。"
+    ],
+    "url": "https://claude.com/blog/claude-in-chrome-generally-available"
   },
   "colophon": {
-    "source": "follow-builders feed · 18 位建造者 · 34 条推文",
+    "source": "follow-builders feed · 14 位建造者 · 32 条推文",
     "coverage": "覆盖 8 位建造者",
-    "generatedAt": "2026-09-30T02:00:00.000Z"
+    "generatedAt": "2026-10-01T02:01:05.977Z"
   }
 }
