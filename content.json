@@ -1,78 +1,90 @@
 {
   "issue": {
-    "vol": "20261001",
-    "date": "2026年10月01日",
-    "weekday": "星期四",
-    "dateISO": "2026-10-01",
-    "tagline": "OpenAI Dev Day 落幕 · Dots 智能体上线 · Claude in Chrome GA"
+    "vol": "20261002",
+    "date": "2026年10月02日",
+    "weekday": "星期五",
+    "dateISO": "2026-10-02",
+    "tagline": "OpenAI Dev Day 余波 · Gemini 4 Argon 发布 · MCP 通过 ChatGPT 部署"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Dev Day 释放三大信号：Dots 24/7 智能体、Ultrafast 极速模型、Sol 6.1 降价 80%",
+    "title": "OpenAI Dev Day 三大产品落地：Dots 智能体、Ultrafast 极速推理、Sol 6.1 降价八折",
     "paras": [
-      "Sam Altman 在 OpenAI Dev Day 上正式发布 Dots——一种新型 AI 使用方式，能够 24/7 为用户工作，「帮你把时间和注意力收回工作本身」。配套推出 Ultrafast 模式，号称「快到我再也不想回去」，以及 Sol 6.1 模型，价格仅为 Astra 的 1/5，缓存读取享 95% 折扣。",
-      "Thibault Sottiaux 透露，Dots 将在数日内上线数百万实例，用户将用它们处理各种任务。他在实测后发现，经过 2-3 天调教后，Dots 学习速度极快，能独立承担「相当雄心勃勃的任务」，并预告未来将开放创建整个 Dots 团队的能力。",
-      "GitHub SDK 周下载量突破 3000 万，Rauch 用 ffames + Opus 制作了一支 GPU 渲染的视频展示这一里程碑，「用 Rust 编写、GPU 渲染」，展现 AI 辅助开发的高效率闭环。"
+      "OpenAI Dev Day 发布的 Dots 24/7 智能体将在数日内上线数百万实例。Thibault Sottiaux 透露，经过 2-3 天调教后，Dots 学习速度极快，能独立承担「相当雄心勃勃的任务」，未来将开放创建整个 Dots 团队的能力。配套 Ultrafast 模式号称「快到我再也不想回去」，Sol 6.1 定价仅为 Astra 的 1/5，缓存读取享 95% 折扣。",
+      "Google 同步推出 Gemini 4 Argon，Josh Woodward（Google Labs VP）在 X 上宣布。Peter Yang 评论称 Google 在 Gemini 4 上表现亮眼，但 coding harness（Antigravity）和个人智能体（Spark）仍需提升竞争力。",
+      "Thibault Sottiaux 同时宣布：开发者现在可以直接通过 ChatGPT 构建和部署 MCP 服务器，并可灵活控制访问权限。这一功能让 MCP 生态的门槛大幅降低。"
     ]
+  },
+  "podcast": {
+    "label": "本期播客",
+    "title": "Sam Altman 谈如何用 Dots 收回自己的时间",
+    "meta": "AI & I by Every · 2026-09-30",
+    "paras": [
+      "Dan Shipper 邀请 Sam Altman 做客重新品牌的 Every Podcast，聊 OpenAI Dev Day 和 Dots 的实际使用体验。Altman 透露自己现在所有提示都在 Ultrafast 上完成，「快得让我再也不想回去」。",
+      "他分享了一个关键场景：Dots 帮他过滤早晨的 Slack 消息，区分紧急与非紧急，让他重获深度工作的早晨。「以前我一起床就查手机，大脑被其他事污染了；现在我信任 Dots 先做判断。」",
+      "Altman 还讲了一个有趣的例子：他曾花 10-20 分钟用 Codex 在 Slack 里搜一张截图，最终放弃；第二天 Dots 主动告诉他「我昨晚一直在想这事」，然后找到了——原来那张图是截图而非文字。",
+      "关于「工业时代 vs 文艺复兴」的类比，Altman 认为 Renaissance 以人为中心，而 AI 正在让人重新夺回对生活的控制。「我希望看到的不是人变成家猫，而是每个人都能开启新的科学发现、艺术创作和公司。」"
+    ],
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "Dots 正式发布，代表一种全新 AI 使用方式——24/7 不间断工作，帮用户收回时间与注意力。「Ultrafast 快到我再也不想回去」，Sol 6.1 定价为 Astra 的 1/5 且享 95% 缓存折扣。",
-        "url": "https://x.com/sama/status/2104995014208258235"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "数日内将有数百万 Dots 上线，服务于多样化社区。「2-3 天后我会明显感觉跳跃——它学得快，能独立承担雄心勃勃的任务。我们在观察用户对主 Dots 的使用后，即将开放创建整个团队的能力。」",
-        "url": "https://x.com/thsottiaux/status/2105105086506840421"
+        "text": "GPT-6.1 Sol 是 OpenAI 史上需求最高的模型，API 和订阅两侧皆然。ChatGPT 和 Codex 曾承压，现已扩容，速度将在数小时内恢复到昨天的近两倍。他还分享了自己让 Dots 画肖像的实测视频——第二次比第一次好很多。",
+        "url": "https://x.com/thsottiaux/status/2105464274747527543"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "AI SDK 周下载量突破 3000 万。他用 ffames + Opus 制作了一支 GPU 渲染的视频，用 Rust 编写，展示 AI 辅助开发的完整闭环。「你可以直接发货（并沉迷于地图装饰）。」",
-        "url": "https://x.com/rauchg/status/2105043144975011982"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @Anthropic",
-        "text": "「你试过对 Claude 说『我们有能力做任何事，请更大胆些』吗？」同时分享了 Claude 提速的官方博客文章——Claude Code 性能优化进入新阶段。",
-        "url": "https://x.com/trq212/status/2105065127892734076"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "分享如何设计和构建 harness 以达到前沿性能，但成本仅为 fraction。「用极低成本触及 frontier performance 的方法论。」",
-        "url": "https://x.com/amasad/status/2104996638817386820"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder, Harvard'17",
-        "text": "用 Opus 5.5 在 6 个 prompt 内完成了一个水瓶营销网站，集成 Elevenlabs 音乐、Meshy 3D 资产、OpenAI API 图像生成。「AI 创作闭环正在形成——从代码到设计到素材一站式完成。」",
-        "url": "https://x.com/zarazhangrui/status/2105096296831017078"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures Partner",
-        "text": "两则市场观察：一是「找到 missionary 比历史上任何时候都难」，创始人跳船加入『显而易见赢家』；二是护城河不再是单一因素，「harness 是千百件小事做对」，执行速度和适应能力成为新门槛。",
-        "url": "https://x.com/nikunj/status/2105148927599423752"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "VP @Google @GoogleLabs @GeminiApp",
+        "text": "Gemini 4 Argon 正式发布。这是 Google 在 Gemini 4 系列中的又一力作，继续扩展 Gemini 的能力边界。",
+        "url": "https://x.com/joshwoodward/status/2105396307250782446"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "AI 行业可通过共享标准和实践应对安全与合规，「我们仍处于行业能集体对齐的阶段，不会损害竞争」。对 AI 安全治理持乐观态度。",
-        "url": "https://x.com/levie/status/2105111520913039530"
+        "text": "AI 进入经济体的部署层存在巨大机会。企业更换工作流的成本远超想象——AI agent 不是部署工具，而是部署「工作流程输出」。Legacy 系统需要上云、数据需要重组、软件需要以新方式连接 agent、评估体系需要持续维护。这为传统 SI 公司和新兴厂商都打开了窗口期。",
+        "url": "https://x.com/levie/status/2105354449795621179"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "smol_ai / Latent Space",
+        "text": "Flow 正在做 hardware engineering 领域里 Git+GitHub 为 software engineering 所做的那件事——对齐成千上万利益相关者的不可逆高价值流水线，从汽车到火箭。用过 Flow 后就回不去了。",
+        "url": "https://x.com/swyx/status/2105348724331606411"
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "Product @OpenAI, prev Head of Product @Linear",
+        "text": "在 OpenAI 一周，最突出的感受是「异常强烈的行动偏见」。随意讨论一个 feature，回到座位时 PR 已经摆在面前；Slack 上说「下周午餐」，五分钟后日历邀请就到了。这种能量很难教，一旦失去极难恢复——而 OpenAI 早已不是小公司。",
+        "url": "https://x.com/thenanyu/status/2105316751802348005"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "GP @SPC, Ex Dropbox CTO",
+        "text": "AI 时代创业的一个悖论：它让 building 变得更容易，但 dramatically 提高了「伟大 startup」的门槛。唯一的方向是敢想 maximalist version——从小处起步会融不到钱、招不到好人、改变不了未来。",
+        "url": "https://x.com/adityaag/status/2105339569139056776"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教育创作者",
+        "text": "Google 在 Gemini 4 上表现强劲，但现在需要在 coding harness（Antigravity）和个人智能体（Spark）上更具竞争力。Dev Day 的体验让他感慨：现实中遇到的粉丝说「爱你的频道」，YouTube 评论区却在喊「AI shill」——这反差令人唏嘘。",
+        "url": "https://x.com/petergyang/status/2105393240392585359"
+      },
+      {
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "org": "Google AI Experiments",
+        "text": "Opal 实验将在 2026 年 11 月 17 日关闭，其经验将融入 Gemini App 的全球 Skills 发布。Skills 是从 Opal 学习中提炼的更快自动化方式——把自定义指令直接保存在聊天中，无需离开对话。",
+        "url": "https://x.com/GoogleLabs/status/2105352889665564838"
       }
     ]
   },
@@ -82,13 +94,14 @@
     "meta": "Claude Blog · 2026-08-26",
     "paras": [
       "Claude in Chrome 现已在全部付费订阅中正式可用。Claude 可在浏览器中自主执行操作，无需逐项确认——每次操作前会经安全分类器验证，确保行为安全且符合用户意图。",
-      "该功能已支持读取页面、输入文本、点击链接、页面导航和表单填写，并复用用户现有登录状态。针对 prompt injection 攻击，Anthropic 持续改进模型训练与探测机制，增强对隐藏指令的防御能力。"
+      "该功能已支持读取页面、输入文本、点击链接、页面导航和表单填写，并复用用户现有登录状态。针对 prompt injection 攻击，Anthropic 持续改进模型训练与探测机制，增强对隐藏指令的防御能力。",
+      "与此同时，Claude 官方宣布 Founder House 将于 10 月 6-8 日来到旧金山 Tech Week，10 月 14 日到达斯德哥尔摩，面向 founder、CEO 和 builder 提供 talks、workshops 和 office hours。"
     ],
     "url": "https://claude.com/blog/claude-in-chrome-generally-available"
   },
   "colophon": {
-    "source": "follow-builders feed · 14 位建造者 · 32 条推文",
+    "source": "follow-builders feed · 17 位建造者 · 34 条推文 · 1 期播客",
     "coverage": "覆盖 8 位建造者",
-    "generatedAt": "2026-10-01T02:01:05.977Z"
+    "generatedAt": "2026-10-02T02:01:06.774Z"
   }
 }
