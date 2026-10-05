@@ -1,30 +1,30 @@
 {
   "issue": {
-    "vol": "20261004",
-    "date": "2026年10月04日",
-    "weekday": "星期日",
-    "dateISO": "2026-10-04",
-    "tagline": "Sam Altman 力赞 dot · Claude for SMB 突破 90 万安装 · Fractile 谈前沿芯片博弈"
+    "vol": "20261005",
+    "date": "2026年10月05日",
+    "weekday": "星期一",
+    "dateISO": "2026-10-05",
+    "tagline": "Sam Altman 警告 AI 宗教化风险 · Vercel 论安全时代 · VAST Data 谈 $30B 数据基础设施 · Claude 合并 Cowork 与 Chat"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI dot 成 Altman 最爱产品，Claude for Small Business 超 90 万安装，芯片创业公司 Fractile 谈前沿算力竞赛",
+    "title": "Sam Altman 公开警示 AI 崇拜风险，Vercel 预判安全成软件业核心职能，Box CEO 判断 Agent  Adoption 仍处极早期",
     "paras": [
-      "OpenAI CEO Sam Altman 在 X 上公开表示，dot 是他在 OpenAI 产品中迄今为止的最爱。dot 每天都能感受到明显的进步，因为它不断学习用户的工作流和风格——把那些令人 dread 的琐事自动化处理，让 Altman '非常开心'。同时他确认了 OpenAI 与 Cerebras 的深化合作，强调双方在 '速度前沿' 上的深度参与。",
-      "Anthropic 的 Claude for Small Business 已突破 90 万次安装，新版本新增 43 个工作流和 27 个集成（含 Shopify、Salesforce、TikTok、Stripe、Zapier 等），从后台运营延伸至增长获客。Anthropic 计划今秋在 10 个美国城市举办免费线下研讨会，由 150 多家认证培训机构执行超过 750 场。",
-      "Fractile CEO Walter Goodwin 做客 No Priors 播客，讨论了为前沿 AI 实验室定制芯片的战略。Fractile 专注于推理速度，Goodwin 认为芯片领域的 '前沿模型' 优势窗口约为 3 到 6 个月——谁先结构性地 carve out 这段时间，谁就能赢得所有部署订单。"
+      "OpenAI CEO Sam Altman 在 X 发文称，\"我对人们试图赋予 AI 模型宗教般的地位或将人类判断权完全让渡给 AI 感到非常不安，我认为这是一个真实的安全问题。\"该推文已获超 2.4 万点赞、4496 条评论，引发广泛讨论——当 AI 渗透进日常决策，何时该保持人类最终裁量权，已成为行业必须直面的边界问题。",
+      "Vercel CEO Guillermo Rauch 在同一周期内发出两条重磅观察：一是\"安全将成为软件公司中越来越重要的职能\"，安全本质上是验证工程（如确认代码是否内存安全）加资本配置（决定将多少 token 投入何处）；二是更具宏大的判断——\"AI 将使一切免费，包括 AI 自身\"，\"最后一个倒下的多米诺将是免费能源，那是人类的最终前沿。\"后者以 3229 点赞成为当日传播最广的 X 帖子之一。",
+      "Box CEO Aaron Levie 对 Agent  Adoption 现状做了冷静分层：编码类任务已率先起飞，但知识工作的真正 Agent 化仍\"非常早期\"。他指出大多数工作流需要重新设计才能适配 Agent——这不是部署一个聊天系统的问题，而是需要重建工作流、重新连接数据、建立新的问责与合规范式。他大胆预测：\"基本可以预期 100 倍的 Agent 采用增长。\""
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Frontier Chips for Frontier AI Labs —— Fractile CEO Walter Goodwin",
-    "meta": "No Priors Podcast · 2026-10-02",
+    "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer — VAST Data CEO Renen Hallak",
+    "meta": "The MAD Podcast with Matt Turck · 2026-09-24",
     "paras": [
-      "Fractile 是一家全栈 AI 芯片公司，从 2022 年夏季成立之初就押注推理速度。Goodwin 解释说，拆解一块 NVIDIA 系统会发现里面有 6 到 9 个 NVIDIA 自研的定制芯片协同工作——而 Fractile 的目标正是生产出能在同样粒度上竞争的产品。",
-      "Goodwin 的核心论断是：芯片领域的前沿模型优势窗口只有 3 到 6 个月。在这个时间窗内结构性地 carve out 优势，就能赢得所有部署。这意味着持续保持 'rolling frontier of bets' 的能力是关键——不断下注，随时准备触发大规模量产。",
-      "访谈还涉及对前沿模型架构未来的预测，以及与 NVIDIA、AMD 和各家内部芯片计划的竞争格局分析。"
+      "Matt Turck 邀请 VAST Data CEO Renen Hallak 深入 AI 基础设施的\"中间层\"——即数据如何喂给 GPU 这一关键环节。Hallak 形容 AI 是五层蛋糕：电力、硬件、软件基础设施、模型、应用，而 VAST Data 正 sits right in the middle。该公司估值已达 $300 亿，服务于 xAI 等顶级 AI 实验室。",
+      "Hallak 分享了一个令人震惊的客户故事：某 AI 云服务商最初预计三年内需要 500 PB 存储，一周后又回来改口说\"还需要额外两个 Exabyte\"。这反映了 AI 数据需求增长的不可预测性——\"未来十年的变化，将超过过去一千年。\"",
+      "访谈涵盖了 VAST Data 如何从传统存储架构进化到为 AI 训练和推理专门设计的数据平面，以及他们如何看待与 NVIDIA 等硬件厂商的合作关系——不是竞争，而是在基础设施层深度协同。"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/watch?v=awoR908Yu5Y"
   },
   "voices": {
     "label": "建造者观点",
@@ -33,88 +33,102 @@
         "name": "Sam Altman",
         "handle": "sama",
         "org": "CEO @OpenAI",
-        "text": "dot 是我最喜欢的 OpenAI 产品。它每天都能感受到明显的进步，因为它不断学习我的 workflow 和风格。让它帮我处理那些平时只会堆积成 '重力井式的 dread' 的琐事，这让我非常开心。同时确认了与 Cerebras 的深度合作，共同推进速度前沿。",
-        "url": "https://x.com/sama/status/2106085986606403684"
+        "text": "\"我对人们试图赋予 AI 模型宗教般的地位或将人类判断权完全让渡给 AI 感到非常不安，我认为这是一个真实的安全问题。\"——这条推文被广泛转载讨论，触及了 AI 安全中最微妙的一层：不是模型会作恶，而是人类对模型的盲目信任本身就是一种风险。",
+        "url": "https://x.com/sama/status/2106388373221118198"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "CEO @Vercel",
+        "text": "\"AI 将使一切免费，包括 AI 自身。最后一个倒下的多米诺将是免费能源，那是人类的最终前沿。\"同时他也发出更务实的判断：安全将成为软件公司中越来越大的职能——\"安全即验证工程，加上资本配置决策（该把多少 token 投到哪里）。\"他认为小团队反而有机会颠覆安全领域。",
+        "url": "https://x.com/rauchg/status/2106503460384538793"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "CEO @Box",
+        "text": "\"AI Agent 采用仍处于两极分化状态。\"编码类任务已经起飞，但知识工作领域的真正 Agent 化仍非常早期——因为大多数工作流需要重新设计才能适配 Agent。这不是部署聊天系统的问题，而是需要重建工作流、重新连接数据、建立新的问责与合规范式。他大胆预测：\"基本可以预期 100 倍的 Agent 采用增长。\"",
+        "url": "https://x.com/levie/status/2106583814709633413"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "好消息：Pro 500 用户的重置问题已全部修复。未来模型在代码删除和简化方面会做得更好——just in time。",
-        "url": "https://x.com/thsottiaux/status/2106252868307271752"
+        "text": "官宣产品方向：\"现在只关注简化、提升效率、突破性功能或新模型。有时需要超前投资，但用户反馈很清晰——你们想要更简单。正在处理。\"同日他分享了自己用 dot 产品达到 Inbox Zero 的体验：批量处理邮件分类、标记、回复，周六上午就完成了过去数周的积压。",
+        "url": "https://x.com/thsottiaux/status/2106610099720720811"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "President & CEO @YCombinator",
-        "text": "GBrain 跨 session 协调超出预期：我的 collaborator Sina 启动了一波修复，甚至能自动避开我已在多个 Capy 线程中处理的事项。全模型无关。我的 GBrain 愿景：让 agent 像 web 一样 native、expressive、inevitable——不是 chatbot 功能，而是 24/7  Personal Jiminy Cricket。",
-        "url": "https://x.com/garrytan/status/2106092289173213444"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Sr Director AI @Meta; Prev: Google (Led Gemini, Veo, Nano Banana)",
+        "text": "\"AI 采纳本质上是一个产品问题。\"即使是在使用 AI 的 2% 付费用户中，使用深度也很浅——大多数 AI 产品看起来像飞机驾驶舱，有 100 个操纵杆（连接器、权限、模型选择、token 用量等）。他预测：\"未来 12 个月，随着产品团队成熟并让 AI 产品更易用，情况将发生实质性变化。\"",
+        "url": "https://x.com/realmadhuguru/status/2106450089938157720"
       },
       {
-        "name": "Claude",
-        "handle": "claudeai",
-        "org": "AI Assistant @Anthropic",
-        "text": "用 Opus 5.5 制作的交互式 3D 喷气发动机，可以拆解查看内部结构；用 Sonnet 5.5 制作的弹起式纸艺城市，每栋建筑都是平铺 canvas 上的折纸。",
-        "url": "https://x.com/claudeai/status/2106125478956507480"
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "org": "Designed @Cursor, @Notion, @Stripe · Builder",
+        "text": "发了一篇关于\"均值回归\"的长文，批评 AI 时代创意工作的趋同现象：\"当每个人都在看别人决定做什么时，我们最终会停止做自己真正想做的事。\"他写道，AI 使这种复制循环变得毫无摩擦——\"我们不再问自己想说什么，而是问说什么会得到回报。\"最后得出结论：我们需要像艺术家一样思考——通过作品发展视角，而非通过算法优化可见度。",
+        "url": "https://x.com/ryolu_/status/2106337039201505453"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI Educator, Ex-Cursor",
-        "text": "我之前每年花近 $300 买一个 YouTube 研究工具（名字就不提了）。产品变得越来越复杂，于是我想试试 Claude 能不能做出我真正需要的核心功能。Claude 5 分钟就搞定了。🥹",
-        "url": "https://x.com/petergyang/status/2106072698564874410"
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "GP @SPC · Ex-Dropbox CTO · Co-Founder @Bevel",
+        "text": "\"一个常见误解是：如果你超级有钱，就能获得世界顶级医生/律师的无限量服务。\"现实是，顶级癌症医生无论面对谁，都只会给你 20-30 分钟。\"这就是 AI 为何如此疯狂——它既民主化了 access，又让每个人的可用时间变为无限。这就是\"智能廉价到无法计量\"的实际效应。\"",
+        "url": "https://x.com/adityaag/status/2106503075209044336"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
         "org": "CEO @Replit",
-        "text": "在 @supabase select 上偶遇 Woz，太有趣了。",
-        "url": "https://x.com/amasad/status/2106191901900915194"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @Anthropic",
-        "text": "\"You should know\" 是了解 Claude 能力边界的好方式，也是 Mods 能做的事情的完美例子——你真的可以让 Claude Code 成为你自己的。",
-        "url": "https://x.com/trq212/status/2106119299484221762"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "Partner @FPVentures",
-        "text": "分享了一个用 Claude Code/Codex 嗅探家庭网络数据包、找出可自动化设备的高质量 prompt 示例——用 Hermes agent 管理 Gmail、恒温器、DoorDash、Amazon 等，然后让 AI 研究如何连接 Apple TV/HomeKit。",
-        "url": "https://x.com/nikunj/status/2106072546206773574"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "AI Engineer, @smol_ai",
-        "text": "是时候认真对待 Security x AI 了。AI Security Summit 第二届已成为远比去年重要的活动——rogue agents 激增、更多 breach、更多 AI 驱动攻击。安全必须成为 AI 对话的中心。",
-        "url": "https://x.com/swyx/status/2106042773510177256"
+        "text": "发布 Replit Drift，并与 OpenRouter 的 Alex Atallah 进行深度技术对谈。另有一则关于\"谁在构建这个\"的互动帖引发讨论。",
+        "url": "https://x.com/amasad/status/2106406812316827874"
       },
       {
         "name": "Peter Steinberger",
         "handle": "steipete",
         "org": "OpenClaw + OpenAI",
-        "text": "DevDay 上我最喜欢的 slide，给团队点赞！https://t.co/AQtPzNTZhx",
-        "url": "https://x.com/steipete/status/2106076508020506722"
+        "text": "调侃大家都在构建相同的东西（引用了某篇相关讨论），同时透露 OpenClaw 的 Android App 已进入审核 limbo 超过一周。他的帖子获得 6300+ 点赞，反映出开发者对平台审核不确定性的普遍焦虑。",
+        "url": "https://x.com/steipete/status/2106446147791597774"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Partner @FPVentures",
+        "text": "\"当个人 Agent 成为必然，创新者的窘境将在未来几年上演。\"他以 Amazon 保护\"广告\"现金牛 vs DoorDash 缓慢开放 CLI 和文本下单为例，说明大公司如何在护城河与开放式 Agent 生态之间做抉择。同时提醒：\"跑 token max 来刷 token 数在这个时代没有实际价值。\"",
+        "url": "https://x.com/nikunj/status/2106488814940414455"
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "Product, Codex @OpenAI; Prev Head of Product @Linear",
+        "text": "转发并赞同 Thibault Sottiaux 的产品简化宣言：\"他说完了。\"",
+        "url": "https://x.com/thenanyu/status/2106620595534491948"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard '17",
+        "text": "提出一个问题引发讨论：\"如果编码 Agent 变得强 10 倍，世界会变成什么样？\"——这个问题本身已暗示 Agent 能力的下一个跃迁点将在编程领域。",
+        "url": "https://x.com/zarazhangrui/status/2106405482852434359"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude for Small Business 推出新工作流、集成与培训计划",
-    "meta": "Claude Blog · 2026-09-15",
+    "title": "Claude Cowork 和 Chat 正式合并为一个 Claude",
+    "meta": "Claude Blog · 2026-09-16",
     "paras": [
-      "Claude for Small Business 现已包含 43 个工作流和 27 个新集成，覆盖 Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe 和 Zapier 等小企业主常用的工具。新版本将 Claude 的能力从后台运营扩展至业务增长——生成 leads、回复 inbound inquiry、撰写 proposals，以及日常报告。",
-      "自今年 5 月上线以来，该产品已被安装超过 90 万次。Pedro Rubio（Blackfyre GovCon 创始人兼 CEO）分享：\"以前需要 120 小时的工作现在只需 5 分钟，我有太多时间可以陪家人、做喜欢的事，以及经营一直忽略的业务部分。\"",
-      "Anthropic 今秋将在 10 个美国城市巡回举办免费线下研讨会，由 150 多家认证培训机构执行超过 750 场，14 家集成合作伙伴同步举办免费网络研讨会。"
+      "Anthropic 宣布 Claude Cowork 和 Chat 合并为一个统一入口。用户可以带着一个紧急问题进来，也可以把一个中午截止的报告交给 Claude 让它自行推进——即使你已经关掉了笔记本电脑，Claude 仍会继续工作。新功能将在接下来几周内在 Pro 和 Max 订阅中陆续上线。",
+      "同时推出的还有三个新产品：Claude Docs（文档协作）、Claude Slides（演示文稿生成）、以及 Claude Design（设计能力可直接在工作对话中使用）。用户可以说\"写一份我们一贯风格的周报告，标记任何延期的项目，并把要点做成 5 张幻灯片\"，Claude 会自动完成全流程并交付可编辑结果。",
+      "Anthropic Senior Economist Andrew Keller 分享了他使用经历：\"我可以要求 Claude 调出我的法律研究数据库，它会拉取所有案例、阅读它们、判断哪些其他案例可能需要，下载后存入文件夹供我个人审阅。\"这描述了 Agent 化知识的典型场景——从检索到整理到交付，全程无需人工介入中间环节。"
     ],
-    "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
+    "url": "https://claude.com/blog/cowork-is-now-claude"
   },
   "colophon": {
-    "source": "follow-builders feed · 16 位建造者 · 35 条推文 · 1 期播客 · 1 篇博客",
-    "coverage": "覆盖 16 位建造者 · 含 1 篇官方博客",
-    "generatedAt": "2026-10-04T02:00:49.478Z"
+    "source": "follow-builders feed · 13 位建造者 · 1 期播客 · 1 篇官方博客",
+    "coverage": "覆盖 13 位建造者 · 含 1 篇官方博客",
+    "generatedAt": "2026-10-05T02:01:03.341Z"
   }
 }
