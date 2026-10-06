@@ -44,13 +44,6 @@
         "url": "https://x.com/rauchg/status/2106863842450133114"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "CEO @Vercel",
-        "text": "在另一条推文中提出了一个简洁的分层原则：README 由人类手写，这是给人类看的叙事时刻；文档的底层内容由 AI 生成，这是给 Agent 吃的结构化数据。\"这是一条可以让世界变得更小的规则。\"",
-        "url": "https://x.com/rauchg/status/2106848085267902815"
-      },
-      {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "CEO @Box",
@@ -106,8 +99,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 11 位建造者 · 1 期播客",
-    "coverage": "覆盖 11 位建造者 · 含 1 期播客",
+    "source": "follow-builders feed · 9 位建造者 · 1 期播客",
+    "coverage": "覆盖 9 位建造者 · 含 1 期播客",
     "generatedAt": "2026-10-06T02:01:08.136Z"
   }
 }
