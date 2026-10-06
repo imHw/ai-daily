@@ -1,134 +1,113 @@
 {
   "issue": {
-    "vol": "20261005",
-    "date": "2026年10月05日",
-    "weekday": "星期一",
-    "dateISO": "2026-10-05",
-    "tagline": "Sam Altman 警告 AI 宗教化风险 · Vercel 论安全时代 · VAST Data 谈 $30B 数据基础设施 · Claude 合并 Cowork 与 Chat"
+    "vol": "20261006",
+    "date": "2026年10月06日",
+    "weekday": "星期二",
+    "dateISO": "2026-10-06",
+    "tagline": "Thibault 承诺 Codex 28天迭代计划 · DHH 与 Rust 之争背后的真相 · Aaron Levie 见证 AI 催生新岗位浪潮"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Sam Altman 公开警示 AI 崇拜风险，Vercel 预判安全成软件业核心职能，Box CEO 判断 Agent  Adoption 仍处极早期",
+    "title": "OpenAI 推进产品简化战略，Vercel 公开 DHH vs Rust 之争，Box CEO 描述 AI 时代就业结构重构",
     "paras": [
-      "OpenAI CEO Sam Altman 在 X 发文称，\"我对人们试图赋予 AI 模型宗教般的地位或将人类判断权完全让渡给 AI 感到非常不安，我认为这是一个真实的安全问题。\"该推文已获超 2.4 万点赞、4496 条评论，引发广泛讨论——当 AI 渗透进日常决策，何时该保持人类最终裁量权，已成为行业必须直面的边界问题。",
-      "Vercel CEO Guillermo Rauch 在同一周期内发出两条重磅观察：一是\"安全将成为软件公司中越来越重要的职能\"，安全本质上是验证工程（如确认代码是否内存安全）加资本配置（决定将多少 token 投入何处）；二是更具宏大的判断——\"AI 将使一切免费，包括 AI 自身\"，\"最后一个倒下的多米诺将是免费能源，那是人类的最终前沿。\"后者以 3229 点赞成为当日传播最广的 X 帖子之一。",
-      "Box CEO Aaron Levie 对 Agent  Adoption 现状做了冷静分层：编码类任务已率先起飞，但知识工作的真正 Agent 化仍\"非常早期\"。他指出大多数工作流需要重新设计才能适配 Agent——这不是部署一个聊天系统的问题，而是需要重建工作流、重新连接数据、建立新的问责与合规范式。他大胆预测：\"基本可以预期 100 倍的 Agent 采用增长。\""
+      "OpenAI 的 Thibault Sottiaux 发出强硬信号：未来 28 天内，每天要么交付一个对 Codex 用户有实质改进的功能，要么直接推倒重来。这条推文已获得超 2 万点赞、1140 次转发和 3210 条评论，反映出用户对 Codex/ChatGPT 当前复杂度的普遍不满。与此同时，Peter Yang 公开支持这一方向，直言 Work 功能的独立品牌化是一个错误——Claude 已将 Cowork 合并回 Chat，他认为 OpenAI 也应如此。",
+      "Vercel CEO Guillermo Rauch 在 DHH 关于 Rust 的争议上补刀：公司内部经历了 Turborepo 从 Go 迁移到 Rust 的过程，结论是「对人类最好的」并不等于「对商业最好的」。他强调，随着 Agent 带来的『超音速海啸』到来，Rust 本身也不是终极答案。更有趣的是他提出的分工原则：README 必须手写，因为那是给人读的；文档内部用 AI 英语，因为那是给 Agent 读的——这是一个清晰的人机沟通分界线。",
+      "Box CEO Aaron Levie 从就业视角描绘 AI 落地现状：AI 正在创造工程师、FDE（前端部署工程师）、新服务咨询公司等岗位，而银行、生命科学、制造业、律所等传统行业也在大规模招聘或重新定位技术人才来部署 Agent。他指出，已公布的统计数据很可能低估了实际新增岗位的数量。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer — VAST Data CEO Renen Hallak",
-    "meta": "The MAD Podcast with Matt Turck · 2026-09-24",
+    "title": "Re-Founding Incumbents for the AI Era — Sequence Holdings CEO Michael Lee",
+    "meta": "No Priors · 2026-09-24 · Matt Turck 主持",
     "paras": [
-      "Matt Turck 邀请 VAST Data CEO Renen Hallak 深入 AI 基础设施的\"中间层\"——即数据如何喂给 GPU 这一关键环节。Hallak 形容 AI 是五层蛋糕：电力、硬件、软件基础设施、模型、应用，而 VAST Data 正 sits right in the middle。该公司估值已达 $300 亿，服务于 xAI 等顶级 AI 实验室。",
-      "Hallak 分享了一个令人震惊的客户故事：某 AI 云服务商最初预计三年内需要 500 PB 存储，一周后又回来改口说\"还需要额外两个 Exabyte\"。这反映了 AI 数据需求增长的不可预测性——\"未来十年的变化，将超过过去一千年。\"",
-      "访谈涵盖了 VAST Data 如何从传统存储架构进化到为 AI 训练和推理专门设计的数据平面，以及他们如何看待与 NVIDIA 等硬件厂商的合作关系——不是竞争，而是在基础设施层深度协同。"
+      "Michael Lee 分享了他和团队 20 个月前创立 Sequence Holdings 的初衷：与传统 PE 的三年退出周期不同，Sequence 采取永久持有模式，每年只做一笔交易，深度参与企业的 AI 转型重建。他们刚宣布了一笔规模达 77 亿美元的 AI 私有化交易，买家是戴尔家族办公室 Baldwin——这是截至目前规模最大的 AI 并购案之一。",
+      "Lee 的核心论点是：大多数公司的「受追捧人设」与 AI 时代的工程文化存在根本冲突。他认为，要真正抓住 AI 红利，必须在组织内部建立一种文化，让工程师成为被推崇的主角，而非将技术投资仅视为短期的财务包装。",
+      "访谈中还触及了从公开市场投资到私募股权再到运营层面的价值转移趋势，以及 AI 转型如何从概念渗透到实体经济的各个角落。Lee 的语气冷静而笃定，透露出对这种长线模式的深刻信念。"
     ],
-    "url": "https://www.youtube.com/watch?v=awoR908Yu5Y"
+    "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "CEO @OpenAI",
-        "text": "\"我对人们试图赋予 AI 模型宗教般的地位或将人类判断权完全让渡给 AI 感到非常不安，我认为这是一个真实的安全问题。\"——这条推文被广泛转载讨论，触及了 AI 安全中最微妙的一层：不是模型会作恶，而是人类对模型的盲目信任本身就是一种风险。",
-        "url": "https://x.com/sama/status/2106388373221118198"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "发布了一条强硬的 28 天产品路线图：\"接下来 28 天，每天我们要么交付一个对大部分 Codex/工作用户有明显改进的功能，要么直接推倒重来。改进由此开始。\"这条推文获得超 2 万点赞、1140 转、3210 评论，是近期 OpenAI 产品方向上最引人注目的信号——用户等简化已等太久。",
+        "url": "https://x.com/thsottiaux/status/2106845241357824205"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "CEO @Vercel",
-        "text": "\"AI 将使一切免费，包括 AI 自身。最后一个倒下的多米诺将是免费能源，那是人类的最终前沿。\"同时他也发出更务实的判断：安全将成为软件公司中越来越大的职能——\"安全即验证工程，加上资本配置决策（该把多少 token 投到哪里）。\"他认为小团队反而有机会颠覆安全领域。",
-        "url": "https://x.com/rauchg/status/2106503460384538793"
+        "text": "就 DHH 批评 Rust 的事件发声：Vercel 经历了 Turborepo 从 Go 迁移到 Rust 的全过程，\"结论是：对人类最好的不等于对商业最好的\"。同时提出人机沟通的分工原则——README 必须手写因为给人读，文档内部用 AI 英语因为给 Agent 读。还透露 Vercel Speed 又提速了，Astra 超快模型带来的性能提升让框架层开销变得更关键。",
+        "url": "https://x.com/rauchg/status/2106863842450133114"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "CEO @Vercel",
+        "text": "在另一条推文中提出了一个简洁的分层原则：README 由人类手写，这是给人类看的叙事时刻；文档的底层内容由 AI 生成，这是给 Agent 吃的结构化数据。\"这是一条可以让世界变得更小的规则。\"",
+        "url": "https://x.com/rauchg/status/2106848085267902815"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "CEO @Box",
-        "text": "\"AI Agent 采用仍处于两极分化状态。\"编码类任务已经起飞，但知识工作领域的真正 Agent 化仍非常早期——因为大多数工作流需要重新设计才能适配 Agent。这不是部署聊天系统的问题，而是需要重建工作流、重新连接数据、建立新的问责与合规范式。他大胆预测：\"基本可以预期 100 倍的 Agent 采用增长。\"",
-        "url": "https://x.com/levie/status/2106583814709633413"
+        "text": "从就业视角观察 AI 落地的真实影响：\"AI 正在创造我们前所未见的新岗位——AI 工程师、FDE、部署服务公司，而每家银行、药企、制造厂、律所都在大量招聘或重新定位技术人才来部署 Agent。已公布的统计数据很可能严重低估了实际新增岗位数量。\"",
+        "url": "https://x.com/levie/status/2106893015063421357"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "官宣产品方向：\"现在只关注简化、提升效率、突破性功能或新模型。有时需要超前投资，但用户反馈很清晰——你们想要更简单。正在处理。\"同日他分享了自己用 dot 产品达到 Inbox Zero 的体验：批量处理邮件分类、标记、回复，周六上午就完成了过去数周的积压。",
-        "url": "https://x.com/thsottiaux/status/2106610099720720811"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教育创作者",
+        "text": "公开支持 OpenAI 的简化路线，并给出具体建议：\"Work 功能的独立品牌化是个错误，就像 Claude 把 Cowork 合并回 Chat 一样。我认为应该做三件事：合并 Work 与 Codex、统一 Spaces/Pages/Sites 的概念、简化模型与 effort 选择器。我的主战场正在变得更好。\"",
+        "url": "https://x.com/petergyang/status/2106926956554195018"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Sr Director AI @Meta; Prev: Google (Led Gemini, Veo, Nano Banana)",
-        "text": "\"AI 采纳本质上是一个产品问题。\"即使是在使用 AI 的 2% 付费用户中，使用深度也很浅——大多数 AI 产品看起来像飞机驾驶舱，有 100 个操纵杆（连接器、权限、模型选择、token 用量等）。他预测：\"未来 12 个月，随着产品团队成熟并让 AI 产品更易用，情况将发生实质性变化。\"",
-        "url": "https://x.com/realmadhuguru/status/2106450089938157720"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "President & CEO @YCombinator",
+        "text": "回应关于所有人都在构建相同基础设施组件的现象：\"当每个人都建造同样的原语时，恰恰说明这些需求只会越来越强烈。最终我们会收敛到一个正确的操作系统。\"",
+        "url": "https://x.com/garrytan/status/2106901111106097210"
       },
       {
-        "name": "Ryo Lu",
-        "handle": "ryolu_",
-        "org": "Designed @Cursor, @Notion, @Stripe · Builder",
-        "text": "发了一篇关于\"均值回归\"的长文，批评 AI 时代创意工作的趋同现象：\"当每个人都在看别人决定做什么时，我们最终会停止做自己真正想做的事。\"他写道，AI 使这种复制循环变得毫无摩擦——\"我们不再问自己想说什么，而是问说什么会得到回报。\"最后得出结论：我们需要像艺术家一样思考——通过作品发展视角，而非通过算法优化可见度。",
-        "url": "https://x.com/ryolu_/status/2106337039201505453"
-      },
-      {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "org": "GP @SPC · Ex-Dropbox CTO · Co-Founder @Bevel",
-        "text": "\"一个常见误解是：如果你超级有钱，就能获得世界顶级医生/律师的无限量服务。\"现实是，顶级癌症医生无论面对谁，都只会给你 20-30 分钟。\"这就是 AI 为何如此疯狂——它既民主化了 access，又让每个人的可用时间变为无限。这就是\"智能廉价到无法计量\"的实际效应。\"",
-        "url": "https://x.com/adityaag/status/2106503075209044336"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "CEO @Replit",
-        "text": "发布 Replit Drift，并与 OpenRouter 的 Alex Atallah 进行深度技术对谈。另有一则关于\"谁在构建这个\"的互动帖引发讨论。",
-        "url": "https://x.com/amasad/status/2106406812316827874"
-      },
-      {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenClaw + OpenAI",
-        "text": "调侃大家都在构建相同的东西（引用了某篇相关讨论），同时透露 OpenClaw 的 Android App 已进入审核 limbo 超过一周。他的帖子获得 6300+ 点赞，反映出开发者对平台审核不确定性的普遍焦虑。",
-        "url": "https://x.com/steipete/status/2106446147791597774"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "Partner @FPVentures",
-        "text": "\"当个人 Agent 成为必然，创新者的窘境将在未来几年上演。\"他以 Amazon 保护\"广告\"现金牛 vs DoorDash 缓慢开放 CLI 和文本下单为例，说明大公司如何在护城河与开放式 Agent 生态之间做抉择。同时提醒：\"跑 token max 来刷 token 数在这个时代没有实际价值。\"",
-        "url": "https://x.com/nikunj/status/2106488814940414455"
-      },
-      {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "Product, Codex @OpenAI; Prev Head of Product @Linear",
-        "text": "转发并赞同 Thibault Sottiaux 的产品简化宣言：\"他说完了。\"",
-        "url": "https://x.com/thenanyu/status/2106620595534491948"
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "org": "VC @FirstMarkCap; MAD Podcast 主持",
+        "text": "指出一个在 AI 圈外仍被严重误解的事实：\"模型是生长出来的，不是构建出来的——而我们并不真正理解它们是如何工作的。\"因此可解释性研究变得尤为紧迫。",
+        "url": "https://x.com/mattturck/status/2106821381765956044"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
         "org": "Builder · Harvard '17",
-        "text": "提出一个问题引发讨论：\"如果编码 Agent 变得强 10 倍，世界会变成什么样？\"——这个问题本身已暗示 Agent 能力的下一个跃迁点将在编程领域。",
-        "url": "https://x.com/zarazhangrui/status/2106405482852434359"
+        "text": "分享了对 OpenAI Opus 5.5 的使用体验：\"它默默跑 20 多分钟，然后带着一个完整的杰作回来。\"同时观察到另一个趋势：X 个人资料正在取代传统简历，成为求职者的核心展示窗口。",
+        "url": "https://x.com/zarazhangrui/status/2106876921082712250"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Partner @FPVentures",
+        "text": "表达了对远程投资决策的怀疑：\"我可能有点老派，但我不相信通过 Zoom 打电话就能完成投资决策——有时候甚至只看 CEO 一面。真正的 alpha 在于去创始人的办公室，看团队能量、联合创始人如何互补、 beta 产品长什么样。我坚持在最终会议时要求面对面见面，创始人经常说我是唯一一个这么要求的人。\"",
+        "url": "https://x.com/nikunj/status/2106957269212742135"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "CEO @every",
+        "text": "分享了他用 OpenAI dot 产品的真实体验：\"过去几周 dot 已成为我与 AI 交互的主要接口。我给它起名叫 boo，很可爱。但一年之后，我觉得 boo 会消失——因为我会像对待 OpenClaw 早期一样，一旦有功能更强的替代品出现就会放弃个性化设置。\"",
+        "url": "https://x.com/danshipper/status/2106892868564431255"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "title": "Claude Cowork 和 Chat 正式合并为一个 Claude",
-    "meta": "Claude Blog · 2026-09-16",
-    "paras": [
-      "Anthropic 宣布 Claude Cowork 和 Chat 合并为一个统一入口。用户可以带着一个紧急问题进来，也可以把一个中午截止的报告交给 Claude 让它自行推进——即使你已经关掉了笔记本电脑，Claude 仍会继续工作。新功能将在接下来几周内在 Pro 和 Max 订阅中陆续上线。",
-      "同时推出的还有三个新产品：Claude Docs（文档协作）、Claude Slides（演示文稿生成）、以及 Claude Design（设计能力可直接在工作对话中使用）。用户可以说\"写一份我们一贯风格的周报告，标记任何延期的项目，并把要点做成 5 张幻灯片\"，Claude 会自动完成全流程并交付可编辑结果。",
-      "Anthropic Senior Economist Andrew Keller 分享了他使用经历：\"我可以要求 Claude 调出我的法律研究数据库，它会拉取所有案例、阅读它们、判断哪些其他案例可能需要，下载后存入文件夹供我个人审阅。\"这描述了 Agent 化知识的典型场景——从检索到整理到交付，全程无需人工介入中间环节。"
-    ],
-    "url": "https://claude.com/blog/cowork-is-now-claude"
+    "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 13 位建造者 · 1 期播客 · 1 篇官方博客",
-    "coverage": "覆盖 13 位建造者 · 含 1 篇官方博客",
-    "generatedAt": "2026-10-05T02:01:03.341Z"
+    "source": "follow-builders feed · 11 位建造者 · 1 期播客",
+    "coverage": "覆盖 11 位建造者 · 含 1 期播客",
+    "generatedAt": "2026-10-06T02:01:08.136Z"
   }
 }
