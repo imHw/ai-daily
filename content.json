@@ -1,96 +1,85 @@
 {
   "issue": {
-    "vol": "20261006",
-    "date": "2026年10月06日",
-    "weekday": "星期二",
-    "dateISO": "2026-10-06",
-    "tagline": "Thibault 承诺 Codex 28天迭代计划 · DHH 与 Rust 之争背后的真相 · Aaron Levie 见证 AI 催生新岗位浪潮"
+    "vol": "20261007",
+    "date": "2026年10月07日",
+    "weekday": "星期三",
+    "dateISO": "2026-10-07",
+    "tagline": "Vercel 发布 gdp-ts 强制 API 安全校验 · Box CEO 拆解企业 Agent 落地瓶颈 · Meta 首席 AI 总监：评测即产品规格"
   },
   "lead": {
     "kicker": "今日主线",
     "title": "OpenAI 推进产品简化战略，Vercel 公开 DHH vs Rust 之争，Box CEO 描述 AI 时代就业结构重构",
     "paras": [
-      "OpenAI 的 Thibault Sottiaux 发出强硬信号：未来 28 天内，每天要么交付一个对 Codex 用户有实质改进的功能，要么直接推倒重来。这条推文已获得超 2 万点赞、1140 次转发和 3210 条评论，反映出用户对 Codex/ChatGPT 当前复杂度的普遍不满。与此同时，Peter Yang 公开支持这一方向，直言 Work 功能的独立品牌化是一个错误——Claude 已将 Cowork 合并回 Chat，他认为 OpenAI 也应如此。",
-      "Vercel CEO Guillermo Rauch 在 DHH 关于 Rust 的争议上补刀：公司内部经历了 Turborepo 从 Go 迁移到 Rust 的过程，结论是「对人类最好的」并不等于「对商业最好的」。他强调，随着 Agent 带来的『超音速海啸』到来，Rust 本身也不是终极答案。更有趣的是他提出的分工原则：README 必须手写，因为那是给人读的；文档内部用 AI 英语，因为那是给 Agent 读的——这是一个清晰的人机沟通分界线。",
-      "Box CEO Aaron Levie 从就业视角描绘 AI 落地现状：AI 正在创造工程师、FDE（前端部署工程师）、新服务咨询公司等岗位，而银行、生命科学、制造业、律所等传统行业也在大规模招聘或重新定位技术人才来部署 Agent。他指出，已公布的统计数据很可能低估了实际新增岗位的数量。"
+      "Vercel CEO Guillermo Rauch 正式发布 gdp-ts（Ghosts of Departed Proofs for TypeScript）——一个面向 TypeScript 的库、linter 和 AI skill，核心理念是「敏感的 API 操作必须附带授权证明」。通过类型系统，在编译阶段验证调用方是否已完成鉴权检查，从而阻止团队和 Agent 在运行时才暴露安全问题。Rauch 指出，Agent 正在以远超人工 code review 的速度生成代码，而 Rust 的 borrow checker 范式正是为这种场景设计的——tight constraints，让 agent thrive in tight loops。",
+      "Box CEO Aaron Levie 从另一角度切入企业 Agent 落地：真正的瓶颈不是模型能力，而是「测试、调优和优化 Agent 在真实工作环境中的表现」。企业缺乏统一的 eval 基础设施来模拟 CRM、邮箱、文件系统等真实场景，每家公司都要自己搭建，效率极低。他认为这将是未来企业 IT 的一个重要细分市场。",
+      "Meta 首席 AI 总监 Madhu Guru 提出了一个更根本的观点：「团队最常犯的错误是把 eval 当作 Agent 构建完成后再加的 QA 步骤。AI 产品本质上不同——你的 eval 就是产品规格。」这一观点与 Rauch 的 gdp-ts 思路高度一致：把质量保障前移，在构建阶段就内嵌而非事后补救。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Re-Founding Incumbents for the AI Era — Sequence Holdings CEO Michael Lee",
-    "meta": "No Priors · 2026-09-24 · Matt Turck 主持",
-    "paras": [
-      "Michael Lee 分享了他和团队 20 个月前创立 Sequence Holdings 的初衷：与传统 PE 的三年退出周期不同，Sequence 采取永久持有模式，每年只做一笔交易，深度参与企业的 AI 转型重建。他们刚宣布了一笔规模达 77 亿美元的 AI 私有化交易，买家是戴尔家族办公室 Baldwin——这是截至目前规模最大的 AI 并购案之一。",
-      "Lee 的核心论点是：大多数公司的「受追捧人设」与 AI 时代的工程文化存在根本冲突。他认为，要真正抓住 AI 红利，必须在组织内部建立一种文化，让工程师成为被推崇的主角，而非将技术投资仅视为短期的财务包装。",
-      "访谈中还触及了从公开市场投资到私募股权再到运营层面的价值转移趋势，以及 AI 转型如何从概念渗透到实体经济的各个角落。Lee 的语气冷静而笃定，透露出对这种长线模式的深刻信念。"
-    ],
-    "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0"
+    "title": "（本期无新增播客）",
+    "meta": "——",
+    "paras": [],
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "发布了一条强硬的 28 天产品路线图：\"接下来 28 天，每天我们要么交付一个对大部分 Codex/工作用户有明显改进的功能，要么直接推倒重来。改进由此开始。\"这条推文获得超 2 万点赞、1140 转、3210 评论，是近期 OpenAI 产品方向上最引人注目的信号——用户等简化已等太久。",
-        "url": "https://x.com/thsottiaux/status/2106845241357824205"
-      },
-      {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "CEO @Vercel",
-        "text": "就 DHH 批评 Rust 的事件发声：Vercel 经历了 Turborepo 从 Go 迁移到 Rust 的全过程，\"结论是：对人类最好的不等于对商业最好的\"。同时提出人机沟通的分工原则——README 必须手写因为给人读，文档内部用 AI 英语因为给 Agent 读。还透露 Vercel Speed 又提速了，Astra 超快模型带来的性能提升让框架层开销变得更关键。",
-        "url": "https://x.com/rauchg/status/2106863842450133114"
+        "text": "发布 gdp-ts：Ghost of Departed Proofs for TypeScript。核心思路是让敏感 API 操作在编译时要求「证明」——比如修改密码必须附带角色和权限验证的证明，类型检查器会在编译期直接拦截错误。他强调，Agent 正在以远超人工 code review 的速度生成代码，而 Rust 的 borrow checker 范式正是为这种场景设计的——tight constraints，让 agent thrive in tight loops。",
+        "url": "https://x.com/rauchg/status/2107119811444748555"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "CEO @Box",
-        "text": "从就业视角观察 AI 落地的真实影响：\"AI 正在创造我们前所未见的新岗位——AI 工程师、FDE、部署服务公司，而每家银行、药企、制造厂、律所都在大量招聘或重新定位技术人才来部署 Agent。已公布的统计数据很可能严重低估了实际新增岗位数量。\"",
-        "url": "https://x.com/levie/status/2106893015063421357"
+        "text": "企业 Agent 部署的最大瓶颈在于 eval 基础设施：Agent 需要访问真实文件、CRM、邮件等环境才能被有效测试和调优，但现在每家公司都得从零自建，速度慢且无法复用。未来每家企业都需要专人管理 eval 体系、构建模拟环境的 infra。这是一个巨大的市场空间。",
+        "url": "https://x.com/levie/status/2107283615247999257"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教育创作者",
-        "text": "公开支持 OpenAI 的简化路线，并给出具体建议：\"Work 功能的独立品牌化是个错误，就像 Claude 把 Cowork 合并回 Chat 一样。我认为应该做三件事：合并 Work 与 Codex、统一 Spaces/Pages/Sites 的概念、简化模型与 effort 选择器。我的主战场正在变得更好。\"",
-        "url": "https://x.com/petergyang/status/2106926956554195018"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Sr Director, AI @Meta；前 Google，主导 Gemini、Veo、Nano Banana 产品线",
+        "text": "团队最常见的错误是把 eval 当作 Agent 建完之后再补的 QA 步骤。AI 产品与传统软件根本不同——你的 eval 就是你的产品规格（product spec）。这个观点值得所有 AI 产品团队反复咀嚼。",
+        "url": "https://x.com/realmadhuguru/status/2107292113214091355"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic；前 YC W20",
+        "text": "分享 Claude Code 的「local hands」模式——Claude 在云端运行但可以访问你的本地文件，该功能即将同步到 Cowork。他还提到，用规划（planning）方式而非原始 HTML 生成 UI 更省 token：模型无需重复构建状态机、图表、代码片段等通用组件的逻辑。",
+        "url": "https://x.com/trq212/status/2107229483015258493"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "CEO @Replit",
+        "text": "分享 Replit 生态的最新动态：越来越多家族企业依靠 Replit 运行业务，同时他在推广「用 TikTok 推广我的应用」的 Agent 功能，并指出美国正在追赶开源权重模型（open-weights models）的竞争。",
+        "url": "https://x.com/amasad/status/2107222388429766970"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "General Partner @SPC；前 Dropbox CTO",
+        "text": "评论称，让 Muse/Dot 这类 Agent 「计算机」在本地运行会是一个更好的 Agent 环境，远比日益封闭的 macOS 系统更适合 Agent 工作。同时推荐了斯坦福教授 Simon Levine  upcoming 的 SPC talk——他研究让机器人从经验中学习，将视觉感知与运动控制关联起来。",
+        "url": "https://x.com/adityaag/status/2107133989941387282"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "President & CEO @YCombinator",
-        "text": "回应关于所有人都在构建相同基础设施组件的现象：\"当每个人都建造同样的原语时，恰恰说明这些需求只会越来越强烈。最终我们会收敛到一个正确的操作系统。\"",
-        "url": "https://x.com/garrytan/status/2106901111106097210"
+        "text": "两个观察：一是 Halmos 正在为 AGI Science Loops 构建类似 Muse/Instinct 的工具；二是创业公司提供的「harness」比大厂实验室更有用——因为实验室有 token burn 激励，而 startup 的工具（如 Grep）能把 token 消耗自动转化为确定性、可测试、可重复的代码。",
+        "url": "https://x.com/garrytan/status/2107129959550685660"
       },
       {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "org": "VC @FirstMarkCap; MAD Podcast 主持",
-        "text": "指出一个在 AI 圈外仍被严重误解的事实：\"模型是生长出来的，不是构建出来的——而我们并不真正理解它们是如何工作的。\"因此可解释性研究变得尤为紧迫。",
-        "url": "https://x.com/mattturck/status/2106821381765956044"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · Harvard '17",
-        "text": "分享了对 OpenAI Opus 5.5 的使用体验：\"它默默跑 20 多分钟，然后带着一个完整的杰作回来。\"同时观察到另一个趋势：X 个人资料正在取代传统简历，成为求职者的核心展示窗口。",
-        "url": "https://x.com/zarazhangrui/status/2106876921082712250"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "Partner @FPVentures",
-        "text": "表达了对远程投资决策的怀疑：\"我可能有点老派，但我不相信通过 Zoom 打电话就能完成投资决策——有时候甚至只看 CEO 一面。真正的 alpha 在于去创始人的办公室，看团队能量、联合创始人如何互补、 beta 产品长什么样。我坚持在最终会议时要求面对面见面，创始人经常说我是唯一一个这么要求的人。\"",
-        "url": "https://x.com/nikunj/status/2106957269212742135"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "CEO @every",
-        "text": "分享了他用 OpenAI dot 产品的真实体验：\"过去几周 dot 已成为我与 AI 交互的主要接口。我给它起名叫 boo，很可爱。但一年之后，我觉得 boo 会消失——因为我会像对待 OpenClaw 早期一样，一旦有功能更强的替代品出现就会放弃个性化设置。\"",
-        "url": "https://x.com/danshipper/status/2106892868564431255"
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "org": "Cursor、Notion、Stripe 前设计师",
+        "text": "两个产品更新：一是推出 ryOS Subtitles Chrome 扩展；二是为语言学习者打造的 Netflix 双语字幕工具，支持日语、中文、韩语发音指导，个性化样式可配置。同时发表了一篇长文缅怀 Steve Jobs——从接触 iMac G4 到成为设计师的心路历程，反思当下科技行业「过度精细化、缺少真正伟大而真诚的产品」的问题。",
+        "url": "https://x.com/ryolu_/status/2107246891977335049"
       }
     ]
   },
@@ -99,8 +88,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 9 位建造者 · 1 期播客",
-    "coverage": "覆盖 9 位建造者 · 含 1 期播客",
-    "generatedAt": "2026-10-06T02:01:08.136Z"
+    "source": "follow-builders feed · 8 位建造者 · 本期无播客",
+    "coverage": "覆盖 8 位建造者",
+    "generatedAt": "2026-10-07T02:05:00.000Z"
   }
 }
