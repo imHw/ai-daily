@@ -1,30 +1,30 @@
 {
   "issue": {
-    "vol": "20261008",
-    "date": "2026年10月08日",
-    "weekday": "星期四",
-    "dateISO": "2026-10-08",
-    "tagline": "Codex 社区投票执行「重置」 · Claude Code 发布「本地手」模式 · Replit CEO：AI 反向工程将让所有软件事实开源"
+    "vol": "20261009",
+    "date": "2026年10月09日",
+    "weekday": "星期五",
+    "dateISO": "2026-10-09",
+    "tagline": "OpenAI Dots 正式上线 · Gemini Playground 游戏创建平台首发 · Haiku 5.5 降价 75% · Codex Cloud 完成全量推送"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Codex 社区强制重置事件，Claude Code 推云端大脑+本地操控新模式，AI 安全与评测成为企业落地核心命题",
+    "title": "OpenAI Dots 产品化落地，Anthropic 模型大幅降价，Google 发布零代码游戏创建平台",
     "paras": [
-      "OpenAI Codex 团队负责人 Thibault Sottiaux 宣布社区投票结果：经过「重置」（reset）后的一批产品改进已 shipped，团队确认不会回退这些改动，并预告 Day 3 继续推进。这一事件源于此前 Codex 界面改动引发用户强烈反馈，Sottiaux 最初承诺 28 天内每天 ship 一项改进或整体重置。此次社区主导的决策方式在 AI 产品迭代中较为罕见，反映出 Agent 产品用户对交互体验的敏感度正在快速提升。",
-      "Anthropic 的 Thariq 披露了 Claude Code 的「本地手」（local hands）架构方向：Claude 的大脑运行在云端，但拥有操作你本地计算机的能力。这一模式解决了 Agent 离线无法工作的痛点，同时避免将用户数据留在本地。该功能即将同步到 Cowork 产品中。与此同时，Boris Cherny（同样来自 Claude Code 团队）分享了最新的提示工程实践——现代模型不再需要过度脚手架化的 prompt，只需明确三件事：要做什么、投入多少努力、如何验证结果正确。",
-      "Box CEO Aaron Levie 从企业安全视角切入：网络安全将成为未来几年 AI 最具决定性的应用领域之一。随着 vibe coding 带来的代码质量问题、Agent 攻击和意外 Agent swarm 检索数据的风险增加，安全团队本就资源匮乏的压力将进一步加剧，而 AI Agent 也将成为解决这一问题的关键工具。Levie 认为这将为能部署 Agent 进行企业安全防护的专业人士创造大量新就业机会。"
+      "OpenAI 的持久 Agent「Dots」正式上线第二周，Every CEO Dan Shipper 分享内部使用体验：Dots 正在接管团队的注意力管理——自动扫描学校邮件、捕捉 Slack 漏掉的消息、甚至帮你审批访问请求。Shipper 的判断是：Dots 功能已与 Muse、Instinct、Grok Bots 大致持平，但绑定已有生态的工作流是真正优势。他坦言权限系统仍有摩擦，但整体方向正确。",
+      "Anthropic 宣布 Haiku 5.5 正式发布，价格较上一代下降 75%，缓存读取费用也减半至每百万 token $0.10。Claude 官方账号强调：Sonnet 5.5 在长期运行任务中成本降低约 20%。同时 Boris Cherny 分享了 Claude Code 的提示哲学——现代模型不再需要过度脚手架化的 prompt，只需明确三件事：目标、努力程度、验证标准。",
+      "Google Labs 发布 Playground——一个零代码游戏创建实验平台，用户只需描述想法即可生成可玩游戏。该功能目前面向 18 岁以上美国用户开放。与此同时，OpenAI Codex Cloud 完成全量推送，Thibault Sottiaux 确认改进已 landed across all accounts。Box CEO Aaron Levie 从企业安全视角预测：AI 驱动的安全 Agent 将成为未来几年最具决定性的应用方向之一。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Unsupervised Learning Ep 94：Applied Compute CEO 谈 RL 的极限、新一代 AI 超算，以及为何 Post-Training 赢得推理时代",
-    "meta": "Redpoint AI · 2026-10-06 · 约 58 分钟",
+    "title": "AI & I by Every：为什么 Every 用公司级 Agent 替换了个人 Agent",
+    "meta": "AI & I · 2026-10-07 · 约 45 分钟",
     "paras": [
-      "Applied Compute CEO Josh 对谈 Redpoint 的 Jacob Efron，深入讨论了 post-training（后训练）在企业 AI 中的核心地位。核心观点：RL 本质上是一台爬山机器，最难的部分是定义「要爬哪座山」——也就是 eval。企业最常被低估的护城河不是模型能力本身，而是如何把专家判断转化为可执行的 eval 体系。",
-      "Josh 提出一个反直觉的判断：大多数企业不需要预训练自己的模型，但需要构建「闭环反馈系统」——让模型在实际使用中持续学习组织的独特决策模式。他称之为 judgment traces（判断轨迹）：不同公司的风险阈值、运营模式、历史数据差异，最终凝结为不同的判断方式，而这些很难通过上下文工程完全覆盖，必须通过优化 policy 来实现。",
-      "关于成本优化，Josh 透露 Applied Compute 正在用 Jev（一种极低成本模型）做大规模 trace 分析，这是以前成本上不可行的。他判断 2027 年后，在线 RL 和 on-policy self-distillation 等技术将显著降低 post-training 的 TCO，让「每家公司都有专属模型」从愿景变成现实。"
+      "Every 团队深入讨论了 Dots（OpenAI 持久 Agent）在产品内的实际应用。核心发现：Dots 的真正价值不在于替代人工，而在于拦截注意力泄漏——自动扫描邮件、捕捉 Slack 遗漏消息、审批访问请求等「小事」的堆积正在吞噬工作日的碎片时间。",
+      "团队观察到三个高频使用场景：学校邮件信息提取（Kieran Klassen 用它整理孩子学校的各类通知）、Slack 消息漏捕与审批流程自动化（Ariel Shipper 让 Dot 自动批准访问请求）、以及语音交互场景（视频负责人 Randy 在跑动中口述指导视频剪辑）。",
+      "Shipper 的判断：Dots 目前处于功能平权期——与 Muse、Instinct、Grok Bots 差距不大，但生态绑定才是护城河。他坦诚权限系统仍有摩擦（重复审批、批准后仍报错），但认为这是产品早期必然代价。关于角色忠诚度，他预计一年后人们会使用更好的 Agent，当前的「Boo」会被取代——这与 OpenClaw 的经验如出一辙。"
     ],
-    "url": "https://www.youtube.com/@RedpointAI"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
@@ -33,57 +33,57 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "Codex 社区投票执行的「重置」已完成。我们 shipped 了四项被评为「好到伟大」的功能和一些数学证明，但社区的声音很清楚——他们要求重置。我已校准并确认重置在规则上是合理的，因此重置已处理完毕，祝大家使用愉快。同时确认：我们已经 shipped 的改进不会回退，明天是 Day 3。",
-        "url": "https://x.com/thsottiaux/status/2107676072871600470"
+        "text": "Codex Cloud 已完成全量推送——所有账户现在都可以使用改进后的版本。社区投票支持的改动已落地，不会再回退。Day 3 encore 继续推进中。",
+        "url": "https://x.com/thsottiaux/status/2108084615349170480"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "CEO @Every",
+        "text": "Dots 正在接管 Every 的工作流。它们保护你的注意力——周末我的 Dot 把模型测试结果发到 Slack 并带回回复，我不用打开 Slack 就不会陷进兔子洞。但它们也 catches 小疏忽：学校邮件、遗漏消息、访问请求。权限系统仍需打磨，但我相信方向正确。一年后我会用更好的 Agent，现在的 Boo 会死掉。",
+        "url": "https://x.com/danshipper/status/2107890633486582208"
       },
       {
         "name": "Boris Cherny",
         "handle": "bcherny",
         "org": "Claude Code @Anthropic",
-        "text": "让我惊讶的是，很多人对我提示 Claude 的方式感到惊讶。用你对待同事的方式来和 Claude 对话。提示没有秘诀，大多数任务不需要过度脚手架化或指令式——给 Claude 一个目标，它会自己搞定。到了 Sonnet 3.5 时代，你的 prompt  mattered a lot；而现在更重要的是向模型传达：1. 要它做什么 2. 投入多少努力 3. 如何验证它做对了。",
-        "url": "https://x.com/bcherny/status/2107565388250874193"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "CEO @Replit",
-        "text": "AI 驱动的逆向工程和反编译正在发生疯狂的事情。很快所有软件都将成为事实上的开源。AI 正在吞噬一切，每一个人。",
-        "url": "https://x.com/amasad/status/2107671204639465961"
+        "text": "用对待同事的方式和 Claude 对话。现代模型不再需要过度脚手架化——给出目标、努力程度、验证标准即可。Sonnet 3.5 时代 prompt 决定一切，现在更重要的是让模型理解你要什么。",
+        "url": "https://x.com/bcherny/status/2108008010253533397"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "CEO @Box",
-        "text": "网络安全将是未来几年 AI 最具决定性的领域之一，也是绝大多数企业的重点投入方向。AI 将为安全领域创造全新级别的工作量——应对 vibe coding 产生的问题、Agent 攻击，甚至是意外 Agent swarm 搜索数据的风险。OpenAI + Hugging Face 的合作只是预览。安全团队本就资源紧张，现在压力只会更大，而 AI Agent 正是解决方案。这将为能有效部署 Agent 进行企业安全防护的专业人士创造 booming 的市场机会。",
-        "url": "https://x.com/levie/status/2107680435644039269"
+        "text": "AI 即将进入的计算需求将是惊人的。个人 Agent、企业防御 Agent swarm、代码安全审查 Agent、24/7 后台任务 Agent……这需要推理量级增长，也需要计算机、网络、文件系统等基础设施支持。我们才刚刚开始。",
+        "url": "https://x.com/levie/status/2108056577697882402"
       },
       {
         "name": "Thariq",
         "handle": "trq212",
         "org": "Claude Code @Anthropic；前 YC W20",
-        "text": "我们正日益走向「Claude 的大脑在云端，给 Claude 本地手脚」的架构。如果 Claude 只有在你的电脑在线时才能访问文件，那它可能在你电脑关机时被有效阻断——所以需要同步机制，但存在一些边缘情况需要解决。这一功能即将同步到 Cowork。另外，在更高层次抽象工作始终需要理解更低层次的概念，coding agent 并不改变这一点。",
-        "url": "https://x.com/trq212/status/2107580785456976085"
+        "text": "最常见的失败场景：人们在工作领域外缺乏精确表达能力的经验。Agent 让每个人都在自己的能力圈外操作，但幸运的是你可以让模型教你不知道的东西。",
+        "url": "https://x.com/trq212/status/2108021248966135891"
       },
       {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "VP @Google @GoogleLabs @GeminiApp",
-        "text": "基于 mask 的编辑是今天发布的功能中我最喜欢的，更多即将推出！",
-        "url": "https://x.com/joshwoodward/status/2107679061854273656"
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "org": "Claude Code + Cowork @Anthropic",
+        "text": "Claude 我最爱的 PM 用例：让 AI 找出上周最多使用某个功能的 10 个用户，生成报告，然后安排 15 分钟访谈。这是获取用户反馈最快的方式。",
+        "url": "https://x.com/_catwu/status/2107967210467803152"
       },
       {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "Product, Codex @OpenAI；前 Linear 产品负责人",
-        "text": "我担心的是，这会导致那些没人热爱维护但总得有人维护的系统出现极端退化。",
-        "url": "https://x.com/thenanyu/status/2107506074370920796"
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "org": "Google AI 实验平台",
+        "text": "Playground 发布——零代码游戏创建实验平台。如果你能想到，就能玩到。面向 18 岁以上美国用户开放。",
+        "url": "https://x.com/GoogleLabs/status/2107800195748737042"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "CEO @Vercel",
-        "text": "「在置信度阈值之下，快速思考+稍慢一点。」一个极简的功能，但我认为它对大规模 AI 决策将产生极大影响。",
-        "url": "https://x.com/rauchg/status/2107606246350266469"
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "CEO @OpenAI",
+        "text": "ChatGPT 现在可以为你生成自定义 UI！等了很久终于有了这个功能。",
+        "url": "https://x.com/sama/status/2107924408597950702"
       }
     ]
   },
@@ -92,8 +92,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 14 位建造者 · 本期播客：Unsupervised Learning Ep 94",
-    "coverage": "覆盖 14 位建造者，8 条精选观点",
-    "generatedAt": "2026-10-08T02:01:00.000Z"
+    "source": "follow-builders feed · 19 位建造者 · 本期播客：AI & I by Every",
+    "coverage": "覆盖 19 位建造者，8 条精选观点",
+    "generatedAt": "2026-10-09T02:05:00.000Z"
   }
 }
