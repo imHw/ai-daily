@@ -42,7 +42,7 @@
         "url": "https://x.com/levie/status/2109467575025578330"
       },
       {
-      "name": "Thibault Sottiaux",
+        "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
         "text": "GPT-6.1 Sol 通过 Codex 和 Work 使用时的默认上下文长度已从 27.2 万提升至 50 万 tokens（约 +80%），这是经过仔细测试后找到的新甜点值，未来还会继续提高。同时，订阅用户调用 GPT-6.1 Sol 时不再收取长上下文额外费用。用户可以手动覆盖设置，最大支持 100 万 tokens。",
