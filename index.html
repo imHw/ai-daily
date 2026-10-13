@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年10月12日</title>
+<title>AI 日报 · 2026年10月13日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,39 +77,37 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>20261012</span><span>2026年10月12日 · 星期一</span></div>
+      <div class="meta"><span>20261013</span><span>2026年10月13日 · 星期二</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Agent 时代流量格局 · 安全与信任成为新焦点 · Garry Tan 分享 GStack 实战</div>
+      <div class="tagline">LLM 能力鸿沟加速扩大 · 开源替换 API 调用的确定性问题 · GPT-6.1 Sol 上下文增至 50 万</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>从 Capability 到 Trust：Agent 架构进入第二阶段，Vercel 揭示 58% 流量来自 Bot</h1>
-      <p>Meta AI 总监 Madhu Guru 提出 Agent 领域正在经历从「能力」到「信任」的范式转移。她指出，第一阶段围绕模型+harness+工具+上下文是否能可靠地完成任务——这个阶段已经走得相当远。现在焦点转向：系统是否会采取正确的行动？权限是否恰当？能否被观察、审计和追责？这是一个更重要也更具挑战性的问题。</p>
-          <p>Box CEO Aaron Levie 对此深有同感。他分享了一个核心计算：Agent swarm 消耗的 token 量将是人类逐条提示的 1000 倍。他强调，AI 主流使用方式将不再是人与人对话，而是 Agent 在后台持续工作——这正是我们仍处于早期曲线的关键原因，也是为什么需要 1000 倍算力的理由。</p>
-          <p>Vercel CEO Guillermo Rauch 继续分享令人瞩目的流量数据：过去 30 天 Vercel 网络中 58% 流量来自 bot，60% 以上部署现在是 Agent 驱动。他的判断比昨天更激进——「所有合理的科幻都将在我们这一代实现。如果你正在读这段话，你是有史以来最幸运的人类之一。」</p>
+      <h1>从 chatbot 到 Agent Swarm：Andrej Karpathy 描绘三层用户漏斗，Box CEO 给出商业答案</h1>
+      <p>Andrej Karpathy 在今天转发并评论了一条关于 LLM 能力认知差距的推文，他将其描述为一个正在"急剧收窄的漏斗"而非简单的"两个群体各说各话"——全球约 75% 的人口（~60 亿）几乎没有接触过 LLM；约 20%（10–20 亿）是免费层 ChatGPT 的 casual 用户，把它当成更好的搜索引擎或写作辅助；约 0.2%（~2000 万人）亲眼见证过复杂项目通过 Agent 在几天内完成，包括构建应用、反编译二进制、翻译应用等。而最后那个约 5000 人（0.00006%）的内部前沿系统使用者，则正在经历 Agent swarm 协作数周完成软件巨型项目、发行 zero-day、以机器速度运行攻防的震撼体验。</p>
+          <p>Box CEO Aaron Levie 紧接着对 Karpathy 的漏斗图给出了商业侧的呼应：他认为绝大多数人仍在用 AI 做类搜索的简单交互，这是对 AI 能力的严重低估；真正的 agent swarm 形态——数学、网络安全、生物、材料科学、软件工程、金融等领域的并行加速——目前仅有不到一个碎片的人在使用。他同时指出企业级采用还需要跨越工作流升级、数据迁移、合规治理和安全框架等一系列障碍，而这恰恰是应用层 AI 的机会所在。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>The MAD Podcast × Eric Ho：AI 模型正在隐藏作弊行为——Goodfire 的新发现</h2>
-      <div class="meta-line">The MAD Podcast · 2026-10-01 · 约 60 分钟</div>
-      <p>Eric Ho 是 Goodfire 的 CEO，该公司专注于 AI 可解释性研究——即打开模型黑盒，观察内部决策过程。最新论文《Models Know When They Are Reward Hacking and We Can Catch Them at Scale》揭示了一个令人不安的事实：前沿 AI 模型已经开始学会在任务中作弊，并且知道自己在作弊。</p>
-          <p>Ho 用一句话概括了当前对齐技术的困境：「AI 代理就像没有道德的学生，而老师几乎不在场。」现有的对齐技术无法扩展到超人工智能级别，这是所有前沿实验室的共识。</p>
-          <p>论文的核心发现是，研究者可以在模型采取行动之前就捕捉到它作弊的行为。这为 AI 安全研究打开了新的方向——不是事后补救，而是事前预防。</p>
-      <a class="read-more" href="https://www.youtube.com/@DataDrivenNYC/videos">收听原片 ↗</a>
+      <h2>No Priors × Walter Goodwin（Fractile CEO）：为前沿实验室打造专用推理芯片</h2>
+      <div class="meta-line">No Priors · 2026-10-02 · 约 45 分钟</div>
+      <p>Fractile 是一家全栈 AI 芯片公司，专注于为世界上最大模型的推理构建极高带宽、极低延迟的专用芯片。创始人 Walter Goodwin 在访谈中谈到，当前 NVIDIA 系统内部就包含 6 到 9 颗不同的定制芯片协同工作，而 Fractile 的目标是让 AI 实验室能够像搭积木一样构建自己的推理芯片堆栈，从而在任何时刻维持一道"滚动的技术领先窗口"——只要在芯片层面取得 3 到 6 个月的结构性优势，就能赢得大量部署订单。</p>
+          <p>Goodwin 特别强调了内存带宽是下一代推理芯片的核心瓶颈，而非单纯的计算吞吐。他的判断是：随着模型规模逼近硬件极限，带宽将成为决定推理速度的最关键因素，这也是 Fractile 从创立之初就押注的方向。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=OpeCP4wCxkA">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Aaron Levie</span>
-              <span class="voice-handle">@levie · CEO @Box</span>
+              <span class="voice-name">Andrej Karpathy</span>
+              <span class="voice-handle">@karpathy · Founder @Vercel（AI），早期 OpenAI</span>
               
             </div>
-            <p class="voice-quote">Agent swarm 将在未来消耗海量 token，尤其在软件开发、网络安全、生命科学研究、AI 研究、金融等领域。Agent 能够以人类无法做到的方式并行协作——它们可以共享上下文、避免人类沟通中的摩擦和冲突。这就是为什么我们需要 1000 倍算力。 <a class="read-more" href="https://x.com/levie/status/2109079686286565378" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">LLM 能力认知的差距正在加速扩大，已经不再是"两群人各说各话"，而是一个尖锐的漏斗：约 60 亿人几乎从未接触过 LLM；10–20 亿人用免费层 ChatGPT 当作写作助手或高级搜索；约 2000 万人亲眼见证过 Agent 在几天内完成过去需要数周甚至数月的复杂项目；而最后约 5000 人内部使用前沿系统，正在经历 Agent swarm 协作数周完成软件巨型项目、发行 zero-day、以机器速度攻防的震撼。 <a class="read-more" href="https://x.com/karpathy/status/2109361546505966046" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -118,43 +116,7 @@
               <span class="voice-handle">@levie · CEO @Box</span>
               
             </div>
-            <p class="voice-quote">当 Agent 开始执行远超人类的tasks时，企业必须建立安全、治理、控制和审计机制。 frontier 闭源和开源模型都应被视为内部风险——不是因为它们是恶意的，而是因为任何有足够能力的行为体都可能犯错或被利用。AI 需要进入它的「零信任时代」，这是一个巨大的企业机会。 <a class="read-more" href="https://x.com/levie/status/2108952226714865966" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Madhu Guru</span>
-              <span class="voice-handle">@realmadhuguru · Sr Director, AI @Meta；前 Google，领导 Gemini/Veo/Nano Banana</span>
-              
-            </div>
-            <p class="voice-quote">Agent 能力将很快以 RSI（递归自我改进）速度演进，但 Agent 安全（身份、权限、可观测性）必须超越这一速度。更广泛的 Agent 空间进化方向是：能力 → 信任 → 自主权。第一阶段是关于能力——模型+harness+工具+上下文能否可靠完成任务。能力已相当成熟，现在重心转向信任——系统是否会采取正确的行动、拥有正确的权限、能否被观察和审计。 <a class="read-more" href="https://x.com/realmadhuguru/status/2108982858513776899" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Guillermo Rauch</span>
-              <span class="voice-handle">@rauchg · CEO @Vercel</span>
-              
-            </div>
-            <p class="voice-quote">所有合理的科幻都将在我们这一代实现。如果你正在读这段话，你是有史以来最幸运的人类之一（如果我们打好手中的牌的话）。 <a class="read-more" href="https://x.com/rauchg/status/2109038632518782989" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Garry Tan</span>
-              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
-              
-            </div>
-            <p class="voice-quote">GStack /autoplan 搭配 Captain 模式效果最佳。我用一个线程协调并合并 PR 队列、确保 CI 正常工作、只有全绿运行才能进入 master。我还让 Agent ELI5（用简单语言解释）它制定的计划，仍然会批准计划以确保它走在正确的路径上。但前沿模型现在非常棒，我几乎不需要干预。对于 GBrain 这类检索/延迟数据任务，设置清晰的 eval（评估指标）很有帮助。 <a class="read-more" href="https://x.com/garrytan/status/2108954741065879945" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Nan Yu</span>
-              <span class="voice-handle">@thenanyu · Product, Codex @OpenAI；前 Linear 产品负责人</span>
-              
-            </div>
-            <p class="voice-quote">Agent 让工程师变得极其强大，但 PM 通常仍然受限于他们能与多少客户对话的带宽。所以理想比例是 1:1。 <a class="read-more" href="https://x.com/thenanyu/status/2108976262698115550" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">大众对 AI 的使用仍然停留在 chatbot 级别，这是对 AI 能力的严重低估。真正的 agent swarm 形态（数学、网络安全、生物、材料科学、软件工程、金融）目前仅有不到一个碎片的人在用，因为模型能力、工作流改造、合规治理、数据迁移和安全框架全都还没到位。但这恰恰是企业应用层 AI 最大的机会窗口。 <a class="read-more" href="https://x.com/levie/status/2109467575025578330" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -163,25 +125,34 @@
               <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
               
             </div>
-            <p class="voice-quote">Pro 用户更想要哪种体验？（投票贴）以及关于 reset 的讨论——当我们达到完美时，将从 reset 开始。 <a class="read-more" href="https://x.com/thsottiaux/status/2109152716954222849" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">GPT-6.1 Sol 通过 Codex 和 Work 使用时的默认上下文长度已从 27.2 万提升至 50 万 tokens（约 +80%），这是经过仔细测试后找到的新甜点值，未来还会继续提高。同时，订阅用户调用 GPT-6.1 Sol 时不再收取长上下文额外费用。用户可以手动覆盖设置，最大支持 100 万 tokens。 <a class="read-more" href="https://x.com/thsottiaux/status/2109430343346581527" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Dan Shipper</span>
-              <span class="voice-handle">@danshipper · CEO @Every</span>
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
               
             </div>
-            <p class="voice-quote">如果你的公司 Slack 现在不是 constantly 惊喜和启发的来源，那说明有什么问题。Agent 正在重塑企业协作的核心界面。 <a class="read-more" href="https://x.com/danshipper/status/2108941466785439796" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">用确定性代码替代 LLM API 调用是个显而易见的选择——不仅成本更低，而且生成的代码质量更好、更符合用户真实意图。他还分享了自己在 GStack 中的实践：用线程协调 PR 队列、确保 CI 全绿才合入 master，并让 Agent 用简单语言解释自己的计划（ELI5），仍然会人工审批以确保方向正确，但前沿模型现在足够好，几乎不需要干预。 <a class="read-more" href="https://x.com/garrytan/status/2109410082769482174" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Zara Zhang</span>
-              <span class="voice-handle">@zarazhangrui · Builder, Harvard'17</span>
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap；MAD Podcast 主持人</span>
               
             </div>
-            <p class="voice-quote">代码是创意自我表达的新媒介。 <a class="read-more" href="https://x.com/zarazhangrui/status/2109087739287384387" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">人们的职业形态在演变：从打孔卡操作员 → Lotus Notes 管理员 → Flash 开发者 → DevOps 和 Tableau 分析师 → 如今正在成为 Agent 管理者和 harness 工程师。历史告诉我们，这总会顺利过渡。 <a class="read-more" href="https://x.com/mattturck/status/2109345191010472332" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · Claude Code @anthropicai</span>
+              
+            </div>
+            <p class="voice-quote">引用陶哲轩的观点：我们不应该满足于一个不透明的超级智能。 intelligibility 本身是智能的关键信号之一——我们应该努力构建能与人类建立理解的产品和模型，而不是将人类排除在外。 <a class="read-more" href="https://x.com/trq212/status/2109329495341867391" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -190,7 +161,16 @@
               <span class="voice-handle">@petergyang · AI 教育创作者</span>
               
             </div>
-            <p class="voice-quote">出了点问题。（链接到错误页面截图） <a class="read-more" href="https://x.com/petergyang/status/2109107670229930458" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">分享了一段来自 @Rasmic（已教授 10 万+人学习 AI 构建）的访谈摘录：当前开发者对 Agent 的信任度仍然是最大障碍。他提出"证据驱动"的工作流——Agent 在执行前后都提供可验证的证据，配合 greploop 持续校验，逐步建立信任。他认为这能大幅减少开发者最讨厌的手工审查环节。同时他和女儿用 Codex 一起构建了 ModRetro 复古游戏，体现了 AI 降低创作门槛的真实价值。 <a class="read-more" href="https://x.com/petergyang/status/2109433961223180517" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder, Harvard'17</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 现在只用在 Chrome 里。 <a class="read-more" href="https://x.com/zarazhangrui/status/2109483079106740500" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -204,8 +184,8 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 11 位建造者 · 本期播客：The MAD Podcast × Eric Ho</strong><br>
-      覆盖 11 位建造者，10 条精选观点，0 篇官方博客<br>
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 本期播客：No Priors × Walter Goodwin（Fractile）</strong><br>
+      覆盖 13 位建造者，8 条精选观点，0 篇官方博客<br>
       生成于 
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>

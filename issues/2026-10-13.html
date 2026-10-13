@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月13日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261013</span><span>2026年10月13日 · 星期二</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">LLM 能力鸿沟加速扩大 · 开源替换 API 调用的确定性问题 · GPT-6.1 Sol 上下文增至 50 万</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>从 chatbot 到 Agent Swarm：Andrej Karpathy 描绘三层用户漏斗，Box CEO 给出商业答案</h1>
+      <p>Andrej Karpathy 在今天转发并评论了一条关于 LLM 能力认知差距的推文，他将其描述为一个正在"急剧收窄的漏斗"而非简单的"两个群体各说各话"——全球约 75% 的人口（~60 亿）几乎没有接触过 LLM；约 20%（10–20 亿）是免费层 ChatGPT 的 casual 用户，把它当成更好的搜索引擎或写作辅助；约 0.2%（~2000 万人）亲眼见证过复杂项目通过 Agent 在几天内完成，包括构建应用、反编译二进制、翻译应用等。而最后那个约 5000 人（0.00006%）的内部前沿系统使用者，则正在经历 Agent swarm 协作数周完成软件巨型项目、发行 zero-day、以机器速度运行攻防的震撼体验。</p>
+          <p>Box CEO Aaron Levie 紧接着对 Karpathy 的漏斗图给出了商业侧的呼应：他认为绝大多数人仍在用 AI 做类搜索的简单交互，这是对 AI 能力的严重低估；真正的 agent swarm 形态——数学、网络安全、生物、材料科学、软件工程、金融等领域的并行加速——目前仅有不到一个碎片的人在使用。他同时指出企业级采用还需要跨越工作流升级、数据迁移、合规治理和安全框架等一系列障碍，而这恰恰是应用层 AI 的机会所在。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>No Priors × Walter Goodwin（Fractile CEO）：为前沿实验室打造专用推理芯片</h2>
+      <div class="meta-line">No Priors · 2026-10-02 · 约 45 分钟</div>
+      <p>Fractile 是一家全栈 AI 芯片公司，专注于为世界上最大模型的推理构建极高带宽、极低延迟的专用芯片。创始人 Walter Goodwin 在访谈中谈到，当前 NVIDIA 系统内部就包含 6 到 9 颗不同的定制芯片协同工作，而 Fractile 的目标是让 AI 实验室能够像搭积木一样构建自己的推理芯片堆栈，从而在任何时刻维持一道"滚动的技术领先窗口"——只要在芯片层面取得 3 到 6 个月的结构性优势，就能赢得大量部署订单。</p>
+          <p>Goodwin 特别强调了内存带宽是下一代推理芯片的核心瓶颈，而非单纯的计算吞吐。他的判断是：随着模型规模逼近硬件极限，带宽将成为决定推理速度的最关键因素，这也是 Fractile 从创立之初就押注的方向。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=OpeCP4wCxkA">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Andrej Karpathy</span>
+              <span class="voice-handle">@karpathy · Founder @Vercel（AI），早期 OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">LLM 能力认知的差距正在加速扩大，已经不再是"两群人各说各话"，而是一个尖锐的漏斗：约 60 亿人几乎从未接触过 LLM；10–20 亿人用免费层 ChatGPT 当作写作助手或高级搜索；约 2000 万人亲眼见证过 Agent 在几天内完成过去需要数周甚至数月的复杂项目；而最后约 5000 人内部使用前沿系统，正在经历 Agent swarm 协作数周完成软件巨型项目、发行 zero-day、以机器速度攻防的震撼。 <a class="read-more" href="https://x.com/karpathy/status/2109361546505966046" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">大众对 AI 的使用仍然停留在 chatbot 级别，这是对 AI 能力的严重低估。真正的 agent swarm 形态（数学、网络安全、生物、材料科学、软件工程、金融）目前仅有不到一个碎片的人在用，因为模型能力、工作流改造、合规治理、数据迁移和安全框架全都还没到位。但这恰恰是企业应用层 AI 最大的机会窗口。 <a class="read-more" href="https://x.com/levie/status/2109467575025578330" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">GPT-6.1 Sol 通过 Codex 和 Work 使用时的默认上下文长度已从 27.2 万提升至 50 万 tokens（约 +80%），这是经过仔细测试后找到的新甜点值，未来还会继续提高。同时，订阅用户调用 GPT-6.1 Sol 时不再收取长上下文额外费用。用户可以手动覆盖设置，最大支持 100 万 tokens。 <a class="read-more" href="https://x.com/thsottiaux/status/2109430343346581527" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
+              
+            </div>
+            <p class="voice-quote">用确定性代码替代 LLM API 调用是个显而易见的选择——不仅成本更低，而且生成的代码质量更好、更符合用户真实意图。他还分享了自己在 GStack 中的实践：用线程协调 PR 队列、确保 CI 全绿才合入 master，并让 Agent 用简单语言解释自己的计划（ELI5），仍然会人工审批以确保方向正确，但前沿模型现在足够好，几乎不需要干预。 <a class="read-more" href="https://x.com/garrytan/status/2109410082769482174" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap；MAD Podcast 主持人</span>
+              
+            </div>
+            <p class="voice-quote">人们的职业形态在演变：从打孔卡操作员 → Lotus Notes 管理员 → Flash 开发者 → DevOps 和 Tableau 分析师 → 如今正在成为 Agent 管理者和 harness 工程师。历史告诉我们，这总会顺利过渡。 <a class="read-more" href="https://x.com/mattturck/status/2109345191010472332" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · Claude Code @anthropicai</span>
+              
+            </div>
+            <p class="voice-quote">引用陶哲轩的观点：我们不应该满足于一个不透明的超级智能。 intelligibility 本身是智能的关键信号之一——我们应该努力构建能与人类建立理解的产品和模型，而不是将人类排除在外。 <a class="read-more" href="https://x.com/trq212/status/2109329495341867391" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI 教育创作者</span>
+              
+            </div>
+            <p class="voice-quote">分享了一段来自 @Rasmic（已教授 10 万+人学习 AI 构建）的访谈摘录：当前开发者对 Agent 的信任度仍然是最大障碍。他提出"证据驱动"的工作流——Agent 在执行前后都提供可验证的证据，配合 greploop 持续校验，逐步建立信任。他认为这能大幅减少开发者最讨厌的手工审查环节。同时他和女儿用 Codex 一起构建了 ModRetro 复古游戏，体现了 AI 降低创作门槛的真实价值。 <a class="read-more" href="https://x.com/petergyang/status/2109433961223180517" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder, Harvard'17</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 现在只用在 Chrome 里。 <a class="read-more" href="https://x.com/zarazhangrui/status/2109483079106740500" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 本期播客：No Priors × Walter Goodwin（Fractile）</strong><br>
+      覆盖 13 位建造者，8 条精选观点，0 篇官方博客<br>
+      生成于 
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
