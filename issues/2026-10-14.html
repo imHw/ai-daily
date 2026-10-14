@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月14日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261014</span><span>2026年10月14日 · 星期三</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Sam Altman 谈 AI 时代工程的未来 · OpenAI 默认上下文翻倍至 50 万 · Grok persona 架构引热议</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Sam Altman：AI 不会取代开发者，但会让做东西的人变得更多</h1>
+      <p>在最新一期 Every 播客（原 AI &amp; I）中，OpenAI CEO Sam Altman 分享了他对 AI 时代工程未来的看法。他认为开发者从未像今天这样拥有更大的能力，但与此同时，人们对 AI 能做的事的期待也达到了新高度。最核心的观点是：世界上的潜在需求远比我们想象的要多，而人们始终是一切 AI 进展的中心。</p>
+          <p>Altman 还谈到了自己使用 AI 工具的方式——他通过 OpenAI 的 Dots 功能让 7 个人的 AI 协作完成一个项目，产生了一种原本只存在于每个人脑海中、但从未真正形成的涌现式成果。当被问到是否所有提示都在 Ultrafast 模式下完成时，他简洁地回答：是的，很疯狂。</p>
+          <p>这期播客的核心情绪不是焦虑，而是一种迟来的确认——AI 没有消灭工程师的工作，反而让编程这件事从少数人的技能变成了几乎任何人都能参与创造的基础设施。但正如 Levie 昨天所说，真正的 agent swarm 形态还没有到来，大多数人仍停留在 chatbot 级别。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>AI &amp; I by Every × Sam Altman：AI 时代工程与工作的未来</h2>
+      <div class="meta-line">Every Podcast · 2026-09-30 发布 · 约 50 分钟</div>
+      <p>这期节目由 Dan Shipper 主持，Sam Altman 作为嘉宾。两人在 Dev Day 期间对话，核心议题是：当 coding model 的能力达到今天这个水平时，我们对于工程和工作的理解需要如何调整。</p>
+          <p>Altman 给出了几个反直觉的判断：第一，开发者数量只会更多，不会更少；第二，人们对 AI 的期望值被严重低估了，latent demand（潜在需求）比任何模型都能处理的要多得多；第三，AI 不会让人脱离中心，反而让人更深度地参与创造过程。他还透露自己用 Dots 让 7 个 AI 人格协作完成项目，产生了涌现式的成果，这是单人无法想象的。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">好计划是简单的。我有一个计划，应该能让每个人显著增加使用量。希望很快能完成。同时，他对之前的 reset 功能做了一个互动投票：你想要你的重置那一侧配什么？——已上线。这两条推文分别获得 2202 和 2741 个点赞，显示出社区对 OpenAI 产品方向的高度关注。 <a class="read-more" href="https://x.com/thsottiaux/status/2109892247580000595" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI 教育创作者</span>
+              
+            </div>
+            <p class="voice-quote">Grok Bot 现在是他最喜欢的 AI agent。核心理由是：Grok 基于 persona（人格）而非 chat thread（对话线程）构建，感觉更像是雇佣员工为你工作。每个人格拥有特定职责——Behind the Growth 负责客服，YouTube Producer 负责调研和准备，Loving Husband 负责家庭杂务，Health Coach 保持锻炼节奏。他还分享了 Grok 新功能：免费 X 访问、独立邮箱、Opus 模型支持。 <a class="read-more" href="https://x.com/petergyang/status/2109803399332213090" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">编程 CLI 工具越来越复杂：daemon、三层 TUI、client-server 架构……但他认为 CLI 的本质是零摩擦地传递智能，像 Unix 一样简洁。他推荐了一个仅 6MB、毫秒级启动、模型无关的工具，内置 MCP、Skills、Subagents 和 ACP。同时，Muse Wonder 已通过 Vercel AI Gateway 上线，可通过 fx --model meta/muse-wonder-1.0 试用。 <a class="read-more" href="https://x.com/rauchg/status/2109734766107099312" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">Agent swarm 将成为企业工作流的核心组成部分。他将算力投入到可大规模并行化的问题上，会太有用而无法忽视。网络安全将是最大受益者之一——在攻击测试中，agent 可以不知疲倦、不感无聊地遍历海量 permutation（排列组合），这对拥有庞大搜索空间和复杂场景链的渗透测试来说极为关键。他认为这将成为大企业中最主要的 token 消耗场景之一。 <a class="read-more" href="https://x.com/levie/status/2109682812811137061" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
+              
+            </div>
+            <p class="voice-quote">两句简短有力的话引发热议：Nobody is coming to save you. You don't need saving.（没人来救你，你也不需要被救。）同时，他也讨论了 pro rata（按比例配售）对投资者的重要性，并强调 YC 生态中 repairmen（维修工）角色的稀缺性。 <a class="read-more" href="https://x.com/garrytan/status/2109749184639488265" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Steinberger</span>
+              <span class="voice-handle">@steipete · Polyagentmorous ClawFather · @OpenClaw + @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">对比 GPT-6.1 Sol Ultrafast 与 GPT-6 Astra：同样的成本，完全是不同的游戏，250 TPM（每分钟 token 数）。他还转发并认同了 vibes coding 是一种冒犯的观点，呼应了社区对于 AI 编码术语被滥用的反思。 <a class="read-more" href="https://x.com/steipete/status/2109730774593487009" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC</span>
+              
+            </div>
+            <p class="voice-quote">frontier lab（前沿实验室）员工如何使用 AI，与顶级 1% 的 AI 组织如何使用 AI 之间存在巨大差距。而且这还只是公开能力层面的差异，他猜测内部差距可能更大。我相信这里有一个横向加速器级别的公司机会——这句话被许多人视为对 AI infra 创业方向的最精准描述之一。 <a class="read-more" href="https://x.com/adityaag/status/2109748501982872003" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder, Harvard'17</span>
+              
+            </div>
+            <p class="voice-quote">分享了一个触动人心的 AI 编程故事：朋友 vicyaqingyang 成长于一个有蟑螂的普通家庭，母亲把杀蟑螂变成游戏。当这个朋友把这个故事告诉另一位朋友后，那位朋友用 AI 代码生成了一款小游戏——玩家在一个房间里和妈妈竞赛杀蟑螂。她玩的时候哭了。游戏技术并不复杂，任何模型都能快速构建。赋予它灵魂的是背后的人类故事、经历和情感。代码，正成为新的叙事媒介。 <a class="read-more" href="https://x.com/zarazhangrui/status/2109673430245421415" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 15 位建造者 · 本期播客：Every × Sam Altman</strong><br>
+      覆盖 15 位建造者，8 条精选观点，0 篇官方博客<br>
+      生成于 2026-10-14T02:00:00.000Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

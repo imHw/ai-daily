@@ -1,87 +1,88 @@
 {
   "issue": {
-    "vol": "20261013",
-    "date": "2026年10月13日",
-    "weekday": "星期二",
-    "dateISO": "2026-10-13",
-    "tagline": "LLM 能力鸿沟加速扩大 · 开源替换 API 调用的确定性问题 · GPT-6.1 Sol 上下文增至 50 万"
+    "vol": "20261014",
+    "date": "2026年10月14日",
+    "weekday": "星期三",
+    "dateISO": "2026-10-14",
+    "tagline": "Sam Altman 谈 AI 时代工程的未来 · OpenAI 默认上下文翻倍至 50 万 · Grok persona 架构引热议"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "从 chatbot 到 Agent Swarm：Andrej Karpathy 描绘三层用户漏斗，Box CEO 给出商业答案",
+    "title": "Sam Altman：AI 不会取代开发者，但会让做东西的人变得更多",
     "paras": [
-      "Andrej Karpathy 在今天转发并评论了一条关于 LLM 能力认知差距的推文，他将其描述为一个正在\"急剧收窄的漏斗\"而非简单的\"两个群体各说各话\"——全球约 75% 的人口（~60 亿）几乎没有接触过 LLM；约 20%（10–20 亿）是免费层 ChatGPT 的 casual 用户，把它当成更好的搜索引擎或写作辅助；约 0.2%（~2000 万人）亲眼见证过复杂项目通过 Agent 在几天内完成，包括构建应用、反编译二进制、翻译应用等。而最后那个约 5000 人（0.00006%）的内部前沿系统使用者，则正在经历 Agent swarm 协作数周完成软件巨型项目、发行 zero-day、以机器速度运行攻防的震撼体验。",
-      "Box CEO Aaron Levie 紧接着对 Karpathy 的漏斗图给出了商业侧的呼应：他认为绝大多数人仍在用 AI 做类搜索的简单交互，这是对 AI 能力的严重低估；真正的 agent swarm 形态——数学、网络安全、生物、材料科学、软件工程、金融等领域的并行加速——目前仅有不到一个碎片的人在使用。他同时指出企业级采用还需要跨越工作流升级、数据迁移、合规治理和安全框架等一系列障碍，而这恰恰是应用层 AI 的机会所在。"
+      "在最新一期 Every 播客（原 AI & I）中，OpenAI CEO Sam Altman 分享了他对 AI 时代工程未来的看法。他认为开发者从未像今天这样拥有更大的能力，但与此同时，人们对 AI 能做的事的期待也达到了新高度。最核心的观点是：世界上的潜在需求远比我们想象的要多，而人们始终是一切 AI 进展的中心。",
+      "Altman 还谈到了自己使用 AI 工具的方式——他通过 OpenAI 的 Dots 功能让 7 个人的 AI 协作完成一个项目，产生了一种原本只存在于每个人脑海中、但从未真正形成的涌现式成果。当被问到是否所有提示都在 Ultrafast 模式下完成时，他简洁地回答：是的，很疯狂。",
+      "这期播客的核心情绪不是焦虑，而是一种迟来的确认——AI 没有消灭工程师的工作，反而让编程这件事从少数人的技能变成了几乎任何人都能参与创造的基础设施。但正如 Levie 昨天所说，真正的 agent swarm 形态还没有到来，大多数人仍停留在 chatbot 级别。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "No Priors × Walter Goodwin（Fractile CEO）：为前沿实验室打造专用推理芯片",
-    "meta": "No Priors · 2026-10-02 · 约 45 分钟",
+    "title": "AI & I by Every × Sam Altman：AI 时代工程与工作的未来",
+    "meta": "Every Podcast · 2026-09-30 发布 · 约 50 分钟",
     "paras": [
-      "Fractile 是一家全栈 AI 芯片公司，专注于为世界上最大模型的推理构建极高带宽、极低延迟的专用芯片。创始人 Walter Goodwin 在访谈中谈到，当前 NVIDIA 系统内部就包含 6 到 9 颗不同的定制芯片协同工作，而 Fractile 的目标是让 AI 实验室能够像搭积木一样构建自己的推理芯片堆栈，从而在任何时刻维持一道\"滚动的技术领先窗口\"——只要在芯片层面取得 3 到 6 个月的结构性优势，就能赢得大量部署订单。",
-      "Goodwin 特别强调了内存带宽是下一代推理芯片的核心瓶颈，而非单纯的计算吞吐。他的判断是：随着模型规模逼近硬件极限，带宽将成为决定推理速度的最关键因素，这也是 Fractile 从创立之初就押注的方向。"
+      "这期节目由 Dan Shipper 主持，Sam Altman 作为嘉宾。两人在 Dev Day 期间对话，核心议题是：当 coding model 的能力达到今天这个水平时，我们对于工程和工作的理解需要如何调整。",
+      "Altman 给出了几个反直觉的判断：第一，开发者数量只会更多，不会更少；第二，人们对 AI 的期望值被严重低估了，latent demand（潜在需求）比任何模型都能处理的要多得多；第三，AI 不会让人脱离中心，反而让人更深度地参与创造过程。他还透露自己用 Dots 让 7 个 AI 人格协作完成项目，产生了涌现式的成果，这是单人无法想象的。"
     ],
-    "url": "https://www.youtube.com/watch?v=OpeCP4wCxkA"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Andrej Karpathy",
-        "handle": "karpathy",
-        "org": "Founder @Vercel（AI），早期 OpenAI",
-        "text": "LLM 能力认知的差距正在加速扩大，已经不再是\"两群人各说各话\"，而是一个尖锐的漏斗：约 60 亿人几乎从未接触过 LLM；10–20 亿人用免费层 ChatGPT 当作写作助手或高级搜索；约 2000 万人亲眼见证过 Agent 在几天内完成过去需要数周甚至数月的复杂项目；而最后约 5000 人内部使用前沿系统，正在经历 Agent swarm 协作数周完成软件巨型项目、发行 zero-day、以机器速度攻防的震撼。",
-        "url": "https://x.com/karpathy/status/2109361546505966046"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "CEO @Box",
-        "text": "大众对 AI 的使用仍然停留在 chatbot 级别，这是对 AI 能力的严重低估。真正的 agent swarm 形态（数学、网络安全、生物、材料科学、软件工程、金融）目前仅有不到一个碎片的人在用，因为模型能力、工作流改造、合规治理、数据迁移和安全框架全都还没到位。但这恰恰是企业应用层 AI 最大的机会窗口。",
-        "url": "https://x.com/levie/status/2109467575025578330"
-      },
-      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "GPT-6.1 Sol 通过 Codex 和 Work 使用时的默认上下文长度已从 27.2 万提升至 50 万 tokens（约 +80%），这是经过仔细测试后找到的新甜点值，未来还会继续提高。同时，订阅用户调用 GPT-6.1 Sol 时不再收取长上下文额外费用。用户可以手动覆盖设置，最大支持 100 万 tokens。",
-        "url": "https://x.com/thsottiaux/status/2109430343346581527"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "President & CEO @Y Combinator",
-        "text": "用确定性代码替代 LLM API 调用是个显而易见的选择——不仅成本更低，而且生成的代码质量更好、更符合用户真实意图。他还分享了自己在 GStack 中的实践：用线程协调 PR 队列、确保 CI 全绿才合入 master，并让 Agent 用简单语言解释自己的计划（ELI5），仍然会人工审批以确保方向正确，但前沿模型现在足够好，几乎不需要干预。",
-        "url": "https://x.com/garrytan/status/2109410082769482174"
-      },
-      {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "org": "VC @FirstMarkCap；MAD Podcast 主持人",
-        "text": "人们的职业形态在演变：从打孔卡操作员 → Lotus Notes 管理员 → Flash 开发者 → DevOps 和 Tableau 分析师 → 如今正在成为 Agent 管理者和 harness 工程师。历史告诉我们，这总会顺利过渡。",
-        "url": "https://x.com/mattturck/status/2109345191010472332"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @anthropicai",
-        "text": "引用陶哲轩的观点：我们不应该满足于一个不透明的超级智能。 intelligibility 本身是智能的关键信号之一——我们应该努力构建能与人类建立理解的产品和模型，而不是将人类排除在外。",
-        "url": "https://x.com/trq212/status/2109329495341867391"
+        "text": "好计划是简单的。我有一个计划，应该能让每个人显著增加使用量。希望很快能完成。同时，他对之前的 reset 功能做了一个互动投票：你想要你的重置那一侧配什么？——已上线。这两条推文分别获得 2202 和 2741 个点赞，显示出社区对 OpenAI 产品方向的高度关注。",
+        "url": "https://x.com/thsottiaux/status/2109892247580000595"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
         "org": "AI 教育创作者",
-        "text": "分享了一段来自 @Rasmic（已教授 10 万+人学习 AI 构建）的访谈摘录：当前开发者对 Agent 的信任度仍然是最大障碍。他提出\"证据驱动\"的工作流——Agent 在执行前后都提供可验证的证据，配合 greploop 持续校验，逐步建立信任。他认为这能大幅减少开发者最讨厌的手工审查环节。同时他和女儿用 Codex 一起构建了 ModRetro 复古游戏，体现了 AI 降低创作门槛的真实价值。",
-        "url": "https://x.com/petergyang/status/2109433961223180517"
+        "text": "Grok Bot 现在是他最喜欢的 AI agent。核心理由是：Grok 基于 persona（人格）而非 chat thread（对话线程）构建，感觉更像是雇佣员工为你工作。每个人格拥有特定职责——Behind the Growth 负责客服，YouTube Producer 负责调研和准备，Loving Husband 负责家庭杂务，Health Coach 保持锻炼节奏。他还分享了 Grok 新功能：免费 X 访问、独立邮箱、Opus 模型支持。",
+        "url": "https://x.com/petergyang/status/2109803399332213090"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "CEO @Vercel",
+        "text": "编程 CLI 工具越来越复杂：daemon、三层 TUI、client-server 架构……但他认为 CLI 的本质是零摩擦地传递智能，像 Unix 一样简洁。他推荐了一个仅 6MB、毫秒级启动、模型无关的工具，内置 MCP、Skills、Subagents 和 ACP。同时，Muse Wonder 已通过 Vercel AI Gateway 上线，可通过 fx --model meta/muse-wonder-1.0 试用。",
+        "url": "https://x.com/rauchg/status/2109734766107099312"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "CEO @Box",
+        "text": "Agent swarm 将成为企业工作流的核心组成部分。他将算力投入到可大规模并行化的问题上，会太有用而无法忽视。网络安全将是最大受益者之一——在攻击测试中，agent 可以不知疲倦、不感无聊地遍历海量 permutation（排列组合），这对拥有庞大搜索空间和复杂场景链的渗透测试来说极为关键。他认为这将成为大企业中最主要的 token 消耗场景之一。",
+        "url": "https://x.com/levie/status/2109682812811137061"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "President & CEO @Y Combinator",
+        "text": "两句简短有力的话引发热议：Nobody is coming to save you. You don't need saving.（没人来救你，你也不需要被救。）同时，他也讨论了 pro rata（按比例配售）对投资者的重要性，并强调 YC 生态中 repairmen（维修工）角色的稀缺性。",
+        "url": "https://x.com/garrytan/status/2109749184639488265"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "Polyagentmorous ClawFather · @OpenClaw + @OpenAI",
+        "text": "对比 GPT-6.1 Sol Ultrafast 与 GPT-6 Astra：同样的成本，完全是不同的游戏，250 TPM（每分钟 token 数）。他还转发并认同了 vibes coding 是一种冒犯的观点，呼应了社区对于 AI 编码术语被滥用的反思。",
+        "url": "https://x.com/steipete/status/2109730774593487009"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "General Partner @SPC",
+        "text": "frontier lab（前沿实验室）员工如何使用 AI，与顶级 1% 的 AI 组织如何使用 AI 之间存在巨大差距。而且这还只是公开能力层面的差异，他猜测内部差距可能更大。我相信这里有一个横向加速器级别的公司机会——这句话被许多人视为对 AI infra 创业方向的最精准描述之一。",
+        "url": "https://x.com/adityaag/status/2109748501982872003"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
         "org": "Builder, Harvard'17",
-        "text": "Gemini 现在只用在 Chrome 里。",
-        "url": "https://x.com/zarazhangrui/status/2109483079106740500"
+        "text": "分享了一个触动人心的 AI 编程故事：朋友 vicyaqingyang 成长于一个有蟑螂的普通家庭，母亲把杀蟑螂变成游戏。当这个朋友把这个故事告诉另一位朋友后，那位朋友用 AI 代码生成了一款小游戏——玩家在一个房间里和妈妈竞赛杀蟑螂。她玩的时候哭了。游戏技术并不复杂，任何模型都能快速构建。赋予它灵魂的是背后的人类故事、经历和情感。代码，正成为新的叙事媒介。",
+        "url": "https://x.com/zarazhangrui/status/2109673430245421415"
       }
     ]
   },
@@ -90,7 +91,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 13 位建造者 · 本期播客：No Priors × Walter Goodwin（Fractile）",
-    "coverage": "覆盖 13 位建造者，8 条精选观点，0 篇官方博客"
+    "source": "follow-builders feed · 15 位建造者 · 本期播客：Every × Sam Altman",
+    "coverage": "覆盖 15 位建造者，8 条精选观点，0 篇官方博客",
+    "generatedAt": "2026-10-14T02:00:00.000Z"
   }
 }
