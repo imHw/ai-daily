@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月15日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261015</span><span>2026年10月15日 · 星期四</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">David Silver 预测3年内实现超智能 · Anthropic 自建源码控制系统应对 AI 编程狂潮 · Gemini 4 Argon 创意能力惊艳</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>AlphaGo 之父 David Silver 创立 Ineffable Intelligence：不走 LLM 路线，用经验学习通向超智能</h1>
+      <p>DeepMind 联合创始人、AlphaGo 之父 David Silver 与 Lasse Espeholt 联合创立的新公司 Ineffable Intelligence 最近在 Training Data 播客中首次详细阐述了他们的愿景：构建"超学习器"（Super Learner）——一种能从零开始自主发现知识、无需人类语言数据驱动的 AI 系统。他们预测，真正的超智能将在 3 年内出现。</p>
+          <p>David Silver 的核心观点是：当前 LLM 路径依赖人类语言数据，但真正的智能来自"从经验中学习"。Ineffable 正在构建模拟环境（称为"坩埚"），让 AI 在其中自主发现科学、数学和技术。与现有方法不同，他们不给 agent 设定具体目标（如"学会语言"），而是给简单目标，看 agent 会"意外"发现什么。David 相信，当 agent 在模拟中达到超智能水平时，我们才能真正理解如何让 AI 与人类价值观对齐。</p>
+          <p>这家成立于欧洲的新实验室拥有 GCP 上最大的 GPU 集群之一，团队仅 20 人，但每人算力极高。David Silver 明确表示，他们不会走 LLM 产品的中间路线——这与 DeepMind 和 OpenAI 的方向形成鲜明对比。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Training Data：David Silver &amp; Lasse Espeholt 谈 Ineffable Intelligence 与超学习器</h2>
+      <div class="meta-line">Training Data Podcast · 2026-10-13 发布 · 约 68 分钟</div>
+      <p>这是 Training Data 播客第 100 集之后的首期重磅对话。主持人 Dan Shipper（Every CEO）邀请到 DeepMind 联合创始人 David Silver 和 Google Brain 出身的 Lasse Espeholt，聊聊他们离开 DeepMind 后创立的 Ineffable Intelligence。</p>
+          <p>对话核心围绕"超学习器"概念展开：一种能从零开始、通过经验自主学习、发现超越人类知识的系统。David Silver 认为，LLM 当前的科学发现仍依赖大量人工干预，远未实现真正自主。Ineffable 的做法是构建"坩埚"——高复杂度模拟环境，让 agent 在简单目标驱动下意外发现语言、数学、物理等知识。David 预测，强超智能将在 3 年内出现，而模拟中的研究将帮助人类提前理解如何与超智能安全共处。</p>
+          <p>Lasse Espeholt 回顾了他在 DeepMind 和 Google Brain 的 RL 规模化工作（Impala、SeedRL），这些正是当下 RL 领域的基石。两人均认为，当前对齐研究过度依赖语言监控，而真正的安全需要发展出"超智能科学"——在模拟中研究多智能体社会的互动规律。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">你可以暂停前沿 AI 研究，但 AI 扩散到经济体仍需 10 年。Replit 正与合作伙伴加速这一进程。同时分享了 MXC.exe 项目和给网站加小狗的趣味实验。 <a class="read-more" href="https://x.com/amasad/status/2110128937049452575" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @Google Labs / Gemini</span>
+              
+            </div>
+            <p class="voice-quote">展示 Gemini 4 Argon 的创意能力：一个 24 词提示词就能构建出将马蹄声、水波纹和双手变成音乐的自定义合成器。还有用 AI 设计的 96mm 宽家具腿——最难的部分是决定叠几颗球。Google 在多模态生成领域持续发力。 <a class="read-more" href="https://x.com/joshwoodward/status/2110179883045560674" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">ChatGPT 和 Codex 桌面应用的状态存储优化上线：磁盘占用减少 60%。这是持续优化的第 9 天，虽然是小步迭代，但社区反馈积极。 <a class="read-more" href="https://x.com/thsottiaux/status/2110151780478927344" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">Box 测试 Gemini 4 Argon 一周后宣布：在 Box AI Complex Work 评估中，相比 Gemini 3.1 Pro 提升 14 个百分点，表现稳定。同时预测网络安全将是 AI agent 的最大应用领域之一——agent 可以不知疲倦地遍历攻击面排列组合。 <a class="read-more" href="https://x.com/levie/status/2110046686198550539" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">祝贺 Gemini 团队。永远不要押错 Google——这家公司带来了 Transformer，拥有压倒性的数据、工程人才和算力。他认为所有人已重新回归编程赛道，而 Google 在这一轮竞争中将占据有利位置。 <a class="read-more" href="https://x.com/rauchg/status/2110044152482365747" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · AI 工程师 / 创业者</span>
+              
+            </div>
+            <p class="voice-quote">分享 AI dot Engineer 团队的人才密度：Sydney Scouts.run speaker 由 AI 驱动。同时推广《如何杀死你的 SaaS》——他们拿一个年费 $43,000 的 SaaS 产品举办全球黑客松，用真实案例讨论 SaaS 死亡论。 <a class="read-more" href="https://x.com/swyx/status/2110194074573586607" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
+              
+            </div>
+            <p class="voice-quote">两个观点引发讨论：一是 Connie Chan 希望中国赢得 AI 竞赛，但她也让旧金山变得不适合所有人居住，他今年早些时候要求她辞职；二是推荐 @AsideAI——给 harness 接入真实浏览器和真实凭证，是一个真正的解锁。 <a class="read-more" href="https://x.com/garrytan/status/2110115691684925777" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 4 Argon 在 Senior Engineer 基准测试中表现糟糕，仅 21% 正确率，远低于 Sol 6 和 Muse。但他同时发出"VIBE CHECK: GEMINI 4 — GOOGLE IS BACK"的专题报道，认为 Google 正在回归。 <a class="read-more" href="https://x.com/danshipper/status/2110056016872427944" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Partner @FPV Ventures</span>
+              
+            </div>
+            <p class="voice-quote">每月与 @JustJake（Railway CEO）聊天都会打破他的所有预设——关于如何规模化、如何销售、如何招聘、如何构建。Railway 是 n=1 的公司，正因为 Jake 在运营它。他还提到从小就想做 pro rata，这样可以"四倍下注"。 <a class="read-more" href="https://x.com/nikunj/status/2110137649188281871" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 本期播客：Training Data × David Silver</strong><br>
+      覆盖 13 位建造者，9 条精选观点，1 篇官方博客<br>
+      生成于 2026-10-15T02:00:00.000Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

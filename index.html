@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年10月14日</title>
+<title>AI 日报 · 2026年10月15日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,56 +77,57 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>20261014</span><span>2026年10月14日 · 星期三</span></div>
+      <div class="meta"><span>20261015</span><span>2026年10月15日 · 星期四</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Sam Altman 谈 AI 时代工程的未来 · OpenAI 默认上下文翻倍至 50 万 · Grok persona 架构引热议</div>
+      <div class="tagline">David Silver 预测3年内实现超智能 · Anthropic 自建源码控制系统应对 AI 编程狂潮 · Gemini 4 Argon 创意能力惊艳</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>Sam Altman：AI 不会取代开发者，但会让做东西的人变得更多</h1>
-      <p>在最新一期 Every 播客（原 AI &amp; I）中，OpenAI CEO Sam Altman 分享了他对 AI 时代工程未来的看法。他认为开发者从未像今天这样拥有更大的能力，但与此同时，人们对 AI 能做的事的期待也达到了新高度。最核心的观点是：世界上的潜在需求远比我们想象的要多，而人们始终是一切 AI 进展的中心。</p>
-          <p>Altman 还谈到了自己使用 AI 工具的方式——他通过 OpenAI 的 Dots 功能让 7 个人的 AI 协作完成一个项目，产生了一种原本只存在于每个人脑海中、但从未真正形成的涌现式成果。当被问到是否所有提示都在 Ultrafast 模式下完成时，他简洁地回答：是的，很疯狂。</p>
-          <p>这期播客的核心情绪不是焦虑，而是一种迟来的确认——AI 没有消灭工程师的工作，反而让编程这件事从少数人的技能变成了几乎任何人都能参与创造的基础设施。但正如 Levie 昨天所说，真正的 agent swarm 形态还没有到来，大多数人仍停留在 chatbot 级别。</p>
+      <h1>AlphaGo 之父 David Silver 创立 Ineffable Intelligence：不走 LLM 路线，用经验学习通向超智能</h1>
+      <p>DeepMind 联合创始人、AlphaGo 之父 David Silver 与 Lasse Espeholt 联合创立的新公司 Ineffable Intelligence 最近在 Training Data 播客中首次详细阐述了他们的愿景：构建"超学习器"（Super Learner）——一种能从零开始自主发现知识、无需人类语言数据驱动的 AI 系统。他们预测，真正的超智能将在 3 年内出现。</p>
+          <p>David Silver 的核心观点是：当前 LLM 路径依赖人类语言数据，但真正的智能来自"从经验中学习"。Ineffable 正在构建模拟环境（称为"坩埚"），让 AI 在其中自主发现科学、数学和技术。与现有方法不同，他们不给 agent 设定具体目标（如"学会语言"），而是给简单目标，看 agent 会"意外"发现什么。David 相信，当 agent 在模拟中达到超智能水平时，我们才能真正理解如何让 AI 与人类价值观对齐。</p>
+          <p>这家成立于欧洲的新实验室拥有 GCP 上最大的 GPU 集群之一，团队仅 20 人，但每人算力极高。David Silver 明确表示，他们不会走 LLM 产品的中间路线——这与 DeepMind 和 OpenAI 的方向形成鲜明对比。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>AI &amp; I by Every × Sam Altman：AI 时代工程与工作的未来</h2>
-      <div class="meta-line">Every Podcast · 2026-09-30 发布 · 约 50 分钟</div>
-      <p>这期节目由 Dan Shipper 主持，Sam Altman 作为嘉宾。两人在 Dev Day 期间对话，核心议题是：当 coding model 的能力达到今天这个水平时，我们对于工程和工作的理解需要如何调整。</p>
-          <p>Altman 给出了几个反直觉的判断：第一，开发者数量只会更多，不会更少；第二，人们对 AI 的期望值被严重低估了，latent demand（潜在需求）比任何模型都能处理的要多得多；第三，AI 不会让人脱离中心，反而让人更深度地参与创造过程。他还透露自己用 Dots 让 7 个 AI 人格协作完成项目，产生了涌现式的成果，这是单人无法想象的。</p>
-      <a class="read-more" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL">收听原片 ↗</a>
+      <h2>Training Data：David Silver &amp; Lasse Espeholt 谈 Ineffable Intelligence 与超学习器</h2>
+      <div class="meta-line">Training Data Podcast · 2026-10-13 发布 · 约 68 分钟</div>
+      <p>这是 Training Data 播客第 100 集之后的首期重磅对话。主持人 Dan Shipper（Every CEO）邀请到 DeepMind 联合创始人 David Silver 和 Google Brain 出身的 Lasse Espeholt，聊聊他们离开 DeepMind 后创立的 Ineffable Intelligence。</p>
+          <p>对话核心围绕"超学习器"概念展开：一种能从零开始、通过经验自主学习、发现超越人类知识的系统。David Silver 认为，LLM 当前的科学发现仍依赖大量人工干预，远未实现真正自主。Ineffable 的做法是构建"坩埚"——高复杂度模拟环境，让 agent 在简单目标驱动下意外发现语言、数学、物理等知识。David 预测，强超智能将在 3 年内出现，而模拟中的研究将帮助人类提前理解如何与超智能安全共处。</p>
+          <p>Lasse Espeholt 回顾了他在 DeepMind 和 Google Brain 的 RL 规模化工作（Impala、SeedRL），这些正是当下 RL 领域的基石。两人均认为，当前对齐研究过度依赖语言监控，而真正的安全需要发展出"超智能科学"——在模拟中研究多智能体社会的互动规律。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">你可以暂停前沿 AI 研究，但 AI 扩散到经济体仍需 10 年。Replit 正与合作伙伴加速这一进程。同时分享了 MXC.exe 项目和给网站加小狗的趣味实验。 <a class="read-more" href="https://x.com/amasad/status/2110128937049452575" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @Google Labs / Gemini</span>
+              
+            </div>
+            <p class="voice-quote">展示 Gemini 4 Argon 的创意能力：一个 24 词提示词就能构建出将马蹄声、水波纹和双手变成音乐的自定义合成器。还有用 AI 设计的 96mm 宽家具腿——最难的部分是决定叠几颗球。Google 在多模态生成领域持续发力。 <a class="read-more" href="https://x.com/joshwoodward/status/2110179883045560674" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
               <span class="voice-name">Thibault Sottiaux</span>
               <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
               
             </div>
-            <p class="voice-quote">好计划是简单的。我有一个计划，应该能让每个人显著增加使用量。希望很快能完成。同时，他对之前的 reset 功能做了一个互动投票：你想要你的重置那一侧配什么？——已上线。这两条推文分别获得 2202 和 2741 个点赞，显示出社区对 OpenAI 产品方向的高度关注。 <a class="read-more" href="https://x.com/thsottiaux/status/2109892247580000595" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Peter Yang</span>
-              <span class="voice-handle">@petergyang · AI 教育创作者</span>
-              
-            </div>
-            <p class="voice-quote">Grok Bot 现在是他最喜欢的 AI agent。核心理由是：Grok 基于 persona（人格）而非 chat thread（对话线程）构建，感觉更像是雇佣员工为你工作。每个人格拥有特定职责——Behind the Growth 负责客服，YouTube Producer 负责调研和准备，Loving Husband 负责家庭杂务，Health Coach 保持锻炼节奏。他还分享了 Grok 新功能：免费 X 访问、独立邮箱、Opus 模型支持。 <a class="read-more" href="https://x.com/petergyang/status/2109803399332213090" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Guillermo Rauch</span>
-              <span class="voice-handle">@rauchg · CEO @Vercel</span>
-              
-            </div>
-            <p class="voice-quote">编程 CLI 工具越来越复杂：daemon、三层 TUI、client-server 架构……但他认为 CLI 的本质是零摩擦地传递智能，像 Unix 一样简洁。他推荐了一个仅 6MB、毫秒级启动、模型无关的工具，内置 MCP、Skills、Subagents 和 ACP。同时，Muse Wonder 已通过 Vercel AI Gateway 上线，可通过 fx --model meta/muse-wonder-1.0 试用。 <a class="read-more" href="https://x.com/rauchg/status/2109734766107099312" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">ChatGPT 和 Codex 桌面应用的状态存储优化上线：磁盘占用减少 60%。这是持续优化的第 9 天，虽然是小步迭代，但社区反馈积极。 <a class="read-more" href="https://x.com/thsottiaux/status/2110151780478927344" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -135,7 +136,25 @@
               <span class="voice-handle">@levie · CEO @Box</span>
               
             </div>
-            <p class="voice-quote">Agent swarm 将成为企业工作流的核心组成部分。他将算力投入到可大规模并行化的问题上，会太有用而无法忽视。网络安全将是最大受益者之一——在攻击测试中，agent 可以不知疲倦、不感无聊地遍历海量 permutation（排列组合），这对拥有庞大搜索空间和复杂场景链的渗透测试来说极为关键。他认为这将成为大企业中最主要的 token 消耗场景之一。 <a class="read-more" href="https://x.com/levie/status/2109682812811137061" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Box 测试 Gemini 4 Argon 一周后宣布：在 Box AI Complex Work 评估中，相比 Gemini 3.1 Pro 提升 14 个百分点，表现稳定。同时预测网络安全将是 AI agent 的最大应用领域之一——agent 可以不知疲倦地遍历攻击面排列组合。 <a class="read-more" href="https://x.com/levie/status/2110046686198550539" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">祝贺 Gemini 团队。永远不要押错 Google——这家公司带来了 Transformer，拥有压倒性的数据、工程人才和算力。他认为所有人已重新回归编程赛道，而 Google 在这一轮竞争中将占据有利位置。 <a class="read-more" href="https://x.com/rauchg/status/2110044152482365747" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · AI 工程师 / 创业者</span>
+              
+            </div>
+            <p class="voice-quote">分享 AI dot Engineer 团队的人才密度：Sydney Scouts.run speaker 由 AI 驱动。同时推广《如何杀死你的 SaaS》——他们拿一个年费 $43,000 的 SaaS 产品举办全球黑客松，用真实案例讨论 SaaS 死亡论。 <a class="read-more" href="https://x.com/swyx/status/2110194074573586607" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -144,34 +163,25 @@
               <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
               
             </div>
-            <p class="voice-quote">两句简短有力的话引发热议：Nobody is coming to save you. You don't need saving.（没人来救你，你也不需要被救。）同时，他也讨论了 pro rata（按比例配售）对投资者的重要性，并强调 YC 生态中 repairmen（维修工）角色的稀缺性。 <a class="read-more" href="https://x.com/garrytan/status/2109749184639488265" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">两个观点引发讨论：一是 Connie Chan 希望中国赢得 AI 竞赛，但她也让旧金山变得不适合所有人居住，他今年早些时候要求她辞职；二是推荐 @AsideAI——给 harness 接入真实浏览器和真实凭证，是一个真正的解锁。 <a class="read-more" href="https://x.com/garrytan/status/2110115691684925777" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Peter Steinberger</span>
-              <span class="voice-handle">@steipete · Polyagentmorous ClawFather · @OpenClaw + @OpenAI</span>
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
               
             </div>
-            <p class="voice-quote">对比 GPT-6.1 Sol Ultrafast 与 GPT-6 Astra：同样的成本，完全是不同的游戏，250 TPM（每分钟 token 数）。他还转发并认同了 vibes coding 是一种冒犯的观点，呼应了社区对于 AI 编码术语被滥用的反思。 <a class="read-more" href="https://x.com/steipete/status/2109730774593487009" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Gemini 4 Argon 在 Senior Engineer 基准测试中表现糟糕，仅 21% 正确率，远低于 Sol 6 和 Muse。但他同时发出"VIBE CHECK: GEMINI 4 — GOOGLE IS BACK"的专题报道，认为 Google 正在回归。 <a class="read-more" href="https://x.com/danshipper/status/2110056016872427944" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Aditya Agarwal</span>
-              <span class="voice-handle">@adityaag · General Partner @SPC</span>
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Partner @FPV Ventures</span>
               
             </div>
-            <p class="voice-quote">frontier lab（前沿实验室）员工如何使用 AI，与顶级 1% 的 AI 组织如何使用 AI 之间存在巨大差距。而且这还只是公开能力层面的差异，他猜测内部差距可能更大。我相信这里有一个横向加速器级别的公司机会——这句话被许多人视为对 AI infra 创业方向的最精准描述之一。 <a class="read-more" href="https://x.com/adityaag/status/2109748501982872003" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Zara Zhang</span>
-              <span class="voice-handle">@zarazhangrui · Builder, Harvard'17</span>
-              
-            </div>
-            <p class="voice-quote">分享了一个触动人心的 AI 编程故事：朋友 vicyaqingyang 成长于一个有蟑螂的普通家庭，母亲把杀蟑螂变成游戏。当这个朋友把这个故事告诉另一位朋友后，那位朋友用 AI 代码生成了一款小游戏——玩家在一个房间里和妈妈竞赛杀蟑螂。她玩的时候哭了。游戏技术并不复杂，任何模型都能快速构建。赋予它灵魂的是背后的人类故事、经历和情感。代码，正成为新的叙事媒介。 <a class="read-more" href="https://x.com/zarazhangrui/status/2109673430245421415" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">每月与 @JustJake（Railway CEO）聊天都会打破他的所有预设——关于如何规模化、如何销售、如何招聘、如何构建。Railway 是 n=1 的公司，正因为 Jake 在运营它。他还提到从小就想做 pro rata，这样可以"四倍下注"。 <a class="read-more" href="https://x.com/nikunj/status/2110137649188281871" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -185,9 +195,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 15 位建造者 · 本期播客：Every × Sam Altman</strong><br>
-      覆盖 15 位建造者，8 条精选观点，0 篇官方博客<br>
-      生成于 2026-10-14T02:00:00.000Z
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 本期播客：Training Data × David Silver</strong><br>
+      覆盖 13 位建造者，9 条精选观点，1 篇官方博客<br>
+      生成于 2026-10-15T02:00:00.000Z
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>
