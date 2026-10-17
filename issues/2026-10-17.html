@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月17日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261017</span><span>2026年10月17日 · 星期六</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Meta Muse 开源权重引爆行业 · Agent 时代到来：Token 消耗将暴增百倍 · Jev 一月回顾：分类器还是新范式？</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Meta Muse 开源权重发布：美国 AI 开源的里程碑时刻，还是另一个陷阱？</h1>
+      <p>Box CEO Aaron Levie 在 X 上热烈评价 Meta 的 Muse 开源权重模型："这是美国开源 AI 的一大步。企业将能够混合搭配前沿性能用于编排和高端任务，同时用低成本、定制化的后训练模型处理可重复工作流。"这一判断迅速获得 YC CEO Garry Tan 的转发认同，两人均认为开源权重模型将大幅加速 AI 普及。</p>
+          <p>但 Levie 的更深层判断值得重视：他认为从对话式 Agent 到后台自主 Agent 的范式转换，将使 Token 消耗量激增 100 到 1000 倍。他描绘的场景是——把任意数量的 Agent 丢给一个问题，告诉它们"完成后回来报告"，这种"Agent 蜂群"将覆盖代码保护、数据安全、QA 测试、文档审查等几乎所有知识工作环节。</p>
+          <p>与此同时，OpenAI 的 Thibault Sottiaux 发了一条意味深长的状态："要么我们想法枯竭了，要么我们在憋大招。时间会证明一切。"这条推文获得超过 2700 赞，反映了 OpenAI 内部对当前产品节奏的微妙情绪。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Jev 一个月回顾：它做出的不是文本，是决策</h2>
+      <div class="meta-line">The MAD Podcast × Matt Turck · 2026-10-15 发布 · 约 68 分钟</div>
+      <p>TypeSafe AI 的 CEO Diogo Almeida 做客 MAD Podcast，回顾 Jev 发布一个月来的惊人增长：4000 万播放的上线视频、日活 100 万用户、日处理万亿 Token、三分之一财富 500 强企业已成为客户。TypeSafe 刚完成 8.7 亿美元 Series A，估值 75 亿美元。</p>
+          <p>Almeida 的核心论点简洁而大胆：AI 并非不能做 System 2（深度推理）任务，而是应该把复杂任务分解为可信赖的 System 1（快速直觉）模块来组合完成。他把 Jev 称为「机器原生 AI」——不是聊天框里的助手，而是嵌入软件内部的决策引擎。</p>
+          <p>播客中最具争议的观点之一是：RLHF（人类反馈强化学习）是 AI 行业的「欺诈性成本」。Almeida 直言，为了让模型「取悦人类」而牺牲真实性，导致了系统性的 sycophancy（阿谀奉承）问题。他认为 Jev 的训练方式（RLCD）直接优化机器可执行的决策质量，而非人类偏好的表面拟合。</p>
+      <a class="read-more" href="https://www.youtube.com/@DataDrivenNYC/videos">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">Meta 做出了 Muse 开源权重模型，这是美国开源 AI 的重大进步。企业将能混合搭配前沿模型用于编排，同时用低成本定制模型处理重复性工作流，这将大幅推高全栈的 Token 消耗和工作负载。从对话式 Agent 到后台自主 Agent 的范式转换，将使 Token 消耗达到当前的 100 到 1000 倍。 <a class="read-more" href="https://x.com/levie/status/2110787013809222141" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">未来我们会拥有机器人、飞行汽车、超级智能、飞机上的高速网络、太空旅行、太空殖民地、轨道数据中心、无限能源、几乎每种疾病的治愈方案——全部在我们的有生之年。相当不错。 <a class="read-more" href="https://x.com/levie/status/2110975373219688624" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">开源权重模型正在崛起。Meta 的 Muse 开放权重是美国 AI 开源生态的关键一步，让企业可以在前沿性能和低成本定制之间自由组合。 <a class="read-more" href="https://x.com/garrytan/status/2110838867213668587" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">过去几年我们在 Claude 模型的提示注入防护上取得了重大进展。随着 Agent 能做越来越多的事，全行业解决这个问题的紧迫性越来越高。很高兴能与 Gray Swan 合作举办这次竞赛，看看大家能找到什么。 <a class="read-more" href="https://x.com/bcherny/status/2110791698611855624" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">要么我们想法枯竭了，要么我们在憋大招。时间会证明一切。 <a class="read-more" href="https://x.com/thsottiaux/status/2110971985417441512" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">你刚读完关于多语义性的文章，自然认为可解释性就是解开叠加。你会相信这一点，直到下学期发现一个对埃菲尔铁塔有反应的神经元。然后你会花整个夏天解释我们如何对齐超级智能，因为我们知道它在想法国。明年你会意识到：知道它认出埃菲尔铁塔，根本不知道它打算干什么。 <a class="read-more" href="https://x.com/danshipper/status/2110831666587713810" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · SPC 合伙人 / 前 Reddit CEO</span>
+              
+            </div>
+            <p class="voice-quote">我相信 Goodfire 可能是 SPC 孵化出的最重要公司之一。他们证明了可解释性和对齐可以被当作工程问题来解决。这很重要——把看似哲学的问题变成可操作的工程路径。 <a class="read-more" href="https://x.com/adityaag/status/2110779602453066224" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Product, Codex @OpenAI / 前 Linear 产品负责人</span>
+              
+            </div>
+            <p class="voice-quote">品味不意味着审美品味。那是品味最浅薄的定义，也因为太常见而毫无趣。真正的品味是关于判断力、时机感和对边界的理解。 <a class="read-more" href="https://x.com/thenanyu/status/2110730151222980849" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder / Harvard'17</span>
+              
+            </div>
+            <p class="voice-quote">永远不要低估观众的智慧，也永远不要高估他们的先备知识。——Ezra Klein。做产品和内容时，这是最值得记住的一句话。 <a class="read-more" href="https://x.com/zarazhangrui/status/2110815456458412179" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 14 位建造者 · 本期播客：The MAD Podcast × Diogo Almeida</strong><br>
+      覆盖 14 位建造者，9 条精选观点，0 篇官方博客<br>
+      生成于 2026-10-17T02:00:00.000Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
