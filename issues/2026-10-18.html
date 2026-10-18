@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月18日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026291</span><span>2026年10月18日 · 星期六</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Roadster 引爆全网 · Box CEO 预言 Agent 时代 Token 消耗暴增百倍 · 数学家哀悼 AI</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Roadster 惊艳亮相引爆 AI 圈，Box CEO 断言：Agent 蜂群时代 Token 消耗将暴增百倍</h1>
+      <p>特斯拉新一代 Roadster 发布，马斯克设计惊艳全场。OpenAI CEO Sam Altman 第一时间发文称赞："新 Roadster 看起来太棒了，@elonmusk 干得好。"这条推文收获超过 5.5 万赞，成为今天 AI 圈传播最广的一条。Vercel CEO Guillermo Rauch 更是直接动手，用高精度物理引擎重新构建了 Roadster 的可交互模拟——保留了大量真实车辆细节，让网友能在浏览器里体验这辆超跑。</p>
+          <p>Box CEO Aaron Levie 则在另一条推文里提出了一个更宏大的判断：AI 正跨过某个临界点——自主 Agent 执行复杂任务的能力已超过多数人类工程师，配合并行化的 Agent "蜂群"，模型迭代速度将远超以往任何时期。他认为，从对话式助手到后台自主 Agent 的范式转换，将使 Token 消耗达到当前水平的 100 到 1000 倍。</p>
+          <p>与此同时，Replit CEO Amjad Masad 分享了一则有趣的观察：数学家们正在经历 AI 冲击下的"哀悼五阶段"——否认、愤怒、讨价还价、抑郁、接受——而且压缩在极短时间内完成。他感慨："我们正处于抑郁末期，即将进入接受期。"</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>OpenAI 总裁 Greg Brockman：AGI 必须让人类握紧方向盘</h2>
+      <div class="meta-line">No Priors Podcast × Greg Brockman · 2026-10-15 发布</div>
+      <p>OpenAI 总裁兼联合创始人 Greg Brockman 做客 No Priors 播客，深入讨论了 AGI 安全、网络安全支出激增，以及 AI 如何推动药物研发等领域的新突破。他重申 OpenAI 的核心立场：AGI 必须让人类牢牢掌握方向盘，AI 应该放大人类的能动性，而非取代人类的决策权。</p>
+          <p>Brockman 提出了一个反直觉的判断：网络安全支出应该远超软件支出。他认为人们尚未充分认识到，AI 时代网络安全的"物理法则"正在发生根本性变化——攻击门槛大幅降低，防御方必须投入指数级资源才能维持平衡。这一观点直指当前企业安全预算的结构性问题。</p>
+          <p>在药物研发方面，Brockman 透露 OpenAI 内部已在推进相关合作，认为 AI 生成新知识的能力正在从数学证明扩展到生物学和化学领域，有望彻底改变新药发现的效率曲线。</p>
+      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">我们正处在这样一个临界点：AI 训练模型的能力将比人类更快超越自身。递归自我改进不再遥远——今天已看到早期迹象。Agent 蜂群覆盖代码保护、数据安全、QA 测试等所有知识工作，Token 消耗将达到现在的 100 到 1000 倍。不把这一点纳入定价模型的人，会犯大错。 <a class="read-more" href="https://x.com/levie/status/2111312141609586862" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Sam Altman</span>
+              <span class="voice-handle">@sama · OpenAI CEO</span>
+              
+            </div>
+            <p class="voice-quote">新 Roadster 看起来太棒了，@elonmusk 干得好。这条推文获得了超过 5.5 万赞，是今天 AI 圈最热的回应之一。 <a class="read-more" href="https://x.com/sama/status/2111131677351432197" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">过去几年我们在 Claude 模型的提示注入防护上取得了重大进展。随着 Agent 能做越来越多的事情，全行业解决这个问题的紧迫性越来越高。很高兴能与 Gray Swan 合作举办这次竞赛，看看大家能找到什么漏洞。 <a class="read-more" href="https://x.com/bcherny/status/2111158313463525518" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">ChatGPT Space 到底是什么？这个问题本身就很有趣。有时候回答得 awkward 是因为团队就在屏幕后面实时工作。你们还想看到什么？ <a class="read-more" href="https://x.com/thsottiaux/status/2111249534072529256" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · Replit CEO</span>
+              
+            </div>
+            <p class="voice-quote">看数学家们经历 AI 冲击的五阶段哀悼过程——否认、愤怒、讨价还价、抑郁、接受——竟然压缩在这么短的时间内完成。我们正处于抑郁末期，即将进入接受期。这是一个非常有趣的观察。 <a class="read-more" href="https://x.com/amasad/status/2111206044416500159" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">生成现在既便宜又高质量。我们需要的大一跳能力，不再是生成，而是编辑和审核。这是当前 AI 能力的真实分水岭。 <a class="read-more" href="https://x.com/danshipper/status/2111174407637139668" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">把 Roadster  Demo 重建成了一个可玩的高精度模拟，保留了大量真实车辆细节。这种技术展示既是致敬，也是实力的证明。 <a class="read-more" href="https://x.com/rauchg/status/2111313462987231519" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">今天开始新项目时，我最喜欢的组合是 @capydotai + @AsideAI——我的 Agent 能同时写第一版代码并搞定所有 DevOps 配置，一举两得。 <a class="read-more" href="https://x.com/garrytan/status/2111235500568969451" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Claude</span>
+              <span class="voice-handle">@claudeai · Anthropic 官方</span>
+              
+            </div>
+            <p class="voice-quote">一位心脏病学研究员用 Claude 构建了一个 3D 工具，帮助医学生训练读冠脉造影图的能力。这是 AI 在垂直领域落地的典范案例。 <a class="read-more" href="https://x.com/claudeai/status/2111177843413807120" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 17 位建造者 · 本期播客：No Priors × Greg Brockman</strong><br>
+      覆盖 17 位建造者，9 条精选观点，0 篇官方博客，1 期播客<br>
+      生成于 2026-10-18T02:00:00.000Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
