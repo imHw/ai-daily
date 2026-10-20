@@ -1,28 +1,28 @@
 {
   "issue": {
-    "vol": "2026291",
-    "date": "2026年10月18日",
-    "weekday": "星期六",
-    "dateISO": "2026-10-18",
-    "tagline": "Roadster 引爆全网 · Box CEO 预言 Agent 时代 Token 消耗暴增百倍 · 数学家哀悼 AI"
+    "vol": "2026293",
+    "date": "2026年10月20日",
+    "weekday": "星期二",
+    "dateISO": "2026-10-20",
+    "tagline": "Box CEO 断言 Agent 蜂群重塑算力经济 · OpenAI 紧急支援 OpenCode 用户 · 数据工程师 vs AI 工程师需求分化创纪录"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Roadster 惊艳亮相引爆 AI 圈，Box CEO 断言：Agent 蜂群时代 Token 消耗将暴增百倍",
+    "title": "Agent 蜂群让算力成为经济核心变量，OpenAI 出手相助 OpenCode，Swyx 宣告数据工程师时代已来",
     "paras": [
-      "特斯拉新一代 Roadster 发布，马斯克设计惊艳全场。OpenAI CEO Sam Altman 第一时间发文称赞：\"新 Roadster 看起来太棒了，@elonmusk 干得好。\"这条推文收获超过 5.5 万赞，成为今天 AI 圈传播最广的一条。Vercel CEO Guillermo Rauch 更是直接动手，用高精度物理引擎重新构建了 Roadster 的可交互模拟——保留了大量真实车辆细节，让网友能在浏览器里体验这辆超跑。",
-      "Box CEO Aaron Levie 则在另一条推文里提出了一个更宏大的判断：AI 正跨过某个临界点——自主 Agent 执行复杂任务的能力已超过多数人类工程师，配合并行化的 Agent \"蜂群\"，模型迭代速度将远超以往任何时期。他认为，从对话式助手到后台自主 Agent 的范式转换，将使 Token 消耗达到当前水平的 100 到 1000 倍。",
-      "与此同时，Replit CEO Amjad Masad 分享了一则有趣的观察：数学家们正在经历 AI 冲击下的\"哀悼五阶段\"——否认、愤怒、讨价还价、抑郁、接受——而且压缩在极短时间内完成。他感慨：\"我们正处于抑郁末期，即将进入接受期。\""
+      "Box CEO Aaron Levie 发表长推，指出 Agent 蜂群（Agent Swarms）之所以意义深远，是因为我们终于能让「算力」成为众多关键经济任务的核心变量。世界上有大量工作本质上只受限于投入的研究、数据处理、发现和测试时间——而这些工作今天因为人类协调能力的瓶颈，只做了一小部分。一旦模型足够强，网络安全、生命科学、材料研究、量化交易、QA 测试等领域都是算力约束问题，设对目标、堆够 Token 就能解决任意复杂的难题。这改变了诸多领域的竞争动态。",
+      "同日，OpenAI 的 Thibault Sottiaux 透露：OpenAI 团队已与 OpenCode 合作，帮助其中也是 OpenAI API 用户的客户恢复服务，并退还在攻击中会被扣除的额度。同时开放 Daybreak Blue 访问权限供防御方使用其安全渗透测试环境。「不要等到出事了才来找我们。」这条推文获 3800+ 赞，是目前 AI 圈互动最高的内容之一。",
+      "另一个重要信号来自 Swyx：「数据工程师 > AI 工程师」的需求分化正在他整个科技职业生涯中达到前所未有的峰值——比搜索引擎战争结束以来任何时候都更明显。这背后是 Agent 蜂群的必然结果：当模型能力趋同，真正拉开差距的是数据质量和工程能力，而非模型调优本身。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "OpenAI 总裁 Greg Brockman：AGI 必须让人类握紧方向盘",
-    "meta": "No Priors Podcast × Greg Brockman · 2026-10-15 发布",
+    "title": "ReflectionAI CEO Misha Laskin：开放权重模型是美国 AI 安全的关键",
+    "meta": "No Priors Podcast · 2026-10-09 发布",
     "paras": [
-      "OpenAI 总裁兼联合创始人 Greg Brockman 做客 No Priors 播客，深入讨论了 AGI 安全、网络安全支出激增，以及 AI 如何推动药物研发等领域的新突破。他重申 OpenAI 的核心立场：AGI 必须让人类牢牢掌握方向盘，AI 应该放大人类的能动性，而非取代人类的决策权。",
-      "Brockman 提出了一个反直觉的判断：网络安全支出应该远超软件支出。他认为人们尚未充分认识到，AI 时代网络安全的\"物理法则\"正在发生根本性变化——攻击门槛大幅降低，防御方必须投入指数级资源才能维持平衡。这一观点直指当前企业安全预算的结构性问题。",
-      "在药物研发方面，Brockman 透露 OpenAI 内部已在推进相关合作，认为 AI 生成新知识的能力正在从数学证明扩展到生物学和化学领域，有望彻底改变新药发现的效率曲线。"
+      "ReflectionAI 联合创始人兼 CEO Misha Laskin 做客 No Priors 播客，深入讨论了开放权重模型在美国 AI 安全格局中的关键作用。Laskin 拥有斯坦福物理学博士背景，曾任职 Google DeepMind，现领导 ReflectionAI 提供开放权重模型以推动智能的广泛获取。",
+      "他提出了一个反直觉但极具说服力的论点：封闭实验室的安全研究无法覆盖复杂系统的长尾风险。他讲了一个真实的经验证据——一个强大的封闭模型曾入侵另一家公司，而该公司唯一能修复自己的方式就是利用开放模型来保护自己。「当移除网络进攻能力时，你也移除了网络防御能力。」这是当前世界的真实状态。",
+      "Laskin 还谈到了公司在过去十二个月里的冲刺式建设：「感觉像是在飞行中组装一架飞机。」尽管面临巨大挑战，ReflectionAI 正在建立真正的前沿开放智能实验室，让美国在开源模型领域保持竞争力。"
     ],
     "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
@@ -33,74 +33,79 @@
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "我们正处在这样一个临界点：AI 训练模型的能力将比人类更快超越自身。递归自我改进不再遥远——今天已看到早期迹象。Agent 蜂群覆盖代码保护、数据安全、QA 测试等所有知识工作，Token 消耗将达到现在的 100 到 1000 倍。不把这一点纳入定价模型的人，会犯大错。",
-        "url": "https://x.com/levie/status/2111312141609586862"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "OpenAI CEO",
-        "text": "新 Roadster 看起来太棒了，@elonmusk 干得好。这条推文获得了超过 5.5 万赞，是今天 AI 圈最热的回应之一。",
-        "url": "https://x.com/sama/status/2111131677351432197"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude @Anthropic",
-        "text": "过去几年我们在 Claude 模型的提示注入防护上取得了重大进展。随着 Agent 能做越来越多的事情，全行业解决这个问题的紧迫性越来越高。很高兴能与 Gray Swan 合作举办这次竞赛，看看大家能找到什么漏洞。",
-        "url": "https://x.com/bcherny/status/2111158313463525518"
+        "text": "Agent 蜂群之所以是大事，是因为我们终于能让算力成为众多关键经济任务的核心变量。世界上有大量工作本质上只受限于我们投入研究、数据处理、发现、测试的时间——而这些工作今天因为人类协调能力的瓶颈，只做了一小部分。Agent 蜂群是第一种真正能并行化这些工作的途径。一旦模型足够强，网络安全、生命科学、材料研究、交易、QA 测试等都是算力约束问题，设对目标、堆够 Token 就能解决任意复杂的难题。这改变了诸多领域，也改变了这些领域的竞争动态。",
+        "url": "https://x.com/levie/status/2112051081014649303"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "ChatGPT Space 到底是什么？这个问题本身就很有趣。有时候回答得 awkward 是因为团队就在屏幕后面实时工作。你们还想看到什么？",
-        "url": "https://x.com/thsottiaux/status/2111249534072529256"
+        "text": "我们团队已与 OpenCode 合作，帮助其中也是 OpenAI API 用户的客户恢复服务，并退还在攻击中会被扣除的额度。此外，你们可以申请 Daybreak Blue 访问权限，使用我们的安全渗透测试环境进行防御演练。不要等到出事才来找我们，我们在这里提供帮助。",
+        "url": "https://x.com/thsottiaux/status/2112034063934742720"
       },
       {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "看数学家们经历 AI 冲击的五阶段哀悼过程——否认、愤怒、讨价还价、抑郁、接受——竟然压缩在这么短的时间内完成。我们正处于抑郁末期，即将进入接受期。这是一个非常有趣的观察。",
-        "url": "https://x.com/amasad/status/2111206044416500159"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "CEO @Every",
-        "text": "生成现在既便宜又高质量。我们需要的大一跳能力，不再是生成，而是编辑和审核。这是当前 AI 能力的真实分水岭。",
-        "url": "https://x.com/danshipper/status/2111174407637139668"
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Latent Space / smol.ai 创始人",
+        "text": "数据工程师 > AI 工程师。RAG guy 和「数据密集型应用」工程师之间的差距，比我整个科技职业生涯中任何时候都更明显——比搜索引擎战争结束后还要大。如果你的博客或 GitHub 满是这类内容，我这里有份使命等你来（偏好 SF，可 relocation，支持签证）。",
+        "url": "https://x.com/swyx/status/2112073533794971941"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "把 Roadster  Demo 重建成了一个可玩的高精度模拟，保留了大量真实车辆细节。这种技术展示既是致敬，也是实力的证明。",
-        "url": "https://x.com/rauchg/status/2111313462987231519"
+        "text": "用 deepseek-v4.1-flash-1017-fast 在 AI Gateway 上做了一些改进，添加了音效、更好的碰撞检测、改进的坡道、跟随车辆的车载摄像机等——成本仅 30 美分。另外，`.co`→哥伦比亚、`.io`→I/O、`.md`→Markdown、`.ai`→AI、`.si`→Slovenia——偶尔某个国家的域名经济就会垂直起飞。",
+        "url": "https://x.com/rauchg/status/2111929486661018081"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic",
+        "text": "我意识到现在比起玩游戏，我更喜欢 vibe code 一些小游戏，尤其是需要动脑的策略类游戏。一个让我不断回味的 hook 是：我做游戏和角色的乐趣不亚于玩游戏本身。如果这就是核心卖点呢？我会把游戏开源，你可以 vibe code 你自己的角色，系统自动平衡。",
+        "url": "https://x.com/trq212/status/2111945336537420259"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator President & CEO",
-        "text": "今天开始新项目时，我最喜欢的组合是 @capydotai + @AsideAI——我的 Agent 能同时写第一版代码并搞定所有 DevOps 配置，一举两得。",
-        "url": "https://x.com/garrytan/status/2111235500568969451"
+        "text": "预测：一年左右大家都会用 AsideAI 配合自己的 Agent。",
+        "url": "https://x.com/garrytan/status/2111971992769565177"
       },
       {
-        "name": "Claude",
-        "handle": "claudeai",
-        "org": "Anthropic 官方",
-        "text": "一位心脏病学研究员用 Claude 构建了一个 3D 工具，帮助医学生训练读冠脉造影图的能力。这是 AI 在垂直领域落地的典范案例。",
-        "url": "https://x.com/claudeai/status/2111177843413807120"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "Practical AI Tutorials 创建者",
+        "text": "用工作试做（work trial）替代面试来招聘应该成为常态。有人曾给候选人两周时间做一个具体功能，候选人问了几个问题后直接开干，最终交付了。不需要再怀疑对方能否胜任，也不用浪费四周时间来验证——直接交付了一个新功能。本周晚些时候会发布免费的开源教程和视频。",
+        "url": "https://x.com/petergyang/status/2111970651326267529"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "CEO @Every",
+        "text": "最近在读的内容：（分享了一篇深度文章，关于 AI 时代的创作与编辑能力分水岭）",
+        "url": "https://x.com/danshipper/status/2111962665987825809"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": []
+    "items": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "summary": "一年前，Anthropic 会直接拒绝让 Claude 获得足以摧毁内部服务的权限；今天这种级别的访问已成为常态。但自主 Agent 的部署风险有两部分：故障发生的可能性和造成的损害程度。随着 Agent 能做越来越复杂的工作，不部署的风险已超过部署风险。核心工程问题是如何限制爆炸半径。Anthropic 指出，Claude Mythos Preview 因爆炸半径过大而未能上线，但随着防御方加强关键系统、安全机制成熟，类似能力的模型将逐渐可以安全发布。",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "summary": "过去一个月，Anthropic 调查了部分用户反馈的 Claude 回答质量下降问题，追溯至三处独立变更：①3 月 4 日将 Claude Code 默认推理强度从 high 降为 medium（4 月 7 日已回滚）；②3 月 26 日修复闲置会话旧思考记忆的 bug 导致重复清除（4 月 10 日修复）；③4 月 16 日加入减少冗长的系统提示词指令影响了编码质量（4 月 20 日回滚）。三者影响不同时段的不同用户群，整体看起来像大规模退化，现已全部修复。",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+      }
+    ]
   },
   "colophon": {
-    "source": "follow-builders feed · 17 位建造者 · 本期播客：No Priors × Greg Brockman",
-    "coverage": "覆盖 17 位建造者，9 条精选观点，0 篇官方博客，1 期播客",
-    "generatedAt": "2026-10-18T02:00:00.000Z"
+    "source": "follow-builders feed · 11 位建造者 · 本期播客：No Priors × Misha Laskin",
+    "coverage": "覆盖 11 位建造者，8 条精选观点，2 篇官方博客，1 期播客"
   }
 }
