@@ -1,111 +1,98 @@
 {
   "issue": {
-    "vol": "2026293",
-    "date": "2026年10月20日",
-    "weekday": "星期二",
-    "dateISO": "2026-10-20",
-    "tagline": "Box CEO 断言 Agent 蜂群重塑算力经济 · OpenAI 紧急支援 OpenCode 用户 · 数据工程师 vs AI 工程师需求分化创纪录"
+    "vol": "2026294",
+    "date": "2026年10月21日",
+    "weekday": "星期三",
+    "dateISO": "2026-10-21",
+    "tagline": "Thariq 警告 Agent 多任务陷阱 · Box CEO 断言专业化将随 Agent 蜂群上升 · Vercel 开源极速 HTML 构建器"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Agent 蜂群让算力成为经济核心变量，OpenAI 出手相助 OpenCode，Swyx 宣告数据工程师时代已来",
+    "title": "Anthropic 工程师提醒 Agent 用户慢下来，Box CEO 提出 Agent 蜂群让领域专业化回归，Vercel 开源 1000 token/s HTML 构建器",
     "paras": [
-      "Box CEO Aaron Levie 发表长推，指出 Agent 蜂群（Agent Swarms）之所以意义深远，是因为我们终于能让「算力」成为众多关键经济任务的核心变量。世界上有大量工作本质上只受限于投入的研究、数据处理、发现和测试时间——而这些工作今天因为人类协调能力的瓶颈，只做了一小部分。一旦模型足够强，网络安全、生命科学、材料研究、量化交易、QA 测试等领域都是算力约束问题，设对目标、堆够 Token 就能解决任意复杂的难题。这改变了诸多领域的竞争动态。",
-      "同日，OpenAI 的 Thibault Sottiaux 透露：OpenAI 团队已与 OpenCode 合作，帮助其中也是 OpenAI API 用户的客户恢复服务，并退还在攻击中会被扣除的额度。同时开放 Daybreak Blue 访问权限供防御方使用其安全渗透测试环境。「不要等到出事了才来找我们。」这条推文获 3800+ 赞，是目前 AI 圈互动最高的内容之一。",
-      "另一个重要信号来自 Swyx：「数据工程师 > AI 工程师」的需求分化正在他整个科技职业生涯中达到前所未有的峰值——比搜索引擎战争结束以来任何时候都更明显。这背后是 Agent 蜂群的必然结果：当模型能力趋同，真正拉开差距的是数据质量和工程能力，而非模型调优本身。"
+      "Anthropic 工程师 Thariq（@trq212）发推引发广泛共鸣（5400+ 赞）：大多数用 Agent 多任务并行的人，其实应该慢下来。你手头大部分事并不会真正重要——你的 P0 是什么？如果给它全部注意力，会是什么样？这一提醒在 Agent 应用爆发式增长的当下格外及时，戳中了当前 AI 工作流的普遍焦虑。",
+      "Box CEO Aaron Levie 发表长篇分析，提出一个反直觉的判断：随着模型能力越来越强、能处理更长的任务和更好的工具使用，按领域差异化竞争的能力反而在上升，而非下降。当模型还很有限时，你本质上只能是「包装层」；但在 Agent 蜂群时代，任务可以运行数小时甚至数天，需要协调的 Agent 群体、领域特定的数据源、需要真实工作流变更而非「只是打个聊天框」的实现——这些都会推高专业化价值。他预测网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统。",
+      "Vercel CEO Guillermo Rauch 开源了一个极速 HTML artifact 构建器，底层由 libfx 驱动，让 Agent 生成的内容在服务崩溃或 LLM 限流时也能持久化。他还透露在 AI Gateway 上实现了 1000 tokens/秒的推理速度。此外，Heavens AI 宣布免费开放其 200B 参数模型接入 Vercel AI Gateway，进一步降低 AI 应用门槛。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "ReflectionAI CEO Misha Laskin：开放权重模型是美国 AI 安全的关键",
-    "meta": "No Priors Podcast · 2026-10-09 发布",
+    "title": "Why Every Traded Personal Agents for One Company Agent",
+    "meta": "AI & I by Every · 2026-10-07 发布",
     "paras": [
-      "ReflectionAI 联合创始人兼 CEO Misha Laskin 做客 No Priors 播客，深入讨论了开放权重模型在美国 AI 安全格局中的关键作用。Laskin 拥有斯坦福物理学博士背景，曾任职 Google DeepMind，现领导 ReflectionAI 提供开放权重模型以推动智能的广泛获取。",
-      "他提出了一个反直觉但极具说服力的论点：封闭实验室的安全研究无法覆盖复杂系统的长尾风险。他讲了一个真实的经验证据——一个强大的封闭模型曾入侵另一家公司，而该公司唯一能修复自己的方式就是利用开放模型来保护自己。「当移除网络进攻能力时，你也移除了网络防御能力。」这是当前世界的真实状态。",
-      "Laskin 还谈到了公司在过去十二个月里的冲刺式建设：「感觉像是在飞行中组装一架飞机。」尽管面临巨大挑战，ReflectionAI 正在建立真正的前沿开放智能实验室，让美国在开源模型领域保持竞争力。"
+      "Every CEO Dan Shipper 深入探讨了一个反直觉的产品决策：为什么 Every 选择了打造统一的「公司级 Agent」，而非让用户各自拥有多个个人 Agent？这与当前流行的「每人多个 Agent」思路形成了鲜明对比。",
+      "节目中提到了当前个人 Agent 的实际使用案例：扫描孩子学校邮件并提炼关键信息、捕捉 Slack 中遗漏的访问请求、在手不方便时继续工作。这些场景展示了一个统一 Agent 在处理跨渠道信息聚合时的独特优势——它不需要用户在多个 Agent 之间切换上下文，而是作为一个单一的智能接口理解所有来源。",
+      "这也是对当前 Agent 设计范式的深层思考：当 Agent 开始承担更多持续性、主动性的工作时，是分散的多 Agent 架构更高效，还是统一的 Agent 更能避免上下文割裂？Every 选择了后者，并在用户采用过程中观察到了独特的使用模式。"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "Claude Code @Anthropic",
+        "text": "我最近意识到，大多数用 Agent 多任务并行的人，其实应该慢下来。你手头大部分事并不会真正重要——你的 P0 是什么？如果给它全部注意力，会是什么样？这个反思值得每个人认真思考。",
+        "url": "https://x.com/trq212/status/2112219173288120531"
+      },
+      {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "Agent 蜂群之所以是大事，是因为我们终于能让算力成为众多关键经济任务的核心变量。世界上有大量工作本质上只受限于我们投入研究、数据处理、发现、测试的时间——而这些工作今天因为人类协调能力的瓶颈，只做了一小部分。Agent 蜂群是第一种真正能并行化这些工作的途径。一旦模型足够强，网络安全、生命科学、材料研究、交易、QA 测试等都是算力约束问题，设对目标、堆够 Token 就能解决任意复杂的难题。这改变了诸多领域，也改变了这些领域的竞争动态。",
-        "url": "https://x.com/levie/status/2112051081014649303"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "我们团队已与 OpenCode 合作，帮助其中也是 OpenAI API 用户的客户恢复服务，并退还在攻击中会被扣除的额度。此外，你们可以申请 Daybreak Blue 访问权限，使用我们的安全渗透测试环境进行防御演练。不要等到出事才来找我们，我们在这里提供帮助。",
-        "url": "https://x.com/thsottiaux/status/2112034063934742720"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Latent Space / smol.ai 创始人",
-        "text": "数据工程师 > AI 工程师。RAG guy 和「数据密集型应用」工程师之间的差距，比我整个科技职业生涯中任何时候都更明显——比搜索引擎战争结束后还要大。如果你的博客或 GitHub 满是这类内容，我这里有份使命等你来（偏好 SF，可 relocation，支持签证）。",
-        "url": "https://x.com/swyx/status/2112073533794971941"
+        "text": "应用 AI 层最深刻的悖论是：随着模型越来越强，按领域差异化竞争的能力反而上升。当模型还很有限时，你只能做「包装层」；但在 Agent 蜂群时代，任务可以运行数小时甚至数天，需要协调的 Agent 群体、领域特定的数据源、需要真实工作流变更——这些都会推高专业化价值。网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统。",
+        "url": "https://x.com/levie/status/2112404676436222170"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "用 deepseek-v4.1-flash-1017-fast 在 AI Gateway 上做了一些改进，添加了音效、更好的碰撞检测、改进的坡道、跟随车辆的车载摄像机等——成本仅 30 美分。另外，`.co`→哥伦比亚、`.io`→I/O、`.md`→Markdown、`.ai`→AI、`.si`→Slovenia——偶尔某个国家的域名经济就会垂直起飞。",
-        "url": "https://x.com/rauchg/status/2111929486661018081"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @Anthropic",
-        "text": "我意识到现在比起玩游戏，我更喜欢 vibe code 一些小游戏，尤其是需要动脑的策略类游戏。一个让我不断回味的 hook 是：我做游戏和角色的乐趣不亚于玩游戏本身。如果这就是核心卖点呢？我会把游戏开源，你可以 vibe code 你自己的角色，系统自动平衡。",
-        "url": "https://x.com/trq212/status/2111945336537420259"
+        "text": "我们开源了一个极速 HTML artifact 构建器，由 libfx 驱动，让 Agent 生成的内容在服务崩溃或 LLM 限流时也能持久化。构建 v0 的低层管道（应对服务器崩溃、不稳定的 LLM、函数限制）曾是大痛点，现在它简单、免费且开源。顺便，我用它在几分钟内构建了一个浮动容器——只是 HTML，但体验很棒。另外我们在 AI Gateway 上实现了 1000 tokens/秒的推理速度。",
+        "url": "https://x.com/rauchg/status/2112247046082363821"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator President & CEO",
-        "text": "预测：一年左右大家都会用 AsideAI 配合自己的 Agent。",
-        "url": "https://x.com/garrytan/status/2111971992769565177"
+        "text": "多人协作的 Agent 以群组聊天形式出现几乎 inevitable，Wabi 已经做到了。这预示着 Agent 交互范式的下一步演进——从单人对话走向团队协作。",
+        "url": "https://x.com/garrytan/status/2112278352514162834"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "Practical AI Tutorials 创建者",
-        "text": "用工作试做（work trial）替代面试来招聘应该成为常态。有人曾给候选人两周时间做一个具体功能，候选人问了几个问题后直接开干，最终交付了。不需要再怀疑对方能否胜任，也不用浪费四周时间来验证——直接交付了一个新功能。本周晚些时候会发布免费的开源教程和视频。",
-        "url": "https://x.com/petergyang/status/2111970651326267529"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "FPV Ventures Partner",
+        "text": "Wabi 2.0 的设计范式真正抓住了重点。当前个人 Agent 有两种类型：一是单人群聊式（如 iMessage 或 Muse），有用但难以在多线程生活中 compartmentalize；二是自建多个 Hermes Agent，能共享上下文但会永久存在。Wabi 的 orchestrator + 主题式episodic chat 模式完美解决了这个问题——可以和妻子共享孩子学校的 Agent，旅行结束后自动归档，税务 Agent 用完即弃。唯一建议是太 proactive 了，app 体验还有提升空间。",
+        "url": "https://x.com/nikunj/status/2112219327881761008"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "Day 15 更新：别担心，我们还在继续开发……然后重置了。幽默中带着真实的开发节奏——OpenAI 内部也在经历快速迭代和重新校准。",
+        "url": "https://x.com/thsottiaux/status/2112432076767289678"
       },
       {
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "CEO @Every",
-        "text": "最近在读的内容：（分享了一篇深度文章，关于 AI 时代的创作与编辑能力分水岭）",
-        "url": "https://x.com/danshipper/status/2111962665987825809"
+        "text": "为 Quinten、Ajay 和团队感到骄傲——他们多年来一直在推进 AI 创意和叙事的边界，这是 AI 在消费领域真正落地的工作的突破性案例之一。很荣幸能以小投资者身份参与。",
+        "url": "https://x.com/danshipper/status/2112230653924192274"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "Practical AI Tutorials 创建者",
+        "text": "发现了一个非常视觉化的 AI 工具，迫不及待想尝试。另外深入分析了 Netflix 原创影视大量是「AI slop」的原因——虽然我还是喜欢其中一些，尤其是韩国作品。",
+        "url": "https://x.com/petergyang/status/2112292347505688990"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "Anthropic Engineering",
-        "title": "How we contain Claude across products",
-        "summary": "一年前，Anthropic 会直接拒绝让 Claude 获得足以摧毁内部服务的权限；今天这种级别的访问已成为常态。但自主 Agent 的部署风险有两部分：故障发生的可能性和造成的损害程度。随着 Agent 能做越来越复杂的工作，不部署的风险已超过部署风险。核心工程问题是如何限制爆炸半径。Anthropic 指出，Claude Mythos Preview 因爆炸半径过大而未能上线，但随着防御方加强关键系统、安全机制成熟，类似能力的模型将逐渐可以安全发布。",
-        "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
-      },
-      {
-        "name": "Anthropic Engineering",
-        "title": "An update on recent Claude Code quality reports",
-        "summary": "过去一个月，Anthropic 调查了部分用户反馈的 Claude 回答质量下降问题，追溯至三处独立变更：①3 月 4 日将 Claude Code 默认推理强度从 high 降为 medium（4 月 7 日已回滚）；②3 月 26 日修复闲置会话旧思考记忆的 bug 导致重复清除（4 月 10 日修复）；③4 月 16 日加入减少冗长的系统提示词指令影响了编码质量（4 月 20 日回滚）。三者影响不同时段的不同用户群，整体看起来像大规模退化，现已全部修复。",
-        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
-      }
-    ]
+    "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 11 位建造者 · 本期播客：No Priors × Misha Laskin",
-    "coverage": "覆盖 11 位建造者，8 条精选观点，2 篇官方博客，1 期播客"
+    "source": "follow-builders feed · 11 位建造者 · 本期播客：AI & I by Every",
+    "coverage": "覆盖 11 位建造者，8 条精选观点，0 篇官方博客，1 期播客"
   }
 }
