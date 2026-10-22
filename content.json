@@ -1,89 +1,85 @@
 {
   "issue": {
-    "vol": "2026294",
-    "date": "2026年10月21日",
-    "weekday": "星期三",
-    "dateISO": "2026-10-21",
-    "tagline": "Thariq 警告 Agent 多任务陷阱 · Box CEO 断言专业化将随 Agent 蜂群上升 · Vercel 开源极速 HTML 构建器"
+    "vol": "2026295",
+    "date": "2026年10月22日",
+    "weekday": "星期四",
+    "dateISO": "2026-10-22",
+    "tagline": "OpenAI 修复 4 万用户用量计次错误 · Agent 蜂群架构类比分布式系统演进 · Aaron Levie 论自主系统的专业化回归"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Anthropic 工程师提醒 Agent 用户慢下来，Box CEO 提出 Agent 蜂群让领域专业化回归，Vercel 开源 1000 token/s HTML 构建器",
+    "title": "OpenAI 承认用量计次错误影响 4 万账户，Codex 新增持久化缓存；Agent 蜂群架构被比作分布式系统演进，行业进入「专业化自主系统」新阶段",
     "paras": [
-      "Anthropic 工程师 Thariq（@trq212）发推引发广泛共鸣（5400+ 赞）：大多数用 Agent 多任务并行的人，其实应该慢下来。你手头大部分事并不会真正重要——你的 P0 是什么？如果给它全部注意力，会是什么样？这一提醒在 Agent 应用爆发式增长的当下格外及时，戳中了当前 AI 工作流的普遍焦虑。",
-      "Box CEO Aaron Levie 发表长篇分析，提出一个反直觉的判断：随着模型能力越来越强、能处理更长的任务和更好的工具使用，按领域差异化竞争的能力反而在上升，而非下降。当模型还很有限时，你本质上只能是「包装层」；但在 Agent 蜂群时代，任务可以运行数小时甚至数天，需要协调的 Agent 群体、领域特定的数据源、需要真实工作流变更而非「只是打个聊天框」的实现——这些都会推高专业化价值。他预测网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统。",
-      "Vercel CEO Guillermo Rauch 开源了一个极速 HTML artifact 构建器，底层由 libfx 驱动，让 Agent 生成的内容在服务崩溃或 LLM 限流时也能持久化。他还透露在 AI Gateway 上实现了 1000 tokens/秒的推理速度。此外，Heavens AI 宣布免费开放其 200B 参数模型接入 Vercel AI Gateway，进一步降低 AI 应用门槛。"
+      "OpenAI 工程负责人 Thibault Sottiaux 连续两天发声：Day 16 更新，Codex 与 Work 已支持长达 12 小时的 API 缓存， logged-in 用户的历史对话永久保留且无 penalty；同日他还披露了一则事故——周末期间约 4 万个账户出现用量计次不一致问题（扣费高于实际使用量），OpenAI 已逐一向受影响用户补发 credits 并道歉。这条事故通报获得 10,600+ 赞，是当日 OpenAI 侧最高互动内容。",
+      "与此同时，Agent 架构正经历范式迁移。Spark Capital GP Aditya Agarwal 发推指出：「推理时间扩展 → 子代理 → Agent 蜂群」的发展路径，与计算机科学中「CPU 线程 → 多核 CPU → 多节点分布式系统」的演进惊人相似——历史总在押韵。Box CEO Aaron Levie 进一步延伸这一判断，发布长篇分析：随着模型能力增强、工具使用和计算机控制能力提升，按领域差异化竞争的价值正在上升而非下降；网络安全、生命科学、医疗、金融、制造等领域将涌现大量此前不切实际的自主系统。",
+      "Google 侧，Josh Woodward 透露 Gemini App Trusted Tester 社区昨日突破重要里程碑，Web、Android、iOS 三端需求旺盛；另有报道引用 Sundar Pichai 表态：「站在前沿是 Google 的 DNA，我们会以其他方式做不到。」"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Why Every Traded Personal Agents for One Company Agent",
-    "meta": "AI & I by Every · 2026-10-07 发布",
-    "paras": [
-      "Every CEO Dan Shipper 深入探讨了一个反直觉的产品决策：为什么 Every 选择了打造统一的「公司级 Agent」，而非让用户各自拥有多个个人 Agent？这与当前流行的「每人多个 Agent」思路形成了鲜明对比。",
-      "节目中提到了当前个人 Agent 的实际使用案例：扫描孩子学校邮件并提炼关键信息、捕捉 Slack 中遗漏的访问请求、在手不方便时继续工作。这些场景展示了一个统一 Agent 在处理跨渠道信息聚合时的独特优势——它不需要用户在多个 Agent 之间切换上下文，而是作为一个单一的智能接口理解所有来源。",
-      "这也是对当前 Agent 设计范式的深层思考：当 Agent 开始承担更多持续性、主动性的工作时，是分散的多 Agent 架构更高效，还是统一的 Agent 更能避免上下文割裂？Every 选择了后者，并在用户采用过程中观察到了独特的使用模式。"
-    ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "title": "（无新播客更新）",
+    "meta": "—",
+    "paras": [],
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "Claude Code @Anthropic",
-        "text": "我最近意识到，大多数用 Agent 多任务并行的人，其实应该慢下来。你手头大部分事并不会真正重要——你的 P0 是什么？如果给它全部注意力，会是什么样？这个反思值得每个人认真思考。",
-        "url": "https://x.com/trq212/status/2112219173288120531"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "Day 16 更新：API 现在支持 12 小时缓存，登录用户在 Codex 和 Work 中，历史对话永久保留且无 penalty——即使几小时后再回来也能命中缓存。另：周末我们发现约 4 万个账户存在用量计次不一致问题（扣费高于实际使用），已逐一联系受影响用户并补发 credits，对不起我们搞砸了。",
+        "url": "https://x.com/thsottiaux/status/2112712984644784534"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "应用 AI 层最深刻的悖论是：随着模型越来越强，按领域差异化竞争的能力反而上升。当模型还很有限时，你只能做「包装层」；但在 Agent 蜂群时代，任务可以运行数小时甚至数天，需要协调的 Agent 群体、领域特定的数据源、需要真实工作流变更——这些都会推高专业化价值。网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统。",
-        "url": "https://x.com/levie/status/2112404676436222170"
+        "text": "我们正在见证 AI 自主系统的新型态：工具与计算机控制能力提升让 Agent 能执行类人工作流；模型在各垂直领域的判断力持续进步；沙箱、文件系统、数据管道等基础设施已成熟。三者结合，网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统——这是超越 LLM 包装层时代的真正跃迁。",
+        "url": "https://x.com/levie/status/2112769686798832013"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "General Partner @SPC",
+        "text": "别笑，但「推理时间扩展 → 子代理 → Agent 蜂群」的发展路径，和「CPU 线程 → 多核 CPU → 多节点分布式系统」的演进惊人地相似。历史押韵。",
+        "url": "https://x.com/adityaag/status/2112579526379401408"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "VP @Google @GoogleLabs @GeminiApp",
+        "text": "Sundar 表态：「站在前沿是 Google 的 DNA，我们会以其他方式做不到。」Gemini App Trusted Tester 社区昨日达到重要里程碑，Web、Android、iOS 三端有大量用户希望提前体验新功能。",
+        "url": "https://x.com/joshwoodward/status/2112679011839344651"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard'17",
+        "text": "早期产品建造者最大的优势不是个人品牌带来的分发，而是能测试不同创意角度看哪些引发共鸣、找到前 100 个早期采用者——信号 > 分发。",
+        "url": "https://x.com/zarazhangrui/status/2112530473994072225"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "org": "CEO @OpenAI",
+        "text": "非常感激 Aleksander 接受邀请来接手 OpenAI 安全工作。面对超级智能，安全与挑战巨大，他拥有一流的技能组合。",
+        "url": "https://x.com/sama/status/2112652656602923366"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "我们开源了一个极速 HTML artifact 构建器，由 libfx 驱动，让 Agent 生成的内容在服务崩溃或 LLM 限流时也能持久化。构建 v0 的低层管道（应对服务器崩溃、不稳定的 LLM、函数限制）曾是大痛点，现在它简单、免费且开源。顺便，我用它在几分钟内构建了一个浮动容器——只是 HTML，但体验很棒。另外我们在 AI Gateway 上实现了 1000 tokens/秒的推理速度。",
-        "url": "https://x.com/rauchg/status/2112247046082363821"
+        "org": "CEO @Vercel",
+        "text": "AI 将能精确计算你理解与不理解之间的完美 delta，帮助你渐进式掌握任何概念、解开任何谜团——如果愿意，你将达到能力与智能的极限。终极教育，免费。",
+        "url": "https://x.com/rauchg/status/2112638107749355867"
       },
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator President & CEO",
-        "text": "多人协作的 Agent 以群组聊天形式出现几乎 inevitable，Wabi 已经做到了。这预示着 Agent 交互范式的下一步演进——从单人对话走向团队协作。",
-        "url": "https://x.com/garrytan/status/2112278352514162834"
-      },
-      {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "org": "FPV Ventures Partner",
-        "text": "Wabi 2.0 的设计范式真正抓住了重点。当前个人 Agent 有两种类型：一是单人群聊式（如 iMessage 或 Muse），有用但难以在多线程生活中 compartmentalize；二是自建多个 Hermes Agent，能共享上下文但会永久存在。Wabi 的 orchestrator + 主题式episodic chat 模式完美解决了这个问题——可以和妻子共享孩子学校的 Agent，旅行结束后自动归档，税务 Agent 用完即弃。唯一建议是太 proactive 了，app 体验还有提升空间。",
-        "url": "https://x.com/nikunj/status/2112219327881761008"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "Day 15 更新：别担心，我们还在继续开发……然后重置了。幽默中带着真实的开发节奏——OpenAI 内部也在经历快速迭代和重新校准。",
-        "url": "https://x.com/thsottiaux/status/2112432076767289678"
-      },
-      {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "CEO @Every",
-        "text": "为 Quinten、Ajay 和团队感到骄傲——他们多年来一直在推进 AI 创意和叙事的边界，这是 AI 在消费领域真正落地的工作的突破性案例之一。很荣幸能以小投资者身份参与。",
-        "url": "https://x.com/danshipper/status/2112230653924192274"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "Practical AI Tutorials 创建者",
-        "text": "发现了一个非常视觉化的 AI 工具，迫不及待想尝试。另外深入分析了 Netflix 原创影视大量是「AI slop」的原因——虽然我还是喜欢其中一些，尤其是韩国作品。",
-        "url": "https://x.com/petergyang/status/2112292347505688990"
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Smol AI / DXTips / Cognition",
+        "text": "opus 写代码很棒……但如果你 prompt 里碰巧有随机禁忌词就完了。@CompleteSkeptic 说得对：给我生产可用的，别给我 god-tier 的——我的 AI 媒体机构承受不起这个在关键路径上拖慢。",
+        "url": "https://x.com/swyx/status/2112772374823407870"
       }
     ]
   },
@@ -92,7 +88,7 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 11 位建造者 · 本期播客：AI & I by Every",
-    "coverage": "覆盖 11 位建造者，8 条精选观点，0 篇官方博客，1 期播客"
+    "source": "follow-builders feed · 15 位建造者 · 本期无播客更新",
+    "coverage": "覆盖 15 位建造者，8 条精选观点，0 篇官方博客，0 期播客"
   }
 }

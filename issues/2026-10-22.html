@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月22日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026295</span><span>2026年10月22日 · 星期四</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">OpenAI 修复 4 万用户用量计次错误 · Agent 蜂群架构类比分布式系统演进 · Aaron Levie 论自主系统的专业化回归</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>OpenAI 承认用量计次错误影响 4 万账户，Codex 新增持久化缓存；Agent 蜂群架构被比作分布式系统演进，行业进入「专业化自主系统」新阶段</h1>
+      <p>OpenAI 工程负责人 Thibault Sottiaux 连续两天发声：Day 16 更新，Codex 与 Work 已支持长达 12 小时的 API 缓存， logged-in 用户的历史对话永久保留且无 penalty；同日他还披露了一则事故——周末期间约 4 万个账户出现用量计次不一致问题（扣费高于实际使用量），OpenAI 已逐一向受影响用户补发 credits 并道歉。这条事故通报获得 10,600+ 赞，是当日 OpenAI 侧最高互动内容。</p>
+          <p>与此同时，Agent 架构正经历范式迁移。Spark Capital GP Aditya Agarwal 发推指出：「推理时间扩展 → 子代理 → Agent 蜂群」的发展路径，与计算机科学中「CPU 线程 → 多核 CPU → 多节点分布式系统」的演进惊人相似——历史总在押韵。Box CEO Aaron Levie 进一步延伸这一判断，发布长篇分析：随着模型能力增强、工具使用和计算机控制能力提升，按领域差异化竞争的价值正在上升而非下降；网络安全、生命科学、医疗、金融、制造等领域将涌现大量此前不切实际的自主系统。</p>
+          <p>Google 侧，Josh Woodward 透露 Gemini App Trusted Tester 社区昨日突破重要里程碑，Web、Android、iOS 三端需求旺盛；另有报道引用 Sundar Pichai 表态：「站在前沿是 Google 的 DNA，我们会以其他方式做不到。」</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>（无新播客更新）</h2>
+      <div class="meta-line">—</div>
+      
+      <a class="read-more" href="">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">Day 16 更新：API 现在支持 12 小时缓存，登录用户在 Codex 和 Work 中，历史对话永久保留且无 penalty——即使几小时后再回来也能命中缓存。另：周末我们发现约 4 万个账户存在用量计次不一致问题（扣费高于实际使用），已逐一联系受影响用户并补发 credits，对不起我们搞砸了。 <a class="read-more" href="https://x.com/thsottiaux/status/2112712984644784534" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">我们正在见证 AI 自主系统的新型态：工具与计算机控制能力提升让 Agent 能执行类人工作流；模型在各垂直领域的判断力持续进步；沙箱、文件系统、数据管道等基础设施已成熟。三者结合，网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统——这是超越 LLM 包装层时代的真正跃迁。 <a class="read-more" href="https://x.com/levie/status/2112769686798832013" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC</span>
+              
+            </div>
+            <p class="voice-quote">别笑，但「推理时间扩展 → 子代理 → Agent 蜂群」的发展路径，和「CPU 线程 → 多核 CPU → 多节点分布式系统」的演进惊人地相似。历史押韵。 <a class="read-more" href="https://x.com/adityaag/status/2112579526379401408" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @Google @GoogleLabs @GeminiApp</span>
+              
+            </div>
+            <p class="voice-quote">Sundar 表态：「站在前沿是 Google 的 DNA，我们会以其他方式做不到。」Gemini App Trusted Tester 社区昨日达到重要里程碑，Web、Android、iOS 三端有大量用户希望提前体验新功能。 <a class="read-more" href="https://x.com/joshwoodward/status/2112679011839344651" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder · Harvard'17</span>
+              
+            </div>
+            <p class="voice-quote">早期产品建造者最大的优势不是个人品牌带来的分发，而是能测试不同创意角度看哪些引发共鸣、找到前 100 个早期采用者——信号 &gt; 分发。 <a class="read-more" href="https://x.com/zarazhangrui/status/2112530473994072225" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Sam Altman</span>
+              <span class="voice-handle">@sama · CEO @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">非常感激 Aleksander 接受邀请来接手 OpenAI 安全工作。面对超级智能，安全与挑战巨大，他拥有一流的技能组合。 <a class="read-more" href="https://x.com/sama/status/2112652656602923366" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">AI 将能精确计算你理解与不理解之间的完美 delta，帮助你渐进式掌握任何概念、解开任何谜团——如果愿意，你将达到能力与智能的极限。终极教育，免费。 <a class="read-more" href="https://x.com/rauchg/status/2112638107749355867" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / DXTips / Cognition</span>
+              
+            </div>
+            <p class="voice-quote">opus 写代码很棒……但如果你 prompt 里碰巧有随机禁忌词就完了。@CompleteSkeptic 说得对：给我生产可用的，别给我 god-tier 的——我的 AI 媒体机构承受不起这个在关键路径上拖慢。 <a class="read-more" href="https://x.com/swyx/status/2112772374823407870" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 15 位建造者 · 本期无播客更新</strong><br>
+      覆盖 15 位建造者，8 条精选观点，0 篇官方博客，0 期播客<br>
+      生成于 
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
