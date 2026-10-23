@@ -1,85 +1,89 @@
 {
   "issue": {
-    "vol": "2026295",
-    "date": "2026年10月22日",
-    "weekday": "星期四",
-    "dateISO": "2026-10-22",
-    "tagline": "OpenAI 修复 4 万用户用量计次错误 · Agent 蜂群架构类比分布式系统演进 · Aaron Levie 论自主系统的专业化回归"
+    "vol": "2026296",
+    "date": "2026年10月23日",
+    "weekday": "星期五",
+    "dateISO": "2026-10-23",
+    "tagline": "Claude Duet 正式发布 vs ChatGPT Dot 对打 · Vercel 防火墙级防御 Node.js RCE · Every 公司内设 Frontier Team 引热议"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI 承认用量计次错误影响 4 万账户，Codex 新增持久化缓存；Agent 蜂群架构被比作分布式系统演进，行业进入「专业化自主系统」新阶段",
+    "title": "Anthropic 推出 Claude Duet 个人 Agent vs OpenAI Dot 产品线竞争白热化；PHP 漏洞连锁反应下 Vercel 提前部署防护，行业安全焦虑升温",
     "paras": [
-      "OpenAI 工程负责人 Thibault Sottiaux 连续两天发声：Day 16 更新，Codex 与 Work 已支持长达 12 小时的 API 缓存， logged-in 用户的历史对话永久保留且无 penalty；同日他还披露了一则事故——周末期间约 4 万个账户出现用量计次不一致问题（扣费高于实际使用量），OpenAI 已逐一向受影响用户补发 credits 并道歉。这条事故通报获得 10,600+ 赞，是当日 OpenAI 侧最高互动内容。",
-      "与此同时，Agent 架构正经历范式迁移。Spark Capital GP Aditya Agarwal 发推指出：「推理时间扩展 → 子代理 → Agent 蜂群」的发展路径，与计算机科学中「CPU 线程 → 多核 CPU → 多节点分布式系统」的演进惊人相似——历史总在押韵。Box CEO Aaron Levie 进一步延伸这一判断，发布长篇分析：随着模型能力增强、工具使用和计算机控制能力提升，按领域差异化竞争的价值正在上升而非下降；网络安全、生命科学、医疗、金融、制造等领域将涌现大量此前不切实际的自主系统。",
-      "Google 侧，Josh Woodward 透露 Gemini App Trusted Tester 社区昨日突破重要里程碑，Web、Android、iOS 三端需求旺盛；另有报道引用 Sundar Pichai 表态：「站在前沿是 Google 的 DNA，我们会以其他方式做不到。」"
+      "Anthropic 今日正式发布 Claude Duet——独立于 Claude 的 always-on 个人 Agent，搭载 Claude Opus 5.5 模型，可在用户未主动请求时主动发现并执行任务。其设计围绕三个核心能力：记忆传承（继承 Claude 账户的记忆、技能与连接应用）、渠道隔离（为工作、生活不同领域设独立频道）以及待办追踪（内置 Todo list）。安全方面，Duet 不直接访问密码，内置敏感信息分类器拦截分享行为，关键决策仍由用户掌控。目前仅限美国地区 Pro/Max 用户通过 waitlist 使用，属于早期研究预览。",
+      "与此同时，OpenAI 的 Dot 产品线继续迭代——Thibault Sottiaux 透露 Dot 完全包含在 Pro 订阅中，不计入每周用量配额，获得 1840+ 赞。他还发布了「Dot, Dotter, Dottest」 meme，互动超过 3900 赞、1753 条回复，显示 OpenAI 在用户社区运营上的持续发力。两家 Personal Agent 产品在同一赛道正面交锋。",
+      "安全层面，继 php2shell RCE 漏洞后，Node.js 也曝出高危漏洞。Vercel CEO Guillermo Rauch 宣布已提前部署防火墙级别防护措施，所有部署流量均受自动保护，无需用户操作。此外，开发者 steipete 指出 php2shell 漏洞正是由 GPT-5.6 Sol 发现——再次印证 AI 正在加速安全攻防双方能力。Dan Shipper 则发布 Every 公司内部「Frontier Team」实验视频，详细记录了一个专职跟进 AI 前沿的团队如何改变公司工作方式，引发 161 赞和广泛讨论。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "（无新播客更新）",
-    "meta": "—",
-    "paras": [],
-    "url": ""
+    "title": "AI & I by Every：为什么每家公司都需要一个「前沿团队」",
+    "meta": "2026-10-21 · 约 42 分钟",
+    "paras": [
+      "The Takeaway：每家公司都需要一个专职跟进 AI 前沿的「Frontier Team」——它把「保持对前沿的了解」和「完成日常业务」这两件冲突的工作分离开，让其他人专注执行， Frontier Team 专注探索与内化。",
+      "Every CEO Dan Shipper 与 Head of Enterprise AI Adoption Natalia 深入拆解了这个团队的运作逻辑。核心矛盾在于：如果忽视前沿，可能在某个 agentic native 竞品出现时措手不及；如果全员追逐新工具，又永远做不出可持续的产品。解决方案是设立一个小型专业团队，专职研究前沿，然后把学到的东西转化为内部工具和流程，供全公司使用。",
+      "团队内部还有海盗（喜欢尝鲜的实验者）和建筑师（能把实验固化成系统的人）两种角色的协作。视频中展示了多位成员的个人 AI 编排方案：有人用 Slack 消息驱动 Opus 编辑 explainer 视频，有人为 AI 写作插件定义目标读者，还有人搭建了个人 AI orchestrator——核心原则是「用 AI 工作时，要保护他人的注意力」。"
+    ],
+    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "Day 16 更新：API 现在支持 12 小时缓存，登录用户在 Codex 和 Work 中，历史对话永久保留且无 penalty——即使几小时后再回来也能命中缓存。另：周末我们发现约 4 万个账户存在用量计次不一致问题（扣费高于实际使用），已逐一联系受影响用户并补发 credits，对不起我们搞砸了。",
-        "url": "https://x.com/thsottiaux/status/2112712984644784534"
+        "name": "Claude",
+        "handle": "claudeai",
+        "org": "@AnthropicAI",
+        "text": "Claude Duet 基于 Claude Opus 5.5 打造，具备判断「什么需要你、什么可以等等、什么时候先问你」的决策力。它继承你 Claude 账户的记忆、技能和已连接应用，几乎无需额外配置。早期预览版仍可能误判紧急事项，我们会根据早期用户反馈持续优化。安全方面：绝不直接查看密码，内置新分类器防止敏感信息外泄，重要决策权始终在你手中。",
+        "url": "https://x.com/claudeai/status/2112984666437546104"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "我们正在见证 AI 自主系统的新型态：工具与计算机控制能力提升让 Agent 能执行类人工作流；模型在各垂直领域的判断力持续进步；沙箱、文件系统、数据管道等基础设施已成熟。三者结合，网络安全、生命科学、医疗、金融、制造等领域将出现大量此前不切实际的自主系统——这是超越 LLM 包装层时代的真正跃迁。",
-        "url": "https://x.com/levie/status/2112769686798832013"
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "org": "Claude + Cowork @AnthropicAI",
+        "text": "我们听到反馈：你们希望 Claude 能主动承担更多工作！Claude Duet 是重大一步——它会留意需要做的事，然后在被询问之前就去做。加入 waitlist：https://t.co/f3PfUuXIox",
+        "url": "https://x.com/_catwu/status/2112988751576330487"
       },
       {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "org": "General Partner @SPC",
-        "text": "别笑，但「推理时间扩展 → 子代理 → Agent 蜂群」的发展路径，和「CPU 线程 → 多核 CPU → 多节点分布式系统」的演进惊人地相似。历史押韵。",
-        "url": "https://x.com/adityaag/status/2112579526379401408"
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "CEO @Every",
+        "text": "跟进 AI 已是全职工作——这就是为什么每家公司都需要 Frontier Team。Frontier Team 的职责是跟进模型变化，其他人的职责是使用他们学到的东西。我们在 Every 做了这个实验，完全改变了工作方式：有人用 Slack 消息驱动 Opus 编辑视频，有人搭建无标签浏览器专注工作，还有人用 AI 构建个人效率工具。核心教训：用 AI 工作时，要保护他人的注意力。",
+        "url": "https://x.com/danshipper/status/2113010761786175970"
       },
       {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "VP @Google @GoogleLabs @GeminiApp",
-        "text": "Sundar 表态：「站在前沿是 Google 的 DNA，我们会以其他方式做不到。」Gemini App Trusted Tester 社区昨日达到重要里程碑，Web、Android、iOS 三端有大量用户希望提前体验新功能。",
-        "url": "https://x.com/joshwoodward/status/2112679011839344651"
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder · Harvard'17",
-        "text": "早期产品建造者最大的优势不是个人品牌带来的分发，而是能测试不同创意角度看哪些引发共鸣、找到前 100 个早期采用者——信号 > 分发。",
-        "url": "https://x.com/zarazhangrui/status/2112530473994072225"
-      },
-      {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "org": "CEO @OpenAI",
-        "text": "非常感激 Aleksander 接受邀请来接手 OpenAI 安全工作。面对超级智能，安全与挑战巨大，他拥有一流的技能组合。",
-        "url": "https://x.com/sama/status/2112652656602923366"
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "CEO @Every",
+        "text": "Anthropic 刚发布的 Duet 是我见过第一个真正算『专业工具』的个人 Agent。我两周测试下来，从 mostly 用 ChatGPT 变成了 50/50 平分——近一年来我与 Anthropic 的互动最多。它在独立 App 中运行（iOS/Android/Web），有按领域分开的频道、内置 Todo list、可直接在 App 内撰写文档和幻灯片。但它还不是 chief of staff：能看到我的 Claude 会话但不能指挥它们，邮件草稿不如 Dot 精准，语音仍是纯转录无法对话。结论：vibes 很好，我每天打开 Duet。",
+        "url": "https://x.com/danshipper/status/2112997559463506059"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "CEO @Vercel",
-        "text": "AI 将能精确计算你理解与不理解之间的完美 delta，帮助你渐进式掌握任何概念、解开任何谜团——如果愿意，你将达到能力与智能的极限。终极教育，免费。",
-        "url": "https://x.com/rauchg/status/2112638107749355867"
+        "text": "Vercel 已在官方补丁发布前，主动为今日 Node.js RCE 漏洞部署了防火墙级防护措施。所有部署的流量均已自动受到保护，我们正在持续监控并推进运行时升级。同时也想致敬本周 PHP 漏洞的应对——业界提前数周联合行动保护全球基础设施，Vercel WAF 已成功阻止针对 PHP 起源的攻击尝试。假设还会有更多漏洞，持续锻炼『打补丁→重新部署』的肌肉。",
+        "url": "https://x.com/rauchg/status/2113050053724221732"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Smol AI / DXTips / Cognition",
-        "text": "opus 写代码很棒……但如果你 prompt 里碰巧有随机禁忌词就完了。@CompleteSkeptic 说得对：给我生产可用的，别给我 god-tier 的——我的 AI 媒体机构承受不起这个在关键路径上拖慢。",
-        "url": "https://x.com/swyx/status/2112772374823407870"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "Practical AI tutorials",
+        "text": "今晚用 AI 帮助我保护所有账户安全，以防发生什么坏事。也终于不再抠门，付费了 @1Password。",
+        "url": "https://x.com/petergyang/status/2113122021567848450"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Partner @FPV Ventures",
+        "text": "谁也没想到获取超级智能会导致互联网整个架构和信任被慢慢瓦解……外面真的疯狂到离谱。",
+        "url": "https://x.com/nikunj/status/2113057195948707874"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Builder · Harvard'17",
+        "text": "你的个人网站就是新的简历。",
+        "url": "https://x.com/zarazhangrui/status/2113148949842534482"
       }
     ]
   },
@@ -88,7 +92,7 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 15 位建造者 · 本期无播客更新",
-    "coverage": "覆盖 15 位建造者，8 条精选观点，0 篇官方博客，0 期播客"
+    "source": "follow-builders feed · 17 位建造者 · 1 期播客更新",
+    "coverage": "覆盖 17 位建造者，8 条精选观点，0 篇官方博客，1 期播客"
   }
 }
