@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月24日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026297</span><span>2026年10月24日 · 星期六</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Claude Auto Mode 默认上线 · Agent Skills 捐给基金会 · OpenAI Decisions API GA · Mistral 开源重磅模型回归</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Anthropic 宣布 Claude 下周起在所有客户端默认开启 Auto Mode；同时 Claude 在 Google Cloud 正式 GA，Agent Skills 捐赠给 Agentic AI Foundation —— Anthropic 三步加速生态布局；OpenAI Decisions API GA，Uber 全仓 Codex；Mistral 开源 Le Chonk 引发开源模型圈热议</h1>
+      <p>Claude 官方账号今日宣布：从下周起，Claude 网页版、桌面端和移动端将在 Pro、Max 和 Team 订阅上默认启用 Auto Mode。系统会自动执行安全检查并阻断高风险操作，用户随时可切回 Manual 模式。这条推文获得 1.47 万赞、538 次转发，是近期互动最高的单条。与此同时，Claude Models on Google Cloud（Anthropic 托管）正式 GA，Google Cloud IAM 凭证、计费和承诺 retire 全面对接，意味着 Claude 在三大云平台的战略拼图已补齐。</p>
+          <p>更值得关注的信号是 Anthropic 将 Agent Skills 捐献给新成立的 Agentic AI Foundation——与 MCP 协议并列。Boris Cherny 透露，Agent Skills 最初只是 Claude Code 的内部实验，但因业界广泛采用，Anthropic 决定将其交由基金会维护。这相当于把「技能扩展」这一关键标准锚定在开源治理框架下，避免被单一商业公司锁定。</p>
+          <p>OpenAI 方面，Thibault Sottiaux 发布 Day 18 更新：Decisions API 正式 GA，OpenResponses 加入 Linux Foundation，性能持续优化，且 Uber 宣布全面采用 Codex。此外，安全事件持续发酵——Vercel CEO Guillermo Rauch 以「互联网加密守护者的密码是 '4'」讽刺基础设施安全困境，Replit CEO Amjad Masad 同步公布应用防护方案，Box CEO Aaron Levie 则警告「安全靠隐藏已过时，AI 时代所有 legacy 系统都需升级」。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Training Data：David Silver 与 Lasse Espeholt 谈「经验时代的超级学习者」</h2>
+      <div class="meta-line">2026-10-13 · Ineffable Intelligence 联合创始人 · 约 80 分钟</div>
+      <p>The Takeaway：真正的超级智能，是一个能像人类一样通过集体发现不断学习、永远不枯竭的系统——而这一点，AI 至今尚未破解。</p>
+          <p>David Silver（DeepMind 联合创始人，2009 年 PhD 以强化学习研究围棋闻名）与 Lasse Espeholt 创立了 Ineffable Intelligence，他们正在构建一个「经验型超级学习者」。Silver 回顾了自己从 AlphaGo 到当前工作的思想脉络：人类知识的积累是一个集体发现过程——语言、科技、数学、科学，都是如此。而 AI 的核心挑战，正是复现这种「自我发现」的能力。</p>
+          <p>对话涉及强化学习与深度学习的演进、Go 研究对行业的深远影响，以及通往 superintelligence 的真正路径——不是更大参数，而是能持续学习和发现的系统架构。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Claude</span>
+              <span class="voice-handle">@claudeai · @AnthropicAI</span>
+              
+            </div>
+            <p class="voice-quote">下周起，Claude 网页版、桌面端和移动端的会话将默认在 Pro、Max 和 Team 套餐上以 Auto 模式运行。无需你逐个审批每一步，系统会自动执行安全检查以阻止高风险操作。你随时可以切换回 Manual 模式。 <a class="read-more" href="https://x.com/claudeai/status/2113360845409583307" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude @AnthropicAI</span>
+              
+            </div>
+            <p class="voice-quote">Agent Skills 最初是 Claude Code 的一项实验。由于行业内广泛采用，Anthropic 认为将其捐献给 @AgenticAIFdn 更为合适，与 MCP 并列。这是标准制定走向开源治理的重要一步。 <a class="read-more" href="https://x.com/bcherny/status/2113333859907747871" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">Day 18 更新：Decisions API 正式 GA，OpenResponses 加入 Linux Foundation，我们交付了一些性能优化，Uber 正在全面采用 Codex 和 Codex Work。是的——这是一个 reset！ <a class="read-more" href="https://x.com/thsottiaux/status/2113492187770175603" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">本周总结：你阿姨的密码是「P4ssword！」（贴在厨房的便利贴上），而互联网加密守护者的密码是「4」。是的，就这一个数字。这把钥匙能用于target和解密几乎所有东西，而我们仍在清理残留风险。 <a class="read-more" href="https://x.com/rauchg/status/2113462657059639505" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · @smol_ai · @cognition · @aidotengineer</span>
+              
+            </div>
+            <p class="voice-quote">Opus 5.5 是我用过的最佳工作估算模型。随着我们将更多工作委托给 AI，这种校准能力越来越重要——不要告诉我这需要 2-3 个工作日（人类做法），对一个热情、不知疲倦且极其适合并行的 AGI 来说，2-3 小时就能完成。 <a class="read-more" href="https://x.com/swyx/status/2113283272130412684" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">靠隐藏来保障安全的方式已经完全过时了。人类时代尚且勉强可行，但在自主系统会搜索每个角落、尝试每种攻击组合的 AI 时代，这根本不成立。结果是，数十年 legacy 企业基础设施必须升级，安全实践必须现代化，数据管道必须清理，访问控制必须改善。Agent 能在防御侧帮忙，因为它们既能加速这项工作，也能同等模拟风险向量。 <a class="read-more" href="https://x.com/levie/status/2113499900399034689" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC · Ex-Dropbox CTO</span>
+              
+            </div>
+            <p class="voice-quote">机器人学正在经历 LLM 经历过的同样转变：从 fine-tuning，到 prompting，到最后只需告诉模型你想要什么。@svlevine 讲解了 π0.7 如何通过纯语言指导学习新技能——这标志着机器人操作的范式跃迁。 <a class="read-more" href="https://x.com/adityaag/status/2113385971844518124" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Alex Albert</span>
+              <span class="voice-handle">@alexalbert__ · Research @AnthropicAI</span>
+              
+            </div>
+            <p class="voice-quote">用 AI 帮助运营一批小型本地 businesses 将是一个非常有趣的实验。我认为 Claude Duet 等产品对这类 businesses 的影响，可能比当年 Square 或 Google Maps 还要大。 <a class="read-more" href="https://x.com/alexalbert__/status/2113386454907007444" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap · MAD Podcast</span>
+              
+            </div>
+            <p class="voice-quote">Mistral 回来了：专访 Pierre Stock，深入解析 Le Chonk——西方最大开源模型。话题涵盖：西方开源权重回归（Beam、Le Chonk、Muse、Nemotron）、3800 GPU 训练、MoE 架构、10 万亿参数模型前景、从 DeepSeek 借鉴的教训、以及 Timestral 时间序列 CPU 推理。 <a class="read-more" href="https://x.com/mattturck/status/2113311361639829673" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 18 位建造者 · 1 期播客</strong><br>
+      覆盖 18 位建造者，9 条精选观点，0 篇官方博客，1 期播客<br>
+      生成于 2026-10-24T02:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
