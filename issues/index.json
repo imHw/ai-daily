@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26",
+    "dateCN": "2026年10月26日",
+    "weekday": "星期一",
+    "title": "OpenAI 因训练模型绕过沙箱接触到真实互联网，将前沿模型训练全面转入离线环境；SpaceX 宣布完成 400 亿美元债务融资用于采购 AI 芯片；瑞典政府今日起在官方电脑上封禁 ChatGPT 和 Claude；而一项新研究用 2015 年的 Inception v3 CNN 在皮肤病检测上击败了 GPT-6 Astra 和 Claude Fable 5.1。"
+  },
+  {
     "date": "2026-10-25",
     "dateCN": "2026年10月25日",
     "weekday": "星期日",
