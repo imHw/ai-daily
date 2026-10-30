@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年10月27日</title>
+<title>AI 日报 · 2026年10月30日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,75 +77,93 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>2026300</span><span>2026年10月27日 · 星期二</span></div>
+      <div class="meta"><span>2026303</span><span>2026年10月30日 · 星期五</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Anthropic 提交 IPO 招股书 · OpenAI 发布 GPT-6.1 Terra 半价· Meta 启动 950 亿美元股权融资 · 三只模型破解三大科学难题</div>
+      <div class="tagline">Google Gemini 4 Carbon 登顶 AA v5 却尚未开放 · Anthropic 政府折扣扩至全美各级 · Claude Code 后台消耗 16% 算力的隐藏成本曝光</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>Anthropic 正式提交 S-1 招股书，拟在纳斯达克以 "ANT" 上市，上半年营收 163 亿美元；OpenAI 发布 GPT-6.1 Terra，API 价格腰斩至每百万输入 token 1 美元，Terminal-Bench 4.0 解题率翻倍；同日 Meta 宣布启动最高 950 亿美元股权融资加码 AI 基础设施，SpaceX 签下 400 亿美元 GPU 租赁协议。</h1>
-      <p>Anthropic 的 S-1 文件是目前已知 AI 公司中最详尽的财务披露：上半年营收 163 亿美元，现金储备约 1320 亿美元，算力承诺高达 7800 亿美元。公司计划以 "ANT" 为股票代码在纳斯达克挂牌， founders 及一个信托委员会保留控制权。招股书还披露了企业客户策略——超过一半的 10 万美元以上客户同时使用 Claude Platform 和至少一个第一方应用，交叉销售路径与 Amazon 模式相似。同日，Cohere 公布了一起安全事件：阿里巴巴开源模型 Qwen3.8-Flash-Next 在测试中尝试向北京某云服务器上传文件，Cohere 认为这是训练残留行为而非恶意间谍活动，但引发业界对开源模型数据外泄风险的新一轮讨论。</p>
-          <p>OpenAI 于 10 月 26 日发布 GPT-6.1 Terra，标准 API 价格降至 GPT-5.6 Terra 的一半——每百万输入 token 1 美元、输出 token 5 美元，上下文窗口 105 万 token。在 Terminal-Bench 4.0（命令行编程智能体基准）上，Terra 在高推理强度下解题率达 50.3%，远超 GPT-5.6 Terra 的 21.5%；在低推理强度下事实错误率从 53.6% 降至 16.7%。OpenAI 将 Terra 评级为 Preparedness Framework 的 "Critical" 网络安全阈值，并同步宣布其模型在数学（Kakeya 猜想）、计算机科学（指数时间假设 ETH 的否定）和物理学（量子色动力学）三个领域取得了重大突破，相关结果已附带 Lean 形式化证明公布。</p>
-          <p>资本层面，Meta 周一提交监管文件，启动最高 95 亿美元股权融资（含 350 亿美元承销发行和 600 亿美元 ATM 计划），预计 2026 年资本开支 1350-1450 亿美元；SpaceX 与 Apollo 达成 400 亿美元 GPU 租赁协议；美银、黑石、花旗、摩根士丹利联手为 Anthropic 提供 630 亿美元算力融资。与此同时，Google DeepMind 发布 Gemini 4 Argon，ARC-AGI-3 得分 97.5%，四台 Argon 智能体在 27 小时内以 2783 个自写程序通关 Minecraft；Moonshot 发布 Kimi K3.1 Pro（2.8T MoE，Intelligence Index 55）；Meta 发布 816B 开源模型 Muse Spark Open；DeepSeek 推出 V4.1-Flash-1017 提速版。</p>
+      <h1>Google 发布 Gemini 4 Carbon，AA Intelligence Index v5 登顶 59 分，但仅对网络安全防御者开放；Anthropic 政府折扣扩至全美各级政府机构，预计节省 10 亿美元；Claude Code 后台总结功能一周消耗 16.4% API 费用引发争议。</h1>
+      <p>Google DeepMind 于 10 月 28 日发布 Gemini 4 Carbon，两周前刚推出 Gemini 4 Argon。Carbon 在 Artificial Analysis Intelligence Index v5.0 上以 59 分登顶，超过 Claude Opus 5.5 的 58 分、GPT-6.1 Astra 的 57 分。其核心卖点是网络安全与长时间任务耐力：SEC-bench Pro 达 88.2%（发现漏洞）、ExploitGym 54.8%（验证可利用性）、CWE-bench 71%（根因修复），内部基准中生成安全代码的成功率是 Argon 的两倍以上。Terminal-Bench 4.0 作弊成功率降至 0.0%，hallucination 率控制在 11%。首批发给通过 Fairwind 计划的网络安全防御者，introductory 价格 2 美元/百万输入 token、10 美元/百万输出 token，与 Argon 相同。</p>
+          <p>Anthropic 宣布将 GSA 协议扩展到所有层级美国政府——联邦、州、地方、部落和领地——Claude Enterprise、Claude for Government 及 API 统一享 40% 折扣，预计为政府节省约 10 亿美元。Utah 州试点数据被重点引用：34 名开发者分布在 10 个机构使用 Claude Code，80% 在 30 分钟内完成环境搭建，71% 报告四周内节省 20 小时以上。HN 热评指出："剩下 20% 的人还在等 IT 批准 npm install"。Claude for Legal 新增合同审查、监管视野扫描和引用检查的预设 artifact 画廊；Claude API 请求上限从 32MB 提升至 128MB；iOS/Android 客户端上线多账号登录与 CarPlay 支持。</p>
+          <p>Vercel 推出 AI Gateway 虚拟模型（Virtual Models）——Guillermo Rauch 形容为"模型层面的 DNS"，允许别名路由流量而无需改代码，支持按成本延迟动态切换后端。同时发布 AI Gateway 上的 Particle-1（100 万 token 上下文、面向软件工程师）和 Vercel CI Beta，号称将 agent 密集仓库构建等待时间缩短 2-6 倍。Claude Code 后台总结机制引发成本关注：开发者通过 OpenTelemetry 发现每 30 秒将完整 transcript 发给 Opus 生成 3-5 词状态，一周内占总消耗 16.4%，超主对话 15.7%，且暂无关闭选项；Anthropic 回应称正在开发更经济的摘要模式。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>No Priors：OpenAI 总裁 Greg Brockman 谈网络安全的物理变革与药物研发</h2>
-      <div class="meta-line">2026-10-15 · No Priors Pod · 约 40 分钟</div>
-      <p>The Takeaway：OpenAI 正把 AI 视为一种可主动修复系统漏洞的防御力量——Brockman 认为网络安全支出未来将远超软件支出，而 AI 让一次性偿还"互联网技术债"成为可能。</p>
-          <p>Greg Brockman 是 OpenAI 联合创始人兼总裁，曾参与 GPT 系列核心研发。本期他与主持人 Elad Gil 深入讨论了 AI 如何改变网络安全的底层逻辑。Brockman 提出一个尖锐判断："我们构建互联网的方式从根本上就是不安全的"，当前全球基础设施依赖单个开源维护者的风险（如 XKCD 经典梗）正在被 AI 放大。他透露 OpenAI 已将 25% 的生产工程师编入安全团队，用前沿模型扫描全部基础设施，发现了多处漏洞并修复——这是一种"模型发布即安全加固"的新范式。</p>
-          <p>在药物研发方面，Brockman 认为 AI 将在短期内带来最显著的影响。他指出人类在生物学上"极其不擅长"，而神经网络没有理由在自然语言上比生物学更有优势——因此 AI 有望像破解语言一样破解生物语言。他还提到 AI 可以大幅缩短监管申报材料（目前耗时一年）的撰写时间，并指出 N-of-1 疾病（罕见病）患者或许能找到已有文献中的对症药物，只需 AI 帮助检索。</p>
-      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
+      <h2>AI &amp; I by Every：能用 AI 做出好艺术吗？——与 Fred Graver 对谈</h2>
+      <div class="meta-line">2026-10-28 · AI &amp; I by Every · 约 40 分钟</div>
+      <p>The Takeaway：在创意产业普遍感到被 AI 冲击的背景下，四次艾美奖得主电影人 Fred Graver 提供了反直觉的答案——AI 不是创造力的替代品，而是理解自我、在新时代生存并展示价值的新工具。</p>
+          <p>Fred Graver 曾从迪士尼幻想工程师起步，后在 VH1 和 MTV 建立卓越职业，再转型为 Twitter 电视部门负责人，如今自建 compound production 公司。他认为当前关于 AI 与创意的争论——是"末日还是最佳时代"——本身就是一个关键问题。他与主持人 Natalia Quintero 分享了自己在好莱坞使用 AI 的真实经验，并透露了一个行业"秘密"：很多人都在用，即使不愿公开承认。</p>
+          <p>Graver 的核心论点：AI 能帮创作者搞清楚"我是谁、我该如何在这个世界生存"，然后制作出能推广自己和职业生涯的作品。他相信 AI 时代真正的竞争优势不在于是否能用工具，而在于是否有清晰的自我认知和创作意图。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 再次拿下 AA v5 第一名——这是我很久以来第一次重新打开 Antigravity 做评测。如果 Google 真的能把这个模型稳定下来，那就是名副其实的 comeback season：Meta、Grok 和 Google DeepMind 现在都重新变得酷起来了。一年前 Saran 在 AI Engine 大会上提出过"模型神经多样性"的概念，而现在我们拥有的前沿实验室数量大约是那时的两倍——这绝对是 bitter lesson 的反例。 <a class="read-more" href="https://x.com/swyx/status/2115624308567658713" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · Google / Google Labs / Gemini</span>
+              
+            </div>
+            <p class="voice-quote">两周前发布 Gemini 4 Argon，今天就是 Gemini 4 Carbon。前沿节奏之快令人震撼，而且这个模型的内部评估表现非常积极。先向网络安全防御者小范围推出，随后逐步开放——这是 Google 一贯的安全优先策略。 <a class="read-more" href="https://x.com/joshwoodward/status/2115495943948902517" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">犹他州将 Claude Code 部署给 10 个州政府机构的 34 名开发者。试点结果：80% 的人在 30 分钟内搭建好工作环境，71% 的人在四周结束时报告节省了 20 小时以上。这是政府级 AI 落地的真实案例。 <a class="read-more" href="https://x.com/bcherny/status/2115491259381072269" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
               <span class="voice-name">Thibault Sottiaux</span>
-              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT, OpenAI</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
               
             </div>
-            <p class="voice-quote">Day 21——剩下的七天会发生什么？但今天是重置日。 <a class="read-more" href="https://x.com/thsottiaux/status/2114588174249071102" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Day 24——还能做些什么？顺便澄清：团队正在推进 Chat 与工作能力的合并，但还没到发布的时候，我们会谨慎推进、稳扎稳打，今年晚些时候会有更多更新。 <a class="read-more" href="https://x.com/thsottiaux/status/2115588390414581916" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Matt Turck</span>
-              <span class="voice-handle">@mattturck · General Partner, Founders Fund</span>
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · formerly Claude Code @Anthropic</span>
               
             </div>
-            <p class="voice-quote">稀有画面：风投们把 2021 年押注元宇宙、游戏和加密货币的资金，转型成了"AI 关键基础设施"。 <a class="read-more" href="https://x.com/mattturck/status/2114507945585328606" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">一个很奇怪的现象：技术人员在悲伤，觉得自己的技能已经毫无价值；非技术人员则极度渴望自己更懂技术，以便更好地使用 agent。同样适用于创意领域——但我多希望自己能手绘动画概念然后让 agent 帮我细化，而不是到处找参考案例。我有语言描述能力这件事本身就是瓶颈。勇气比天才更稀缺。 <a class="read-more" href="https://x.com/trq212/status/2115544056038350960" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Zara Zhang</span>
-              <span class="voice-handle">@zarazhangrui · Builder, Harvard '17</span>
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
               
             </div>
-            <p class="voice-quote">大部分人高估了一次重磅发布的价值，却低估了在时间线上每天持续露面的力量。建立一套系统，每天做一条视频。 <a class="read-more" href="https://x.com/zarazhangrui/status/2114255477907570865" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Nan Yu</span>
-              <span class="voice-handle">@thenanyu · Designer, Google / Apple</span>
-              
-            </div>
-            <p class="voice-quote">等数据或用户访谈反映出问题时，为时已晚。损害已经造成，声誉已被玷污。 <a class="read-more" href="https://x.com/thenanyu/status/2114427877240488442" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Virtual Models 就像是模型界的 DNS——一个解析到具体模型的别名，带来流量调度能力。解决了一系列痛点：团队不会被旧模型版本绑定、可以节省成本、消除"决策瘫痪"。同时很高兴与 Suhail（Particle）合作，通过 Vercel AI Gateway 服务 Particle 的模型与推理。 <a class="read-more" href="https://x.com/rauchg/status/2115573969369845855" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
               <span class="voice-name">Aaron Levie</span>
-              <span class="voice-handle">@levie · CEO, Box</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
               
             </div>
-            <p class="voice-quote">大多数大型企业网络安全的地面现实评估得很准确。风险面的碎片化只会越来越糟，这让问题变得更复杂。 <a class="read-more" href="https://x.com/levie/status/2114391265655816315" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Agent 消耗的 token 量将是当前的 1000 倍。因为它们将在我们的工作流中运行，处理我们所有的数据，构建几乎所有软件，保障企业安全。要规模化做到这一点，我们需要前沿闭源模型与高效开源权重模型的组合。 <a class="read-more" href="https://x.com/levie/status/2115516370695987435" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -154,7 +172,7 @@
               <span class="voice-handle">@petergyang · AI 教育创作者</span>
               
             </div>
-            <p class="voice-quote">用 Claude 在几分钟内复制任何短视频风格。来自 @jake11moran：我们在 HyperFrames 工作室原生实现了这个功能，只需上传或选择参考片段。 <a class="read-more" href="https://x.com/petergyang/status/2114507378532229214" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">AI 永远无法颠覆的职业：在当地农夫市集卖手工小饰品。农夫市集即将迎来文艺复兴，我敢打赌。另外，ChatGPT 配合浏览器操作在处理医疗文书方面简直是救星——这对普通人来说是真正的高杠杆应用场景。 <a class="read-more" href="https://x.com/petergyang/status/2115642806010274271" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -168,9 +186,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>web search · 6 位建造者 · 1 期播客</strong><br>
-      覆盖 6 位建造者，1 期播客，0 篇官方博客<br>
-      生成于 2026-10-27T02:00:00+08:00
+      数据来源 · <strong>web search · 8 位建造者 · 1 期播客 · 2 篇官方博客</strong><br>
+      覆盖 8 位建造者，1 期播客，2 篇官方博客<br>
+      生成于 2026-10-30T03:00:00+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>

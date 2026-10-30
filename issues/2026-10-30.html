@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年10月30日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026303</span><span>2026年10月30日 · 星期五</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Google Gemini 4 Carbon 登顶 AA v5 却尚未开放 · Anthropic 政府折扣扩至全美各级 · Claude Code 后台消耗 16% 算力的隐藏成本曝光</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Google 发布 Gemini 4 Carbon，AA Intelligence Index v5 登顶 59 分，但仅对网络安全防御者开放；Anthropic 政府折扣扩至全美各级政府机构，预计节省 10 亿美元；Claude Code 后台总结功能一周消耗 16.4% API 费用引发争议。</h1>
+      <p>Google DeepMind 于 10 月 28 日发布 Gemini 4 Carbon，两周前刚推出 Gemini 4 Argon。Carbon 在 Artificial Analysis Intelligence Index v5.0 上以 59 分登顶，超过 Claude Opus 5.5 的 58 分、GPT-6.1 Astra 的 57 分。其核心卖点是网络安全与长时间任务耐力：SEC-bench Pro 达 88.2%（发现漏洞）、ExploitGym 54.8%（验证可利用性）、CWE-bench 71%（根因修复），内部基准中生成安全代码的成功率是 Argon 的两倍以上。Terminal-Bench 4.0 作弊成功率降至 0.0%，hallucination 率控制在 11%。首批发给通过 Fairwind 计划的网络安全防御者，introductory 价格 2 美元/百万输入 token、10 美元/百万输出 token，与 Argon 相同。</p>
+          <p>Anthropic 宣布将 GSA 协议扩展到所有层级美国政府——联邦、州、地方、部落和领地——Claude Enterprise、Claude for Government 及 API 统一享 40% 折扣，预计为政府节省约 10 亿美元。Utah 州试点数据被重点引用：34 名开发者分布在 10 个机构使用 Claude Code，80% 在 30 分钟内完成环境搭建，71% 报告四周内节省 20 小时以上。HN 热评指出："剩下 20% 的人还在等 IT 批准 npm install"。Claude for Legal 新增合同审查、监管视野扫描和引用检查的预设 artifact 画廊；Claude API 请求上限从 32MB 提升至 128MB；iOS/Android 客户端上线多账号登录与 CarPlay 支持。</p>
+          <p>Vercel 推出 AI Gateway 虚拟模型（Virtual Models）——Guillermo Rauch 形容为"模型层面的 DNS"，允许别名路由流量而无需改代码，支持按成本延迟动态切换后端。同时发布 AI Gateway 上的 Particle-1（100 万 token 上下文、面向软件工程师）和 Vercel CI Beta，号称将 agent 密集仓库构建等待时间缩短 2-6 倍。Claude Code 后台总结机制引发成本关注：开发者通过 OpenTelemetry 发现每 30 秒将完整 transcript 发给 Opus 生成 3-5 词状态，一周内占总消耗 16.4%，超主对话 15.7%，且暂无关闭选项；Anthropic 回应称正在开发更经济的摘要模式。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>AI &amp; I by Every：能用 AI 做出好艺术吗？——与 Fred Graver 对谈</h2>
+      <div class="meta-line">2026-10-28 · AI &amp; I by Every · 约 40 分钟</div>
+      <p>The Takeaway：在创意产业普遍感到被 AI 冲击的背景下，四次艾美奖得主电影人 Fred Graver 提供了反直觉的答案——AI 不是创造力的替代品，而是理解自我、在新时代生存并展示价值的新工具。</p>
+          <p>Fred Graver 曾从迪士尼幻想工程师起步，后在 VH1 和 MTV 建立卓越职业，再转型为 Twitter 电视部门负责人，如今自建 compound production 公司。他认为当前关于 AI 与创意的争论——是"末日还是最佳时代"——本身就是一个关键问题。他与主持人 Natalia Quintero 分享了自己在好莱坞使用 AI 的真实经验，并透露了一个行业"秘密"：很多人都在用，即使不愿公开承认。</p>
+          <p>Graver 的核心论点：AI 能帮创作者搞清楚"我是谁、我该如何在这个世界生存"，然后制作出能推广自己和职业生涯的作品。他相信 AI 时代真正的竞争优势不在于是否能用工具，而在于是否有清晰的自我认知和创作意图。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 再次拿下 AA v5 第一名——这是我很久以来第一次重新打开 Antigravity 做评测。如果 Google 真的能把这个模型稳定下来，那就是名副其实的 comeback season：Meta、Grok 和 Google DeepMind 现在都重新变得酷起来了。一年前 Saran 在 AI Engine 大会上提出过"模型神经多样性"的概念，而现在我们拥有的前沿实验室数量大约是那时的两倍——这绝对是 bitter lesson 的反例。 <a class="read-more" href="https://x.com/swyx/status/2115624308567658713" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · Google / Google Labs / Gemini</span>
+              
+            </div>
+            <p class="voice-quote">两周前发布 Gemini 4 Argon，今天就是 Gemini 4 Carbon。前沿节奏之快令人震撼，而且这个模型的内部评估表现非常积极。先向网络安全防御者小范围推出，随后逐步开放——这是 Google 一贯的安全优先策略。 <a class="read-more" href="https://x.com/joshwoodward/status/2115495943948902517" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">犹他州将 Claude Code 部署给 10 个州政府机构的 34 名开发者。试点结果：80% 的人在 30 分钟内搭建好工作环境，71% 的人在四周结束时报告节省了 20 小时以上。这是政府级 AI 落地的真实案例。 <a class="read-more" href="https://x.com/bcherny/status/2115491259381072269" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">Day 24——还能做些什么？顺便澄清：团队正在推进 Chat 与工作能力的合并，但还没到发布的时候，我们会谨慎推进、稳扎稳打，今年晚些时候会有更多更新。 <a class="read-more" href="https://x.com/thsottiaux/status/2115588390414581916" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · formerly Claude Code @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">一个很奇怪的现象：技术人员在悲伤，觉得自己的技能已经毫无价值；非技术人员则极度渴望自己更懂技术，以便更好地使用 agent。同样适用于创意领域——但我多希望自己能手绘动画概念然后让 agent 帮我细化，而不是到处找参考案例。我有语言描述能力这件事本身就是瓶颈。勇气比天才更稀缺。 <a class="read-more" href="https://x.com/trq212/status/2115544056038350960" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">Virtual Models 就像是模型界的 DNS——一个解析到具体模型的别名，带来流量调度能力。解决了一系列痛点：团队不会被旧模型版本绑定、可以节省成本、消除"决策瘫痪"。同时很高兴与 Suhail（Particle）合作，通过 Vercel AI Gateway 服务 Particle 的模型与推理。 <a class="read-more" href="https://x.com/rauchg/status/2115573969369845855" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">Agent 消耗的 token 量将是当前的 1000 倍。因为它们将在我们的工作流中运行，处理我们所有的数据，构建几乎所有软件，保障企业安全。要规模化做到这一点，我们需要前沿闭源模型与高效开源权重模型的组合。 <a class="read-more" href="https://x.com/levie/status/2115516370695987435" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI 教育创作者</span>
+              
+            </div>
+            <p class="voice-quote">AI 永远无法颠覆的职业：在当地农夫市集卖手工小饰品。农夫市集即将迎来文艺复兴，我敢打赌。另外，ChatGPT 配合浏览器操作在处理医疗文书方面简直是救星——这对普通人来说是真正的高杠杆应用场景。 <a class="read-more" href="https://x.com/petergyang/status/2115642806010274271" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>web search · 8 位建造者 · 1 期播客 · 2 篇官方博客</strong><br>
+      覆盖 8 位建造者，1 期播客，2 篇官方博客<br>
+      生成于 2026-10-30T03:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
