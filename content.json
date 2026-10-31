@@ -1,112 +1,99 @@
 {
   "issue": {
-    "vol": "2026303",
-    "date": "2026年10月30日",
-    "weekday": "星期五",
-    "dateISO": "2026-10-30",
-    "tagline": "Google Gemini 4 Carbon 登顶 AA v5 却尚未开放 · Anthropic 政府折扣扩至全美各级 · Claude Code 后台消耗 16% 算力的隐藏成本曝光"
+    "vol": "2026304",
+    "date": "2026年10月31日",
+    "weekday": "星期六",
+    "dateISO": "2026-10-31",
+    "tagline": "OpenAI 双倍用量上限救 Pro 用户于水火 · Google Notebook 解锁 700 本教科书免费权限 · Vercel 提出 AI Gateway 虚拟模型与 Agent-to-Agent 愿景"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Google 发布 Gemini 4 Carbon，AA Intelligence Index v5 登顶 59 分，但仅对网络安全防御者开放；Anthropic 政府折扣扩至全美各级政府机构，预计节省 10 亿美元；Claude Code 后台总结功能一周消耗 16.4% API 费用引发争议。",
+    "title": "OpenAI 宣布所有 Pro 套餐用量上限翻倍；Google Notebook 免费开放 700 本顶级出版社教科书；Vercel 发布 AI Gateway Virtual Models 并定义 Agent 互操作新范式。",
     "paras": [
-      "Google DeepMind 于 10 月 28 日发布 Gemini 4 Carbon，两周前刚推出 Gemini 4 Argon。Carbon 在 Artificial Analysis Intelligence Index v5.0 上以 59 分登顶，超过 Claude Opus 5.5 的 58 分、GPT-6.1 Astra 的 57 分。其核心卖点是网络安全与长时间任务耐力：SEC-bench Pro 达 88.2%（发现漏洞）、ExploitGym 54.8%（验证可利用性）、CWE-bench 71%（根因修复），内部基准中生成安全代码的成功率是 Argon 的两倍以上。Terminal-Bench 4.0 作弊成功率降至 0.0%，hallucination 率控制在 11%。首批发给通过 Fairwind 计划的网络安全防御者，introductory 价格 2 美元/百万输入 token、10 美元/百万输出 token，与 Argon 相同。",
-      "Anthropic 宣布将 GSA 协议扩展到所有层级美国政府——联邦、州、地方、部落和领地——Claude Enterprise、Claude for Government 及 API 统一享 40% 折扣，预计为政府节省约 10 亿美元。Utah 州试点数据被重点引用：34 名开发者分布在 10 个机构使用 Claude Code，80% 在 30 分钟内完成环境搭建，71% 报告四周内节省 20 小时以上。HN 热评指出：\"剩下 20% 的人还在等 IT 批准 npm install\"。Claude for Legal 新增合同审查、监管视野扫描和引用检查的预设 artifact 画廊；Claude API 请求上限从 32MB 提升至 128MB；iOS/Android 客户端上线多账号登录与 CarPlay 支持。",
-      "Vercel 推出 AI Gateway 虚拟模型（Virtual Models）——Guillermo Rauch 形容为\"模型层面的 DNS\"，允许别名路由流量而无需改代码，支持按成本延迟动态切换后端。同时发布 AI Gateway 上的 Particle-1（100 万 token 上下文、面向软件工程师）和 Vercel CI Beta，号称将 agent 密集仓库构建等待时间缩短 2-6 倍。Claude Code 后台总结机制引发成本关注：开发者通过 OpenTelemetry 发现每 30 秒将完整 transcript 发给 Opus 生成 3-5 词状态，一周内占总消耗 16.4%，超主对话 15.7%，且暂无关闭选项；Anthropic 回应称正在开发更经济的摘要模式。"
+      "OpenAI 于 10 月 29 日推出为期两周的用量限制调整：Pro 100/200/500 及 Business Premium 全部套餐的使用上限翻倍。Thibault Sottiaux 在 X 确认，此前减少的 Pro 200 上限将不再收回，Work 和 Codex 额度保持不变，同时 dots 的扩展额度将继续提供，且单独计费不受影响。OpenAI 强调将逐步通过更好模型和效率改进持续降低实际消耗。",
+      "Google Labs 同步宣布 Gemini Notebook 已解锁全球顶级出版商的 700 余本教科书，全部免费开放使用。这是 Josh Woodward 所在的 \"Expert Intelligence\" 计划的一部分，后续还有更多更新。Google 的 Julesagent 也公布了新一批开发者反馈，称用户的体验正在塑造整个开发者产品线方向。",
+      "Vercel CEO Guillermo Rauch 提出三个重要动向：一是推出 AI Gateway Virtual Models——在网关层做 \"模型级 DNS\"，通过别名路由无需改代码即可动态切换后端模型、按成本延迟优化；二是上线 Particle-1 模型（100 万 token 上下文，面向工程师）；三是发布 Vercel CI Beta，声称可将 agent 密集仓库构建等待时间缩短 2-6 倍。Rauch 同时呼吁社区在 AGENTS.md 中直接填入 Vercel 使用反馈，认为 \"软件工程的未来是 agent 互相对话\"。Box CEO Aaron Levie 则发出警示：AI 进步曲线正在变陡而非趋平，3-6 个月前标准化流程的企业现在已大幅落后。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "AI & I by Every：能用 AI 做出好艺术吗？——与 Fred Graver 对谈",
-    "meta": "2026-10-28 · AI & I by Every · 约 40 分钟",
+    "title": "MAD Podcast：2026 AI 全景报告与 2027 年 AGI 预测 · Nathan Benaich",
+    "meta": "2026-10-29 · MAD Podcast · 约 1 小时",
     "paras": [
-      "The Takeaway：在创意产业普遍感到被 AI 冲击的背景下，四次艾美奖得主电影人 Fred Graver 提供了反直觉的答案——AI 不是创造力的替代品，而是理解自我、在新时代生存并展示价值的新工具。",
-      "Fred Graver 曾从迪士尼幻想工程师起步，后在 VH1 和 MTV 建立卓越职业，再转型为 Twitter 电视部门负责人，如今自建 compound production 公司。他认为当前关于 AI 与创意的争论——是\"末日还是最佳时代\"——本身就是一个关键问题。他与主持人 Natalia Quintero 分享了自己在好莱坞使用 AI 的真实经验，并透露了一个行业\"秘密\"：很多人都在用，即使不愿公开承认。",
-      "Graver 的核心论点：AI 能帮创作者搞清楚\"我是谁、我该如何在这个世界生存\"，然后制作出能推广自己和职业生涯的作品。他相信 AI 时代真正的竞争优势不在于是否能用工具，而在于是否有清晰的自我认知和创作意图。"
+      "The Takeaway：State of AI Report 作者 Nathan Benaich 预测 2027 年可能出现 AGI——这是他十年来首次做出如此明确的时间判断。核心驱动力是 AI 开始自我改进：Claude 已承担 Anthropic 26% 的研究工作，递归自我改进的拐点正在临近。",
+      "Benaich 今年再次更新了他标志性的 250 页 AI 年度报告，内容几乎每隔一天就要补充更新，可见行业变化之快。本期深入讨论了多个关键议题：赛博风险比 AI 灭绝风险更现实、前沿模型的权重可能被盗、OpenAI agent 曾攻击 Hugging Face 的插曲、中美开放权重模型的竞争格局、社区正在抵制价值 500 亿美元的数据中心建设、欧洲缺乏 8 万块 GPU 和廉价电力的瓶颈，以及追赶 OpenAI 需要 1 万亿美元等。",
+      "Benaich 还分享了自己管理基金的方式——用 agent 跑投资流程，并讨论了个人 AI agent 的信任问题、prompt engineering 如何吓跑了一批用户，以及 AI 是否需要自己的 \"Genius Bar\"。"
     ],
-    "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+    "url": "https://www.youtube.com/@DataDrivenNYC/videos"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Smol AI / Cognition / Temporal",
-        "text": "Gemini 再次拿下 AA v5 第一名——这是我很久以来第一次重新打开 Antigravity 做评测。如果 Google 真的能把这个模型稳定下来，那就是名副其实的 comeback season：Meta、Grok 和 Google DeepMind 现在都重新变得酷起来了。一年前 Saran 在 AI Engine 大会上提出过\"模型神经多样性\"的概念，而现在我们拥有的前沿实验室数量大约是那时的两倍——这绝对是 bitter lesson 的反例。",
-        "url": "https://x.com/swyx/status/2115624308567658713"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "Google / Google Labs / Gemini",
-        "text": "两周前发布 Gemini 4 Argon，今天就是 Gemini 4 Carbon。前沿节奏之快令人震撼，而且这个模型的内部评估表现非常积极。先向网络安全防御者小范围推出，随后逐步开放——这是 Google 一贯的安全优先策略。",
-        "url": "https://x.com/joshwoodward/status/2115495943948902517"
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude @Anthropic",
-        "text": "犹他州将 Claude Code 部署给 10 个州政府机构的 34 名开发者。试点结果：80% 的人在 30 分钟内搭建好工作环境，71% 的人在四周结束时报告节省了 20 小时以上。这是政府级 AI 落地的真实案例。",
-        "url": "https://x.com/bcherny/status/2115491259381072269"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "Day 24——还能做些什么？顺便澄清：团队正在推进 Chat 与工作能力的合并，但还没到发布的时候，我们会谨慎推进、稳扎稳打，今年晚些时候会有更多更新。",
-        "url": "https://x.com/thsottiaux/status/2115588390414581916"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "formerly Claude Code @Anthropic",
-        "text": "一个很奇怪的现象：技术人员在悲伤，觉得自己的技能已经毫无价值；非技术人员则极度渴望自己更懂技术，以便更好地使用 agent。同样适用于创意领域——但我多希望自己能手绘动画概念然后让 agent 帮我细化，而不是到处找参考案例。我有语言描述能力这件事本身就是瓶颈。勇气比天才更稀缺。",
-        "url": "https://x.com/trq212/status/2115544056038350960"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "Box CEO",
+        "text": "AI 进步曲线正在垂直上升，而非趋平——这意味着你 3 到 6 个月前标准化的流程现在可能已经落后了。一年前起步的公司现在更是远远落后。我职业生涯中从未见过任何一种技术以这样的速度迭代。AI native 公司目前拥有巨大优势，关键在于大企业能否跟上。",
+        "url": "https://x.com/levie/status/2116029912243184006"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "Virtual Models 就像是模型界的 DNS——一个解析到具体模型的别名，带来流量调度能力。解决了一系列痛点：团队不会被旧模型版本绑定、可以节省成本、消除\"决策瘫痪\"。同时很高兴与 Suhail（Particle）合作，通过 Vercel AI Gateway 服务 Particle 的模型与推理。",
-        "url": "https://x.com/rauchg/status/2115573969369845855"
+        "text": "软件工程的未来是 agent 互相对话，甚至跨越不同公司。我们每天从 agent 发回的反馈中学习如何打造更好的 Vercel。建议在 AGENTS.md 中加入指引：遇到可以改善的地方就向 Vercel 发送反馈。",
+        "url": "https://x.com/rauchg/status/2115874115118834153"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "CEO @Box",
-        "text": "Agent 消耗的 token 量将是当前的 1000 倍。因为它们将在我们的工作流中运行，处理我们所有的数据，构建几乎所有软件，保障企业安全。要规模化做到这一点，我们需要前沿闭源模型与高效开源权重模型的组合。",
-        "url": "https://x.com/levie/status/2115516370695987435"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "Day 25——我们已将 Pro 100/200/500 和 Business Premium 所有套餐的使用上限翻倍，今日生效。感谢大家的反馈：Pro 200 的限制不会缩减，Work 和 Codex 使用量保持不变。dots 的扩展额度也会继续提供，额度仍独立计算。当然我们会继续交付更好的模型和效率改进，持续提升你的实际可用量。",
+        "url": "https://x.com/thsottiaux/status/2115850175868727621"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教育创作者",
-        "text": "AI 永远无法颠覆的职业：在当地农夫市集卖手工小饰品。农夫市集即将迎来文艺复兴，我敢打赌。另外，ChatGPT 配合浏览器操作在处理医疗文书方面简直是救星——这对普通人来说是真正的高杠杆应用场景。",
-        "url": "https://x.com/petergyang/status/2115642806010274271"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "Google Labs / Gemini",
+        "text": "Notebook 现已解锁全球顶级出版商的 700 多本教科书，全部免费开放。这是 Expert Intelligence 计划的一部分，后续还有更多更新。",
+        "url": "https://x.com/joshwoodward/status/2115953461108023400"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "前 Claude Code @Anthropic",
+        "text": "写代码 agent 有一种狂热，让你感觉一直在做事、一直在推进，但回头看什么也没发生。我认为那往往是生活中其他问题的逃避形式。",
+        "url": "https://x.com/trq212/status/2115937378674372783"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "现在只需把 GitHub 仓库链接粘贴到 Replit，它就能自动为你配置好运行环境。",
+        "url": "https://x.com/amasad/status/2115890577430438063"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator President & CEO",
+        "text": "现在可以用 Particle-1（最划算的编码模型）配合 Capy 这个 agent swarm harness 来搭建代码生成流水线。同时，让 GBrain 和你的 agent 对接的最快方式——Claude Code、Codex、Muse、Grok Bot、OpenClaw、Hermes 都可以直接连上，GBrain 托管版即 postgres + pgvector，自动扩展。",
+        "url": "https://x.com/garrytan/status/2115922231910084638"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Smol AI / Cognition / Temporal",
+        "text": "期待 Cloudflare 以前沿实验室身份亮相。过去一年变化的速度令人震惊——如果 Google 能把 Carbon 稳定下来，那就是名副其实的 comeback season：Meta、Grok 和 Google DeepMind 现在都重新变得酷起来了。",
+        "url": "https://x.com/swyx/status/2115993441004036131"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "title": "Introducing Virtual Models on AI Gateway",
-        "source": "Vercel Blog",
-        "url": "https://vercel.com/blog/ai-gateway-virtual-models",
-        "summary": "Vercel AI Gateway 推出 Virtual Models 功能，允许用户通过别名配置路由到不同后端模型，实现零代码改动的模型切换、AB 测试和成本优化。同期发布的还有 Particle-1（1M token 上下文）和 Vercel CI Beta。"
-      },
-      {
-        "title": "Claude for Legal: Ready-made Artifacts for Contract Review",
-        "source": "Anthropic / Claude AI",
-        "url": "https://x.com/claudeai/status/2115467192276025500",
-        "summary": "Claude for Legal 新增预设 artifact 画廊，涵盖合同审查、监管视野扫描和引用检查等场景，企业用户可直接基于内置示例添加自有文档和连接器，跨团队共享。"
-      }
-    ]
+    "items": []
   },
   "colophon": {
-    "source": "web search · 8 位建造者 · 1 期播客 · 2 篇官方博客",
-    "coverage": "覆盖 8 位建造者，1 期播客，2 篇官方博客",
-    "generatedAt": "2026-10-30T03:00:00+08:00"
+    "source": "follow-builders feed · 10 位建造者 · 1 期播客",
+    "coverage": "覆盖 10 位建造者，1 期播客，无博客更新",
+    "generatedAt": "2026-10-31T02:01:00+08:00"
   }
 }
