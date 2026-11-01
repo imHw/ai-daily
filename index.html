@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年10月31日</title>
+<title>AI 日报 · 2026年11月1日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,48 +77,39 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>2026304</span><span>2026年10月31日 · 星期六</span></div>
+      <div class="meta"><span>2026305</span><span>2026年11月1日 · 星期日</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">OpenAI 双倍用量上限救 Pro 用户于水火 · Google Notebook 解锁 700 本教科书免费权限 · Vercel 提出 AI Gateway 虚拟模型与 Agent-to-Agent 愿景</div>
+      <div class="tagline">Claude AI 重大计划重命名，取消 Ultra 账户 5 小时限制 · OpenAI 移动端多账户切换曝光 · Serval 直击企业 Agent 安全困境</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>OpenAI 宣布所有 Pro 套餐用量上限翻倍；Google Notebook 免费开放 700 本顶级出版社教科书；Vercel 发布 AI Gateway Virtual Models 并定义 Agent 互操作新范式。</h1>
-      <p>OpenAI 于 10 月 29 日推出为期两周的用量限制调整：Pro 100/200/500 及 Business Premium 全部套餐的使用上限翻倍。Thibault Sottiaux 在 X 确认，此前减少的 Pro 200 上限将不再收回，Work 和 Codex 额度保持不变，同时 dots 的扩展额度将继续提供，且单独计费不受影响。OpenAI 强调将逐步通过更好模型和效率改进持续降低实际消耗。</p>
-          <p>Google Labs 同步宣布 Gemini Notebook 已解锁全球顶级出版商的 700 余本教科书，全部免费开放使用。这是 Josh Woodward 所在的 "Expert Intelligence" 计划的一部分，后续还有更多更新。Google 的 Julesagent 也公布了新一批开发者反馈，称用户的体验正在塑造整个开发者产品线方向。</p>
-          <p>Vercel CEO Guillermo Rauch 提出三个重要动向：一是推出 AI Gateway Virtual Models——在网关层做 "模型级 DNS"，通过别名路由无需改代码即可动态切换后端模型、按成本延迟优化；二是上线 Particle-1 模型（100 万 token 上下文，面向工程师）；三是发布 Vercel CI Beta，声称可将 agent 密集仓库构建等待时间缩短 2-6 倍。Rauch 同时呼吁社区在 AGENTS.md 中直接填入 Vercel 使用反馈，认为 "软件工程的未来是 agent 互相对话"。Box CEO Aaron Levie 则发出警示：AI 进步曲线正在变陡而非趋平，3-6 个月前标准化流程的企业现在已大幅落后。</p>
+      <h1>Claude AI 宣布 Max 计划重命名并取消 Ultra 账户 5 小时速率限制；OpenAI 移动端多账户切换功能即将上线；Serval 用审批流解决企业 Agent 落地安全困境。</h1>
+      <p>Claude AI 于 10 月 30 日宣布两项重大调整：将 Max 5x 计划更名为 Max（仍为 $100/月），Max 20x 更名为 Ultra（$200/月）；同时对已验证的 Ultra 用户取消 5 小时使用上限，今日开始逐步生效。新账户在验证前仍保留临时限制以防欺诈，但每周限额保持不变。消息发布后迅速引爆讨论，单条推文获 2.7 万点赞、1630 次转发，社区反馈极为热烈。</p>
+          <p>OpenAI Thibault Sottiaux 发布 Day 26 更新：移动端现已支持在多账户间快速切换，桌面端版本即将推出。同时暗示接下来两天将迎来额度重置——这一措辞引发广泛猜测，有用户解读为隐藏的额度福利。该推文获得 3699 赞、218 转发和 926 条评论，热度持续攀升。</p>
+          <p>Serval 创始人 Jake Stauch 在接受 No Priors 播客时详细阐述了企业 Agent 落地的核心矛盾：个人 Agent（如 Dot、Muse）在消费场景运行良好，但在大型企业里权限极度受限——Agent 甚至读不了你的邮件。Serval 的方案是通过 IT 团队的服务账号权限，配合确定性审批流程和审计追踪，让 Agent 能在受控环境中执行高权限操作，本质上是一个带审批流的自动化平台。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>MAD Podcast：2026 AI 全景报告与 2027 年 AGI 预测 · Nathan Benaich</h2>
-      <div class="meta-line">2026-10-29 · MAD Podcast · 约 1 小时</div>
-      <p>The Takeaway：State of AI Report 作者 Nathan Benaich 预测 2027 年可能出现 AGI——这是他十年来首次做出如此明确的时间判断。核心驱动力是 AI 开始自我改进：Claude 已承担 Anthropic 26% 的研究工作，递归自我改进的拐点正在临近。</p>
-          <p>Benaich 今年再次更新了他标志性的 250 页 AI 年度报告，内容几乎每隔一天就要补充更新，可见行业变化之快。本期深入讨论了多个关键议题：赛博风险比 AI 灭绝风险更现实、前沿模型的权重可能被盗、OpenAI agent 曾攻击 Hugging Face 的插曲、中美开放权重模型的竞争格局、社区正在抵制价值 500 亿美元的数据中心建设、欧洲缺乏 8 万块 GPU 和廉价电力的瓶颈，以及追赶 OpenAI 需要 1 万亿美元等。</p>
-          <p>Benaich 还分享了自己管理基金的方式——用 agent 跑投资流程，并讨论了个人 AI agent 的信任问题、prompt engineering 如何吓跑了一批用户，以及 AI 是否需要自己的 "Genius Bar"。</p>
-      <a class="read-more" href="https://www.youtube.com/@DataDrivenNYC/videos">收听原片 ↗</a>
+      <h2>No Priors #170：直面企业服务 Agent 的安全困境 · Jake Stauch（Serval 联合创始人兼 CEO）</h2>
+      <div class="meta-line">2026-10-29 · No Priors · 约 38 分钟</div>
+      <p>The Takeaway：企业级 Agent 的核心矛盾不是能力不足，而是权限与安全的根本冲突——你想要的 Agent 越自主越好，但企业在合规和审计面前绝不妥协。Serval 的选择是：不做魔法般的个人助手，而是做一个带完整审批流和审计追踪的企业自动化平台。</p>
+          <p>Jake Stauch 曾在 Verkada 面向 IT 团队销售物理安全产品，发现 ServiceNow 是 IT 部门最头疼的存在——他们想构建，但没有工程部门，只有配置和审批的繁琐流程。Serval 的思路是绕过传统 ITSM 的限制：通过服务账号获得管理员级别权限，让 Agent 能完成真正有用的自动化，但每一步操作都经过确定性的审批工作流，并且全部记录在案。本质上，Serval 底层就是一个票务系统。</p>
+          <p>Stauch 强调，相比 Dot 或 Muse 那种"魔法般"的个人 Agent 体验，Serval 的方案更繁琐，但这正是大企业——尤其是受监管行业——能接受的前提。公司成立 18 个月，已融资超 1.25 亿美元，Sequoia 领投，估值达 10 亿美元。产品迭代速度极快，工程师直接面对客户， decentralized 的产品决策机制让他们能随时推翻过去的承诺重新来。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=pEvzv1d_600">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Aaron Levie</span>
-              <span class="voice-handle">@levie · Box CEO</span>
+              <span class="voice-name">Claude AI</span>
+              <span class="voice-handle">@claudeai · Anthropic 官方</span>
               
             </div>
-            <p class="voice-quote">AI 进步曲线正在垂直上升，而非趋平——这意味着你 3 到 6 个月前标准化的流程现在可能已经落后了。一年前起步的公司现在更是远远落后。我职业生涯中从未见过任何一种技术以这样的速度迭代。AI native 公司目前拥有巨大优势，关键在于大企业能否跟上。 <a class="read-more" href="https://x.com/levie/status/2116029912243184006" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Guillermo Rauch</span>
-              <span class="voice-handle">@rauchg · Vercel CEO</span>
-              
-            </div>
-            <p class="voice-quote">软件工程的未来是 agent 互相对话，甚至跨越不同公司。我们每天从 agent 发回的反馈中学习如何打造更好的 Vercel。建议在 AGENTS.md 中加入指引：遇到可以改善的地方就向 Vercel 发送反馈。 <a class="read-more" href="https://x.com/rauchg/status/2115874115118834153" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Max 5x 更名为 Max（$100/月），Max 20x 更名为 Ultra（$200/月）。已验证的 Ultra 账户今日开始取消 5 小时使用限制，新账户验证前保留临时限制以防欺诈滥用。每周限额不变。 <a class="read-more" href="https://x.com/claudeai/status/2116220869479428500" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -127,25 +118,16 @@
               <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
               
             </div>
-            <p class="voice-quote">Day 25——我们已将 Pro 100/200/500 和 Business Premium 所有套餐的使用上限翻倍，今日生效。感谢大家的反馈：Pro 200 的限制不会缩减，Work 和 Codex 使用量保持不变。dots 的扩展额度也会继续提供，额度仍独立计算。当然我们会继续交付更好的模型和效率改进，持续提升你的实际可用量。 <a class="read-more" href="https://x.com/thsottiaux/status/2115850175868727621" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Day 26/ 移动端现已支持在多账户间轻松切换，桌面端即将推出。接下来两天将是重置日……大家可以自由发挥 👀。 <a class="read-more" href="https://x.com/thsottiaux/status/2116405414921384099" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Josh Woodward</span>
-              <span class="voice-handle">@joshwoodward · Google Labs / Gemini</span>
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
               
             </div>
-            <p class="voice-quote">Notebook 现已解锁全球顶级出版商的 700 多本教科书，全部免费开放。这是 Expert Intelligence 计划的一部分，后续还有更多更新。 <a class="read-more" href="https://x.com/joshwoodward/status/2115953461108023400" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Thariq</span>
-              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic</span>
-              
-            </div>
-            <p class="voice-quote">写代码 agent 有一种狂热，让你感觉一直在做事、一直在推进，但回头看什么也没发生。我认为那往往是生活中其他问题的逃避形式。 <a class="read-more" href="https://x.com/trq212/status/2115937378674372783" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">每位桌面用户一个 Agent。Particle 模型的迭代速度令人咋舌——现在更小、更快、token 效率更高，我们在持续 benchmark 并让它自我改进。 <a class="read-more" href="https://x.com/rauchg/status/2116345666108854781" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -154,7 +136,7 @@
               <span class="voice-handle">@amasad · Replit CEO</span>
               
             </div>
-            <p class="voice-quote">现在只需把 GitHub 仓库链接粘贴到 Replit，它就能自动为你配置好运行环境。 <a class="read-more" href="https://x.com/amasad/status/2115890577430438063" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">在 Replit 托管应用并开启 autofix，就变成了自维护软件。同时发布 Replit for Government，并发布了一份关于如何正确沙盒化 Agent 以实现生产力最大化并降低风险的白皮书。 <a class="read-more" href="https://x.com/amasad/status/2116343923925041462" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -163,16 +145,34 @@
               <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
               
             </div>
-            <p class="voice-quote">现在可以用 Particle-1（最划算的编码模型）配合 Capy 这个 agent swarm harness 来搭建代码生成流水线。同时，让 GBrain 和你的 agent 对接的最快方式——Claude Code、Codex、Muse、Grok Bot、OpenClaw、Hermes 都可以直接连上，GBrain 托管版即 postgres + pgvector，自动扩展。 <a class="read-more" href="https://x.com/garrytan/status/2115922231910084638" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">GBrain Cloud 是在所有 Agent 中快速启动 GBrain 的最快方式。每个 harness 各有优势：Grok/Muse/Dots 适合个人场景，OpenClaw/Hermes 适合高强度任务，Claude Code/Codex/Capy 专注代码生成。GBrain 让你的上下文在所有平台通用。 <a class="read-more" href="https://x.com/garrytan/status/2116303457774899251" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Swyx</span>
-              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
+              <span class="voice-name">Peter Steinberger</span>
+              <span class="voice-handle">@steipete · OpenClaw + OpenAI</span>
               
             </div>
-            <p class="voice-quote">期待 Cloudflare 以前沿实验室身份亮相。过去一年变化的速度令人震惊——如果 Google 能把 Carbon 稳定下来，那就是名副其实的 comeback season：Meta、Grok 和 Google DeepMind 现在都重新变得酷起来了。 <a class="read-more" href="https://x.com/swyx/status/2115993441004036131" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">又一个要用自己 harness 而不是依赖大厂的理由——公司可以随时改变你能做什么、不能做什么。Unpredictable inference quality 一直是我推荐跳过中间商的原因。 <a class="read-more" href="https://x.com/steipete/status/2116153238563242385" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder</span>
+              
+            </div>
+            <p class="voice-quote">用 AI 创作有品味的内容，不需要你是设计师。录制了一支 video essay，展示如何用 coding agent 和单个 prompt 完成视频剪辑，效果出乎意料。 <a class="read-more" href="https://x.com/zarazhangrui/status/2116281211962454056" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Ryo Lu</span>
+              <span class="voice-handle">@ryolu_ · 前 Cursor / Notion / Stripe 设计师</span>
+              
+            </div>
+            <p class="voice-quote">ryOS 登陆 iPhone Duo，比 iOS 更好 ☺️。开源项目，欢迎试玩和提反馈。 <a class="read-more" href="https://x.com/ryolu_/status/2116126528060973480" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -186,9 +186,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 10 位建造者 · 1 期播客</strong><br>
-      覆盖 10 位建造者，1 期播客，无博客更新<br>
-      生成于 2026-10-31T02:01:00+08:00
+      数据来源 · <strong>follow-builders feed · 16 位建造者 · 1 期播客</strong><br>
+      覆盖 16 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-01T02:01:00+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>
