@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月2日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026306</span><span>2026年11月2日 · 星期一</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Arca 用 AI Agent 运行 Wealth Management 全业务流程 · Swyx 谈 Karpathy Hackertube 与低努力哲学 · Aaron Levie 定义 AI 生产力新标杆</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Arca 以 AI Agent 驱动财富管理全流程，获 6400 万美元融资；Swyx 跟进 Karpathy Hackertube 上线，倡导低努力高反馈循环；Aaron Levie 提出 AI 使用程度的分水岭测试。</h1>
+      <p>Arca 在 Latent Space 播客中透露，这是一家 AI-native 财富管理机构，刚完成 6400 万美元融资。其核心理念是：Agent 不是替代顾问，而是替代顾问周围的所有工作——客户从不直接接触 AI，体验到的仍是人文关怀，但背后是 24/7 运行的 Agent 网络在分析市场、追踪生活细节、主动推送建议。任务按复杂度分级：税务分析用最强模型（Claude Opus/Sonnet 或 GPT 重型），后台批处理用轻量模型。关键约束：资金划转和直接与客户沟通必须人工确认，Agent 只负责分析和建议。</p>
+          <p>Swyx 跟进 Andrej Karpathy 的最新项目 Hackertube（今日上线），透露 Karpathy 用的是 Opus 5.5 Medium。他同时分享了自己的低努力哲学：低 effort + 快速 critique loop 胜过一切高配方案（"low effort + critique loop &gt; superultramaxhighwhatever"），并推荐了自己的 babysit-runs 脚本作为实现路径。</p>
+          <p>Box CEO Aaron Levie 提出判断 AI 使用程度的分水岭测试：六个月前，AI 最好的成果只是"更快地产出你会做的东西"；今天，与 AI 协作的输出应该且必须显著超越你独自能完成的水平——产品原型不仅要功能完整、可交互，还要超出以往预期。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space #248：用 Agent 执行长周期金融工作 · Aman Singh（Arca AI 平台负责人）</h2>
+      <div class="meta-line">2026-10-31 · Latent Space · 约 45 分钟</div>
+      <p>The Takeaway：Arca 不是 SaaS 公司，是一家 AI-native 财富管理 firm。Agent 的核心价值不是替代人，而是替代人周围的所有繁琐工作——客户体验仍由人类顾问传递，但背后是 24/7 的 Agent 网络在运转。</p>
+          <p>架构要点：任务按复杂度分级调度模型（税务分析 → Opus/GPT 重型；后台批处理 → 轻量模型）；资金操作和直接客户沟通必须 human-in-the-loop；所有 Agent 动作产生审计日志（change log），合规即默认；使用决策模型（如 Jev）做财务事实核查，防止模型幻觉导致错误建议。</p>
+          <p>长周期任务靠内部 memory system 维持：每个客户端维护"当前状态、谁负责什么、接下来几天要做什么、长期追踪项"；每日 reflection 过程更新记忆，新 signal（如新电话）唤醒 fresh agent 后能快速 ramp up 到上下文。</p>
+          <p>反馈闭环：客户或顾问的每次编辑/取消都附带"why"，自动成为 eval 数据；每晚 meta-agent 分析真实 trace 并提出 harness 改进建议，但人工工程师在 loop 内，最终决定权在人。</p>
+          <p>安全设计：sandbox 用于卸载计算而非运行 Agent 本身；sandbox 产出的 artifact（如 PDF 财务计划）在发布前经过确定性检查（PII 过滤）+ 小模型共识检查（承诺收益等违规内容）；外部数据入口（邮件、电话）有 prompt injection 检测层。</p>
+      <a class="read-more" href="https://www.youtube.com/@LatentSpacePod">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
+              
+            </div>
+            <p class="voice-quote">跟进 Karpathy 新项目 Hackertube 今日上线——他用的是 Opus 5.5 Medium。我的哲学：低 effort + 快速 critique loop 胜过一切高配方案（"low effort + critique loop &gt; superultramaxhighwhatever"），适合吞吐量受限的人。详见 swyxio/skills/babysit-runs。 <a class="read-more" href="https://x.com/swyx/status/2116773135668404286" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
+              
+            </div>
+            <p class="voice-quote">强烈呼吁：加入我的"超轻模式"阵营！低 effort + 快速 critique loop &gt; 任何超高性能方案。（针对吞吐量受限者，见 babysit-runs） <a class="read-more" href="https://x.com/swyx/status/2116642586387730593" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">判断你用 AI 够不够深的一个好测试：六个月前，AI 最好也就帮你"更快地做你原本就会做的事"。今天，与 AI 协作的输出应该且必须显著超越你独自能完成的水平——产品原型不仅要功能完整、可交互，还要超出以往预期。 <a class="read-more" href="https://x.com/levie/status/2116652002830963114" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">这个如果在 SF 做一定会非常炸。 <a class="read-more" href="https://x.com/rauchg/status/2116710688550994042" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · Builder</span>
+              
+            </div>
+            <p class="voice-quote">万圣节应该是每个季度都过的节日——不是为了 tricks or treats，而是因为可以穿成任何想成为的样子，这才是最棒的。 <a class="read-more" href="https://x.com/petergyang/status/2116733034926100841" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">分享了一段关于"为何最不适合的人总爬到顶端"的政治哲学引用：当计划失败（而它总会失败），就需要强制力；需要有人做诚实之人拒绝做的事；系统不选拔最优者，而是筛选出毫无底线的人。 <a class="read-more" href="https://x.com/garrytan/status/2116640529232609515" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">Banked 1/2（配图，暗示某项进度或里程碑） <a class="read-more" href="https://x.com/thsottiaux/status/2116692529970311254" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 8 位建造者 · 1 期播客</strong><br>
+      覆盖 8 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-02T02:00:33+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

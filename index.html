@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年11月1日</title>
+<title>AI 日报 · 2026年11月2日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,48 +77,59 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>2026305</span><span>2026年11月1日 · 星期日</span></div>
+      <div class="meta"><span>2026306</span><span>2026年11月2日 · 星期一</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Claude AI 重大计划重命名，取消 Ultra 账户 5 小时限制 · OpenAI 移动端多账户切换曝光 · Serval 直击企业 Agent 安全困境</div>
+      <div class="tagline">Arca 用 AI Agent 运行 Wealth Management 全业务流程 · Swyx 谈 Karpathy Hackertube 与低努力哲学 · Aaron Levie 定义 AI 生产力新标杆</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>Claude AI 宣布 Max 计划重命名并取消 Ultra 账户 5 小时速率限制；OpenAI 移动端多账户切换功能即将上线；Serval 用审批流解决企业 Agent 落地安全困境。</h1>
-      <p>Claude AI 于 10 月 30 日宣布两项重大调整：将 Max 5x 计划更名为 Max（仍为 $100/月），Max 20x 更名为 Ultra（$200/月）；同时对已验证的 Ultra 用户取消 5 小时使用上限，今日开始逐步生效。新账户在验证前仍保留临时限制以防欺诈，但每周限额保持不变。消息发布后迅速引爆讨论，单条推文获 2.7 万点赞、1630 次转发，社区反馈极为热烈。</p>
-          <p>OpenAI Thibault Sottiaux 发布 Day 26 更新：移动端现已支持在多账户间快速切换，桌面端版本即将推出。同时暗示接下来两天将迎来额度重置——这一措辞引发广泛猜测，有用户解读为隐藏的额度福利。该推文获得 3699 赞、218 转发和 926 条评论，热度持续攀升。</p>
-          <p>Serval 创始人 Jake Stauch 在接受 No Priors 播客时详细阐述了企业 Agent 落地的核心矛盾：个人 Agent（如 Dot、Muse）在消费场景运行良好，但在大型企业里权限极度受限——Agent 甚至读不了你的邮件。Serval 的方案是通过 IT 团队的服务账号权限，配合确定性审批流程和审计追踪，让 Agent 能在受控环境中执行高权限操作，本质上是一个带审批流的自动化平台。</p>
+      <h1>Arca 以 AI Agent 驱动财富管理全流程，获 6400 万美元融资；Swyx 跟进 Karpathy Hackertube 上线，倡导低努力高反馈循环；Aaron Levie 提出 AI 使用程度的分水岭测试。</h1>
+      <p>Arca 在 Latent Space 播客中透露，这是一家 AI-native 财富管理机构，刚完成 6400 万美元融资。其核心理念是：Agent 不是替代顾问，而是替代顾问周围的所有工作——客户从不直接接触 AI，体验到的仍是人文关怀，但背后是 24/7 运行的 Agent 网络在分析市场、追踪生活细节、主动推送建议。任务按复杂度分级：税务分析用最强模型（Claude Opus/Sonnet 或 GPT 重型），后台批处理用轻量模型。关键约束：资金划转和直接与客户沟通必须人工确认，Agent 只负责分析和建议。</p>
+          <p>Swyx 跟进 Andrej Karpathy 的最新项目 Hackertube（今日上线），透露 Karpathy 用的是 Opus 5.5 Medium。他同时分享了自己的低努力哲学：低 effort + 快速 critique loop 胜过一切高配方案（"low effort + critique loop &gt; superultramaxhighwhatever"），并推荐了自己的 babysit-runs 脚本作为实现路径。</p>
+          <p>Box CEO Aaron Levie 提出判断 AI 使用程度的分水岭测试：六个月前，AI 最好的成果只是"更快地产出你会做的东西"；今天，与 AI 协作的输出应该且必须显著超越你独自能完成的水平——产品原型不仅要功能完整、可交互，还要超出以往预期。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>No Priors #170：直面企业服务 Agent 的安全困境 · Jake Stauch（Serval 联合创始人兼 CEO）</h2>
-      <div class="meta-line">2026-10-29 · No Priors · 约 38 分钟</div>
-      <p>The Takeaway：企业级 Agent 的核心矛盾不是能力不足，而是权限与安全的根本冲突——你想要的 Agent 越自主越好，但企业在合规和审计面前绝不妥协。Serval 的选择是：不做魔法般的个人助手，而是做一个带完整审批流和审计追踪的企业自动化平台。</p>
-          <p>Jake Stauch 曾在 Verkada 面向 IT 团队销售物理安全产品，发现 ServiceNow 是 IT 部门最头疼的存在——他们想构建，但没有工程部门，只有配置和审批的繁琐流程。Serval 的思路是绕过传统 ITSM 的限制：通过服务账号获得管理员级别权限，让 Agent 能完成真正有用的自动化，但每一步操作都经过确定性的审批工作流，并且全部记录在案。本质上，Serval 底层就是一个票务系统。</p>
-          <p>Stauch 强调，相比 Dot 或 Muse 那种"魔法般"的个人 Agent 体验，Serval 的方案更繁琐，但这正是大企业——尤其是受监管行业——能接受的前提。公司成立 18 个月，已融资超 1.25 亿美元，Sequoia 领投，估值达 10 亿美元。产品迭代速度极快，工程师直接面对客户， decentralized 的产品决策机制让他们能随时推翻过去的承诺重新来。</p>
-      <a class="read-more" href="https://www.youtube.com/watch?v=pEvzv1d_600">收听原片 ↗</a>
+      <h2>Latent Space #248：用 Agent 执行长周期金融工作 · Aman Singh（Arca AI 平台负责人）</h2>
+      <div class="meta-line">2026-10-31 · Latent Space · 约 45 分钟</div>
+      <p>The Takeaway：Arca 不是 SaaS 公司，是一家 AI-native 财富管理 firm。Agent 的核心价值不是替代人，而是替代人周围的所有繁琐工作——客户体验仍由人类顾问传递，但背后是 24/7 的 Agent 网络在运转。</p>
+          <p>架构要点：任务按复杂度分级调度模型（税务分析 → Opus/GPT 重型；后台批处理 → 轻量模型）；资金操作和直接客户沟通必须 human-in-the-loop；所有 Agent 动作产生审计日志（change log），合规即默认；使用决策模型（如 Jev）做财务事实核查，防止模型幻觉导致错误建议。</p>
+          <p>长周期任务靠内部 memory system 维持：每个客户端维护"当前状态、谁负责什么、接下来几天要做什么、长期追踪项"；每日 reflection 过程更新记忆，新 signal（如新电话）唤醒 fresh agent 后能快速 ramp up 到上下文。</p>
+          <p>反馈闭环：客户或顾问的每次编辑/取消都附带"why"，自动成为 eval 数据；每晚 meta-agent 分析真实 trace 并提出 harness 改进建议，但人工工程师在 loop 内，最终决定权在人。</p>
+          <p>安全设计：sandbox 用于卸载计算而非运行 Agent 本身；sandbox 产出的 artifact（如 PDF 财务计划）在发布前经过确定性检查（PII 过滤）+ 小模型共识检查（承诺收益等违规内容）；外部数据入口（邮件、电话）有 prompt injection 检测层。</p>
+      <a class="read-more" href="https://www.youtube.com/@LatentSpacePod">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Claude AI</span>
-              <span class="voice-handle">@claudeai · Anthropic 官方</span>
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
               
             </div>
-            <p class="voice-quote">Max 5x 更名为 Max（$100/月），Max 20x 更名为 Ultra（$200/月）。已验证的 Ultra 账户今日开始取消 5 小时使用限制，新账户验证前保留临时限制以防欺诈滥用。每周限额不变。 <a class="read-more" href="https://x.com/claudeai/status/2116220869479428500" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">跟进 Karpathy 新项目 Hackertube 今日上线——他用的是 Opus 5.5 Medium。我的哲学：低 effort + 快速 critique loop 胜过一切高配方案（"low effort + critique loop &gt; superultramaxhighwhatever"），适合吞吐量受限的人。详见 swyxio/skills/babysit-runs。 <a class="read-more" href="https://x.com/swyx/status/2116773135668404286" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Thibault Sottiaux</span>
-              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Smol AI / Cognition / Temporal</span>
               
             </div>
-            <p class="voice-quote">Day 26/ 移动端现已支持在多账户间轻松切换，桌面端即将推出。接下来两天将是重置日……大家可以自由发挥 👀。 <a class="read-more" href="https://x.com/thsottiaux/status/2116405414921384099" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">强烈呼吁：加入我的"超轻模式"阵营！低 effort + 快速 critique loop &gt; 任何超高性能方案。（针对吞吐量受限者，见 babysit-runs） <a class="read-more" href="https://x.com/swyx/status/2116642586387730593" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">判断你用 AI 够不够深的一个好测试：六个月前，AI 最好也就帮你"更快地做你原本就会做的事"。今天，与 AI 协作的输出应该且必须显著超越你独自能完成的水平——产品原型不仅要功能完整、可交互，还要超出以往预期。 <a class="read-more" href="https://x.com/levie/status/2116652002830963114" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -127,16 +138,16 @@
               <span class="voice-handle">@rauchg · Vercel CEO</span>
               
             </div>
-            <p class="voice-quote">每位桌面用户一个 Agent。Particle 模型的迭代速度令人咋舌——现在更小、更快、token 效率更高，我们在持续 benchmark 并让它自我改进。 <a class="read-more" href="https://x.com/rauchg/status/2116345666108854781" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">这个如果在 SF 做一定会非常炸。 <a class="read-more" href="https://x.com/rauchg/status/2116710688550994042" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Amjad Masad</span>
-              <span class="voice-handle">@amasad · Replit CEO</span>
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · Builder</span>
               
             </div>
-            <p class="voice-quote">在 Replit 托管应用并开启 autofix，就变成了自维护软件。同时发布 Replit for Government，并发布了一份关于如何正确沙盒化 Agent 以实现生产力最大化并降低风险的白皮书。 <a class="read-more" href="https://x.com/amasad/status/2116343923925041462" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">万圣节应该是每个季度都过的节日——不是为了 tricks or treats，而是因为可以穿成任何想成为的样子，这才是最棒的。 <a class="read-more" href="https://x.com/petergyang/status/2116733034926100841" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -145,34 +156,16 @@
               <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
               
             </div>
-            <p class="voice-quote">GBrain Cloud 是在所有 Agent 中快速启动 GBrain 的最快方式。每个 harness 各有优势：Grok/Muse/Dots 适合个人场景，OpenClaw/Hermes 适合高强度任务，Claude Code/Codex/Capy 专注代码生成。GBrain 让你的上下文在所有平台通用。 <a class="read-more" href="https://x.com/garrytan/status/2116303457774899251" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">分享了一段关于"为何最不适合的人总爬到顶端"的政治哲学引用：当计划失败（而它总会失败），就需要强制力；需要有人做诚实之人拒绝做的事；系统不选拔最优者，而是筛选出毫无底线的人。 <a class="read-more" href="https://x.com/garrytan/status/2116640529232609515" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Peter Steinberger</span>
-              <span class="voice-handle">@steipete · OpenClaw + OpenAI</span>
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
               
             </div>
-            <p class="voice-quote">又一个要用自己 harness 而不是依赖大厂的理由——公司可以随时改变你能做什么、不能做什么。Unpredictable inference quality 一直是我推荐跳过中间商的原因。 <a class="read-more" href="https://x.com/steipete/status/2116153238563242385" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Zara Zhang</span>
-              <span class="voice-handle">@zarazhangrui · Builder</span>
-              
-            </div>
-            <p class="voice-quote">用 AI 创作有品味的内容，不需要你是设计师。录制了一支 video essay，展示如何用 coding agent 和单个 prompt 完成视频剪辑，效果出乎意料。 <a class="read-more" href="https://x.com/zarazhangrui/status/2116281211962454056" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Ryo Lu</span>
-              <span class="voice-handle">@ryolu_ · 前 Cursor / Notion / Stripe 设计师</span>
-              
-            </div>
-            <p class="voice-quote">ryOS 登陆 iPhone Duo，比 iOS 更好 ☺️。开源项目，欢迎试玩和提反馈。 <a class="read-more" href="https://x.com/ryolu_/status/2116126528060973480" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Banked 1/2（配图，暗示某项进度或里程碑） <a class="read-more" href="https://x.com/thsottiaux/status/2116692529970311254" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -186,9 +179,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 16 位建造者 · 1 期播客</strong><br>
-      覆盖 16 位建造者，1 期播客，无博客更新<br>
-      生成于 2026-11-01T02:01:00+08:00
+      数据来源 · <strong>follow-builders feed · 8 位建造者 · 1 期播客</strong><br>
+      覆盖 8 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-02T02:00:33+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>
