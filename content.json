@@ -1,84 +1,82 @@
 {
   "issue": {
-    "vol": "2026306",
-    "date": "2026年11月2日",
-    "weekday": "星期一",
-    "dateISO": "2026-11-02",
-    "tagline": "Arca 用 AI Agent 运行 Wealth Management 全业务流程 · Swyx 谈 Karpathy Hackertube 与低努力哲学 · Aaron Levie 定义 AI 生产力新标杆"
+    "vol": "2026307",
+    "date": "2026年11月3日",
+    "weekday": "星期二",
+    "dateISO": "2026-11-03",
+    "tagline": "Karpathy 周末两小时做出 HackerTube · Levie：Agent 正在重写工作定义 · Rauch 呼吁「拥有你自己的智能」"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Arca 以 AI Agent 驱动财富管理全流程，获 6400 万美元融资；Swyx 跟进 Karpathy Hackertube 上线，倡导低努力高反馈循环；Aaron Levie 提出 AI 使用程度的分水岭测试。",
+    "title": "Karpathy 用 Claude 过滤 4300 万评论打造 HackerTube；Levie 提出 Agent 时代的工作范式转移；Rauch 呼吁掌握自己的智能栈。",
     "paras": [
-      "Arca 在 Latent Space 播客中透露，这是一家 AI-native 财富管理机构，刚完成 6400 万美元融资。其核心理念是：Agent 不是替代顾问，而是替代顾问周围的所有工作——客户从不直接接触 AI，体验到的仍是人文关怀，但背后是 24/7 运行的 Agent 网络在分析市场、追踪生活细节、主动推送建议。任务按复杂度分级：税务分析用最强模型（Claude Opus/Sonnet 或 GPT 重型），后台批处理用轻量模型。关键约束：资金划转和直接与客户沟通必须人工确认，Agent 只负责分析和建议。",
-      "Swyx 跟进 Andrej Karpathy 的最新项目 Hackertube（今日上线），透露 Karpathy 用的是 Opus 5.5 Medium。他同时分享了自己的低努力哲学：低 effort + 快速 critique loop 胜过一切高配方案（\"low effort + critique loop > superultramaxhighwhatever\"），并推荐了自己的 babysit-runs 脚本作为实现路径。",
-      "Box CEO Aaron Levie 提出判断 AI 使用程度的分水岭测试：六个月前，AI 最好的成果只是\"更快地产出你会做的东西\"；今天，与 AI 协作的输出应该且必须显著超越你独自能完成的水平——产品原型不仅要功能完整、可交互，还要超出以往预期。"
+      "Andrej Karpathy 周末两小时搞定了 HackerTube：用 Claude 过滤了 20 年 HN 积累的 4300 万条 YouTube 评论，筛选出 6454 个持续被推荐的优质视频。不需要登录，缩略图来自视频中段帧而非 A/B 测试优化过的封面。整个过程中他只做了三件事：申请 Google Cloud API key、租一台 VPS、买域名——其余全部交给 Claude Code 执行。这个案例再次印证了一个趋势：过去需要数周甚至数月的独立项目，现在可以通过 few-shot 示例加 LLM 协作在几小时内交付。",
+      "Box CEO Aaron Levie 发布了关于 Agent 时代工作本质的深度思考：我们正在从「AI 帮人类更高效地做工作」转向「人类帮 Agent 完成工作」。这意味着大多数岗位的核心职能将从个体贡献者转变为「Agent 团队的管理者」。在信息密集型领域（编程、网络安全、法律、生物医疗、工程）尤其明显。Levie 强调，率先发现这一变化并据此重构运营的组织将获得复利式回报——因为杠杆不再与工作时间成正比，Agent 可以并行执行任意规模的任务。",
+      "Vercel CEO Guillermo Rauch 发布了一条关于「Own your intelligence」的立场声明：凡是试图垄断智能 access 的人，最终都想把智能以更高价格卖回给你。他呼吁本地模型必须持续普及，关键是拥抱开源，掌握自己的 harness、数据、连接和运行时。与此同时，他分享了实测 Gemini 完成两个高复杂度项目的正面体验。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Latent Space #248：用 Agent 执行长周期金融工作 · Aman Singh（Arca AI 平台负责人）",
-    "meta": "2026-10-31 · Latent Space · 约 45 分钟",
+    "title": "Unsupervised Learning #95：Modal CEO 谈推理的未来、GPU 市场的混乱与 Sandbox 的起源",
+    "meta": "2026-10-28 · Unsupervised Learning · Redpoint AI",
     "paras": [
-      "The Takeaway：Arca 不是 SaaS 公司，是一家 AI-native 财富管理 firm。Agent 的核心价值不是替代人，而是替代人周围的所有繁琐工作——客户体验仍由人类顾问传递，但背后是 24/7 的 Agent 网络在运转。",
-      "架构要点：任务按复杂度分级调度模型（税务分析 → Opus/GPT 重型；后台批处理 → 轻量模型）；资金操作和直接客户沟通必须 human-in-the-loop；所有 Agent 动作产生审计日志（change log），合规即默认；使用决策模型（如 Jev）做财务事实核查，防止模型幻觉导致错误建议。",
-      "长周期任务靠内部 memory system 维持：每个客户端维护\"当前状态、谁负责什么、接下来几天要做什么、长期追踪项\"；每日 reflection 过程更新记忆，新 signal（如新电话）唤醒 fresh agent 后能快速 ramp up 到上下文。",
-      "反馈闭环：客户或顾问的每次编辑/取消都附带\"why\"，自动成为 eval 数据；每晚 meta-agent 分析真实 trace 并提出 harness 改进建议，但人工工程师在 loop 内，最终决定权在人。",
-      "安全设计：sandbox 用于卸载计算而非运行 Agent 本身；sandbox 产出的 artifact（如 PDF 财务计划）在发布前经过确定性检查（PII 过滤）+ 小模型共识检查（承诺收益等违规内容）；外部数据入口（邮件、电话）有 prompt injection 检测层。"
+      "The Takeaway：GPU 市场远非高效市场——它更像是一个「开放的毒品市场」，人们在大堂里交换号码来寻找芯片。Compute 的结构特性决定了它不会短期内变成标准化可交易的资产。",
+      "Modal CEO Eric 回顾了过去三年构建 AI 计算基础设施的历程。他从两个层面分析了 GPU 市场现状：一方面资源确实存在，另一方面结构性低效将持续很久——compute 不是 fungible contract，无法在交易所标准化买卖，这决定了基础设施层的价值将继续存在。",
+      "他提到 Sandbox 的起源故事：最初是为了让 Agent 安全运行不可信代码而设计的隔离环境，后来演变为更广泛的推理基础设施。这一演进反映了 AI 应用从封闭测试走向规模化部署的必然需求。"
     ],
-    "url": "https://www.youtube.com/@LatentSpacePod"
+    "url": "https://www.youtube.com/@RedpointAI"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Smol AI / Cognition / Temporal",
-        "text": "跟进 Karpathy 新项目 Hackertube 今日上线——他用的是 Opus 5.5 Medium。我的哲学：低 effort + 快速 critique loop 胜过一切高配方案（\"low effort + critique loop > superultramaxhighwhatever\"），适合吞吐量受限的人。详见 swyxio/skills/babysit-runs。",
-        "url": "https://x.com/swyx/status/2116773135668404286"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Smol AI / Cognition / Temporal",
-        "text": "强烈呼吁：加入我的\"超轻模式\"阵营！低 effort + 快速 critique loop > 任何超高性能方案。（针对吞吐量受限者，见 babysit-runs）",
-        "url": "https://x.com/swyx/status/2116642586387730593"
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "org": "Founder of xAI / OpenAI 前负责人",
+        "text": "周末 hack 项目 HackerTube：我受不了 YouTube 的推荐算法，就用 Claude 过滤了 HN 20 年来 4300 万条评论，筛出 6454 个持续被推荐的视频。体验显著更好，耗时约 2 小时，用的是 Opus 5.5。整个过程我只做了三件事——申请 Google Cloud API key、租一台 VPS、买域名。其余全部交给 Claude Code 执行。过去需要数周的项目，现在 few-shot 示例加 LLM 协作几小时就能交付。",
+        "url": "https://x.com/karpathy/status/2116957135661945283"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "判断你用 AI 够不够深的一个好测试：六个月前，AI 最好也就帮你\"更快地做你原本就会做的事\"。今天，与 AI 协作的输出应该且必须显著超越你独自能完成的水平——产品原型不仅要功能完整、可交互，还要超出以往预期。",
-        "url": "https://x.com/levie/status/2116652002830963114"
+        "text": "越来越多岗位的新工作描述，将不再是编码，而是管理 Agent 团队。我们正在从「AI 帮人类做增量改进」转向「人类帮 Agent 完成工作」。最大的影响将在信息密集型领域：编程、网络安全、法律、生物医疗、工程。你产生的杠杆将与工作时间脱钩——Agent 可以并行执行任意规模的任务。率先发现这一点并重构运营的组织将收获复利。",
+        "url": "https://x.com/levie/status/2117134917847093491"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "这个如果在 SF 做一定会非常炸。",
-        "url": "https://x.com/rauchg/status/2116710688550994042"
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "Builder",
-        "text": "万圣节应该是每个季度都过的节日——不是为了 tricks or treats，而是因为可以穿成任何想成为的样子，这才是最棒的。",
-        "url": "https://x.com/petergyang/status/2116733034926100841"
+        "text": "Own your intelligence. 任何反对这件事的人，都有东西想卖给你（也许是用更高的价格把你自己拥有的智能再卖回给你）。本地模型必须持续普及。拥抱开源，掌握你的 harness、数据、连接和运行时——也就是你的 Agent。",
+        "url": "https://x.com/rauchg/status/2117000819623243925"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator President & CEO",
-        "text": "分享了一段关于\"为何最不适合的人总爬到顶端\"的政治哲学引用：当计划失败（而它总会失败），就需要强制力；需要有人做诚实之人拒绝做的事；系统不选拔最优者，而是筛选出毫无底线的人。",
-        "url": "https://x.com/garrytan/status/2116640529232609515"
+        "text": "Particle-1 在 Agent 检索任务上达到了比它大得多模型的同等效果，但价格只有 1/23。",
+        "url": "https://x.com/garrytan/status/2117137390016073977"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "Builder, Behind the Craft 播客主理人",
+        "text": "目前的品类之王：Browser/computer use = ChatGPT + Codex；Design/video editing/taste = Claude；24/7 agents 和 scheduled jobs = Grok Bot。Gemini 在写作上被低估，还需更多测试。",
+        "url": "https://x.com/petergyang/status/2116946320674152810"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "如果你正在享受补贴的 AI 订阅，准备好被 rug pull。同时：Replit 新增了一个开关——在网站上启用 feedback widget，用户的反馈就会直接变成 Agent 的 prompt 来构建功能。",
+        "url": "https://x.com/amasad/status/2117010858845089805"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "Banked 1/2（配图，暗示某项进度或里程碑）",
-        "url": "https://x.com/thsottiaux/status/2116692529970311254"
+        "text": "Banked 2/2（Day 28）。以及：我的狗刚刚修复了我们两周前找不到的 bug。它给你发了昨天的会议记录，你看到了吗？",
+        "url": "https://x.com/thsottiaux/status/2117035794678546764"
       }
     ]
   },
@@ -87,8 +85,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 8 位建造者 · 1 期播客",
-    "coverage": "覆盖 8 位建造者，1 期播客，无博客更新",
-    "generatedAt": "2026-11-02T02:00:33+08:00"
+    "source": "follow-builders feed · 7 位建造者 · 1 期播客",
+    "coverage": "覆盖 7 位建造者，1 期播客，无博客更新",
+    "generatedAt": "2026-11-03T02:00:00+08:00"
   }
 }
