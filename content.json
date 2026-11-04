@@ -1,82 +1,89 @@
 {
   "issue": {
-    "vol": "2026307",
-    "date": "2026年11月3日",
-    "weekday": "星期二",
-    "dateISO": "2026-11-03",
-    "tagline": "Karpathy 周末两小时做出 HackerTube · Levie：Agent 正在重写工作定义 · Rauch 呼吁「拥有你自己的智能」"
+    "vol": "20261038",
+    "date": "2026年11月4日",
+    "weekday": "星期三",
+    "dateISO": "2026-11-04",
+    "tagline": "MIT 用 GPT-6 直接编辑模型权重，数学能力提升 6 倍 · 高盛禁止交易员用 Claude Code · Vercel 60% 流量由 coding agents 驱动"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Karpathy 用 Claude 过滤 4300 万评论打造 HackerTube；Levie 提出 Agent 时代的工作范式转移；Rauch 呼吁掌握自己的智能栈。",
+    "title": "MIT CSAIL 发布「重量空间编程」：GPT-6 Astra 零梯度编辑 Qwen3.5 权重，数学推理提升 6 倍；高盛全面收紧金融从业者 AI 工具权限；Vercel 流量 60% 来自 coding agents。",
     "paras": [
-      "Andrej Karpathy 周末两小时搞定了 HackerTube：用 Claude 过滤了 20 年 HN 积累的 4300 万条 YouTube 评论，筛选出 6454 个持续被推荐的优质视频。不需要登录，缩略图来自视频中段帧而非 A/B 测试优化过的封面。整个过程中他只做了三件事：申请 Google Cloud API key、租一台 VPS、买域名——其余全部交给 Claude Code 执行。这个案例再次印证了一个趋势：过去需要数周甚至数月的独立项目，现在可以通过 few-shot 示例加 LLM 协作在几小时内交付。",
-      "Box CEO Aaron Levie 发布了关于 Agent 时代工作本质的深度思考：我们正在从「AI 帮人类更高效地做工作」转向「人类帮 Agent 完成工作」。这意味着大多数岗位的核心职能将从个体贡献者转变为「Agent 团队的管理者」。在信息密集型领域（编程、网络安全、法律、生物医疗、工程）尤其明显。Levie 强调，率先发现这一变化并据此重构运营的组织将获得复利式回报——因为杠杆不再与工作时间成正比，Agent 可以并行执行任意规模的任务。",
-      "Vercel CEO Guillermo Rauch 发布了一条关于「Own your intelligence」的立场声明：凡是试图垄断智能 access 的人，最终都想把智能以更高价格卖回给你。他呼吁本地模型必须持续普及，关键是拥抱开源，掌握自己的 harness、数据、连接和运行时。与此同时，他分享了实测 Gemini 完成两个高复杂度项目的正面体验。"
+      "MIT CSAIL 团队 11 月 2 日发表论文《Sparks of Weight-Space Programming》，首次展示 GPT-6 Astra 无需梯度下降或训练循环，直接读取并编辑 Qwen3.5-0.8B 的神经权重——仅修改 0.016% 的参数，就将 MATH-500 分数从 7.9% 提升至 48.1%（约 6 倍），GSM8K 从 13.8% 提升至 67.1%，指令遵循也提升了 3 倍。作者称这标志着一个范式转移：从「prompt engineering」迈向「weight-space programming」——让一个模型直接当另一个模型的程序员。开源代码与编辑后的权重已在 Hugging Face 上线。",
+      "金融业的 AI 蜜月期正在消退。彭博社独家报道，高盛在 10 月底更新了内部指引，将 Claude Code 和 GitHub Copilot 等高级编码 AI 工具的使用权限从全体员工收窄至工程师专属——这意味着此前数月一直使用这些工具的银行家和交易员被要求停止使用。今年 7 月时，高盛 CIO Marco Argenti 还公开推崇「vibe coding」，称非技术员工用 AI 工具开发方案再由 12,000 名工程师优化。短短三个月风向急转，反映出金融行业对 AI 引入生产风险的重新评估。",
+      "Vercel CEO Guillermo Rauch 透露，平台上 60% 的流量已来自 coding agents。他同时指出无状态沙箱是错误基准——agent 必须携带自身工作空间（身份、技能、仓库、记忆）才能发挥作用。Vercel Sandbox 团队正在 19 个全球地区部署集群，以双位数周增长率应对客户激增的需求。另一面，OpenAI 产品负责人 Thibault Sottiaux 发帖「Le GPT Fat」引发广泛共鸣（2,500+ 赞），暗示 GPT 系列模型使用量开始出现饱和疲态信号。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Unsupervised Learning #95：Modal CEO 谈推理的未来、GPU 市场的混乱与 Sandbox 的起源",
-    "meta": "2026-10-28 · Unsupervised Learning · Redpoint AI",
+    "title": "Latent Space：在数据不可见时构建法律代理——Legora CTO Jacob Lauritzen 谈",
+    "meta": "2026-11-02 · Latent Space · YCombinator",
     "paras": [
-      "The Takeaway：GPU 市场远非高效市场——它更像是一个「开放的毒品市场」，人们在大堂里交换号码来寻找芯片。Compute 的结构特性决定了它不会短期内变成标准化可交易的资产。",
-      "Modal CEO Eric 回顾了过去三年构建 AI 计算基础设施的历程。他从两个层面分析了 GPU 市场现状：一方面资源确实存在，另一方面结构性低效将持续很久——compute 不是 fungible contract，无法在交易所标准化买卖，这决定了基础设施层的价值将继续存在。",
-      "他提到 Sandbox 的起源故事：最初是为了让 Agent 安全运行不可信代码而设计的隔离环境，后来演变为更广泛的推理基础设施。这一演进反映了 AI 应用从封闭测试走向规模化部署的必然需求。"
+      "The Takeaway：法律 AI 的核心挑战不是智能水平，而是「可见性」——客户是否信任一个无法解释推理过程的黑箱？Legora 的选择是：只服务高价值复杂场景，用工程规模对抗传统律所的人力规模。",
+      "Jacob Lauritzen（丹麦名，意为 Laurits 之子）回顾 Legora 的成长路径：从初期被问「你们和 Mythos 有什么不同」，到发现大部分法律工作并不需要 Mythos 级智能——助理律师和初级律师的工作确实被替代，但他们不这样做。一次模型升级将引用准确率从 70% 跃升至 99%，而他们什么都没改。「如果你在做 4 亿美元的并购交易，你就是要 Legora。」",
+      "他提到一个反直觉的发现：团队规模从 100 人调整为 20 人后，反而认为「20 人太少了」。他们计划永远保持工程师主导的精干团队，用 AGI 的杠杆击败规模更大的竞争对手。产品在「agent vs 其他组件」的占比上仍在探索，核心问题是：多少比例可以纯粹交给 agent？"
     ],
-    "url": "https://www.youtube.com/@RedpointAI"
+    "url": "https://www.youtube.com/watch?v=bJBEFzlKPoQ"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Andrej Karpathy",
-        "handle": "karpathy",
-        "org": "Founder of xAI / OpenAI 前负责人",
-        "text": "周末 hack 项目 HackerTube：我受不了 YouTube 的推荐算法，就用 Claude 过滤了 HN 20 年来 4300 万条评论，筛出 6454 个持续被推荐的视频。体验显著更好，耗时约 2 小时，用的是 Opus 5.5。整个过程我只做了三件事——申请 Google Cloud API key、租一台 VPS、买域名。其余全部交给 Claude Code 执行。过去需要数周的项目，现在 few-shot 示例加 LLM 协作几小时就能交付。",
-        "url": "https://x.com/karpathy/status/2116957135661945283"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "越来越多岗位的新工作描述，将不再是编码，而是管理 Agent 团队。我们正在从「AI 帮人类做增量改进」转向「人类帮 Agent 完成工作」。最大的影响将在信息密集型领域：编程、网络安全、法律、生物医疗、工程。你产生的杠杆将与工作时间脱钩——Agent 可以并行执行任意规模的任务。率先发现这一点并重构运营的组织将收获复利。",
-        "url": "https://x.com/levie/status/2117134917847093491"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "Own your intelligence. 任何反对这件事的人，都有东西想卖给你（也许是用更高的价格把你自己拥有的智能再卖回给你）。本地模型必须持续普及。拥抱开源，掌握你的 harness、数据、连接和运行时——也就是你的 Agent。",
-        "url": "https://x.com/rauchg/status/2117000819623243925"
-      },
-      {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator President & CEO",
-        "text": "Particle-1 在 Agent 检索任务上达到了比它大得多模型的同等效果，但价格只有 1/23。",
-        "url": "https://x.com/garrytan/status/2117137390016073977"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT 产品负责人 @OpenAI",
+        "text": "「Le GPT Fat。」——仅三个字，2,500+ 赞。暗示 GPT 系列的使用热情可能已进入平台期。同时分享了团队近期在 Git 工作流上的突破，以及一个温馨的私人瞬间：他的狗帮忙修复了一个困扰团队两周的 bug。",
+        "url": "https://x.com/thsottiaux/status/2117489367417803042"
       },
       {
         "name": "Peter Yang",
         "handle": "petergyang",
-        "org": "Builder, Behind the Craft 播客主理人",
-        "text": "目前的品类之王：Browser/computer use = ChatGPT + Codex；Design/video editing/taste = Claude；24/7 agents 和 scheduled jobs = Grok Bot。Gemini 在写作上被低估，还需更多测试。",
-        "url": "https://x.com/petergyang/status/2116946320674152810"
+        "org": "Behind the Craft 主理人，AI 实用教程创作者",
+        "text": "「写作和编辑最好的模型被其 harness 拖累了。」他对比了 ChatGPT 和 Gemini 的编辑建议质量：ChatGPT 的建议几乎全不可用，Gemini 的却很有价值。但 Antigravity（Google 的 agent harness）没有可用的浏览器操作，导致他必须手动复制 Gemini 的修改到 ChatGPT 里执行。这是对「模型强、harness 弱」问题的真实痛感反馈。",
+        "url": "https://x.com/petergyang/status/2117333424403042330"
       },
       {
         "name": "Amjad Masad",
         "handle": "amasad",
         "org": "Replit CEO",
-        "text": "如果你正在享受补贴的 AI 订阅，准备好被 rug pull。同时：Replit 新增了一个开关——在网站上启用 feedback widget，用户的反馈就会直接变成 Agent 的 prompt 来构建功能。",
-        "url": "https://x.com/amasad/status/2117010858845089805"
+        "text": "两条信息：一是金融行业的 AI 禁令潮正在蔓延（回应高盛限制事件）；二是强调 AI agent 应在组织控制的专用环境中运行，每个任务只授予所需的最小权限。「 бан hammer 正在落下 」——他在转发的安全建议文章下评论，认为托管云环境应成为 AI agent 的默认模式。",
+        "url": "https://x.com/amasad/status/2117499074496872882"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "Banked 2/2（Day 28）。以及：我的狗刚刚修复了我们两周前找不到的 bug。它给你发了昨天的会议记录，你看到了吗？",
-        "url": "https://x.com/thsottiaux/status/2117035794678546764"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "两件事：一是对 WebMCP 极度看好，类比 Tesla FSD——agent 需要在现有 Web 基础设施上运行，而不是另起一套系统；二是重申有状态沙箱的重要性：「无状态沙箱是错误的基准。Agent 只有携带自己的工作空间（身份、技能、仓库、记忆）才有用。」Vercel Sandbox 已在 19 个地区部署，每周迭代新功能，周增长率达双位数。",
+        "url": "https://x.com/rauchg/status/2117419661654720671"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "org": "前 Claude Code @Anthropic 成员，魔兽世界长居玩家",
+        "text": "使用 Claude Code 一周后的核心洞察：「你不需要无限 token 来做伟大工作，$200/月的计划已经足够好——这是人类历史上最昂贵的人工智能。」这一观点与行业普遍推崇「无限 token」方案的叙事形成反差，引发 6,700+ 赞和 400+ 评论的热烈讨论。",
+        "url": "https://x.com/trq212/status/2117305792923889731"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "Y Combinator President & CEO",
+        "text": "转发 MIT CSAIL 的「重量空间编程」论文：用较小模型直接编辑权重是一个有趣的新方向——GPT-6 Astra 编辑 Qwen3.5-0.8B 的权重来提升数学能力，无需梯度或训练。同时呼吁 repeal CEQA（加州环境质量法），称其为阻碍医院、高铁和住房建设的主要 NIMBY 工具。",
+        "url": "https://x.com/garrytan/status/2117384926052135106"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "AI Engineer 创始人，Latent Space 联合主持人",
+        "text": "转发 MIT CSAIL「重量空间编程」论文第二篇更新：随着研究深入，论文已扩展到第二部分，持续跟踪这一方向的进展。Swyx 持续密切关注并传播这一领域的重要突破。",
+        "url": "https://x.com/swyx/status/2117492548780589510"
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "org": "Codex & ChatGPT 产品 @OpenAI，前 Linear 产品负责人",
+        "text": "「除极少数情况外，群聊是一种极差的多人 AI 体验—— guaranteed slop。」直言不讳地指出当前多 agent 群聊模式的根本缺陷，呼应了 OpenAI 内部对多 agent 协作体验的反思。",
+        "url": "https://x.com/thenanyu/status/2117432599559716940"
       }
     ]
   },
@@ -85,8 +92,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 7 位建造者 · 1 期播客",
-    "coverage": "覆盖 7 位建造者，1 期播客，无博客更新",
-    "generatedAt": "2026-11-03T02:00:00+08:00"
+    "source": "follow-builders feed · 12 位建造者 · 1 期播客",
+    "coverage": "覆盖 12 位建造者，1 期播客，无博客更新",
+    "generatedAt": "2026-11-04T02:00:00+08:00"
   }
 }

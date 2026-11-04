@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月4日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261038</span><span>2026年11月4日 · 星期三</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">MIT 用 GPT-6 直接编辑模型权重，数学能力提升 6 倍 · 高盛禁止交易员用 Claude Code · Vercel 60% 流量由 coding agents 驱动</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>MIT CSAIL 发布「重量空间编程」：GPT-6 Astra 零梯度编辑 Qwen3.5 权重，数学推理提升 6 倍；高盛全面收紧金融从业者 AI 工具权限；Vercel 流量 60% 来自 coding agents。</h1>
+      <p>MIT CSAIL 团队 11 月 2 日发表论文《Sparks of Weight-Space Programming》，首次展示 GPT-6 Astra 无需梯度下降或训练循环，直接读取并编辑 Qwen3.5-0.8B 的神经权重——仅修改 0.016% 的参数，就将 MATH-500 分数从 7.9% 提升至 48.1%（约 6 倍），GSM8K 从 13.8% 提升至 67.1%，指令遵循也提升了 3 倍。作者称这标志着一个范式转移：从「prompt engineering」迈向「weight-space programming」——让一个模型直接当另一个模型的程序员。开源代码与编辑后的权重已在 Hugging Face 上线。</p>
+          <p>金融业的 AI 蜜月期正在消退。彭博社独家报道，高盛在 10 月底更新了内部指引，将 Claude Code 和 GitHub Copilot 等高级编码 AI 工具的使用权限从全体员工收窄至工程师专属——这意味着此前数月一直使用这些工具的银行家和交易员被要求停止使用。今年 7 月时，高盛 CIO Marco Argenti 还公开推崇「vibe coding」，称非技术员工用 AI 工具开发方案再由 12,000 名工程师优化。短短三个月风向急转，反映出金融行业对 AI 引入生产风险的重新评估。</p>
+          <p>Vercel CEO Guillermo Rauch 透露，平台上 60% 的流量已来自 coding agents。他同时指出无状态沙箱是错误基准——agent 必须携带自身工作空间（身份、技能、仓库、记忆）才能发挥作用。Vercel Sandbox 团队正在 19 个全球地区部署集群，以双位数周增长率应对客户激增的需求。另一面，OpenAI 产品负责人 Thibault Sottiaux 发帖「Le GPT Fat」引发广泛共鸣（2,500+ 赞），暗示 GPT 系列模型使用量开始出现饱和疲态信号。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space：在数据不可见时构建法律代理——Legora CTO Jacob Lauritzen 谈</h2>
+      <div class="meta-line">2026-11-02 · Latent Space · YCombinator</div>
+      <p>The Takeaway：法律 AI 的核心挑战不是智能水平，而是「可见性」——客户是否信任一个无法解释推理过程的黑箱？Legora 的选择是：只服务高价值复杂场景，用工程规模对抗传统律所的人力规模。</p>
+          <p>Jacob Lauritzen（丹麦名，意为 Laurits 之子）回顾 Legora 的成长路径：从初期被问「你们和 Mythos 有什么不同」，到发现大部分法律工作并不需要 Mythos 级智能——助理律师和初级律师的工作确实被替代，但他们不这样做。一次模型升级将引用准确率从 70% 跃升至 99%，而他们什么都没改。「如果你在做 4 亿美元的并购交易，你就是要 Legora。」</p>
+          <p>他提到一个反直觉的发现：团队规模从 100 人调整为 20 人后，反而认为「20 人太少了」。他们计划永远保持工程师主导的精干团队，用 AGI 的杠杆击败规模更大的竞争对手。产品在「agent vs 其他组件」的占比上仍在探索，核心问题是：多少比例可以纯粹交给 agent？</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=bJBEFzlKPoQ">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT 产品负责人 @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">「Le GPT Fat。」——仅三个字，2,500+ 赞。暗示 GPT 系列的使用热情可能已进入平台期。同时分享了团队近期在 Git 工作流上的突破，以及一个温馨的私人瞬间：他的狗帮忙修复了一个困扰团队两周的 bug。 <a class="read-more" href="https://x.com/thsottiaux/status/2117489367417803042" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · Behind the Craft 主理人，AI 实用教程创作者</span>
+              
+            </div>
+            <p class="voice-quote">「写作和编辑最好的模型被其 harness 拖累了。」他对比了 ChatGPT 和 Gemini 的编辑建议质量：ChatGPT 的建议几乎全不可用，Gemini 的却很有价值。但 Antigravity（Google 的 agent harness）没有可用的浏览器操作，导致他必须手动复制 Gemini 的修改到 ChatGPT 里执行。这是对「模型强、harness 弱」问题的真实痛感反馈。 <a class="read-more" href="https://x.com/petergyang/status/2117333424403042330" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · Replit CEO</span>
+              
+            </div>
+            <p class="voice-quote">两条信息：一是金融行业的 AI 禁令潮正在蔓延（回应高盛限制事件）；二是强调 AI agent 应在组织控制的专用环境中运行，每个任务只授予所需的最小权限。「 бан hammer 正在落下 」——他在转发的安全建议文章下评论，认为托管云环境应成为 AI agent 的默认模式。 <a class="read-more" href="https://x.com/amasad/status/2117499074496872882" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">两件事：一是对 WebMCP 极度看好，类比 Tesla FSD——agent 需要在现有 Web 基础设施上运行，而不是另起一套系统；二是重申有状态沙箱的重要性：「无状态沙箱是错误的基准。Agent 只有携带自己的工作空间（身份、技能、仓库、记忆）才有用。」Vercel Sandbox 已在 19 个地区部署，每周迭代新功能，周增长率达双位数。 <a class="read-more" href="https://x.com/rauchg/status/2117419661654720671" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic 成员，魔兽世界长居玩家</span>
+              
+            </div>
+            <p class="voice-quote">使用 Claude Code 一周后的核心洞察：「你不需要无限 token 来做伟大工作，$200/月的计划已经足够好——这是人类历史上最昂贵的人工智能。」这一观点与行业普遍推崇「无限 token」方案的叙事形成反差，引发 6,700+ 赞和 400+ 评论的热烈讨论。 <a class="read-more" href="https://x.com/trq212/status/2117305792923889731" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">转发 MIT CSAIL 的「重量空间编程」论文：用较小模型直接编辑权重是一个有趣的新方向——GPT-6 Astra 编辑 Qwen3.5-0.8B 的权重来提升数学能力，无需梯度或训练。同时呼吁 repeal CEQA（加州环境质量法），称其为阻碍医院、高铁和住房建设的主要 NIMBY 工具。 <a class="read-more" href="https://x.com/garrytan/status/2117384926052135106" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · AI Engineer 创始人，Latent Space 联合主持人</span>
+              
+            </div>
+            <p class="voice-quote">转发 MIT CSAIL「重量空间编程」论文第二篇更新：随着研究深入，论文已扩展到第二部分，持续跟踪这一方向的进展。Swyx 持续密切关注并传播这一领域的重要突破。 <a class="read-more" href="https://x.com/swyx/status/2117492548780589510" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Codex &amp; ChatGPT 产品 @OpenAI，前 Linear 产品负责人</span>
+              
+            </div>
+            <p class="voice-quote">「除极少数情况外，群聊是一种极差的多人 AI 体验—— guaranteed slop。」直言不讳地指出当前多 agent 群聊模式的根本缺陷，呼应了 OpenAI 内部对多 agent 协作体验的反思。 <a class="read-more" href="https://x.com/thenanyu/status/2117432599559716940" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 12 位建造者 · 1 期播客</strong><br>
+      覆盖 12 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-04T02:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
