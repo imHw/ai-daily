@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年11月4日</title>
+<title>AI 日报 · 2026年11月5日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,57 +77,84 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>20261038</span><span>2026年11月4日 · 星期三</span></div>
+      <div class="meta"><span>20261039</span><span>2026年11月5日 · 星期四</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">MIT 用 GPT-6 直接编辑模型权重，数学能力提升 6 倍 · 高盛禁止交易员用 Claude Code · Vercel 60% 流量由 coding agents 驱动</div>
+      <div class="tagline">Cat Wu 离开 Anthropic 告别 Claude Code · OpenAI 发声反对 AI 系统接管人类决策权 · Box CEO：AI 生产力提升已从 50% 跃升至 5-10 倍</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>MIT CSAIL 发布「重量空间编程」：GPT-6 Astra 零梯度编辑 Qwen3.5 权重，数学推理提升 6 倍；高盛全面收紧金融从业者 AI 工具权限；Vercel 流量 60% 来自 coding agents。</h1>
-      <p>MIT CSAIL 团队 11 月 2 日发表论文《Sparks of Weight-Space Programming》，首次展示 GPT-6 Astra 无需梯度下降或训练循环，直接读取并编辑 Qwen3.5-0.8B 的神经权重——仅修改 0.016% 的参数，就将 MATH-500 分数从 7.9% 提升至 48.1%（约 6 倍），GSM8K 从 13.8% 提升至 67.1%，指令遵循也提升了 3 倍。作者称这标志着一个范式转移：从「prompt engineering」迈向「weight-space programming」——让一个模型直接当另一个模型的程序员。开源代码与编辑后的权重已在 Hugging Face 上线。</p>
-          <p>金融业的 AI 蜜月期正在消退。彭博社独家报道，高盛在 10 月底更新了内部指引，将 Claude Code 和 GitHub Copilot 等高级编码 AI 工具的使用权限从全体员工收窄至工程师专属——这意味着此前数月一直使用这些工具的银行家和交易员被要求停止使用。今年 7 月时，高盛 CIO Marco Argenti 还公开推崇「vibe coding」，称非技术员工用 AI 工具开发方案再由 12,000 名工程师优化。短短三个月风向急转，反映出金融行业对 AI 引入生产风险的重新评估。</p>
-          <p>Vercel CEO Guillermo Rauch 透露，平台上 60% 的流量已来自 coding agents。他同时指出无状态沙箱是错误基准——agent 必须携带自身工作空间（身份、技能、仓库、记忆）才能发挥作用。Vercel Sandbox 团队正在 19 个全球地区部署集群，以双位数周增长率应对客户激增的需求。另一面，OpenAI 产品负责人 Thibault Sottiaux 发帖「Le GPT Fat」引发广泛共鸣（2,500+ 赞），暗示 GPT 系列模型使用量开始出现饱和疲态信号。</p>
+      <h1>Claude Code 联合创始人 Cat Wu 离职，OpenAI 明确 AI 红线，Box CEO 发布生产力翻倍测算：两年内从 50% 跃升至 10 倍。</h1>
+      <p>Claude Code 联合创始人 Cat Wu 11 月 3 日发文告别 Anthropic。她回顾两年前还是内部工具时的 Claude Code：她花数十小时引导模型构建 RL 环境，却一行代码未写；首发时用户手动批准每个权限请求，主要用来回答问题写测试。如今默认已转为自动批准，Claude 负责大型重构和产品搭建。「帮助将 Claude Code 打造成定义行业的标杆产品，是一生难忘的旅程。」推文获 9,400+ 赞、260 转发、830 条评论，反响热烈。</p>
+          <p>OpenAI CEO Sam Altman 11 月 4 日发表长篇声明，明确反对「将人类降格为执行 AI 认为合理的奖励机制的角色」。他指出：人们应始终掌控未来，不应把未来的决定权让渡给超级智能——这一要求最终应约束 AI 的发展边界。推文获赞 10,100+，引发广泛讨论。</p>
+          <p>Box CEO Aaron Levie 在同日发出深度分析：AI 生产力增益的上限正快速突破。两年前，即便在最对齐的领域（如编程），顶级用户相比普通用户最多提升 30%-50%；如今，随着模型能完成更长任务、harness 支持 agentic 工作流、数据集覆盖更多领域、多 agent 协作系统更成熟，上限已跃升至 5-10 倍，且随 RSI（递归自我改进）加速只会越拉越大。「我们正在经历一个时代奇点。」</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>Latent Space：在数据不可见时构建法律代理——Legora CTO Jacob Lauritzen 谈</h2>
-      <div class="meta-line">2026-11-02 · Latent Space · YCombinator</div>
-      <p>The Takeaway：法律 AI 的核心挑战不是智能水平，而是「可见性」——客户是否信任一个无法解释推理过程的黑箱？Legora 的选择是：只服务高价值复杂场景，用工程规模对抗传统律所的人力规模。</p>
-          <p>Jacob Lauritzen（丹麦名，意为 Laurits 之子）回顾 Legora 的成长路径：从初期被问「你们和 Mythos 有什么不同」，到发现大部分法律工作并不需要 Mythos 级智能——助理律师和初级律师的工作确实被替代，但他们不这样做。一次模型升级将引用准确率从 70% 跃升至 99%，而他们什么都没改。「如果你在做 4 亿美元的并购交易，你就是要 Legora。」</p>
-          <p>他提到一个反直觉的发现：团队规模从 100 人调整为 20 人后，反而认为「20 人太少了」。他们计划永远保持工程师主导的精干团队，用 AGI 的杠杆击败规模更大的竞争对手。产品在「agent vs 其他组件」的占比上仍在探索，核心问题是：多少比例可以纯粹交给 agent？</p>
-      <a class="read-more" href="https://www.youtube.com/watch?v=bJBEFzlKPoQ">收听原片 ↗</a>
+      <h2>Unsupervised Learning Ep 96：Nebius CTO 谈在 AWS 醒来之前加速 hyperscaler 竞争</h2>
+      <div class="meta-line">2026-11-02 · Redpoint AI</div>
+      <p>The Takeaway：Nebius 的诞生本身就是对云巨头盲区的一次精准狙击——当 AWS、GCP、Azure 还在为既有 workload 的基础设施纠结时，Nebius 用俄罗斯技术人才+黄仁勋人脉，直接为 AI 训练时代定制算力基建。</p>
+          <p>本期对话深入 Nebius 的起源故事（与 Yandex 的分道扬镳）、内部运作方式、与 NVIDIA 的合作关系，以及下一代芯片上线的实况。嘉宾还分享了对 Disaggregated Inference 等新技术的看法。核心洞察：超大规模云厂商并非不想抢这个市场，而是改变已按传统 workload 建设的大规模基础设施成本太高，这个窗口期因此存在。</p>
+          <p>对于 AI 基础设施赛道的竞争格局，CTO 给出清晰判断——这不是单纯的算力买卖，而是「在 hyperscaler 还没反应过来之前，用更聚焦的架构抢跑」，值得所有关注 AI 基础设施的人细听。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=RedpointAI">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
+              <span class="voice-name">Cat Wu</span>
+              <span class="voice-handle">@_catwu · Claude Code 联合创始人，前 Dagster、Scale AI</span>
+              
+            </div>
+            <p class="voice-quote">11 月 3 日发文告别 Anthropic，回顾 Claude Code 从内部小工具到行业标杆的两年历程：从最初手动批准每个权限请求、主要用来问答和写测试，到如今默认自动批准、执行大型迁移和新品开发。「帮助将 Claude Code 打造成定义行业的标杆产品，是一生难忘的旅程。」获 9,400+ 赞。 <a class="read-more" href="https://x.com/_catwu/status/2117731934340337676" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Sam Altman</span>
+              <span class="voice-handle">@sama · OpenAI CEO</span>
+              
+            </div>
+            <p class="voice-quote">明确划出 AI 权力边界：「人们应始终掌控未来。OpenAI 反对将人类降格为执行 AI 认为合理的奖励机制的角色。人们不应把未来的决定权让渡给超级智能——这一要求最终应约束 AI 的发展。」获 10,100+ 赞，2,300+ 评论。 <a class="read-more" href="https://x.com/sama/status/2117794005165748448" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">发布深度分析：AI 生产力增益上限从两年前的 30%-50% 跃升至如今的 5-10 倍。核心驱动力是模型能完成更长任务、harness 支持 agentic 工作流、数据集覆盖更多领域、多 agent 协作系统更成熟。并称随 RSI 加速，这一差距只会越拉越大。「我们正在经历一个时代奇点。」 <a class="read-more" href="https://x.com/levie/status/2117505799937577263" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
               <span class="voice-name">Thibault Sottiaux</span>
               <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT 产品负责人 @OpenAI</span>
               
             </div>
-            <p class="voice-quote">「Le GPT Fat。」——仅三个字，2,500+ 赞。暗示 GPT 系列的使用热情可能已进入平台期。同时分享了团队近期在 Git 工作流上的突破，以及一个温馨的私人瞬间：他的狗帮忙修复了一个困扰团队两周的 bug。 <a class="read-more" href="https://x.com/thsottiaux/status/2117489367417803042" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">坦诚 agent 开发的阵痛：「一切会不断改变，agent 今天已经不可思议，但依然令人沮丧。迫不及待想找回那种心流状态，前方是漫漫长路。」朴素表达引发 8,400+ 赞、1,300+ 评论，道出整个 agent 领域的共同感受。 <a class="read-more" href="https://x.com/thsottiaux/status/2117746467058405665" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Peter Yang</span>
-              <span class="voice-handle">@petergyang · Behind the Craft 主理人，AI 实用教程创作者</span>
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic，魔兽世界玩家</span>
               
             </div>
-            <p class="voice-quote">「写作和编辑最好的模型被其 harness 拖累了。」他对比了 ChatGPT 和 Gemini 的编辑建议质量：ChatGPT 的建议几乎全不可用，Gemini 的却很有价值。但 Antigravity（Google 的 agent harness）没有可用的浏览器操作，导致他必须手动复制 Gemini 的修改到 ChatGPT 里执行。这是对「模型强、harness 弱」问题的真实痛感反馈。 <a class="read-more" href="https://x.com/petergyang/status/2117333424403042330" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">转发关于最聪明模型将需要更少 token 的观点：「它们不需要验证工作，不需要检查 bug，它们直接就是对的。」称之为「 bitter lesson 在起作用 」——智能模型将通过能力提升而非 token 堆砌取胜，引发 6,100+ 赞热烈讨论。 <a class="read-more" href="https://x.com/trq212/status/2117670540148347273" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Amjad Masad</span>
-              <span class="voice-handle">@amasad · Replit CEO</span>
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude @Anthropic</span>
               
             </div>
-            <p class="voice-quote">两条信息：一是金融行业的 AI 禁令潮正在蔓延（回应高盛限制事件）；二是强调 AI agent 应在组织控制的专用环境中运行，每个任务只授予所需的最小权限。「 бан hammer 正在落下 」——他在转发的安全建议文章下评论，认为托管云环境应成为 AI agent 的默认模式。 <a class="read-more" href="https://x.com/amasad/status/2117499074496872882" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">宣布 Claude 插件企业级体验升级：团队和企业管理员可统一配置插件，队友首次使用时自动连接，不再需要逐个手动授权。「为公司插件一个一个登录太烦了，现在我们让 Claude 自动连接。」获 1,900+ 赞。 <a class="read-more" href="https://x.com/bcherny/status/2117693181651542387" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -136,43 +163,16 @@
               <span class="voice-handle">@rauchg · Vercel CEO</span>
               
             </div>
-            <p class="voice-quote">两件事：一是对 WebMCP 极度看好，类比 Tesla FSD——agent 需要在现有 Web 基础设施上运行，而不是另起一套系统；二是重申有状态沙箱的重要性：「无状态沙箱是错误的基准。Agent 只有携带自己的工作空间（身份、技能、仓库、记忆）才有用。」Vercel Sandbox 已在 19 个地区部署，每周迭代新功能，周增长率达双位数。 <a class="read-more" href="https://x.com/rauchg/status/2117419661654720671" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">两款新产品曝光：一是 Vercel Security Review——内置安全 agent「hacker」自动审计每一行代码，可在任意仓库启用；二是推荐 CLI 集成 `vercel doctor` 子命令。前者被描述为「下载一个安全团队的软件替代方案」，获 690+ 赞。 <a class="read-more" href="https://x.com/rauchg/status/2117734833824948373" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Thariq</span>
-              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic 成员，魔兽世界长居玩家</span>
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · FPV Ventures 合伙人，前 Meter、OpenDoor、Atlassian</span>
               
             </div>
-            <p class="voice-quote">使用 Claude Code 一周后的核心洞察：「你不需要无限 token 来做伟大工作，$200/月的计划已经足够好——这是人类历史上最昂贵的人工智能。」这一观点与行业普遍推崇「无限 token」方案的叙事形成反差，引发 6,700+ 赞和 400+ 评论的热烈讨论。 <a class="read-more" href="https://x.com/trq212/status/2117305792923889731" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Garry Tan</span>
-              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
-              
-            </div>
-            <p class="voice-quote">转发 MIT CSAIL 的「重量空间编程」论文：用较小模型直接编辑权重是一个有趣的新方向——GPT-6 Astra 编辑 Qwen3.5-0.8B 的权重来提升数学能力，无需梯度或训练。同时呼吁 repeal CEQA（加州环境质量法），称其为阻碍医院、高铁和住房建设的主要 NIMBY 工具。 <a class="read-more" href="https://x.com/garrytan/status/2117384926052135106" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Swyx</span>
-              <span class="voice-handle">@swyx · AI Engineer 创始人，Latent Space 联合主持人</span>
-              
-            </div>
-            <p class="voice-quote">转发 MIT CSAIL「重量空间编程」论文第二篇更新：随着研究深入，论文已扩展到第二部分，持续跟踪这一方向的进展。Swyx 持续密切关注并传播这一领域的重要突破。 <a class="read-more" href="https://x.com/swyx/status/2117492548780589510" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Nan Yu</span>
-              <span class="voice-handle">@thenanyu · Codex &amp; ChatGPT 产品 @OpenAI，前 Linear 产品负责人</span>
-              
-            </div>
-            <p class="voice-quote">「除极少数情况外，群聊是一种极差的多人 AI 体验—— guaranteed slop。」直言不讳地指出当前多 agent 群聊模式的根本缺陷，呼应了 OpenAI 内部对多 agent 协作体验的反思。 <a class="read-more" href="https://x.com/thenanyu/status/2117432599559716940" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">分享 Claude Code 使用心得：最爱 `/insights`（每两周 cron 自动运行，发现升级最佳方式）和 `/playground`（可视化工作流架构）。新玩法是 Codex + Claude Code 结对查找死代码、热路径和延迟瓶颈。「我们活在特殊时代，ChatGPT Codex、Claude Desktop、@bot、Muse 各具特色，每天都在推动模型和体验边界。」 <a class="read-more" href="https://x.com/nikunj/status/2117773647868018897" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -186,9 +186,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 12 位建造者 · 1 期播客</strong><br>
-      覆盖 12 位建造者，1 期播客，无博客更新<br>
-      生成于 2026-11-04T02:00:00+08:00
+      数据来源 · <strong>follow-builders feed · 18 位建造者 · 1 期播客</strong><br>
+      覆盖 18 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-05T02:00:00+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>
