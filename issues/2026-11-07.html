@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月7日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261107</span><span>2026年11月7日 · 星期六</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Claude 推出个人理财功能获 3 万赞 · Formal Proofs 进入主流视野 · NVIDIA × Box 联合发布企业 Agent 上下文检索方案</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Claude 宣布在美国推出 Personal Finance 功能，上线即获 30,000+ 赞；Thibault Sottiaux 发文称「数百万行代码的形式化验证已成为可能」，AI 安全与软件工程范式转移持续发酵。NVIDIA 与 Box 宣布企业 Agent 上下文检索合作，Replit 透露可规避 96% Linux 零日漏洞。</h1>
+      <p>Claude（@claudeai）今日正式宣布 Personal Finance 功能在美国上线测试，用户可连接自主选择账户，Claude 以通俗语言回答余额、交易等理财问题。该功能仅支持只读访问，无法操作或投资。推文获得 30,096 赞、1,488 转发、1,058 条评论，反响极为热烈，Pro/Max/Ultra 订阅用户可逐步体验。</p>
+          <p>OpenAI Codex &amp; ChatGPT 产品负责人 Thibault Sottiaux 连发两条重要推文：其一，「数百万行代码的形式化验证已不再是天方夜谭，应纳入新系统设计考量」，获 543 赞；其二，「人类写安全基础设施的能力本就有限，我们终将抵达全行业超安全软件的目标，但需经历阵痛」，获 3,558 赞，引发广泛讨论。</p>
+          <p>Box CEO Aaron Levie 宣布与 NVIDIA 达成合作，将结合 Box 的词汇+语义搜索能力与 NVIDIA AI 技术，为企业 Agent 提供关键上下文检索，解决 90% 企业非结构化数据（文档、合同、设计文件等）的访问难题。Replit CEO Amjad Masad 同日透露，Replit 通过自研内核构建规避了 96% 的 Linux 零日漏洞，并发布了新的沙箱设计说明。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Unsupervised Learning Ep 97：Jeb Creator 谈决策模型、基准疲劳与实验室盲点</h2>
+      <div class="meta-line">2026-11-05 · Redpoint AI</div>
+      <p>The Takeaway：Jeb 在约一个月前以现象级速度席卷 AI 圈，本集录制时距其爆发已有一段反思期，这让嘉宾能更客观地回顾早期结果与预期的落差，以及仍待解决的核心问题。</p>
+          <p>嘉宾 Jogo（TypeSave CEO）在播客中深入讨论了当前 AI 模型仍需攻克的难题类型，以及如何把 Jeb 推向更强水平的思路。两人还探讨了 Anthropic 即将到来的 IPO、AI 安全等话题。</p>
+          <p>主持人认为市场对 Anthropic 的预期存在严重误读——部分估值建立在「造神=无穷价值」的错误假设上，而 AI 真正能做到的事（如治愈癌症）远没有市场宣传的那般轻易，「Let them cure cancer」更像玛丽·安托瓦内特的「让他们吃蛋糕」。</p>
+      <a class="read-more" href="https://www.youtube.com/@RedpointAI">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Claude</span>
+              <span class="voice-handle">@claudeai · Anthropic 官方账号</span>
+              
+            </div>
+            <p class="voice-quote">宣布 Personal Finance 功能在美国上线 Beta，用户可连接自主选择账户，Claude 以日常语言回答财务问题（余额、交易），只读访问，不能操作或投资建议。逐步向 Pro/Max/Ultra 用户开放。获 30,096 赞、1,488 转、1,058 评论，为本期最高互动推文。 <a class="read-more" href="https://x.com/claudeai/status/2118403114890137895" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT 产品负责人 @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">连发两条关于 AI 安全与软件工程未来的推文：①「数百万行代码的形式化验证已不再是幻想，应成为新系统设计的标准考量」；②「人类编写安全基础设施的能力本就有限，终局是全民超安全软件，但途中会经历阵痛。」第二条获 3,558 赞、161 转、417 评论，热度极高。 <a class="read-more" href="https://x.com/thsottiaux/status/2118569235953893573" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">宣布 Box 与 NVIDIA 达成合作，将词汇检索与语义检索结合，为企业 Agent 提供先进的上下文检索能力。强调企业 90% 数据是非结构化数据（文档、合同、设计文件等），Agent 必须能安全获取这些关键上下文才能有效工作。获 140 赞、18 转、56 评论。 <a class="read-more" href="https://x.com/levie/status/2118498574497665316" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · Replit CEO</span>
+              
+            </div>
+            <p class="voice-quote">透露 Replit 通过自研 Linux 内核构建规避了 96% 的 Linux 零日漏洞，并发布了新的沙箱设计说明。同时强调 Replit 是目前唯一支持协作的 AI 编程系统。两条推文合计获约 300 赞，引发安全与效率讨论。 <a class="read-more" href="https://x.com/amasad/status/2118503241390665776" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic，现玩魔兽世界</span>
+              
+            </div>
+            <p class="voice-quote">分享一个 favorite prompt 模式：基于位置的 Agent 提醒。例如「跟踪我的洗衣进度，超过 5 天没洗，在工作日回家后 30 分钟提醒我，并一直催到确认或延后」。该模式获 2,351 赞、45 转、165 评论，是本期最具实用价值的建造者观点之一。 <a class="read-more" href="https://x.com/trq212/status/2118399561324699655" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">两条推文：①宣布 SpaceX SI 与 Vercel 合作，Grok 和 Cursor 现在可以构建、部署和扩展；②总结创作者闭环：X 订阅 → Bot/Cursor 构建 → Vercel 部署 → X 分发 → X Money 变现，「循环几乎完成了」。第一条获 803 赞，第二条获 738 赞。 <a class="read-more" href="https://x.com/rauchg/status/2118464177211940997" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">两条推文：①推广本周发布的 Walter Isaacson 播客访谈；②谈美国两党在限制 Big Tech 市场权力方面的罕见共识，认为 AI 的力量必须被广泛分配而非集中在少数巨头手中。第二条获 114 赞、11 转、30 评论。 <a class="read-more" href="https://x.com/garrytan/status/2118557763156733984" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Steinberger</span>
+              <span class="voice-handle">@steipete · OpenClaw + OpenAI 工程师</span>
+              
+            </div>
+            <p class="voice-quote">吐槽 Safari 性能：「每次为 Safari 构建或使用它，都感觉更慢、功能更少、奇怪的 bug 更多，很多网站根本没法用，离 Chrome 的性能差太远。」引发 378 赞、87 评论的热议。 <a class="read-more" href="https://x.com/steipete/status/2118492097917628704" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 1 期播客</strong><br>
+      覆盖 13 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-07T06:30:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
