@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月8日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261108</span><span>2026年11月8日 · 星期日</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">OpenAI 产品负责人「周五了」推文获 5778 赞破圈 · 建造者谈 Agent 与 MCP 融合趋势 · Garry Tan：评测驱动开发是必经之路</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>OpenAI Codex &amp; ChatGPT 产品负责人 Thibault Sottiaux 一条「It's Friday」推文以 5778 赞、1692 评论引爆 AI 圈；与此同时，多位建造者围绕 Agent 实用化、MCP 内嵌_creator 工具、以及评测驱动开发的必要性密集发声，行业情绪从狂热转向冷静审视。</h1>
+      <p>Thibault Sottiaux（@thsottiaux）在 X 上发了一条简短的「It's Friday」配图推文，收获了 5778 赞、110 转、1692 条评论——这几乎是他当天互动最高的内容，甚至超过了他之前关于形式化验证的专业讨论。在同一天，他还分享了一条「用单个 prompt 能做到的事太酷了」的技术展示（492 赞），以及转发一条求助「带我走出地下室」的内容（1776 赞）。综合来看，这位 OpenAI 产品负责人近期在高密度输出技术观点的同时，也以轻松一面触达了更广泛的受众。</p>
+          <p>Thariq（@trq212，前 Claude Code @Anthropic）连续三条高质量推文引发共鸣：其一吐槽「太多人在建 Agent，太少人在用软件改善虾塘水质」（2269 赞）；其二观察到 Instagram Edits、Roblox Studio 等创作者工具开始内置 MCP，让 Agent 协作与人工接力无缝衔接（1130 赞）；其三发布了一张进展图配文「感觉真的要成了」（1327 赞），暗示 Agent 生态正在从概念走向成熟。</p>
+          <p>YC CEO Garry Tan（@garrytan）强调「评测驱动的 Agent 技能开发循环必不可少」，并亲自演示移除了 Cursor 中的 /investigate 技能因为 Opus 5.5 已做得更好（217 赞）。Guillermo Rauch（@rauchg）则提出「生成式 UI + 对话 Agent」将成为主流人机交互范式，展示了通过 @aisdk 和 json-render 直接从 LLM 到 Slack/Teams UI 的技术路径（1147 赞）。这些声音共同指向一个判断：Agent 竞争壁垒正在从功能堆砌转向评测优化与工程打磨。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space Ep：控制生物学——Fabian Theis 谈逆向生成模型与自主实验室</h2>
+      <div class="meta-line">2026-11-06 · Latent Space Podcast</div>
+      <p>The Takeaway：Helmholtz Munich 的 Fabian Theis 介绍了一套名为 Lab Compass 的逆向生成模型系统——给定目标细胞状态，反向推导需要执行的实验步骤，标志着 AI 从「观察+预测」迈向「主动引导实验」的新阶段。</p>
+          <p>嘉宾 Fabian Theis 是计算生物学领域的标志性人物，其团队持续产出 Scanpy、Anndata 及 scVerse 等开源工具，被全球组学研究者日常使用。本集深入讨论了 AI for Science 的核心范式转移：从构建人类细胞图谱（映射），到训练世界模型做预测，再到如今的逆向生成——告诉科学家「该做什么实验才能达到目标状态」。</p>
+          <p>Fabian 表示终极愿景是将强化学习（RL）嵌入整个实验闭环：模型预测→指导实验→获得数据→更新模型，实现真正的持续学习。目前论文往往止步于某个模型和概念图，尚未形成完整的迭代循环，但「我们正在慢慢接近那个目标。」</p>
+      <a class="read-more" href="https://www.youtube.com/@LatentSpacePod">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT 产品负责人 @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">连发多条动态：一条「It's Friday」配图推文以 5778 赞破圈成为本周最高互动内容之一；另一条展示「单 prompt 能力」的技术 demo 获 492 赞；还转发了一条求助『带我走出地下室』的内容获 1776 赞。近期他在专业洞察和个人表达之间找到了独特的平衡点。 <a class="read-more" href="https://x.com/thsottiaux/status/2118871902366441879" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic，现专注魔兽世界</span>
+              
+            </div>
+            <p class="voice-quote">三条高质量观察：①批评当下风气——「太多人在建 Agent，太少人用软件真正改善现实」（如虾塘水质问题），2269 赞；②发现 creator 应用趋势——Instagram Edits、Roblox Studio 开始内置 MCP，让 Agent 完成部分工作后人类用户可以无缝接手继续，1130 赞；③发出进展图配文「感觉真要成了」，1327 赞，暗示 Agent 基础设施正进入收口期。 <a class="read-more" href="https://x.com/trq212/status/2118859267314958761" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">强调「评测驱动的 Agent 技能开发循环是必不可少的」，每一条新模型迭代都会让某些技能变得多余——他以自己直接移除 Cursor 中 /investigate 技能为例，因为 Opus 5.5 无需技能提示已做得更好，并称「你能感受到 AGI 潮水正在上涨。」（217 赞）另转发了关于用 300 万 token 普通人建议即可将恶意行为降至零%的研究。 <a class="read-more" href="https://x.com/garrytan/status/2118920030243139596" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">提出「生成式 UI 将是对话 Agent 的主流人机交互范式」——结合 @aisdk、Chat SDK 和 json-render，可以从 LLM 直接渲染出 Slack/Teams 界面，而不再依赖文本对话。该推文获 1147 赞、60 转、131 评论，被广泛认为是本月最重要的 Agent UX 方向判断之一。（另发一条「想象中 gta6.wasm 会比 gta6 先到」「某处，不可思议之事正等待被发现」两条诗意短文。） <a class="read-more" href="https://x.com/rauchg/status/2118856239719608353" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">发布极简宣言「未来属于文件和 GPU」——将企业内容管理（文件）与 AI 算力（GPU）并置，简洁有力地概括了 Box 的战略定位：企业 AI 的基础不是模型本身，而是对非结构化数据的可靠访问与治理能力。获 208 赞。 <a class="read-more" href="https://x.com/levie/status/2118723097901846580" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · 作家 / @smol_ai / @cognition / Latent Space Pod 主持</span>
+              
+            </div>
+            <p class="voice-quote">宣布将每周追踪 Anthropic IPO 进程直至尘埃落定——以他覆盖过 BABA、TEAM 等大型 IPO 的二级市场基金分析经验，联合 @jaminball 展开持续报道，被誉为「一代作家兼 VC  extraordinaire」的 @ttunguz 也将参与。 <a class="read-more" href="https://x.com/swyx/status/2118905788915982341" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI 教育创作者，Practical AI 频道主</span>
+              
+            </div>
+            <p class="voice-quote">发布深刻观察：越来越多能调用多模型的应用（Conductor、Cursor 等）正被模型厂商自身收购，剩下坚持开放的（t3dotcodes、Orca 等）反而转为开源路线。他认为用户和企业市场对跨模型兼容的独立应用仍有强劲需求，这一格局演变值得持续关注。 <a class="read-more" href="https://x.com/petergyang/status/2118811231545122998" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · SPC General Partner / 前 Dropbox CTO</span>
+              
+            </div>
+            <p class="voice-quote">引用 SpaceX Starship 案例阐述「雄心勃勃的技术需要紧迫感与耐心并存」——这个比喻恰好也可以用来理解当前 AI Agent 领域的建设节奏：既要快速迭代，也要容忍长期研发周期。 <a class="read-more" href="https://x.com/adityaag/status/2118733089887170878" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 1 期播客</strong><br>
+      覆盖 13 位建造者，1 期播客，无博客更新<br>
+      生成于 2026-11-08T02:01:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
