@@ -1,89 +1,89 @@
 {
   "issue": {
-    "vol": "20261108",
-    "date": "2026年11月8日",
-    "weekday": "星期日",
-    "dateISO": "2026-11-08",
-    "tagline": "OpenAI 产品负责人「周五了」推文获 5778 赞破圈 · 建造者谈 Agent 与 MCP 融合趋势 · Garry Tan：评测驱动开发是必经之路"
+    "vol": "20261109",
+    "date": "2026年11月9日",
+    "weekday": "星期一",
+    "dateISO": "2026-11-09",
+    "tagline": "Karpathy 3分钟 Claude Code 一枪打爆网红站 · Thibault Sottiaux 探路 ChatGPT Pro 50 · Garry Tan：AI时代最紧迫的政治问题是「丰饶还是黑暗」"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI Codex & ChatGPT 产品负责人 Thibault Sottiaux 一条「It's Friday」推文以 5778 赞、1692 评论引爆 AI 圈；与此同时，多位建造者围绕 Agent 实用化、MCP 内嵌_creator 工具、以及评测驱动开发的必要性密集发声，行业情绪从狂热转向冷静审视。",
+    "title": "Andrej Karpathy 用 Claude Code 三分钟复刻「TristanTube」引爆关注，Thibault Sottiaux 询问 ChatGPT Pro 50 档位设想过热；与此同时，Garry Tan 发出「丰饶 vs 黑暗」的世纪之问，Aaron Levie 断言 AI 生产力已跃升一到两个数量级——建造者们正在用行动定义 AI 落地节奏。",
     "paras": [
-      "Thibault Sottiaux（@thsottiaux）在 X 上发了一条简短的「It's Friday」配图推文，收获了 5778 赞、110 转、1692 条评论——这几乎是他当天互动最高的内容，甚至超过了他之前关于形式化验证的专业讨论。在同一天，他还分享了一条「用单个 prompt 能做到的事太酷了」的技术展示（492 赞），以及转发一条求助「带我走出地下室」的内容（1776 赞）。综合来看，这位 OpenAI 产品负责人近期在高密度输出技术观点的同时，也以轻松一面触达了更广泛的受众。",
-      "Thariq（@trq212，前 Claude Code @Anthropic）连续三条高质量推文引发共鸣：其一吐槽「太多人在建 Agent，太少人在用软件改善虾塘水质」（2269 赞）；其二观察到 Instagram Edits、Roblox Studio 等创作者工具开始内置 MCP，让 Agent 协作与人工接力无缝衔接（1130 赞）；其三发布了一张进展图配文「感觉真的要成了」（1327 赞），暗示 Agent 生态正在从概念走向成熟。",
-      "YC CEO Garry Tan（@garrytan）强调「评测驱动的 Agent 技能开发循环必不可少」，并亲自演示移除了 Cursor 中的 /investigate 技能因为 Opus 5.5 已做得更好（217 赞）。Guillermo Rauch（@rauchg）则提出「生成式 UI + 对话 Agent」将成为主流人机交互范式，展示了通过 @aisdk 和 json-render 直接从 LLM 到 Slack/Teams UI 的技术路径（1147 赞）。这些声音共同指向一个判断：Agent 竞争壁垒正在从功能堆砌转向评测优化与工程打磨。"
+      "前 Tesla/YouTube AI 负责人 Andrej Karpathy（@karpathy）本周发布了一条极简工具链实践：将 Tristan 整理的 4.7 万条 nerdy YouTube 频道列表一键封装为带 TV 模式的浏览界面（TristanTube），全程仅用 Claude Code 一行指令完成，获 6445 赞、515 转、475 评论。这条推文迅速成为本周高互动内容之一，也印证了「一个 prompt 的威力」这一 Agent 实用化叙事的持续升温。",
+      "OpenAI Codex & ChatGPT 产品负责人 Thibault Sottiaux（@thsottiaux）在同一天密集输出三条动态：先是发起「ChatGPT Pro 50 该不该有？」的社区投票（1369 赞），接着详细拆解 Pro 各档位的用量对比——Pro 100 = Plus 的 10X、Pro 200 = 20X、Pro 500 = 50X 并含 ultrafast 访问权限——引发用户对定价梯度的广泛讨论（2756 赞），最后转发了一张名为「Cyber」的配图（1601 赞）。这组内容释放出 OpenAI 仍在试探价格天花板与产品线边界的信号。",
+      "YC CEO Garry Tan（@garrytan）发表了一篇风格激进的判断：「我们本可以拥有丰饶——这将是未来十年最具决定性的政治问题——是让人类通过超级智能在科学、医学和工程上继续进步，还是选择走向黑暗？」这条推文获得 314 赞。同期，Box CEO Aaron Levie（@levie）从企业视角佐证了 AI 的加速效应：「我们看到越来越多例子证明，配合正确的 harness、深厚的领域理解和多 Agent 协作模式，代码产出已经比 AI 前时代提升一到两个数量级。」他同时指出，AI Agent 的理论推理延迟不敏感，使得长周期 Agent 将成为常态。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Latent Space Ep：控制生物学——Fabian Theis 谈逆向生成模型与自主实验室",
-    "meta": "2026-11-06 · Latent Space Podcast",
+    "title": "No Priors × Vlad Tenev（Robinhood CEO）：Tokenization、Agentic Trading 与 Making Math God（Harmonic）",
+    "meta": "2026-11-05 · No Priors Podcast",
     "paras": [
-      "The Takeaway：Helmholtz Munich 的 Fabian Theis 介绍了一套名为 Lab Compass 的逆向生成模型系统——给定目标细胞状态，反向推导需要执行的实验步骤，标志着 AI 从「观察+预测」迈向「主动引导实验」的新阶段。",
-      "嘉宾 Fabian Theis 是计算生物学领域的标志性人物，其团队持续产出 Scanpy、Anndata 及 scVerse 等开源工具，被全球组学研究者日常使用。本集深入讨论了 AI for Science 的核心范式转移：从构建人类细胞图谱（映射），到训练世界模型做预测，再到如今的逆向生成——告诉科学家「该做什么实验才能达到目标状态」。",
-      "Fabian 表示终极愿景是将强化学习（RL）嵌入整个实验闭环：模型预测→指导实验→获得数据→更新模型，实现真正的持续学习。目前论文往往止步于某个模型和概念图，尚未形成完整的迭代循环，但「我们正在慢慢接近那个目标。」"
+      "The Takeaway：Robinhood 已从零佣金股票应用蜕变为覆盖预测市场、私有公司股权、代币化资产的全球金融 conglomerate，其核心叙事是「ownership」（所有权）——让每个人都能在经济中持有资产。CEO Vlad Tenev 认为，当前 AI 太中心化（大厂+秘密模型+大型数据中心），而 Robinhood 通过 Harmonic 项目试图做一件相反的事：打造一种分布式的数学超级智能。",
+      "Vlad 透露，目前已有超过 15 万用户开通了 Robinhood 上的 Agentic Trading 账户——由 AI Agent 自动执行交易策略的产品已获得明确的产品市场契合（PMF）。对于预测市场，他称其为「新闻的进化形态」，通过赔率可以看到未来可能发生什么。",
+      "Vlad 出身东欧（生于苏联解体前夕），移民美国后在 Terence Tao 指导下学习数学、做过 HFT。他在访谈中反复强调「所有权是社会稳定的基础」，并引用自己的经历说明为什么 Robinhood 要做「使命型组织」而非传统金融公司。"
     ],
-    "url": "https://www.youtube.com/@LatentSpacePod"
+    "url": "https://www.youtube.com/@NoPriorsPodcast"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "org": "xAI / 前 Tesla AI 总监、YouTube 创始人",
+        "text": "将 Tristan 的 4.7 万条 Nerd YouTube 频道列表一键封装成带 TV 模式的浏览网站「TristanTube」，全程只用 Claude Code 一枪搞定，声称「3 分钟完成」。该推文收获 6445 赞，是近期最高互动内容之一，再次证明了 Agent 辅助编程在微型项目中的爆发力。",
+        "url": "https://x.com/karpathy/status/2119114537442189652"
+      },
+      {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT 产品负责人 @OpenAI",
-        "text": "连发多条动态：一条「It's Friday」配图推文以 5778 赞破圈成为本周最高互动内容之一；另一条展示「单 prompt 能力」的技术 demo 获 492 赞；还转发了一条求助『带我走出地下室』的内容获 1776 赞。近期他在专业洞察和个人表达之间找到了独特的平衡点。",
-        "url": "https://x.com/thsottiaux/status/2118871902366441879"
-      },
-      {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "前 Claude Code @Anthropic，现专注魔兽世界",
-        "text": "三条高质量观察：①批评当下风气——「太多人在建 Agent，太少人用软件真正改善现实」（如虾塘水质问题），2269 赞；②发现 creator 应用趋势——Instagram Edits、Roblox Studio 开始内置 MCP，让 Agent 完成部分工作后人类用户可以无缝接手继续，1130 赞；③发出进展图配文「感觉真要成了」，1327 赞，暗示 Agent 基础设施正进入收口期。",
-        "url": "https://x.com/trq212/status/2118859267314958761"
+        "text": "同日连发三条：①发起「Pro 50 该不该有」社区投票（1369 赞）；②详细列出 Pro 各档用量差异——Pro 100 = Plus 10倍、Pro 200 = 20倍、Pro 500 = 50倍且含 ultrafast 访问权——引发定价讨论（2756 赞）；③转发一张名为「Cyber」的配图（1601 赞）。综合来看，OpenAI 似乎正在通过直接对话社区来测试新定价层的市场反应。",
+        "url": "https://x.com/thsottiaux/status/2119305294291612140"
       },
       {
         "name": "Garry Tan",
         "handle": "garrytan",
         "org": "Y Combinator President & CEO",
-        "text": "强调「评测驱动的 Agent 技能开发循环是必不可少的」，每一条新模型迭代都会让某些技能变得多余——他以自己直接移除 Cursor 中 /investigate 技能为例，因为 Opus 5.5 无需技能提示已做得更好，并称「你能感受到 AGI 潮水正在上涨。」（217 赞）另转发了关于用 300 万 token 普通人建议即可将恶意行为降至零%的研究。",
-        "url": "https://x.com/garrytan/status/2118920030243139596"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "提出「生成式 UI 将是对话 Agent 的主流人机交互范式」——结合 @aisdk、Chat SDK 和 json-render，可以从 LLM 直接渲染出 Slack/Teams 界面，而不再依赖文本对话。该推文获 1147 赞、60 转、131 评论，被广泛认为是本月最重要的 Agent UX 方向判断之一。（另发一条「想象中 gta6.wasm 会比 gta6 先到」「某处，不可思议之事正等待被发现」两条诗意短文。）",
-        "url": "https://x.com/rauchg/status/2118856239719608353"
+        "text": "以强烈措辞发出世纪之问：「我们本可以拥有丰饶。这是未来十年最重要的政治议题——是通过超级智能让人类在科学、医学、工程上继续进步，还是主动选择黑暗？」（314 赞）另转发了 WIRED 杂志衰落的评论以及一篇关于 NIMBY 阻挠建设的文章，显示其对政策层面的持续关注。",
+        "url": "https://x.com/garrytan/status/2119142802499999999"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "发布极简宣言「未来属于文件和 GPU」——将企业内容管理（文件）与 AI 算力（GPU）并置，简洁有力地概括了 Box 的战略定位：企业 AI 的基础不是模型本身，而是对非结构化数据的可靠访问与治理能力。获 208 赞。",
-        "url": "https://x.com/levie/status/2118723097901846580"
+        "text": "断言 AI 驱动的产出已达到「超出 AI 前代一到两个数量级」的水平，并指出实现路径依赖四个要素：正确 harness、深厚领域理解、相对全新的代码库、低摩擦测试部署流程。他还观察到，Agent 的理论推理对延迟不敏感，这意味着长周期 Agent 将成为常态，工作可以被派发出去不再需要实时等待反馈。",
+        "url": "https://x.com/levie/status/2119111328099168409"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "作家 / @smol_ai / @cognition / Latent Space Pod 主持",
-        "text": "宣布将每周追踪 Anthropic IPO 进程直至尘埃落定——以他覆盖过 BABA、TEAM 等大型 IPO 的二级市场基金分析经验，联合 @jaminball 展开持续报道，被誉为「一代作家兼 VC  extraordinaire」的 @ttunguz 也将参与。",
-        "url": "https://x.com/swyx/status/2118905788915982341"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "分享了对哈萨克斯坦的观察：该国政府「极度 AI 狂热」，同时也是 Network School（Replit 开发者教育计划）的理想举办地。另一条则推荐了一篇名为「The Better Lesson」的文章，暗示技术决策背后的教训往往被忽视。",
+        "url": "https://x.com/amasad/status/2119126064815608270"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "AI 教育创作者，Practical AI 频道主",
-        "text": "发布深刻观察：越来越多能调用多模型的应用（Conductor、Cursor 等）正被模型厂商自身收购，剩下坚持开放的（t3dotcodes、Orca 等）反而转为开源路线。他认为用户和企业市场对跨模型兼容的独立应用仍有强劲需求，这一格局演变值得持续关注。",
-        "url": "https://x.com/petergyang/status/2118811231545122998"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "创业者 / AI 观察者",
+        "text": "提出一句有力的创业判断：「初创公司的命运是被创造的，不是被预设的。」她反驳了那种「某 idea 一定不行」「某市场太小众」的决定论语气，强调给定同一个想法存在一千种执行方式，一百个人会有一百种不同路径。这句话简洁有力，触及了许多人对失败的宿命论心态。",
+        "url": "https://x.com/zarazhangrui/status/2119217304953053419"
       },
       {
         "name": "Aditya Agarwal",
         "handle": "adityaag",
         "org": "SPC General Partner / 前 Dropbox CTO",
-        "text": "引用 SpaceX Starship 案例阐述「雄心勃勃的技术需要紧迫感与耐心并存」——这个比喻恰好也可以用来理解当前 AI Agent 领域的建设节奏：既要快速迭代，也要容忍长期研发周期。",
-        "url": "https://x.com/adityaag/status/2118733089887170878"
+        "text": "用「香料」（spice）隐喻数据中心的战略价值：如果新建数据中心变得更难，那么手握现有容量的巨头（hyperscalers）将大赢特赢——因为需求只增不减。但同时他也警示，新进入者的增速会放缓，赢家通吃的格局将进一步固化。",
+        "url": "https://x.com/adityaag/status/2119142310894334262"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "org": "AI 工程师 / Anthropic 早期员工",
+        "text": "就 Asahi Linux 项目发表看法：该项目初衷是打开封闭系统，但新增的限制只会让其他项目更难在其上构建；同时他认为当前对 AI 的拒绝态度「很愚蠢」。这是对开放生态路线的一次明确表态。",
+        "url": "https://x.com/steipete/status/2119217304953053419"
       }
     ]
   },
@@ -92,8 +92,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 13 位建造者 · 1 期播客",
-    "coverage": "覆盖 13 位建造者，1 期播客，无博客更新",
-    "generatedAt": "2026-11-08T02:01:00+08:00"
+    "source": "follow-builders feed · 10 位建造者 · 1 期播客",
+    "coverage": "覆盖 10 位建造者，19 条 X 动态，1 期播客，无博客更新",
+    "generatedAt": "2026-11-09T02:00:00+08:00"
   }
 }
