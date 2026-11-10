@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年11月9日</title>
+<title>AI 日报 · 2026年11月10日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,57 +77,39 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>20261109</span><span>2026年11月9日 · 星期一</span></div>
+      <div class="meta"><span>20261110</span><span>2026年11月10日 · 星期二</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Karpathy 3分钟 Claude Code 一枪打爆网红站 · Thibault Sottiaux 探路 ChatGPT Pro 50 · Garry Tan：AI时代最紧迫的政治问题是「丰饶还是黑暗」</div>
+      <div class="tagline">Garry Tan 论「丰饶 vs 黑暗」——agent swarm 生产力无上限 · Box CEO 断言 AI 产出跃升一到两个数量级 · 开源生态的下一波浪潮</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>Andrej Karpathy 用 Claude Code 三分钟复刻「TristanTube」引爆关注，Thibault Sottiaux 询问 ChatGPT Pro 50 档位设想过热；与此同时，Garry Tan 发出「丰饶 vs 黑暗」的世纪之问，Aaron Levie 断言 AI 生产力已跃升一到两个数量级——建造者们正在用行动定义 AI 落地节奏。</h1>
-      <p>前 Tesla/YouTube AI 负责人 Andrej Karpathy（@karpathy）本周发布了一条极简工具链实践：将 Tristan 整理的 4.7 万条 nerdy YouTube 频道列表一键封装为带 TV 模式的浏览界面（TristanTube），全程仅用 Claude Code 一行指令完成，获 6445 赞、515 转、475 评论。这条推文迅速成为本周高互动内容之一，也印证了「一个 prompt 的威力」这一 Agent 实用化叙事的持续升温。</p>
-          <p>OpenAI Codex &amp; ChatGPT 产品负责人 Thibault Sottiaux（@thsottiaux）在同一天密集输出三条动态：先是发起「ChatGPT Pro 50 该不该有？」的社区投票（1369 赞），接着详细拆解 Pro 各档位的用量对比——Pro 100 = Plus 的 10X、Pro 200 = 20X、Pro 500 = 50X 并含 ultrafast 访问权限——引发用户对定价梯度的广泛讨论（2756 赞），最后转发了一张名为「Cyber」的配图（1601 赞）。这组内容释放出 OpenAI 仍在试探价格天花板与产品线边界的信号。</p>
-          <p>YC CEO Garry Tan（@garrytan）发表了一篇风格激进的判断：「我们本可以拥有丰饶——这将是未来十年最具决定性的政治问题——是让人类通过超级智能在科学、医学和工程上继续进步，还是选择走向黑暗？」这条推文获得 314 赞。同期，Box CEO Aaron Levie（@levie）从企业视角佐证了 AI 的加速效应：「我们看到越来越多例子证明，配合正确的 harness、深厚的领域理解和多 Agent 协作模式，代码产出已经比 AI 前时代提升一到两个数量级。」他同时指出，AI Agent 的理论推理延迟不敏感，使得长周期 Agent 将成为常态。</p>
+      <h1>YC CEO Garry Tan 抛出「未来十年最重要的政治议题：丰饶还是黑暗？」，Box CEO Aaron Levie 从企业视角佐证 agent swarm 生产力的无上限增长，开源社区迎来 Cursor、Anthropic、Vercel 等头部玩家深度参与——AI 正在以三个维度重塑技术世界的叙事。</h1>
+      <p>YC CEO Garry Tan（@garrytan）今天连续发布三条动态，核心观点集中在一句话：软件正在变得无比廉价且易于修改，personal just-in-time software（按需定制的个人软件）将成为不可逆转的趋势。他将这一现象上升到哲学层面："我们本可以拥有丰饶，这是未来十年最具决定性的政治问题——通过超级智能让人类在科学、医学和工程上持续进步，还是选择走向黑暗？"这条推文获 314 赞。同时他分享了 gstack-evals 项目的最新进展：用自主评测框架复现了 Jev Engineering 的研究结论，并发现 particle-1 模型表现更优。</p>
+          <p>Box CEO Aaron Levie（@levie）从企业应用视角给出更激进的判断：Agent swarm 模式正在将生产力从 AI 前时代的 20-50% 提升，推向几乎没有上限的新维度。他指出实现路径依赖四个要素——正确的 harness 设计、深厚领域理解、低摩擦测试部署流程，以及相对干净的代码库结构。他特别强调一个反直觉的观察：AI agent 的理论推理对延迟不敏感，这意味着长周期 agent 将成为常态，工作可以被派发出去不再需要实时等待反馈。这一判断为当前热议的「multi-agent orchestration」提供了理论支撑。</p>
+          <p>开源生态迎来新一波浪潮。斯坦福 CS 146S "The Modern Software Developer" 课程今年引入了大规模的开源贡献作为作业核心——学生直接参与 Cursor、Anthropic、Vebel 等头部 agent 项目的真实 PR，由项目维护者亲自 review。课程发起人 Mihail Eric 是 Monaco Head of AI 兼 Stanford 兼职教授，他在最新一期 Latent Space 播客中详述了这一设计理念：coding agent 已经普及到每个学生都在用的程度，单纯教工具使用已不够，必须让学习者在真实复杂代码库中与维护者互动，才能真正传承好的软件设计思维。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>No Priors × Vlad Tenev（Robinhood CEO）：Tokenization、Agentic Trading 与 Making Math God（Harmonic）</h2>
-      <div class="meta-line">2026-11-05 · No Priors Podcast</div>
-      <p>The Takeaway：Robinhood 已从零佣金股票应用蜕变为覆盖预测市场、私有公司股权、代币化资产的全球金融 conglomerate，其核心叙事是「ownership」（所有权）——让每个人都能在经济中持有资产。CEO Vlad Tenev 认为，当前 AI 太中心化（大厂+秘密模型+大型数据中心），而 Robinhood 通过 Harmonic 项目试图做一件相反的事：打造一种分布式的数学超级智能。</p>
-          <p>Vlad 透露，目前已有超过 15 万用户开通了 Robinhood 上的 Agentic Trading 账户——由 AI Agent 自动执行交易策略的产品已获得明确的产品市场契合（PMF）。对于预测市场，他称其为「新闻的进化形态」，通过赔率可以看到未来可能发生什么。</p>
-          <p>Vlad 出身东欧（生于苏联解体前夕），移民美国后在 Terence Tao 指导下学习数学、做过 HFT。他在访谈中反复强调「所有权是社会稳定的基础」，并引用自己的经历说明为什么 Robinhood 要做「使命型组织」而非传统金融公司。</p>
-      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
+      <h2>Latent Space：How Stanford Teaches AI-Native Engineering — Mihail Eric（Monaco Head of AI / Stanford Adjunct Professor）</h2>
+      <div class="meta-line">2026-11-08 · Latent Space Podcast · 第 100 万订阅特辑</div>
+      <p>The Takeaway：AI 原生工程师的培养范式正在发生质变——从教人使用工具的浅层指导，升级为让学习者深入真实大规模开源项目、与专业维护者协作的工程实践。Stanford CS 146S 今年课程的核心创新正是这一点：学生作业围绕向 Cursor、Anthropic、Vercel 等头部 agent 项目提交真实 PR 展开。</p>
+          <p>Mihail Eric 指出一个关键现象：他 survey 过 Stanford 大二大三学生，所有人都在用 coding agent，没有人在手工写代码。这意味着基础教学门槛已被彻底抬升，课程必须转向更高阶的能力培养。他强调，优秀的 AI native engineer 进入职场时应该比传统 L3 水平高出整整一档——接近 senior 级别。</p>
+          <p>关于开源生态的战略思考，Eric 认为 mentorship 是弥合经验差距的关键：新手不能只靠 one-shot prompt 完成任务，而需要在真实代码审查中学习 good software design 的思维模式。他还透露，Cursor 的 Wilson 等人承诺支持学生进行超大规模实验（千级以上 agent 并行），体现了行业龙头对人才培养的深度投入。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=dpY7YzZo4kE">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Andrej Karpathy</span>
-              <span class="voice-handle">@karpathy · xAI / 前 Tesla AI 总监、YouTube 创始人</span>
-              
-            </div>
-            <p class="voice-quote">将 Tristan 的 4.7 万条 Nerd YouTube 频道列表一键封装成带 TV 模式的浏览网站「TristanTube」，全程只用 Claude Code 一枪搞定，声称「3 分钟完成」。该推文收获 6445 赞，是近期最高互动内容之一，再次证明了 Agent 辅助编程在微型项目中的爆发力。 <a class="read-more" href="https://x.com/karpathy/status/2119114537442189652" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Thibault Sottiaux</span>
-              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT 产品负责人 @OpenAI</span>
-              
-            </div>
-            <p class="voice-quote">同日连发三条：①发起「Pro 50 该不该有」社区投票（1369 赞）；②详细列出 Pro 各档用量差异——Pro 100 = Plus 10倍、Pro 200 = 20倍、Pro 500 = 50倍且含 ultrafast 访问权——引发定价讨论（2756 赞）；③转发一张名为「Cyber」的配图（1601 赞）。综合来看，OpenAI 似乎正在通过直接对话社区来测试新定价层的市场反应。 <a class="read-more" href="https://x.com/thsottiaux/status/2119305294291612140" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
               <span class="voice-name">Garry Tan</span>
               <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
               
             </div>
-            <p class="voice-quote">以强烈措辞发出世纪之问：「我们本可以拥有丰饶。这是未来十年最重要的政治议题——是通过超级智能让人类在科学、医学、工程上继续进步，还是主动选择黑暗？」（314 赞）另转发了 WIRED 杂志衰落的评论以及一篇关于 NIMBY 阻挠建设的文章，显示其对政策层面的持续关注。 <a class="read-more" href="https://x.com/garrytan/status/2119142802499999999" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">三条动态串联成一个完整叙事：① gstack-evals 复现 Jev Engineering 研究且 particle-1 更优；② "You're really going to want your own software factory"——每个人都需要自己的软件工程工厂；③ 当 frontier model 让软件变更成本趋近于零，bugs 变得难以忍受，同时个人 just-in-time 软件成为必然。核心判断：软件的边际生产成本正在崩塌。 <a class="read-more" href="https://x.com/garrytan/status/2119615647592395037" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -136,43 +118,52 @@
               <span class="voice-handle">@levie · Box CEO</span>
               
             </div>
-            <p class="voice-quote">断言 AI 驱动的产出已达到「超出 AI 前代一到两个数量级」的水平，并指出实现路径依赖四个要素：正确 harness、深厚领域理解、相对全新的代码库、低摩擦测试部署流程。他还观察到，Agent 的理论推理对延迟不敏感，这意味着长周期 Agent 将成为常态，工作可以被派发出去不再需要实时等待反馈。 <a class="read-more" href="https://x.com/levie/status/2119111328099168409" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">AI 正在从 chat-to-work 时代迈向 agent-swarm 时代，生产力提升不再是 20-50%，而是"几乎无上限"。关键洞察：agent 的理论推理能力对延迟不敏感，因此长周期 agent 将成为常态——你可以把复杂任务派发出去，不需要实时等待结果。另一条实用建议：每 3-6 个月重新评估一次 AI 能力边界，因为当前的技术进步速度意味着半年前的不可能现在已经可行。 <a class="read-more" href="https://x.com/levie/status/2119502716770902234" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Amjad Masad</span>
-              <span class="voice-handle">@amasad · Replit CEO</span>
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Codex Product Lead @OpenAI / 前 Linear 产品负责人</span>
               
             </div>
-            <p class="voice-quote">分享了对哈萨克斯坦的观察：该国政府「极度 AI 狂热」，同时也是 Network School（Replit 开发者教育计划）的理想举办地。另一条则推荐了一篇名为「The Better Lesson」的文章，暗示技术决策背后的教训往往被忽视。 <a class="read-more" href="https://x.com/amasad/status/2119126064815608270" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">"选最笨的方案，而不是最简单的。"简单是可以迭代出来的，而笨才是正确的起点——否则你只会过度聪明地把自己绕进去。她在另一条推文中补充：这个原则适用于所有软件工程决策，" Being clever means your users also have to be just as clever to understand your cleverness." 还有一条反常识判断：软件开发在你知道要做什么时会容易得多，你不知道时会更难——但区别在于，AI 前时代你什么都做不出来，现在至少能造出一坨能用但 messy 的东西。 <a class="read-more" href="https://x.com/thenanyu/status/2119462979179892925" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO / Next.js 创始人</span>
+              
+            </div>
+            <p class="voice-quote">用 WebGL2 + Web Audio 做了一个物理级的黑胶唱片机模拟器：将音频波形转换成唱片沟槽的物理形状，模拟唱针以每秒 384,000 次的频率在沟槽壁上运动，由此产生的电压变化就是声音。 crackle、pops、wow/flutter 等黑胶特有的瑕疵都是模拟的自然产物，还可以实时 DJ 混音。该项目获得 2242 赞，展示了前端技术在物理仿真领域的惊人潜力。 <a class="read-more" href="https://x.com/rauchg/status/2119536313712230802" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Ryo Lu</span>
+              <span class="voice-handle">@ryolu_ · Cursor / Notion / Stripe 前设计师</span>
+              
+            </div>
+            <p class="voice-quote">"当我们什么都能做到时，我们还知道自己想要什么吗？"——这句话来自他在 @aiDotEngineer 上海大会的全套演讲（每张幻灯片手工制作，中英双语字幕）。704 赞、70 转，反映出 AI 能力爆发期创作者群体对技术饱和后意义问题的深层焦虑。 <a class="read-more" href="https://x.com/ryolu_/status/2119586846657454152" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
               <span class="voice-name">Zara Zhang</span>
-              <span class="voice-handle">@zarazhangrui · 创业者 / AI 观察者</span>
+              <span class="voice-handle">@zarazhangrui · Builder / Harvard'17</span>
               
             </div>
-            <p class="voice-quote">提出一句有力的创业判断：「初创公司的命运是被创造的，不是被预设的。」她反驳了那种「某 idea 一定不行」「某市场太小众」的决定论语气，强调给定同一个想法存在一千种执行方式，一百个人会有一百种不同路径。这句话简洁有力，触及了许多人对失败的宿命论心态。 <a class="read-more" href="https://x.com/zarazhangrui/status/2119217304953053419" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">两条值得关注的观察：① 她几乎停止使用「vibe coding」一词，因为这个词带有负面暗示——好像产出只是 AI slop，没有投入情感和灵魂。但她认为使用 AI 编程工具和用心创作并不矛盾，我们需要一个更好的词来描述这种现象。② "做一个产品的快乐，来自于技术行为的确定性和人类行为的不确定性之间的碰撞。" <a class="read-more" href="https://x.com/zarazhangrui/status/2119592080318341128" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Aditya Agarwal</span>
-              <span class="voice-handle">@adityaag · SPC General Partner / 前 Dropbox CTO</span>
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · SMOL.AI CEO / Cognition 顾问 / Latent Space Host</span>
               
             </div>
-            <p class="voice-quote">用「香料」（spice）隐喻数据中心的战略价值：如果新建数据中心变得更难，那么手握现有容量的巨头（hyperscalers）将大赢特赢——因为需求只增不减。但同时他也警示，新进入者的增速会放缓，赢家通吃的格局将进一步固化。 <a class="read-more" href="https://x.com/adityaag/status/2119142310894334262" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Peter Steinberger</span>
-              <span class="voice-handle">@steipete · AI 工程师 / Anthropic 早期员工</span>
-              
-            </div>
-            <p class="voice-quote">就 Asahi Linux 项目发表看法：该项目初衷是打开封闭系统，但新增的限制只会让其他项目更难在其上构建；同时他认为当前对 AI 的拒绝态度「很愚蠢」。这是对开放生态路线的一次明确表态。 <a class="read-more" href="https://x.com/steipete/status/2119217304953053419" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">转发介绍了最新的 Latent Space 播客特辑（庆祝 AI Engineer YouTube 频道达到 100 万订阅），嘉宾是 teaching "The Modern Software Developer" 课程的 Mihail Eric，同时也是 Monaco 的 Head of AI。这条推送本身也构成了社区信息流转的一环。 <a class="read-more" href="https://x.com/swyx/status/2119550477629379009" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -186,9 +177,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 10 位建造者 · 1 期播客</strong><br>
-      覆盖 10 位建造者，19 条 X 动态，1 期播客，无博客更新<br>
-      生成于 2026-11-09T02:00:00+08:00
+      数据来源 · <strong>follow-builders feed · 7 位建造者 · 1 期播客</strong><br>
+      覆盖 7 位建造者，17 条 X 动态，1 期播客，无博客更新<br>
+      生成于 2026-11-10T10:00:00+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>

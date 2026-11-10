@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月10日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>20261110</span><span>2026年11月10日 · 星期二</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Garry Tan 论「丰饶 vs 黑暗」——agent swarm 生产力无上限 · Box CEO 断言 AI 产出跃升一到两个数量级 · 开源生态的下一波浪潮</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>YC CEO Garry Tan 抛出「未来十年最重要的政治议题：丰饶还是黑暗？」，Box CEO Aaron Levie 从企业视角佐证 agent swarm 生产力的无上限增长，开源社区迎来 Cursor、Anthropic、Vercel 等头部玩家深度参与——AI 正在以三个维度重塑技术世界的叙事。</h1>
+      <p>YC CEO Garry Tan（@garrytan）今天连续发布三条动态，核心观点集中在一句话：软件正在变得无比廉价且易于修改，personal just-in-time software（按需定制的个人软件）将成为不可逆转的趋势。他将这一现象上升到哲学层面："我们本可以拥有丰饶，这是未来十年最具决定性的政治问题——通过超级智能让人类在科学、医学和工程上持续进步，还是选择走向黑暗？"这条推文获 314 赞。同时他分享了 gstack-evals 项目的最新进展：用自主评测框架复现了 Jev Engineering 的研究结论，并发现 particle-1 模型表现更优。</p>
+          <p>Box CEO Aaron Levie（@levie）从企业应用视角给出更激进的判断：Agent swarm 模式正在将生产力从 AI 前时代的 20-50% 提升，推向几乎没有上限的新维度。他指出实现路径依赖四个要素——正确的 harness 设计、深厚领域理解、低摩擦测试部署流程，以及相对干净的代码库结构。他特别强调一个反直觉的观察：AI agent 的理论推理对延迟不敏感，这意味着长周期 agent 将成为常态，工作可以被派发出去不再需要实时等待反馈。这一判断为当前热议的「multi-agent orchestration」提供了理论支撑。</p>
+          <p>开源生态迎来新一波浪潮。斯坦福 CS 146S "The Modern Software Developer" 课程今年引入了大规模的开源贡献作为作业核心——学生直接参与 Cursor、Anthropic、Vebel 等头部 agent 项目的真实 PR，由项目维护者亲自 review。课程发起人 Mihail Eric 是 Monaco Head of AI 兼 Stanford 兼职教授，他在最新一期 Latent Space 播客中详述了这一设计理念：coding agent 已经普及到每个学生都在用的程度，单纯教工具使用已不够，必须让学习者在真实复杂代码库中与维护者互动，才能真正传承好的软件设计思维。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space：How Stanford Teaches AI-Native Engineering — Mihail Eric（Monaco Head of AI / Stanford Adjunct Professor）</h2>
+      <div class="meta-line">2026-11-08 · Latent Space Podcast · 第 100 万订阅特辑</div>
+      <p>The Takeaway：AI 原生工程师的培养范式正在发生质变——从教人使用工具的浅层指导，升级为让学习者深入真实大规模开源项目、与专业维护者协作的工程实践。Stanford CS 146S 今年课程的核心创新正是这一点：学生作业围绕向 Cursor、Anthropic、Vercel 等头部 agent 项目提交真实 PR 展开。</p>
+          <p>Mihail Eric 指出一个关键现象：他 survey 过 Stanford 大二大三学生，所有人都在用 coding agent，没有人在手工写代码。这意味着基础教学门槛已被彻底抬升，课程必须转向更高阶的能力培养。他强调，优秀的 AI native engineer 进入职场时应该比传统 L3 水平高出整整一档——接近 senior 级别。</p>
+          <p>关于开源生态的战略思考，Eric 认为 mentorship 是弥合经验差距的关键：新手不能只靠 one-shot prompt 完成任务，而需要在真实代码审查中学习 good software design 的思维模式。他还透露，Cursor 的 Wilson 等人承诺支持学生进行超大规模实验（千级以上 agent 并行），体现了行业龙头对人才培养的深度投入。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=dpY7YzZo4kE">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">三条动态串联成一个完整叙事：① gstack-evals 复现 Jev Engineering 研究且 particle-1 更优；② "You're really going to want your own software factory"——每个人都需要自己的软件工程工厂；③ 当 frontier model 让软件变更成本趋近于零，bugs 变得难以忍受，同时个人 just-in-time 软件成为必然。核心判断：软件的边际生产成本正在崩塌。 <a class="read-more" href="https://x.com/garrytan/status/2119615647592395037" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">AI 正在从 chat-to-work 时代迈向 agent-swarm 时代，生产力提升不再是 20-50%，而是"几乎无上限"。关键洞察：agent 的理论推理能力对延迟不敏感，因此长周期 agent 将成为常态——你可以把复杂任务派发出去，不需要实时等待结果。另一条实用建议：每 3-6 个月重新评估一次 AI 能力边界，因为当前的技术进步速度意味着半年前的不可能现在已经可行。 <a class="read-more" href="https://x.com/levie/status/2119502716770902234" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Codex Product Lead @OpenAI / 前 Linear 产品负责人</span>
+              
+            </div>
+            <p class="voice-quote">"选最笨的方案，而不是最简单的。"简单是可以迭代出来的，而笨才是正确的起点——否则你只会过度聪明地把自己绕进去。她在另一条推文中补充：这个原则适用于所有软件工程决策，" Being clever means your users also have to be just as clever to understand your cleverness." 还有一条反常识判断：软件开发在你知道要做什么时会容易得多，你不知道时会更难——但区别在于，AI 前时代你什么都做不出来，现在至少能造出一坨能用但 messy 的东西。 <a class="read-more" href="https://x.com/thenanyu/status/2119462979179892925" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO / Next.js 创始人</span>
+              
+            </div>
+            <p class="voice-quote">用 WebGL2 + Web Audio 做了一个物理级的黑胶唱片机模拟器：将音频波形转换成唱片沟槽的物理形状，模拟唱针以每秒 384,000 次的频率在沟槽壁上运动，由此产生的电压变化就是声音。 crackle、pops、wow/flutter 等黑胶特有的瑕疵都是模拟的自然产物，还可以实时 DJ 混音。该项目获得 2242 赞，展示了前端技术在物理仿真领域的惊人潜力。 <a class="read-more" href="https://x.com/rauchg/status/2119536313712230802" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Ryo Lu</span>
+              <span class="voice-handle">@ryolu_ · Cursor / Notion / Stripe 前设计师</span>
+              
+            </div>
+            <p class="voice-quote">"当我们什么都能做到时，我们还知道自己想要什么吗？"——这句话来自他在 @aiDotEngineer 上海大会的全套演讲（每张幻灯片手工制作，中英双语字幕）。704 赞、70 转，反映出 AI 能力爆发期创作者群体对技术饱和后意义问题的深层焦虑。 <a class="read-more" href="https://x.com/ryolu_/status/2119586846657454152" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder / Harvard'17</span>
+              
+            </div>
+            <p class="voice-quote">两条值得关注的观察：① 她几乎停止使用「vibe coding」一词，因为这个词带有负面暗示——好像产出只是 AI slop，没有投入情感和灵魂。但她认为使用 AI 编程工具和用心创作并不矛盾，我们需要一个更好的词来描述这种现象。② "做一个产品的快乐，来自于技术行为的确定性和人类行为的不确定性之间的碰撞。" <a class="read-more" href="https://x.com/zarazhangrui/status/2119592080318341128" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · SMOL.AI CEO / Cognition 顾问 / Latent Space Host</span>
+              
+            </div>
+            <p class="voice-quote">转发介绍了最新的 Latent Space 播客特辑（庆祝 AI Engineer YouTube 频道达到 100 万订阅），嘉宾是 teaching "The Modern Software Developer" 课程的 Mihail Eric，同时也是 Monaco 的 Head of AI。这条推送本身也构成了社区信息流转的一环。 <a class="read-more" href="https://x.com/swyx/status/2119550477629379009" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 7 位建造者 · 1 期播客</strong><br>
+      覆盖 7 位建造者，17 条 X 动态，1 期播客，无博客更新<br>
+      生成于 2026-11-10T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
