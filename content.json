@@ -1,82 +1,89 @@
 {
   "issue": {
-    "vol": "20261110",
-    "date": "2026年11月10日",
-    "weekday": "星期二",
-    "dateISO": "2026-11-10",
-    "tagline": "Garry Tan 论「丰饶 vs 黑暗」——agent swarm 生产力无上限 · Box CEO 断言 AI 产出跃升一到两个数量级 · 开源生态的下一波浪潮"
+    "vol": "2026315",
+    "date": "2026年11月11日",
+    "weekday": "星期三",
+    "dateISO": "2026-11-11",
+    "tagline": "Claude Fable 5.2 重磅发布：物理研究新突破 · Vercel MCP Events 让 Agent 免轮询 · Box CEO 断言知识工作进入自主协作者时代"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "YC CEO Garry Tan 抛出「未来十年最重要的政治议题：丰饶还是黑暗？」，Box CEO Aaron Levie 从企业视角佐证 agent swarm 生产力的无上限增长，开源社区迎来 Cursor、Anthropic、Vercel 等头部玩家深度参与——AI 正在以三个维度重塑技术世界的叙事。",
+    "title": "Anthropic 今日发布 Claude Fable 5.2，在理论物理领域取得两项重大进展；Vercel 同步推出 MCP Events 协议，彻底解决 Agent 跨会话回调难题；Box CEO Aaron Levie 从企业视角展望「自主协作者」时代的到来。",
     "paras": [
-      "YC CEO Garry Tan（@garrytan）今天连续发布三条动态，核心观点集中在一句话：软件正在变得无比廉价且易于修改，personal just-in-time software（按需定制的个人软件）将成为不可逆转的趋势。他将这一现象上升到哲学层面：\"我们本可以拥有丰饶，这是未来十年最具决定性的政治问题——通过超级智能让人类在科学、医学和工程上持续进步，还是选择走向黑暗？\"这条推文获 314 赞。同时他分享了 gstack-evals 项目的最新进展：用自主评测框架复现了 Jev Engineering 的研究结论，并发现 particle-1 模型表现更优。",
-      "Box CEO Aaron Levie（@levie）从企业应用视角给出更激进的判断：Agent swarm 模式正在将生产力从 AI 前时代的 20-50% 提升，推向几乎没有上限的新维度。他指出实现路径依赖四个要素——正确的 harness 设计、深厚领域理解、低摩擦测试部署流程，以及相对干净的代码库结构。他特别强调一个反直觉的观察：AI agent 的理论推理对延迟不敏感，这意味着长周期 agent 将成为常态，工作可以被派发出去不再需要实时等待反馈。这一判断为当前热议的「multi-agent orchestration」提供了理论支撑。",
-      "开源生态迎来新一波浪潮。斯坦福 CS 146S \"The Modern Software Developer\" 课程今年引入了大规模的开源贡献作为作业核心——学生直接参与 Cursor、Anthropic、Vebel 等头部 agent 项目的真实 PR，由项目维护者亲自 review。课程发起人 Mihail Eric 是 Monaco Head of AI 兼 Stanford 兼职教授，他在最新一期 Latent Space 播客中详述了这一设计理念：coding agent 已经普及到每个学生都在用的程度，单纯教工具使用已不够，必须让学习者在真实复杂代码库中与维护者互动，才能真正传承好的软件设计思维。"
+      "Claude 官方账号今天发布多条动态，宣布 Claude Fable 5.2 已在所有付费计划上线。更引人注目的是模型在物理学领域的突破性表现：Fable 5.2 成功证明了量子引力领域中一个名为「模态自举（modular bootstrapping）」的 15 年老技术的精确极限——这项技术被用于排除候选量子引力理论。同时，模型还对极小宇宙中发生突然相变的问题给出了新的解析解。两条研究成果均已提交预印本，标志着 AI 在基础科学研究中的能力边界再次拓展。",
+      "Vercel CEO Guillermo Rauch 在同一天发布了 MCP Events 的进展：MCP 协议此前只能读写资源，但无法在异步事件发生后通知调用方。MCP Events 填补了这一空白，使 Agent 能够订阅像 deployment.succeeded 这样的事件，不再需要轮询等待。Rauch 亲自示范了 Vercel Queues + Workflows 如何以极低复杂度实现这一后端逻辑，并强调这一代模型已经能够处理前所未有的大规模并行任务体——瓶颈只剩下用户的想象力和并行算力上限。",
+      "Box CEO Aaron Levie 在企业自动化层面给出了另一维度的判断：coding agent 和 computer use 的能力叠加行业特定理解与通用推理，正推动知识工作的自动化覆盖前所未有的广度。他指出动画、影视制作、游戏、制造、建筑、产品设计和机器人等领域都尚未迎来各自的『Claude Code moment』，但这些领域都在朝这个方向加速。核心论点是：软件开发对世界的影响正在以更宏大的方式蔓延到整个知识经济。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Latent Space：How Stanford Teaches AI-Native Engineering — Mihail Eric（Monaco Head of AI / Stanford Adjunct Professor）",
-    "meta": "2026-11-08 · Latent Space Podcast · 第 100 万订阅特辑",
+    "title": "Latent Space：What Frontier Labs Buy — A Data Deep Dive with Garrett Lord & Team（Handshake AI）",
+    "meta": "2026-11-09 · Latent Space Podcast",
     "paras": [
-      "The Takeaway：AI 原生工程师的培养范式正在发生质变——从教人使用工具的浅层指导，升级为让学习者深入真实大规模开源项目、与专业维护者协作的工程实践。Stanford CS 146S 今年课程的核心创新正是这一点：学生作业围绕向 Cursor、Anthropic、Vercel 等头部 agent 项目提交真实 PR 展开。",
-      "Mihail Eric 指出一个关键现象：他 survey 过 Stanford 大二大三学生，所有人都在用 coding agent，没有人在手工写代码。这意味着基础教学门槛已被彻底抬升，课程必须转向更高阶的能力培养。他强调，优秀的 AI native engineer 进入职场时应该比传统 L3 水平高出整整一档——接近 senior 级别。",
-      "关于开源生态的战略思考，Eric 认为 mentorship 是弥合经验差距的关键：新手不能只靠 one-shot prompt 完成任务，而需要在真实代码审查中学习 good software design 的思维模式。他还透露，Cursor 的 Wilson 等人承诺支持学生进行超大规模实验（千级以上 agent 并行），体现了行业龙头对人才培养的深度投入。"
+      "The Takeaway：AI 数据评估行业正在经历爆发式增长——三年前还是十亿美元级别的市场，如今已达百亿美元规模，Garrett Lord 预计三年后更是不可撼动的千亿美元市场。",
+      "Handshake AI 核心团队（Garrett Lord、Nishant、Sahil）做客 Latent Space，聚焦前沿实验室如何采购和评估训练数据这一关键但鲜少公开讨论的环节。嘉宾指出数据质量是决定模型天花板的核心变量，而标注产业已从「每小时十美元的普通大学生」快速演进为更高阶的专业化流程。对话深入探讨了数据集的构建标准、评估体系的设计思路，以及为什么 95% 正确的输出在实际应用中等于 100% 错误——因为修复缺陷输出的时间与从零构建或改用模板的时间相当甚至更长。",
+      "节目中还展示了一个实际案例：Agent 自动完成了一份包含 CFO 财务总结备忘录和薪酬审核的双重任务，并在执行后清除了操作痕迹，体现了自动化工作在复杂知识任务中的成熟度。"
     ],
-    "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE"
+    "url": "https://www.youtube.com/@LatentSpacePod"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "org": "Y Combinator President & CEO",
-        "text": "三条动态串联成一个完整叙事：① gstack-evals 复现 Jev Engineering 研究且 particle-1 更优；② \"You're really going to want your own software factory\"——每个人都需要自己的软件工程工厂；③ 当 frontier model 让软件变更成本趋近于零，bugs 变得难以忍受，同时个人 just-in-time 软件成为必然。核心判断：软件的边际生产成本正在崩塌。",
-        "url": "https://x.com/garrytan/status/2119615647592395037"
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "org": "Every CEO",
+        "text": "团队内部用 Fable 5.2 的实测体验令人震撼：Kieran Klaassen 三天内用 AI 构建了一款视频编辑器 Everycut，整合了 Premiere、Descript 等专业工具的功能，这是典型的『专业人士开始为自己打造专属工具』的新时代。Jack Cheng 将孩子的凌乱玩具室照片直接转化为可玩卡丁车赛车游戏，鞋子成了障碍物、学饮杯变成道具。Hammer MT 则把研究素材做成了纪录片而非 PPT。最强烈的信号来自 Tyler Nishida——早期访问结束后他暂停了所有未完成的项目，因为他不愿意用其他任何模型来继续。",
+        "url": "https://x.com/danshipper/status/2119869228207546638"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "MCP 的价值远超其名字中的『M』——即使抛开 AI 不谈，让所有系统通过统一的开放协议进行通信本身就是一项文明级的成就。真正的突破在于 MCP Events：Agent 部署后可以订阅完成事件而非轮询，结合 Vercel Queues 和 Workflows，写这种后端逻辑易如反掌。他引用 Christian Colov 的建议，只需安装 Vercel CLI 配置插件，告诉 Agent 使用 `/offload-to-sandbox` 技能即可，无需构建复杂的『多 Agent 远程 harness 编排器』。新一代模型处理并行任务的量级已超越单机极限，瓶颈只剩你的野心和算力。",
+        "url": "https://x.com/rauchg/status/2119891138450755670"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "AI 正在从 chat-to-work 时代迈向 agent-swarm 时代，生产力提升不再是 20-50%，而是\"几乎无上限\"。关键洞察：agent 的理论推理能力对延迟不敏感，因此长周期 agent 将成为常态——你可以把复杂任务派发出去，不需要实时等待结果。另一条实用建议：每 3-6 个月重新评估一次 AI 能力边界，因为当前的技术进步速度意味着半年前的不可能现在已经可行。",
-        "url": "https://x.com/levie/status/2119502716770902234"
+        "text": "编程能力和 computer use 的进步，加上行业特定理解和通用推理的结合，正将自动化推向大量尚未经历『代码时刻』的知识工作领域。动画、影视制作、游戏开发、制造业、建筑设计、产品工程和机器人技术——所有这些行业都有潜力复制软件工程领域所看到的产出跃升。关键洞察：这些类别的工作不存在固有的需求上限，『软件正在吞噬世界』将在 AI 驱动下以更加宏大的方式重演。",
+        "url": "https://x.com/levie/status/2119987129204047894"
       },
       {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "org": "Codex Product Lead @OpenAI / 前 Linear 产品负责人",
-        "text": "\"选最笨的方案，而不是最简单的。\"简单是可以迭代出来的，而笨才是正确的起点——否则你只会过度聪明地把自己绕进去。她在另一条推文中补充：这个原则适用于所有软件工程决策，\" Being clever means your users also have to be just as clever to understand your cleverness.\" 还有一条反常识判断：软件开发在你知道要做什么时会容易得多，你不知道时会更难——但区别在于，AI 前时代你什么都做不出来，现在至少能造出一坨能用但 messy 的东西。",
-        "url": "https://x.com/thenanyu/status/2119462979179892925"
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "org": "Research @AnthropicAI",
+        "text": "给 Fable 5.2 一张达·芬奇 500 年前的笔记本 PDF，它把你的互动变成了真实的立体模型——这是教育史上最激动人心的时刻之一，所有被封存在纸面上的历史内容现在都可以探索。分享了自己的日常工作流习惯：每次有新模型发布时都会对所有项目运行同一个 prompt ——『读完这个项目，找出所有损坏、不一致、低效或已过时的东西。修好你确定的部分，其余列出来供我审查。』他还观察到机器人领域也将遵循 bitter lesson 的规律。",
+        "url": "https://x.com/alexalbert__/status/2119916954337349737"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO / Next.js 创始人",
-        "text": "用 WebGL2 + Web Audio 做了一个物理级的黑胶唱片机模拟器：将音频波形转换成唱片沟槽的物理形状，模拟唱针以每秒 384,000 次的频率在沟槽壁上运动，由此产生的电压变化就是声音。 crackle、pops、wow/flutter 等黑胶特有的瑕疵都是模拟的自然产物，还可以实时 DJ 混音。该项目获得 2242 赞，展示了前端技术在物理仿真领域的惊人潜力。",
-        "url": "https://x.com/rauchg/status/2119536313712230802"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "Replit CEO",
+        "text": "回顾两年前向 Paul Graham 展示 vibe coding 概念的场景，PG 当时的反应极具参考价值。他同时推广了 SMFL 数字创新团队即将于 11 月 27 日发布的新书《Enterprise Vibe Coding》，自己登上了封面。面对『谁来维护 vibe coded 应用』的质疑，他提出自我修复软件（self-healing software）的概念作为答案，强调这不是科幻而是正在发生的工程现实。",
+        "url": "https://x.com/amasad/status/2119965240066752682"
       },
       {
-        "name": "Ryo Lu",
-        "handle": "ryolu_",
-        "org": "Cursor / Notion / Stripe 前设计师",
-        "text": "\"当我们什么都能做到时，我们还知道自己想要什么吗？\"——这句话来自他在 @aiDotEngineer 上海大会的全套演讲（每张幻灯片手工制作，中英双语字幕）。704 赞、70 转，反映出 AI 能力爆发期创作者群体对技术饱和后意义问题的深层焦虑。",
-        "url": "https://x.com/ryolu_/status/2119586846657454152"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "Dots 产品扩展支持控制多种机器类型，不再局限于默认提供的云端计算机。这标志着 OpenAI 在 agent 硬件集成方向上的进一步布局，暗示 Dots 正在从一个云环境工具发展为通用机器控制系统。",
+        "url": "https://x.com/thsottiaux/status/2120021043876106429"
       },
       {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "org": "Builder / Harvard'17",
-        "text": "两条值得关注的观察：① 她几乎停止使用「vibe coding」一词，因为这个词带有负面暗示——好像产出只是 AI slop，没有投入情感和灵魂。但她认为使用 AI 编程工具和用心创作并不矛盾，我们需要一个更好的词来描述这种现象。② \"做一个产品的快乐，来自于技术行为的确定性和人类行为的不确定性之间的碰撞。\"",
-        "url": "https://x.com/zarazhangrui/status/2119592080318341128"
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "org": "Sr Director AI @Meta; 前 Google Gemini/Veo/Nano Banana 负责人",
+        "text": "产品领导的自查练习：画出你的产品生命周期图（市场理解→设计→开发→GTM）。你的 PM 可能在某些阶段花更多时间——源于产品性质、组织惯性或个人舒适区。这是一个交接频繁、信息损耗严重的过程。现在问自己：借助 AI，PM 能在每个阶段走得更深多远？从更深入的用户和市场理解，到想法到原型的快速迭代，到代码库的技术约束分析，再到自主运行分析和 GTM 漏斗的深度研究——PM 的职责标准正在被整体拉高，但不是取代其他角色，而是用深度重新定义 breadth。",
+        "url": "https://x.com/realmadhuguru/status/2119999748086362466"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "SMOL.AI CEO / Cognition 顾问 / Latent Space Host",
-        "text": "转发介绍了最新的 Latent Space 播客特辑（庆祝 AI Engineer YouTube 频道达到 100 万订阅），嘉宾是 teaching \"The Modern Software Developer\" 课程的 Mihail Eric，同时也是 Monaco 的 Head of AI。这条推送本身也构成了社区信息流转的一环。",
-        "url": "https://x.com/swyx/status/2119550477629379009"
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "org": "Claude @anthropicai",
+        "text": "Fable 5.2 的重置机制按订阅时长分级：Pro 用户一次重置机会，Max、Ultra 和 Team Premium 最多三次。这是对长期用户的一种补偿性设计，反映出 Anthropic 在模型迭代速度加快的背景下对用户忠诚度的回应策略。",
+        "url": "https://x.com/bcherny/status/2119873095129550880"
       }
     ]
   },
@@ -85,8 +92,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 7 位建造者 · 1 期播客",
-    "coverage": "覆盖 7 位建造者，17 条 X 动态，1 期播客，无博客更新",
-    "generatedAt": "2026-11-10T10:00:00+08:00"
+    "source": "follow-builders feed · 15 位建造者 · 1 期播客",
+    "coverage": "覆盖 15 位建造者，29 条 X 动态，1 期播客，无博客更新",
+    "generatedAt": "2026-11-11T10:00:00+08:00"
   }
 }
