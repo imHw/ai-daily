@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月12日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026316</span><span>2026年11月12日 · 星期四</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Google 发布 Gemini 4 Carbon 直挑战 Anthropic · Claude 多条更新陆续上线 · 企业 Agent 生态进入协作时代</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Google 今日正式推送 Gemini 4 Carbon，定位面向开发者的新一代编码模型；与此同时 Claude 官方宣布 Claude Data（原 Dashboards）全面开放、交互连接器上线，以及 Vercel MCP Events 持续扩散影响。</h1>
+      <p>Google 今日正式发布 Gemini 4 Carbon——一款以编码能力为核心亮点的模型，目前已在 Gemini App Ultra 订阅用户中全球上线。据 Dan Shipper 实测报道，Gemini 4 Carbon 在多项编码基准上超越了此前广受关注的 Claude Fable 5.1，Anthropic 的竞争优势正面临直接挑战。Swyx 在同一周内密集撰文分析这一变化，并将重点放在「Agent 为何偏爱 Resend」的企业邮件基础设施趋势上，侧面反映出 Google 与 Anthropic 之间的竞争已从纯模型性能扩展到整个开发者生态。</p>
+          <p>Claude 官方账号今天发布三条公告：Claude Data（原 Dashboards）现已在所有付费计划中正式可用；交互式连接器让用户可以直接在工作区内打开完整工具版本而非预览窗口；一系列新功能正在逐步部署 rollout 中。这些更新表明 Anthropic 正从单一对话界面转向更强调工作流整合的 Agent 操作系统路线，与 Google 的 Gemini 策略形成正面竞争格局。</p>
+          <p>Vercel CEO Guillermo Rauch 同步分享了 Vercel Security Review 的数据：自启动以来不到一周内已累计扫描超过五万七千条漏洞，进一步验证了 MCP 协议在企业安全审查中的实际落地能力。同时，Box CEO Aaron Levie 发表观点称 Agent Swarm（智能体集群）正驱动 AI 输出量迈向新台阶，预测 Agent 与企业文件的工作量将远超人类当前处理量的百倍，这为 AI 辅助编程和自动化提供了宏观注脚。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space：Designing for Agents — Zeno Rocha（Resend CEO）</h2>
+      <div class="meta-line">2026-11-10 · Latent Space Podcast</div>
+      <p>本期货物：Resend 创始人兼 CEO Zeno Rocha 做客 Latent Space，聊他如何从一个 VS Code 主题黑客成长为一家服务超 430 万用户的邮件基础设施平台的掌舵人。他们回顾了 Resend 超越 SendGrid 下载量的转折点，以及 Warner Bros、HBO 等头部客户带来的巨大业务冲击——某日本黑帮曾一口气注册两万个不同域名，而公司当时规模不过千万美元级别。</p>
+          <p>Zeno 透露团队正在推进底层基础设施的重构项目，虽然具体细节未明，但暗示未来将有重要公告。整期节目围绕「怎样为一个全新的 Agent 时代设计产品体验」展开，深入探讨了 AI-native 工具的交互范式、开发者友好性以及如何在激烈竞争中守住产品的品味和调性。</p>
+      <a class="read-more" href="https://www.youtube.com/@LatentSpacePod">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · Every CEO</span>
+              
+            </div>
+            <p class="voice-quote">Google 刚刚正式发布 Gemini 4 Carbon，实测编码能力全面超越 Claude Fable 5.1，这在开源社区引发了不小震动。我正在对这款新模型做 live vibe check，从初步感受来看它在复杂代码推理上的表现确实令人印象深刻。 <a class="read-more" href="https://x.com/danshipper/status/2120294319773073919" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · Vercel</span>
+              
+            </div>
+            <p class="voice-quote">我终于问清楚了为什么我的 Agent 总是优先选择 Resend ——原来是因为 Zeno Rocha（Resend CEO）上周 keynote 里提到了一些关键设计决策，这些让我彻底重新理解了 Agent 时代的开发者工具选型逻辑。这是一条值得逐帧观看的 thread。 <a class="read-more" href="https://x.com/swyx/status/2120260228902264872" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · ex-@GoogleDeepMind</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 4 Carbon 现在已经向所有 Gemini App Ultra 订阅用户全球开放。这是 Google 首次在端侧消费者产品中大规模推出碳基优化版本，意味着高性能编码模型的普及门槛正在快速下降。 <a class="read-more" href="https://x.com/joshwoodward/status/2120186249281778135" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">Agent Swarm（多智能体集群）有望推动 AI 产出量实现又一次跃升。Agent 处理企业文件的工作量将是人类目前的百倍——这不是推测，而是正在发生的架构迁移。软件吞噬世界的故事正以指数级速度重演。 <a class="read-more" href="https://x.com/levie/status/2120385739342897469" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">Rust 依然是当前最强大的语言与生态系统之一，即便它诞生于 AI 概念出现之前。Vercel Security Review 上线不到一周已发现五万七千多条漏洞——这证明了一个事实：当开放标准遇上自动化工具，企业的技术债无处遁形。 <a class="read-more" href="https://x.com/rauchg/status/2120337388178379178" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">创新最好的方式就是大家一起动手一起做 Labs。OpenAI Dots 也在扩展支持多种机器类型控制——这是 Agent 硬件集成的又一个标志性信号。 <a class="read-more" href="https://x.com/thsottiaux/status/2120266880963473789" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Founder @Wrap</span>
+              
+            </div>
+            <p class="voice-quote">用 Fable 做一个 Wrap2026 的一次性爆款视频！把 prompt 丢进去之后，生成的内容让人忍不住说哇——这就是 AI 创作力的缩影：从一个想法到成品只需几分钟，而不是几周。 <a class="read-more" href="https://x.com/nikunj/status/2120165833993322497" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Product Leader</span>
+              
+            </div>
+            <p class="voice-quote">用户不回来你的产品，20% 是因为他们没有理解它的价值。分享一条建议：不要等产品做完了再开始展示，先分享再迭代，让受众参与进来——这才是 building in public 的真谛。 <a class="read-more" href="https://x.com/zarazhangrui/status/2120235104194932841" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 15 位建造者 · 32 条 X 动态 · 1 期播客</strong><br>
+      覆盖 15 位建造者，32 条 X 动态，1 期播客，无博客更新<br>
+      生成于 2026-11-12T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

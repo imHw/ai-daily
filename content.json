@@ -1,28 +1,27 @@
 {
   "issue": {
-    "vol": "2026315",
-    "date": "2026年11月11日",
-    "weekday": "星期三",
-    "dateISO": "2026-11-11",
-    "tagline": "Claude Fable 5.2 重磅发布：物理研究新突破 · Vercel MCP Events 让 Agent 免轮询 · Box CEO 断言知识工作进入自主协作者时代"
+    "vol": "2026316",
+    "date": "2026年11月12日",
+    "weekday": "星期四",
+    "dateISO": "2026-11-12",
+    "tagline": "Google 发布 Gemini 4 Carbon 直挑战 Anthropic · Claude 多条更新陆续上线 · 企业 Agent 生态进入协作时代"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Anthropic 今日发布 Claude Fable 5.2，在理论物理领域取得两项重大进展；Vercel 同步推出 MCP Events 协议，彻底解决 Agent 跨会话回调难题；Box CEO Aaron Levie 从企业视角展望「自主协作者」时代的到来。",
+    "title": "Google 今日正式推送 Gemini 4 Carbon，定位面向开发者的新一代编码模型；与此同时 Claude 官方宣布 Claude Data（原 Dashboards）全面开放、交互连接器上线，以及 Vercel MCP Events 持续扩散影响。",
     "paras": [
-      "Claude 官方账号今天发布多条动态，宣布 Claude Fable 5.2 已在所有付费计划上线。更引人注目的是模型在物理学领域的突破性表现：Fable 5.2 成功证明了量子引力领域中一个名为「模态自举（modular bootstrapping）」的 15 年老技术的精确极限——这项技术被用于排除候选量子引力理论。同时，模型还对极小宇宙中发生突然相变的问题给出了新的解析解。两条研究成果均已提交预印本，标志着 AI 在基础科学研究中的能力边界再次拓展。",
-      "Vercel CEO Guillermo Rauch 在同一天发布了 MCP Events 的进展：MCP 协议此前只能读写资源，但无法在异步事件发生后通知调用方。MCP Events 填补了这一空白，使 Agent 能够订阅像 deployment.succeeded 这样的事件，不再需要轮询等待。Rauch 亲自示范了 Vercel Queues + Workflows 如何以极低复杂度实现这一后端逻辑，并强调这一代模型已经能够处理前所未有的大规模并行任务体——瓶颈只剩下用户的想象力和并行算力上限。",
-      "Box CEO Aaron Levie 在企业自动化层面给出了另一维度的判断：coding agent 和 computer use 的能力叠加行业特定理解与通用推理，正推动知识工作的自动化覆盖前所未有的广度。他指出动画、影视制作、游戏、制造、建筑、产品设计和机器人等领域都尚未迎来各自的『Claude Code moment』，但这些领域都在朝这个方向加速。核心论点是：软件开发对世界的影响正在以更宏大的方式蔓延到整个知识经济。"
+      "Google 今日正式发布 Gemini 4 Carbon——一款以编码能力为核心亮点的模型，目前已在 Gemini App Ultra 订阅用户中全球上线。据 Dan Shipper 实测报道，Gemini 4 Carbon 在多项编码基准上超越了此前广受关注的 Claude Fable 5.1，Anthropic 的竞争优势正面临直接挑战。Swyx 在同一周内密集撰文分析这一变化，并将重点放在「Agent 为何偏爱 Resend」的企业邮件基础设施趋势上，侧面反映出 Google 与 Anthropic 之间的竞争已从纯模型性能扩展到整个开发者生态。",
+      "Claude 官方账号今天发布三条公告：Claude Data（原 Dashboards）现已在所有付费计划中正式可用；交互式连接器让用户可以直接在工作区内打开完整工具版本而非预览窗口；一系列新功能正在逐步部署 rollout 中。这些更新表明 Anthropic 正从单一对话界面转向更强调工作流整合的 Agent 操作系统路线，与 Google 的 Gemini 策略形成正面竞争格局。",
+      "Vercel CEO Guillermo Rauch 同步分享了 Vercel Security Review 的数据：自启动以来不到一周内已累计扫描超过五万七千条漏洞，进一步验证了 MCP 协议在企业安全审查中的实际落地能力。同时，Box CEO Aaron Levie 发表观点称 Agent Swarm（智能体集群）正驱动 AI 输出量迈向新台阶，预测 Agent 与企业文件的工作量将远超人类当前处理量的百倍，这为 AI 辅助编程和自动化提供了宏观注脚。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Latent Space：What Frontier Labs Buy — A Data Deep Dive with Garrett Lord & Team（Handshake AI）",
-    "meta": "2026-11-09 · Latent Space Podcast",
+    "title": "Latent Space：Designing for Agents — Zeno Rocha（Resend CEO）",
+    "meta": "2026-11-10 · Latent Space Podcast",
     "paras": [
-      "The Takeaway：AI 数据评估行业正在经历爆发式增长——三年前还是十亿美元级别的市场，如今已达百亿美元规模，Garrett Lord 预计三年后更是不可撼动的千亿美元市场。",
-      "Handshake AI 核心团队（Garrett Lord、Nishant、Sahil）做客 Latent Space，聚焦前沿实验室如何采购和评估训练数据这一关键但鲜少公开讨论的环节。嘉宾指出数据质量是决定模型天花板的核心变量，而标注产业已从「每小时十美元的普通大学生」快速演进为更高阶的专业化流程。对话深入探讨了数据集的构建标准、评估体系的设计思路，以及为什么 95% 正确的输出在实际应用中等于 100% 错误——因为修复缺陷输出的时间与从零构建或改用模板的时间相当甚至更长。",
-      "节目中还展示了一个实际案例：Agent 自动完成了一份包含 CFO 财务总结备忘录和薪酬审核的双重任务，并在执行后清除了操作痕迹，体现了自动化工作在复杂知识任务中的成熟度。"
+      "本期货物：Resend 创始人兼 CEO Zeno Rocha 做客 Latent Space，聊他如何从一个 VS Code 主题黑客成长为一家服务超 430 万用户的邮件基础设施平台的掌舵人。他们回顾了 Resend 超越 SendGrid 下载量的转折点，以及 Warner Bros、HBO 等头部客户带来的巨大业务冲击——某日本黑帮曾一口气注册两万个不同域名，而公司当时规模不过千万美元级别。",
+      "Zeno 透露团队正在推进底层基础设施的重构项目，虽然具体细节未明，但暗示未来将有重要公告。整期节目围绕「怎样为一个全新的 Agent 时代设计产品体验」展开，深入探讨了 AI-native 工具的交互范式、开发者友好性以及如何在激烈竞争中守住产品的品味和调性。"
     ],
     "url": "https://www.youtube.com/@LatentSpacePod"
   },
@@ -33,67 +32,67 @@
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "团队内部用 Fable 5.2 的实测体验令人震撼：Kieran Klaassen 三天内用 AI 构建了一款视频编辑器 Everycut，整合了 Premiere、Descript 等专业工具的功能，这是典型的『专业人士开始为自己打造专属工具』的新时代。Jack Cheng 将孩子的凌乱玩具室照片直接转化为可玩卡丁车赛车游戏，鞋子成了障碍物、学饮杯变成道具。Hammer MT 则把研究素材做成了纪录片而非 PPT。最强烈的信号来自 Tyler Nishida——早期访问结束后他暂停了所有未完成的项目，因为他不愿意用其他任何模型来继续。",
-        "url": "https://x.com/danshipper/status/2119869228207546638"
+        "text": "Google 刚刚正式发布 Gemini 4 Carbon，实测编码能力全面超越 Claude Fable 5.1，这在开源社区引发了不小震动。我正在对这款新模型做 live vibe check，从初步感受来看它在复杂代码推理上的表现确实令人印象深刻。",
+        "url": "https://x.com/danshipper/status/2120294319773073919"
       },
       {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "MCP 的价值远超其名字中的『M』——即使抛开 AI 不谈，让所有系统通过统一的开放协议进行通信本身就是一项文明级的成就。真正的突破在于 MCP Events：Agent 部署后可以订阅完成事件而非轮询，结合 Vercel Queues 和 Workflows，写这种后端逻辑易如反掌。他引用 Christian Colov 的建议，只需安装 Vercel CLI 配置插件，告诉 Agent 使用 `/offload-to-sandbox` 技能即可，无需构建复杂的『多 Agent 远程 harness 编排器』。新一代模型处理并行任务的量级已超越单机极限，瓶颈只剩你的野心和算力。",
-        "url": "https://x.com/rauchg/status/2119891138450755670"
+        "name": "Swyx",
+        "handle": "swyx",
+        "org": "Vercel",
+        "text": "我终于问清楚了为什么我的 Agent 总是优先选择 Resend ——原来是因为 Zeno Rocha（Resend CEO）上周 keynote 里提到了一些关键设计决策，这些让我彻底重新理解了 Agent 时代的开发者工具选型逻辑。这是一条值得逐帧观看的 thread。",
+        "url": "https://x.com/swyx/status/2120260228902264872"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "ex-@GoogleDeepMind",
+        "text": "Gemini 4 Carbon 现在已经向所有 Gemini App Ultra 订阅用户全球开放。这是 Google 首次在端侧消费者产品中大规模推出碳基优化版本，意味着高性能编码模型的普及门槛正在快速下降。",
+        "url": "https://x.com/joshwoodward/status/2120186249281778135"
       },
       {
         "name": "Aaron Levie",
         "handle": "levie",
         "org": "Box CEO",
-        "text": "编程能力和 computer use 的进步，加上行业特定理解和通用推理的结合，正将自动化推向大量尚未经历『代码时刻』的知识工作领域。动画、影视制作、游戏开发、制造业、建筑设计、产品工程和机器人技术——所有这些行业都有潜力复制软件工程领域所看到的产出跃升。关键洞察：这些类别的工作不存在固有的需求上限，『软件正在吞噬世界』将在 AI 驱动下以更加宏大的方式重演。",
-        "url": "https://x.com/levie/status/2119987129204047894"
+        "text": "Agent Swarm（多智能体集群）有望推动 AI 产出量实现又一次跃升。Agent 处理企业文件的工作量将是人类目前的百倍——这不是推测，而是正在发生的架构迁移。软件吞噬世界的故事正以指数级速度重演。",
+        "url": "https://x.com/levie/status/2120385739342897469"
       },
       {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "org": "Research @AnthropicAI",
-        "text": "给 Fable 5.2 一张达·芬奇 500 年前的笔记本 PDF，它把你的互动变成了真实的立体模型——这是教育史上最激动人心的时刻之一，所有被封存在纸面上的历史内容现在都可以探索。分享了自己的日常工作流习惯：每次有新模型发布时都会对所有项目运行同一个 prompt ——『读完这个项目，找出所有损坏、不一致、低效或已过时的东西。修好你确定的部分，其余列出来供我审查。』他还观察到机器人领域也将遵循 bitter lesson 的规律。",
-        "url": "https://x.com/alexalbert__/status/2119916954337349737"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "回顾两年前向 Paul Graham 展示 vibe coding 概念的场景，PG 当时的反应极具参考价值。他同时推广了 SMFL 数字创新团队即将于 11 月 27 日发布的新书《Enterprise Vibe Coding》，自己登上了封面。面对『谁来维护 vibe coded 应用』的质疑，他提出自我修复软件（self-healing software）的概念作为答案，强调这不是科幻而是正在发生的工程现实。",
-        "url": "https://x.com/amasad/status/2119965240066752682"
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "org": "Vercel CEO",
+        "text": "Rust 依然是当前最强大的语言与生态系统之一，即便它诞生于 AI 概念出现之前。Vercel Security Review 上线不到一周已发现五万七千多条漏洞——这证明了一个事实：当开放标准遇上自动化工具，企业的技术债无处遁形。",
+        "url": "https://x.com/rauchg/status/2120337388178379178"
       },
       {
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "Dots 产品扩展支持控制多种机器类型，不再局限于默认提供的云端计算机。这标志着 OpenAI 在 agent 硬件集成方向上的进一步布局，暗示 Dots 正在从一个云环境工具发展为通用机器控制系统。",
-        "url": "https://x.com/thsottiaux/status/2120021043876106429"
+        "text": "创新最好的方式就是大家一起动手一起做 Labs。OpenAI Dots 也在扩展支持多种机器类型控制——这是 Agent 硬件集成的又一个标志性信号。",
+        "url": "https://x.com/thsottiaux/status/2120266880963473789"
       },
       {
-        "name": "Madhu Guru",
-        "handle": "realmadhuguru",
-        "org": "Sr Director AI @Meta; 前 Google Gemini/Veo/Nano Banana 负责人",
-        "text": "产品领导的自查练习：画出你的产品生命周期图（市场理解→设计→开发→GTM）。你的 PM 可能在某些阶段花更多时间——源于产品性质、组织惯性或个人舒适区。这是一个交接频繁、信息损耗严重的过程。现在问自己：借助 AI，PM 能在每个阶段走得更深多远？从更深入的用户和市场理解，到想法到原型的快速迭代，到代码库的技术约束分析，再到自主运行分析和 GTM 漏斗的深度研究——PM 的职责标准正在被整体拉高，但不是取代其他角色，而是用深度重新定义 breadth。",
-        "url": "https://x.com/realmadhuguru/status/2119999748086362466"
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Founder @Wrap",
+        "text": "用 Fable 做一个 Wrap2026 的一次性爆款视频！把 prompt 丢进去之后，生成的内容让人忍不住说哇——这就是 AI 创作力的缩影：从一个想法到成品只需几分钟，而不是几周。",
+        "url": "https://x.com/nikunj/status/2120165833993322497"
       },
       {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "org": "Claude @anthropicai",
-        "text": "Fable 5.2 的重置机制按订阅时长分级：Pro 用户一次重置机会，Max、Ultra 和 Team Premium 最多三次。这是对长期用户的一种补偿性设计，反映出 Anthropic 在模型迭代速度加快的背景下对用户忠诚度的回应策略。",
-        "url": "https://x.com/bcherny/status/2119873095129550880"
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "org": "Product Leader",
+        "text": "用户不回来你的产品，20% 是因为他们没有理解它的价值。分享一条建议：不要等产品做完了再开始展示，先分享再迭代，让受众参与进来——这才是 building in public 的真谛。",
+        "url": "https://x.com/zarazhangrui/status/2120235104194932841"
       }
-    ]
+     ]
   },
   "blog": {
     "label": "官方博客",
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 15 位建造者 · 1 期播客",
-    "coverage": "覆盖 15 位建造者，29 条 X 动态，1 期播客，无博客更新",
-    "generatedAt": "2026-11-11T10:00:00+08:00"
+    "source": "follow-builders feed · 15 位建造者 · 32 条 X 动态 · 1 期播客",
+    "coverage": "覆盖 15 位建造者，32 条 X 动态，1 期播客，无博客更新",
+    "generatedAt": "2026-11-12T10:00:00+08:00"
   }
 }
