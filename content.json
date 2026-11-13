@@ -1,29 +1,29 @@
 {
   "issue": {
-    "vol": "2026316",
-    "date": "2026年11月12日",
-    "weekday": "星期四",
-    "dateISO": "2026-11-12",
-    "tagline": "Google 发布 Gemini 4 Carbon 直挑战 Anthropic · Claude 多条更新陆续上线 · 企业 Agent 生态进入协作时代"
+    "vol": "2026318",
+    "date": "2026年11月13日",
+    "weekday": "星期五",
+    "dateISO": "2026-11-13",
+    "tagline": "Jensen Huang 陷入丑闻引发 Nvidia 治理担忧 · Google 推出 Tabletop 多人协作实验 · Claude 联手艺术家打造沉浸式数字回顾展"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Google 今日正式推送 Gemini 4 Carbon，定位面向开发者的新一代编码模型；与此同时 Claude 官方宣布 Claude Data（原 Dashboards）全面开放、交互连接器上线，以及 Vercel MCP Events 持续扩散影响。",
+    "title": "Nvidia 危机、Google 新实验与 AI 生产力的真实账本：三件塑造本周 AI 叙事的大事",
     "paras": [
-      "Google 今日正式发布 Gemini 4 Carbon——一款以编码能力为核心亮点的模型，目前已在 Gemini App Ultra 订阅用户中全球上线。据 Dan Shipper 实测报道，Gemini 4 Carbon 在多项编码基准上超越了此前广受关注的 Claude Fable 5.1，Anthropic 的竞争优势正面临直接挑战。Swyx 在同一周内密集撰文分析这一变化，并将重点放在「Agent 为何偏爱 Resend」的企业邮件基础设施趋势上，侧面反映出 Google 与 Anthropic 之间的竞争已从纯模型性能扩展到整个开发者生态。",
-      "Claude 官方账号今天发布三条公告：Claude Data（原 Dashboards）现已在所有付费计划中正式可用；交互式连接器让用户可以直接在工作区内打开完整工具版本而非预览窗口；一系列新功能正在逐步部署 rollout 中。这些更新表明 Anthropic 正从单一对话界面转向更强调工作流整合的 Agent 操作系统路线，与 Google 的 Gemini 策略形成正面竞争格局。",
-      "Vercel CEO Guillermo Rauch 同步分享了 Vercel Security Review 的数据：自启动以来不到一周内已累计扫描超过五万七千条漏洞，进一步验证了 MCP 协议在企业安全审查中的实际落地能力。同时，Box CEO Aaron Levie 发表观点称 Agent Swarm（智能体集群）正驱动 AI 输出量迈向新台阶，预测 Agent 与企业文件的工作量将远超人类当前处理量的百倍，这为 AI 辅助编程和自动化提供了宏观注脚。"
+      "Nvidia CEO 黄仁勋近日陷入一系列争议，包括被指涉及不当行为及法国高管相关新闻。Peter Yang（ex-Google DeepMind）公开表达失望之情，称\"许多人包括我本人一直仰望他\"；Garry Tan（YC President）则谨慎表态，认为董事会贸然罢免黄仁勋并不明智，因其领导地位对 Nvidia 这一\"未来丰饶引擎\"至关重要。Matt Turck 跟进报道第二条法国高管消息，事件持续发酵中。",
+      "Google Labs 同步发布全新实验产品 Tabletop——一款面向团队协作的生成式工具，旨在帮助团队从\"我们该做点什么\"快速推进到实际执行阶段。Founding Engineer Roman Nurik 在推文中亲自演示了 Tabletop 如何在家庭场景中落地，标志着 Google 正在把 Gemini 能力进一步嵌入多用户协作工作流。与此同时，Vercel CEO Guillermo Rauch 发声提醒：即便 AI 工具日新月异，打造优秀产品的核心依然是人类的高度专注、努力与热爱，并附上了 Beam by Reflection（美国开源权重、零数据留存）限时免费的福利信息。",
+      "Every CEO Dan Shipper 在本周另一条刷屏推文中算了一笔账：用 Fable 5.2 在日程缝隙里完成的工作，\"相当于五个人加 20 万美元的成本\"。这条推文与本期播客主题形成互文——当 AI 能替代整个团队时，真正稀缺的是人的视角与判断力。Aditya Agarwal（ex-OpenAI）在同一天分享了另一个维度的思考：当下只有两类公司有搞头——一是 AI 扩散型（类似今天的垂直 SaaS），二是原生 AI 公司。这两条线索共同指向同一个问题：在这个时代，什么才是不可替代的人类价值？"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Latent Space：Designing for Agents — Zeno Rocha（Resend CEO）",
-    "meta": "2026-11-10 · Latent Space Podcast",
+    "title": "AI & I by Every：自动化之后，伟大的人类工作长什么样？",
+    "meta": "2026-11-11 · Every Podcast · Dan Shipper 闭幕演讲",
     "paras": [
-      "本期货物：Resend 创始人兼 CEO Zeno Rocha 做客 Latent Space，聊他如何从一个 VS Code 主题黑客成长为一家服务超 430 万用户的邮件基础设施平台的掌舵人。他们回顾了 Resend 超越 SendGrid 下载量的转折点，以及 Warner Bros、HBO 等头部客户带来的巨大业务冲击——某日本黑帮曾一口气注册两万个不同域名，而公司当时规模不过千万美元级别。",
-      "Zeno 透露团队正在推进底层基础设施的重构项目，虽然具体细节未明，但暗示未来将有重要公告。整期节目围绕「怎样为一个全新的 Agent 时代设计产品体验」展开，深入探讨了 AI-native 工具的交互范式、开发者友好性以及如何在激烈竞争中守住产品的品味和调性。"
+      "Every 上周举办了首届 V.C.S.S. 大会，汇聚 Anthropic、OpenAI、Notion、Lovable 等 speaker。CEO Dan Shipper 以闭幕演讲给出了他对\"自动化之后什么是好工作\"的回答：过去一周，他在日程缝隙中用 AI 完成了原本需要五个岗位（数据科学家、游戏开发者、营销人员、工程师、BDR）加起来约 20 万美元工作量的一切——分析季度客户调查、搭建视频游戏、编写 CRM 并主动触达客户。",
+      "但 Dan 的核心论点恰恰不是\"AI 太厉害了\"，而是反过来——当所有人都有同样的模型时，真正产生差异的是你带入模型的视角和责任。他以一个内部实验佐证：Head of Evals Mike Taylor 能 93% 的概率预测 Dan 会在 Slack 说什么，前提是 Claude 同时给出 400 个选项；但一旦要求 Claude 排序，Dan 真正会说的话只排在 Top 10% 里——换言之，生成是廉价的，排序才是难的。这个洞察贯穿整期节目：团队的价值不在于每个人重复默认答案，而在于不同视角各自点亮数据空间中不同的点。"
     ],
-    "url": "https://www.youtube.com/@LatentSpacePod"
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   "voices": {
     "label": "建造者观点",
@@ -32,67 +32,67 @@
         "name": "Dan Shipper",
         "handle": "danshipper",
         "org": "Every CEO",
-        "text": "Google 刚刚正式发布 Gemini 4 Carbon，实测编码能力全面超越 Claude Fable 5.1，这在开源社区引发了不小震动。我正在对这款新模型做 live vibe check，从初步感受来看它在复杂代码推理上的表现确实令人印象深刻。",
-        "url": "https://x.com/danshipper/status/2120294319773073919"
+        "text": "看着我用 Fable 5.2 在日程缝隙里做完的事，我想：这换作五年前得花五个人和 20 万美金。然后我看了一眼我的团队——他们做的也一样出色。这引出了一个更重要的问题：当 AI 让一切变廉价，什么才是真正的 alpha？",
+        "url": "https://x.com/danshipper/status/2120539547620790424"
       },
       {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "Vercel",
-        "text": "我终于问清楚了为什么我的 Agent 总是优先选择 Resend ——原来是因为 Zeno Rocha（Resend CEO）上周 keynote 里提到了一些关键设计决策，这些让我彻底重新理解了 Agent 时代的开发者工具选型逻辑。这是一条值得逐帧观看的 thread。",
-        "url": "https://x.com/swyx/status/2120260228902264872"
-      },
-      {
-        "name": "Josh Woodward",
-        "handle": "joshwoodward",
-        "org": "ex-@GoogleDeepMind",
-        "text": "Gemini 4 Carbon 现在已经向所有 Gemini App Ultra 订阅用户全球开放。这是 Google 首次在端侧消费者产品中大规模推出碳基优化版本，意味着高性能编码模型的普及门槛正在快速下降。",
-        "url": "https://x.com/joshwoodward/status/2120186249281778135"
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "Agent Swarm（多智能体集群）有望推动 AI 产出量实现又一次跃升。Agent 处理企业文件的工作量将是人类目前的百倍——这不是推测，而是正在发生的架构迁移。软件吞噬世界的故事正以指数级速度重演。",
-        "url": "https://x.com/levie/status/2120385739342897469"
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "org": "Founder / ex-OpenAI",
+        "text": "现在基本上只有两类公司值得建：第一类是 AI 扩散型——就是把现有软件加上 AI 功能（今天的\"垂直 SaaS\"）；第二类是原生 AI 公司。前者门槛越来越低，后者才是真正的护城河。",
+        "url": "https://x.com/adityaag/status/2120578134177464356"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "org": "Vercel CEO",
-        "text": "Rust 依然是当前最强大的语言与生态系统之一，即便它诞生于 AI 概念出现之前。Vercel Security Review 上线不到一周已发现五万七千多条漏洞——这证明了一个事实：当开放标准遇上自动化工具，企业的技术债无处遁形。",
-        "url": "https://x.com/rauchg/status/2120337388178379178"
+        "text": "PSA：做出优秀产品依然需要异常大量的人类专注、努力和热爱，以及一个不被 AI 分散的注意力跨度。另外，Beam by Reflection（美国开源权重、零数据留存）到 11/12 免费，值得试试。",
+        "url": "https://x.com/rauchg/status/2120601000176439478"
       },
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "创新最好的方式就是大家一起动手一起做 Labs。OpenAI Dots 也在扩展支持多种机器类型控制——这是 Agent 硬件集成的又一个标志性信号。",
-        "url": "https://x.com/thsottiaux/status/2120266880963473789"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "ex-Google DeepMind",
+        "text": "我对 Jensen 真的非常失望。这么多人都仰慕他，包括我在内。他从洗碗工和服务员一路爬到 Nvidia CEO 的故事曾经激励了无数人。作弊是可耻的，但因为这被开除又似乎是另一回事——董事会在行动前应该先看看全貌。",
+        "url": "https://x.com/petergyang/status/2120649149389627493"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "YC President",
+        "text": "鉴于黄仁勋的领导对 Nvidia 这家\"我们未来丰饶引擎\"的运营有多核心，Nvidia 董事会想要罢免他看起来是个不明智的决定。这种人事变动对整个 AI 基础设施生态都会有连锁影响。",
+        "url": "https://x.com/garrytan/status/2120657462353330604"
       },
       {
         "name": "Nikunj Kothari",
         "handle": "nikunj",
         "org": "Founder @Wrap",
-        "text": "用 Fable 做一个 Wrap2026 的一次性爆款视频！把 prompt 丢进去之后，生成的内容让人忍不住说哇——这就是 AI 创作力的缩影：从一个想法到成品只需几分钟，而不是几周。",
-        "url": "https://x.com/nikunj/status/2120165833993322497"
+        "text": "我爬取了 803 家公司的子处理器数据，想搞清楚 AI native 公司到底都在用什么基础设施。有意思的发现是，大多数公司在关键依赖上并没有想象中那么分散风险。如果你在做相关方向，欢迎 DM。",
+        "url": "https://x.com/nikunj/status/2120669243918418237"
       },
       {
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
         "org": "Product Leader",
-        "text": "用户不回来你的产品，20% 是因为他们没有理解它的价值。分享一条建议：不要等产品做完了再开始展示，先分享再迭代，让受众参与进来——这才是 building in public 的真谛。",
-        "url": "https://x.com/zarazhangrui/status/2120235104194932841"
+        "text": "\"技术最重要的使命完成之时，就是观众遗忘技术本身之日。\" 这句话值得反复咀嚼——真正伟大的产品最终会变成空气，你感受不到它的存在。",
+        "url": "https://x.com/zarazhangrui/status/2120429971718156375"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "周四的感觉很 Codexy。也许也是时候重置一下了。好久没有 reset 了，可能该从地下室出来了。",
+        "url": "https://x.com/thsottiaux/status/2120410480204525936"
       }
-     ]
+    ]
   },
   "blog": {
     "label": "官方博客",
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 15 位建造者 · 32 条 X 动态 · 1 期播客",
-    "coverage": "覆盖 15 位建造者，32 条 X 动态，1 期播客，无博客更新",
-    "generatedAt": "2026-11-12T10:00:00+08:00"
+    "source": "follow-builders feed · 16 位建造者 · 32 条 X 动态 · 1 期播客",
+    "coverage": "覆盖 16 位建造者，32 条 X 动态，1 期播客，无博客更新",
+    "generatedAt": "2026-11-13T10:00:00+08:00"
   }
 }
