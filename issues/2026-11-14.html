@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月14日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026319</span><span>2026年11月14日 · 星期六</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">黄仁勋丑闻持续发酵震动 AI 圈 · Google 发布 Gemini 4 Hydrogen · Claude Meetings 正式上线</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Nvidia 治理危机、Gemini 4 Hydrogen 发布与 Claude Meetings 上线：三件重塑本周叙事的大事</h1>
+      <p>黄仁勋丑闻仍在发酵，这一事件已远超普通高管争议，开始触动整个 AI 基础设施生态的心弦。Matt Turck（FirstMark）在推文中算了一笔账：AI 行业同时失去了一位中央银行家（危机时的最后贷款人）、最活跃的风险投资人，以及最大胆的并购玩家——而这些特质只有创始人级别的CEO才能兼备。Aaron Levie（Box CEO）连发两条推文表达痛心："没有 Jensen，我们不会有今天""这太混乱了"。Amjad Masad（Replit CEO）则指出了政治层面的讽刺：主导 Jensen 外国关联调查的议员本人曾穿着外国军装出现在国会。整条线索指向同一个问题：当 AI 行业的"中央 banker"倒下，谁来为这个过度依赖单点的生态兜底？</p>
+          <p>与此同时，Google 正式发布 Gemini 4 Hydrogen，并同步推出 Tabletop 多人协作实验工具。Josh Woodward（Google Labs VP）在 X 上以 "Gemini, now from your point of view" 为主题展示新产品，单条推文获得 976 赞、88 转发、45 评论，热度极高。Box CEO Aaron Levie 给出了首个第三方实测数据：Hydrogen 在 Box AI Complex Work Eval 上的准确率比 Gemini 3.8 Flash 高出 5 个百分点，且完成时间不到一半、token 消耗减少约 12%。Levie 表示 Hydrogen 将很快在 Box AI Studio 向所有客户开放，这意味着企业用户可以在几周内用新模型搭建自定义 Agent。</p>
+          <p>Anthropic 方面，Claude Meetings 宣布首批支持 Google Meet，随后正式推出会议纪要、行动项与转录自动生成功能。Thibault Sottiaux（Codex &amp; ChatGPT @OpenAI）在社区征集 Codex 改进方向，单条推文获 5486 赞、7891 条评论，热度惊人；同团队还宣布了针对网络安全的新工具：自动化漏洞补丁与自动化红队对抗。Peter Steinberger（OpenAI OpenClaw 负责人）透露其团队正在研究如何在 OpenAI 内部运行持久化 Agent。这三个信号共同指向一个趋势：AI Agent 正在从"单轮对话工具"演进为"可驻留、可执行、可审计"的工作伙伴。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>No Priors：用 AI 治愈癌症——Isomorphic Labs 总裁 Max Jaderberg 谈药物发现的预测革命</h2>
+      <div class="meta-line">2026-11-12 · No Priors Podcast · Max Jaderberg（前 DeepMind 机器学习博士）</div>
+      <p>Isomorphic Labs 由 Alphabet 赞助、DeepMind 联合创始人 Demis Hassabis 参与创立，目标是"解决所有疾病"。总裁 Max Jaderberg 在 No Priors 播客中指出，当前制药行业的核心失败在于临床阶段才暴露毒性问题——"我们直到把药放进病人体内，才发现之前根本没看到的问题。"</p>
+          <p>Jaderberg 对未来五年持谨慎态度：即使再过五年，他对疾病生物学理解力的"阶跃式突破"仍感到失望。但他也承认，把药物发现全流程搬到计算机上，是这个行业最大的机会所在。这位 DeepMind 出来的学者如今正站在 AI 与生物医药交叉的最前沿，他的判断为整个 AI for Science 赛道提供了一个难得的长期视角。</p>
+      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">如何改进 Codex？请不要说"更好的模型"。这条提问引发了一场热烈的社区讨论，5486 赞、7891 条评论说明大家都在渴望听到非模型维度的答案。 <a class="read-more" href="https://x.com/thsottiaux/status/2121062974161092792" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · Replit CEO</span>
+              
+            </div>
+            <p class="voice-quote">主导 Jensen 外国关联调查的美国议员，正是那个曾在国会穿着外国军装的人。他可是外国关联方面的专家。与此同时，Replit Agent 新增功能：可以直接帮你的业务买东西，包括投放广告获取新客户。 <a class="read-more" href="https://x.com/amasad/status/2121081862659739870" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">Agent 时代会怎样对待框架？组件库？shadcn？答案是：我们需要挖得更深。删除局部，优化加速， Automate。UI SDK 就像 Agent 时代的 x86 指令集——Agent 是新设计工程师，它们能为你构建任何你想要的 UI。真正强大的东西不再受限于单一框架，而是可无限生成的行为包。 <a class="read-more" href="https://x.com/rauchg/status/2120966768483262648" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap</span>
+              
+            </div>
+            <p class="voice-quote">失去 Jensen，AI 生态同时失去：它的央行行长（最后的贷款人）、最活跃的投资人、最大胆的收购者。这些只有创始人级别的动作才能做到。这是对整个 AI 基础设施层的一次深刻考验。 <a class="read-more" href="https://x.com/mattturck/status/2120951444526264388" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · Box CEO</span>
+              
+            </div>
+            <p class="voice-quote">这是个大新闻。我们用 Gemini 4 Hydrogen 做了 Box AI Complex Work Eval 早期测试，这是个真正的跳跃。准确率比 Gemini 3.8 Flash 高 5 个百分点，更重要的是：完成任务的时间不到一半，token 消耗减少约 12%。这对企业级复杂文档任务意义重大，Hydrogen 即将在 Box AI Studio 全面开放。 <a class="read-more" href="https://x.com/levie/status/2120947988143198302" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Alex Albert</span>
+              <span class="voice-handle">@alexalbert__ · Research @AnthropicAI</span>
+              
+            </div>
+            <p class="voice-quote">让 Claude 产出的工作质量变高的关键，往往是找到它缺失的上下文并补齐这个缺口。Claude Meetings 就是一种方式——它能自动带入会议内容，内部实测非常有用。这是一个关于'如何让 AI 做对事'的方法论分享。 <a class="read-more" href="https://x.com/alexalbert__/status/2120983722182988206" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Steinberger</span>
+              <span class="voice-handle">@steipete · OpenAI / OpenClaw</span>
+              
+            </div>
+            <p class="voice-quote">我们的团队写了一篇关于如何在 OpenAI 内部运行持久化 Agent 的文章。持久 Agent 是下一代 AI 产品的核心竞争力之一——能在不同会话间保持记忆和状态，是 Agent 从玩具变成工具的必经之路。 <a class="read-more" href="https://x.com/steipete/status/2121058770767982997" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">大家都在讨论"蜜罐"（honeypot）！但真正的不忠是什么？美国告诉 Nvidia：你必须忠于国家安全，不能向中国出售最强芯片。但同时又说：你是美国资本主义的英雄！卖尽可能多的芯片！Jensen 两边都顺从了。系统本身就想要两个不相容的东西，现在被抓个正着并不意外。这才是真正的不忠。 <a class="read-more" href="https://x.com/danshipper/status/2121036252350972222" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 16 位建造者 · 38 条 X 动态 · 1 期播客 · 1 篇博客</strong><br>
+      覆盖 16 位建造者，38 条 X 动态，1 期播客，1 篇官方博客<br>
+      生成于 2026-11-14T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
