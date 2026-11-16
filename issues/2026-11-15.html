@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月15日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026320</span><span>2026年11月15日 · 星期日</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">AI圈集体为黄仁勋发声 · Vercel发布工作流SDK 5 · NIKUNJ批评benchmark内卷</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>standwithjensen运动席卷AI圈，Vercel推Agent工作流新工具，FAA全国停机引发关注</h1>
+      <p>黄仁勋事件引发的连锁反应持续扩大。Y Combinator总裁Garry Tan、Replit CEO Amjad Masad、Vercel CEO Guillermo Rauch等顶级创业者集体签名支持'Stand with Jensen'声明，最高赞推文突破3392赞。Garry Tan明确表示'Jensen应获得正当程序，而非当前正在发生的一切'。Amjad Masad不仅签名，还动手帮忙把StandWithJensen页面的限频上限调高，确保页面能承载汹涌的人潮。这场由AI基础设施层核心人物发起的声援行动，折射出整个行业对司法程序正义的普遍焦虑——他们支持的不仅是一个人，而是支撑整个生态的规则底线。</p>
+          <p>Vercel方面发布了Workflow SDK 5，重点改进Agent的时间效率：首步骤响应和步骤间隔大幅缩短，同时强化了加密安全。更重要的是，团队推出了durable-harness项目，将底层持久化日志抽象为可复用模块，任何Agent框架都能直接集成。这被视为Agent从实验品走向生产力的关键一步——可靠的执行链才是商业化的基础。</p>
+          <p>美国 FAA 今天实施了全国性机场地面停机，这是现代历史上第三次（前两次分别是9·11和2023年NOTAM系统故障）。Nikunj Kothari（FPV Ventures合伙人）在推文中吐槽' Happy Friday the 13th to all the agents celebrating 💀'，暗讽这种异常状况下AI Agent反而更加凸显了人类系统的不稳定性。与此同时，Peter Yang分享了关于Alice Huang调查的新闻——新证据显示现有报道存在严重问题，尽管WSJ已经下了定论，但新加坡政府已做出回应澄清。整条线索指向同一个问题：当媒体速度跑在法律程序前面，真相往往会被牺牲。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Training Data：Ronak谈如何让每个普通人都能做AI模型迭代</h2>
+      <div class="meta-line">2026-11-05 · Training Data Podcast · Ronak（Trajectory创始人）</div>
+      <p>Trajectory的核心思路是把训练、评估和部署放在同一个平台里，让每个人都能轻易上传自己的数据、微调模型并直接推送到生产环境。Ronak用苹果早期的产品哲学做类比：当年没有人想到把上网功能和打电话功能合并在一个手持设备上，直到苹果做出了那个决定。</p>
+          <p>他认为未来每个公司都会采用类似范式——用户不再需要懂机器学习，只需要把自己的数据和目标告诉平台，剩下的闭环由系统自动完成。这个方向的关键不在于模型多强，而在于是否真的降低了普通人参与AI创新的门槛。</p>
+      <a class="read-more" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · Vercel CEO</span>
+              
+            </div>
+            <p class="voice-quote">我签了#standwithjensen。Jensen值得正当程序，不是现在正在发生的那种处理方式。这条推文获得了3392赞，是今天数据中最高的声音之一。 <a class="read-more" href="https://x.com/rauchg/status/2121351007615811799" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">Jensen deserves due process, not whatever is happening right now. I signed. #standwithjensen — YC总裁Garry Tan的签名推文获得2017赞和122转发。他还同时公开了自己的开源Harness评测仓库，发现了一些值得关注的结论。 <a class="read-more" href="https://x.com/garrytan/status/2121462697787342932" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · Replit CEO</span>
+              
+            </div>
+            <p class="voice-quote">我联系了StandWithJensen页面的作者，帮他把限频上调了，现在应该能承载更多流量。#standwithjensen ——Amjad这条带有实际行动的签名获得了1270赞。另外他还宣布Replit与Visa在Agentic Commerce方向的深度合作即将有更多功能上线。 <a class="read-more" href="https://x.com/amasad/status/2121389001546567837" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Partner @FPVventures</span>
+              
+            </div>
+            <p class="voice-quote">我以为Llama 4之后benchmark刷分已经结束了……看来卡特尔卷土重来。真正重要的benchmark寥寥无几，其余基本都是 posture 或营销。只有真正在用模型工作的人才知道哪些数字有意义。另外，今天是FAA全国停飞的第三个历史案例，Happy Friday the 13th给所有庆祝的agents 💀 <a class="read-more" href="https://x.com/nikunj/status/2121320899161010360" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI教育创作者</span>
+              
+            </div>
+            <p class="voice-quote">分享了一个用AI对抗疾病的实用工具：把病人医疗记录上传到Google Drive，然后用ChatGPT或Claude安装/fuck-cancer技能，自动生成病情简报并研究临床试验。这是一个非常实用的公民级AI应用案例。另一条推文指出，关于Alice Huang的调查报道仍存疑点，新加坡政府已出面澄清。鼓励读者自己做research，不要轻信媒体报道。 <a class="read-more" href="https://x.com/petergyang/status/2121430386685395022" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · Y Combinator President &amp; CEO</span>
+              
+            </div>
+            <p class="voice-quote">在Claude Code里继续使用Opus 5.5作为编码默认模型。测试52个任务，Fable 5.2解决了约同样多的任务（82.7% vs 84.6%），但每个完成任务的成本是Opus的2.8倍。大多数任务Opus本身就能解决，区分两者需要更难的题目。这条横向对比非常有参考价值。 <a class="read-more" href="https://x.com/garrytan/status/2121464508225053153" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">为什么团队即使在Fable 5.2能'氛围编程'一切的情况下，仍然要为软件付费？这是一篇深度分析文章，探讨AI时代软件价值链条的重构。他的日常musing也提到'AI最重要的公式'，引发不少讨论。 <a class="read-more" href="https://x.com/danshipper/status/2121248233510818003" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC, Ex-Dropbox CTO</span>
+              
+            </div>
+            <p class="voice-quote">We are in an extremely weird timeline right now. ——这句话简短却精准地概括了当下AI行业的整体情绪。另一个信号是他点赞了SPC投资组合中的AI 100名单，包括Baseten、Render、Replit等公司。 <a class="read-more" href="https://x.com/adityaag/status/2121372222292201767" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 9 位建造者 · 21 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 9 位建造者，21 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-15T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

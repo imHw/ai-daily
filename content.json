@@ -1,105 +1,98 @@
 {
   "issue": {
-    "vol": "2026319",
-    "date": "2026年11月14日",
-    "weekday": "星期六",
-    "dateISO": "2026-11-14",
-    "tagline": "黄仁勋丑闻持续发酵震动 AI 圈 · Google 发布 Gemini 4 Hydrogen · Claude Meetings 正式上线"
+    "vol": "2026321",
+    "date": "2026年11月16日",
+    "weekday": "星期一",
+    "dateISO": "2026-11-16",
+    "tagline": "Box CEO研判Agent加速逻辑 · Gemini接入钱包做理财分析 · uisdk+Argon两句话出音乐App"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Nvidia 治理危机、Gemini 4 Hydrogen 发布与 Claude Meetings 上线：三件重塑本周叙事的大事",
+    "title": "Aaron Levie发长推：agent时代的工作方式正在被重写；Gemini钱包功能上线，UI SDK展示两句话生成应用",
     "paras": [
-      "黄仁勋丑闻仍在发酵，这一事件已远超普通高管争议，开始触动整个 AI 基础设施生态的心弦。Matt Turck（FirstMark）在推文中算了一笔账：AI 行业同时失去了一位中央银行家（危机时的最后贷款人）、最活跃的风险投资人，以及最大胆的并购玩家——而这些特质只有创始人级别的CEO才能兼备。Aaron Levie（Box CEO）连发两条推文表达痛心：\"没有 Jensen，我们不会有今天\"\"这太混乱了\"。Amjad Masad（Replit CEO）则指出了政治层面的讽刺：主导 Jensen 外国关联调查的议员本人曾穿着外国军装出现在国会。整条线索指向同一个问题：当 AI 行业的\"中央 banker\"倒下，谁来为这个过度依赖单点的生态兜底？",
-      "与此同时，Google 正式发布 Gemini 4 Hydrogen，并同步推出 Tabletop 多人协作实验工具。Josh Woodward（Google Labs VP）在 X 上以 \"Gemini, now from your point of view\" 为主题展示新产品，单条推文获得 976 赞、88 转发、45 评论，热度极高。Box CEO Aaron Levie 给出了首个第三方实测数据：Hydrogen 在 Box AI Complex Work Eval 上的准确率比 Gemini 3.8 Flash 高出 5 个百分点，且完成时间不到一半、token 消耗减少约 12%。Levie 表示 Hydrogen 将很快在 Box AI Studio 向所有客户开放，这意味着企业用户可以在几周内用新模型搭建自定义 Agent。",
-      "Anthropic 方面，Claude Meetings 宣布首批支持 Google Meet，随后正式推出会议纪要、行动项与转录自动生成功能。Thibault Sottiaux（Codex & ChatGPT @OpenAI）在社区征集 Codex 改进方向，单条推文获 5486 赞、7891 条评论，热度惊人；同团队还宣布了针对网络安全的新工具：自动化漏洞补丁与自动化红队对抗。Peter Steinberger（OpenAI OpenClaw 负责人）透露其团队正在研究如何在 OpenAI 内部运行持久化 Agent。这三个信号共同指向一个趋势：AI Agent 正在从\"单轮对话工具\"演进为\"可驻留、可执行、可审计\"的工作伙伴。"
+      "Box CEO Aaron Levie 连发长推，核心观点是：AI 模型在编程、工具使用、数学等认知任务上会持续变强，而 agent 恰好擅长这些——因此 agent 领域的进步速度将超过其他知识工作范畴。他进一步指出一个反直觉的判断：不是只有少数工作会被自动化，而是越来越多的工作会被「编码化」来适应 agent 的能力，最终呈现为动画视频、游戏、3D 模型甚至 Cyber/生命科学/金融等领域的应用。这意味着软件价值不再取决于模型知道多少知识，而在于它能否高效地驱动工具、产生可执行的代码输出。",
+      "Google 方面，Josh Woodward（@GoogleLabs @GeminiApp）宣布 Google Wallet 深度集成已面向美国 Gemini App 用户开放。用户可以即时生成本月消费图表、追踪订阅涨价、基于去年实际支出规划假期预算——这对消费者财务透明度的切入角度非常具体，也是 Gemini 从通用助手走向场景化个人助理的关键一步。",
+      "Vercel CEO Guillermo Rauch 分享了自己用 uisdk + Gemini Argon 在两句话提示词内搭出一个完整 Web Component 音乐控制台的体验，agent 自动复用了窗口缩放、拖拽、菜单悬停切换、typeahead、漫游焦点、10 段 EQ 滑块等 14 个组件行为，全程无框架依赖，仅靠纯 Web Components 完成，并配 Suno 生成的 BGM。同时他提到用 smart model 规划 + fast model 子 agent 协作的架构模式，把项目拆成一行指令委托给子 agent 执行，这种分层代理范式正成为生产级 Agent 的标准做法。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "No Priors：用 AI 治愈癌症——Isomorphic Labs 总裁 Max Jaderberg 谈药物发现的预测革命",
-    "meta": "2026-11-12 · No Priors Podcast · Max Jaderberg（前 DeepMind 机器学习博士）",
+    "title": "Unsupervised Learning Ep 97：Jeb Creator 谈决策建模、基准疲劳，以及大模型实验室为何错过了什么",
+    "meta": "2026-11-05 · Redpoint AI · Jeb（TypeSave CEO）",
     "paras": [
-      "Isomorphic Labs 由 Alphabet 赞助、DeepMind 联合创始人 Demis Hassabis 参与创立，目标是\"解决所有疾病\"。总裁 Max Jaderberg 在 No Priors 播客中指出，当前制药行业的核心失败在于临床阶段才暴露毒性问题——\"我们直到把药放进病人体内，才发现之前根本没看到的问题。\"",
-      "Jaderberg 对未来五年持谨慎态度：即使再过五年，他对疾病生物学理解力的\"阶跃式突破\"仍感到失望。但他也承认，把药物发现全流程搬到计算机上，是这个行业最大的机会所在。这位 DeepMind 出来的学者如今正站在 AI 与生物医药交叉的最前沿，他的判断为整个 AI for Science 赛道提供了一个难得的长期视角。"
+      "这期节目的核心争论围绕 Anthropic IPO 前的估值校准与 AI 能力预期展开。Jeb 认为当前市场对 Claude 及其背后的技术路线存在一些系统性误读，尤其是关于'让 AI 治愈癌症'这类宏大叙事，他直言不讳地将其比作玛丽·安托瓦内特的'让他们吃蛋糕'——听起来美好但脱离现实约束。",
+      "Jeb 还回顾了 JEV（他的开源基准测试项目）发布一个月后的反思：早期结果不如预期，但这让他更清晰地意识到真正需要解决的问题类型，以及如何在评测设计层面减少噪声。他强调 benchmark 疲劳正在蔓延，行业需要回归到那些真正反映实际工作负载的数字，而非姿态性的排名竞赛。"
     ],
-    "url": "https://www.youtube.com/@NoPriorsPodcast"
+    "url": "https://www.youtube.com/@RedpointAI"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "text": "如何改进 Codex？请不要说\"更好的模型\"。这条提问引发了一场热烈的社区讨论，5486 赞、7891 条评论说明大家都在渴望听到非模型维度的答案。",
-        "url": "https://x.com/thsottiaux/status/2121062974161092792"
-      },
-      {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "org": "Replit CEO",
-        "text": "主导 Jensen 外国关联调查的美国议员，正是那个曾在国会穿着外国军装的人。他可是外国关联方面的专家。与此同时，Replit Agent 新增功能：可以直接帮你的业务买东西，包括投放广告获取新客户。",
-        "url": "https://x.com/amasad/status/2121081862659739870"
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "org": "CEO @Box",
+        "text": "AI 模型将在编程、工具使用和数学等任务上持续变强，agent 会更快进化——这不是因为模型更聪明，而是因为越来越多工作被'编码化'以适配 agent 能力。真正能产生价值的组合是：让 agent 熟练使用现有软件 + 拥有领域深度判断力。当这两者结合时，几乎所有知识工作都会被解锁。",
+        "url": "https://x.com/levie/status/2121686564078297461"
       },
       {
         "name": "Guillermo Rauch",
         "handle": "rauchg",
-        "org": "Vercel CEO",
-        "text": "Agent 时代会怎样对待框架？组件库？shadcn？答案是：我们需要挖得更深。删除局部，优化加速， Automate。UI SDK 就像 Agent 时代的 x86 指令集——Agent 是新设计工程师，它们能为你构建任何你想要的 UI。真正强大的东西不再受限于单一框架，而是可无限生成的行为包。",
-        "url": "https://x.com/rauchg/status/2120966768483262648"
+        "org": "CEO @Vercel",
+        "text": "用 uisdk + Gemini Argon，两句话提示词直接搭出一个完整的 Web Components 音乐控制台，agent 自动复用了 14 个开箱即用的 UI 行为——窗口缩放、拖拽、菜单悬停切换、typeahead、10 段 EQ 滑块、Aria 无障碍等，零框架依赖。同时提到自己的项目全部采用 smart model 规划 + fast model 子 agent 协作架构，一行指令就能委托出去，极度高效。",
+        "url": "https://x.com/rauchg/status/2121804295381377342"
       },
       {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "org": "VC @FirstMarkCap",
-        "text": "失去 Jensen，AI 生态同时失去：它的央行行长（最后的贷款人）、最活跃的投资人、最大胆的收购者。这些只有创始人级别的动作才能做到。这是对整个 AI 基础设施层的一次深刻考验。",
-        "url": "https://x.com/mattturck/status/2120951444526264388"
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "org": "CEO @Replit",
+        "text": "发布了自主企业平台 Autonomous Business，同时将技术演进置于 Douglas Engelbart 的递归自我改进框架下理解——AI 只是加速器，自主性提升是大势所趋。另一条推文指出我们已进入'Murphy 世界'：数十亿事件同时发生、递归互依且加速迭代，曾经的罕见故障现已成为日常，系统脆弱性被指数级放大。",
+        "url": "https://x.com/amasad/status/2121765647168483589"
       },
       {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "org": "Box CEO",
-        "text": "这是个大新闻。我们用 Gemini 4 Hydrogen 做了 Box AI Complex Work Eval 早期测试，这是个真正的跳跃。准确率比 Gemini 3.8 Flash 高 5 个百分点，更重要的是：完成任务的时间不到一半，token 消耗减少约 12%。这对企业级复杂文档任务意义重大，Hydrogen 即将在 Box AI Studio 全面开放。",
-        "url": "https://x.com/levie/status/2120947988143198302"
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "org": "President & CEO @Y Combinator",
+        "text": "Aside Browser 是让每个 AI agent 都获得浏览器能力的重大突破。同时分享了 FAA 全国停机事件的反思：纸图、铜线和落后系统缺乏现代软件兜底，无法服务民众，必须推进 FAA 现代化。还展示了如何用 GBrain 辅助完成一系列复杂任务的实践路径。",
+        "url": "https://x.com/garrytan/status/2121824006819258485"
       },
       {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "org": "Research @AnthropicAI",
-        "text": "让 Claude 产出的工作质量变高的关键，往往是找到它缺失的上下文并补齐这个缺口。Claude Meetings 就是一种方式——它能自动带入会议内容，内部实测非常有用。这是一个关于'如何让 AI 做对事'的方法论分享。",
-        "url": "https://x.com/alexalbert__/status/2120983722182988206"
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "org": "VP @Google @GoogleLabs @GeminiApp",
+        "text": "Gemini App 新增 Google Wallet 深度集成，已在美国用户中开放。支持即时生成消费可视化图表、发现订阅价格悄悄上涨、基于去年实际支出规划假日预算——把泛泛的智能助手带入了具体可操作的财务管理场景。",
+        "url": "https://x.com/joshwoodward/status/2121755282326102417"
       },
       {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "org": "OpenAI / OpenClaw",
-        "text": "我们的团队写了一篇关于如何在 OpenAI 内部运行持久化 Agent 的文章。持久 Agent 是下一代 AI 产品的核心竞争力之一——能在不同会话间保持记忆和状态，是 Agent 从玩具变成工具的必经之路。",
-        "url": "https://x.com/steipete/status/2121058770767982997"
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "text": "OpenAI Codex 团队发起 Daybreak 计划公开反馈征集，涵盖模型选择、Codex 插件生态、蓝红对抗测试、文档完善度及防御工厂建设方向，邀请社区共同参与产品打磨。这条推文获得 737 赞和 534 条评论互动。",
+        "url": "https://x.com/thsottiaux/status/2121845965997101118"
       },
       {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "org": "CEO @Every",
-        "text": "大家都在讨论\"蜜罐\"（honeypot）！但真正的不忠是什么？美国告诉 Nvidia：你必须忠于国家安全，不能向中国出售最强芯片。但同时又说：你是美国资本主义的英雄！卖尽可能多的芯片！Jensen 两边都顺从了。系统本身就想要两个不相容的东西，现在被抓个正着并不意外。这才是真正的不忠。",
-        "url": "https://x.com/danshipper/status/2121036252350972222"
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "org": "AI 教育创作者",
+        "text": "分享两个 Fable 5.2 实用 prompt：`/doctor prompt-audit` 审计 Claude Code 整体配置并提出修复建议，`/claude-api prompt-audit [skill名]` 对单个 skill 深入检查。希望 Claude Code 能在 Anthropic 发新版模型时自动推荐运行这两个命令，大幅降低调试门槛。",
+        "url": "https://x.com/petergyang/status/2121649295950762363"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "org": "Partner @FPV Ventures",
+        "text": "推荐了一份 2026 创业必读书单，覆盖从产品到组织的多个维度，适合在快速变化中寻找锚点的创业者参考阅读。",
+        "url": "https://x.com/nikunj/status/2121640157443215824"
       }
     ]
   },
   "blog": {
     "label": "官方博客",
-    "items": [
-      {
-        "name": "OpenAI Engineering",
-        "title": "如何在 OpenAI 内部运行持久化 Agent",
-        "summary": "OpenAI 团队分享了在内部部署持久化 Agent 的经验：Agent 需要在不同会话之间保持状态、记忆和用户上下文，这是从聊天机器人进化到真正工作伙伴的关键一步。文章讨论了架构选型、安全性控制和实际落地中的陷阱。",
-        "url": "https://x.com/steipete/status/2121058770767982997"
-      }
-    ]
+    "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 16 位建造者 · 38 条 X 动态 · 1 期播客 · 1 篇博客",
-    "coverage": "覆盖 16 位建造者，38 条 X 动态，1 期播客，1 篇官方博客",
-    "generatedAt": "2026-11-14T10:00:00+08:00"
+    "source": "follow-builders feed · 13 位建造者 · 26 条 X 动态 · 1 期播客 · 0 篇博客",
+    "coverage": "覆盖 13 位建造者，26 条 X 动态，1 期播客，0 篇博客",
+    "generatedAt": "2026-11-16T10:00:00+08:00"
   }
 }
