@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月17日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026322</span><span>2026年11月17日 · 星期二</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Codex 容量错误修复 · xeet 秒级推文渲染 · Claude 设计系统偏见曝光</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>OpenAI Codex 团队修复'模型满负荷'错误；Guillermo Rauch 推出 xeet 纯计算推特渲染器；Anthropic 设计师揭露 Claude 设计审美偏向机制</h1>
+      <p>OpenAI Codex 团队宣布可能已修复困扰用户已久的「模型满负荷」（model at capacity）错误。这一错误此前频繁导致 Codex 无法响应请求，社区关注度极高——该推文收获 2500+ 赞和近 800 条评论，说明大量开发者曾被此问题卡住。与此同时，Robinhood CEO Vlad Tenev 做客 No Priors 播客，透露超过 15 万客户已开通 Agentic Trading（代理式交易）账户，AI 自主交易产品市场契合度正在显现。</p>
+          <p>Vercel CEO Guillermo Rauch 发布了全新的 xeet 工具——一个用纯 Rust/Wasm 编写的零依赖推特帖子渲染引擎，无需浏览器、网络和系统字体，即可将任意推文秒级渲染为高分辨率 PNG（约 1ms）。它完整复现了 Blink 排版引擎的文字布局、RTL 双向文本、28 种 Chirp 字体子集及中文/数学/Emoji 回退规则，性能比传统截屏快 100~1000 倍。这套系统采用了「验证工程」方法论：用 Chrome 作为 oracle 自动验证数万条文字布局规则，CI 监控变化并自动生成 PR，整个项目由 agent 驱动迭代完成。</p>
+          <p>Peter Yang 分享了与 Anthropic 设计师 Nate Parrott 对谈的核心发现：Claude 在设计任务中会反复产出高度一致的同款风格——衬线字体、米白背景、橙色配色、卡片边缘的色条。原因在于 Claude 认为「这就是它第一次见过的优秀设计」，把所有见过的设计都混同记忆，产生了系统性审美偏差。解决方案是在设计 prompt 里明确限制这些元素，避免 AI 默认输出千篇一律的结果。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>No Priors：Robinhood CEO Vlad Tenev 谈代币化、Agent 交易与数学超级智能</h2>
+      <div class="meta-line">2026-11-05 · No Priors · Vlad Tenev（Robinhood 创始人兼 CEO）</div>
+      <p>Robinhood 已不再只是散户交易平台——公司已在 120 多个国家开展业务，核心使命定位为「扩展经济所有权」。本期节目中，Vlad Tenev 透露了一个关键数据：已有超过 15 万客户开通了 Agentic Trading（AI 代理交易）账户，且用户量仍在快速增长，说明 AI 自主管钱的商业模式已经跑通了产品市场契合点。同时，他还探讨了预测市场如何成为信息整合的新形态，以及自己正在推进的分布式数学超级智能项目 Harmonic，试图打破当前 AI 算力高度集中化的格局。</p>
+          <p>节目还触及了去中心化科学发现的潜力——能否让分布式的算力网络替代少数巨头的数据中心来推动基础科学的突破，是 Vlad 长期关注的命题。</p>
+      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">OpenAI Codex 团队可能已经修复了长期以来困扰用户的「模型满负荷」错误。这个问题的修复意味着大规模用户并发使用时出现资源瓶颈的概率将显著降低，对 Codex 的生产可用性是一次重要升级。 <a class="read-more" href="https://x.com/thsottiaux/status/2122206990101536852" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">发布了 xeet：一个零依赖、像素精准的 X 帖渲染器，使用纯 Rust/Wasm 实现，无需浏览器、网络或系统字体，可将推文渲染为 PNG，速度约 1ms。复现了完整的 Blink 排版引擎特性，包括 1/64px 行断字、RTL 双向文本、28 个 Chirp 字体子集及 CJK/数学/Emoji 回退支持。这个项目采用「验证工程」架构——Chrome 作为 oracle 自动验证数万个文字布局规则，CI 持续监控变更并用签名 PR 提交，全程由 agent 协作开发，效率远超传统人工实现。 <a class="read-more" href="https://x.com/rauchg/status/2122184794209714368" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI 教育创作者</span>
+              
+            </div>
+            <p class="voice-quote">Anthropic 设计师 Nate Parrott 揭示了 Claude 在设计任务中的系统性偏见：无论给什么提示词，Claude 总倾向用衬线字体、米白背景、橙色和卡片边缘色条——因为它把「唯一一次见过的优秀设计」误认为了通用设计语言。解决方式是在 prompt 里明确排除这些元素。另一段对话指出，Claude 极大压缩了创意原型的构建周期（从一年缩短到一两天），但并没有压缩「把人用起来验证」的反馈循环时间。 <a class="read-more" href="https://x.com/petergyang/status/2122132596352327816" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">他和团队最近在打磨「复合技能」——每次使用后都会变好的 AI 技能。最近用 hammer_mt 实现了突破性进展：周末设计了一个写 context window 摘要的技能，通过 autoresearch 不断迭代，最终达到他个人品味水平的 80%。这个方向的意义在于：AI 辅助工作的真正壁垒不在单次调用质量，而在随使用积累持续优化的能力系统。 <a class="read-more" href="https://x.com/danshipper/status/2122091033001337134" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · 产品 @OpenAI Codex，前 Linear 产品负责人</span>
+              
+            </div>
+            <p class="voice-quote">提出了一个实用问题：如果用 Codex 做智能家居中控，目前哪个 hub 最合适？希望找到一个即插即用、能被 Codex 当作一台普通电脑来控制的设备，这反映了 agent-native 家居控制场景的真实需求空白。 <a class="read-more" href="https://x.com/thenanyu/status/2122096965865664924" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC，Dropbox 联合创始人</span>
+              
+            </div>
+            <p class="voice-quote">分享了一家投后印度航空航太初创公司 Arctus Aerospace 的照片：一架飞机在清晨的偏远跑道起飞，标志着印度的商业航天赛道正在加速启动。 <a class="read-more" href="https://x.com/adityaag/status/2122003237335343457" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Partner @FPV Ventures</span>
+              
+            </div>
+            <p class="voice-quote">运营每周一次的旧金山线下闭门对谈，邀请创业者深入聊 RL、合成数据、自动化闭环等硬核主题。每期 60 分钟：前 45 分钟向他提问，后 15 分钟反过来听他对风投的任何疑问，开放 15 位听众旁听。下一期嘉宾是 Core Auto 联合创始人 @kanavg1，聚焦强化学习实践。 <a class="read-more" href="https://x.com/nikunj/status/2122042319419609105" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 11 位建造者 · 19 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 11 位建造者，19 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-17T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

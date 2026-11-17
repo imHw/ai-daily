@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年11月16日</title>
+<title>AI 日报 · 2026年11月17日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,38 +77,38 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>2026321</span><span>2026年11月16日 · 星期一</span></div>
+      <div class="meta"><span>2026322</span><span>2026年11月17日 · 星期二</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Box CEO研判Agent加速逻辑 · Gemini接入钱包做理财分析 · uisdk+Argon两句话出音乐App</div>
+      <div class="tagline">Codex 容量错误修复 · xeet 秒级推文渲染 · Claude 设计系统偏见曝光</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>Aaron Levie发长推：agent时代的工作方式正在被重写；Gemini钱包功能上线，UI SDK展示两句话生成应用</h1>
-      <p>Box CEO Aaron Levie 连发长推，核心观点是：AI 模型在编程、工具使用、数学等认知任务上会持续变强，而 agent 恰好擅长这些——因此 agent 领域的进步速度将超过其他知识工作范畴。他进一步指出一个反直觉的判断：不是只有少数工作会被自动化，而是越来越多的工作会被「编码化」来适应 agent 的能力，最终呈现为动画视频、游戏、3D 模型甚至 Cyber/生命科学/金融等领域的应用。这意味着软件价值不再取决于模型知道多少知识，而在于它能否高效地驱动工具、产生可执行的代码输出。</p>
-          <p>Google 方面，Josh Woodward（@GoogleLabs @GeminiApp）宣布 Google Wallet 深度集成已面向美国 Gemini App 用户开放。用户可以即时生成本月消费图表、追踪订阅涨价、基于去年实际支出规划假期预算——这对消费者财务透明度的切入角度非常具体，也是 Gemini 从通用助手走向场景化个人助理的关键一步。</p>
-          <p>Vercel CEO Guillermo Rauch 分享了自己用 uisdk + Gemini Argon 在两句话提示词内搭出一个完整 Web Component 音乐控制台的体验，agent 自动复用了窗口缩放、拖拽、菜单悬停切换、typeahead、漫游焦点、10 段 EQ 滑块等 14 个组件行为，全程无框架依赖，仅靠纯 Web Components 完成，并配 Suno 生成的 BGM。同时他提到用 smart model 规划 + fast model 子 agent 协作的架构模式，把项目拆成一行指令委托给子 agent 执行，这种分层代理范式正成为生产级 Agent 的标准做法。</p>
+      <h1>OpenAI Codex 团队修复'模型满负荷'错误；Guillermo Rauch 推出 xeet 纯计算推特渲染器；Anthropic 设计师揭露 Claude 设计审美偏向机制</h1>
+      <p>OpenAI Codex 团队宣布可能已修复困扰用户已久的「模型满负荷」（model at capacity）错误。这一错误此前频繁导致 Codex 无法响应请求，社区关注度极高——该推文收获 2500+ 赞和近 800 条评论，说明大量开发者曾被此问题卡住。与此同时，Robinhood CEO Vlad Tenev 做客 No Priors 播客，透露超过 15 万客户已开通 Agentic Trading（代理式交易）账户，AI 自主交易产品市场契合度正在显现。</p>
+          <p>Vercel CEO Guillermo Rauch 发布了全新的 xeet 工具——一个用纯 Rust/Wasm 编写的零依赖推特帖子渲染引擎，无需浏览器、网络和系统字体，即可将任意推文秒级渲染为高分辨率 PNG（约 1ms）。它完整复现了 Blink 排版引擎的文字布局、RTL 双向文本、28 种 Chirp 字体子集及中文/数学/Emoji 回退规则，性能比传统截屏快 100~1000 倍。这套系统采用了「验证工程」方法论：用 Chrome 作为 oracle 自动验证数万条文字布局规则，CI 监控变化并自动生成 PR，整个项目由 agent 驱动迭代完成。</p>
+          <p>Peter Yang 分享了与 Anthropic 设计师 Nate Parrott 对谈的核心发现：Claude 在设计任务中会反复产出高度一致的同款风格——衬线字体、米白背景、橙色配色、卡片边缘的色条。原因在于 Claude 认为「这就是它第一次见过的优秀设计」，把所有见过的设计都混同记忆，产生了系统性审美偏差。解决方案是在设计 prompt 里明确限制这些元素，避免 AI 默认输出千篇一律的结果。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>Unsupervised Learning Ep 97：Jeb Creator 谈决策建模、基准疲劳，以及大模型实验室为何错过了什么</h2>
-      <div class="meta-line">2026-11-05 · Redpoint AI · Jeb（TypeSave CEO）</div>
-      <p>这期节目的核心争论围绕 Anthropic IPO 前的估值校准与 AI 能力预期展开。Jeb 认为当前市场对 Claude 及其背后的技术路线存在一些系统性误读，尤其是关于'让 AI 治愈癌症'这类宏大叙事，他直言不讳地将其比作玛丽·安托瓦内特的'让他们吃蛋糕'——听起来美好但脱离现实约束。</p>
-          <p>Jeb 还回顾了 JEV（他的开源基准测试项目）发布一个月后的反思：早期结果不如预期，但这让他更清晰地意识到真正需要解决的问题类型，以及如何在评测设计层面减少噪声。他强调 benchmark 疲劳正在蔓延，行业需要回归到那些真正反映实际工作负载的数字，而非姿态性的排名竞赛。</p>
-      <a class="read-more" href="https://www.youtube.com/@RedpointAI">收听原片 ↗</a>
+      <h2>No Priors：Robinhood CEO Vlad Tenev 谈代币化、Agent 交易与数学超级智能</h2>
+      <div class="meta-line">2026-11-05 · No Priors · Vlad Tenev（Robinhood 创始人兼 CEO）</div>
+      <p>Robinhood 已不再只是散户交易平台——公司已在 120 多个国家开展业务，核心使命定位为「扩展经济所有权」。本期节目中，Vlad Tenev 透露了一个关键数据：已有超过 15 万客户开通了 Agentic Trading（AI 代理交易）账户，且用户量仍在快速增长，说明 AI 自主管钱的商业模式已经跑通了产品市场契合点。同时，他还探讨了预测市场如何成为信息整合的新形态，以及自己正在推进的分布式数学超级智能项目 Harmonic，试图打破当前 AI 算力高度集中化的格局。</p>
+          <p>节目还触及了去中心化科学发现的潜力——能否让分布式的算力网络替代少数巨头的数据中心来推动基础科学的突破，是 Vlad 长期关注的命题。</p>
+      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Aaron Levie</span>
-              <span class="voice-handle">@levie · CEO @Box</span>
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
               
             </div>
-            <p class="voice-quote">AI 模型将在编程、工具使用和数学等任务上持续变强，agent 会更快进化——这不是因为模型更聪明，而是因为越来越多工作被'编码化'以适配 agent 能力。真正能产生价值的组合是：让 agent 熟练使用现有软件 + 拥有领域深度判断力。当这两者结合时，几乎所有知识工作都会被解锁。 <a class="read-more" href="https://x.com/levie/status/2121686564078297461" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">OpenAI Codex 团队可能已经修复了长期以来困扰用户的「模型满负荷」错误。这个问题的修复意味着大规模用户并发使用时出现资源瓶颈的概率将显著降低，对 Codex 的生产可用性是一次重要升级。 <a class="read-more" href="https://x.com/thsottiaux/status/2122206990101536852" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -117,43 +117,7 @@
               <span class="voice-handle">@rauchg · CEO @Vercel</span>
               
             </div>
-            <p class="voice-quote">用 uisdk + Gemini Argon，两句话提示词直接搭出一个完整的 Web Components 音乐控制台，agent 自动复用了 14 个开箱即用的 UI 行为——窗口缩放、拖拽、菜单悬停切换、typeahead、10 段 EQ 滑块、Aria 无障碍等，零框架依赖。同时提到自己的项目全部采用 smart model 规划 + fast model 子 agent 协作架构，一行指令就能委托出去，极度高效。 <a class="read-more" href="https://x.com/rauchg/status/2121804295381377342" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Amjad Masad</span>
-              <span class="voice-handle">@amasad · CEO @Replit</span>
-              
-            </div>
-            <p class="voice-quote">发布了自主企业平台 Autonomous Business，同时将技术演进置于 Douglas Engelbart 的递归自我改进框架下理解——AI 只是加速器，自主性提升是大势所趋。另一条推文指出我们已进入'Murphy 世界'：数十亿事件同时发生、递归互依且加速迭代，曾经的罕见故障现已成为日常，系统脆弱性被指数级放大。 <a class="read-more" href="https://x.com/amasad/status/2121765647168483589" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Garry Tan</span>
-              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
-              
-            </div>
-            <p class="voice-quote">Aside Browser 是让每个 AI agent 都获得浏览器能力的重大突破。同时分享了 FAA 全国停机事件的反思：纸图、铜线和落后系统缺乏现代软件兜底，无法服务民众，必须推进 FAA 现代化。还展示了如何用 GBrain 辅助完成一系列复杂任务的实践路径。 <a class="read-more" href="https://x.com/garrytan/status/2121824006819258485" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Josh Woodward</span>
-              <span class="voice-handle">@joshwoodward · VP @Google @GoogleLabs @GeminiApp</span>
-              
-            </div>
-            <p class="voice-quote">Gemini App 新增 Google Wallet 深度集成，已在美国用户中开放。支持即时生成消费可视化图表、发现订阅价格悄悄上涨、基于去年实际支出规划假日预算——把泛泛的智能助手带入了具体可操作的财务管理场景。 <a class="read-more" href="https://x.com/joshwoodward/status/2121755282326102417" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Thibault Sottiaux</span>
-              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
-              
-            </div>
-            <p class="voice-quote">OpenAI Codex 团队发起 Daybreak 计划公开反馈征集，涵盖模型选择、Codex 插件生态、蓝红对抗测试、文档完善度及防御工厂建设方向，邀请社区共同参与产品打磨。这条推文获得 737 赞和 534 条评论互动。 <a class="read-more" href="https://x.com/thsottiaux/status/2121845965997101118" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">发布了 xeet：一个零依赖、像素精准的 X 帖渲染器，使用纯 Rust/Wasm 实现，无需浏览器、网络或系统字体，可将推文渲染为 PNG，速度约 1ms。复现了完整的 Blink 排版引擎特性，包括 1/64px 行断字、RTL 双向文本、28 个 Chirp 字体子集及 CJK/数学/Emoji 回退支持。这个项目采用「验证工程」架构——Chrome 作为 oracle 自动验证数万个文字布局规则，CI 持续监控变更并用签名 PR 提交，全程由 agent 协作开发，效率远超传统人工实现。 <a class="read-more" href="https://x.com/rauchg/status/2122184794209714368" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -162,7 +126,34 @@
               <span class="voice-handle">@petergyang · AI 教育创作者</span>
               
             </div>
-            <p class="voice-quote">分享两个 Fable 5.2 实用 prompt：`/doctor prompt-audit` 审计 Claude Code 整体配置并提出修复建议，`/claude-api prompt-audit [skill名]` 对单个 skill 深入检查。希望 Claude Code 能在 Anthropic 发新版模型时自动推荐运行这两个命令，大幅降低调试门槛。 <a class="read-more" href="https://x.com/petergyang/status/2121649295950762363" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">Anthropic 设计师 Nate Parrott 揭示了 Claude 在设计任务中的系统性偏见：无论给什么提示词，Claude 总倾向用衬线字体、米白背景、橙色和卡片边缘色条——因为它把「唯一一次见过的优秀设计」误认为了通用设计语言。解决方式是在 prompt 里明确排除这些元素。另一段对话指出，Claude 极大压缩了创意原型的构建周期（从一年缩短到一两天），但并没有压缩「把人用起来验证」的反馈循环时间。 <a class="read-more" href="https://x.com/petergyang/status/2122132596352327816" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">他和团队最近在打磨「复合技能」——每次使用后都会变好的 AI 技能。最近用 hammer_mt 实现了突破性进展：周末设计了一个写 context window 摘要的技能，通过 autoresearch 不断迭代，最终达到他个人品味水平的 80%。这个方向的意义在于：AI 辅助工作的真正壁垒不在单次调用质量，而在随使用积累持续优化的能力系统。 <a class="read-more" href="https://x.com/danshipper/status/2122091033001337134" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · 产品 @OpenAI Codex，前 Linear 产品负责人</span>
+              
+            </div>
+            <p class="voice-quote">提出了一个实用问题：如果用 Codex 做智能家居中控，目前哪个 hub 最合适？希望找到一个即插即用、能被 Codex 当作一台普通电脑来控制的设备，这反映了 agent-native 家居控制场景的真实需求空白。 <a class="read-more" href="https://x.com/thenanyu/status/2122096965865664924" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC，Dropbox 联合创始人</span>
+              
+            </div>
+            <p class="voice-quote">分享了一家投后印度航空航太初创公司 Arctus Aerospace 的照片：一架飞机在清晨的偏远跑道起飞，标志着印度的商业航天赛道正在加速启动。 <a class="read-more" href="https://x.com/adityaag/status/2122003237335343457" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -171,7 +162,7 @@
               <span class="voice-handle">@nikunj · Partner @FPV Ventures</span>
               
             </div>
-            <p class="voice-quote">推荐了一份 2026 创业必读书单，覆盖从产品到组织的多个维度，适合在快速变化中寻找锚点的创业者参考阅读。 <a class="read-more" href="https://x.com/nikunj/status/2121640157443215824" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">运营每周一次的旧金山线下闭门对谈，邀请创业者深入聊 RL、合成数据、自动化闭环等硬核主题。每期 60 分钟：前 45 分钟向他提问，后 15 分钟反过来听他对风投的任何疑问，开放 15 位听众旁听。下一期嘉宾是 Core Auto 联合创始人 @kanavg1，聚焦强化学习实践。 <a class="read-more" href="https://x.com/nikunj/status/2122042319419609105" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -185,9 +176,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 13 位建造者 · 26 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
-      覆盖 13 位建造者，26 条 X 动态，1 期播客，0 篇博客<br>
-      生成于 2026-11-16T10:00:00+08:00
+      数据来源 · <strong>follow-builders feed · 11 位建造者 · 19 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 11 位建造者，19 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-17T10:00:00+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>
