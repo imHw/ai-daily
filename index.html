@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 2026年11月17日</title>
+<title>AI 日报 · 2026年11月18日</title>
 <style>
   :root{
     --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
@@ -77,38 +77,47 @@
 <body>
   <div class="wrap">
     <header class="masthead">
-      <div class="meta"><span>2026322</span><span>2026年11月17日 · 星期二</span></div>
+      <div class="meta"><span>2026322</span><span>2026年11月18日 · 星期三</span></div>
       <div class="wordmark">AI 日报<small>Builders Digest</small></div>
-      <div class="tagline">Codex 容量错误修复 · xeet 秒级推文渲染 · Claude 设计系统偏见曝光</div>
+      <div class="tagline">软件工厂终将被淘汰 · 每员工 Token 消费无上限 · Stanford 如何教 AI 原生工程师</div>
     </header>
 
     <section class="lead">
       <div class="kicker">今日主线</div>
-      <h1>OpenAI Codex 团队修复'模型满负荷'错误；Guillermo Rauch 推出 xeet 纯计算推特渲染器；Anthropic 设计师揭露 Claude 设计审美偏向机制</h1>
-      <p>OpenAI Codex 团队宣布可能已修复困扰用户已久的「模型满负荷」（model at capacity）错误。这一错误此前频繁导致 Codex 无法响应请求，社区关注度极高——该推文收获 2500+ 赞和近 800 条评论，说明大量开发者曾被此问题卡住。与此同时，Robinhood CEO Vlad Tenev 做客 No Priors 播客，透露超过 15 万客户已开通 Agentic Trading（代理式交易）账户，AI 自主交易产品市场契合度正在显现。</p>
-          <p>Vercel CEO Guillermo Rauch 发布了全新的 xeet 工具——一个用纯 Rust/Wasm 编写的零依赖推特帖子渲染引擎，无需浏览器、网络和系统字体，即可将任意推文秒级渲染为高分辨率 PNG（约 1ms）。它完整复现了 Blink 排版引擎的文字布局、RTL 双向文本、28 种 Chirp 字体子集及中文/数学/Emoji 回退规则，性能比传统截屏快 100~1000 倍。这套系统采用了「验证工程」方法论：用 Chrome 作为 oracle 自动验证数万条文字布局规则，CI 监控变化并自动生成 PR，整个项目由 agent 驱动迭代完成。</p>
-          <p>Peter Yang 分享了与 Anthropic 设计师 Nate Parrott 对谈的核心发现：Claude 在设计任务中会反复产出高度一致的同款风格——衬线字体、米白背景、橙色配色、卡片边缘的色条。原因在于 Claude 认为「这就是它第一次见过的优秀设计」，把所有见过的设计都混同记忆，产生了系统性审美偏差。解决方案是在设计 prompt 里明确限制这些元素，避免 AI 默认输出千篇一律的结果。</p>
+      <h1>前 Anthropic 工程师 Thariq 爆推文：软件工厂是过渡态，真正的挑战是构建人机协作工作空间；Box CEO Levie 称每员工 Token 消费曲线仍有天花板；Stanford 推出 AI 原生工程课程引爆关注</h1>
+      <p>Thariq（@trq212，前 Anthropic Claude Code 团队成员）发了一条爆款推：「软件工厂只是临时问题——模型终将学会为你构建它们。真正有意思的问题是：如何建立一个让人和 Agent 能协作的工作空间？」该推获得 4841 赞、200 转发、374 条评论，是目前 follow-builders feed 本周热度最高的内容之一。这句话精准捕捉了当前 AI 基建赛道的认知拐点：当 Agent 开始自主写代码、跑评测、迭代产品，下一个瓶颈不再是算力，而是人机协作的界面设计。</p>
+          <p>Box CEO Aaron Levie 在同一天发出长篇分析：每员工 Token 消费曲线「目前仍看不到天花板」。他观察到今夏以来的模型发布持续突破 SOTA，编码能力从一年前的「基本不可用」跃升到现在「终于开始好用」，随之而来的是工具使用、Computer Use 等新形态的爆发，让 Agent 可以进入金融、生命科学、网络安全等此前无法触及的知识工作领域。「一旦你能写出能编码、能用电脑、能调用任意工具的 Agent，就能把它们投入到更广泛的知识工作中。」他总结道。</p>
+          <p>Latent Space 播客本期邀请到 Stanford 教授 Mihail Eric，深度解析该校正在病毒式传播的 AI 原生软件工程课程如何教学——涵盖从 prompt 工程到 agent 工作流的完整方法论，同时他也是 Monaco 的 AI 负责人。</p>
     </section>
 
 
     <div class="section-label"><span>本期播客</span></div>
     <section class="article">
-      <h2>No Priors：Robinhood CEO Vlad Tenev 谈代币化、Agent 交易与数学超级智能</h2>
-      <div class="meta-line">2026-11-05 · No Priors · Vlad Tenev（Robinhood 创始人兼 CEO）</div>
-      <p>Robinhood 已不再只是散户交易平台——公司已在 120 多个国家开展业务，核心使命定位为「扩展经济所有权」。本期节目中，Vlad Tenev 透露了一个关键数据：已有超过 15 万客户开通了 Agentic Trading（AI 代理交易）账户，且用户量仍在快速增长，说明 AI 自主管钱的商业模式已经跑通了产品市场契合点。同时，他还探讨了预测市场如何成为信息整合的新形态，以及自己正在推进的分布式数学超级智能项目 Harmonic，试图打破当前 AI 算力高度集中化的格局。</p>
-          <p>节目还触及了去中心化科学发现的潜力——能否让分布式的算力网络替代少数巨头的数据中心来推动基础科学的突破，是 Vlad 长期关注的命题。</p>
-      <a class="read-more" href="https://www.youtube.com/@NoPriorsPodcast">收听原片 ↗</a>
+      <h2>Latent Space：[One Million AI Engineer Special] Stanford 如何教 AI 原生工程——Mihail Eric 对谈</h2>
+      <div class="meta-line">2026-11-08 · Latent Space · Mihail Eric（Stanford 讲师 / Monaco AI Head）</div>
+      <p>本期为庆祝 AIU Code YouTube 频道突破一百万订阅而特别制作。嘉宾 Mihail Eric 不仅是斯坦福热门课程「Modern Software Developer」的主讲人——这门课正因系统讲授 AI 原生开发最佳实践而在社区病毒式传播——同时还担任 Monaco 的 AI 负责人，兼具学术界与工业界的双重视角。</p>
+          <p>课程内容涵盖从基础 prompt 技巧到复杂 agent 工作流的设计，重点讲述如何让开发者在日常工程中有效利用 LLM，而非仅仅把它当作问答工具。Eric 结合自己在 Monaco 推动 AI 落地的实战经验，分享了团队在实际项目中遇到的坑和解决方案。</p>
+      <a class="read-more" href="https://www.youtube.com/@LatentSpacePod">收听原片 ↗</a>
     </section>
 
     <div class="section-label"><span>建造者观点</span></div>
     <section class="voices">
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Thibault Sottiaux</span>
-              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · formerly Claude Code @anthropicai</span>
               
             </div>
-            <p class="voice-quote">OpenAI Codex 团队可能已经修复了长期以来困扰用户的「模型满负荷」错误。这个问题的修复意味着大规模用户并发使用时出现资源瓶颈的概率将显著降低，对 Codex 的生产可用性是一次重要升级。 <a class="read-more" href="https://x.com/thsottiaux/status/2122206990101536852" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">软件工厂只是一个临时问题。模型最终会学会为你构建它们。真正值得思考的问题是：如何建立一个 Agent 能与人类协作的工作空间？目前我正在和 Agent 一起为我游戏中的新角色做开发——这种协作方式让我觉得未来已经开始了。 <a class="read-more" href="https://x.com/trq212/status/2122438326431154210" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">每员工 Token 消费的图表目前没有看到任何天花板。越接近 AI 核心，越能感受到我们才刚刚站在曲线的前端。今夏以来的模型发布不断刷新 SOTA，编码能力尤其明显——一年前几乎不可用，现在终于开始变得真正可用。编码一旦成熟，就打开了工具调用和 Computer Use，进而让 Agent 能够进入金融、生命科学、网络安全等大量知识工作领域。再叠加 Agent Swarm 和后台常驻 Agent，Token 消耗只会继续指数级增长。 <a class="read-more" href="https://x.com/levie/status/2122508098351038532" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -117,16 +126,34 @@
               <span class="voice-handle">@rauchg · CEO @Vercel</span>
               
             </div>
-            <p class="voice-quote">发布了 xeet：一个零依赖、像素精准的 X 帖渲染器，使用纯 Rust/Wasm 实现，无需浏览器、网络或系统字体，可将推文渲染为 PNG，速度约 1ms。复现了完整的 Blink 排版引擎特性，包括 1/64px 行断字、RTL 双向文本、28 个 Chirp 字体子集及 CJK/数学/Emoji 回退支持。这个项目采用「验证工程」架构——Chrome 作为 oracle 自动验证数万个文字布局规则，CI 持续监控变更并用签名 PR 提交，全程由 agent 协作开发，效率远超传统人工实现。 <a class="read-more" href="https://x.com/rauchg/status/2122184794209714368" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">在 Vercel，我们把用户视为 Agent 而非人类：运行评估（evals），用 evals 驱动软件工程闭环。这是新的工作方式——过去靠用户访谈获取灵感再设计功能，现在靠自动化评估来指导每一步开发决策。与此同时，AI 时代的基础设施原则也愈发清晰：用开放 SDK、通过网关掌握模型选择权、拥有自己的数据与链路、必要时私有化部署推理。 <a class="read-more" href="https://x.com/rauchg/status/2122415506451841215" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
             <div class="voice-head">
-              <span class="voice-name">Peter Yang</span>
-              <span class="voice-handle">@petergyang · AI 教育创作者</span>
+              <span class="voice-name">Peter Steinberger</span>
+              <span class="voice-handle">@steipete · @OpenClaw / @OpenAI</span>
               
             </div>
-            <p class="voice-quote">Anthropic 设计师 Nate Parrott 揭示了 Claude 在设计任务中的系统性偏见：无论给什么提示词，Claude 总倾向用衬线字体、米白背景、橙色和卡片边缘色条——因为它把「唯一一次见过的优秀设计」误认为了通用设计语言。解决方式是在 prompt 里明确排除这些元素。另一段对话指出，Claude 极大压缩了创意原型的构建周期（从一年缩短到一两天），但并没有压缩「把人用起来验证」的反馈循环时间。 <a class="read-more" href="https://x.com/petergyang/status/2122132596352327816" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">开发者反复请求减少 macOS 上的权限弹窗以便 Agent 能顺畅工作，苹果的反应却是：「收到，给你们更多 scary 的新提示。」这反映出当前 AI Agent 桌面体验的核心矛盾——操作系统的安全模型还没有为「代理人类操作」这一新模式做好设计。 <a class="read-more" href="https://x.com/steipete/status/2122463466304971068" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Google Labs</span>
+              <span class="voice-handle">@GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">欢迎 Howie 加入 Google Labs！Howie 团队多年来专注于调度和日历管理，我们将携手打造面向小微企业的下一代直觉型 AI 工具。 <a class="read-more" href="https://x.com/GoogleLabs/status/2122461899178820069" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">用 Gemini Notebook 把参考资料变成可交互网站：我们做了一个元素周期表的互动版本。制作方法很简单，分享也很方便。 <a class="read-more" href="https://x.com/joshwoodward/status/2122453269842886788" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -135,25 +162,7 @@
               <span class="voice-handle">@danshipper · CEO @Every</span>
               
             </div>
-            <p class="voice-quote">他和团队最近在打磨「复合技能」——每次使用后都会变好的 AI 技能。最近用 hammer_mt 实现了突破性进展：周末设计了一个写 context window 摘要的技能，通过 autoresearch 不断迭代，最终达到他个人品味水平的 80%。这个方向的意义在于：AI 辅助工作的真正壁垒不在单次调用质量，而在随使用积累持续优化的能力系统。 <a class="read-more" href="https://x.com/danshipper/status/2122091033001337134" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Nan Yu</span>
-              <span class="voice-handle">@thenanyu · 产品 @OpenAI Codex，前 Linear 产品负责人</span>
-              
-            </div>
-            <p class="voice-quote">提出了一个实用问题：如果用 Codex 做智能家居中控，目前哪个 hub 最合适？希望找到一个即插即用、能被 Codex 当作一台普通电脑来控制的设备，这反映了 agent-native 家居控制场景的真实需求空白。 <a class="read-more" href="https://x.com/thenanyu/status/2122096965865664924" target="_blank" rel="noopener">原推 →</a></p>
-          </article>
-
-          <article class="voice">
-            <div class="voice-head">
-              <span class="voice-name">Aditya Agarwal</span>
-              <span class="voice-handle">@adityaag · General Partner @SPC，Dropbox 联合创始人</span>
-              
-            </div>
-            <p class="voice-quote">分享了一家投后印度航空航太初创公司 Arctus Aerospace 的照片：一架飞机在清晨的偏远跑道起飞，标志着印度的商业航天赛道正在加速启动。 <a class="read-more" href="https://x.com/adityaag/status/2122003237335343457" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">AI 时代的 Feed 排名，最公平的方式也许是「工作量证明」——让 Agent 报告每条内容消耗了多少 Token，然后据此排序。人和 Agent 共读的 Feed，由真实使用量决定可见性。 <a class="read-more" href="https://x.com/danshipper/status/2122541401804054826" target="_blank" rel="noopener">原推 →</a></p>
           </article>
 
           <article class="voice">
@@ -162,7 +171,7 @@
               <span class="voice-handle">@nikunj · Partner @FPV Ventures</span>
               
             </div>
-            <p class="voice-quote">运营每周一次的旧金山线下闭门对谈，邀请创业者深入聊 RL、合成数据、自动化闭环等硬核主题。每期 60 分钟：前 45 分钟向他提问，后 15 分钟反过来听他对风投的任何疑问，开放 15 位听众旁听。下一期嘉宾是 Core Auto 联合创始人 @kanavg1，聚焦强化学习实践。 <a class="read-more" href="https://x.com/nikunj/status/2122042319419609105" target="_blank" rel="noopener">原推 →</a></p>
+            <p class="voice-quote">2026 基础设施战争简史：Q1 是 Vibe Coding，Q2 是 Harnesses，Q3 是 Sandboxes，Q4 是 Agentic CI。提供商多到数不清。你们猜明年是什么？ <a class="read-more" href="https://x.com/nikunj/status/2122543500814336281" target="_blank" rel="noopener">原推 →</a></p>
           </article>
     </section>
 
@@ -176,9 +185,9 @@
     </section>
 
     <footer class="colophon">
-      数据来源 · <strong>follow-builders feed · 11 位建造者 · 19 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
-      覆盖 11 位建造者，19 条 X 动态，1 期播客，0 篇博客<br>
-      生成于 2026-11-17T10:00:00+08:00
+      数据来源 · <strong>follow-builders feed · 14 位建造者 · 29 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 14 位建造者，29 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-18T10:00:00+08:00
       <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
     </footer>
   </div>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月18日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026322</span><span>2026年11月18日 · 星期三</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">软件工厂终将被淘汰 · 每员工 Token 消费无上限 · Stanford 如何教 AI 原生工程师</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>前 Anthropic 工程师 Thariq 爆推文：软件工厂是过渡态，真正的挑战是构建人机协作工作空间；Box CEO Levie 称每员工 Token 消费曲线仍有天花板；Stanford 推出 AI 原生工程课程引爆关注</h1>
+      <p>Thariq（@trq212，前 Anthropic Claude Code 团队成员）发了一条爆款推：「软件工厂只是临时问题——模型终将学会为你构建它们。真正有意思的问题是：如何建立一个让人和 Agent 能协作的工作空间？」该推获得 4841 赞、200 转发、374 条评论，是目前 follow-builders feed 本周热度最高的内容之一。这句话精准捕捉了当前 AI 基建赛道的认知拐点：当 Agent 开始自主写代码、跑评测、迭代产品，下一个瓶颈不再是算力，而是人机协作的界面设计。</p>
+          <p>Box CEO Aaron Levie 在同一天发出长篇分析：每员工 Token 消费曲线「目前仍看不到天花板」。他观察到今夏以来的模型发布持续突破 SOTA，编码能力从一年前的「基本不可用」跃升到现在「终于开始好用」，随之而来的是工具使用、Computer Use 等新形态的爆发，让 Agent 可以进入金融、生命科学、网络安全等此前无法触及的知识工作领域。「一旦你能写出能编码、能用电脑、能调用任意工具的 Agent，就能把它们投入到更广泛的知识工作中。」他总结道。</p>
+          <p>Latent Space 播客本期邀请到 Stanford 教授 Mihail Eric，深度解析该校正在病毒式传播的 AI 原生软件工程课程如何教学——涵盖从 prompt 工程到 agent 工作流的完整方法论，同时他也是 Monaco 的 AI 负责人。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space：[One Million AI Engineer Special] Stanford 如何教 AI 原生工程——Mihail Eric 对谈</h2>
+      <div class="meta-line">2026-11-08 · Latent Space · Mihail Eric（Stanford 讲师 / Monaco AI Head）</div>
+      <p>本期为庆祝 AIU Code YouTube 频道突破一百万订阅而特别制作。嘉宾 Mihail Eric 不仅是斯坦福热门课程「Modern Software Developer」的主讲人——这门课正因系统讲授 AI 原生开发最佳实践而在社区病毒式传播——同时还担任 Monaco 的 AI 负责人，兼具学术界与工业界的双重视角。</p>
+          <p>课程内容涵盖从基础 prompt 技巧到复杂 agent 工作流的设计，重点讲述如何让开发者在日常工程中有效利用 LLM，而非仅仅把它当作问答工具。Eric 结合自己在 Monaco 推动 AI 落地的实战经验，分享了团队在实际项目中遇到的坑和解决方案。</p>
+      <a class="read-more" href="https://www.youtube.com/@LatentSpacePod">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · formerly Claude Code @anthropicai</span>
+              
+            </div>
+            <p class="voice-quote">软件工厂只是一个临时问题。模型最终会学会为你构建它们。真正值得思考的问题是：如何建立一个 Agent 能与人类协作的工作空间？目前我正在和 Agent 一起为我游戏中的新角色做开发——这种协作方式让我觉得未来已经开始了。 <a class="read-more" href="https://x.com/trq212/status/2122438326431154210" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">每员工 Token 消费的图表目前没有看到任何天花板。越接近 AI 核心，越能感受到我们才刚刚站在曲线的前端。今夏以来的模型发布不断刷新 SOTA，编码能力尤其明显——一年前几乎不可用，现在终于开始变得真正可用。编码一旦成熟，就打开了工具调用和 Computer Use，进而让 Agent 能够进入金融、生命科学、网络安全等大量知识工作领域。再叠加 Agent Swarm 和后台常驻 Agent，Token 消耗只会继续指数级增长。 <a class="read-more" href="https://x.com/levie/status/2122508098351038532" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">在 Vercel，我们把用户视为 Agent 而非人类：运行评估（evals），用 evals 驱动软件工程闭环。这是新的工作方式——过去靠用户访谈获取灵感再设计功能，现在靠自动化评估来指导每一步开发决策。与此同时，AI 时代的基础设施原则也愈发清晰：用开放 SDK、通过网关掌握模型选择权、拥有自己的数据与链路、必要时私有化部署推理。 <a class="read-more" href="https://x.com/rauchg/status/2122415506451841215" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Steinberger</span>
+              <span class="voice-handle">@steipete · @OpenClaw / @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">开发者反复请求减少 macOS 上的权限弹窗以便 Agent 能顺畅工作，苹果的反应却是：「收到，给你们更多 scary 的新提示。」这反映出当前 AI Agent 桌面体验的核心矛盾——操作系统的安全模型还没有为「代理人类操作」这一新模式做好设计。 <a class="read-more" href="https://x.com/steipete/status/2122463466304971068" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Google Labs</span>
+              <span class="voice-handle">@GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">欢迎 Howie 加入 Google Labs！Howie 团队多年来专注于调度和日历管理，我们将携手打造面向小微企业的下一代直觉型 AI 工具。 <a class="read-more" href="https://x.com/GoogleLabs/status/2122461899178820069" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">用 Gemini Notebook 把参考资料变成可交互网站：我们做了一个元素周期表的互动版本。制作方法很简单，分享也很方便。 <a class="read-more" href="https://x.com/joshwoodward/status/2122453269842886788" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">AI 时代的 Feed 排名，最公平的方式也许是「工作量证明」——让 Agent 报告每条内容消耗了多少 Token，然后据此排序。人和 Agent 共读的 Feed，由真实使用量决定可见性。 <a class="read-more" href="https://x.com/danshipper/status/2122541401804054826" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Partner @FPV Ventures</span>
+              
+            </div>
+            <p class="voice-quote">2026 基础设施战争简史：Q1 是 Vibe Coding，Q2 是 Harnesses，Q3 是 Sandboxes，Q4 是 Agentic CI。提供商多到数不清。你们猜明年是什么？ <a class="read-more" href="https://x.com/nikunj/status/2122543500814336281" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 14 位建造者 · 29 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 14 位建造者，29 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-18T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
