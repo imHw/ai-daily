@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月19日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026323</span><span>2026年11月19日 · 星期四</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">OpenAI 双模型同日上线 · Gemini 免费执行任务扩展至 6 国 · Devin 架构重大升级</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>OpenAI 一口气发布 6.2 Sol Ultrafast 与 Astra，Google Gemini 在 6 国开放免费任务执行，Devin 宣布多 Agent 团队架构——本周 AI 基建层加速内卷</h1>
+      <p>OpenAI 在同一天发布了两个重磅产品：基于新 6.2 Hydrogen 模型的「Sol Ultrafast」和面向工作流自动化的「Astra」。Sama 表示两者都「非常智能、Token 效率极高」，并特别推荐了 Sol Ultrafast。Thibault Sottiaux（OpenAI Codex &amp; ChatGPT 负责人）透露，内部评价认为该模型速度快到「使用体验完全不同」，而 Dan Shipper（@Every CEO）给出的评分也是近期 Frontier 模型中最高的一批，可与 Opus 5 相提并论。Swyx 则直接表态：Astra 是他日常主力，是「我用过最好的工作流自动化模型」，并在自家内容发布管线中大幅提升了收入效率（&gt;100万美元/员工）。</p>
+          <p>几乎同一时间，Google Labs VP Josh Woodward 宣布 Gemini 正式支持任务执行且免费向 6 个国家用户开放：美国、日本、韩国、加拿大、澳大利亚和印度，底层运行的是全新的 Gemini 4 Hydrogen 模型。功能包括：通过电话拨号联系商家（Google Duplex）、直接支付结账（Google Pay）、通过 RCS 发短信给 Gemini、转发 Gmail 邮件给 Gemini、以及跳过密码直接登录网站（Google Password Manager）。同时 Gemini 与 Google Workspace 的集成也迎来最大一次更新：可在 Gemini 内直接起草/发送邮件、创建编辑 Docs 和 Sheets、批量添加日历事件等。</p>
+          <p>AI Agent 基础设施赛道同样动作频频。Devin 宣布架构升级，从「一次性 Swarm」进化为「持久身份 Agent 团队」——每个 Bot 拥有独立记忆库和长期目标，不同项目可分配专属 Bot 并可跨 Bot 协作。Swyx 试用一周后表示已把 AEO、QA、跨平台应用移植、个人行政自动化和视频剪辑全部交给 Devin Bots，并指出其核心洞察：「我们需要的不是『AI 员工』，而是比单一任务高一级的抽象——能拥有结果的 Agent Manager。」与此同时，Replit CEO Amjad Masad 推出 Agent Swarm 能力，让「集体机器智能对所有人可编程」；FirstMark VC Matt Turck 投资了持续学习初创 Remanence Labs（$30M种子轮）；Daytona 则成为首家提供 macOS 沙盒环境的 Agentic Infra 厂商。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Latent Space：构建视觉智能——Andreas Blattmann &amp; Dustin Podell（Black Forest Labs）</h2>
+      <div class="meta-line">2026-11-16 · Latent Space · Black Forest Labs 创始团队</div>
+      <p>本期嘉宾是 Black Forest Labs 的两位核心人物：Andreas Blattmann（ latent diffusion 的共同发明人，该技术最终被 Stable Diffusion 规模化，后核心团队离开 Stability AI 创立 Black Forest Labs）和 Dustin Podell（从自由 web 开发者成长为 Stability AI 模型与研究主管，负责 SDXL、Control LoRA、SD3 后期训练，现任 Flux Ultra / Flux.1 / Flux Context 项目负责人）。</p>
+          <p>节目深入探讨了 Black Forest Labs 当前最强的开源与闭源图像生成及视频生成模型，尤其重点介绍了 Flux Context——一款被认为有望彻底取代 Canva、Photoshop 及相关工作流程的图像编辑模型。主持人还分享了与嘉宾从 NeurIPS 相识、见证 Black Forest Labs 成立的完整故事线。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=8cGfJOU3AlQ">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Sam Altman</span>
+              <span class="voice-handle">@sama · CEO @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">6.2 Sol 和 Astra 已经发布。这些模型能做令人惊叹的事情，并且 Token 效率极高，我们相信人们会从中获得巨大价值。尤其是 6.2 Sol ultrafast，我觉得大家会非常喜欢它。虽然新模型非常聪明，但我们还有更多工作要做——让模型更易于合作，这将是下一版本的优先事项。即使需要多一点额外工作，其智力和能力都是非凡的。 <a class="read-more" href="https://x.com/sama/status/2122798042734633452" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">如果你订阅了 Pro 200/500，我强烈推荐试试 6.2 Sol ultrafast，体验非常爽快，感觉完全不同。我很期待随着时间的推移把这些速度带给更多用户。另外值得一提的是， influencer 和现场观众之间的「 vibe 」差异有一个有趣的原因：我们提前给了几个人访问权限，然后在过去 3-4 天做了大量修改，那些视频几乎是上周就制作完成了，所以没有重新测试。这些模型相比前代确实是飞跃式的提升，但远非完美，团队对这些模型在 taste 和使用体验上的改进充满期待。感谢所有反馈，我们都听到了！ <a class="read-more" href="https://x.com/thsottiaux/status/2122929634916679820" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Dan Shipper</span>
+              <span class="voice-handle">@danshipper · CEO @Every</span>
+              
+            </div>
+            <p class="voice-quote">@Every 团队对 Astra 和 Sol 6.2 的完整评分出来了——很难回忆起某个 Frontier 模型发布能引起这么大的反响，最接近的参照是 Opus 5。与此同时，我们也在做一个反向的 Roon 基准测试，用来衡量模型的「不靠谱」程度。另外说句题外话：如果你团队还在用幻灯片来解释新产品方向而不是视频，那你大概率要错过了。AI 时代的 Feed 排名，最公平的方式或许是「工作量证明」——让 Agent 报告每条内容消耗了多少 Token，然后据此排序。 <a class="read-more" href="https://x.com/danshipper/status/2122858139989012510" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · @smol_ai / @cognition / @latentspacepod</span>
+              
+            </div>
+            <p class="voice-quote">我对 Astra 发布最大的批评是：没有任何掌握决策权的人预见到问题所在并叫停那条 6.2 广告。模型本身确实扎实，是小幅版本升级，但效率是当下最重要的三个 RL 目标之一，而他们在这一点上处于世界领先地位！我正在每日驱动 Astra，它是我用过最好的工作流自动化模型——不再陷入可怕的循环，能通过 compaction 和技能编写高效学习。我们正在 @latentspacepod 和 @aiDotEngineer 的内容发布管线里全面跑它，如果没有它，我们的收入效率（&gt;100万美元/员工）根本达不到现在水平。Devin Bots 是多 Agent 团队的正确做法：始终在线、主动但 ROI 导向、拥有结果而非任务、管理子 Agent 团队、到处可用、通过交互式 artifacts（HTML）统一汇报。 <a class="read-more" href="https://x.com/swyx/status/2122746401482592549" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 现在可以在 6 个国家免费帮你完成任务！我们是为那些白天被课程、会议和送孩子上学填满的人设计的。目标很简单：让 Gemini 把事情做完，同时帮你省时间省钱。三大更新：一是基于全新的 Gemini 4 Hydrogen 模型；二是多项高需求功能陆续上线——打电话联系商家（Duplex）、支付结账（Google Pay）、RCS 发短信、转发 Gmail、免密登录网站；三是 Gemini 与 Google Workspace 集成的最大一次升级，可在 Gemini 内起草发送邮件、创建编辑 Docs/Sheets、批量添加日历事件。把你的下一个任务交给它吧。 <a class="read-more" href="https://x.com/joshwoodward/status/2122737427970425171" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">Agent Swarm 是 AI 的下一个扩展前沿。多年来我们通过训练更大的模型和给它们更多思考时间来扩展智能，但还有一个维度：并行运行多个 Agent，探索不同方案，互相挑战，共同完成单个 Agent 难以发现的解决方案。OpenAI 已经在数学领域展示了这种方法的潜力。今天开始在 Replit 上，启动一个 Agent Swarm 只需一个提示词。很期待看到当集体机器智能变得可编程后人们会发现什么。 <a class="read-more" href="https://x.com/amasad/status/2122809964649459861" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">OpenAI 刚刚发布了世界上网络安全能力最强的模型，时机非常好。值得注意的信号是：Vercel DeepsecBench 是一个 Stealth Cyber 基准测试，目前没有任何实验室拥有训练该基准所需的代码库访问权限。另外，agent-browser-vitals 这个项目很大——自优化软件时代来临了。 <a class="read-more" href="https://x.com/rauchg/status/2122812237169426606" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap</span>
+              
+            </div>
+            <p class="voice-quote">兴奋宣布投资 @remanencelabs（持续学习），并与 @plcedoz、@hparams 及 Axel Moyal 合作——这是一笔由 @eqt 领投的 3000 万美元种子轮融资。Daytona 继续推进 Agentic Infra 创新——首家提供 macOS 沙盒环境的厂商，专为 Mac 上的 Computer Use Agent 和 Apple 应用构建测试场景设计。 <a class="read-more" href="https://x.com/mattturck/status/2122717441461739571" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 13 位建造者 · 33 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 13 位建造者，33 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-19T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
