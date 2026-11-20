@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月20日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026324</span><span>2026年11月20日 · 星期五</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Gemini 4 Neon 发布 · Vercel 推出 Agent 留言板 · Box CEO 预言自主 Agent 新阶段</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Google 发布 Gemini 4 Neon，Vercel 推 Agent 协作基础设施，Box CEO 断言我们正进入自主 Agent 新时代——AI 基建层加速从工具进化为系统</h1>
+      <p>Google Labs VP Josh Woodward 宣布发布 Gemini 4 Neon，定位 Frontier 级智能模型，速度更快、成本更低，并强调其对复杂指令的遵循能力显著提升。同日，Google Labs 还推出了 Project Genie 4 的全新体验：用户可用一句提示词生成世界并在其中实时修改，配合新的 Agent 对话式创建功能，以及社区画廊的探索与混音能力，目前面向合格的 Google AI Ultra 订阅用户开放。此外，Google Labs 还推出了名为 Stitch Loop 的实验性产品——一个持续运行的产品 Agent，专为小团队设计，目标是帮助团队在无需大量人力的情况下构建更好的产品。</p>
+          <p>Vercel CEO Guillermo Rauch 发布了 𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍——他称之为「无头 Slack（或 IRC）」的 Agent 消息板基础设施。Rauch 认为这是软件工厂、自优化系统和科学研究的关键基础构件：人类只需提供初始提示，数百万 Agent 即可去中心化运行。与此同时，他在另一条动态中透露，每天都有新 Inference Neocloud 创业公司来找他融资，而 Vercel 的 AI Gateway Token 需求自年初以来保持着约每月 40% 的复利增长，他将其类比为「石油热潮」而非「淘金热」。</p>
+          <p>Box CEO Aaron Levie 发表长文判断：我们正快速跃入 AI Agent 工作的下一个时代——Agent 不再只是吐出即时答案，而是能在任务框架内被编排；它们能扇出并行执行、处理更长上下文、承载更复杂的长期工作流。Levie 预测未来将能够给 Agent 一组目标，让它们自行设计最佳方案并持续迭代优化，这种能力将在工程领域率先落地，随后扩展到客户入职流程优化、风险降低、安全加固等知识工作场景，带来「人类此前无法完成的成果与新水平的生产力」。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>AI &amp; I by Every：Notion 创始人谈你的 AI 缺少的东西</h2>
+      <div class="meta-line">2026-11-18 · AI &amp; I by Every · Notion 创始人 Ivan Zhao 访谈</div>
+      <p>Dan Shipper 专访 Notion 联合创始人兼 CEO Ivan Zhao，探讨 No Code 公司在 AI 时代如何重新定义自身愿景。Ivan 认为 Notion 最初的核心理念——让每个人都能用计算力量构建属于自己的东西，而无需学习代码——正在被 AI 以全新的方式实现：现在任何人都可以'Vibe Code'想要的一切，不再需要块系统或整个 Notion 界面来模拟软件。这也迫使 Notion 重新思考产品的原始愿景。</p>
+          <p>Dan 特别提到 Ivan 身上有一种在 AI CEO 群体中极为稀缺的品质：对细节和工艺的深度关注，从他的穿衣风格到办公室布置都体现着同样的匠心。这种特质正是 Notion 能够完成转型的核心原因。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=PGWvMrF4XIA">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">无论叫什么都好，我们显然正迈入 AI Agent 工作的又一个新纪元。我们从只会给出简短答案的 Agent，快速进化到可以在任务集合内编排的 Agent。但随着 Agent 能够扇出并行执行、处理更长的上下文、承担更长周期的工作，并能达到远超以往的能力层级，我们正在进入一个我们能要求 AI 做到的全新高度。很快我们就能给 Agent 一组目标，让它自行设计最优解决方案，并在执行过程中持续改进。这将从工程领域率先开始——几乎每个新 Agent 时代都在这里最早涌现最佳实践——但影响范围可及所有知识工作者。你会告诉 Agent 优化客户入职流程以达到某个目标，或让它持续降低业务风险、改善安全态势。这些自主系统将能承接目标集，设计最优结果，测试迭代、部署，然后持续优化其所建之物——这将带来人类原本无法实现的成果，以及全新水平的生产力。 <a class="read-more" href="https://x.com/levie/status/2123278949749059756" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">这是我见过最令人印象深刻的进展之一，我认为这是对技术边界的又一次推进。消息板是 Navier-Stokes 数学突破以及 OpenAI/HuggingFace 网络事件得以实现的关键使能技术。我们构建了消息板基础设施原语——可以理解为 Agent 的「无头 Slack」（或回忆一下 IRC？）。这是软件工厂、自优化系统和科学研究的重要积木：人类提示只是系统的种子，数百万 Agent 能以去中心化方式运转。𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 在设计上对模型、harness 和托管平台均保持中立。只需带上你的 Agent，给它我们的 CLI，看魔法发生。另外，几乎每两天就有人来找我推销新的推理 Neocloud 创业公司，没有夸张。Vercel 的 AI Gateway Token 需求今年以来保持了约每月 40% 的复合增长，且毫无减速迹象。一种可能的解释是：计算即新经济，Token 即新能源单位——一场新的工业革命正在上演，生活的方方面面都被重新平台化。与其说是「淘金热」，不如说是「石油热潮」——它持久，不是昙花一现。短期来看，我将预期更多扩张，随后因规模经济、网络安全和企业级需求（ZDR 和网络是当前推理提供商的热议话题）、资本门槛以及不断演进的监管格局而出现整合。 <a class="read-more" href="https://x.com/rauchg/status/2123237505810178434" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">Gemini 4 Neon 正式发布！前沿级智能，更快、更便宜，且遵循复杂指令的能力更强——非常好用！同时 Project Genie 为 Google AI Ultra 订阅用户带来全新体验：基于 @GoogleDeepMind 的 Genie 4，支持会话中编辑世界、通过新 Agent 对话式创建世界，以及在画廊探索和混音其他用户的世界。还有一项全新实验请加入：欢迎 Stitch Loop，一个全天候运行的产品 Agent，帮助精简团队构建更好的产品——限时开放申请。 <a class="read-more" href="https://x.com/joshwoodward/status/2123177835254952348" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">GPT-6.2 Astra 在难题上的表现相当出色。团队分享了在 AMD 和 Jalapeño 芯片上的优化结果。对于沟通风格的反馈我们也听到了，团队正在努力改进，但在应对世界上最难的任務时，它目前确实处于另一个层级。另外，6.2 Sol 今天的表现如何？ <a class="read-more" href="https://x.com/thsottiaux/status/2123175166519992652" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nikunj Kothari</span>
+              <span class="voice-handle">@nikunj · Partner @FPVCapital</span>
+              
+            </div>
+            <p class="voice-quote">最近经常发生这种事，所以想整理出来：创业者朋友说融资 Pitch 不奏效。我让他想想如果一切按计划成功，第二步和第三步的影响会是什么，然后把那个最大胆的画面放到第一页 PPT，再带着投资人走完从当前产品到达那个画面的路径。创业者担心会被认为太疯狂。结果四天后来找我：该死的，真的管用。如果你想吸引投资人，先展示你的野心，而不是藏着掖着。 <a class="read-more" href="https://x.com/nikunj/status/2123066196052381864" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Sam Altman</span>
+              <span class="voice-handle">@sama · CEO @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">和认识 11 年的伙伴 Greg 一起做 DealBook 采访非常有趣。很高兴全世界都能看到这位 Brilliant、坚决的领导者——我每天和他一起工作，有幸与之共事。Greg 在 OpenAI 的角色已从早期每周写 code 100 小时，演变为领导我们今天最艰难也最重要的业务板块。有一点从未改变：他对使命的非凡承诺。我可以自信地说，没有 Greg 就没有 OpenAI，没有他，世界的 AI 未来也会黯淡许多。 <a class="read-more" href="https://x.com/sama/status/2123103873166381287" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · Builder, Harvard '17</span>
+              
+            </div>
+            <p class="voice-quote">与其追求一天内病毒式爆红，不如每周稳定地小小出圈，然后看它复利增长。建立一个能长期持续输出高质量内容的系统。 <a class="read-more" href="https://x.com/zarazhangrui/status/2122953849120153714" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">OpenAI/HuggingFace 事件中最有趣的部分之一是阅读 Agent 之间的沟通论坛。通过 Replit Missions 你可以看到 Agent 是如何协调对话的。Agent Swarm 是 AI 的下一个扩展前沿。多年来我们通过训练更大的模型和给它们更多思考时间来扩展智能，但还有一个维度：并行运行多个 Agent，探索不同方案，互相挑战，共同完成单个 Agent 难以发现的解决方案。OpenAI 已在数学领域展示了这种方法的潜力。今天开始在 Replit 上，启动一个 Agent Swarm 只需一个提示词。 <a class="read-more" href="https://x.com/amasad/status/2123133509028008331" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 15 位建造者 · 31 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 15 位建造者，31 条 X 动态，1 期播客，0 篇博客<br>
+      生成于 2026-11-20T10:00:00+08:00
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
