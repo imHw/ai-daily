@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月21日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026325</span><span>2026年11月21日 · 星期六</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Gemini 桌面 Agent 上线 · ChatGPT 移动端改版内测 · OpenClaw harness 更新</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Google 推出 Gemini 桌面版 Agent，OpenAI 启动 ChatGPT 2.0 移动端改版，Vercel 定义「Agent 基础设施层」——AI 原生客户端与 Agent 编排加速成型</h1>
+      <p>Google Labs VP Josh Woodward 宣布 Gemini App for Mac 新增原生桌面能力——可直接在你的电脑上执行任务。这是 Gemini 产品矩阵从网页/移动端向完整桌面 Agent 演进的重要一步。与此同时，OpenAI 的 Thibault Sottiaux 透露团队正在为 ChatGPT 设计全新移动端体验：Pro 用户将获得专属 Tab 页，Codex、Projects、Images 等高频功能可固定到导航栏；该设计面向已认证或符合资格创建 Dot 标识的用户优先推送，并可在设置中手动切换。两款产品都指向同一趋势：Agent 正在从 Web 工具固化为常驻桌面的生产力伙伴。</p>
+          <p>Vercel CEO Guillermo Rauch 在另一条动态中进一步阐释了 Agentic 时代的基础设施逻辑——他将软件工厂和自优化系统的关键使能技术类比为 Navier-Stokes 数学突破之于航天工程的价值。他的观点是：当人类提供初始提示后，数百万 Agent 即可去中心化运转，𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 正是这样一套模型无关的 Agent 消息板原语；而公司层面也在悄然重塑——他观察到几乎每两天就有一家新的 Inference Neocloud 创业公司来找他融资，同时 Vercel 的 AI Gateway Token 需求保持着每月约 40% 的复合增长。</p>
+          <p>另外值得关注的信号来自 OpenClaw 团队：Polyagentmorous 创始人 Peter Steinberger（steipete）透露已在 OpenClaw 中修复了一个嵌入 Harness 的关键问题（针对非 Codex 插件用户），但更多 Harness 尚未同步更新，说明当前 Agent 运行时生态仍在快速迭代，工具链兼容性是一个短期挑战。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>No Priors：超级智能需要物理世界——Arda CEO Bob McGrew 访谈</h2>
+      <div class="meta-line">2026-11-19 · No Priors · Elad Gil &amp; Bob McGrew对话</div>
+      <p>前 OpenAI 首席研究官、Palantir 早期高管 Bob McGrew 在最新一期 No Priors 中表达了一个反直觉的判断：如果不把焦点从纯数字世界转向物理世界，我们实际上无法抵达真正的超级智能。他用 Waymo 的体验做了类比——第一次坐自动驾驶汽车你会惊叹，第三次你就会开始抱怨交通本身，这说明单纯在数字世界里追求更快更聪明的模型已经遇到了边际递减。
+
+McGrew 认为 ARDA 的工作方向正好补上这个缺口：让机器不仅能做决策，还能在物理世界中执行、感知和改造环境。这场访谈讨论的核心命题是——为什么制造机器、操控真实物体的能力，才是通向真正超级智能的必要条件，而不是可选项。</p>
+          <p>作为补充背景，McGrew 兼具 OpenAI 研究侧和 Palantir 工程落地两端的经验，这让他在判断 AI 下一阶段重心时既有前沿视角，也有工程现实感。节目时长约 55 分钟，适合对 AGI 路径和产业落点感兴趣的听众。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=_wLzJINt9iQ">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">Gemini App for Mac 现在可以在你的电脑上了——一个顶级功能请求终于实现了！这标志着 Gemini 从手机/网页助手正式进化为可跨设备执行的桌面 Agent。 <a class="read-more" href="https://x.com/joshwoodward/status/2123534862569324703" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">Le ChatGPT 2.0 —— 团队正准备颠覆 12 亿用户正在使用的体验。同时他们还分享了一个新的移动端改版设计：Pro 用户将获得专属 Tab，Codex、Projects、Images 等功能可固定到导航栏。这个改动意味着 ChatGPT 正在从简单的聊天框扩展为一个完整的 Agentic 工作空间入口。 <a class="read-more" href="https://x.com/thsottiaux/status/2123612433923051976" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">公司的诞生时刻就是那个帮你建公司的 Agent。我的「工程师是否有价值的」计算公式很简单：一个结果导向、有创造力的工程师现在是 1000x 工程师；一个还在纠结 tabs vs spaces 的工程师则变成 -10x；普通知识工作者是 2x。这意味着工程能力和 Agent 协同效率将成为拉开差距的核心变量。 <a class="read-more" href="https://x.com/rauchg/status/2123505400591106113" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · 独立创作者</span>
+              
+            </div>
+            <p class="voice-quote">人们嘲笑 Google 庞大且官僚，但我觉得这恰恰是他们的竞争优势之一——他们有超过 10 万员工在广泛发布之前测试最新的模型和工具。在这个体量下，你甚至可以做内部 A/B 测试并获得统计显著的结果。这就是规模和耐心的复利。 <a class="read-more" href="https://x.com/petergyang/status/2123648490844897389" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · @smol_ai / @cognition</span>
+              
+            </div>
+            <p class="voice-quote">刷社交媒体时要意识到一个重要现象：你可以说「达到 SOTA 的概率已降至零」然后收获大量点赞；三个月后他们真的达到了 SOTA，你再发道歉声明会获得更多点赞，甚至还会把那句话打印出来感谢它给了你动力。在这种环境下，不准确没有任何代价，而夸张却总能获得回报——X 算法就是这样被调优的。 <a class="read-more" href="https://x.com/swyx/status/2123591875349422435" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">用一条提示词就能构建你自己的 Muse 级个人 Agent。同时他强调，与 Agent 签订「合同」是我们 expect 很多团队会借鉴的思路。Agent Swarm 被视为 AI 的下一次扩展前沿——多年我们通过训练更大的模型来扩展智能，但现在还有另一个维度：并行运行多个 Agent，让它们互相挑战和协作。 <a class="read-more" href="https://x.com/amasad/status/2123535544718418191" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aditya Agarwal</span>
+              <span class="voice-handle">@adityaag · General Partner @SPC</span>
+              
+            </div>
+            <p class="voice-quote">我为我们今天所在的行业感到无比自豪。今天不是零和游戏——所有在"计算机"/硅谷/风险投资领域的人都应该骄傲。我们在共同加速人类的进步。祝贺 Anthropic 的朋友们；SPC 的目标不只是让人开公司，今天的成就很好地说明了为什么。Tom 和 Thariq 这两位帮助构建了 Anthropic 的人曾在 SPC 度过重要时光。 <a class="read-more" href="https://x.com/adityaag/status/2123494873919783073" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · formerly Claude Code @anthropicai</span>
+              
+            </div>
+            <p class="voice-quote">软件既是艺术也是工具，AI 既是工业革命也是文艺复兴。我在 AIE Code 演讲中谈到了如何制作更好的艺术。这是一个奇迹的时代——值得停下来感受。 <a class="read-more" href="https://x.com/trq212/status/2123524052195463568" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 14 位建造者 · 33 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 14 位建造者，33 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-20 UTC<br>
+      生成于 2026-11-21T02:00:14.989Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
