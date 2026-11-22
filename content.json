@@ -1,88 +1,88 @@
 {
   "issue": {
-    "vol": "2026325",
-    "date": "2026年11月21日",
-    "weekday": "星期六",
-    "dateISO": "2026-11-21",
-    "tagline": "Gemini 桌面 Agent 上线 · ChatGPT 移动端改版内测 · OpenClaw harness 更新"
+    "vol": "2026326",
+    "date": "2026年11月22日",
+    "weekday": "星期日",
+    "dateISO": "2026-11-22",
+    "tagline": "Gemini Neon 功能上线 · OpenAI 桌面应用升级 · Linear COO 谈 GTM 到 1 亿美金"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Google 推出 Gemini 桌面版 Agent，OpenAI 启动 ChatGPT 2.0 移动端改版，Vercel 定义「Agent 基础设施层」——AI 原生客户端与 Agent 编排加速成型",
+    "title": "Gemini Neon 趣味模式进入生产环境，OpenAI 桌面客户端全面提速——AI 工具正从「能用」走向「好用」",
     "paras": [
-      "Google Labs VP Josh Woodward 宣布 Gemini App for Mac 新增原生桌面能力——可直接在你的电脑上执行任务。这是 Gemini 产品矩阵从网页/移动端向完整桌面 Agent 演进的重要一步。与此同时，OpenAI 的 Thibault Sottiaux 透露团队正在为 ChatGPT 设计全新移动端体验：Pro 用户将获得专属 Tab 页，Codex、Projects、Images 等高频功能可固定到导航栏；该设计面向已认证或符合资格创建 Dot 标识的用户优先推送，并可在设置中手动切换。两款产品都指向同一趋势：Agent 正在从 Web 工具固化为常驻桌面的生产力伙伴。",
-      "Vercel CEO Guillermo Rauch 在另一条动态中进一步阐释了 Agentic 时代的基础设施逻辑——他将软件工厂和自优化系统的关键使能技术类比为 Navier-Stokes 数学突破之于航天工程的价值。他的观点是：当人类提供初始提示后，数百万 Agent 即可去中心化运转，𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 正是这样一套模型无关的 Agent 消息板原语；而公司层面也在悄然重塑——他观察到几乎每两天就有一家新的 Inference Neocloud 创业公司来找他融资，同时 Vercel 的 AI Gateway Token 需求保持着每月约 40% 的复合增长。",
-      "另外值得关注的信号来自 OpenClaw 团队：Polyagentmorous 创始人 Peter Steinberger（steipete）透露已在 OpenClaw 中修复了一个嵌入 Harness 的关键问题（针对非 Codex 插件用户），但更多 Harness 尚未同步更新，说明当前 Agent 运行时生态仍在快速迭代，工具链兼容性是一个短期挑战。"
+      "Google Labs VP Josh Woodward 宣布 Gemini Neon 的一个内部彩蛋功能已正式推向生产环境：在网页端长按模型选择器即可激活趣味模式。这个功能的灵感来自一位开发者社区的反馈，团队周五下午临时起意就把它做出来了——这本身也折射出 Google AI 产品团队的快速迭代文化。与此同时，OpenAI 的 Thibault Sottiaux 透露团队正在内测一个体验过于有趣的内部功能，\"现在大家都在玩而不是工作\"；他的另一条动态确认了桌面客户端的全面升级——更快、更简洁、更好用。两条信号指向同一个方向：各大厂商正把资源从'能不能做'转向'做得好不好'，用户侧的产品打磨期已经到来。",
+      "OpenAI 产品负责人 Nan Yu 进一步补充：新一轮更新针对的是用户每天要操作几十上百次的高频动作，带来了显著的性能和生活质量提升。这些优化不会出现在营销文案里，但会让真正重度使用的用户感受到明显差异。",
+      "Vercel CEO Guillermo Rauch 则从基础设施视角提出另一个判断：ISO 42001:2023 标准相当于 \"AI 界的 SOC 2\"——全球首个独立审计的 AI 系统构建与治理标准，现在已经覆盖 Vercel AI 平台的全部产品。这意味着企业在采用 AI 基础设施时，合规审计不再需要从零搭建。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "No Priors：超级智能需要物理世界——Arda CEO Bob McGrew 访谈",
-    "meta": "2026-11-19 · No Priors · Elad Gil & Bob McGrew对话",
+    "title": "Scaling Linear 的 GTM 到 1 亿美元 ARR——COO Cristina Cordova 访谈录",
+    "meta": "2026-11-19 · Latent Space · Kari Lyderson & Cristina Cordova 对话",
     "paras": [
-      "前 OpenAI 首席研究官、Palantir 早期高管 Bob McGrew 在最新一期 No Priors 中表达了一个反直觉的判断：如果不把焦点从纯数字世界转向物理世界，我们实际上无法抵达真正的超级智能。他用 Waymo 的体验做了类比——第一次坐自动驾驶汽车你会惊叹，第三次你就会开始抱怨交通本身，这说明单纯在数字世界里追求更快更聪明的模型已经遇到了边际递减。\n\nMcGrew 认为 ARDA 的工作方向正好补上这个缺口：让机器不仅能做决策，还能在物理世界中执行、感知和改造环境。这场访谈讨论的核心命题是——为什么制造机器、操控真实物体的能力，才是通向真正超级智能的必要条件，而不是可选项。",
-      "作为补充背景，McGrew 兼具 OpenAI 研究侧和 Palantir 工程落地两端的经验，这让他在判断 AI 下一阶段重心时既有前沿视角，也有工程现实感。节目时长约 55 分钟，适合对 AGI 路径和产业落点感兴趣的听众。"
+      "本期 Latent Space 邀请了 Linear 的 COO Cristina Cordova，回顾了她如何帮助这家产品驱动型公司从服务初创团队跨越到 enterprise 市场，最终实现 1 亿美元 ARR。Cordova 拥有 Stripe（7.5年）和 Notion 的深厚背景，她的核心方法论是\"用更少的人做更多的事\"——Linear 只有约 170 人，远小于同阶段同行，但保持扁平决策结构。她分享了一个关键故事：刚加入时销售团队只有 1 个人，她把创始人设定的\"进军企业客户\"目标改成了\"先征服增长期公司\"，因为只有先证明自己能在可触达的市场中赢下竞品替换，才有资格往上走。她还强调支持团队绝不外包的文化——三年内没有一次客户投诉升级，这是她职业生涯中最引以为豪的数据之一。",
+      "节目还探讨了operator-turned-investor 的独特价值：做过实战的投资人能 credible地告诉创业者\"我可以帮你\"，而不仅仅是提供intro；反之，VC经验也让 Cordova 在做董事会汇报时更懂投资者想看什么数据和预期。整期节目时长约 55 分钟，适合所有正在从 product-led growth 向 sales-driven scale 过渡的团队。"
     ],
-    "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ"
+    "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
         "name": "Josh Woodward",
-        "handle": "joshwoodward",
         "org": "VP @GoogleLabs",
-        "text": "Gemini App for Mac 现在可以在你的电脑上了——一个顶级功能请求终于实现了！这标志着 Gemini 从手机/网页助手正式进化为可跨设备执行的桌面 Agent。",
-        "url": "https://x.com/joshwoodward/status/2123534862569324703"
+        "handle": "joshwoodward",
+        "text": "感谢社区提供的灵感！我们上周五下午花了几个小时就把 Gemini Neon 的长按功能做出来并推上了生产环境——这就是为什么小规模快速试错比大规划更有效。",
+        "url": "https://x.com/joshwoodward/status/2123943606906138868"
       },
       {
         "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
         "org": "Codex & ChatGPT @OpenAI",
-        "text": "Le ChatGPT 2.0 —— 团队正准备颠覆 12 亿用户正在使用的体验。同时他们还分享了一个新的移动端改版设计：Pro 用户将获得专属 Tab，Codex、Projects、Images 等功能可固定到导航栏。这个改动意味着 ChatGPT 正在从简单的聊天框扩展为一个完整的 Agentic 工作空间入口。",
-        "url": "https://x.com/thsottiaux/status/2123612433923051976"
+        "handle": "thsottiaux",
+        "text": "我们最近在内部尝试了一些东西，结果做了一个太有趣的功能，现在整个团队都在玩而不是工作……可能 recovery 不回来了。同时提醒大家升级桌面客户端：更快、更简单、体验好很多。",
+        "url": "https://x.com/thsottiaux/status/2123997735326232775"
+      },
+      {
+        "name": "Nan Yu",
+        "org": "Product @OpenAI, ex-Linear",
+        "handle": "thenanyu",
+        "text": "这一轮更新针对的是用户每天会操作几十到上百次的核心动作——性能和生活质量的实质性提升，不在发布会舞台上讲，但在你的日常使用里感受得到。",
+        "url": "https://x.com/thenanyu/status/2123983081577267264"
       },
       {
         "name": "Guillermo Rauch",
-        "handle": "rauchg",
         "org": "CEO @Vercel",
-        "text": "公司的诞生时刻就是那个帮你建公司的 Agent。我的「工程师是否有价值的」计算公式很简单：一个结果导向、有创造力的工程师现在是 1000x 工程师；一个还在纠结 tabs vs spaces 的工程师则变成 -10x；普通知识工作者是 2x。这意味着工程能力和 Agent 协同效率将成为拉开差距的核心变量。",
-        "url": "https://x.com/rauchg/status/2123505400591106113"
+        "handle": "rauchg",
+        "text": "ISO 42001:2023 是 AI 世界的 SOC 2——全球首个独立的 AI 系统审计标准。现在你在 Vercel AI 上部署的任何内容，都经过 accredited 第三方年度审计。合规门槛在降低，意味着你可以更快地把 AI 产品推到生产环境。",
+        "url": "https://x.com/rauchg/status/2123869175085191298"
       },
       {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "org": "独立创作者",
-        "text": "人们嘲笑 Google 庞大且官僚，但我觉得这恰恰是他们的竞争优势之一——他们有超过 10 万员工在广泛发布之前测试最新的模型和工具。在这个体量下，你甚至可以做内部 A/B 测试并获得统计显著的结果。这就是规模和耐心的复利。",
-        "url": "https://x.com/petergyang/status/2123648490844897389"
-      },
-      {
-        "name": "Swyx",
-        "handle": "swyx",
-        "org": "@smol_ai / @cognition",
-        "text": "刷社交媒体时要意识到一个重要现象：你可以说「达到 SOTA 的概率已降至零」然后收获大量点赞；三个月后他们真的达到了 SOTA，你再发道歉声明会获得更多点赞，甚至还会把那句话打印出来感谢它给了你动力。在这种环境下，不准确没有任何代价，而夸张却总能获得回报——X 算法就是这样被调优的。",
-        "url": "https://x.com/swyx/status/2123591875349422435"
+        "name": "Aaron Levie",
+        "org": "CEO @Box",
+        "handle": "levie",
+        "text": "今年模型能力出现了一次明显的跳跃：过去一年你需要给 agent 非常精确的指令才能让它设计开发你的产品想法，而现在 agent 能自己连接更多点，给出比你原本设想更好的实现方案。这不是渐进改进，而是质变。",
+        "url": "https://x.com/levie/status/2123686350410912145"
       },
       {
         "name": "Amjad Masad",
-        "handle": "amasad",
         "org": "CEO @Replit",
-        "text": "用一条提示词就能构建你自己的 Muse 级个人 Agent。同时他强调，与 Agent 签订「合同」是我们 expect 很多团队会借鉴的思路。Agent Swarm 被视为 AI 的下一次扩展前沿——多年我们通过训练更大的模型来扩展智能，但现在还有另一个维度：并行运行多个 Agent，让它们互相挑战和协作。",
-        "url": "https://x.com/amasad/status/2123535544718418191"
+        "handle": "amasad",
+        "text": "一个 AI 证明黎曼猜想，一个人也证明了——如果两者都对，接下来最值得看的将是它们的优雅程度有何不同。当 AI 开始参与数学最前沿的工作，它和人类思维方式的差异将比准确性更值得讨论。",
+        "url": "https://x.com/amasad/status/2123874539218010491"
       },
       {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "org": "General Partner @SPC",
-        "text": "我为我们今天所在的行业感到无比自豪。今天不是零和游戏——所有在\"计算机\"/硅谷/风险投资领域的人都应该骄傲。我们在共同加速人类的进步。祝贺 Anthropic 的朋友们；SPC 的目标不只是让人开公司，今天的成就很好地说明了为什么。Tom 和 Thariq 这两位帮助构建了 Anthropic 的人曾在 SPC 度过重要时光。",
-        "url": "https://x.com/adityaag/status/2123494873919783073"
+        "name": "Zara Zhang",
+        "org": "独立顾问",
+        "handle": "zarazhangrui",
+        "text": "两个原则：不要把你的客户发给用 Claude Artifacts 或 ChatGPT 做的网站——那让他们觉得\"我 prompting 一下也能做\"；如果你做内容策展，你应该同时是创作者。策展让人信任你，但创造让人记住你。",
+        "url": "https://x.com/zarazhangrui/status/2123813583339532321"
       },
       {
-        "name": "Thariq",
-        "handle": "trq212",
-        "org": "formerly Claude Code @anthropicai",
-        "text": "软件既是艺术也是工具，AI 既是工业革命也是文艺复兴。我在 AIE Code 演讲中谈到了如何制作更好的艺术。这是一个奇迹的时代——值得停下来感受。",
-        "url": "https://x.com/trq212/status/2123524052195463568"
+        "name": "Swyx",
+        "org": "@smol_ai / @cognition",
+        "handle": "swyx",
+        "text": "LangChain 用了三年时间才把这个产品做到 30 亿美金估值，而前任 dbt CEO 跳槽过去之后发现，他们得从头重建内容、上下文（知识库）和软件工厂——因为原来依赖的护城河并不是真正的护城河。这也提醒我们：速度很重要，但底层架构决定了你能跑多远。",
+        "url": "https://x.com/swyx/status/2123843282082132335"
       }
     ]
   },
@@ -91,8 +91,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 14 位建造者 · 33 条 X 动态 · 1 期播客 · 0 篇博客",
-    "coverage": "覆盖 14 位建造者，33 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-20 UTC",
-    "generatedAt": "2026-11-21T02:00:14.989Z"
+    "source": "follow-builders feed · 15 位建造者 · 26 条 X 动态 · 1 期播客 · 0 篇博客",
+    "coverage": "覆盖 15 位建造者，26 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-21 UTC",
+    "generatedAt": "2026-11-22T02:00:00.000Z"
   }
 }

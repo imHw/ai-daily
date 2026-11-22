@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月22日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026326</span><span>2026年11月22日 · 星期日</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Gemini Neon 功能上线 · OpenAI 桌面应用升级 · Linear COO 谈 GTM 到 1 亿美金</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>Gemini Neon 趣味模式进入生产环境，OpenAI 桌面客户端全面提速——AI 工具正从「能用」走向「好用」</h1>
+      <p>Google Labs VP Josh Woodward 宣布 Gemini Neon 的一个内部彩蛋功能已正式推向生产环境：在网页端长按模型选择器即可激活趣味模式。这个功能的灵感来自一位开发者社区的反馈，团队周五下午临时起意就把它做出来了——这本身也折射出 Google AI 产品团队的快速迭代文化。与此同时，OpenAI 的 Thibault Sottiaux 透露团队正在内测一个体验过于有趣的内部功能，"现在大家都在玩而不是工作"；他的另一条动态确认了桌面客户端的全面升级——更快、更简洁、更好用。两条信号指向同一个方向：各大厂商正把资源从'能不能做'转向'做得好不好'，用户侧的产品打磨期已经到来。</p>
+          <p>OpenAI 产品负责人 Nan Yu 进一步补充：新一轮更新针对的是用户每天要操作几十上百次的高频动作，带来了显著的性能和生活质量提升。这些优化不会出现在营销文案里，但会让真正重度使用的用户感受到明显差异。</p>
+          <p>Vercel CEO Guillermo Rauch 则从基础设施视角提出另一个判断：ISO 42001:2023 标准相当于 "AI 界的 SOC 2"——全球首个独立审计的 AI 系统构建与治理标准，现在已经覆盖 Vercel AI 平台的全部产品。这意味着企业在采用 AI 基础设施时，合规审计不再需要从零搭建。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Scaling Linear 的 GTM 到 1 亿美元 ARR——COO Cristina Cordova 访谈录</h2>
+      <div class="meta-line">2026-11-19 · Latent Space · Kari Lyderson &amp; Cristina Cordova 对话</div>
+      <p>本期 Latent Space 邀请了 Linear 的 COO Cristina Cordova，回顾了她如何帮助这家产品驱动型公司从服务初创团队跨越到 enterprise 市场，最终实现 1 亿美元 ARR。Cordova 拥有 Stripe（7.5年）和 Notion 的深厚背景，她的核心方法论是"用更少的人做更多的事"——Linear 只有约 170 人，远小于同阶段同行，但保持扁平决策结构。她分享了一个关键故事：刚加入时销售团队只有 1 个人，她把创始人设定的"进军企业客户"目标改成了"先征服增长期公司"，因为只有先证明自己能在可触达的市场中赢下竞品替换，才有资格往上走。她还强调支持团队绝不外包的文化——三年内没有一次客户投诉升级，这是她职业生涯中最引以为豪的数据之一。</p>
+          <p>节目还探讨了operator-turned-investor 的独特价值：做过实战的投资人能 credible地告诉创业者"我可以帮你"，而不仅仅是提供intro；反之，VC经验也让 Cordova 在做董事会汇报时更懂投资者想看什么数据和预期。整期节目时长约 55 分钟，适合所有正在从 product-led growth 向 sales-driven scale 过渡的团队。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=x0VSm6IjcDQ">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Josh Woodward</span>
+              <span class="voice-handle">@joshwoodward · VP @GoogleLabs</span>
+              
+            </div>
+            <p class="voice-quote">感谢社区提供的灵感！我们上周五下午花了几个小时就把 Gemini Neon 的长按功能做出来并推上了生产环境——这就是为什么小规模快速试错比大规划更有效。 <a class="read-more" href="https://x.com/joshwoodward/status/2123943606906138868" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">我们最近在内部尝试了一些东西，结果做了一个太有趣的功能，现在整个团队都在玩而不是工作……可能 recovery 不回来了。同时提醒大家升级桌面客户端：更快、更简单、体验好很多。 <a class="read-more" href="https://x.com/thsottiaux/status/2123997735326232775" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Product @OpenAI, ex-Linear</span>
+              
+            </div>
+            <p class="voice-quote">这一轮更新针对的是用户每天会操作几十到上百次的核心动作——性能和生活质量的实质性提升，不在发布会舞台上讲，但在你的日常使用里感受得到。 <a class="read-more" href="https://x.com/thenanyu/status/2123983081577267264" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">ISO 42001:2023 是 AI 世界的 SOC 2——全球首个独立的 AI 系统审计标准。现在你在 Vercel AI 上部署的任何内容，都经过 accredited 第三方年度审计。合规门槛在降低，意味着你可以更快地把 AI 产品推到生产环境。 <a class="read-more" href="https://x.com/rauchg/status/2123869175085191298" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">今年模型能力出现了一次明显的跳跃：过去一年你需要给 agent 非常精确的指令才能让它设计开发你的产品想法，而现在 agent 能自己连接更多点，给出比你原本设想更好的实现方案。这不是渐进改进，而是质变。 <a class="read-more" href="https://x.com/levie/status/2123686350410912145" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">一个 AI 证明黎曼猜想，一个人也证明了——如果两者都对，接下来最值得看的将是它们的优雅程度有何不同。当 AI 开始参与数学最前沿的工作，它和人类思维方式的差异将比准确性更值得讨论。 <a class="read-more" href="https://x.com/amasad/status/2123874539218010491" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · 独立顾问</span>
+              
+            </div>
+            <p class="voice-quote">两个原则：不要把你的客户发给用 Claude Artifacts 或 ChatGPT 做的网站——那让他们觉得"我 prompting 一下也能做"；如果你做内容策展，你应该同时是创作者。策展让人信任你，但创造让人记住你。 <a class="read-more" href="https://x.com/zarazhangrui/status/2123813583339532321" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · @smol_ai / @cognition</span>
+              
+            </div>
+            <p class="voice-quote">LangChain 用了三年时间才把这个产品做到 30 亿美金估值，而前任 dbt CEO 跳槽过去之后发现，他们得从头重建内容、上下文（知识库）和软件工厂——因为原来依赖的护城河并不是真正的护城河。这也提醒我们：速度很重要，但底层架构决定了你能跑多远。 <a class="read-more" href="https://x.com/swyx/status/2123843282082132335" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 15 位建造者 · 26 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 15 位建造者，26 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-21 UTC<br>
+      生成于 2026-11-22T02:00:00.000Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
