@@ -1,88 +1,87 @@
 {
   "issue": {
-    "vol": "2026326",
-    "date": "2026年11月22日",
-    "weekday": "星期日",
-    "dateISO": "2026-11-22",
-    "tagline": "Gemini Neon 功能上线 · OpenAI 桌面应用升级 · Linear COO 谈 GTM 到 1 亿美金"
+    "vol": "2026327",
+    "date": "2026年11月23日",
+    "weekday": "星期一",
+    "dateISO": "2026-11-23",
+    "tagline": "OpenAI 桌面端大更新 · AI 证明黎曼猜想引发行业震动 · GTA6 开源移植由 Agent 协作完成"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "Gemini Neon 趣味模式进入生产环境，OpenAI 桌面客户端全面提速——AI 工具正从「能用」走向「好用」",
+    "title": "黎曼猜想的 AI 突破让所有人重新思考「智能」的边界，而 OpenAI 正把产品体验推向下一个台阶",
     "paras": [
-      "Google Labs VP Josh Woodward 宣布 Gemini Neon 的一个内部彩蛋功能已正式推向生产环境：在网页端长按模型选择器即可激活趣味模式。这个功能的灵感来自一位开发者社区的反馈，团队周五下午临时起意就把它做出来了——这本身也折射出 Google AI 产品团队的快速迭代文化。与此同时，OpenAI 的 Thibault Sottiaux 透露团队正在内测一个体验过于有趣的内部功能，\"现在大家都在玩而不是工作\"；他的另一条动态确认了桌面客户端的全面升级——更快、更简洁、更好用。两条信号指向同一个方向：各大厂商正把资源从'能不能做'转向'做得好不好'，用户侧的产品打磨期已经到来。",
-      "OpenAI 产品负责人 Nan Yu 进一步补充：新一轮更新针对的是用户每天要操作几十上百次的高频动作，带来了显著的性能和生活质量提升。这些优化不会出现在营销文案里，但会让真正重度使用的用户感受到明显差异。",
-      "Vercel CEO Guillermo Rauch 则从基础设施视角提出另一个判断：ISO 42001:2023 标准相当于 \"AI 界的 SOC 2\"——全球首个独立审计的 AI 系统构建与治理标准，现在已经覆盖 Vercel AI 平台的全部产品。这意味着企业在采用 AI 基础设施时，合规审计不再需要从零搭建。"
+      "本周最重磅的消息来自数学界：一位高中生用 AI 辅助证明了黎曼猜想，整个过程涉及约 25,000 页的基础设施推演，远超任何人类单独能处理的体量。Box CEO Aaron Levie 在 X 上发文称这是'人类生产力的一次质变'——过去解决问题受限于个人能理解和保持的信息量，现在 AI 首次让大规模信息关联和推理成为可能。Replit CEO Amjad Masad 则补充了一个更微妙的观察：当 AI 和人类都完成了证明，真正值得讨论的将是谁的版本更优雅，而非谁的答案正确。这场争论标志着 AI 开始从'工具'走向'合作者'的角色。",
+      "与此同时，OpenAI 桌面客户端迎来新一轮重大更新。产品负责人 Thibault Sottiaux 透露团队正在内测一个内部彩蛋功能——效果太有趣，整个团队都在玩而不是工作。Nan Yu 也发布了新提示语\"Forget second brain. Third brain.\"，暗示产品在向更深层次的认知辅助演进。Peter Yang 分享了移动端的实用技巧：Codex 线程现在可以固定在底部导航栏，但入口隐藏得相当深。这些信号共同指向一个趋势：大厂正在把资源从功能堆砌转向体验打磨，用户侧的产品成熟期已经到来。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Scaling Linear 的 GTM 到 1 亿美元 ARR——COO Cristina Cordova 访谈录",
-    "meta": "2026-11-19 · Latent Space · Kari Lyderson & Cristina Cordova 对话",
+    "title": "DeepMind 联合创始人在 Isomorphic Labs 谈 AI 药物研发的未来",
+    "meta": "2026-11-12 · No Priors Podcast · Max Jaderberg 访谈",
     "paras": [
-      "本期 Latent Space 邀请了 Linear 的 COO Cristina Cordova，回顾了她如何帮助这家产品驱动型公司从服务初创团队跨越到 enterprise 市场，最终实现 1 亿美元 ARR。Cordova 拥有 Stripe（7.5年）和 Notion 的深厚背景，她的核心方法论是\"用更少的人做更多的事\"——Linear 只有约 170 人，远小于同阶段同行，但保持扁平决策结构。她分享了一个关键故事：刚加入时销售团队只有 1 个人，她把创始人设定的\"进军企业客户\"目标改成了\"先征服增长期公司\"，因为只有先证明自己能在可触达的市场中赢下竞品替换，才有资格往上走。她还强调支持团队绝不外包的文化——三年内没有一次客户投诉升级，这是她职业生涯中最引以为豪的数据之一。",
-      "节目还探讨了operator-turned-investor 的独特价值：做过实战的投资人能 credible地告诉创业者\"我可以帮你\"，而不仅仅是提供intro；反之，VC经验也让 Cordova 在做董事会汇报时更懂投资者想看什么数据和预期。整期节目时长约 55 分钟，适合所有正在从 product-led growth 向 sales-driven scale 过渡的团队。"
+      "Isomorphic Labs 总裁 Max Jaderberg 是 DeepMind 的联合创始人之一，曾将公司出售给 Google DeepMind 后参与创立了这家目标是\"解决所有疾病\"的生物科技公司。本期他分享了一个核心观点：制药行业几十年来一直在用经验性试错法开发药物，失败率极高，而 AI 的最大价值是把整个药物发现过程\"搬到计算机上\"——减少现实世界的实验迭代次数，只在验证阶段才进入真实实验。",
+      "Jaderberg 还透露了一个关键数据：以大鼠为模型的毒性预测对人类的准确率仅约 30%，这就是为什么大量在小鼠实验中成功的抗癌分子无法转化到人体。他们正在探索的方向包括类器官、器官芯片等合成 human tissue 技术，结合 AI 模型直接预测人类临床毒性，绕过动物实验的瓶颈。Isomorphic 目前专注于肿瘤学、免疫学和炎症领域，但其模型平台本身是 disease-agnostic 的。"
     ],
-    "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ"
+    "url": "https://www.youtube.com/watch?v=IiKf3BgBezE"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Josh Woodward",
-        "org": "VP @GoogleLabs",
-        "handle": "joshwoodward",
-        "text": "感谢社区提供的灵感！我们上周五下午花了几个小时就把 Gemini Neon 的长按功能做出来并推上了生产环境——这就是为什么小规模快速试错比大规划更有效。",
-        "url": "https://x.com/joshwoodward/status/2123943606906138868"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "handle": "thsottiaux",
-        "text": "我们最近在内部尝试了一些东西，结果做了一个太有趣的功能，现在整个团队都在玩而不是工作……可能 recovery 不回来了。同时提醒大家升级桌面客户端：更快、更简单、体验好很多。",
-        "url": "https://x.com/thsottiaux/status/2123997735326232775"
-      },
-      {
-        "name": "Nan Yu",
-        "org": "Product @OpenAI, ex-Linear",
-        "handle": "thenanyu",
-        "text": "这一轮更新针对的是用户每天会操作几十到上百次的核心动作——性能和生活质量的实质性提升，不在发布会舞台上讲，但在你的日常使用里感受得到。",
-        "url": "https://x.com/thenanyu/status/2123983081577267264"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "org": "CEO @Vercel",
-        "handle": "rauchg",
-        "text": "ISO 42001:2023 是 AI 世界的 SOC 2——全球首个独立的 AI 系统审计标准。现在你在 Vercel AI 上部署的任何内容，都经过 accredited 第三方年度审计。合规门槛在降低，意味着你可以更快地把 AI 产品推到生产环境。",
-        "url": "https://x.com/rauchg/status/2123869175085191298"
-      },
-      {
         "name": "Aaron Levie",
         "org": "CEO @Box",
         "handle": "levie",
-        "text": "今年模型能力出现了一次明显的跳跃：过去一年你需要给 agent 非常精确的指令才能让它设计开发你的产品想法，而现在 agent 能自己连接更多点，给出比你原本设想更好的实现方案。这不是渐进改进，而是质变。",
-        "url": "https://x.com/levie/status/2123686350410912145"
+        "text": "我们正在进入一个新的时代——问题的求解方式与过去截然不同。以前你受限于个人或团队能理解和记住的信息量，更多成员并不一定带来更多产出，因为协调成本太高了。AI 首次让我们能把海量历史信息关联起来用于发现新的东西，这不仅仅是数量的提升，而是质的飞跃。",
+        "url": "https://x.com/levie/status/2124252844710887549"
       },
       {
         "name": "Amjad Masad",
         "org": "CEO @Replit",
         "handle": "amasad",
-        "text": "一个 AI 证明黎曼猜想，一个人也证明了——如果两者都对，接下来最值得看的将是它们的优雅程度有何不同。当 AI 开始参与数学最前沿的工作，它和人类思维方式的差异将比准确性更值得讨论。",
-        "url": "https://x.com/amasad/status/2123874539218010491"
+        "text": "一个高中生正在把 GTA6 重编译到 PC 平台上，更有趣的是他们用 GitHub Issues 来协调 agent swarm 的任务分工。与此同时，Amuse（Replit Missions 构建的工具）也开源了。当 AI 能力足够强时，一个人加一群 agent 就能做以前需要一个团队才能做的事。",
+        "url": "https://x.com/amasad/status/2124345037408686228"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "handle": "thsottiaux",
+        "text": "团队最近在内部尝试了一些新功能，结果做了一个过于有趣的彩蛋——现在大家都在玩而不是工作……预计 recovery 回不来了。另一个提醒：升级桌面客户端吧，更快更简洁的体验在路上。",
+        "url": "https://x.com/thsottiaux/status/2124277855131664869"
+      },
+      {
+        "name": "Thariq",
+        "org": "前 Claude Code @Anthropic",
+        "handle": "trq212",
+        "text": "我越来越觉得，随着模型变得越来越强大，使用它们的能力本身就变得更加重要，而我还没有看到这种技能出现收益递减的迹象。未来模型或许能单步\"证明黎曼猜想\"或\"让 JavaScript 变成静态语言\"，但相信与模型协作推进前沿仍然是一项需要深厚技术的技能。",
+        "url": "https://x.com/trq212/status/2124239686482923553"
+      },
+      {
+        "name": "Nan Yu",
+        "org": "Product @OpenAI, ex-Linear",
+        "handle": "thenanyu",
+        "text": "忘掉第二大脑，想想第三大脑。这个概念暗示产品正在从简单的知识存储助手，进化为一个能真正扩展认知能力的伙伴——不是帮你记东西，而是帮你思考。",
+        "url": "https://x.com/thenanyu/status/2124241838358008184"
+      },
+      {
+        "name": "Garry Tan",
+        "org": "President & CEO @YCombinator",
+        "handle": "garrytan",
+        "text": "考虑到 AI 的发展和 GTA6 引发的争议，有人问多久之后会出现一个 vibe-coded 的爱好者 PC 移植版，把所有讨厌的设计缺陷都改掉？他说可能只需一两个月，只要有足够的 token。",
+        "url": "https://x.com/garrytan/status/2124154280450134231"
       },
       {
         "name": "Zara Zhang",
         "org": "独立顾问",
         "handle": "zarazhangrui",
-        "text": "两个原则：不要把你的客户发给用 Claude Artifacts 或 ChatGPT 做的网站——那让他们觉得\"我 prompting 一下也能做\"；如果你做内容策展，你应该同时是创作者。策展让人信任你，但创造让人记住你。",
-        "url": "https://x.com/zarazhangrui/status/2123813583339532321"
+        "text": "两个原则：不要给客户看用 Claude Artifacts 或 ChatGPT 做的网站——那让他们觉得 prompting 一下也能做；如果你做内容策展，你应该同时是创作者。策展让人信任你，但创造让人记住你。",
+        "url": "https://x.com/zarazhangrui/status/2124309178982572442"
       },
       {
-        "name": "Swyx",
-        "org": "@smol_ai / @cognition",
-        "handle": "swyx",
-        "text": "LangChain 用了三年时间才把这个产品做到 30 亿美金估值，而前任 dbt CEO 跳槽过去之后发现，他们得从头重建内容、上下文（知识库）和软件工厂——因为原来依赖的护城河并不是真正的护城河。这也提醒我们：速度很重要，但底层架构决定了你能跑多远。",
-        "url": "https://x.com/swyx/status/2123843282082132335"
+        "name": "Matt Turck",
+        "org": "VC @FirstMarkCap",
+        "handle": "mattturck",
+        "text": "发了条自嘲：兴奋地在推特上发 AI 解决了黎曼猜想，但其实根本不知道黎曼猜想是什么——这种心态大概代表了绝大多数人的状态。",
+        "url": "https://x.com/mattturck/status/2124239403107459490"
       }
     ]
   },
@@ -91,8 +90,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 15 位建造者 · 26 条 X 动态 · 1 期播客 · 0 篇博客",
-    "coverage": "覆盖 15 位建造者，26 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-21 UTC",
-    "generatedAt": "2026-11-22T02:00:00.000Z"
+    "source": "follow-builders feed · 12 位建造者 · 23 条 X 动态 · 1 期播客 · 0 篇博客",
+    "coverage": "覆盖 12 位建造者，23 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-22 UTC",
+    "generatedAt": "2026-11-23T02:00:00.000Z"
   }
 }

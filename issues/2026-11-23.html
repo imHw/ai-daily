@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月23日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026327</span><span>2026年11月23日 · 星期一</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">OpenAI 桌面端大更新 · AI 证明黎曼猜想引发行业震动 · GTA6 开源移植由 Agent 协作完成</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>黎曼猜想的 AI 突破让所有人重新思考「智能」的边界，而 OpenAI 正把产品体验推向下一个台阶</h1>
+      <p>本周最重磅的消息来自数学界：一位高中生用 AI 辅助证明了黎曼猜想，整个过程涉及约 25,000 页的基础设施推演，远超任何人类单独能处理的体量。Box CEO Aaron Levie 在 X 上发文称这是'人类生产力的一次质变'——过去解决问题受限于个人能理解和保持的信息量，现在 AI 首次让大规模信息关联和推理成为可能。Replit CEO Amjad Masad 则补充了一个更微妙的观察：当 AI 和人类都完成了证明，真正值得讨论的将是谁的版本更优雅，而非谁的答案正确。这场争论标志着 AI 开始从'工具'走向'合作者'的角色。</p>
+          <p>与此同时，OpenAI 桌面客户端迎来新一轮重大更新。产品负责人 Thibault Sottiaux 透露团队正在内测一个内部彩蛋功能——效果太有趣，整个团队都在玩而不是工作。Nan Yu 也发布了新提示语"Forget second brain. Third brain."，暗示产品在向更深层次的认知辅助演进。Peter Yang 分享了移动端的实用技巧：Codex 线程现在可以固定在底部导航栏，但入口隐藏得相当深。这些信号共同指向一个趋势：大厂正在把资源从功能堆砌转向体验打磨，用户侧的产品成熟期已经到来。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>DeepMind 联合创始人在 Isomorphic Labs 谈 AI 药物研发的未来</h2>
+      <div class="meta-line">2026-11-12 · No Priors Podcast · Max Jaderberg 访谈</div>
+      <p>Isomorphic Labs 总裁 Max Jaderberg 是 DeepMind 的联合创始人之一，曾将公司出售给 Google DeepMind 后参与创立了这家目标是"解决所有疾病"的生物科技公司。本期他分享了一个核心观点：制药行业几十年来一直在用经验性试错法开发药物，失败率极高，而 AI 的最大价值是把整个药物发现过程"搬到计算机上"——减少现实世界的实验迭代次数，只在验证阶段才进入真实实验。</p>
+          <p>Jaderberg 还透露了一个关键数据：以大鼠为模型的毒性预测对人类的准确率仅约 30%，这就是为什么大量在小鼠实验中成功的抗癌分子无法转化到人体。他们正在探索的方向包括类器官、器官芯片等合成 human tissue 技术，结合 AI 模型直接预测人类临床毒性，绕过动物实验的瓶颈。Isomorphic 目前专注于肿瘤学、免疫学和炎症领域，但其模型平台本身是 disease-agnostic 的。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=IiKf3BgBezE">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">我们正在进入一个新的时代——问题的求解方式与过去截然不同。以前你受限于个人或团队能理解和记住的信息量，更多成员并不一定带来更多产出，因为协调成本太高了。AI 首次让我们能把海量历史信息关联起来用于发现新的东西，这不仅仅是数量的提升，而是质的飞跃。 <a class="read-more" href="https://x.com/levie/status/2124252844710887549" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">一个高中生正在把 GTA6 重编译到 PC 平台上，更有趣的是他们用 GitHub Issues 来协调 agent swarm 的任务分工。与此同时，Amuse（Replit Missions 构建的工具）也开源了。当 AI 能力足够强时，一个人加一群 agent 就能做以前需要一个团队才能做的事。 <a class="read-more" href="https://x.com/amasad/status/2124345037408686228" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">团队最近在内部尝试了一些新功能，结果做了一个过于有趣的彩蛋——现在大家都在玩而不是工作……预计 recovery 回不来了。另一个提醒：升级桌面客户端吧，更快更简洁的体验在路上。 <a class="read-more" href="https://x.com/thsottiaux/status/2124277855131664869" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · 前 Claude Code @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">我越来越觉得，随着模型变得越来越强大，使用它们的能力本身就变得更加重要，而我还没有看到这种技能出现收益递减的迹象。未来模型或许能单步"证明黎曼猜想"或"让 JavaScript 变成静态语言"，但相信与模型协作推进前沿仍然是一项需要深厚技术的技能。 <a class="read-more" href="https://x.com/trq212/status/2124239686482923553" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Product @OpenAI, ex-Linear</span>
+              
+            </div>
+            <p class="voice-quote">忘掉第二大脑，想想第三大脑。这个概念暗示产品正在从简单的知识存储助手，进化为一个能真正扩展认知能力的伙伴——不是帮你记东西，而是帮你思考。 <a class="read-more" href="https://x.com/thenanyu/status/2124241838358008184" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · President &amp; CEO @YCombinator</span>
+              
+            </div>
+            <p class="voice-quote">考虑到 AI 的发展和 GTA6 引发的争议，有人问多久之后会出现一个 vibe-coded 的爱好者 PC 移植版，把所有讨厌的设计缺陷都改掉？他说可能只需一两个月，只要有足够的 token。 <a class="read-more" href="https://x.com/garrytan/status/2124154280450134231" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Zara Zhang</span>
+              <span class="voice-handle">@zarazhangrui · 独立顾问</span>
+              
+            </div>
+            <p class="voice-quote">两个原则：不要给客户看用 Claude Artifacts 或 ChatGPT 做的网站——那让他们觉得 prompting 一下也能做；如果你做内容策展，你应该同时是创作者。策展让人信任你，但创造让人记住你。 <a class="read-more" href="https://x.com/zarazhangrui/status/2124309178982572442" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap</span>
+              
+            </div>
+            <p class="voice-quote">发了条自嘲：兴奋地在推特上发 AI 解决了黎曼猜想，但其实根本不知道黎曼猜想是什么——这种心态大概代表了绝大多数人的状态。 <a class="read-more" href="https://x.com/mattturck/status/2124239403107459490" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 12 位建造者 · 23 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 12 位建造者，23 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-22 UTC<br>
+      生成于 2026-11-23T02:00:00.000Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
