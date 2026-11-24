@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月24日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026328</span><span>2026年11月24日 · 星期二</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">Sam Altman 提案 AI 行业用困惑度设定发展红线 · Replit Desktop 安全模式上线 · GitHub Issues 管理 Agent Swarm</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>OpenAI CEO 正式提议以困惑度作为 AI 发展监管的共同基准，行业自律迎来历史性节点</h1>
+      <p>本周最引人注目的消息来自 Sam Altman 公开发表的三条 X 帖子。他提出，前沿模型开发者应当在模型首次使用前共同确立透明度和安全测试标准，并建议以困惑度（perplexity）和其他可量化指标为基础，设定全行业承诺不跨越的发展红线——前提是 AI 行为的可观测性能力要达到某个具体里程碑，如下一代 CoT 监控器。这条提议建立在白宫 AI 协议的基础上，目前 Labs 已同意建立安全最佳实践，Altman 认为困惑度是一个可行的跨实验室共享基准。该提案在 X 上获得了大量关注，引发关于 AI 自我监管边界的广泛讨论。</p>
+          <p>与此同时，Replit CEO Amjad Masad 发布了关于桌面端 AI 应用安全的深度思考：他指出桌面 AI 应用普遍存在安全和隐私噩梦，而 Replit 与 Windows 合作构建了一套世界级的安全模型，这也是为什么 Christie's（世界顶级艺术品保管机构）选择 Replit 进行安全代理工作。此外，一位用户分享了一个实用洞察——GitHub Issues 正在成为 agent swarm 任务协调的新基础设施，有人用它来管理 GTA6 开源移植项目的分布式 AI 协作；OpenAI 产品经理 Nan Yu 也透露了一个简单却有效的提示技巧：Use Postgres——让所有 vibe-coded 项目在规模和可靠性上更上一层楼。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>Every 公司会议主题演讲：自动化之后伟大的人类工作是什么样子？</h2>
+      <div class="meta-line">2026-11-11 · AI &amp; I by Every · Dan Shipper 演讲</div>
+      <p>Every（Dan Shipper 创办的 AI 订阅服务）举办了首次线下会议 V.C.S.S.，汇聚了 Anthropic、OpenAI、Notion、Lovable、Ode 等公司的创作者。核心问题是：自动化之后，什么是伟大的「人类工作」？Dan Shipper 用自己的经历给出了答案——他用 Claude 一条订阅在一周内完成了原本需要五个人（数据科学家、游戏开发者、市场、工程师、销售）的工作量：分析季度客户调研结果、构建自定义 CRM、制作视频游戏、逐个联系客户。但这不是关于一个人替代一个团队的噱头故事，而是一个更深层的观点：Claude 处理同样的调研数据只会给出泛泛的回答，而真正区分的是你带入模型的视角和判断力。</p>
+          <p>这场会议的核心论点：AI 让每个人都能实现五倍产出，但「伟大」的定义正在从执行转向策展和方向判断——当你用 AI 做的东西能打动真实用户时，那才是真正的价值所在，而非你用了多快的速度。</p>
+      <a class="read-more" href="https://www.youtube.com/watch?v=WstNofgQF5Q">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Sam Altman</span>
+              <span class="voice-handle">@sama · CEO @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">我提议前沿模型开发者共同制定透明度与安全评测标准，并建议在达到下一个里程碑（如下一代 CoT 监控器）之前，以困惑度和其他可测量指标为基础设定共同的发展红线——这是行业自我约束的第一步，也是能让所有人受益的框架。 <a class="read-more" href="https://x.com/sama/status/2124551883130114403" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">桌面端 AI 应用通常是安全和隐私的灾难。我们与 Windows 合作为 Replit Desktop 构建了世界级安全模型——正因如此，世界顶级艺术品保管机构 Christie's 选择了 Replit 来处理他们的安全代理工作。安全不是附加功能，而是桌面 AI 应用的基石。 <a class="read-more" href="https://x.com/amasad/status/2124604574606795002" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">随着代理承担越来越长的项目，以及大量代理并行推进同一目标，代理编排的基础设施必须进化。最大的转变之一是代理之间如何共享知识、跟踪任务并与人类用户协调——技术上看似直接，但要确保安全边界恰到好处既不易过度暴露也不易封锁资源，复杂度极高。这里有大量经验可以借鉴，同时也存在巨大机会，无论是通用还是垂直方案都值得探索。 <a class="read-more" href="https://x.com/levie/status/2124658150771188157" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Nan Yu</span>
+              <span class="voice-handle">@thenanyu · Product @OpenAI, ex-Linear</span>
+              
+            </div>
+            <p class="voice-quote">我发现了一个能让所有 vibe-coded 项目规模化、性能更好且更可靠的秘密提示词——Use Postgres。有时候最简单的基础设施决策反而是最重要的长期红利。 <a class="read-more" href="https://x.com/thenanyu/status/2124592238974156861" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">我们应该把 AI 引向可理解性和概念化，而非仅仅停留在艺术层面。就像黎曼猜想的证明应当附带论文、逐步解读和新概念，而不只是一份输出结果。高级代码的中间表示同样值得追求——即使在 LLM 可以直接生成 CPU 指令的世界里也是如此。 <a class="read-more" href="https://x.com/rauchg/status/2124654108124848350" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Peter Yang</span>
+              <span class="voice-handle">@petergyang · AI 教育创作者</span>
+              
+            </div>
+            <p class="voice-quote">微软 Copilot EVP 的一个深刻观察：Agent 是非常苛刻的用户——它们追求最佳性能、价格和可靠性，而 agent 偏好不等于人类偏好。当人搜索时会接受 10 个链接加摘要，agent 不在乎这些，它可以返回一千条结果。我们的 API 和 UX 将开始演化出专门支持 agent 的模式。 <a class="read-more" href="https://x.com/petergyang/status/2124669298191090033" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Swyx</span>
+              <span class="voice-handle">@swyx · AI Builder / Writer</span>
+              
+            </div>
+            <p class="voice-quote">按照 OpenAI 提出的以困惑度衡量发展的思路来看，今年我们经历的 AI 进步可能超过 2022 至 2025 年的总和。当然这种感觉不太对劲，但也许指标只有在前沿数学层面才能完全显现意义。 <a class="read-more" href="https://x.com/swyx/status/2124590240539259381" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Matt Turck</span>
+              <span class="voice-handle">@mattturck · VC @FirstMarkCap</span>
+              
+            </div>
+            <p class="voice-quote">两条观察：一是自嘲式幽默——兴奋地在 Twitter 上发 AI 解决了黎曼猜想，但实际上并不知道黎曼猜想是什么，这种状态大概代表绝大多数人；二是纽约街头的 AI 广告投放已经完全接管，让城市看起来像旧金山，到处都是广告牌和地铁海报。 <a class="read-more" href="https://x.com/mattturck/status/2124515224946422095" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 11 位建造者 · 22 条 X 动态 · 1 期播客 · 0 篇博客</strong><br>
+      覆盖 11 位建造者，22 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-23 UTC<br>
+      生成于 2026-11-23T06:38:54.921Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>

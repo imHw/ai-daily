@@ -1,87 +1,87 @@
 {
   "issue": {
-    "vol": "2026327",
-    "date": "2026年11月23日",
-    "weekday": "星期一",
-    "dateISO": "2026-11-23",
-    "tagline": "OpenAI 桌面端大更新 · AI 证明黎曼猜想引发行业震动 · GTA6 开源移植由 Agent 协作完成"
+    "vol": "2026328",
+    "date": "2026年11月24日",
+    "weekday": "星期二",
+    "dateISO": "2026-11-24",
+    "tagline": "Sam Altman 提案 AI 行业用困惑度设定发展红线 · Replit Desktop 安全模式上线 · GitHub Issues 管理 Agent Swarm"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "黎曼猜想的 AI 突破让所有人重新思考「智能」的边界，而 OpenAI 正把产品体验推向下一个台阶",
+    "title": "OpenAI CEO 正式提议以困惑度作为 AI 发展监管的共同基准，行业自律迎来历史性节点",
     "paras": [
-      "本周最重磅的消息来自数学界：一位高中生用 AI 辅助证明了黎曼猜想，整个过程涉及约 25,000 页的基础设施推演，远超任何人类单独能处理的体量。Box CEO Aaron Levie 在 X 上发文称这是'人类生产力的一次质变'——过去解决问题受限于个人能理解和保持的信息量，现在 AI 首次让大规模信息关联和推理成为可能。Replit CEO Amjad Masad 则补充了一个更微妙的观察：当 AI 和人类都完成了证明，真正值得讨论的将是谁的版本更优雅，而非谁的答案正确。这场争论标志着 AI 开始从'工具'走向'合作者'的角色。",
-      "与此同时，OpenAI 桌面客户端迎来新一轮重大更新。产品负责人 Thibault Sottiaux 透露团队正在内测一个内部彩蛋功能——效果太有趣，整个团队都在玩而不是工作。Nan Yu 也发布了新提示语\"Forget second brain. Third brain.\"，暗示产品在向更深层次的认知辅助演进。Peter Yang 分享了移动端的实用技巧：Codex 线程现在可以固定在底部导航栏，但入口隐藏得相当深。这些信号共同指向一个趋势：大厂正在把资源从功能堆砌转向体验打磨，用户侧的产品成熟期已经到来。"
+      "本周最引人注目的消息来自 Sam Altman 公开发表的三条 X 帖子。他提出，前沿模型开发者应当在模型首次使用前共同确立透明度和安全测试标准，并建议以困惑度（perplexity）和其他可量化指标为基础，设定全行业承诺不跨越的发展红线——前提是 AI 行为的可观测性能力要达到某个具体里程碑，如下一代 CoT 监控器。这条提议建立在白宫 AI 协议的基础上，目前 Labs 已同意建立安全最佳实践，Altman 认为困惑度是一个可行的跨实验室共享基准。该提案在 X 上获得了大量关注，引发关于 AI 自我监管边界的广泛讨论。",
+      "与此同时，Replit CEO Amjad Masad 发布了关于桌面端 AI 应用安全的深度思考：他指出桌面 AI 应用普遍存在安全和隐私噩梦，而 Replit 与 Windows 合作构建了一套世界级的安全模型，这也是为什么 Christie's（世界顶级艺术品保管机构）选择 Replit 进行安全代理工作。此外，一位用户分享了一个实用洞察——GitHub Issues 正在成为 agent swarm 任务协调的新基础设施，有人用它来管理 GTA6 开源移植项目的分布式 AI 协作；OpenAI 产品经理 Nan Yu 也透露了一个简单却有效的提示技巧：Use Postgres——让所有 vibe-coded 项目在规模和可靠性上更上一层楼。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "DeepMind 联合创始人在 Isomorphic Labs 谈 AI 药物研发的未来",
-    "meta": "2026-11-12 · No Priors Podcast · Max Jaderberg 访谈",
+    "title": "Every 公司会议主题演讲：自动化之后伟大的人类工作是什么样子？",
+    "meta": "2026-11-11 · AI & I by Every · Dan Shipper 演讲",
     "paras": [
-      "Isomorphic Labs 总裁 Max Jaderberg 是 DeepMind 的联合创始人之一，曾将公司出售给 Google DeepMind 后参与创立了这家目标是\"解决所有疾病\"的生物科技公司。本期他分享了一个核心观点：制药行业几十年来一直在用经验性试错法开发药物，失败率极高，而 AI 的最大价值是把整个药物发现过程\"搬到计算机上\"——减少现实世界的实验迭代次数，只在验证阶段才进入真实实验。",
-      "Jaderberg 还透露了一个关键数据：以大鼠为模型的毒性预测对人类的准确率仅约 30%，这就是为什么大量在小鼠实验中成功的抗癌分子无法转化到人体。他们正在探索的方向包括类器官、器官芯片等合成 human tissue 技术，结合 AI 模型直接预测人类临床毒性，绕过动物实验的瓶颈。Isomorphic 目前专注于肿瘤学、免疫学和炎症领域，但其模型平台本身是 disease-agnostic 的。"
+      "Every（Dan Shipper 创办的 AI 订阅服务）举办了首次线下会议 V.C.S.S.，汇聚了 Anthropic、OpenAI、Notion、Lovable、Ode 等公司的创作者。核心问题是：自动化之后，什么是伟大的「人类工作」？Dan Shipper 用自己的经历给出了答案——他用 Claude 一条订阅在一周内完成了原本需要五个人（数据科学家、游戏开发者、市场、工程师、销售）的工作量：分析季度客户调研结果、构建自定义 CRM、制作视频游戏、逐个联系客户。但这不是关于一个人替代一个团队的噱头故事，而是一个更深层的观点：Claude 处理同样的调研数据只会给出泛泛的回答，而真正区分的是你带入模型的视角和判断力。",
+      "这场会议的核心论点：AI 让每个人都能实现五倍产出，但「伟大」的定义正在从执行转向策展和方向判断——当你用 AI 做的东西能打动真实用户时，那才是真正的价值所在，而非你用了多快的速度。"
     ],
-    "url": "https://www.youtube.com/watch?v=IiKf3BgBezE"
+    "url": "https://www.youtube.com/watch?v=WstNofgQF5Q"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Aaron Levie",
-        "org": "CEO @Box",
-        "handle": "levie",
-        "text": "我们正在进入一个新的时代——问题的求解方式与过去截然不同。以前你受限于个人或团队能理解和记住的信息量，更多成员并不一定带来更多产出，因为协调成本太高了。AI 首次让我们能把海量历史信息关联起来用于发现新的东西，这不仅仅是数量的提升，而是质的飞跃。",
-        "url": "https://x.com/levie/status/2124252844710887549"
+        "name": "Sam Altman",
+        "org": "CEO @OpenAI",
+        "handle": "sama",
+        "text": "我提议前沿模型开发者共同制定透明度与安全评测标准，并建议在达到下一个里程碑（如下一代 CoT 监控器）之前，以困惑度和其他可测量指标为基础设定共同的发展红线——这是行业自我约束的第一步，也是能让所有人受益的框架。",
+        "url": "https://x.com/sama/status/2124551883130114403"
       },
       {
         "name": "Amjad Masad",
         "org": "CEO @Replit",
         "handle": "amasad",
-        "text": "一个高中生正在把 GTA6 重编译到 PC 平台上，更有趣的是他们用 GitHub Issues 来协调 agent swarm 的任务分工。与此同时，Amuse（Replit Missions 构建的工具）也开源了。当 AI 能力足够强时，一个人加一群 agent 就能做以前需要一个团队才能做的事。",
-        "url": "https://x.com/amasad/status/2124345037408686228"
+        "text": "桌面端 AI 应用通常是安全和隐私的灾难。我们与 Windows 合作为 Replit Desktop 构建了世界级安全模型——正因如此，世界顶级艺术品保管机构 Christie's 选择了 Replit 来处理他们的安全代理工作。安全不是附加功能，而是桌面 AI 应用的基石。",
+        "url": "https://x.com/amasad/status/2124604574606795002"
       },
       {
-        "name": "Thibault Sottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "handle": "thsottiaux",
-        "text": "团队最近在内部尝试了一些新功能，结果做了一个过于有趣的彩蛋——现在大家都在玩而不是工作……预计 recovery 回不来了。另一个提醒：升级桌面客户端吧，更快更简洁的体验在路上。",
-        "url": "https://x.com/thsottiaux/status/2124277855131664869"
-      },
-      {
-        "name": "Thariq",
-        "org": "前 Claude Code @Anthropic",
-        "handle": "trq212",
-        "text": "我越来越觉得，随着模型变得越来越强大，使用它们的能力本身就变得更加重要，而我还没有看到这种技能出现收益递减的迹象。未来模型或许能单步\"证明黎曼猜想\"或\"让 JavaScript 变成静态语言\"，但相信与模型协作推进前沿仍然是一项需要深厚技术的技能。",
-        "url": "https://x.com/trq212/status/2124239686482923553"
+        "name": "Aaron Levie",
+        "org": "CEO @Box",
+        "handle": "levie",
+        "text": "随着代理承担越来越长的项目，以及大量代理并行推进同一目标，代理编排的基础设施必须进化。最大的转变之一是代理之间如何共享知识、跟踪任务并与人类用户协调——技术上看似直接，但要确保安全边界恰到好处既不易过度暴露也不易封锁资源，复杂度极高。这里有大量经验可以借鉴，同时也存在巨大机会，无论是通用还是垂直方案都值得探索。",
+        "url": "https://x.com/levie/status/2124658150771188157"
       },
       {
         "name": "Nan Yu",
         "org": "Product @OpenAI, ex-Linear",
         "handle": "thenanyu",
-        "text": "忘掉第二大脑，想想第三大脑。这个概念暗示产品正在从简单的知识存储助手，进化为一个能真正扩展认知能力的伙伴——不是帮你记东西，而是帮你思考。",
-        "url": "https://x.com/thenanyu/status/2124241838358008184"
+        "text": "我发现了一个能让所有 vibe-coded 项目规模化、性能更好且更可靠的秘密提示词——Use Postgres。有时候最简单的基础设施决策反而是最重要的长期红利。",
+        "url": "https://x.com/thenanyu/status/2124592238974156861"
       },
       {
-        "name": "Garry Tan",
-        "org": "President & CEO @YCombinator",
-        "handle": "garrytan",
-        "text": "考虑到 AI 的发展和 GTA6 引发的争议，有人问多久之后会出现一个 vibe-coded 的爱好者 PC 移植版，把所有讨厌的设计缺陷都改掉？他说可能只需一两个月，只要有足够的 token。",
-        "url": "https://x.com/garrytan/status/2124154280450134231"
+        "name": "Guillermo Rauch",
+        "org": "CEO @Vercel",
+        "handle": "rauchg",
+        "text": "我们应该把 AI 引向可理解性和概念化，而非仅仅停留在艺术层面。就像黎曼猜想的证明应当附带论文、逐步解读和新概念，而不只是一份输出结果。高级代码的中间表示同样值得追求——即使在 LLM 可以直接生成 CPU 指令的世界里也是如此。",
+        "url": "https://x.com/rauchg/status/2124654108124848350"
       },
       {
-        "name": "Zara Zhang",
-        "org": "独立顾问",
-        "handle": "zarazhangrui",
-        "text": "两个原则：不要给客户看用 Claude Artifacts 或 ChatGPT 做的网站——那让他们觉得 prompting 一下也能做；如果你做内容策展，你应该同时是创作者。策展让人信任你，但创造让人记住你。",
-        "url": "https://x.com/zarazhangrui/status/2124309178982572442"
+        "name": "Peter Yang",
+        "org": "AI 教育创作者",
+        "handle": "petergyang",
+        "text": "微软 Copilot EVP 的一个深刻观察：Agent 是非常苛刻的用户——它们追求最佳性能、价格和可靠性，而 agent 偏好不等于人类偏好。当人搜索时会接受 10 个链接加摘要，agent 不在乎这些，它可以返回一千条结果。我们的 API 和 UX 将开始演化出专门支持 agent 的模式。",
+        "url": "https://x.com/petergyang/status/2124669298191090033"
+      },
+      {
+        "name": "Swyx",
+        "org": "AI Builder / Writer",
+        "handle": "swyx",
+        "text": "按照 OpenAI 提出的以困惑度衡量发展的思路来看，今年我们经历的 AI 进步可能超过 2022 至 2025 年的总和。当然这种感觉不太对劲，但也许指标只有在前沿数学层面才能完全显现意义。",
+        "url": "https://x.com/swyx/status/2124590240539259381"
       },
       {
         "name": "Matt Turck",
         "org": "VC @FirstMarkCap",
         "handle": "mattturck",
-        "text": "发了条自嘲：兴奋地在推特上发 AI 解决了黎曼猜想，但其实根本不知道黎曼猜想是什么——这种心态大概代表了绝大多数人的状态。",
-        "url": "https://x.com/mattturck/status/2124239403107459490"
+        "text": "两条观察：一是自嘲式幽默——兴奋地在 Twitter 上发 AI 解决了黎曼猜想，但实际上并不知道黎曼猜想是什么，这种状态大概代表绝大多数人；二是纽约街头的 AI 广告投放已经完全接管，让城市看起来像旧金山，到处都是广告牌和地铁海报。",
+        "url": "https://x.com/mattturck/status/2124515224946422095"
       }
     ]
   },
@@ -90,8 +90,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 12 位建造者 · 23 条 X 动态 · 1 期播客 · 0 篇博客",
-    "coverage": "覆盖 12 位建造者，23 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-22 UTC",
-    "generatedAt": "2026-11-23T02:00:00.000Z"
+    "source": "follow-builders feed · 11 位建造者 · 22 条 X 动态 · 1 期播客 · 0 篇博客",
+    "coverage": "覆盖 11 位建造者，22 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-23 UTC",
+    "generatedAt": "2026-11-23T06:38:54.921Z"
   }
 }
