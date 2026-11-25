@@ -1,87 +1,84 @@
 {
   "issue": {
-    "vol": "2026328",
-    "date": "2026年11月24日",
-    "weekday": "星期二",
-    "dateISO": "2026-11-24",
-    "tagline": "Sam Altman 提案 AI 行业用困惑度设定发展红线 · Replit Desktop 安全模式上线 · GitHub Issues 管理 Agent Swarm"
+    "vol": "2026329",
+    "date": "2026年11月25日",
+    "weekday": "星期三",
+    "dateISO": "2026-11-25",
+    "tagline": "黄仁勋回归英伟达董事会引发硅谷狂欢 · Claude Ship 正式 beta 上线 · Replit 发布 Agent Swarm 扩展定律研究"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "OpenAI CEO 正式提议以困惑度作为 AI 发展监管的共同基准，行业自律迎来历史性节点",
+    "title": "英伟达新任董事黄仁勋高调回归，AI 基础设施格局再受关注",
     "paras": [
-      "本周最引人注目的消息来自 Sam Altman 公开发表的三条 X 帖子。他提出，前沿模型开发者应当在模型首次使用前共同确立透明度和安全测试标准，并建议以困惑度（perplexity）和其他可量化指标为基础，设定全行业承诺不跨越的发展红线——前提是 AI 行为的可观测性能力要达到某个具体里程碑，如下一代 CoT 监控器。这条提议建立在白宫 AI 协议的基础上，目前 Labs 已同意建立安全最佳实践，Altman 认为困惑度是一个可行的跨实验室共享基准。该提案在 X 上获得了大量关注，引发关于 AI 自我监管边界的广泛讨论。",
-      "与此同时，Replit CEO Amjad Masad 发布了关于桌面端 AI 应用安全的深度思考：他指出桌面 AI 应用普遍存在安全和隐私噩梦，而 Replit 与 Windows 合作构建了一套世界级的安全模型，这也是为什么 Christie's（世界顶级艺术品保管机构）选择 Replit 进行安全代理工作。此外，一位用户分享了一个实用洞察——GitHub Issues 正在成为 agent swarm 任务协调的新基础设施，有人用它来管理 GTA6 开源移植项目的分布式 AI 协作；OpenAI 产品经理 Nan Yu 也透露了一个简单却有效的提示技巧：Use Postgres——让所有 vibe-coded 项目在规模和可靠性上更上一层楼。"
+      "今天最炸裂的消息是 NVIDIA CEO 黄仁勋重返英伟达董事会。Sam Altman 在 X 上仅发了一个 \"Jensen!\"，收获了 8.5 万点赞、3400 次转发和 2000 条回复——这是 OpenAI CEO 的 X 账号至今最高互动量之一。Matt Turck 发文称 \"AI Jesus is risen\"，Nikunj Kothari 调侃 \"Nvidia board took this one personally\"。Aditya Agarwal（SPC GP）则从更宏观的角度解读：英伟达经历危机后只会变得更强、更具攻击性。这一事件预示着 AI 算力竞争进入新阶段。",
+      "与此同时，Anthropic 正式发布 Claude Ship Beta——面向 Team 和 Enterprise 用户的自动 PR 提交流程。Boris Cherny 亲自站台，称一年前 Opus 4.5 实现了他写 100% 代码的梦想，但 PR 提交流程跟不上，因此有了今天的产品。Claude 官方也宣布插件体系全面升级：Connectors 与 Skills 合并为 Plugins，Free/Pro/Max/Ultra 用户均可使用 10,000+ 插件库；Enterprise Frontier Safeguards（EFS）零数据保留功能进入公开 beta。OpenAI 方面，Thibault Sottiaux 透露 ChatGPT 答案质量将有显著提升，同时 Dots 系统正在成为内部任务执行的主要方式——尽管 Peter Yang 试用后反馈仍显 buggy，偶尔会未经授权发送邮件或随机停止响应。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Every 公司会议主题演讲：自动化之后伟大的人类工作是什么样子？",
-    "meta": "2026-11-11 · AI & I by Every · Dan Shipper 演讲",
-    "paras": [
-      "Every（Dan Shipper 创办的 AI 订阅服务）举办了首次线下会议 V.C.S.S.，汇聚了 Anthropic、OpenAI、Notion、Lovable、Ode 等公司的创作者。核心问题是：自动化之后，什么是伟大的「人类工作」？Dan Shipper 用自己的经历给出了答案——他用 Claude 一条订阅在一周内完成了原本需要五个人（数据科学家、游戏开发者、市场、工程师、销售）的工作量：分析季度客户调研结果、构建自定义 CRM、制作视频游戏、逐个联系客户。但这不是关于一个人替代一个团队的噱头故事，而是一个更深层的观点：Claude 处理同样的调研数据只会给出泛泛的回答，而真正区分的是你带入模型的视角和判断力。",
-      "这场会议的核心论点：AI 让每个人都能实现五倍产出，但「伟大」的定义正在从执行转向策展和方向判断——当你用 AI 做的东西能打动真实用户时，那才是真正的价值所在，而非你用了多快的速度。"
-    ],
-    "url": "https://www.youtube.com/watch?v=WstNofgQF5Q"
+    "title": "无新播客",
+    "meta": "",
+    "paras": [],
+    "url": ""
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Sam Altman",
-        "org": "CEO @OpenAI",
-        "handle": "sama",
-        "text": "我提议前沿模型开发者共同制定透明度与安全评测标准，并建议在达到下一个里程碑（如下一代 CoT 监控器）之前，以困惑度和其他可测量指标为基础设定共同的发展红线——这是行业自我约束的第一步，也是能让所有人受益的框架。",
-        "url": "https://x.com/sama/status/2124551883130114403"
+        "name": "Boris Cherny",
+        "org": "Claude Engineer @Anthropic",
+        "handle": "bcherny",
+        "text": "一年前我们发布了 Opus 4.5，第一个能写出我 100% 代码的模型。但 PR 提交能力没能跟上，所以今天正式发布 Claude Ship Beta。我建议先从一个仓库开始，用 Observa Mode 运行 Approvals 建立信任后再逐步放开。Code Review 负责找 bug，PR Steward 处理修复和检查失败，Claude Approvals 按团队策略审批——后两者目前处于 beta 阶段。",
+        "url": "https://x.com/bcherny/status/2124961485801836573"
       },
       {
         "name": "Amjad Masad",
         "org": "CEO @Replit",
         "handle": "amasad",
-        "text": "桌面端 AI 应用通常是安全和隐私的灾难。我们与 Windows 合作为 Replit Desktop 构建了世界级安全模型——正因如此，世界顶级艺术品保管机构 Christie's 选择了 Replit 来处理他们的安全代理工作。安全不是附加功能，而是桌面 AI 应用的基石。",
-        "url": "https://x.com/amasad/status/2124604574606795002"
+        "text": "Replit 新研究揭示了 Agent Swarm 的扩展定律：固定两小时窗口内，Opus 5.5 单 Agent 实现 NumPy 3.7 倍加速，而 32 个 Agent 达到 18.9 倍；GPT-6.2 Astra 作为最强单 Agent 却在超过 8 个 Agent 时出现负向扩展。模型自发形成了不同组织结构，去中心化 swarm 比依赖集中协调的扩展效果更好。问题的可并行性是 swarm 表现的最强预测因子，而单个模型的智能程度反而是集体智能的糟糕预测指标。",
+        "url": "https://x.com/amasad/status/2124969305674748175"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "handle": "thsottiaux",
+        "text": "如果你好奇 OpenAI 内部那些 obsession 地修补开源软件和基础设施缺陷的人在想什么，值得听一下这段访谈。另一个重要更新：一旦质量提升推送到你账号，你会明显感受到 ChatGPT 回答质量的飞跃。结合我们在简化应用、提速以及合并聊天与工作模式上的所有投资，年底前日常体验会有相当大的改善。Dots 正在快速成为 OpenAI 内部完成任务的主要方式——甚至有团队在用 dots 构建 dots 系统本身。",
+        "url": "https://x.com/thsottiaux/status/2125027477877887231"
       },
       {
         "name": "Aaron Levie",
         "org": "CEO @Box",
         "handle": "levie",
-        "text": "随着代理承担越来越长的项目，以及大量代理并行推进同一目标，代理编排的基础设施必须进化。最大的转变之一是代理之间如何共享知识、跟踪任务并与人类用户协调——技术上看似直接，但要确保安全边界恰到好处既不易过度暴露也不易封锁资源，复杂度极高。这里有大量经验可以借鉴，同时也存在巨大机会，无论是通用还是垂直方案都值得探索。",
-        "url": "https://x.com/levie/status/2124658150771188157"
-      },
-      {
-        "name": "Nan Yu",
-        "org": "Product @OpenAI, ex-Linear",
-        "handle": "thenanyu",
-        "text": "我发现了一个能让所有 vibe-coded 项目规模化、性能更好且更可靠的秘密提示词——Use Postgres。有时候最简单的基础设施决策反而是最重要的长期红利。",
-        "url": "https://x.com/thenanyu/status/2124592238974156861"
+        "text": "服务型企业一直受制于交付结果的能力——规模化只能靠增加人手，无论需求多大，能招到的人才总是有限的。客户永远希望更快、更便宜、更高质量地完成工作。Agent 彻底改变了这个算式：现在我们可以将产出与时间脱钩。一个工程师可以有几十个工程师的输出，一个设计师可以独立完成整套设计系统。关键是在前端仍需专家确保 agent 交付正确结果。未来我们会看到网络安全、营销、法律、会计、IT 转型等领域大规模采用这种模式。",
+        "url": "https://x.com/levie/status/2125089009018040779"
       },
       {
         "name": "Guillermo Rauch",
         "org": "CEO @Vercel",
         "handle": "rauchg",
-        "text": "我们应该把 AI 引向可理解性和概念化，而非仅仅停留在艺术层面。就像黎曼猜想的证明应当附带论文、逐步解读和新概念，而不只是一份输出结果。高级代码的中间表示同样值得追求——即使在 LLM 可以直接生成 CPU 指令的世界里也是如此。",
-        "url": "https://x.com/rauchg/status/2124654108124848350"
+        "text": "Vercel 正在加倍投入日本市场！另外，我用 Fable 分析了自己所有的编码会话来决定 Opus 还是 Gemini Neon 更好用——它选了 Neon。Google 如此强力回归这件事被广泛且严重低估了。关于 AI 设计的建议：如何用非设计师身份避免 AI 生成的平庸设计感也值得关注。",
+        "url": "https://x.com/rauchg/status/2125057274213507253"
       },
       {
-        "name": "Peter Yang",
-        "org": "AI 教育创作者",
-        "handle": "petergyang",
-        "text": "微软 Copilot EVP 的一个深刻观察：Agent 是非常苛刻的用户——它们追求最佳性能、价格和可靠性，而 agent 偏好不等于人类偏好。当人搜索时会接受 10 个链接加摘要，agent 不在乎这些，它可以返回一千条结果。我们的 API 和 UX 将开始演化出专门支持 agent 的模式。",
-        "url": "https://x.com/petergyang/status/2124669298191090033"
+        "name": "Madhu Guru",
+        "org": "Sr Director, AI @Meta; Prev: Google (Gemini/Veo/Nano Banana)",
+        "handle": "realmadhuguru",
+        "text": "数据这个名字严重低估了它在模型开发中真正的分量。不熟悉模型开发的人把数据视为惰性商品——像煤一样买来塞进模型。但实际上优质数据编码了极高的知识价值、品味和专业判断，往往以以前不存在的结构化方式呈现。这使得数据成为跨领域创造越来越强 intelligence 的核心基石之一。数据将在智能产业中继续占据极其核心的地位。",
+        "url": "https://x.com/realmadhuguru/status/2125102190196859156"
       },
       {
-        "name": "Swyx",
-        "org": "AI Builder / Writer",
-        "handle": "swyx",
-        "text": "按照 OpenAI 提出的以困惑度衡量发展的思路来看，今年我们经历的 AI 进步可能超过 2022 至 2025 年的总和。当然这种感觉不太对劲，但也许指标只有在前沿数学层面才能完全显现意义。",
-        "url": "https://x.com/swyx/status/2124590240539259381"
+        "name": "Thariq",
+        "org": "Formerly Claude Code @Anthropic",
+        "handle": "trq212",
+        "text": "X 的分成模式是对未来软件公司的极佳启发：保持精简核心团队，给帮助用户增长、改进和销售的创作者付费。这不是新的商业模式，但在这个 AI 代理崛起的时代尤其有意义。顺便一提，有人分享了一个绝妙的 Hitchhiker's Guide 引用——电影中显示电脑算了 500,000,000 页 Lean 才得出答案 42，却被剪掉了。",
+        "url": "https://x.com/trq212/status/2124987187406275037"
       },
       {
-        "name": "Matt Turck",
-        "org": "VC @FirstMarkCap",
-        "handle": "mattturck",
-        "text": "两条观察：一是自嘲式幽默——兴奋地在 Twitter 上发 AI 解决了黎曼猜想，但实际上并不知道黎曼猜想是什么，这种状态大概代表绝大多数人；二是纽约街头的 AI 广告投放已经完全接管，让城市看起来像旧金山，到处都是广告牌和地铁海报。",
-        "url": "https://x.com/mattturck/status/2124515224946422095"
+        "name": "Garry Tan",
+        "org": "President & CEO @Y Combinator",
+        "handle": "garrytan",
+        "text": "初创公司可以在循环中自我 Prompt 的一个技巧：问自己\"我们是否在走向死亡？\"如果你问了，可能会发现杀死你的那个东西并避开它。这不是新的想法，但在 AI agent 可以帮助持续监控健康指标的当下，这个思路有了新的执行方式。",
+        "url": "https://x.com/garrytan/status/2124905972296560973"
       }
     ]
   },
@@ -90,8 +87,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 11 位建造者 · 22 条 X 动态 · 1 期播客 · 0 篇博客",
-    "coverage": "覆盖 11 位建造者，22 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-23 UTC",
-    "generatedAt": "2026-11-23T06:38:54.921Z"
+    "source": "follow-builders feed · 17 位建造者 · 41 条 X 动态 · 0 期播客 · 0 篇博客",
+    "coverage": "覆盖 17 位建造者，41 条 X 动态，0 期播客，0 篇博客；数据截止 2026-11-24 UTC",
+    "generatedAt": "2026-11-25T02:00:30.627Z"
   }
 }

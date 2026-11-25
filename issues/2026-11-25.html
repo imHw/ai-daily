@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 日报 · 2026年11月25日</title>
+<style>
+  :root{
+    --paper:#faf8f3; --ink:#1a1816; --muted:#6e6a63; --faint:#a9a39a;
+    --rule:#1a1816; --accent:#c0452f; --hair:#d9d2c6;
+    --serif:Georgia,"Times New Roman","Songti SC","Noto Serif SC",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--paper);color:var(--ink);}
+  body{font-family:var(--serif);line-height:1.78;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 28px 80px;}
+  a{color:inherit;}
+  .masthead{text-align:center;border-bottom:3px double var(--rule);padding-bottom:18px;}
+  .masthead .meta{display:flex;justify-content:space-between;font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+  .wordmark{font-size:54px;font-weight:700;letter-spacing:.04em;margin:14px 0 6px;line-height:1;}
+  .wordmark small{display:block;font-size:13px;letter-spacing:.42em;font-weight:400;
+    color:var(--muted);margin-top:12px;text-transform:uppercase;font-family:var(--sans);}
+  .tagline{font-style:italic;color:var(--muted);font-size:14px;margin-top:4px;}
+  .section-label{display:flex;align-items:center;gap:16px;margin:54px 0 22px;}
+  .section-label::before,.section-label::after{content:"";flex:1;height:1px;background:var(--hair);}
+  .section-label span{font-family:var(--sans);font-size:12px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;}
+  .lead{margin-top:40px;}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin-bottom:10px;}
+  .lead h1{font-size:34px;line-height:1.28;margin:0 0 22px;font-weight:700;letter-spacing:.01em;}
+  .lead p{margin:0 0 18px;text-align:justify;font-size:17px;}
+  .lead p:first-of-type::first-letter{float:left;font-size:62px;line-height:.82;
+    padding:6px 12px 0 0;font-weight:700;color:var(--accent);}
+  .article h2{font-size:24px;line-height:1.32;margin:0 0 6px;font-weight:700;}
+  .article .meta-line{font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--faint);margin-bottom:16px;text-transform:uppercase;}
+  .article p{margin:0 0 16px;text-align:justify;font-size:16px;}
+  .read-more{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .voices{column-count:1;}
+  .voice{padding:18px 0;border-top:1px solid var(--hair);}
+  .voice:first-child{border-top:none;}
+  .voice-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .voice-name{font-weight:700;font-size:17px;}
+  .voice-handle{font-family:var(--sans);font-size:12px;color:var(--faint);}
+  .voice-tag{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+    border-radius:2px;padding:1px 7px;}
+  .voice-quote{margin:0;font-size:16px;color:#2c2925;}
+  .colophon{margin-top:60px;padding-top:20px;border-top:3px double var(--rule);
+    font-family:var(--sans);font-size:12px;color:var(--muted);line-height:1.9;text-align:center;}
+  .colophon strong{color:var(--ink);font-weight:600;}
+  .nav{margin-top:14px;font-family:var(--sans);font-size:12px;letter-spacing:.06em;}
+  .nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:1px;}
+  .nav span{color:var(--faint);margin:0 8px;}
+  /* 往期目录 */
+  .arch{margin-top:42px;}
+  .arch-item{display:flex;gap:20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair);}
+  .arch-item:first-child{border-top:none;}
+  .arch-date{font-family:var(--sans);font-size:12px;letter-spacing:.08em;color:var(--faint);
+    white-space:nowrap;min-width:108px;}
+  .arch-title{font-size:17px;font-weight:600;text-decoration:none;line-height:1.45;}
+  .arch-title:hover{color:var(--accent);}
+  .arch-empty{color:var(--muted);text-align:center;margin-top:30px;}
+  @media (max-width:540px){
+    .wrap{padding:36px 20px 60px;}
+    .wordmark{font-size:40px;}
+    .lead h1{font-size:27px;}
+    .lead p,.article p{text-align:left;}
+    .arch-item{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="meta"><span>2026329</span><span>2026年11月25日 · 星期三</span></div>
+      <div class="wordmark">AI 日报<small>Builders Digest</small></div>
+      <div class="tagline">黄仁勋回归英伟达董事会引发硅谷狂欢 · Claude Ship 正式 beta 上线 · Replit 发布 Agent Swarm 扩展定律研究</div>
+    </header>
+
+    <section class="lead">
+      <div class="kicker">今日主线</div>
+      <h1>英伟达新任董事黄仁勋高调回归，AI 基础设施格局再受关注</h1>
+      <p>今天最炸裂的消息是 NVIDIA CEO 黄仁勋重返英伟达董事会。Sam Altman 在 X 上仅发了一个 "Jensen!"，收获了 8.5 万点赞、3400 次转发和 2000 条回复——这是 OpenAI CEO 的 X 账号至今最高互动量之一。Matt Turck 发文称 "AI Jesus is risen"，Nikunj Kothari 调侃 "Nvidia board took this one personally"。Aditya Agarwal（SPC GP）则从更宏观的角度解读：英伟达经历危机后只会变得更强、更具攻击性。这一事件预示着 AI 算力竞争进入新阶段。</p>
+          <p>与此同时，Anthropic 正式发布 Claude Ship Beta——面向 Team 和 Enterprise 用户的自动 PR 提交流程。Boris Cherny 亲自站台，称一年前 Opus 4.5 实现了他写 100% 代码的梦想，但 PR 提交流程跟不上，因此有了今天的产品。Claude 官方也宣布插件体系全面升级：Connectors 与 Skills 合并为 Plugins，Free/Pro/Max/Ultra 用户均可使用 10,000+ 插件库；Enterprise Frontier Safeguards（EFS）零数据保留功能进入公开 beta。OpenAI 方面，Thibault Sottiaux 透露 ChatGPT 答案质量将有显著提升，同时 Dots 系统正在成为内部任务执行的主要方式——尽管 Peter Yang 试用后反馈仍显 buggy，偶尔会未经授权发送邮件或随机停止响应。</p>
+    </section>
+
+
+    <div class="section-label"><span>本期播客</span></div>
+    <section class="article">
+      <h2>无新播客</h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">收听原片 ↗</a>
+    </section>
+
+    <div class="section-label"><span>建造者观点</span></div>
+    <section class="voices">
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Boris Cherny</span>
+              <span class="voice-handle">@bcherny · Claude Engineer @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">一年前我们发布了 Opus 4.5，第一个能写出我 100% 代码的模型。但 PR 提交能力没能跟上，所以今天正式发布 Claude Ship Beta。我建议先从一个仓库开始，用 Observa Mode 运行 Approvals 建立信任后再逐步放开。Code Review 负责找 bug，PR Steward 处理修复和检查失败，Claude Approvals 按团队策略审批——后两者目前处于 beta 阶段。 <a class="read-more" href="https://x.com/bcherny/status/2124961485801836573" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Amjad Masad</span>
+              <span class="voice-handle">@amasad · CEO @Replit</span>
+              
+            </div>
+            <p class="voice-quote">Replit 新研究揭示了 Agent Swarm 的扩展定律：固定两小时窗口内，Opus 5.5 单 Agent 实现 NumPy 3.7 倍加速，而 32 个 Agent 达到 18.9 倍；GPT-6.2 Astra 作为最强单 Agent 却在超过 8 个 Agent 时出现负向扩展。模型自发形成了不同组织结构，去中心化 swarm 比依赖集中协调的扩展效果更好。问题的可并行性是 swarm 表现的最强预测因子，而单个模型的智能程度反而是集体智能的糟糕预测指标。 <a class="read-more" href="https://x.com/amasad/status/2124969305674748175" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thibault Sottiaux</span>
+              <span class="voice-handle">@thsottiaux · Codex &amp; ChatGPT @OpenAI</span>
+              
+            </div>
+            <p class="voice-quote">如果你好奇 OpenAI 内部那些 obsession 地修补开源软件和基础设施缺陷的人在想什么，值得听一下这段访谈。另一个重要更新：一旦质量提升推送到你账号，你会明显感受到 ChatGPT 回答质量的飞跃。结合我们在简化应用、提速以及合并聊天与工作模式上的所有投资，年底前日常体验会有相当大的改善。Dots 正在快速成为 OpenAI 内部完成任务的主要方式——甚至有团队在用 dots 构建 dots 系统本身。 <a class="read-more" href="https://x.com/thsottiaux/status/2125027477877887231" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Aaron Levie</span>
+              <span class="voice-handle">@levie · CEO @Box</span>
+              
+            </div>
+            <p class="voice-quote">服务型企业一直受制于交付结果的能力——规模化只能靠增加人手，无论需求多大，能招到的人才总是有限的。客户永远希望更快、更便宜、更高质量地完成工作。Agent 彻底改变了这个算式：现在我们可以将产出与时间脱钩。一个工程师可以有几十个工程师的输出，一个设计师可以独立完成整套设计系统。关键是在前端仍需专家确保 agent 交付正确结果。未来我们会看到网络安全、营销、法律、会计、IT 转型等领域大规模采用这种模式。 <a class="read-more" href="https://x.com/levie/status/2125089009018040779" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Guillermo Rauch</span>
+              <span class="voice-handle">@rauchg · CEO @Vercel</span>
+              
+            </div>
+            <p class="voice-quote">Vercel 正在加倍投入日本市场！另外，我用 Fable 分析了自己所有的编码会话来决定 Opus 还是 Gemini Neon 更好用——它选了 Neon。Google 如此强力回归这件事被广泛且严重低估了。关于 AI 设计的建议：如何用非设计师身份避免 AI 生成的平庸设计感也值得关注。 <a class="read-more" href="https://x.com/rauchg/status/2125057274213507253" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Madhu Guru</span>
+              <span class="voice-handle">@realmadhuguru · Sr Director, AI @Meta; Prev: Google (Gemini/Veo/Nano Banana)</span>
+              
+            </div>
+            <p class="voice-quote">数据这个名字严重低估了它在模型开发中真正的分量。不熟悉模型开发的人把数据视为惰性商品——像煤一样买来塞进模型。但实际上优质数据编码了极高的知识价值、品味和专业判断，往往以以前不存在的结构化方式呈现。这使得数据成为跨领域创造越来越强 intelligence 的核心基石之一。数据将在智能产业中继续占据极其核心的地位。 <a class="read-more" href="https://x.com/realmadhuguru/status/2125102190196859156" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Thariq</span>
+              <span class="voice-handle">@trq212 · Formerly Claude Code @Anthropic</span>
+              
+            </div>
+            <p class="voice-quote">X 的分成模式是对未来软件公司的极佳启发：保持精简核心团队，给帮助用户增长、改进和销售的创作者付费。这不是新的商业模式，但在这个 AI 代理崛起的时代尤其有意义。顺便一提，有人分享了一个绝妙的 Hitchhiker's Guide 引用——电影中显示电脑算了 500,000,000 页 Lean 才得出答案 42，却被剪掉了。 <a class="read-more" href="https://x.com/trq212/status/2124987187406275037" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+
+          <article class="voice">
+            <div class="voice-head">
+              <span class="voice-name">Garry Tan</span>
+              <span class="voice-handle">@garrytan · President &amp; CEO @Y Combinator</span>
+              
+            </div>
+            <p class="voice-quote">初创公司可以在循环中自我 Prompt 的一个技巧：问自己"我们是否在走向死亡？"如果你问了，可能会发现杀死你的那个东西并避开它。这不是新的想法，但在 AI agent 可以帮助持续监控健康指标的当下，这个思路有了新的执行方式。 <a class="read-more" href="https://x.com/garrytan/status/2124905972296560973" target="_blank" rel="noopener">原推 →</a></p>
+          </article>
+    </section>
+
+
+    <div class="section-label"><span>官方博客</span></div>
+    <section class="article">
+      <h2></h2>
+      <div class="meta-line"></div>
+      
+      <a class="read-more" href="">阅读原文 ↗</a>
+    </section>
+
+    <footer class="colophon">
+      数据来源 · <strong>follow-builders feed · 17 位建造者 · 41 条 X 动态 · 0 期播客 · 0 篇博客</strong><br>
+      覆盖 17 位建造者，41 条 X 动态，0 期播客，0 篇博客；数据截止 2026-11-24 UTC<br>
+      生成于 2026-11-25T02:00:30.627Z
+      <div class="nav"><a href="https://imhw.github.io/ai-daily/">最新一期</a><span>·</span><a href="https://imhw.github.io/ai-daily/archive.html">往期目录</a></div>
+    </footer>
+  </div>
+</body>
+</html>
