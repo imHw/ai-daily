@@ -1,86 +1,86 @@
 {
   "issue": {
-    "vol": "2026330",
-    "date": "2026年11月26日",
-    "weekday": "星期四",
-    "dateISO": "2026-11-26",
-    "tagline": "黄仁勋回归余波：硅谷焦虑与算力政治 · Claude Ship 正式 beta · ChatGPT Business 推免费加速"
+    "vol": "2026331",
+    "date": "2026年11月27日",
+    "weekday": "星期五",
+    "dateISO": "2026-11-27",
+    "tagline": "Claude 一小时造出 4.5 万行「文明」游戏 · GPT-6.2 计费乌龙致用量加速消耗 · OpenAI 隐私推理内测"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "英伟达风波未平，AI 基础设施的地缘政治暗流浮出水面",
+    "title": "一小时 4.5 万行代码：Claude 把整个美国装进了《文明》",
     "paras": [
-      "黄仁勋重返英伟达董事会的消息在周五引爆整个科技圈后，本周的讨论仍在持续发酵。Sam Altman 那条仅一个单词的 \"Jensen!\" 推文已收获超过 8.5 万点赞——这是 OpenAI CEO X 账号历史最高互动之一。但真正值得关注的不是事件本身，而是它暴露出的深层结构性问题：Nikunj Kothari（SPC GP）指出，这一风波说明 AI 算力供应链已经被地缘政治深度缠绕，任何单点故障都可能引发全球连锁反应。Amjad Masad 在 X 上发文称，即便美国能做出最好的前沿模型，仍可能在 AI 竞赛中落败——因为政府层面的算力管制正在重塑全球竞争格局。Matt Turck 则以更务实的角度指出，Anthropic IPO 定价低于 Nvidia 峰值股价，这是一家成立了近六年的公司，市场给予 AI 基础设施的估值溢价远超应用层。",
-      "产品层面，本周有两件值得关注的事：Anthropic 正式发布 Claude Ship Beta——面向 Team 和 Enterprise 用户的自动 PR 提交流程，Boris Cherny 亲自站台解释产品诞生缘由；OpenAI 方面，Thibault Sottiaux 宣布 ChatGPT Business 用户将在年底前享受免费快速模式和账户重置功能，同时 Dots 系统正在成为公司内部任务执行的主要方式，尽管 Peter Yang 试用反馈仍显 buggy。Replit 同步发布了 Agent Swarm 扩展定律研究，揭示多 Agent 协作的非线性性能特征。"
+      "Andrej Karpathy 让 Claude 下载并解析 31 个真实美国数据源（Census、BEA、BLS、EIA、NOAA 等），7 小时生成 4.5 万行代码，拼出一个 25 公里六边形网格上的《文明》式美国地图：San Jose 的城区定位是科技园区，Detroit 是汽车城，Wonder 则依据游客量和研发支出规则自动生成。Claude 甚至自己剪了一段预告片。这条动态收获 9200+ 点赞，是今天最直观的证据：单 Agent 长时程任务已经从演示走向可玩产品。",
+      "企业侧，Sam Altman 宣布 OpenAI 面向小客户群内测 Private Inference（OpenAI Private Intelligence），叠加 ZDR 与 Private Safety Processing，允许自动化安全审查而 OpenAI 员工无法访问底层内容；Thibault Sottiaux 同时披露 GPT-6.2 上线时计费错误已修复，Astra 用量消耗将比上周快 40%、Sol 快 25%，并为 Go/Plus/Pro/Business 全员补偿一次 banked reset。人才侧，Thariq 从 Anthropic（Claude Code 核心团队）加入 OpenAI，这条动态收获 2.5 万+ 点赞，显示顶级工程人才持续向 OpenAI 流动。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Unsupervised Learning Ep 98：中国专家解读黄仁勋回归",
-    "meta": "Jordan Schneider · China Talk · 2026年11月24日",
+    "title": "Training Data：OpenAI 的 Noam Brown 谈游戏理论为何没有通向通用智能",
+    "meta": "Training Data · Noam Brown（OpenAI）· 2026年11月24日 · No Limit 扑克决赛现场",
     "paras": [
-      "本期紧急节目邀请了 Jordan Schneider（China Talk 主持人），深入分析黄仁勋被董事会短暂解除职务又迅速复职背后的政治博弈。Jordan 将此事比作拿破仑从厄尔巴岛返回的「百日王朝」——局势远未稳定。他认为民主党必然会在国会对此事大做文章，而更根本的问题在于：AI 在美国公众中并非热门议题，这使得相关争议更容易失控。Jordan 强调，董事会之所以敢做出这样的决定，背后一定得到了特朗普方面的某种承诺——可能是一揽子和解与赦免方案。这一事件的真正意义不在于英伟达内部治理，而在于它揭示了 AI 基础设施已成为美国国家战略的核心战场。"
+      "Noam Brown 在 No Limit 扑克决赛现场接受 Training Data 访谈，复盘从 2012 年读博研究扑克 bot，到 2019 年团队主攻最难的自然语言博弈《外交》，再到 2022 年加入 OpenAI 负责通用推理（o1）的完整路径。他坦言：游戏理论的核心假设是所有玩家理性，但现实中人不理性，Diplomacy bot 因此频繁失败；真正有效的路径不是编码复仇或公平感，而是用海量人类数据训练模型去模仿人的行为，甚至学会建模人类的非理性。他说：「2022 年那对我是一次信仰危机时刻，我意识到游戏理论并不是通向通用智能的路径。」"
     ],
-    "url": "https://www.youtube.com/watch?v=gkd5eOQGASU"
+    "url": "https://www.youtube.com/watch?v=tRaFbDFBl_A"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Boris Cherny",
-        "org": "Claude Engineer @Anthropic",
-        "handle": "bcherny",
-        "text": "一年前我们发布 Opus 4.5，第一个能写出我 100% 代码的模型，但 PR 提交流程没能跟上。今天正式推出 Claude Ship Beta。建议从一个仓库开始，用 Observa Mode 运行 Approvals 建立信任后再逐步放开权限。Code Review 负责找 bug，PR Steward 处理修复和检查失败，Claude Approvals 按团队策略审批——后两者目前处于 beta 阶段。MCP 服务器现在也可以自带 skills，Claude Code 开箱即用。",
-        "url": "https://x.com/bcherny/status/2124961485801836573"
-      },
-      {
-        "name": "Amjad Masad",
-        "org": "CEO @Replit",
-        "handle": "amasad",
-        "text": "美国即使能造出最好的前沿模型，仍可能在全球 AI 竞赛中落败——这就是黄仁勋回归为何影响深远。Token 需求的增长是阶梯式的：当找到新方法让单个用户调用更多算力时，需求会突然跃升，这和电力不同。Replit 新研究还发现，固定两小时窗口内，Opus 5.5 单 Agent 实现 NumPy 有 3.7 倍加速，32 个 Agent 达到 18.9 倍；但 GPT-6.2 Astra 作为最强单 Agent，超过 8 个 Agent 时出现负向扩展——模型的个体智能反而是集体智能的糟糕预测指标。",
-        "url": "https://x.com/amasad/status/2124969305674748175"
+        "name": "Andrej Karpathy",
+        "org": "AI 研究者 · 前 Tesla/OpenAI",
+        "handle": "karpathy",
+        "text": "我让 Claude 用美国真实数据生成一张《文明》式地图。Opus 5.5 下载并解析了 31 个数据源（Census、BEA、BLS、EIA、NOAA、USGS、DoD、NPS、FAA、FEMA、CDC…），7 小时、4.5 万行代码后它真的跑起来了：真实海拔、土地覆盖、GDP、就业、发电厂、矿山、港口、机场、军事基地、公园、大学、货运流、灾害，全部对齐到一张 25 公里六边形网格上；19 种视角（收入、学历、信仰、灾害…），524 个都市圈的 City View，还有 9 位顾问加一个 Explorer。用 Claude Code 桌面版、Opus 5.5 中档 + ultracode 跑出来的。",
+        "url": "https://x.com/karpathy/status/2125779541952246039"
       },
       {
         "name": "Thibault Sottiaux",
         "org": "Codex & ChatGPT @OpenAI",
         "handle": "thsottiaux",
-        "text": "给所有 ChatGPT Business 团队的好消息：年底前免费开放快速模式和账户重置功能。另外，一旦质量提升推送到你账号，你会明显感受到回答质量的飞跃。Dots 正在快速成为 OpenAI 内部完成任务的主要方式——甚至有团队在用 dots 构建 dots 系统本身。我们正在简化应用、提速，并将聊天与工作模式合并，年底前日常体验会有相当大的改善。",
-        "url": "https://x.com/thsottiaux/status/2125027477877887231"
+        "text": "我们在 GPT-6.2 上线时出了一个计费错误，错误地给大多数用户打折了 Astra 和 Sol 的用量。现在已经修复：同样的任务会比上周消耗快 40%（Astra）和 25%（Sol），但对比 6 Astra 和 6.1 Sol 依然更省。其他模型不受影响，过往用量不补差价。作为道歉，我们给 Go/Plus/Pro/Business 所有用户加一次 banked reset。",
+        "url": "https://x.com/thsottiaux/status/2125784147889393806"
       },
       {
-        "name": "Aaron Levie",
-        "org": "CEO @Box",
-        "handle": "levie",
-        "text": "服务型企业一直受制于交付结果的能力——规模化只能靠增加人手，无论需求多大，能招到的人才总是有限的。Agent 彻底改变了这个算式：现在产出可以与时间脱钩。一个工程师可以有几十个工程师的输出，一个设计师可以独立完成整套设计系统。关键是在前端仍需专家确保 agent 交付正确结果。未来我们会看到网络安全、营销、法律、会计、IT 转型等领域大规模采用这种模式。",
-        "url": "https://x.com/levie/status/2125089009018040779"
+        "name": "Thariq",
+        "org": "OpenAI（前 Claude Code @Anthropic）",
+        "handle": "trq212",
+        "text": "我加入 OpenAI 了。我很为自己在 Anthropic 的时光感到骄傲，也会继续为前同事们加油，两家公司在 AI 未来中都扮演着重要角色。我坚信这是硅谷最伟大的优点之一：想法和人才在流动。很高兴加入一支我仰慕已久的团队，与 @_catwu、@thsottiaux、@ajambrosino、@sharifshameem、@jxnlco 等人为 10 亿+ 用户打造产品。最希望的是让 AI 的体验再好一点点。再次为你们服务。",
+        "url": "https://x.com/trq212/status/2125675533761671405"
+      },
+      {
+        "name": "Sam Altman",
+        "org": "CEO @OpenAI",
+        "handle": "sama",
+        "text": "我们正在与一小群客户测试 Private Inference，这是 OpenAI Private Intelligence 的最新方案。更强的隐私保护会让前沿 AI 在更多工作中可用，企业隐私对整个生态健康至关重要。ZDR 叠加 Private Safety Processing 还能实现自动化安全审查，而 OpenAI 人员无需访问底层内容。",
+        "url": "https://x.com/sama/status/2125638790593274259"
       },
       {
         "name": "Guillermo Rauch",
         "org": "CEO @Vercel",
         "handle": "rauchg",
-        "text": "Vercel 正在加倍投入日本市场。我用 Fable 分析了自己所有的编码会话来决定 Opus 还是 Gemini Neon 更好用——结果选了 Neon。Google 的强势回归被广泛且严重低估了。顺带分享：Vercel 开源了背景效果生成器工具。另，libfx 仍然是 CLI 形态是因为它是 libfx 库的薄封装，目标是保持最小依赖。",
-        "url": "https://x.com/rauchg/status/2125057274213507253"
+        "text": "Vercel 又一次把 workflows 提速 10 倍（本来已经够快了）。对于 harness 的耐久性（eve、libfx、pi、opencode 等）这是大事，直接压低了 turn 之间的延迟。升级到 workflows@latest 即可，无需改代码。另外 lsf 是「终端里的 Finder」，一次用 fx + Gemini Neon 和 DeepSeek 子代理敲出来的，fx 还自作主张实现了 CLI 版 Quick Look。",
+        "url": "https://x.com/rauchg/status/2125482861033824410"
       },
       {
-        "name": "Madhu Guru",
-        "org": "Sr Director, AI @Meta; Prev: Google (Gemini/Veo/Nano Banana)",
-        "handle": "realmadhuguru",
-        "text": "围绕黄仁勋事件的预测完美展示了信心与正确性之间几乎零相关性——太多人言之凿凿却全错了。更深层的观察：数据这个名字严重低估了它在模型开发中的分量。不熟悉模型开发的人把数据视为惰性商品，像煤一样买来塞进模型。但实际上优质数据编码了极高的知识价值、品味和专业判断，往往以以前不存在的结构化方式呈现。数据将在智能产业中继续占据极其核心的地位。",
-        "url": "https://x.com/realmadhuguru/status/2125102190196859156"
+        "name": "Amjad Masad",
+        "org": "CEO @Replit",
+        "handle": "amasad",
+        "text": "大规模软件迁移现在变得可行，前提是你能验证结果。考虑到支撑关键基础设施的软件系统正在老化，这一点格外重要。",
+        "url": "https://x.com/amasad/status/2125664998454366305"
       },
       {
-        "name": "Nikunj Kothari",
-        "org": "GP @Spark Capital",
-        "handle": "nikunj",
-        "text": "2026 年融资路演的一句话总结：App 公司说'谁掌控工作流谁就掌控宇宙'，Harness 公司说'谁让智能落地干活谁就掌控一切'。前者卖界面，后者卖能力。这个分野在今年特别清晰——市场正在用真金白银投票，选择那些真正释放 AI 生产力的基础设施层公司。",
-        "url": "https://x.com/nikunj/status/2125032907485478201"
+        "name": "Aaron Levie",
+        "org": "CEO @Box",
+        "handle": "levie",
+        "text": "编程是观察大量知识工作未来的窗口。第一步是从手动完成大部分研究、打字和价值创造，转向协调 agent 完成的工作；下一步是当协调本身也变得多余或拖慢 agent 时，把目标交给 agent 去优化。这看起来像会卡在编程上，实际上很大比例的知识工作最终都会收敛到这种形态。真正的障碍是大量工作不可验证，人类会在环中扮演比编程时代更重要的角色，但可交出去的部分会越来越大。",
+        "url": "https://x.com/levie/status/2125837181398950233"
       },
       {
         "name": "Garry Tan",
         "org": "President & CEO @Y Combinator",
         "handle": "garrytan",
-        "text": "YC 正在孵化新一代硬科技初创公司。有三个观察：第一，当前模型能力已超过部分客户实际需求，尽管在代理能力和品味上仍有阶梯式提升空间；第二，社会在吸收技术速度上触到了天然刹车——知识工作流程的变革不可能无限加速；第三，初创公司可以在循环中自我 Prompt：问自己'我们是否在走向死亡？'如果你问了，可能会发现杀死你的东西并避开它。在 AI agent 可以帮助持续监控健康指标的当下，这个思路有了新的执行方式。",
-        "url": "https://x.com/garrytan/status/2124905972296560973"
+        "text": "中位数增长是 10 倍。看这个数字，别再跟我说 AI 没有在帮新创公司比以往更快增长。另外 Nick Bostrom 那段被低估了：他把「有人造出来大家都会死」反转为「没人造出来大家都会死」，并认为超级智能可能把寿命延长到 1200~1400 年。",
+        "url": "https://x.com/garrytan/status/2125592156027101584"
       }
     ]
   },
@@ -89,8 +89,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 16 位建造者 · 34 条 X 动态 · 1 期播客 · 0 篇博客",
-    "coverage": "覆盖 16 位建造者，34 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-25 UTC",
-    "generatedAt": "2026-11-26T02:00:00.000Z"
+    "source": "follow-builders feed · 21 位建造者 · 42 条 X 动态 · 1 期播客 · 0 篇博客",
+    "coverage": "覆盖 21 位建造者，42 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-26 UTC",
+    "generatedAt": "2026-11-27T02:00:00.000Z"
   }
 }
