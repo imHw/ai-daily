@@ -1,86 +1,87 @@
 {
   "issue": {
-    "vol": "2026331",
-    "date": "2026年11月27日",
-    "weekday": "星期五",
-    "dateISO": "2026-11-27",
-    "tagline": "Claude 一小时造出 4.5 万行「文明」游戏 · GPT-6.2 计费乌龙致用量加速消耗 · OpenAI 隐私推理内测"
+    "vol": "2026332",
+    "date": "2026年11月28日",
+    "weekday": "星期六",
+    "dateISO": "2026-11-28",
+    "tagline": "Altman 致谢 Navier-Stokes「第一信徒」 · Gemini 4 全系登陆 Replit · GPT-6.2 补偿 reset 上线"
   },
   "lead": {
     "kicker": "今日主线",
-    "title": "一小时 4.5 万行代码：Claude 把整个美国装进了《文明》",
+    "title": "感恩节周末，Altman 复盘「千禧年大奖题」背后的信念文化",
     "paras": [
-      "Andrej Karpathy 让 Claude 下载并解析 31 个真实美国数据源（Census、BEA、BLS、EIA、NOAA 等），7 小时生成 4.5 万行代码，拼出一个 25 公里六边形网格上的《文明》式美国地图：San Jose 的城区定位是科技园区，Detroit 是汽车城，Wonder 则依据游客量和研发支出规则自动生成。Claude 甚至自己剪了一段预告片。这条动态收获 9200+ 点赞，是今天最直观的证据：单 Agent 长时程任务已经从演示走向可玩产品。",
-      "企业侧，Sam Altman 宣布 OpenAI 面向小客户群内测 Private Inference（OpenAI Private Intelligence），叠加 ZDR 与 Private Safety Processing，允许自动化安全审查而 OpenAI 员工无法访问底层内容；Thibault Sottiaux 同时披露 GPT-6.2 上线时计费错误已修复，Astra 用量消耗将比上周快 40%、Sol 快 25%，并为 Go/Plus/Pro/Business 全员补偿一次 banked reset。人才侧，Thariq 从 Anthropic（Claude Code 核心团队）加入 OpenAI，这条动态收获 2.5 万+ 点赞，显示顶级工程人才持续向 OpenAI 流动。"
+      "今天是美国感恩节周末，不少建造者进入了「感恩模式」，但仍有一条值得展开的暗线：Sam Altman 特意点名「Ven 是最早相信 OpenAI 当时已有的模型就能解千禧年大奖题的人之一」。这件事要追溯到 9 月 8 日：OpenAI 宣布约 1 万个 agent 用 88 小时给出 Navier-Stokes 方程（千禧年七大难题之一、百万美元奖金池）奇异性证明，并用 Lean 完成形式化验证，过程中消耗约 1300 亿输出 token，还牵扯出与 NYU 教授及 Anthropic 研究者「并发工作」的争议。Altman 这条感恩节推文，实际是在数学震撼之后重述团队的信念文化——「聪明 + 把信心放对位置、敢在别人认为不可能的地方继续推」是稀缺品质。",
+      "产品侧三条：Google Gemini 4 家族（Argon/Carbon/Hydrogen/Neon，近两个月内相继 GA）已可在 Replit 使用，Replit CEO Amjad 亲自点赞；OpenAI 针对 GPT-6.2 计费 bug 承诺的 banked reset 补偿正式上线，Codex 团队 Thibault 一条推文确认；Codex 团队的 Nan Yu 则说，语音聊天、发图、给指令换回一个网站「现在全是 chat」——ChatGPT 的单一会话界面正在把多种模态收编。服务行业侧，Box CEO Aaron Levie 认为 agent 给交付能力带来 10 倍乘数，广告、IT 转型、管理咨询、金融等服务公司正处于重构窗口。"
     ]
   },
   "podcast": {
     "label": "本期播客",
-    "title": "Training Data：OpenAI 的 Noam Brown 谈游戏理论为何没有通向通用智能",
-    "meta": "Training Data · Noam Brown（OpenAI）· 2026年11月24日 · No Limit 扑克决赛现场",
+    "title": "Latent Space：Thariq Shihipar（OpenAI）谈「软件工厂」之后是「软件文艺复兴」",
+    "meta": "Latent Space · Thariq Shihipar（OpenAI，前 Anthropic Claude Code 核心团队）· 2026年11月26日 · 录于 AI Engineer (AIE) Code Summit 闭幕",
     "paras": [
-      "Noam Brown 在 No Limit 扑克决赛现场接受 Training Data 访谈，复盘从 2012 年读博研究扑克 bot，到 2019 年团队主攻最难的自然语言博弈《外交》，再到 2022 年加入 OpenAI 负责通用推理（o1）的完整路径。他坦言：游戏理论的核心假设是所有玩家理性，但现实中人不理性，Diplomacy bot 因此频繁失败；真正有效的路径不是编码复仇或公平感，而是用海量人类数据训练模型去模仿人的行为，甚至学会建模人类的非理性。他说：「2022 年那对我是一次信仰危机时刻，我意识到游戏理论并不是通向通用智能的路径。」"
+      "Thariq（刚宣布加入 OpenAI，传闻任务之一是「重新发明 Codex」）在 AIE 做闭幕演讲「Revolution vs Renaissance」：AI 既是工业革命也是文艺复兴——2026 是「软件工厂」之年，工业化带来更便宜的软件，下一阶段是用这份便宜做个人化、高品质作品的文艺复兴。他认为大量「AI slop」的根源是人在构建过程中根本没亲自使用和测试，所以他做了 /slash human「human folder」：spec 本身就是可运行代码，高注释密度、禁止单字符变量名，让你边用边迭代。他正在做一款《文明》式卡牌游戏 Frontier Lab，让 Claude 跑了数千局模拟后发现「经济胜利」永远是必胜策略、而模型很不擅长修平衡——他把它当成一个 eval：模型是否理解跨越数千回合的系统？",
+      "模型观上他不是「永久底层」信徒：$200 订阅还没触顶，真正卡他的是「和模型协作的方式」；他正在试 decision models（TypeSafe 称之为 System 1 models），认为现有 harness 远没有用好它们。对 RSI，他的判断是 AI 研究会变成「知识工作」——做决策、分配算力资源、说服人；最重要的形式是模型优化自己的预训练/后训练，但「今天的模型还做不到自己发明出投机解码这种东西」。花絮：主持人调侃他是「失业的职业魔兽世界玩家」——不少 RL/预训练研究员出身于 WoW 公会，游戏是「成就感的假肢」。"
     ],
-    "url": "https://www.youtube.com/watch?v=tRaFbDFBl_A"
+    "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0"
   },
   "voices": {
     "label": "建造者观点",
     "items": [
       {
-        "name": "Andrej Karpathy",
-        "org": "AI 研究者 · 前 Tesla/OpenAI",
-        "handle": "karpathy",
-        "text": "我让 Claude 用美国真实数据生成一张《文明》式地图。Opus 5.5 下载并解析了 31 个数据源（Census、BEA、BLS、EIA、NOAA、USGS、DoD、NPS、FAA、FEMA、CDC…），7 小时、4.5 万行代码后它真的跑起来了：真实海拔、土地覆盖、GDP、就业、发电厂、矿山、港口、机场、军事基地、公园、大学、货运流、灾害，全部对齐到一张 25 公里六边形网格上；19 种视角（收入、学历、信仰、灾害…），524 个都市圈的 City View，还有 9 位顾问加一个 Explorer。用 Claude Code 桌面版、Opus 5.5 中档 + ultracode 跑出来的。",
-        "url": "https://x.com/karpathy/status/2125779541952246039"
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "org": "Codex & ChatGPT @OpenAI",
-        "handle": "thsottiaux",
-        "text": "我们在 GPT-6.2 上线时出了一个计费错误，错误地给大多数用户打折了 Astra 和 Sol 的用量。现在已经修复：同样的任务会比上周消耗快 40%（Astra）和 25%（Sol），但对比 6 Astra 和 6.1 Sol 依然更省。其他模型不受影响，过往用量不补差价。作为道歉，我们给 Go/Plus/Pro/Business 所有用户加一次 banked reset。",
-        "url": "https://x.com/thsottiaux/status/2125784147889393806"
-      },
-      {
-        "name": "Thariq",
-        "org": "OpenAI（前 Claude Code @Anthropic）",
-        "handle": "trq212",
-        "text": "我加入 OpenAI 了。我很为自己在 Anthropic 的时光感到骄傲，也会继续为前同事们加油，两家公司在 AI 未来中都扮演着重要角色。我坚信这是硅谷最伟大的优点之一：想法和人才在流动。很高兴加入一支我仰慕已久的团队，与 @_catwu、@thsottiaux、@ajambrosino、@sharifshameem、@jxnlco 等人为 10 亿+ 用户打造产品。最希望的是让 AI 的体验再好一点点。再次为你们服务。",
-        "url": "https://x.com/trq212/status/2125675533761671405"
-      },
-      {
         "name": "Sam Altman",
         "org": "CEO @OpenAI",
         "handle": "sama",
-        "text": "我们正在与一小群客户测试 Private Inference，这是 OpenAI Private Intelligence 的最新方案。更强的隐私保护会让前沿 AI 在更多工作中可用，企业隐私对整个生态健康至关重要。ZDR 叠加 Private Safety Processing 还能实现自动化安全审查，而 OpenAI 人员无需访问底层内容。",
-        "url": "https://x.com/sama/status/2125638790593274259"
-      },
-      {
-        "name": "Guillermo Rauch",
-        "org": "CEO @Vercel",
-        "handle": "rauchg",
-        "text": "Vercel 又一次把 workflows 提速 10 倍（本来已经够快了）。对于 harness 的耐久性（eve、libfx、pi、opencode 等）这是大事，直接压低了 turn 之间的延迟。升级到 workflows@latest 即可，无需改代码。另外 lsf 是「终端里的 Finder」，一次用 fx + Gemini Neon 和 DeepSeek 子代理敲出来的，fx 还自作主张实现了 CLI 版 Quick Look。",
-        "url": "https://x.com/rauchg/status/2125482861033824410"
+        "text": "Ven 是最早相信我们可以用当时已有的模型去解千禧年大奖题的人之一。聪明的人很多，但「聪明 + 把信心放在正确的位置 + 在别人认为不可能的地方继续推的勇气」是一种很有价值且相当稀少的组合。我很感恩 OpenAI 有很多人具备这种组合。（背景：9 月 8 日 OpenAI 宣布内部模型 88 小时给出 Navier-Stokes 千禧年大奖题证明并完成 Lean 验证）",
+        "url": "https://x.com/sama/status/2125990371897557278"
       },
       {
         "name": "Amjad Masad",
         "org": "CEO @Replit",
         "handle": "amasad",
-        "text": "大规模软件迁移现在变得可行，前提是你能验证结果。考虑到支撑关键基础设施的软件系统正在老化，这一点格外重要。",
-        "url": "https://x.com/amasad/status/2125664998454366305"
+        "text": "Google 这次把 Gemini 4 做得相当能打。直接上 Replit 试就行！（Gemini 4 家族近两个月内 Argon/Carbon/Hydrogen/Neon 相继 GA，Neon 定位编码与 agent 任务，API 定价输入 $3/百万 token、输出 $15/百万）",
+        "url": "https://x.com/amasad/status/2126018746884243652"
+      },
+      {
+        "name": "Nan Yu",
+        "org": "Codex @OpenAI · 前 @Linear",
+        "handle": "thenanyu",
+        "text": "各位……语音聊天就是 chat。往聊天里发图就是 chat。给一条指令、换回一个网站，也是 chat。这些你现在在 ChatGPT 里全都做得了。",
+        "url": "https://x.com/thenanyu/status/2126036677642928363"
       },
       {
         "name": "Aaron Levie",
         "org": "CEO @Box",
         "handle": "levie",
-        "text": "编程是观察大量知识工作未来的窗口。第一步是从手动完成大部分研究、打字和价值创造，转向协调 agent 完成的工作；下一步是当协调本身也变得多余或拖慢 agent 时，把目标交给 agent 去优化。这看起来像会卡在编程上，实际上很大比例的知识工作最终都会收敛到这种形态。真正的障碍是大量工作不可验证，人类会在环中扮演比编程时代更重要的角色，但可交出去的部分会越来越大。",
-        "url": "https://x.com/levie/status/2125837181398950233"
+        "text": "现在有一个巨大窗口：从零建一家 agent 为中心的服务公司，或把现有公司改造过来。领域专长比以往更重要——没有深度理解就榨不出 agent 的价值；但交付能力有了 10 倍乘数：让客户更满意、赢得更多客户、够到以前不在 TAM 里的小客户、做出原本不可想象的交付。这会发生在广告、IT 转型、管理咨询、金融这些产出长期被人力速度锁死的行业。在位者不算出局（客户信任是资产），但必须动得快。",
+        "url": "https://x.com/levie/status/2125983542475894821"
       },
       {
-        "name": "Garry Tan",
-        "org": "President & CEO @Y Combinator",
-        "handle": "garrytan",
-        "text": "中位数增长是 10 倍。看这个数字，别再跟我说 AI 没有在帮新创公司比以往更快增长。另外 Nick Bostrom 那段被低估了：他把「有人造出来大家都会死」反转为「没人造出来大家都会死」，并认为超级智能可能把寿命延长到 1200~1400 年。",
-        "url": "https://x.com/garrytan/status/2125592156027101584"
+        "name": "Zara Zhang",
+        "org": "Builder · 一年 8 万粉",
+        "handle": "zarazhangrui",
+        "text": "从 LinkedIn 转投 X 的 12 条建议：LinkedIn 是舞台、X 是派对——先找到你的观众、听他们在聊什么，没搞懂之前别开口；X 上够不到高管，得先有大众关注再被对的人看到；发得比你以为的多（我 6 个月里每天 3 条，一半是回应/回复）；先修你的时间线（follow 你领域的大佬和他们关注的人）；写得像给朋友发短信，完美得像 AI 的腔调反而劝退；发那些「对你太显然」的东西；露脸出镜、没到 1000 粉前先别卖货——「人们关注的是人，不是公司」。",
+        "url": "https://x.com/zarazhangrui/status/2126055939749118294"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "org": "Partner @FPV Ventures",
+        "handle": "nikunj",
+        "text": "去年感恩节我还有点担心自己忘了给过去一年相处很多的伙伴发消息——就在那时，Claude 发现 iMessage 和 WhatsApp 在你电脑上就是本地数据库。事情一步步发酵，变成了一个意外实用的项目：本地脚本（不用 AI、纯本地运行），自动给「你花时间最多的那些人」发感谢信息。祝大家感恩节愉快 🦃",
+        "url": "https://x.com/nikunj/status/2126133563292803100"
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "org": "Codex & ChatGPT @OpenAI",
+        "handle": "thsottiaux",
+        "text": "Banked reset 已上线。（即昨天为 GPT-6.2 计费 bug 道歉、承诺给 Go/Plus/Pro/Business 全员一次免费用量重置的补偿，现已兑现）",
+        "url": "https://x.com/thsottiaux/status/2125853628250599730"
+      },
+      {
+        "name": "Swyx",
+        "org": "AI 产品人 · Latent Space",
+        "handle": "swyx",
+        "text": "我认为 agentic payments 是 2028 年最分裂、也最必须做对的主题之一。没有真正的中间态：要么趁早进场，要么基本可以宣布它永远不会发生。",
+        "url": "https://x.com/swyx/status/2126106139582677088"
       }
     ]
   },
@@ -89,8 +90,8 @@
     "items": []
   },
   "colophon": {
-    "source": "follow-builders feed · 21 位建造者 · 42 条 X 动态 · 1 期播客 · 0 篇博客",
-    "coverage": "覆盖 21 位建造者，42 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-26 UTC",
-    "generatedAt": "2026-11-27T02:00:00.000Z"
+    "source": "follow-builders feed · 12 位建造者 · 18 条 X 动态 · 1 期播客 · 0 篇博客",
+    "coverage": "覆盖 12 位建造者，18 条 X 动态，1 期播客，0 篇博客；数据截止 2026-11-27 06:30 UTC",
+    "generatedAt": "2026-11-28T02:00:00.000Z"
   }
 }
